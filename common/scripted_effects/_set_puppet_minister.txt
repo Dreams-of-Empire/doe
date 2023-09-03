@@ -66,7 +66,7 @@ set_puppet_minister_middle_east = {}
 #	if = {
 #		limit = { tag = [tag] }
 #		if = {
-#			limit = { has_socialist_government = yes }	# vanguardist, collectivist, libertarian_socialist ( social_democrat for some )
+#			limit = { has_socialist_government = yes }	# vanguardist, collectivist, fasci ( social_democrat for some )
 #			add_ideas = {
 #				# Insert Ministers here
 #			}

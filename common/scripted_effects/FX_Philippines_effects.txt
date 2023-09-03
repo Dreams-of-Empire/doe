@@ -329,7 +329,7 @@ PHI_start_insulindian_revolt = {
           PHI = { has_socialist_government = yes }
         }
         set_politics = {
-          ruling_party = libertarian_socialist
+          ruling_party = fasci
           elections_allowed = no
         }
       } else = {
@@ -422,7 +422,7 @@ PHI_start_korean_revolt = {
           PHI = { has_socialist_government = yes }
         }
         set_politics = {
-          ruling_party = libertarian_socialist
+          ruling_party = fasci
           elections_allowed = no
         }
       } else = {
@@ -628,7 +628,7 @@ PHI_create_albert_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = libertarian_socialist_subtype
+        ideology = fasci_subtype
         traits = { }
       }
     }
@@ -711,7 +711,7 @@ PHI_create_henry_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = libertarian_socialist_subtype
+        ideology = fasci_subtype
         traits = { }
       }
     }
@@ -794,7 +794,7 @@ PHI_create_george_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = libertarian_socialist_subtype
+        ideology = fasci_subtype
         traits = { }
       }
     }
@@ -885,12 +885,12 @@ PHI_remove_governor_general = {
   }
   PHI_Crisanto_Evangelista = {
     if = {
-      limit = { has_ideology = libertarian_socialist_subtype }
-      promote_character = { ideology = libertarian_socialist_subtype }
+      limit = { has_ideology = fasci_subtype }
+      promote_character = { ideology = fasci_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = libertarian_socialist_subtype }
+        country_leader = { ideology = fasci_subtype }
         promote_leader = yes
       }
     }

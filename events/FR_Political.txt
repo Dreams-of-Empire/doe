@@ -343,9 +343,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
-			set_country_flag = opinion_set_libertarian_socialist
+			set_country_flag = opinion_set_fasci
 		}
 		if = {
 			limit = {
@@ -423,8 +423,8 @@ country_event = {
 				has_country_flag = opinion_set_collectivist
 			}
 			AND = {
-				NOT = { has_government = libertarian_socialist }
-				has_country_flag = opinion_set_libertarian_socialist
+				NOT = { has_government = fasci }
+				has_country_flag = opinion_set_fasci
 			}
 			AND = {
 				NOT = { has_government = social_democrat }
@@ -461,7 +461,7 @@ country_event = {
 			AND = {
 				NOT = { has_country_flag = opinion_set_vanguardist }
 				NOT = { has_country_flag = opinion_set_collectivist }
-				NOT = { has_country_flag = opinion_set_libertarian_socialist }
+				NOT = { has_country_flag = opinion_set_fasci }
 				NOT = { has_country_flag = opinion_set_social_democrat }
 				NOT = { has_country_flag = opinion_set_social_liberal }
 				NOT = { has_country_flag = opinion_set_market_liberal }
@@ -481,7 +481,7 @@ country_event = {
 	immediate = {
 		clr_country_flag = opinion_set_vanguardist
 		clr_country_flag = opinion_set_collectivist
-		clr_country_flag = opinion_set_libertarian_socialist
+		clr_country_flag = opinion_set_fasci
 		clr_country_flag = opinion_set_social_democrat
 		clr_country_flag = opinion_set_social_liberal
 		clr_country_flag = opinion_set_market_liberal
@@ -654,9 +654,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
-			set_country_flag = opinion_set_libertarian_socialist
+			set_country_flag = opinion_set_fasci
 		}
 		if = {
 			limit = {

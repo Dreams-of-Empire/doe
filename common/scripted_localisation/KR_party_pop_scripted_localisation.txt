@@ -28,9 +28,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
-		localization_key = libertarian_socialist_subtype_desc
+		localization_key = fasci_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -179,12 +179,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = libertarian_socialist
-				check_variable = { political_power_ideology = token:libertarian_socialist }
+				has_government = fasci
+				check_variable = { political_power_ideology = token:fasci }
 			}
-			is_in_array = { ROOT.coalition_partners = token:libertarian_socialist }
+			is_in_array = { ROOT.coalition_partners = token:fasci }
 		}
-		localization_key = party_pop_coalition_libertarian_socialist
+		localization_key = party_pop_coalition_fasci
 	}
 	text = {
 		localization_key = empty
@@ -328,7 +328,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:libertarian_socialist }
+			check_variable = { coalition_partner_var = token:fasci }
 		}
 		localization_key = colour_red
 	}

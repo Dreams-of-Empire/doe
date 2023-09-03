@@ -75,7 +75,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Gustavo_Adolfo_Navarro_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_happy_amateur
 			}
 		}
@@ -580,7 +580,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Roberto_Jordan_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_trade_proponent
 			}
 		}
@@ -834,7 +834,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Mariano_Basptista_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_health_and_safety
 			}
 		}
@@ -1066,7 +1066,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}

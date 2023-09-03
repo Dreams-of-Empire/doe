@@ -189,7 +189,7 @@ propaganda_efforts = {
 			production_factory_max_efficiency_factor = -0.05
 			political_power_cost = 0.15
 			social_democrat_drift = -0.05
-			libertarian_socialist_drift = -0.05
+			fasci_drift = -0.05
 			collectivist_drift = -0.05
 			vanguardist_drift = -0.05
 		}
@@ -560,7 +560,7 @@ CAN_parliamentary_affairs = {
 		}
 		
 		modifier = {
-			libertarian_socialist_drift = -0.05
+			fasci_drift = -0.05
 			collectivist_drift = -0.05
 			vanguardist_drift = -0.05
 			authoritarian_democrat_drift = -0.05

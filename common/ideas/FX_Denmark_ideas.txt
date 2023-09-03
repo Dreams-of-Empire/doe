@@ -20,7 +20,7 @@ ideas = {
 				political_power_gain = -0.10
 				stability_factor = -0.05
 				drift_defence_factor = -0.10
-				libertarian_socialist_drift = 0.01
+				fasci_drift = 0.01
 			}
 			picture = can_patriation
 			removal_cost = -1

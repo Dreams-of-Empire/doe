@@ -485,7 +485,7 @@ focus_tree = {
 			NOT = {
 				OR = {
 					has_country_flag = CZE_france_abandoned_us
-					has_government = libertarian_socialist
+					has_government = fasci
 					has_government = collectivist
 					has_government = vanguardist
 				}
@@ -511,7 +511,7 @@ focus_tree = {
 			NOT = {
 				OR = {
 					has_country_flag = CZE_france_abandoned_us
-					has_government = libertarian_socialist
+					has_government = fasci
 					has_government = collectivist
 					has_government = vanguardist
 				}
@@ -536,7 +536,7 @@ focus_tree = {
 		prerequisite = { focus = CZE_diplomatic_efforts }
 		available = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 			}
@@ -559,7 +559,7 @@ focus_tree = {
 		prerequisite = { focus = CZE_ties_with_the_soviets }
 		available = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 			}
@@ -2489,7 +2489,7 @@ focus_tree = {
 		available = { always = no }
 		bypass = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 			}
@@ -2705,7 +2705,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_democratic_centralism"
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = -0.025
 			}
 			if = { 
@@ -2854,7 +2854,7 @@ focus_tree = {
 			has_war = no
 			SLO = {
 				NOT = {
-					has_government = libertarian_socialist
+					has_government = fasci
 					has_government = collectivist
 					has_government = vanguardist
 				}

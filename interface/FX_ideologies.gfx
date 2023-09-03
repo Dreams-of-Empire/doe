@@ -18,7 +18,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_socialist_feminist_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/libsoc_feminist_socialism_group.png"
+		texturefile = "gfx/interface/ideologies/subideologies/fasci_feminist_socialism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_absolute_mon_subtype"
@@ -49,8 +49,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/monsoc_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_libsoc_utopian_socialism_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/libsoc_utopian.png"
+		name = "GFX_ideology_fasci_utopian_socialism_subtype"
+		texturefile = "gfx/interface/ideologies/subideologies/fasci_utopian.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_anarcho_syndicalism_subtype"

@@ -101,7 +101,7 @@ country_event = {
 	option = {
 		name = "Not in a million years."
     add_popularity = { ideology = social_democrat popularity = 0.01 }
-    add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+    add_popularity = { ideology = fasci popularity = 0.01 }
     add_popularity = { ideology = collectivist popularity = 0.01 }
     add_political_power = -20
     hidden_effect = {
@@ -650,7 +650,7 @@ country_event = {
       add_political_power = -75
 
       add_popularity = { ideology = social_democrat popularity = 0.02 }
-      add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
+      add_popularity = { ideology = fasci popularity = 0.04 }
       add_popularity = { ideology = collectivist popularity = 0.02 }
 
       hidden_effect = {
@@ -670,7 +670,7 @@ country_event = {
       add_political_power = 50
 
       add_popularity = { ideology = social_democrat popularity = 0.02 }
-      add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
+      add_popularity = { ideology = fasci popularity = 0.04 }
       add_popularity = { ideology = collectivist popularity = 0.02 }
 
       hidden_effect = {
@@ -2112,7 +2112,7 @@ country_event = {
 	name = "These are no defenders of the 'people'!"
 	add_stability = -0.03
 	add_political_power = 25
-	add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+	add_popularity = { ideology = fasci popularity = -0.05 }
 	set_global_flag = MAN_end_of_the_association
 	}
 

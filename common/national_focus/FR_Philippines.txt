@@ -1316,7 +1316,7 @@ focus_tree = {
     completion_reward = {
       add_political_power = -50
       add_popularity = {
-        ideology = libertarian_socialist
+        ideology = fasci
         popularity = -0.1
       }
       add_popularity = {
@@ -4778,7 +4778,7 @@ focus_tree = {
         popularity = -0.2
       }
       add_popularity = {
-        ideology = libertarian_socialist
+        ideology = fasci
         popularity = -0.2
       }
     }

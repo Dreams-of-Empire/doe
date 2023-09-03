@@ -569,7 +569,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_stop_the_strikes"
 		add_manpower = -5000
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = -0.0375
 			}
 		add_popularity = {
@@ -775,7 +775,7 @@ focus_tree = {
 			popularity = -0.0375
 			}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = -0.0375
 			}
 		add_popularity = {
@@ -3019,7 +3019,7 @@ focus_tree = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 				}
@@ -3056,7 +3056,7 @@ focus_tree = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 				}
@@ -3559,7 +3559,7 @@ focus_tree = {
 						is_subject_of = ARG
 						has_war_with = ARG
 						has_government = vanguardist
-						has_government = libertarian_socialist
+						has_government = fasci
 						has_government = collectivist
 						has_government = paternal_autocrat
 						has_government = authoritarian_democrat
@@ -4095,7 +4095,7 @@ focus_tree = {
 				PRU = {
 					has_government = vanguardist
 					has_government = collectivist
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 			}
 		}
@@ -5061,7 +5061,7 @@ focus_tree = {
 			ideology = collectivist popularity = -0.025
 		}			
 		add_popularity = {
-			ideology = libertarian_socialist popularity = -0.025
+			ideology = fasci popularity = -0.025
 		}			
 		} 
 	}

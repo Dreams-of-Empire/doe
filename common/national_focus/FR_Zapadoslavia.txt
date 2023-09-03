@@ -773,7 +773,7 @@ focus_tree = {
 		popularity = 0.3
 			}
 		add_popularity = {
-		ideology = libertarian_socialist
+		ideology = fasci
 		popularity = 0.1
 		}
 		set_politics = { ruling_party = social_democrat elections_allowed = no }
@@ -860,7 +860,7 @@ focus_tree = {
 		popularity = 0.05
 		}
 		add_popularity = {
-		ideology = libertarian_socialist
+		ideology = fasci
 		popularity = 0.05
 		}
 	}
@@ -1557,12 +1557,12 @@ focus_tree = {
 		available = { 
 			OR = {
 				has_government = social_democrat 
-				has_government = libertarian_socialist 
+				has_government = fasci 
 			}
 			SOV = {
 				OR = {
 					has_government = social_democrat 
-					has_government = libertarian_socialist 
+					has_government = fasci 
 					}
 				}
 			}
@@ -1850,7 +1850,7 @@ focus = {
 			popularity = -0.1
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = -0.1
 		}
 		add_popularity = {

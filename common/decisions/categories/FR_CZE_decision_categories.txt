@@ -8,7 +8,7 @@ CZE_legacy_of_czechoslovakia = {
 		NOT = { 
 			has_government = national_populist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = vanguardist
 		}
 	}

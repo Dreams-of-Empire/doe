@@ -79,23 +79,23 @@ ideologies = {
 		#can_be_boosted = no
 	}
 
-	libertarian_socialist = {
+	fasci = {
 		types = {
-			libertarian_socialist_subtype = {}
+			fasci_subtype = {}
 			socialist_feminist_subtype = { can_be_randomly_selected = no }
-			libsoc_utopian_socialism_subtype = { can_be_randomly_selected = no }
+			fasci_utopian_socialism_subtype = { can_be_randomly_selected = no }
 			anarcho_syndicalism_subtype = { can_be_randomly_selected = no }
 			agrarian_socialism_subtype = { can_be_randomly_selected = no }
 			bukharinist_subtype = { can_be_randomly_selected = no }
 			moderate_socialist_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_1"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_2"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_3"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_4"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_5"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_6"
+			"FACTION_NAME_fasci_1"
+			"FACTION_NAME_fasci_2"
+			"FACTION_NAME_fasci_3"
+			"FACTION_NAME_fasci_4"
+			"FACTION_NAME_fasci_5"
+			"FACTION_NAME_fasci_6"
 		}
 		color = { 233 58 58 } #old one was 255 65 65
 		rules = {

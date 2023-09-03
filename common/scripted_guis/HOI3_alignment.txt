@@ -37,7 +37,7 @@ scripted_gui = {
 					}
 					add_to_temp_variable = {
 						var = communism_X
-						value = party_popularity@libertarian_socialist
+						value = party_popularity@fasci
 					}					
 					multiply_temp_variable = {
 						communism_X = -210
@@ -51,7 +51,7 @@ scripted_gui = {
 					}
 					add_to_temp_variable = {
 						var = communism_Y
-						value = party_popularity@libertarian_socialist
+						value = party_popularity@fasci
 					}
 					multiply_temp_variable = {
 						communism_Y = 112
@@ -177,7 +177,7 @@ scripted_gui = {
 						OR = {
 							has_government = vanguardist
 							has_government = collectivist
-							has_government = libertarian_socialist
+							has_government = fasci
 						}
 						all_of_scopes = {
 							array = global.majors

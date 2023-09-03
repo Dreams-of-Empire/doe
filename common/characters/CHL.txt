@@ -180,7 +180,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Oscar_Schnake_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_naive_optimist
 			}
 		}
@@ -207,7 +207,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Salvador_Allende_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_silent_workhorse
 			}
 		}
@@ -651,7 +651,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Fernando_Brown_Morales_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_general_staffer
 			}
 		}
@@ -678,7 +678,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Gabriela_Mandujano_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_great_compromiser
 			}
 		}
@@ -1083,7 +1083,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Aurelio_Celedon_Palma_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_balanced_budget_economy
 			}
 		}
@@ -1412,7 +1412,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Alberto_Cabero_Diaz_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_driven_recruiter
 			}
 		}
@@ -1439,7 +1439,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Max_Westenhofer_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_silent_lawyer
 			}
 		}
@@ -2121,7 +2121,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}

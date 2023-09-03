@@ -65,7 +65,7 @@ GEO = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_11.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"

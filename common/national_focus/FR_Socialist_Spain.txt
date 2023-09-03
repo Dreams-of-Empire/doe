@@ -567,7 +567,7 @@ focus_tree = {
 		y = 4
 		
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_country_flag = SPA_CNT_FAI_governs_flag
 		}
 		
@@ -578,7 +578,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_cnt_fai_dominates"
 			add_political_power = 25
-			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+			add_popularity = { ideology = fasci popularity = 0.03 }
 		}
 
 	}
@@ -611,7 +611,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = libertarian_socialist_subtype
+              ideology = fasci_subtype
               traits = {}
             }
           }
@@ -649,7 +649,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = libertarian_socialist_subtype
+              ideology = fasci_subtype
               traits = {}
             }
           }
@@ -678,7 +678,7 @@ focus_tree = {
 			add_political_power = -50
 			add_stability = 0.05
 			add_war_support = 0.05
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = fasci popularity = 0.05 }
 		}
 
 	}
@@ -718,7 +718,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_crush_oppressive_state_power"
-			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+			add_popularity = { ideology = fasci popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = SPA_collectivize_work_place_idea
 				add_idea = SPA_crush_oppressive_state_power_idea
@@ -742,7 +742,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_end_oppressive_churches"
-			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+			add_popularity = { ideology = fasci popularity = 0.03 }
 			add_stability = -0.03
 			add_political_power = 15
 			add_ideas = SPA_end_oppressive_churches_idea
@@ -765,7 +765,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_gender_equality"
-			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+			add_popularity = { ideology = fasci popularity = 0.03 }
 			add_stability = -0.03
 			add_political_power = 15
 			swap_ideas = {
@@ -841,7 +841,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_libertarian_communes"
-			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_stability = 0.05
 		}
 
@@ -892,7 +892,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_psoe_dominates"
 			add_political_power = 20
-			add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+			add_popularity = { ideology = fasci popularity = 0.01 }
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
 		}
 
@@ -949,7 +949,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_caballero_leads_party"
 			add_political_power = 20
-			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+			add_popularity = { ideology = fasci popularity = 0.03 }
 		}
 
 	}
@@ -973,7 +973,7 @@ focus_tree = {
 			add_political_power = -35
 			add_popularity = { ideology = vanguardist popularity = -0.04 }
 			add_popularity = { ideology = collectivist popularity = -0.04 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.04 }
+			add_popularity = { ideology = fasci popularity = -0.04 }
 		}
 
 	}
@@ -1169,7 +1169,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_control_socialist_militas"
 			add_stability = -0.01
 			add_political_power = 35
-			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+			add_popularity = { ideology = fasci popularity = 0.02 }
 			41 = {
 				add_extra_state_shared_building_slots = 1
 			}
@@ -1217,7 +1217,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_ugt_dominance"
-			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_ideas = SPA_ugt_dominance_idea
 		}
 
@@ -1243,7 +1243,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_marxist_socialism"
 			add_stability = 0.05
 			add_war_support = 0.03
-			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+			add_popularity = { ideology = fasci popularity = 0.03 }
 		}
 
 	}
@@ -1296,7 +1296,7 @@ focus_tree = {
 			add_political_power = 25
 			add_popularity = { ideology = vanguardist popularity = 0.01 }
 			add_popularity = { ideology = collectivist popularity = 0.02 }
-			add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+			add_popularity = { ideology = fasci popularity = 0.01 }
 		}
 
 	}
@@ -1351,7 +1351,7 @@ focus_tree = {
 				name = SPA_PCE_col_party 
 			}
 			set_party_name = { 
-				ideology = libertarian_socialist 
+				ideology = fasci 
 				long_name = SPA_PCE_lib_party_long 
 				name = SPA_PCE_lib_party 
 			}
@@ -1383,7 +1383,7 @@ focus_tree = {
 			add_war_support = 0.05
 			add_popularity = { ideology = vanguardist popularity = 0.02 }
 			add_popularity = { ideology = collectivist popularity = 0.02 }
-			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+			add_popularity = { ideology = fasci popularity = 0.02 }
 		}
 
 	}
@@ -1411,7 +1411,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_purge_anarchist_syndicalists"
 			add_stability = 0.03
 			add_political_power = -25
-			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+			add_popularity = { ideology = fasci popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 		}
 

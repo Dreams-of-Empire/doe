@@ -6,7 +6,7 @@ set_convoys = 50
 set_stability = 0.53
 set_war_support = 0.5
 
-add_coalition_libertarian_socialist = yes 
+add_coalition_fasci = yes 
 
 # Starting tech
 set_technology = {
@@ -88,7 +88,7 @@ set_politics = {
 set_popularities = {
     vanguardist = 1
     collectivist = 4
-    libertarian_socialist = 36
+    fasci = 36
     social_democrat = 32
     social_liberal = 11
     market_liberal = 6

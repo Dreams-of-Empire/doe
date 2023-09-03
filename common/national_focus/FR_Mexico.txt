@@ -294,7 +294,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_crackdown_on_socialist_elements"
-			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+			add_popularity = { ideology = fasci popularity = -0.05 }
 			add_popularity = { ideology = collectivist popularity = -0.05 }
 			add_popularity = { ideology = vanguardist popularity = -0.05 }
 			add_political_power = 25

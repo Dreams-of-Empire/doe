@@ -1457,7 +1457,7 @@ ITA_socialist_march = {
 						popularity = 0.02
 					}
 					add_popularity = {
-						ideology = libertarian_socialist
+						ideology = fasci
 						popularity = 0.02
 					}					
 					161 = {
@@ -1576,7 +1576,7 @@ ITA_socialist_march = {
 						popularity = 0.03
 					}
 					add_popularity = {
-						ideology = libertarian_socialist
+						ideology = fasci
 						popularity = 0.03
 					}
 
@@ -1607,7 +1607,7 @@ ITA_socialist_march = {
 						popularity = 0.02
 					}
 					add_popularity = {
-						ideology = libertarian_socialist
+						ideology = fasci
 						popularity = 0.02
 					}					
 					158 = {
@@ -1726,7 +1726,7 @@ ITA_socialist_march = {
 						popularity = 0.03
 					}
 					add_popularity = {
-						ideology = libertarian_socialist
+						ideology = fasci
 						popularity = 0.03
 					}
 
@@ -1757,7 +1757,7 @@ ITA_socialist_march = {
 						popularity = 0.02
 					}
 					add_popularity = {
-						ideology = libertarian_socialist
+						ideology = fasci
 						popularity = 0.02
 					}					
 					159 = {
@@ -1876,7 +1876,7 @@ ITA_socialist_march = {
 						popularity = 0.03
 					}
 					add_popularity = {
-						ideology = libertarian_socialist
+						ideology = fasci
 						popularity = 0.03
 					}
 
@@ -1907,7 +1907,7 @@ ITA_socialist_march = {
 						popularity = 0.02
 					}
 					add_popularity = {
-						ideology = libertarian_socialist
+						ideology = fasci
 						popularity = 0.02
 					}					
 					162 = {

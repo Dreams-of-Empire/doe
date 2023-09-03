@@ -18,7 +18,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -646,7 +646,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -664,7 +664,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Oswald_Mosley_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_meme_man
 			}
 		}
@@ -683,7 +683,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Oswald_Mosley_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}

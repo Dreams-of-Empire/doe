@@ -367,7 +367,7 @@ GER_foreign_diplomacy = {
 			DEN = {
 		    exists = yes
 		  }
-		  has_government = libertarian_socialist
+		  has_government = fasci
     }
 		complete_effect = {
       GER = {

@@ -747,7 +747,7 @@ ideas = {
 				industrial_capacity_factory = -0.10
 				vanguardist_drift = -0.01
 				collectivist_drift = -0.01
-				libertarian_socialist_drift = -0.01
+				fasci_drift = -0.01
 				social_democrat_drift = -0.01
 			}
 		}

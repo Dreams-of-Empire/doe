@@ -207,7 +207,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -225,7 +225,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Irakli_Tsereteli_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -881,7 +881,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Giorgi_Tsintsadze_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_industrialiser
 			}
 		}
@@ -908,7 +908,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Teimuraz_Chelidze_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_balanced_budget_economy
 			}
 		}
@@ -1070,7 +1070,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Vlasa_Mgeladze_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_health_and_safety
 			}
 		}

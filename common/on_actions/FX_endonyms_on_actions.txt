@@ -109,7 +109,7 @@
 # 						controls_state = 195
 # 						OR = {
 # 							has_government = collectivist
-# 							has_government = libertarian_socialist
+# 							has_government = fasci
 # 							has_government = vanguardist
 # 						}
 # 					}
@@ -138,7 +138,7 @@
 # 						NOT = {
 # 							OR = {
 # 								has_government = collectivist
-# 								has_government = libertarian_socialist
+# 								has_government = fasci
 # 								has_government = vanguardist
 # 							}
 # 						}

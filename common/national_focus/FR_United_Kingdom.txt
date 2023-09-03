@@ -919,7 +919,7 @@ focus_tree = {
     }
 		available = {
       has_capitulated = no
-      has_government = libertarian_socialist
+      has_government = fasci
     }
 		x = 2
 		y = 0
@@ -938,7 +938,7 @@ focus_tree = {
 		icon = GFX_goal_GBR_labour_party
 		available = {
       has_capitulated = no
-      has_government = libertarian_socialist
+      has_government = fasci
     }
 		prerequisite = { focus = ENG_england_lives }
 		x = 1
@@ -959,7 +959,7 @@ focus_tree = {
 		icon = GFX_focus_rom_parties_end
 		available = {
       has_capitulated = no
-      has_government = libertarian_socialist
+      has_government = fasci
     }
 		prerequisite = { focus = ENG_england_lives }
 		x = 3
@@ -980,7 +980,7 @@ focus_tree = {
 		icon = GFX_focus_generic_military_mission
 		available = {
       has_capitulated = no
-      has_government = libertarian_socialist
+      has_government = fasci
     }
 		prerequisite = { focus = ENG_overcome_lords }
 		prerequisite = { focus = ENG_subjugate_labour }
@@ -1002,7 +1002,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_2
 		available = {
       has_capitulated = no
-      has_government = libertarian_socialist
+      has_government = fasci
     }
 		prerequisite = { focus = ENG_overcome_lords }
 		prerequisite = { focus = ENG_subjugate_labour }
@@ -1024,7 +1024,7 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		available = {
       has_capitulated = no
-      has_government = libertarian_socialist
+      has_government = fasci
     }
 		prerequisite = { focus = ENG_overcome_lords }
 		prerequisite = { focus = ENG_subjugate_labour }
@@ -1046,7 +1046,7 @@ focus_tree = {
 		icon = GFX_focus_eng_the_sun_never_sets
 		available = {
       has_capitulated = no
-      has_government = libertarian_socialist
+      has_government = fasci
     }
 		prerequisite = { focus = ENG_meet_mil }
 		prerequisite = { focus = ENG_national_program }
@@ -1998,7 +1998,7 @@ focus_tree = {
         tooltip = ENG_has_mosley_politics 
         OR = {
           has_government = social_democrat
-          has_government = libertarian_socialist
+          has_government = fasci
         }
       }
     }

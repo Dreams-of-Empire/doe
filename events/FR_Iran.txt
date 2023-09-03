@@ -384,14 +384,14 @@ country_event = {
 			ruling_party = social_democrat elections_allowed = no
 		}
 		add_popularity = { ideology = collectivist popularity = 0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = social_democrat popularity = 0.03 }
 		add_popularity = { ideology = social_liberal popularity = 0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.10 }
 		set_country_flag = PER_republic_flag
 		
 		add_coalition_collectivist = yes 
-		add_coalition_libertarian_socialist = yes 
+		add_coalition_fasci = yes 
 		add_coalition_social_liberal = yes 		
 		hidden_effect = {
 			add_ideas = parliamentary_republic
@@ -1391,11 +1391,11 @@ country_event = {
 		set_politics = {
 			ruling_party = social_democrat elections_allowed = no
 		}
-		add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
+		add_popularity = { ideology = fasci popularity = 0.04 }
 		add_popularity = { ideology = social_democrat popularity = 0.06 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.25 }
 		
-		add_coalition_libertarian_socialist = yes
+		add_coalition_fasci = yes
 		add_coalition_paternal_autocrat = yes 
 		
 		hidden_effect = {
@@ -1520,12 +1520,12 @@ country_event = {
 		}
 		add_popularity = { ideology = vanguardist popularity = 0.02 }
 		add_popularity = { ideology = collectivist popularity = 0.10 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		set_country_flag = PER_REP_tudeh_flag
 		
 		remove_coalition_social_liberal = yes 
 		add_coalition_vanguardist = yes 
-		add_coalition_libertarian_socialist = yes 
+		add_coalition_fasci = yes 
 		
 		hidden_effect = {
 		}
@@ -1537,13 +1537,13 @@ country_event = {
 		set_politics = {
 			ruling_party = social_democrat elections_allowed = no
 		}
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = social_democrat popularity = 0.06 }
 		add_popularity = { ideology = social_liberal popularity = 0.02 }
 		set_country_flag = PER_REP_centrist_flag
 		
 		remove_coalition_vanguardist = yes 
-		remove_coalition_libertarian_socialist = yes 
+		remove_coalition_fasci = yes 
 		
 		hidden_effect = {
 		}

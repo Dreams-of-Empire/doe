@@ -37,19 +37,19 @@ political_actions_left = {
 			factor = 0 
 		}
 	}
-	increase_popularity_libsoc = {
+	increase_popularity_fasci = {
 		icon = generic_political_discourse
 		cost = 100
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		visible = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_libsoc"
+			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_fasci"
 			increase_ruling_party_popularity_by_5 = yes
 		}
 		ai_will_do = {
@@ -90,10 +90,10 @@ political_actions_left = {
 		days_re_enable = 730 #2 years until the decision may be taken again
 		days_remove = 30
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		visible = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		modifier = {
 			production_speed_buildings_factor = -0.05
@@ -384,7 +384,7 @@ political_actions = {
 		visible = {
 			OR = {
 				has_government = social_democrat
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 			}
@@ -1348,7 +1348,7 @@ war_measures = {
 					has_war_support > 0.79
 				}
 				AND = {
-					has_government = libertarian_socialist
+					has_government = fasci
 					has_war_support > 0.79
 				}
 				AND = {

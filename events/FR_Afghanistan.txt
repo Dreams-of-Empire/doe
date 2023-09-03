@@ -446,7 +446,7 @@ country_event = {
 	option = {
 		name = afghan.11.a
 		add_stability = -0.03
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
 		add_popularity = { ideology = vanguardist popularity = 0.01 }
 	}
@@ -696,9 +696,9 @@ country_event = {
 		add_stability = 0.20
 		add_war_support = 0.10
 		set_politics = {
-			ruling_party = libertarian_socialist elections_allowed = no
+			ruling_party = fasci elections_allowed = no
 		}
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
 		add_ideas = {
 			AFG_Khan_Abdul_Ghaffar_Khan_hog_lib
@@ -921,7 +921,7 @@ country_event = {
 		name = afghan.24.a
 		add_stability = -0.02
 		add_war_support = -0.02
-		add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+		add_popularity = { ideology = fasci popularity = -0.03 }
 		add_popularity = { ideology = social_democrat popularity = -0.03 }
 		hidden_effect = {
 			country_event = {
@@ -1158,7 +1158,7 @@ country_event = {
 	option = {
 		name = afghan.29.a
 		add_popularity = { ideology = collectivist popularity = 0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = fasci popularity = 0.03 }
 		add_popularity = { ideology = social_democrat popularity = -0.04 }
 		hidden_effect = {
 			set_country_flag = AFG_socialism_in_afghanistan_flag
@@ -1189,12 +1189,12 @@ country_event = {
 			AFG_Abdul_Majid_Zabuli_sec_sli
 		}		
 		add_popularity = { ideology = collectivist popularity = -0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+		add_popularity = { ideology = fasci popularity = -0.03 }
 		add_popularity = { ideology = social_democrat popularity = 0.04 }
 		hidden_effect = {
 			set_temp_variable = { coalition_partner_var = token:social_democrat }
 			add_to_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+			set_temp_variable = { coalition_partner_var = token:fasci }
 			add_to_coalition = yes 
 			set_country_flag = AFG_renounce_pro_soviet_politics_flag
 			add_ideas = parliamentary_republic
@@ -1264,7 +1264,7 @@ country_event = {
 		ai_chance = { base = 60 }
 		add_stability = -0.02
 		add_war_support = -0.02
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
 		hidden_effect = {
 			country_event = {
@@ -1278,7 +1278,7 @@ country_event = {
 		ai_chance = { base = 40 }
 		add_stability = 0.02
 		add_war_support = 0.02
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = social_democrat popularity = -0.02 }
 		hidden_effect = {
 			country_event = {
@@ -1353,9 +1353,9 @@ country_event = {
 		add_stability = 0.20
 		add_war_support = 0.10
 		set_politics = {
-			ruling_party = libertarian_socialist elections_allowed = no
+			ruling_party = fasci elections_allowed = no
 		}
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
 		swap_ideas = {
 			remove_idea = AFG_king_is_dead_idea
@@ -1465,7 +1465,7 @@ country_event = {
 
 	option = {
 		name = afghan.39.a
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
 		hidden_effect = {
 			set_country_flag = AFG_develop_nation_flag

@@ -43,8 +43,8 @@ ideas = {
 			}
 		}
 		
-		libertarian_socialist_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea libertarian_socialist_influence"}
+		fasci_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea fasci_influence"}
 			
 			
 			allowed = {
@@ -52,7 +52,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 
 			removal_cost = -1
@@ -60,8 +60,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				libertarian_socialist_drift = 0.1
-				libertarian_socialist_acceptance = 85
+				fasci_drift = 0.1
+				fasci_acceptance = 85
 			}
 		}
 

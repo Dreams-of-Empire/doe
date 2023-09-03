@@ -722,7 +722,7 @@ country_event = { #woo poli chain
     }
     add_popularity = {
       popularity = 0.01
-      ideology = libertarian_socialist
+      ideology = fasci
     }
     hidden_effect = { country_event = { id = cze.92 days = 21 } }
      
@@ -1343,7 +1343,7 @@ country_event = { #factionsomglol
     name = cze.130.a
     ai_chance = { factor = 99 }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = fasci
       popularity = 0.03
     }
     add_popularity = {

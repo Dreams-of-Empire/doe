@@ -3,7 +3,7 @@ vanguardist_allowed = {
 	OR = {
 		has_government = vanguardist
 		has_government = collectivist
-		has_government = libertarian_socialist
+		has_government = fasci
 	}
 }
 
@@ -11,16 +11,16 @@ collectivist_allowed = {
 	OR = {
 		has_government = vanguardist
 		has_government = collectivist
-		has_government = libertarian_socialist
+		has_government = fasci
 		has_government = social_democrat
 	}
 }
 
-libertarian_socialist_allowed = {
+fasci_allowed = {
 	OR = {
 		has_government = vanguardist
 		has_government = collectivist
-		has_government = libertarian_socialist
+		has_government = fasci
 		has_government = social_democrat
 		has_government = social_liberal
 	}
@@ -29,7 +29,7 @@ libertarian_socialist_allowed = {
 social_democrat_allowed = {
 	OR = {
 		has_government = collectivist
-		has_government = libertarian_socialist
+		has_government = fasci
 		has_government = social_democrat
 		has_government = social_liberal
 		has_government = market_liberal
@@ -40,7 +40,7 @@ social_democrat_allowed = {
 
 social_liberal_allowed = {
 	OR = {
-		has_government = libertarian_socialist
+		has_government = fasci
 		has_government = social_democrat
 		has_government = social_liberal
 		has_government = market_liberal

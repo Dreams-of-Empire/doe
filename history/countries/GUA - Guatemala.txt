@@ -36,7 +36,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = libertarian_socialist
+	ruling_party = fasci
 	last_election = "1931.2.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -45,7 +45,7 @@ set_politics = {
 set_popularities = {
   vanguardist = 22
   collectivist = 5
-  libertarian_socialist = 53
+  fasci = 53
   social_democrat = 16
   social_liberal = 3
   market_liberal = 1

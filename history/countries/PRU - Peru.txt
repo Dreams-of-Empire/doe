@@ -97,7 +97,7 @@ set_popularities = {
   national_populist = 5
   collectivist = 3
   vanguardist = 15
-  libertarian_socialist = 2
+  fasci = 2
 }
 
 if = {

@@ -102,7 +102,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Crisanto_Evangelista_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -1749,7 +1749,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Mariano_Balgos_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_prince_of_terror
 			}
 		}

@@ -19,7 +19,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_REGENCY_COUNCIL_ROMANIA_DESC
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		country_leader = {

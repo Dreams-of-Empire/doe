@@ -139,7 +139,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Antonio_Irineo_Villarreal_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_privileged_socialist
 			}
 		}
@@ -639,7 +639,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Francisco_Castillo_Najera_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_apologetic_clerk
 			}
 		}
@@ -666,7 +666,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Gilberto_Bosques_Saldivar_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_relations_expert
 			}
 		}
@@ -693,7 +693,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Gildardo_Magana_Cerda_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_foreign_sympathizer
 			}
 		}
@@ -950,7 +950,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -968,7 +968,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Antonio_Diaz_Soto_y_Gama_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_the_minister_for_everything
 			}
 		}
@@ -995,7 +995,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Adolfo_Ruiz_Cortines_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_construction_magnate
 			}
 		}
@@ -1022,7 +1022,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Magdaleno_Aguilar_Castillo_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_industrialiser
 			}
 		}
@@ -1049,7 +1049,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Serafin_M_Robles_Morales_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}
@@ -1346,7 +1346,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Rafael_Buelna_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_compassionate_gentleman
 			}
 		}
@@ -1373,7 +1373,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Rafael_Pascasio_Gamboa_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_regionalist
 			}
 		}

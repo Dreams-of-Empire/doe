@@ -208,7 +208,7 @@ country_event = { #Popular issurection
 		}
 
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = 0.4
 		}
 		add_popularity = {
@@ -221,7 +221,7 @@ country_event = { #Popular issurection
 		}
 
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = fasci
 			elections_allowed = no
 		}
 
@@ -253,7 +253,7 @@ country_event = { #Popular issurection
         character = GER_Willy_Brandt
         promote_leader = yes
         country_leader = {
-          ideology = libertarian_socialist_subtype
+          ideology = fasci_subtype
           traits = {}
         }
       }
@@ -340,10 +340,10 @@ country_event = { #Popular insurection
 	option = {
 		name = valkyrie.8.a
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = 0.1
 		}
-		set_party_name = { ideology = libertarian_socialist long_name = "Allgemeiner Deutscher Gewerkschaftsbund" name = "ADGB" }
+		set_party_name = { ideology = fasci long_name = "Allgemeiner Deutscher Gewerkschaftsbund" name = "ADGB" }
 	}
 }
 
@@ -1989,7 +1989,7 @@ country_event = { #France gets the German demand for referundum
 			}
 			modifier = {
 				factor = 0.5
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -2601,7 +2601,7 @@ country_event = { #General strike event
 		RHI = { set_cosmetic_tag = RHI_VLK }
 	
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = fasci
 			elections_allowed = no
 		}
 		
@@ -2744,7 +2744,7 @@ country_event = { #Germany funded rebels in the Rhineland
 		RHI = { set_cosmetic_tag = RHI_VLK }
 		
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = fasci
 			elections_allowed = no
 		}
 		retire_country_leader = yes
@@ -2980,7 +2980,7 @@ country_event = { #USSR gets its claims
 	tag = GER
 	
 	GER = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		
 		
@@ -4299,7 +4299,7 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -4346,7 +4346,7 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -4439,7 +4439,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -4486,7 +4486,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4

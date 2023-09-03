@@ -27,7 +27,7 @@ technology_sharing_group = { #South American Socialist Research Pact (Argie)
 			is_subject_of = ARG
 		}
 		OR = {
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = collectivist
 			has_government = vanguardist
 		}

@@ -283,7 +283,7 @@ SWE_foreign_policy = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = social_democrat
 			}
 			is_in_faction = no

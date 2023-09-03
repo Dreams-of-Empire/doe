@@ -205,7 +205,7 @@ country_event = {
 		add_political_power = 10
 		hidden_effect = {
 			add_popularity = { ideology = collectivist popularity = 0.02 }
-			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_stability = -0.05
 			167 = {
 				add_resistance = 20
@@ -233,7 +233,7 @@ country_event = {
 		add_political_power = 20
 		hidden_effect = {
 			add_popularity = { ideology = collectivist popularity = 0.04 }
-			add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
+			add_popularity = { ideology = fasci popularity = 0.04 }
 			165 = {
 				add_resistance = 20
 			}
@@ -881,7 +881,7 @@ country_event = {
 		add_stability = 0.02
 		add_political_power = -15
 		add_popularity = { ideology = collectivist popularity = -0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = social_democrat popularity = -0.02 }
 	}
 }

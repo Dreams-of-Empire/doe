@@ -622,7 +622,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_no_lefties"}
 			picture = officers_purged
 			modifier = {
-				libertarian_socialist_acceptance = -25
+				fasci_acceptance = -25
 				collectivist_acceptance = -25
 				vanguardist_acceptance = -25
 			}
@@ -1809,7 +1809,7 @@ ideas = {
 			allowed = { original_tag = GER }
             modifier = {
 				collectivist_drift = 0.01
-				libertarian_socialist_drift = 0.01
+				fasci_drift = 0.01
 				social_democrat_drift = 0.01
 				social_liberal_drift = 0.01
 				market_liberal_drift = 0.01
@@ -1823,7 +1823,7 @@ ideas = {
 			allowed = { original_tag = GER }
             modifier = {
 				collectivist_drift = 0.01
-				libertarian_socialist_drift = 0.03
+				fasci_drift = 0.03
 				social_democrat_drift = 0.02
 				social_liberal_drift = 0.01
 				market_liberal_drift = 0.01

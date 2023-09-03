@@ -72,7 +72,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -90,7 +90,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_Bayard_Rustin_eco_lso_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_imbedded_unioneer
 			}
 		}

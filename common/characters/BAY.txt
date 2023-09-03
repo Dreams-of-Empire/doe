@@ -13,7 +13,7 @@ characters = {
       ideology = collectivist_subtype
     }
     country_leader = {
-      ideology = libertarian_socialist_subtype
+      ideology = fasci_subtype
     }
   }
   BAY_Rupprecht_von_Bayern = {

@@ -10,9 +10,9 @@ CAN_vanguardist_DEF: "The Federation of Canadian Socialist States"
 CAN_collectivist: "Federation of Canadian Socialist States"
 CAN_collectivist_ADJ: "Canadian"
 CAN_collectivist_DEF: "The Federation of Canadian Socialist States"
-CAN_libertarian_socialist: "Federation of Canadian Socialist States"
-CAN_libertarian_socialist_ADJ: "Canadian"
-CAN_libertarian_socialist_DEF: "The Federation of Canadian Socialist States"
+CAN_fasci: "Federation of Canadian Socialist States"
+CAN_fasci_ADJ: "Canadian"
+CAN_fasci_DEF: "The Federation of Canadian Socialist States"
 CAN_social_democrat: "Commonwealth of Canada"
 CAN_social_democrat_ADJ: "Canadian"
 CAN_social_democrat_DEF: "The Commonwealth of Canada"
@@ -606,8 +606,8 @@ CAN_vanguardist_party: "CMP"
 CAN_vanguardist_party_long: "Canadian Maximist Party"
 CAN_collectivist_party: "CPC"
 CAN_collectivist_party_long: "Collectivist Party of Canada"
-CAN_libertarian_socialist_party: "WUL" #SPC
-CAN_libertarian_socialist_party_long: "Workers' Unity League" #Socialist Party of Canada
+CAN_fasci_party: "WUL" #SPC
+CAN_fasci_party_long: "Workers' Unity League" #Socialist Party of Canada
 CAN_social_democrat_party: "Cooperatives"
 CAN_social_democrat_party_long: "Co-operative Commonwealth Federation"
 CAN_social_liberal_party: "Progressives"

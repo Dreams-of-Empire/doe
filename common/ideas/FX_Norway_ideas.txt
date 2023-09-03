@@ -7,7 +7,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				political_power_gain = 0.05
-				libertarian_socialist_drift = 0.01
+				fasci_drift = 0.01
 			}
 		}
 		NOR_monarchist_right_idea = {
@@ -619,7 +619,7 @@ ideas = {
 				political_power_factor = 0.05
 				vanguardist_drift = -0.02
 				collectivist_drift = -0.02
-				libertarian_socialist_drift = -0.02
+				fasci_drift = -0.02
 				social_democrat_drift = -0.01
 			}
 		}
@@ -1358,7 +1358,7 @@ ideas = {
 			modifier = {
 				political_power_gain = -0.10
 				collectivist_drift = 0.01
-				libertarian_socialist_drift = 0.02
+				fasci_drift = 0.02
 				social_democrat_drift = 0.01
 			}
 		}

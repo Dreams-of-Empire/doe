@@ -32,7 +32,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -50,7 +50,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_August_Rei_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_moderate_among_radicals
 			}
 		}

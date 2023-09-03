@@ -53,7 +53,7 @@ set_politics = {
 }
 
 set_popularities = {
-	libertarian_socialist = 10
+	fasci = 10
 	social_democrat = 10
 	national_populist = 5
 	valkist = 20

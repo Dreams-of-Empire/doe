@@ -4,7 +4,7 @@
 remove_all_country_leader_roles = {
 	remove_country_leader_role_vanguardist = yes
 	remove_country_leader_role_collectivist = yes
-	remove_country_leader_role_libertarian_socialist = yes
+	remove_country_leader_role_fasci = yes
 	remove_country_leader_role_social_democrat = yes
 	remove_country_leader_role_social_liberal = yes
 	remove_country_leader_role_market_liberal = yes
@@ -61,17 +61,17 @@ remove_country_leader_role_collectivist = {
 	}
 }
 
-remove_country_leader_role_libertarian_socialist = {
+remove_country_leader_role_fasci = {
 	if = {
-		limit = { has_ideology_group = libertarian_socialist }
+		limit = { has_ideology_group = fasci }
 
 		if = {
 			limit = { has_ideology = socialist_feminist_subtype }
 			remove_country_leader_role = { ideology = socialist_feminist_subtype }
 		}
 		else_if = {
-			limit = { has_ideology = libsoc_utopian_socialism_subtype }
-			remove_country_leader_role = { ideology = libsoc_utopian_socialism_subtype }
+			limit = { has_ideology = fasci_utopian_socialism_subtype }
+			remove_country_leader_role = { ideology = fasci_utopian_socialism_subtype }
 		}
 		else_if = {
 			limit = { has_ideology = anarcho_syndicalism_subtype }
@@ -90,8 +90,8 @@ remove_country_leader_role_libertarian_socialist = {
 			remove_country_leader_role = { ideology = moderate_socialist_subtype }
 		}
 		else_if = {
-			limit = { has_ideology = libertarian_socialist_subtype }
-			remove_country_leader_role = { ideology = libertarian_socialist_subtype }
+			limit = { has_ideology = fasci_subtype }
+			remove_country_leader_role = { ideology = fasci_subtype }
 		}
 	}
 }

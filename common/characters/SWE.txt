@@ -63,7 +63,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -81,7 +81,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Nils_Flyg_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -967,7 +967,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Karl_Kilbom_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_naive_optimist
 			}
 		}
@@ -986,7 +986,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Karl_Kilbom_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_media_magnate
 			}
 		}
@@ -1013,7 +1013,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Karin_Boye_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_sincere_internationalist
 			}
 		}
@@ -1305,7 +1305,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Fredrik_Strom_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1632,7 +1632,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Osten_Unden_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}

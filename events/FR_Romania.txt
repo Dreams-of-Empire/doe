@@ -727,7 +727,7 @@ country_event = { # 1937 General Elections
 		remove_every_minister = yes
 		if = {
 			limit = { has_country_flag = ROM_leftist_coalition }
-			add_coalition_libertarian_socialist = yes 
+			add_coalition_fasci = yes 
 			add_ideas = {
 				ROM_Virgil_Madgearu_hog_sde
 				ROM_Ana_Pauker_for_col
@@ -1028,7 +1028,7 @@ country_event = { # The King's and Romania's Safety
 		}
 		remove_coalition_social_conservative = yes 
 		remove_coalition_social_liberal = yes 
-		remove_coalition_libertarian_socialist = yes 
+		remove_coalition_fasci = yes 
 		set_politics = {
 			ruling_party = paternal_autocrat
 			elections_allowed = no
@@ -1064,7 +1064,7 @@ country_event = { # The King's and Romania's Safety
 			popularity = -0.15
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = -0.15
 		}
 		add_popularity = {
@@ -1109,7 +1109,7 @@ country_event = { # Prime Minister Assassinated!
 			has_country_flag = ROM_leftist_coalition
 		}
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = fasci
 			elections_allowed = no
 		}
 		increase_ruling_party_popularity_by_25 = yes
@@ -1123,7 +1123,7 @@ country_event = { # Prime Minister Assassinated!
 		hidden_effect = {
 			set_country_flag = ROM_socialist_romania
 			clr_country_flag = ROM_democratic_romania
-			remove_coalition_libertarian_socialist = yes 
+			remove_coalition_fasci = yes 
       mark_focus_tree_layout_dirty = yes
 			country_event = { id = romania.30 days = 2 }
 		}
@@ -1308,7 +1308,7 @@ country_event = { # The Monarch
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = valkist
 			}
 		}
@@ -1374,7 +1374,7 @@ country_event = { # Coronation of Alexander I
       character = ROM_Alexandru_Cantacuzino
       promote_leader = yes
       country_leader = {
-        ideology = libertarian_socialist_subtype
+        ideology = fasci_subtype
         traits = {}
       }
     }
@@ -1703,7 +1703,7 @@ country_event = { # Civil War Over
 				country_event = { id = romania.56 days = 3 }
 			}
 			else_if = {
-				limit = { has_government = libertarian_socialist }
+				limit = { has_government = fasci }
 				country_event = { id = romania.57 days = 3 }
 			}
 			else_if = {
@@ -1925,7 +1925,7 @@ country_event = { # 1941 Elections
 			clr_country_flag = ROM_leftist_coalition
 			remove_coalition_social_conservative = yes 
 			remove_coalition_social_liberal = yes 
-			remove_coalition_libertarian_socialist = yes 
+			remove_coalition_fasci = yes 
 		}
 	}
 
@@ -2043,7 +2043,7 @@ country_event = { # 1945 Elections
 			clr_country_flag = ROM_leftist_coalition
 			remove_coalition_social_conservative = yes 
 			remove_coalition_social_liberal = yes 
-			remove_coalition_libertarian_socialist = yes 
+			remove_coalition_fasci = yes 
 		}
 	}
 
@@ -2153,7 +2153,7 @@ country_event = { # 1949 Elections
 			clr_country_flag = ROM_leftist_coalition
 			remove_coalition_social_conservative = yes 
 			remove_coalition_social_liberal = yes 
-			remove_coalition_libertarian_socialist = yes 
+			remove_coalition_fasci = yes 
 		}
 	}
 
@@ -2264,7 +2264,7 @@ country_event = { # 1953 Elections
 			clr_country_flag = ROM_leftist_coalition
 			remove_coalition_social_conservative = yes 
 			remove_coalition_social_liberal = yes 
-			remove_coalition_libertarian_socialist = yes 
+			remove_coalition_fasci = yes 
 		}
 	}
 
@@ -2375,7 +2375,7 @@ country_event = { # 1957 Elections
 			clr_country_flag = ROM_leftist_coalition
 			remove_coalition_social_conservative = yes 
 			remove_coalition_social_liberal = yes 
-			remove_coalition_libertarian_socialist = yes 
+			remove_coalition_fasci = yes 
 		}
 	}
 
@@ -2482,7 +2482,7 @@ country_event = { # King Meets with the New Governemnt
 		}
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = valkist
 			}
 		}
@@ -2528,7 +2528,7 @@ country_event = { # Codreanu Criticises the Government
 		NOT = { has_country_flag = ROM_codreanu_exiled }
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = valkist
 			}
 		}
@@ -2556,7 +2556,7 @@ country_event = { # Michael Tours Romania
 		NOT = { has_country_flag = ROM_michael_assassinated }
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = valkist
 			}
 		}
@@ -2678,7 +2678,7 @@ country_event = { # Civil War - Socialist Victory
 
 	trigger = {
 		tag = ROM
-		has_government = libertarian_socialist
+		has_government = fasci
 	}
 
 	option = { # Reeducate them!

@@ -773,7 +773,7 @@ country_event = {
 
 	add_popularity = { ideology = social_liberal popularity = 0.01 }
 	add_popularity = { ideology = social_democrat popularity = 0.04 }
-	add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
+	add_popularity = { ideology = fasci popularity = 0.04 }
 
 	name = "They can take the socialists."
 
@@ -1159,7 +1159,7 @@ country_event = {
 		name = "The SDPS have taken majority in the houses!"
     	complete_national_focus = SWI_the_seats_run_in_favor_of
 		add_popularity = { ideology = social_democrat popularity = 0.10 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+		add_popularity = { ideology = fasci popularity = 0.05 }
 
 		hidden_effect = {
 			set_politics = {
@@ -1224,7 +1224,7 @@ country_event = {
   option = {
 		name = "Damnable, and yet..."
     	complete_national_focus = SWI_SDPS_member_enters_councilship
-		add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+		add_popularity = { ideology = fasci popularity = 0.05 }
 		add_popularity = { ideology = social_democrat popularity = 0.10 }
 	}
 }
@@ -1333,7 +1333,7 @@ country_event = {
 
   option = {
 		name = "Hopefully these negotiations will bring an end to this madness."
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = fasci popularity = 0.03 }
 		add_popularity = { ideology = market_liberal popularity = 0.05 }
 		hidden_effect = {
 			SWI = { country_event = { id = swi.109 days = 3 } }

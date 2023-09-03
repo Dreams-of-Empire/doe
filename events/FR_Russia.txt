@@ -1084,7 +1084,7 @@ country_event = {
 			    popularity = -0.05
 		    }
 			add_popularity = { 
-			    ideology = libertarian_socialist 
+			    ideology = fasci 
 			    popularity = -0.05
 		    }
 			add_popularity = { 

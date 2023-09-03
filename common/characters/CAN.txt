@@ -51,7 +51,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}
@@ -324,7 +324,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Claude_Jodoin_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -351,7 +351,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Humphrey_Mitchell_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_naive_optimist
 			}
 		}
@@ -370,7 +370,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Humphrey_Mitchell_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_apologetic_clerk
 			}
 		}
@@ -903,7 +903,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Romeo_Mathieu_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_general_staffer
 			}
 		}
@@ -1254,7 +1254,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_William_Charles_Good_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}
@@ -1578,7 +1578,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Joseph_Andrew_Clarke_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_crime_fighter
 			}
 		}

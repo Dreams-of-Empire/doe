@@ -50,7 +50,7 @@ ideas = {
 			}
 			cancel = {
 				NOT = {
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 			}
 		}
@@ -58,11 +58,11 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEO_reforming_society"}
 			picture = generic_radical_socialist_revolution
 			modifier = {
-				libertarian_socialist_drift = 0.1
+				fasci_drift = 0.1
 			}
 			cancel = {
 				NOT = {
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 			}
 		}
@@ -73,11 +73,11 @@ ideas = {
 				opinion_gain_monthly_same_ideology_factor = 0.4
 				enemy_justify_war_goal_time = 0.3
 				foreign_subversive_activites = -0.25
-				libertarian_socialist_acceptance = 20
+				fasci_acceptance = 20
 			}
 			cancel = {
 				NOT = {
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 			}
 		}
@@ -233,7 +233,7 @@ ideas = {
 				}
 			}
 			modifier = {
-				libertarian_socialist_drift = -0.1
+				fasci_drift = -0.1
 				social_democrat_drift = -0.1
 			}
 		}
@@ -259,11 +259,11 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				libertarian_socialist_drift = 0.03
+				fasci_drift = 0.03
 			}
 			cancel = { 
 				NOT = {
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 			}
 		}
@@ -289,7 +289,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				libertarian_socialist_drift = 0.1
+				fasci_drift = 0.1
 				political_power_gain = 0.1
 			}
 		}
@@ -323,7 +323,7 @@ ideas = {
 				}
 			}
 			modifier = {
-				libertarian_socialist_drift = 0.1
+				fasci_drift = 0.1
 				political_power_gain = -0.1
 			}
 		}

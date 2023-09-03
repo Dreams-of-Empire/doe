@@ -57,7 +57,7 @@ set_politics = {
 
 set_popularities = {
   collectivist = 5
-  libertarian_socialist = 6
+  fasci = 6
   vanguardist = 0
   market_liberal = 11
   social_conservative = 25

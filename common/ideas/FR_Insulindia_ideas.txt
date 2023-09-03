@@ -343,7 +343,7 @@ ideas = {
 				conscription_factor = 0.05
 				vanguardist_acceptance = 15
 				collectivist_acceptance = 15
-				libertarian_socialist_acceptance = 15
+				fasci_acceptance = 15
 			}
 		}
 		

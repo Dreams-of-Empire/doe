@@ -104,8 +104,8 @@ copy_government_of_ROOT = {
 		set_politics = { ruling_party = collectivist elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = libertarian_socialist } }
-		set_politics = { ruling_party = libertarian_socialist elections_allowed = no }
+		limit = { ROOT = { has_government = fasci } }
+		set_politics = { ruling_party = fasci elections_allowed = no }
 	}
 	if = {
 		limit = { ROOT = { has_government = social_democrat } }
@@ -284,7 +284,7 @@ copy_government_idea_of_ROOT = {
 # use the first command in the scope of the about-to-be-puppeted country right before the puppet command is executed
 # and then the second, also in the scope of the puppet, right after
 get_current_government_type = {
-	clr_country_flag = was_libertarian_socialist
+	clr_country_flag = was_fasci
 	clr_country_flag = was_collectivist
 	clr_country_flag = was_vanguardist
 	clr_country_flag = was_social_democrat
@@ -296,7 +296,7 @@ get_current_government_type = {
 	clr_country_flag = was_national_populist
 	clr_country_flag = was_valkist
 
-	set_variable = { var = libsoc value = party_popularity@libertarian_socialist }
+	set_variable = { var = fasci value = party_popularity@fasci }
 	set_variable = { var = collie value = party_popularity@collectivist }
 	set_variable = { var = vang value = party_popularity@vanguardist }
 	set_variable = { var = socdem value = party_popularity@social_democrat }
@@ -309,8 +309,8 @@ get_current_government_type = {
 	set_variable = { var = valk value = party_popularity@valkist }
 
 	if = {
-		limit = { has_government = libertarian_socialist }
-		set_country_flag = was_libertarian_socialist
+		limit = { has_government = fasci }
+		set_country_flag = was_fasci
 	}
 	if = {
 		limit = { has_government = collectivist }
@@ -357,8 +357,8 @@ get_current_government_type = {
 restore_previous_government_type = {
 	hidden_effect = {
 		if = {
-			limit = { has_country_flag = was_libertarian_socialist }
-			set_politics = { ruling_party = libertarian_socialist }
+			limit = { has_country_flag = was_fasci }
+			set_politics = { ruling_party = fasci }
 		}
 		if = {
 			limit = { has_country_flag = was_collectivist }
@@ -400,8 +400,8 @@ restore_previous_government_type = {
 			limit = { has_country_flag = was_valkist }
 			set_politics = { ruling_party = valkist }
 		}
-		add_popularity = { ideology = libertarian_socialist popularity = -1.0 }
-		add_popularity = { ideology = libertarian_socialist popularity = libsoc }
+		add_popularity = { ideology = fasci popularity = -1.0 }
+		add_popularity = { ideology = fasci popularity = fasci }
 		add_popularity = { ideology = collectivist popularity = -1.0 }
 		add_popularity = { ideology = collectivist popularity = collie }
 		add_popularity = { ideology = vanguardist popularity = -1.0 }
@@ -423,7 +423,7 @@ restore_previous_government_type = {
 		add_popularity = { ideology = valkist popularity = -1.0 }
 		add_popularity = { ideology = valkist popularity = valk }
 
-		clear_variable = libsoc
+		clear_variable = fasci
 		clear_variable = collie
 		clear_variable = valk
 		clear_variable = socdem
@@ -615,7 +615,7 @@ copy_popularities_of_ROOT = {
 		set_popularities = {
 			vanguardist = ROOT.party_popularity_100@vanguardist
 			collectivist = ROOT.party_popularity_100@collectivist
-			libertarian_socialist = ROOT.party_popularity_100@libertarian_socialist
+			fasci = ROOT.party_popularity_100@fasci
 			social_democrat = ROOT.party_popularity_100@social_democrat
 			social_liberal = ROOT.party_popularity_100@social_liberal
 			market_liberal = ROOT.party_popularity_100@market_liberal

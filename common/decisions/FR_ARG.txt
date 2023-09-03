@@ -332,7 +332,7 @@ SAM_SCW_matters = {
  			has_war = no
  	 		has_equipment = { infantry_equipment > 1000 } 
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -351,7 +351,7 @@ SAM_SCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -505,7 +505,7 @@ SAM_SCW_matters = {
 				ratio > 0.2
 			}
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -524,7 +524,7 @@ SAM_SCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -699,7 +699,7 @@ SAM_SCW_matters = {
  			has_war = no
  	 		has_manpower > 4999
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -718,7 +718,7 @@ SAM_SCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -864,7 +864,7 @@ SAM_BCW_matters = {
  			has_war = no
  	 		has_equipment = { infantry_equipment > 1000 } 
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -880,7 +880,7 @@ SAM_BCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -1020,7 +1020,7 @@ SAM_BCW_matters = {
 				ratio > 0.2
 			}
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -1036,7 +1036,7 @@ SAM_BCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -1196,7 +1196,7 @@ SAM_BCW_matters = {
  			has_war = no
  	 		has_manpower > 4999
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}
@@ -1212,7 +1212,7 @@ SAM_BCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = libertarian_socialist
+ 	 			has_government = fasci
  	 			has_government = collectivist
  	 			has_government = vanguardist
  	 		}

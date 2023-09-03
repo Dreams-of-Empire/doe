@@ -31,7 +31,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}
@@ -1433,7 +1433,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Otto_Grotewohl_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -1865,7 +1865,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Heinirch_Mann_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_radical_among_moderates
 			}
 		}
@@ -2256,7 +2256,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Lujo_Brentano_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_devoted_monopoly_buster
 			}
 		}

@@ -37,7 +37,7 @@ ALG = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -159,7 +159,7 @@ EGY = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -281,7 +281,7 @@ WES = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -403,7 +403,7 @@ LBA = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -525,7 +525,7 @@ MOR = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -647,7 +647,7 @@ SUD = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -769,7 +769,7 @@ TUN = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -891,7 +891,7 @@ PHN = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1013,7 +1013,7 @@ KUR = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1135,7 +1135,7 @@ IRQ = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1257,7 +1257,7 @@ ARB = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1379,7 +1379,7 @@ YEM = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1501,7 +1501,7 @@ ARM = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1623,7 +1623,7 @@ AZR = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1745,7 +1745,7 @@ TRK = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1865,7 +1865,7 @@ ISR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_2.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
@@ -1968,7 +1968,7 @@ PER = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		fasci = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -2090,7 +2090,7 @@ PER = {
 # 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 # 			}
 # 		}
-# 		libertarian_socialist = {
+# 		fasci = {
 # 			male = {
 # 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 # 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"

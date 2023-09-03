@@ -8,13 +8,13 @@ DEN_domestic_affairs_decisions = {
 			NOT = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
-				is_in_array = { ROOT.coalition_partners = token:libertarian_socialist }
+				has_government = fasci
+				is_in_array = { ROOT.coalition_partners = token:fasci }
 			}
  		}
  		visible = {
  			NOT = {
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
  		}
 		ai_will_do = {
@@ -28,7 +28,7 @@ DEN_domestic_affairs_decisions = {
 		
 		modifier = {
 			political_power_gain = -0.10
-			libertarian_socialist_drift = -0.01
+			fasci_drift = -0.01
 		}
 		
 		complete_effect = {

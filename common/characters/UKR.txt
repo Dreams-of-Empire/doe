@@ -59,7 +59,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}
@@ -739,7 +739,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Grigori_Sokolnikov_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -766,7 +766,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Oleksandr_Shulhyn_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_biased_intellectual
 			}
 		}
@@ -793,7 +793,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Mykhailo_Boholiepov_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_imbedded_unioneer
 			}
 		}
@@ -820,7 +820,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Pavlo_Khrystiuk_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_efficient_sociopath
 			}
 		}

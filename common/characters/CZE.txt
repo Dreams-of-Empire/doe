@@ -330,7 +330,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Vilem_Brodecky_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_backroom_backstabber
 			}
 		}
@@ -649,7 +649,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Gertruda_Sekaninova_Čakrtova_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_radical_among_moderates
 			}
 		}
@@ -946,7 +946,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Frantiska_Plaminkova_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}
@@ -1238,7 +1238,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Alfred_Meissner_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_efficient_sociopath
 			}
 		}

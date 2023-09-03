@@ -232,8 +232,8 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = collectivist }
 		}
 		AND = {
-			has_government = libertarian_socialist
-			ROOT = { has_government = libertarian_socialist }
+			has_government = fasci
+			ROOT = { has_government = fasci }
 		}
 		AND = {
 			has_government = social_democrat
@@ -277,7 +277,7 @@ has_socialist_government = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 }

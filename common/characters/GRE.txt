@@ -563,7 +563,7 @@ characters = {
 	# 			ROOT = { clr_country_flag = GRE_Miltiadis_Porfyrogenis_hog_lib_hired }
 	# 		}
 	# 		traits = {
-	# 			libertarian_socialist
+	# 			fasci
 	# 			hog_ambitious_union_boss
 	# 		}
 	# 	}
@@ -816,7 +816,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}
@@ -1035,7 +1035,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Andreas_Tzimas_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_radical_among_moderates
 			}
 		}
@@ -1371,7 +1371,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Kostas_Theos_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_imbedded_unioneer
 			}
 		}
@@ -1752,7 +1752,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Vasilis_Nefeloudis_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_great_soul
 			}
 		}

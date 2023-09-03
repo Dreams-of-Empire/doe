@@ -99,7 +99,7 @@ add_ideas = {
 	UKR_underfunded_army
 }
 
-set_country_flag = coalition_libertarian_socialist
+set_country_flag = coalition_fasci
 set_country_flag = coalition_social_liberal
 
 set_politics = {	
@@ -112,7 +112,7 @@ set_politics = {
 set_popularities = {
   vanguardist = 0
   collectivist = 6
-  libertarian_socialist = 3
+  fasci = 3
   social_democrat = 20
   social_liberal = 22
   market_liberal = 11

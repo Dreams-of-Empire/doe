@@ -569,7 +569,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Sverre_Stostad_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_naive_optimist
 			}
 		}
@@ -978,7 +978,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Nordahl_Grieg_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_biased_intellectual
 			}
 		}
@@ -1005,7 +1005,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Wilhelm_Morgenstierne_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_great_compromiser
 			}
 		}
@@ -1492,7 +1492,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Adolf_Indrebo_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_planned_economy_proponent
 			}
 		}
@@ -1519,7 +1519,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Ragnar_Frisch_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_imbedded_unioneer
 			}
 		}
@@ -2032,7 +2032,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Alfred_Madsen_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_secret_police_chief
 			}
 		}
@@ -2059,7 +2059,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Jakob_Friis_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_prince_of_terror
 			}
 		}

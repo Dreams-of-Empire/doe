@@ -301,7 +301,7 @@ country_event = {
 		name = "Cracks have begun appearing in the troika."
 		add_political_power = -5
 		set_party_name = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			long_name = SOV_bukharin_opposition_long
 			name = SOV_bukharin_opposition
 			}
@@ -1303,7 +1303,7 @@ country_event = {
 			id = worldnews.135	
 		}	
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = 0.15
 		}
     add_country_leader_role = {
@@ -1315,7 +1315,7 @@ country_event = {
       }
     }
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = fasci
 			elections_allowed = no
 		}
 		remove_every_minister = yes
@@ -2219,7 +2219,7 @@ country_event = {
 	option = {
 		name = "We will show these revisionists what true socialism is"
 		custom_effect_tooltip = SOV_power_struggle_tooltip
-		set_country_flag = SOV_kirov_libsoc_fight
+		set_country_flag = SOV_kirov_fasci_fight
 		set_variable = { sov_kirov_factor = 20 }
 		set_variable = { sov_shliapnikov_factor = 10 }
 			hidden_effect = {
@@ -2249,7 +2249,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_country_flag = SOV_kirov_libsoc_fight
+		has_country_flag = SOV_kirov_fasci_fight
 	}
 
 	option = {	
@@ -2485,18 +2485,18 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = sov_focus_shliapnikov
 			set_politics = {
-				ruling_party = libertarian_socialist
+				ruling_party = fasci
 				elections_allowed = no
 			}		
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = 0.15
 			}
       add_country_leader_role = {
       character = SOV_Alexander_Shliapnikov
       promote_leader = yes
       country_leader = {
-        ideology = libertarian_socialist_subtype
+        ideology = fasci_subtype
         traits = { SOV_the_metallworker }
       }
     }
@@ -5781,7 +5781,7 @@ country_event = {
 		    date > 1937.1.1	
 		    OR = {
 		    	has_government = collectivist
-		    	has_government = libertarian_socialist
+		    	has_government = fasci
 		    }
 		}
 		mean_time_to_happen = {
@@ -5930,7 +5930,7 @@ country_event = {
 
 		trigger = {
 			tag = SOV
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		mean_time_to_happen = {
 			months = 3

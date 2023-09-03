@@ -150,7 +150,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_IBA_strike_enemy_within"
 			add_stability = 0.03
 			add_political_power = -25
-			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+			add_popularity = { ideology = fasci popularity = -0.05 }
 		}
 
 	}

@@ -101,7 +101,7 @@ country_event = {
 		add_political_power = -50
 		add_stability = -0.04
 		add_popularity = { ideology = collectivist popularity = 0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		
 	}
 	
@@ -113,7 +113,7 @@ country_event = {
 		}
 		add_political_power = -60
 		add_stability = -0.08
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = market_liberal popularity = 0.02 }
 		add_popularity = { ideology = social_liberal popularity = 0.02 }
 		
@@ -127,7 +127,7 @@ country_event = {
 		}
 		add_political_power = -60
 		add_stability = -0.08
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.01 }
@@ -156,7 +156,7 @@ country_event = {
 		add_ideas = NOR_effect_london_crash_idea
 		add_political_power = -50
 		add_stability = -0.05
-		add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
+		add_popularity = { ideology = fasci popularity = -0.01 }
 	}
 }
 
@@ -239,7 +239,7 @@ country_event = {
 		add_political_power = -40
 		add_stability = -0.04
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
+		add_popularity = { ideology = fasci popularity = -0.01 }
 	}
 }
 
@@ -284,7 +284,7 @@ country_event = {
 		ai_chance = { base = 50 }
 		add_stability = 0.01
 		add_popularity = { ideology = valkist popularity = 0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
+		add_popularity = { ideology = fasci popularity = -0.01 }
 		set_country_flag = NOR_angry_samfundsvern
 	}
 	
@@ -318,7 +318,7 @@ country_event = {
 		add_stability = -0.01
 		add_popularity = { ideology = vanguardist popularity = 0.01 }
 		add_popularity = { ideology = collectivist popularity = 0.01 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
+		add_popularity = { ideology = fasci popularity = -0.01 }
 	}
 }
 
@@ -343,7 +343,7 @@ country_event = {
 		add_stability = -0.01
 		add_popularity = { ideology = valkist popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.01 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
+		add_popularity = { ideology = fasci popularity = -0.01 }
 	}
 }
 
@@ -367,7 +367,7 @@ country_event = {
 		factor = 65
 	}
 	add_popularity = {
-		ideology = libertarian_socialist popularity = 0.05
+		ideology = fasci popularity = 0.05
 	}
 	add_popularity = {
 		ideology = collectivist popularity = 0.05
@@ -525,7 +525,7 @@ country_event = {
 			elections_allowed = no
 		}
 		add_popularity = { ideology = collectivist popularity = 0.08 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.10 }
+		add_popularity = { ideology = fasci popularity = -0.10 }
 		
 		remove_every_minister = yes
 		add_ideas = {
@@ -537,7 +537,7 @@ country_event = {
 		
 		hidden_effect = {
 			remove_coalition_collectivist = yes 
-			add_coalition_libertarian_socialist = yes 
+			add_coalition_fasci = yes 
 			country_event = { id = nor.109 days = 4 }
 		}
 	}
@@ -547,7 +547,7 @@ country_event = {
 		ai_chance = { base = 60 }
 		set_country_flag = NOR_democracy_survives_flag
 		set_country_flag = NOR_ap_victory_flag
-		add_popularity = { ideology = libertarian_socialist popularity = 0.08 }
+		add_popularity = { ideology = fasci popularity = 0.08 }
 		add_popularity = { ideology = collectivist popularity = -0.10 }
 		add_ideas = NOR_Alfred_Madsen_sec_lib
 	}
@@ -574,7 +574,7 @@ country_event = {
 		name = nor.16.a
 		add_political_power = -100
 		add_popularity = { ideology = collectivist popularity = -0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+		add_popularity = { ideology = fasci popularity = -0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 		add_popularity = { ideology = national_populist popularity = 0.03 }
 		add_popularity = { ideology = valkist popularity = 0.03 }
@@ -601,7 +601,7 @@ country_event = {
 	option = {
 		name = nor.17.a
 		add_political_power = -50
-		add_popularity = { ideology = libertarian_socialist popularity = -0.04 }
+		add_popularity = { ideology = fasci popularity = -0.04 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
 		add_popularity = { ideology = national_populist popularity = 0.02 }
 		add_popularity = { ideology = valkist popularity = 0.02 }
@@ -628,7 +628,7 @@ country_event = {
 	option = {
 		name = nor.18.a
 		add_political_power = -20
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.01 }
 		add_popularity = { ideology = valkist popularity = 0.01 }
@@ -662,9 +662,9 @@ country_event = {
 			name = NOR_not_ap_collectivist_party
 		}
 		set_party_name = {
-			ideology = libertarian_socialist
-			long_name = NOR_not_ap_libertarian_socialist_party_long
-			name = NOR_not_ap_libertarian_socialist_party
+			ideology = fasci
+			long_name = NOR_not_ap_fasci_party_long
+			name = NOR_not_ap_fasci_party
 		}
 	}
 }
@@ -689,7 +689,7 @@ country_event = {
 	option = {
 		name = nor.20.a
 		add_political_power = -50
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+		add_popularity = { ideology = fasci popularity = -0.02 }
 	}
 }
 
@@ -893,7 +893,7 @@ country_event = {
 	option = {
 		name = nor.23.a
 		add_political_power = 50
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = fasci popularity = 0.03 }
 	}
 }
 
@@ -921,7 +921,7 @@ country_event = {
 	option = {
 		name = nor.24.a
 		add_political_power = 50
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 	}
 }
 
@@ -949,7 +949,7 @@ country_event = {
 	option = {
 		name = nor.25.a
 		add_political_power = 50
-		add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+		add_popularity = { ideology = fasci popularity = 0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
 		add_popularity = { ideology = national_populist popularity = -0.04 }
 		add_popularity = { ideology = valkist popularity = -0.04 }
@@ -2444,7 +2444,7 @@ country_event = {
 		add_political_power = 10
 		set_country_flag = NOR_conferrence_begins_flag
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.04
+			ideology = fasci popularity = 0.04
 		}
 		add_ideas = NOR_labour_conferrence_2_idea
 	}
@@ -2538,7 +2538,7 @@ country_event = {
 		add_political_power = 10
 		set_country_flag = NOR_conferrence_continues_flag
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.04
+			ideology = fasci popularity = 0.04
 		}
 		if = {
 			limit = {
@@ -2773,7 +2773,7 @@ country_event = {
 		add_political_power = 10
 		set_country_flag = NOR_conferrence_finished_flag
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.04
+			ideology = fasci popularity = 0.04
 		}
 		
 		## 1 ##
@@ -3030,13 +3030,13 @@ country_event = {
 		factor = 50
 	}
 	set_politics = {
-		ruling_party = libertarian_socialist elections_allowed = no
+		ruling_party = fasci elections_allowed = no
 	}
 	add_popularity = {
 		ideology = collectivist popularity = 0.01
 	}
 	add_popularity = {
-		ideology = libertarian_socialist popularity = 0.02
+		ideology = fasci popularity = 0.02
 	}
 	add_popularity = {
 		ideology = social_liberal popularity = 0.01
@@ -3061,7 +3061,7 @@ country_event = {
 				character = NOR_Martin_Tranmæl
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -3076,7 +3076,7 @@ country_event = {
 				character = NOR_Ingolf_Elster_Christensen
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -3091,7 +3091,7 @@ country_event = {
 				character = NOR_Johan_Ludwig_Mowinckel
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -3105,7 +3105,7 @@ country_event = {
 				character = NOR_HM_King_Haakon_VII
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -3289,10 +3289,10 @@ ai_chance = {
 	factor = 40
 }
 set_politics = {
-	ruling_party = libertarian_socialist elections_allowed = no
+	ruling_party = fasci elections_allowed = no
 }
 add_popularity = {
-	ideology = libertarian_socialist popularity = 0.05
+	ideology = fasci popularity = 0.05
 }
 add_political_power = 10
 remove_every_minister = yes
@@ -3312,7 +3312,7 @@ hidden_effect = {
 			character = NOR_Martin_Tranmæl
 			promote_leader = yes
 			country_leader = {
-				ideology = libertarian_socialist_subtype
+				ideology = fasci_subtype
 				traits = {}
 			}
 		}
@@ -3325,7 +3325,7 @@ hidden_effect = {
 			character = NOR_Ingolf_Elster_Christensen
 			promote_leader = yes
 			country_leader = {
-				ideology = libertarian_socialist_subtype
+				ideology = fasci_subtype
 				traits = {}
 			}
 		}
@@ -3338,7 +3338,7 @@ hidden_effect = {
 			character = NOR_Johan_Ludwig_Mowinckel
 			promote_leader = yes
 			country_leader = {
-				ideology = libertarian_socialist_subtype
+				ideology = fasci_subtype
 				traits = {}
 			}
 		}
@@ -3439,10 +3439,10 @@ country_event = {
 		factor = 30
 	}
 	set_politics = {
-		ruling_party = libertarian_socialist elections_allowed = no
+		ruling_party = fasci elections_allowed = no
 	}
 	add_popularity = {
-		ideology = libertarian_socialist popularity = 0.08
+		ideology = fasci popularity = 0.08
 	}
 	add_popularity = {
 		ideology = collectivist popularity = 0.04
@@ -3468,7 +3468,7 @@ country_event = {
 				character = NOR_Martin_Tranmæl
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -3483,7 +3483,7 @@ country_event = {
 				character = NOR_Ingolf_Elster_Christensen
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -3498,7 +3498,7 @@ country_event = {
 				character = NOR_Johan_Ludwig_Mowinckel
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -3512,7 +3512,7 @@ country_event = {
 				character = NOR_HM_King_Haakon_VII
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -3588,7 +3588,7 @@ hidden_effect = {
 			character = NOR_HM_King_Haakon_VII
 			promote_leader = yes
 			country_leader = {
-				ideology = libertarian_socialist_subtype
+				ideology = fasci_subtype
 				traits = {}
 			}
 		}
@@ -3906,13 +3906,13 @@ country_event = {
 		factor = 50
 	}
 	set_politics = {
-		ruling_party = libertarian_socialist elections_allowed = no
+		ruling_party = fasci elections_allowed = no
 	}
 	add_popularity = {
 		ideology = collectivist popularity = 0.01
 	}
 	add_popularity = {
-		ideology = libertarian_socialist popularity = 0.02
+		ideology = fasci popularity = 0.02
 	}
 	add_popularity = {
 		ideology = social_liberal popularity = 0.01
@@ -3938,7 +3938,7 @@ country_event = {
 			character = NOR_HM_King_Haakon_VII
 			promote_leader = yes
 			country_leader = {
-				ideology = libertarian_socialist_subtype
+				ideology = fasci_subtype
 				traits = {}
 			}
 		}
@@ -4015,13 +4015,13 @@ country_event = {
 		factor = 50
 	}
 	set_politics = {
-		ruling_party = libertarian_socialist elections_allowed = no
+		ruling_party = fasci elections_allowed = no
 	}
 	add_popularity = {
 		ideology = collectivist popularity = 0.01
 	}
 	add_popularity = {
-		ideology = libertarian_socialist popularity = 0.02
+		ideology = fasci popularity = 0.02
 	}
 	add_popularity = {
 		ideology = social_liberal popularity = 0.01
@@ -4047,7 +4047,7 @@ country_event = {
 			character = NOR_HM_King_Haakon_VII
 			promote_leader = yes
 			country_leader = {
-				ideology = libertarian_socialist_subtype
+				ideology = fasci_subtype
 				traits = {}
 			}
 		}
@@ -4168,7 +4168,7 @@ country_event = {
 				character = NOR_Ingolf_Elster_Christensen
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -4209,7 +4209,7 @@ country_event = {
 				character = NOR_Johan_Ludwig_Mowinckel
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -4292,7 +4292,7 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		remove_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.03
+			ideology = fasci popularity = 0.03
 		}
 		hidden_effect = {
 			if = {
@@ -4310,13 +4310,13 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 				add_country_leader_role = {
 					character = NOR_Einar_Gerhardsen
 					promote_leader = yes
 					country_leader = {
-						ideology = libertarian_socialist_subtype
+						ideology = fasci_subtype
 						traits = {}
 					}
 				}
@@ -4367,13 +4367,13 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 				add_country_leader_role = {
 					character = NOR_Haavard_Langseth
 					promote_leader = yes
 					country_leader = {
-						ideology = libertarian_socialist_subtype
+						ideology = fasci_subtype
 						traits = {}
 					}
 				}
@@ -4421,13 +4421,13 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 				add_country_leader_role = {
 					character = NOR_Johan_Nygaardsvold
 					promote_leader = yes
 					country_leader = {
-						ideology = libertarian_socialist_subtype
+						ideology = fasci_subtype
 						traits = {}
 					}
 				}
@@ -4470,7 +4470,7 @@ country_event = {
 			factor = 60
 		}
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.02
+			ideology = fasci popularity = 0.02
 		}
 		add_popularity = {
 			ideology = collectivist popularity = -0.02
@@ -4492,7 +4492,7 @@ country_event = {
 			ideology = collectivist popularity = 0.02
 		}
 		add_popularity = {
-			ideology = libertarian_socialist popularity = -0.02
+			ideology = fasci popularity = -0.02
 		}
 		set_country_flag = NOR_candidate_langseth_1940
 		hidden_effect = {
@@ -4511,7 +4511,7 @@ country_event = {
 			ideology = social_democrat popularity = 0.02
 		}
 		add_popularity = {
-			ideology = libertarian_socialist popularity = -0.01
+			ideology = fasci popularity = -0.01
 		}
 		add_popularity = {
 			ideology = collectivist popularity = -0.01
@@ -4544,14 +4544,14 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		remove_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.01
+			ideology = fasci popularity = 0.01
 		}
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_Einar_Gerhardsen
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -4574,7 +4574,7 @@ country_event = {
 				character = NOR_Arthur_Nordlie
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -4610,7 +4610,7 @@ country_event = {
 				character = NOR_Haavard_Langseth
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -4633,7 +4633,7 @@ country_event = {
 				character = NOR_Arthur_Nordlie
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -4669,7 +4669,7 @@ country_event = {
 				character = NOR_Johan_Nygaardsvold
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -4692,7 +4692,7 @@ country_event = {
 				character = NOR_Arthur_Nordlie
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -4794,7 +4794,7 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		add_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.01
+			ideology = fasci popularity = 0.01
 		}
 		hidden_effect = {
 			add_country_leader_role = {
@@ -4853,7 +4853,7 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		add_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.01
+			ideology = fasci popularity = 0.01
 		}
 		hidden_effect = {
 			add_country_leader_role = {
@@ -4930,7 +4930,7 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		add_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.01
+			ideology = fasci popularity = 0.01
 		}
 		hidden_effect = {
 			if = {
@@ -5057,14 +5057,14 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		add_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.01
+			ideology = fasci popularity = 0.01
 		}
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_Einar_Gerhardsen
 				promote_leader = yes
 				country_leader = {
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -5116,7 +5116,7 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		add_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.01
+			ideology = fasci popularity = 0.01
 		}
 		hidden_effect = {
 			add_country_leader_role = {

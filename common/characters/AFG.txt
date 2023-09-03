@@ -31,7 +31,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
     advisor = {
@@ -159,7 +159,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Khan_Abdul_Ghaffar_Khan_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -413,7 +413,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Mir_Gul_Khan_Nasir_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_ideological_crusader
 			}
 		}

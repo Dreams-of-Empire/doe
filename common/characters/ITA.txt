@@ -85,7 +85,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Pietro_Nenni_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_political_protege
 			}
 		}
@@ -99,7 +99,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -117,7 +117,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giacomo_Matteotti_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_silent_workhorse
 			}
 		}
@@ -563,7 +563,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Altiero_Spinelli_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_apologetic_clerk
 			}
 		}
@@ -747,7 +747,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -933,7 +933,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Achille_Grandi_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}
@@ -1263,7 +1263,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Francesco_De_Martino_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_silent_lawyer
 			}
 		}
@@ -1666,7 +1666,7 @@ characters = {
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {

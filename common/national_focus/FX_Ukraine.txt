@@ -1989,7 +1989,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_social_democratic_party }
 		relative_position_id = UKR_social_democratic_party
@@ -2011,7 +2011,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_social_democratic_party }
 		relative_position_id = UKR_social_democratic_party
@@ -2065,7 +2065,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_nationalise_foreign_assets }
 		relative_position_id = UKR_nationalise_foreign_assets
@@ -2083,7 +2083,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_coalition_with_the_cpu }
 		relative_position_id = UKR_coalition_with_the_cpu
@@ -2091,7 +2091,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_political_power = 50
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = 0.05
 			}
 		}
@@ -2106,7 +2106,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_benefits_for_the_unemployed }
 		prerequisite = { focus = UKR_encourage_unionization }
@@ -2126,7 +2126,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_socialist_economy }
 		relative_position_id = UKR_socialist_economy
@@ -2149,7 +2149,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_breadbasket_of_europe }
 		relative_position_id = UKR_breadbasket_of_europe
@@ -2167,7 +2167,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_breadbasket_of_europe }
 		relative_position_id = UKR_breadbasket_of_europe
@@ -2220,7 +2220,7 @@ focus_tree = {
 		y = 2
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_breadbasket_of_europe }
 		relative_position_id = UKR_breadbasket_of_europe
@@ -2245,7 +2245,7 @@ focus_tree = {
 		y = 2
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_radical_land_reform }
 		relative_position_id = UKR_radical_land_reform
@@ -2263,7 +2263,7 @@ focus_tree = {
 		y = 2
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_free_higher_education }
 		relative_position_id = UKR_free_higher_education
@@ -2281,7 +2281,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_breadbasket_of_europe }
 		relative_position_id = UKR_breadbasket_of_europe
@@ -2299,7 +2299,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_review_the_military_budget }
 		relative_position_id = UKR_review_the_military_budget
@@ -2337,7 +2337,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_review_the_military_budget }
 		relative_position_id = UKR_review_the_military_budget
@@ -2358,7 +2358,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_increase_social_spending }
 		relative_position_id = UKR_increase_social_spending
@@ -2376,7 +2376,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		prerequisite = { focus = UKR_ministry_of_culture_and_arts }
 		prerequisite = { focus = UKR_status_of_the_bund }
@@ -2401,7 +2401,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = social_liberal
 			}
 		}
@@ -2427,7 +2427,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = social_liberal
 			}
 			OR = {
@@ -2985,7 +2985,7 @@ focus_tree = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = -0.1
 			}
 		}
@@ -3690,7 +3690,7 @@ focus_tree = {
 			add_stability = 0.15
 			add_political_power = -50
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = -0.15
 			}
 			add_popularity = {
@@ -3908,7 +3908,7 @@ focus_tree = {
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = -0.05
 			}
 			add_popularity = {

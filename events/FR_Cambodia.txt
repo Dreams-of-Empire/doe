@@ -22,7 +22,7 @@ country_event = {
 		CAM = {
 			exists = yes
 			has_war_with = FIC
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 

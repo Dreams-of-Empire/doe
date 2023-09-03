@@ -10,7 +10,7 @@ ENG_DD_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -74,7 +74,7 @@ ENG_DE_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -118,7 +118,7 @@ ENG_CL_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -155,7 +155,7 @@ ENG_CLAA_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -188,7 +188,7 @@ ENG_CA_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -221,7 +221,7 @@ ENG_MINELAYERS_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -251,7 +251,7 @@ ENG_BB_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -281,7 +281,7 @@ ENG_BC_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -309,7 +309,7 @@ ENG_CV_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -339,7 +339,7 @@ ENG_CVL_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -370,7 +370,7 @@ ENG_SS_HISTORICAL = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -420,7 +420,7 @@ ENG_COUNTIES = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -444,7 +444,7 @@ ENG_CITIES = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -468,7 +468,7 @@ ENG_COLONIES = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -495,7 +495,7 @@ ENG_DD_COMMUNIST = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -557,7 +557,7 @@ ENG_DE_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -599,7 +599,7 @@ ENG_CL_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -634,7 +634,7 @@ ENG_CLAA_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -665,7 +665,7 @@ ENG_CA_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -696,7 +696,7 @@ ENG_MINELAYERS_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -724,7 +724,7 @@ ENG_BB_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -752,7 +752,7 @@ ENG_BC_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -778,7 +778,7 @@ ENG_CV_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -806,7 +806,7 @@ ENG_CVL_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -835,7 +835,7 @@ ENG_SS_COMMUNISM= {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -883,7 +883,7 @@ ENG_COUNTIES_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 
@@ -905,7 +905,7 @@ ENG_CITIES_COMMUNISM = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 

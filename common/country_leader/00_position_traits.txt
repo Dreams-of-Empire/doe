@@ -34,7 +34,7 @@ leader_traits = {
 #####################
 
 	vanguardist = {}
-	libertarian_socialist = {}
+	fasci = {}
 	collectivist = {}
 	social_democrat = {}
 	social_liberal = {}

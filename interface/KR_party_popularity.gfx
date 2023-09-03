@@ -8,8 +8,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/collectivist_small.png"
 	}
 	spriteType = {
-		name = "GFX_libertarian_socialist_small"
-		texturefile = "gfx/interface/ideologies/libertarian_socialist_small.png"
+		name = "GFX_fasci_small"
+		texturefile = "gfx/interface/ideologies/fasci_small.png"
 	}
 	spriteType = {
 		name = "GFX_social_democrat_small"

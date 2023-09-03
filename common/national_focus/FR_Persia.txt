@@ -1859,7 +1859,7 @@ focus_tree = {
 				limit = {
 					OR = {
 						has_government = collectivist
-						has_government = libertarian_socialist
+						has_government = fasci
 					}
 				}
 				add_equipment_to_stockpile = {
@@ -2701,7 +2701,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_purge_socialist_elements"
 			add_stability = 0.02
 			add_popularity = { ideology = collectivist popularity = -0.02 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+			add_popularity = { ideology = fasci popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = PER_underground_revolutionaries_idea
 				add_idea = PER_MIL_purge_socialist_elements_idea
@@ -3255,7 +3255,7 @@ focus_tree = {
 			add_political_power = -10
 			add_ideas = PER_MIL_ban_women_rights_movements_idea
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
+			add_popularity = { ideology = fasci popularity = -0.01 }
 		}
 
 	}
@@ -3559,7 +3559,7 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.02
 			add_popularity = { ideology = collectivist popularity = 0.02 }
-			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = social_liberal popularity = 0.01 }
 		}
@@ -3967,7 +3967,7 @@ focus_tree = {
 			add_research_slot = 1
 			add_popularity = { ideology = collectivist popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
-			add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+			add_popularity = { ideology = fasci popularity = 0.01 }
 			add_popularity = { ideology = social_liberal popularity = 0.01 }
 			add_popularity = { ideology = market_liberal popularity = 0.01 }
 		}
@@ -4319,7 +4319,7 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.02
 			add_popularity = { ideology = collectivist popularity = -0.03 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+			add_popularity = { ideology = fasci popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 		}
 
@@ -4368,7 +4368,7 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.02
 			add_popularity = { ideology = collectivist popularity = -0.03 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+			add_popularity = { ideology = fasci popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 		}
 
@@ -4399,7 +4399,7 @@ focus_tree = {
 			add_stability = 0.04
 			remove_ideas = PER_civil_war_situation_idea
 			add_popularity = { ideology = collectivist popularity = -0.02 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+			add_popularity = { ideology = fasci popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
 			add_popularity = { ideology = market_liberal popularity = -0.01 }
 			country_event = {

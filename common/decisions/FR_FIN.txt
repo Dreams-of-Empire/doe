@@ -23,7 +23,7 @@ FIN_foreign_policy = {
 				has_country_flag = FIN_reapproach_soviet_union_flag
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = social_democrat
 			}
 		}
@@ -87,7 +87,7 @@ FIN_foreign_policy = {
 				has_country_flag = FIN_reapproach_soviet_union_flag
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = social_democrat
 				has_government = social_liberal
 			}
@@ -264,7 +264,7 @@ FIN_foreign_policy = {
 				has_country_flag = FIN_reapproach_soviet_union_flag
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = social_democrat
 			}
 		}
@@ -321,7 +321,7 @@ FIN_foreign_policy = {
 				has_country_flag = FIN_reapproach_soviet_union_flag
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = social_democrat
 				has_government = social_liberal
 				has_government = market_liberal

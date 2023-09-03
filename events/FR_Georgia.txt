@@ -523,7 +523,7 @@ option = {
 	add_popularity = { ideology = social_democrat popularity = 0.1 }
 	add_popularity = { ideology = social_liberal popularity = 0.05 }
 	add_popularity = { ideology = social_conservative popularity = 0.05 }
-	add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+	add_popularity = { ideology = fasci popularity = -0.05 }
 	complete_national_focus = GEO_1936_elections
 	add_ideas = {
 		GEO_Akaki_Chkhenkeli_hog_sde
@@ -540,8 +540,8 @@ option = {
 	set_country_flag = GEO_radical_won
 	set_country_flag = elections
 	add_ideas = parliamentary_republic
-	set_politics = { ruling_party = libertarian_socialist elections_allowed = no }
-	add_popularity = { ideology = libertarian_socialist popularity = 0.1 }
+	set_politics = { ruling_party = fasci elections_allowed = no }
+	add_popularity = { ideology = fasci popularity = 0.1 }
 	add_popularity = { ideology = collectivist popularity = 0.05 }
 	add_popularity = { ideology = vanguardist popularity = 0.05 }
 	add_popularity = { ideology = social_democrat popularity = -0.05 }
@@ -750,7 +750,7 @@ option = {
 		factor = 40
 		modifier = {
 			factor = 0.25
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 	GEO = { 
@@ -904,7 +904,7 @@ option = {
 		factor = 40
 		modifier = {
 			factor = 2
-			GEO = { has_government = libertarian_socialist }
+			GEO = { has_government = fasci }
 		}
 	}
 	GEO = { country_event = { id = ge.131 } }
@@ -1580,10 +1580,10 @@ country_event = {
 			limit = {
 				has_country_flag = GEO_united_menshevik_party
 			}
-			set_party_name = { ideology = libertarian_socialist long_name = GEO_CAU_menshevik_party_long name = GEO_CAU_menshevik_party}
+			set_party_name = { ideology = fasci long_name = GEO_CAU_menshevik_party_long name = GEO_CAU_menshevik_party}
 			set_party_name = { ideology = social_democrat long_name = GEO_CAU_menshevik_party_long name = GEO_CAU_menshevik_party}
 			else = {
-				set_party_name = { ideology = libertarian_socialist long_name = GEO_CAU_libertarian_socialist_party_long name = GEO_CAU_libertarian_socialist_party}
+				set_party_name = { ideology = fasci long_name = GEO_CAU_fasci_party_long name = GEO_CAU_fasci_party}
 				set_party_name = { ideology = social_democrat long_name = GEO_CAU_social_democrat_party_long name = GEO_CAU_social_democrat_party}
 			}
 		}
@@ -2142,7 +2142,7 @@ country_event = {
 					NOT = { 
 						has_government = vanguardist
 						has_government = collectivist 
-						has_government = libertarian_socialist 
+						has_government = fasci 
 						has_government = social_democrat 
 						has_government = social_liberal 
 						has_government = market_liberal 

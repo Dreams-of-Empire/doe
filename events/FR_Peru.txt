@@ -234,7 +234,7 @@ country_event = { #suspending democracy
 			popularity = 0.05
 		}
 		add_popularity ={
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = 0.05
 		}
 		add_political_power = -40
@@ -918,7 +918,7 @@ country_event = { #dissident centralization
 		name = pru.60.a
 		ai_chance = { factor = 50 }
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = -0.025
 		}
 		add_manpower = -1000

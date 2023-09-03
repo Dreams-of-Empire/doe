@@ -492,7 +492,7 @@ country_event = { #socialists caused the bombing
 			popularity = -0.01
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = -0.01
 		}
 	}

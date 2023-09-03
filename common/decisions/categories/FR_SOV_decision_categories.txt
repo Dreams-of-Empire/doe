@@ -34,14 +34,14 @@ SOV_power_struggle = {
 	}
 }
 
-SOV_kirov_vs_libsoc = {
+SOV_kirov_vs_fasci = {
 	icon = GFX_decision_category_generic_collectivism
 	picture = GFX_decision_cat_picture_chi_political_support
 	allowed = {
 		original_tag = SOV
 	}
 	visible = {
-		has_country_flag = SOV_kirov_libsoc_fight
+		has_country_flag = SOV_kirov_fasci_fight
 	}
 	priority = {
 		factor = 10

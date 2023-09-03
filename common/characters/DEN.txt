@@ -72,7 +72,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -929,7 +929,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Albert_Olsen_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1272,7 +1272,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Alfred_Jensen_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -1299,7 +1299,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Niels_Bohr_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_mixed_economy
 			}
 		}

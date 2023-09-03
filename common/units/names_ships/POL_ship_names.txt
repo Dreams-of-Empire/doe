@@ -114,7 +114,7 @@ POL_THEME_KINGS = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -152,7 +152,7 @@ POL_THEME_HISTORICAL_FIGURES = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}

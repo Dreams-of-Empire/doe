@@ -914,7 +914,7 @@ SOV_policy = {
 		}
 		visible = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_country_flag = SOV_construction_aborted
 			}
 		}
@@ -974,7 +974,7 @@ SOV_policy = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SOV_building_appartments"
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = 0.03
 			}
 			add_stability = 0.03
@@ -1022,7 +1022,7 @@ SOV_policy = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SOV_enforcing_party_discipline"
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = -0.05
 			}
 			add_popularity = {
@@ -1252,7 +1252,7 @@ SOV_policy = {
 			log = "[GetDateText]: [Root.GetName]: Decision SOV_strengthen_local_party_iniative"
 			add_stability = 0.05
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = 0.03
 			}
 		}
@@ -1277,7 +1277,7 @@ SOV_policy = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SOV_promote_socialism"
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = 0.05
 			}
 		}
@@ -1302,7 +1302,7 @@ SOV_policy = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SOV_support_AUW"
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = 0.03
 			}
 		}
@@ -1432,7 +1432,7 @@ SOV_great_patriotic_war_decision = {
 			custom_effect_tooltip = SOV_uniting_the_left
 			if = {
 				limit = {
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 				set_temp_variable = { coalition_partner_var = token:vanguardist }
 				add_to_coalition = yes 
@@ -1445,14 +1445,14 @@ SOV_great_patriotic_war_decision = {
 				}
 				set_temp_variable = { coalition_partner_var = token:vanguardist }
 				add_to_coalition = yes 
-				set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+				set_temp_variable = { coalition_partner_var = token:fasci }
 				add_to_coalition = yes 
 			}
 			if = {
 				limit = {
 					has_government = vanguardist
 				}
-				set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+				set_temp_variable = { coalition_partner_var = token:fasci }
 				add_to_coalition = yes 
 				set_temp_variable = { coalition_partner_var = token:collectivist }
 				add_to_coalition = yes 
@@ -4286,7 +4286,7 @@ SOV_military_coup_decisions = {
 	}
 }
 
-SOV_kirov_vs_libsoc = {
+SOV_kirov_vs_fasci = {
 
 	SOV_press_campaign = {
 		icon = GFX_decision_ger_mefo_bills
@@ -4427,7 +4427,7 @@ SOV_kirov_vs_libsoc = {
 		}
 
 		activation = {
-			has_country_flag = SOV_kirov_libsoc_fight
+			has_country_flag = SOV_kirov_fasci_fight
 		}
 
 		icon = generic_political_discourse
@@ -4446,7 +4446,7 @@ SOV_kirov_vs_libsoc = {
 		timeout_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision timeout SOV_26_congress_mission"
 			country_event = sovietpol.1050
-			clr_country_flag = SOV_kirov_libsoc_fight
+			clr_country_flag = SOV_kirov_fasci_fight
 		}
 	}
 
@@ -4755,7 +4755,7 @@ SOV_kirov_vs_libsoc = {
 		icon = ger_mefo_bills
 
 		available = {
-			has_country_flag = SOV_kirov_libsoc_fight
+			has_country_flag = SOV_kirov_fasci_fight
 		}
 
 		selectable_mission = yes
@@ -4789,7 +4789,7 @@ SOV_kirov_vs_libsoc = {
 
 		cancel_trigger = {
 			NOT = {
-				has_country_flag = SOV_kirov_libsoc_fight
+				has_country_flag = SOV_kirov_fasci_fight
 			}
 		}
 
@@ -4827,7 +4827,7 @@ SOV_kirov_vs_libsoc = {
 		icon = generic_political_discourse
 
 		available = {
-			has_country_flag = SOV_kirov_libsoc_fight
+			has_country_flag = SOV_kirov_fasci_fight
 		}
 
 		selectable_mission = yes
@@ -4861,7 +4861,7 @@ SOV_kirov_vs_libsoc = {
 
 		cancel_trigger = {
 			NOT = {
-				has_country_flag = SOV_kirov_libsoc_fight
+				has_country_flag = SOV_kirov_fasci_fight
 			}
 		}
 
@@ -4888,7 +4888,7 @@ SOV_kirov_vs_libsoc = {
 		icon = generic_political_discourse
 
 		available = {
-			has_country_flag = SOV_kirov_libsoc_fight
+			has_country_flag = SOV_kirov_fasci_fight
 		}
 
 		selectable_mission = yes
@@ -4922,7 +4922,7 @@ SOV_kirov_vs_libsoc = {
 
 		cancel_trigger = {
 			NOT = {
-				has_country_flag = SOV_kirov_libsoc_fight
+				has_country_flag = SOV_kirov_fasci_fight
 			}
 		}
 
@@ -4948,7 +4948,7 @@ SOV_kirov_vs_libsoc = {
 		icon = generic_political_discourse
 
 		available = {
-			has_country_flag = SOV_kirov_libsoc_fight
+			has_country_flag = SOV_kirov_fasci_fight
 		}
 
 		selectable_mission = yes
@@ -4982,7 +4982,7 @@ SOV_kirov_vs_libsoc = {
 
 		cancel_trigger = {
 			NOT = {
-				has_country_flag = SOV_kirov_libsoc_fight
+				has_country_flag = SOV_kirov_fasci_fight
 			}
 		}
 

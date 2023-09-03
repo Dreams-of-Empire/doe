@@ -525,7 +525,7 @@ ideas = {
 			modifier = {
 				vanguardist_acceptance = -50
 				collectivist_acceptance = -50
-				libertarian_socialist_acceptance = -50
+				fasci_acceptance = -50
 				send_volunteer_size = 2
 				army_org_factor = 0.1
 			}
@@ -541,7 +541,7 @@ ideas = {
 			modifier = {
 				vanguardist_acceptance = 50
 				collectivist_acceptance = 50
-				libertarian_socialist_acceptance = 50
+				fasci_acceptance = 50
 				send_volunteer_size = 2
 				army_org_factor = 0.1
 			}
@@ -1663,7 +1663,7 @@ ideas = {
 			modifier = {
 				vanguardist_acceptance = -50
 				collectivist_acceptance = -50
-				libertarian_socialist_acceptance = -50
+				fasci_acceptance = -50
 			}
 		}
 		jap_rus_cooprosperity = {

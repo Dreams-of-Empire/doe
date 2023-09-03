@@ -426,7 +426,7 @@ country_event = {
 		name = insulindia.11.a
 		add_political_power = -20
 		add_stability = -0.05
-		add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+		add_popularity = { ideology = fasci popularity = 0.01 }
 		add_popularity = { ideology = collectivist popularity = 0.02 }
 		hidden_effect = {
 			set_country_flag = INS_appeacement_aftermath

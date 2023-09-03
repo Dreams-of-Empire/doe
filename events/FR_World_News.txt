@@ -153,7 +153,7 @@ news_event = {
 			NOT = { tag = FRA }
 			OR = {
 				tag = SOV
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 			}
@@ -639,7 +639,7 @@ news_event = {
 		}
 		BOL= {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 				}
@@ -667,7 +667,7 @@ news_event = {
 	option = {
 		trigger = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 			}
@@ -678,7 +678,7 @@ news_event = {
 	option = {
 		trigger = {
 			AND = {
-				NOT = { has_government = libertarian_socialist }
+				NOT = { has_government = fasci }
 				NOT = { has_government = collectivist }
 				NOT = { has_government = vanguardist }
 			}

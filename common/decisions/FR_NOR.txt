@@ -9,7 +9,7 @@ NOR_economical_decision_group = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			has_completed_focus = NOR_economical_projects
  		}
@@ -18,7 +18,7 @@ NOR_economical_decision_group = {
  			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			has_completed_focus = NOR_economical_projects
  		}

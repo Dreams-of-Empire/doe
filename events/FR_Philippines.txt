@@ -449,7 +449,7 @@ country_event = { # Farmers Demands Government Help
       popularity = 0.15
     }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = fasci
       popularity = 0.1
     }
     add_popularity = {
@@ -527,7 +527,7 @@ country_event = { # Scouts Expel Protesters in Mendiola
     name = philippines.24.a
     add_manpower = -50
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = fasci
       popularity = 0.1
     }
     add_popularity = {
@@ -852,7 +852,7 @@ country_event = { # Elections of 1937
       has_country_flag = PHI_farmers_expelled
     }
     set_politics = {
-      ruling_party = libertarian_socialist
+      ruling_party = fasci
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_20 = yes
@@ -2561,7 +2561,7 @@ country_event = { # Socialist Symphaties in the Unions
   option = { # They are mere minority
     name = philippines.91.a
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = fasci
       popularity = 0.05
     }
     add_popularity = {

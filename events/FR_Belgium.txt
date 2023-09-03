@@ -417,7 +417,7 @@ country_event = { #Communist uprising
 				popularity = 0.4
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = 0.1
 			}
 			activate_advisor = BEL_Julien_Lahaut_hog_col

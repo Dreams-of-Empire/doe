@@ -308,7 +308,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Aliaksandr_Charviakou_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_privileged_socialist
 			}
 		}
@@ -327,7 +327,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Aliaksandr_Charviakou_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_general_staffer
 			}
 		}
@@ -354,7 +354,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Symon_Rak_Michajlouksi_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_red_chairmen
 			}
 		}
@@ -373,7 +373,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Symon_Rak_Michajlouksi_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_biased_intellectual
 			}
 		}
@@ -400,7 +400,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Dmitry_Pryshchepau_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_administrative_genius
 			}
 		}
@@ -427,7 +427,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Pavel_Valoshin_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_back_stabber
 			}
 		}
@@ -440,7 +440,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = {}
 		}
 	}

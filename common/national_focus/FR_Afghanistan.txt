@@ -2157,7 +2157,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_sons_vengeance"
-			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+			add_popularity = { ideology = fasci popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
 			add_popularity = { ideology = national_populist popularity = -0.03 }
 			if = {
@@ -2388,7 +2388,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_need_for_modernization"
 			add_stability = 0.05
-			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+			add_popularity = { ideology = fasci popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
@@ -2515,7 +2515,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_reimplement_amanullahs_reforms"
 			add_stability = 0.05
-			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+			add_popularity = { ideology = fasci popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
@@ -2790,7 +2790,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_socialist_propaganda"
 			add_political_power = -30
-			add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
+			add_popularity = { ideology = fasci popularity = 0.04 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
 		}
 
@@ -2845,7 +2845,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_strengthen_general_secretary"
 			add_political_power = -30
-			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+			add_popularity = { ideology = fasci popularity = 0.03 }
 			add_popularity = { ideology = vanguardist popularity = 0.03 }
 			swap_ideas = {
 				remove_idea = AFG_tarakis_land_reform_idea
@@ -3003,7 +3003,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_socialist_modernization"
 			add_stability = 0.05
 			add_war_support = 0.03
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = fasci popularity = 0.05 }
 			if = {
 				limit = {
 					has_idea = AFG_opposition_revolution_idea
@@ -3066,7 +3066,7 @@ focus_tree = {
 				long_name = AFG_soccon_party_long
 				name = AFG_soccon_party
 			}
-			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+			add_popularity = { ideology = fasci popularity = -0.03 }
 			add_popularity = { ideology = vanguardist popularity = -0.01 }
 			if = {
 				limit = {
@@ -3187,7 +3187,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_encourage_progressive_voices"
 			add_popularity = { ideology = social_democrat popularity = 0.05 }
 			add_popularity = { ideology = social_liberal popularity = 0.03 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+			add_popularity = { ideology = fasci popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
 			add_stability = 0.03
@@ -3403,7 +3403,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_remove_barakzai_kings"
-			add_popularity = { ideology = libertarian_socialist popularity = -0.04 }
+			add_popularity = { ideology = fasci popularity = -0.04 }
 			add_popularity = { ideology = social_democrat popularity = -0.04 }
 			if = {
 				limit = {

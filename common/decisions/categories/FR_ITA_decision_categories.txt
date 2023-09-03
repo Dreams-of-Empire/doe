@@ -26,7 +26,7 @@ ITA_socialist_march = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 }
@@ -114,7 +114,7 @@ ITA_socialist_march_rome = {
 		OR = {
 			has_government = vanguardist
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		NOT = {
 			has_completed_focus = ITA_oust_nobility

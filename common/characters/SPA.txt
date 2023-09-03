@@ -91,7 +91,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
     advisor = {
@@ -109,7 +109,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Francisco_Largo_Caballero_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_backroom_backstabber
 			}
 		}
@@ -513,7 +513,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Joaquin_Maurin_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_charismatic_charmer
 			}
 		}
@@ -540,7 +540,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Juan_Garcia_Oliver_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_political_protege
 			}
 		}
@@ -559,7 +559,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Juan_Garcia_Oliver_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_health_and_safety
 			}
 		}
@@ -586,7 +586,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Angel_Pestana_Nunez_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -709,7 +709,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Jordi_Arquer_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_apologetic_clerk
 			}
 		}
@@ -763,7 +763,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Julian_Besteiro_Fernandez_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_iron_fisted_brute
 			}
 		}
@@ -790,7 +790,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Julio_Alvarez_del_Vayo_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_relations_expert
 			}
 		}
@@ -817,7 +817,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Fernando_de_los_Rios_Urruti_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_relations_expert
 			}
 		}
@@ -836,7 +836,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Fernando_de_los_Rios_Urruti_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_tank_proponent
 			}
 		}
@@ -1096,7 +1096,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Belamino_Tomas_Alvarez_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_industrial_chemist
 			}
 		}
@@ -1123,7 +1123,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Felix_Gordon_Ordas_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}
@@ -1231,7 +1231,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Angel_Galarza_y_Gago_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_media_magnate
 			}
 		}
@@ -1258,7 +1258,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Antonio_Ortega_Gutierrez_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_compassionate_gentleman
 			}
 		}

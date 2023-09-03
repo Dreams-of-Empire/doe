@@ -1687,7 +1687,7 @@ focus_tree = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = social_democrat
 				has_government = social_conservative
 				has_government = authoritarian_democrat
@@ -2321,7 +2321,7 @@ focus_tree = {
 			add_political_power = 15
 			add_popularity = { ideology = vanguardist popularity = 0.02 }
 			add_popularity = { ideology = collectivist popularity = 0.05 }
-			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
 		}

@@ -64,7 +64,7 @@ if = {
 add_coalition_collectivist = yes 
 
 set_politics = {	
-	ruling_party = libertarian_socialist
+	ruling_party = fasci
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -84,7 +84,7 @@ add_ideas = {
 set_popularities = {
   vanguardist = 2
   collectivist = 8
-  libertarian_socialist = 35
+  fasci = 35
   social_democrat = 7
   social_liberal = 13
   market_liberal = 19

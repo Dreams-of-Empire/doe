@@ -107,7 +107,7 @@ country_event = { #anarchists support collies
 			ideology = collectivist popularity = 0.025
 			}
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.025
+			ideology = fasci popularity = 0.025
 			}
 		hidden_effect = {
 			country_event = { days = 28 id = bra.6}

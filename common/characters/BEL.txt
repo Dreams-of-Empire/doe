@@ -172,7 +172,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Joseph_Jacquemotte_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_red_chairmen
 			}
 		}
@@ -194,7 +194,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -438,7 +438,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Lucie_Dejardin_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_naive_optimist
 			}
 		}
@@ -702,7 +702,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Louis_Paul_Boon_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_foreign_sympathizer
 			}
 		}
@@ -999,7 +999,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Adhemar_Henneaut_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}
@@ -1377,7 +1377,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Felix_Van_den_Bergh_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_silent_lawyer
 			}
 		}

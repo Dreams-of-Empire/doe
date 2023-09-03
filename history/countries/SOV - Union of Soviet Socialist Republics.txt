@@ -105,7 +105,7 @@ country_event = { id = sovietpol.1303 days = 12 }
 country_event = {  id = sovietpol.1336 days = 300 random = 2400 }
 set_country_flag = SOV_lacking_industrialization_flag
 # DIPLOMACY
-add_coalition_libertarian_socialist = yes 
+add_coalition_fasci = yes 
 add_coalition_vanguardist = yes 
 set_politics = {	
 	ruling_party = collectivist
@@ -117,7 +117,7 @@ set_politics = {
 set_popularities = {
   vanguardist = 15
   collectivist = 50
-  libertarian_socialist = 26
+  fasci = 26
   social_democrat = 8
   social_liberal = 1
   market_liberal = 0

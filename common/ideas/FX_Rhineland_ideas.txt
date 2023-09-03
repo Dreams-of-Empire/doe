@@ -36,7 +36,7 @@ ideas = {
 				stability_factor = -0.1
 				collectivist_drift = -0.03
 				vanguardist_drift = -0.03
-				libertarian_socialist_drift = -0.01
+				fasci_drift = -0.01
 			}
 		}
 		RHI_S_melting_pot ={
@@ -53,7 +53,7 @@ ideas = {
 				stability_factor = -0.05
 				collectivist_drift = 0.03
 				vanguardist_drift = 0.03
-				libertarian_socialist_drift = 0.01
+				fasci_drift = 0.01
 			}	
 		}
 		RHI_S_einstein = {

@@ -10423,7 +10423,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_freedom_of_press"
             add_stability = -0.05
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = fasci popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = social_liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 } 
@@ -10442,7 +10442,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_freedom_of_speech"
 			add_stability = -0.05
-            add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+            add_popularity = { ideology = fasci popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = social_liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 } 
@@ -10461,7 +10461,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_freedom_of_religion"
 		    add_stability = -0.05
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = fasci popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = social_liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 } 

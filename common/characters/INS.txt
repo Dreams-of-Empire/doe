@@ -116,7 +116,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -134,7 +134,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Amir_Sjarifuddin_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_local_tyrant
 			}
 		}
@@ -504,7 +504,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Adam_Malik_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_radical_among_moderates
 			}
 		}
@@ -531,7 +531,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Sukarni_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_iron_fisted_brute
 			}
 		}
@@ -909,7 +909,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Chairul_Saleh_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}
@@ -936,7 +936,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Utomo_Ramelan_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -1260,7 +1260,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Albert_M_Sipahoetar_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_back_stabber
 			}
 		}

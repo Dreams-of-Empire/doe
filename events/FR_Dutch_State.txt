@@ -1284,7 +1284,7 @@ country_event = { # Death of Louis de Visser in Prison
       popularity = 0.05
     }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = fasci
       popularity = 0.05
     }
     hidden_effect = {
@@ -2017,7 +2017,7 @@ country_event = { # Targeting Socialists
       popularity = -0.15
     }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = fasci
       popularity = -0.15
     }
     add_manpower = -1500
@@ -2149,7 +2149,7 @@ country_event = { # Fall of the Nationalist Government
       popularity = 0.4
     }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = fasci
       popularity = 0.15
     }
     add_popularity = {
@@ -2322,11 +2322,11 @@ country_event = { # Socialist Elections
   option = { # AP
     name = dutchstate.120.c
     set_politics = {
-      ruling_party = libertarian_socialist
+      ruling_party = fasci
       elections_allowed = no
     }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = fasci
       popularity = 0.15
     }
     remove_every_minister = yes

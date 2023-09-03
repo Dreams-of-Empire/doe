@@ -79,7 +79,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}
@@ -854,7 +854,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Angus_McLagan_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_silent_workhorse
 			}
 		}
@@ -1365,7 +1365,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Xavier_Herbert_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_ideological_crusader
 			}
 		}
@@ -1716,7 +1716,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Tom_Barker_hog_lso_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_oil_baron
 			}
 		}
@@ -1959,7 +1959,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Donald_J_Cameron_sec_lso_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_media_magnate
 			}
 		}

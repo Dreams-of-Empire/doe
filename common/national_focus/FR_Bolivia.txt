@@ -322,7 +322,7 @@ focus_tree = {
 						has_war_with = BOL
 						has_government = collectivist
 						has_government = vanguardist
-						has_government = libertarian_socialist
+						has_government = fasci
 					}
 					OR = {
 						any_neighbor_country = { tag = BOL }
@@ -391,7 +391,7 @@ focus_tree = {
 					CHL = {
 						has_government = vanguardist
 						has_government = collectivist
-						has_government = libertarian_socialist
+						has_government = fasci
 					}
 				}				
 			}
@@ -433,7 +433,7 @@ focus_tree = {
 				PRU = {
 					has_government = vanguardist
 					has_government = collectivist
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 			}
 		}
@@ -459,7 +459,7 @@ focus_tree = {
 					PRU = {
 						has_government = vanguardist
 						has_government = collectivist
-						has_government = libertarian_socialist
+						has_government = fasci
 					}
 				}				
 			}
@@ -492,7 +492,7 @@ focus_tree = {
 					PAR = {
 						has_government = vanguardist
 						has_government = collectivist
-						has_government = libertarian_socialist
+						has_government = fasci
 					}
 				}				
 			}
@@ -2585,7 +2585,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_proletariat_democracy"
 			add_popularity = { 
-				ideology = libertarian_socialist popularity = 0.075
+				ideology = fasci popularity = 0.075
 			}
 			add_popularity = { 
 				ideology = collectivist popularity = 0.075

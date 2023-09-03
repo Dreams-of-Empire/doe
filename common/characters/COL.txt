@@ -102,7 +102,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Leon_de_Greiff_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_silent_workhorse
 			}
 		}
@@ -502,7 +502,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Laureano_Garcia_Ortiz_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_relations_expert
 			}
 		}
@@ -848,7 +848,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Clemente_Escalona_Labarces_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_mixed_economy
 			}
 		}
@@ -1268,7 +1268,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Eduardo_Zalamea_Borda_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_man_of_the_people
 			}
 		}

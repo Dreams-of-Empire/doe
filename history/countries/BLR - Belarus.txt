@@ -80,7 +80,7 @@ country_event = { id = belarus.1 days = 14 }
 set_popularities = {
   vanguardist = 0
   collectivist = 2
-  libertarian_socialist = 10
+  fasci = 10
   social_democrat = 30
   social_liberal = 7
   market_liberal = 5

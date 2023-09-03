@@ -864,7 +864,7 @@ ideas = {
 			
 			modifier = {
 				collectivist_drift = 0.05
-				libertarian_socialist_drift = 0.03
+				fasci_drift = 0.03
 				production_speed_buildings_factor = -0.20
 				industrial_capacity_factory = -0.15
 				industrial_capacity_dockyard = -0.15
@@ -966,7 +966,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.05
-				libertarian_socialist_drift = 0.02
+				fasci_drift = 0.02
 				social_democrat_drift = 0.02
 				social_liberal_drift = 0.02
 				market_liberal_drift = 0.02

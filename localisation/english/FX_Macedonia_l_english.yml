@@ -24,9 +24,9 @@ l_english:
   MAC_collectivist_ADJ: "Macedonian"
   MAC_collectivist_democrat_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
-  MAC_libertarian_socialist: "Vasíleio Tis Makedonías"
-  MAC_libertarian_socialist_ADJ: "Macedonian"
-  MAC_libertarian_socialist_DEF: "To Vasíleio tou Alexándrou tou Méga"
+  MAC_fasci: "Vasíleio Tis Makedonías"
+  MAC_fasci_ADJ: "Macedonian"
+  MAC_fasci_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
   MAC_social_democrat: "Vasíleio Tis Makedonías"
   MAC_social_democrat_ADJ: "Macedonian"

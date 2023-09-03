@@ -68,9 +68,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libsoc_utopian_socialism_subtype
+			has_country_leader_ideology = fasci_utopian_socialism_subtype
 		}
-		localization_key = libsoc_utopian_socialism_subtype
+		localization_key = fasci_utopian_socialism_subtype
 	}
 	text = {
 		trigger = {
@@ -439,9 +439,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libertarian_socialist_subtype
+			has_country_leader_ideology = fasci_subtype
 		}
-		localization_key = libertarian_socialist
+		localization_key = fasci
 	}
 	text = {
 		trigger = {
@@ -548,9 +548,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libsoc_utopian_socialism_subtype
+			has_country_leader_ideology = fasci_utopian_socialism_subtype
 		}
-		localization_key = libsoc_utopian_socialism_subtype
+		localization_key = fasci_utopian_socialism_subtype
 	}
 	text = {
 		trigger = {
@@ -961,9 +961,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libsoc_utopian_socialism_subtype
+			has_country_leader_ideology = fasci_utopian_socialism_subtype
 		}
-		localization_key = libsoc_utopian_socialism_subtype_desc
+		localization_key = fasci_utopian_socialism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1339,9 +1339,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libertarian_socialist_subtype
+			has_country_leader_ideology = fasci_subtype
 		}
-		localization_key = libertarian_socialist_subtype_desc
+		localization_key = fasci_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1447,9 +1447,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libsoc_utopian_socialism_subtype
+			has_country_leader_ideology = fasci_utopian_socialism_subtype
 		}
-		localization_key = libsoc_utopian_socialism_subtype_desc
+		localization_key = fasci_utopian_socialism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1842,16 +1842,16 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = libertarian_socialist_subtype
+				has_country_leader_ideology = fasci_subtype
 				has_country_leader_ideology = socialist_feminist_subtype
-				has_country_leader_ideology = libsoc_utopian_socialism_subtype
+				has_country_leader_ideology = fasci_utopian_socialism_subtype
 				has_country_leader_ideology = anarcho_syndicalism_subtype
 				has_country_leader_ideology = agrarian_socialism_subtype
 				has_country_leader_ideology = bukharinist_subtype
 				has_country_leader_ideology = moderate_socialist_subtype
 			}
 		}
-		localization_key = libertarian_socialist_color
+		localization_key = fasci_color
 	}
 	text = {
 		trigger = {
@@ -1988,9 +1988,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libertarian_socialist_subtype
+			has_country_leader_ideology = fasci_subtype
 		}
-		localization_key = libertarian_socialist_subtype_desc
+		localization_key = fasci_subtype_desc
 	}
 	text = {
 		trigger = {

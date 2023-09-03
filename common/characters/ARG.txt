@@ -239,7 +239,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Domingo_Mercante_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_happy_amateur
 			}
 		}
@@ -660,7 +660,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Gregorio_Bermann_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_great_compromiser
 			}
 		}
@@ -687,7 +687,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_John_William_Cooke_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_great_compromiser
 			}
 		}
@@ -1014,7 +1014,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Antonio_de_Tomaso_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_industrialiser
 			}
 		}
@@ -1041,7 +1041,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Juana_Rouco_Buella_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}
@@ -1068,7 +1068,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Sebastian_Marotta_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_balanced_budget_economy
 			}
 		}
@@ -1095,7 +1095,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Oscar_Alende_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_construction_magnate
 			}
 		}
@@ -1511,7 +1511,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Roberto_Noble_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_preserver_of_culture
 			}
 		}
@@ -2131,7 +2131,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}

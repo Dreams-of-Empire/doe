@@ -1223,7 +1223,7 @@ focus_tree = {
         popularity = -0.15
       }
       add_popularity = {
-        ideology = libertarian_socialist
+        ideology = fasci
         popularity = -0.15
       }
       hidden_effect = {
@@ -1479,7 +1479,7 @@ focus_tree = {
         popularity = 0.1
       }
       add_popularity = {
-        ideology = libertarian_socialist
+        ideology = fasci
         popularity = 0.1
       }
       add_popularity = {

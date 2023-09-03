@@ -671,7 +671,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Benoit_Broutchoux_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_happy_amateur
 			}
 		}
@@ -698,7 +698,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Daniel_Guerin_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_sincere_internationalist
 			}
 		}
@@ -1088,7 +1088,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Nestor_Makhno_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_ideological_crusader
 			}
 		}
@@ -1358,7 +1358,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Henri_Tanguy_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -1687,7 +1687,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_May_Picqueray_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_crime_fighter
 			}
 		}

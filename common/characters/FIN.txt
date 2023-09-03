@@ -31,7 +31,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}
@@ -790,7 +790,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Jaakko_Kivi_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -1152,7 +1152,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Hannes_Pulkkinen_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_moderate_among_radicals
 			}
 		}
@@ -1449,7 +1449,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Elin_Airamo_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -1476,7 +1476,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Frans_Hiilos_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_imbedded_unioneer
 			}
 		}

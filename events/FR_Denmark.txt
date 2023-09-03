@@ -95,7 +95,7 @@ country_event = {
 	option = {
 		name = denmark.4.a
 		add_political_power = -10
-		add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+		add_popularity = { ideology = fasci popularity = 0.01 }
 		hidden_effect = {
 		}
 	}
@@ -171,7 +171,7 @@ country_event = {
 		add_stability = -0.05
 		add_political_power = -25
 		add_popularity = { ideology = collectivist popularity = 0.01 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = market_liberal popularity = 0.01 }
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.01 }
@@ -190,7 +190,7 @@ country_event = {
 	
 	trigger = {
 		tag = DEN
-		libertarian_socialist > 0.10
+		fasci > 0.10
 		has_idea = DEN_danish_republicanism_idea
 	}
 	
@@ -207,7 +207,7 @@ country_event = {
 			add_idea = DEN_danish_republicanism1_idea
 		}
 		hidden_effect = {
-			add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+			add_popularity = { ideology = fasci popularity = 0.01 }
 		}
     }
 }
@@ -221,7 +221,7 @@ country_event = {
 	
 	trigger = {
 		tag = DEN
-		libertarian_socialist < 0.10
+		fasci < 0.10
 		has_idea = DEN_danish_republicanism1_idea
 	}
 	
@@ -238,7 +238,7 @@ country_event = {
 			add_idea = DEN_danish_republicanism_idea
 		}
 		hidden_effect = {
-			add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
+			add_popularity = { ideology = fasci popularity = -0.01 }
 		}
     }
 }
@@ -328,7 +328,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -341,7 +341,7 @@ country_event = {
 			factor = 80
 		}
 		add_stability = 0.02
-		add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+		add_popularity = { ideology = fasci popularity = 0.01 }
 		add_popularity = { ideology = social_democrat popularity = -0.01 }
 		hidden_effect = {
 			country_event = { id = denmark.13 days = 10 }
@@ -373,7 +373,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -416,7 +416,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -471,7 +471,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -503,7 +503,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -533,7 +533,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -545,7 +545,7 @@ country_event = {
 		ai_chance = {
 			factor = 70
 		}
-		add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+		add_popularity = { ideology = fasci popularity = 0.01 }
 		add_popularity = { ideology = social_democrat popularity = 0.03 }
 		add_popularity = { ideology = social_liberal popularity = 0.01 }
 		hidden_effect = {
@@ -562,7 +562,7 @@ country_event = {
 		add_popularity = { ideology = market_liberal popularity = 0.04 }
 		add_popularity = { ideology = social_conservative popularity = 0.04 }
 		hidden_effect = {
-			add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
+			add_popularity = { ideology = fasci popularity = -0.01 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			country_event = { id = denmark.25 days = 4 }
 			country_event = { id = denmark.44 days = 1103 }
@@ -583,7 +583,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -607,7 +607,7 @@ country_event = {
 		}
 		add_stability = -0.04
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+		add_popularity = { ideology = fasci popularity = -0.02 }
 		set_temp_variable = { coalition_partner_var = token:social_liberal }
 		remove_from_coalition = yes 
 		hidden_effect = {
@@ -629,7 +629,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -642,7 +642,7 @@ country_event = {
 			factor = 70
 		}
 		add_stability = 0.02
-		add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+		add_popularity = { ideology = fasci popularity = 0.01 }
 		add_popularity = { ideology = social_democrat popularity = -0.01 }
 		hidden_effect = {
 			country_event = { id = denmark.20 days = 10 }
@@ -674,7 +674,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -717,7 +717,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -739,7 +739,7 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					is_in_array = { ROOT.coalition_partners = token:libertarian_socialist }
+					is_in_array = { ROOT.coalition_partners = token:fasci }
 				}
 				country_event = { id = denmark.24 days = 177 }
 			}
@@ -772,7 +772,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -782,9 +782,9 @@ country_event = {
 	option = {
 		name = denmark.22.a
 		add_stability = -0.02
-		add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+		add_popularity = { ideology = fasci popularity = 0.01 }
 		add_popularity = { ideology = social_democrat popularity = 0.01 }
-		set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+		set_temp_variable = { coalition_partner_var = token:fasci }
 		add_to_coalition = yes 
 		hidden_effect = {
 			country_event = { id = denmark.23 days = 10 }
@@ -806,7 +806,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -849,7 +849,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -860,7 +860,7 @@ country_event = {
 		name = denmark.24.a
 		add_stability = 0.03
 		add_popularity = { ideology = social_democrat popularity = 0.03 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = social_liberal popularity = 0.02 }
 		set_country_flag = DEN_snap_elections_flag
 		add_political_power = -25
@@ -904,7 +904,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -971,7 +971,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -1012,7 +1012,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -1056,7 +1056,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -1110,7 +1110,7 @@ country_event = {
 		has_stability < 0.1
 		OR = {
 			has_country_flag = DEN_political_deadlock_flag
-			is_in_array = { ROOT.coalition_partner = token:libertarian_socialist }
+			is_in_array = { ROOT.coalition_partner = token:fasci }
 		}
 	}
 	
@@ -1126,7 +1126,7 @@ country_event = {
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.30 }
 		add_popularity = { ideology = collectivist popularity = -0.01 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.04 }
+		add_popularity = { ideology = fasci popularity = -0.04 }
 		add_popularity = { ideology = social_democrat popularity = -0.12 }
 		add_popularity = { ideology = social_liberal popularity = -0.03 }
 		add_popularity = { ideology = market_liberal popularity = -0.05 }
@@ -1159,7 +1159,7 @@ country_event = {
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:social_conservative }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+			set_temp_variable = { coalition_partner_var = token:fasci }
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:market_liberal }
 			remove_from_coalition = yes 
@@ -1224,7 +1224,7 @@ country_event = {
 		name = denmark.32.a
 		add_stability = -0.02
 		add_popularity = { ideology = collectivist popularity = 0.03 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = fasci popularity = 0.03 }
 		custom_effect_tooltip = DEN_revolution_warning_tooltip
 		hidden_effect = {
 			country_event = { id = denmark.33 days = 226 }
@@ -1256,10 +1256,10 @@ country_event = {
         name = denmark.33.a
 		add_stability = 0.10
 		set_politics = {
-			ruling_party = libertarian_socialist elections_allowed = no
+			ruling_party = fasci elections_allowed = no
 		}
 		add_popularity = { ideology = collectivist popularity = 0.10 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.10 }
+		add_popularity = { ideology = fasci popularity = 0.10 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.15 }
 		set_country_flag = DEN_danish_revolution_flag
@@ -1316,7 +1316,7 @@ country_event = {
 		tag = DEN
 		OR = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 	
@@ -1383,7 +1383,7 @@ country_event = {
 		tag = DEN
 		OR = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		OR = {
 			has_country_flag = DEN_german_support_natpop
@@ -1402,7 +1402,7 @@ country_event = {
 		add_stability = -0.10
 		add_popularity = { ideology = national_populist popularity = 0.05 }
 		add_popularity = { ideology = collectivist popularity = -0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		hidden_effect = {
 			country_event = { id = denmark.37 days = 3 }
@@ -1423,7 +1423,7 @@ country_event = {
 		tag = DEN
 		OR = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 		OR = {
 			has_country_flag = DEN_german_support_natpop
@@ -1445,7 +1445,7 @@ country_event = {
 		}
 		add_popularity = { ideology = national_populist popularity = 0.10 }
 		add_popularity = { ideology = collectivist popularity = -0.05 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+		add_popularity = { ideology = fasci popularity = -0.05 }
 		set_country_flag = DEN_march_on_kobenhavn_flag
 		custom_effect_tooltip = DEN_march_on_kobenhavn_tooltip
 		hidden_effect = {
@@ -1616,7 +1616,7 @@ country_event = {
 			clr_country_flag = DEN_republican_communist_decision_flag
 			clear_variable = DEN_republican_var
 			clear_variable = DEN_communist_var
-			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+			add_popularity = { ideology = fasci popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			set_country_flag = DEN_communist_dominance_flag
 			add_ideas = workers_republic
@@ -1643,7 +1643,7 @@ country_event = {
 		name = denmark.42.a
 		add_stability = -0.05
 		add_popularity = { ideology = collectivist popularity = -0.03 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+		add_popularity = { ideology = fasci popularity = -0.03 }
 		hidden_effect = {
 			clr_country_flag = DEN_republican_communist_decision_flag
 			clear_variable = DEN_republican_var
@@ -1667,7 +1667,7 @@ country_event = {
 	option = {
 		name = denmark.43.a
 		add_stability = -0.02
-		add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+		add_popularity = { ideology = fasci popularity = 0.05 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
 		hidden_effect = {
 			set_cosmetic_tag = DEN_Republic
@@ -1699,7 +1699,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -1749,7 +1749,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -1769,7 +1769,7 @@ country_event = {
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:market_liberal }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+			set_temp_variable = { coalition_partner_var = token:fasci }
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:social_liberal }
 			add_to_coalition = yes 
@@ -1794,7 +1794,7 @@ country_event = {
 		tag = DEN
 		NOT = {
 			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
@@ -1815,7 +1815,7 @@ country_event = {
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:authoritarian_democrat }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+			set_temp_variable = { coalition_partner_var = token:fasci }
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:social_conservative }
 			add_to_coalition = yes 
@@ -1839,7 +1839,7 @@ country_event = {
 		hidden_effect = {
 			set_temp_variable = { coalition_partner_var = token:social_liberal }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+			set_temp_variable = { coalition_partner_var = token:fasci }
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:authoritarian_democrat }
 			remove_from_coalition = yes 
@@ -2402,10 +2402,10 @@ country_event = {
 	
 	option = {
 		name = denmark.100.a
-		set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+		set_temp_variable = { coalition_partner_var = token:fasci }
 		add_to_coalition = yes 
 		set_party_name = { 
-			ideology = libertarian_socialist 
+			ideology = fasci 
 			long_name = DEN_libertarian_socdem_party_long 
 			name = DEN_libertarian_socdem_party 
 		}
@@ -2688,9 +2688,9 @@ country_event = {
 			factor = 80
 		}
 		set_politics = {
-			ruling_party = libertarian_socialist elections_allowed = no
+			ruling_party = fasci elections_allowed = no
 		}
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = fasci popularity = 0.03 }
 		hidden_effect = {
 			set_temp_variable = { coalition_partner_var = token:social_democrat }
 			add_to_coalition = yes 
@@ -2726,7 +2726,7 @@ country_event = {
           traits = {}
         }
       }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+			add_popularity = { ideology = fasci popularity = -0.05 }
 			set_temp_variable = { coalition_partner_var = token:market_liberal }
 			add_to_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:vanguardist }
@@ -2803,7 +2803,7 @@ country_event = {
         set_popularities = {
           vanguardist = 20
           collectivist = 5
-          libertarian_socialist = 0
+          fasci = 0
           social_democrat = 0
           social_liberal = 8
           market_liberal = 7
@@ -3053,7 +3053,7 @@ country_event = {
 			add_manpower = 85000
 			add_popularity = { ideology = vanguardist popularity = 1.00 }
 			add_popularity = { ideology = collectivist popularity = 0.28 }
-			add_popularity = { ideology = libertarian_socialist popularity = 0.17 }
+			add_popularity = { ideology = fasci popularity = 0.17 }
 			add_popularity = { ideology = social_democrat popularity = 0.10 }
 			DEN = {
 				end_puppet = SHO
@@ -3242,7 +3242,7 @@ country_event = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 		}
 	}
@@ -3365,7 +3365,7 @@ country_event = {
         set_popularities = {
           vanguardist = 46
           collectivist = 19
-          libertarian_socialist = 7
+          fasci = 7
           social_democrat = 9
           social_liberal = 6
           market_liberal = 3

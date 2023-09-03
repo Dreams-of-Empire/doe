@@ -319,7 +319,7 @@ country_event = { # Strikes!
     name = ukraine.12.b
     ai_chance = { base = 80 }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = fasci
       popularity = 0.1
     }
   }
@@ -338,7 +338,7 @@ country_event = { # 1936 Elections
     NOT = { has_country_flag = UKR_had_1936_elections }
   }
 
-  option = { # Social-Democratic Party (LibSoc)
+  option = { # Social-Democratic Party (fasci)
     name = ukraine.13.a
     ai_chance = {
       base = 200
@@ -348,7 +348,7 @@ country_event = { # 1936 Elections
       }
     }
     set_politics = {
-      ruling_party = libertarian_socialist
+      ruling_party = fasci
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -1714,7 +1714,7 @@ country_event = { # 1946 Elections
     NOT = { has_country_flag = UKR_had_1946_elections }
   }
 
-  option = { # Social-Democratic Party (LibSoc)
+  option = { # Social-Democratic Party (fasci)
     name = ukraine.56.a
     ai_chance = {
       base = 200
@@ -1724,7 +1724,7 @@ country_event = { # 1946 Elections
       }
     }
     set_politics = {
-      ruling_party = libertarian_socialist
+      ruling_party = fasci
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -1890,7 +1890,7 @@ country_event = { # 1951 Elections
     NOT = { has_country_flag = UKR_had_1951_elections }
   }
 
-  option = { # Social-Democratic Party (LibSoc)
+  option = { # Social-Democratic Party (fasci)
     name = ukraine.56.a
     ai_chance = {
       base = 200
@@ -1900,7 +1900,7 @@ country_event = { # 1951 Elections
       }
     }
     set_politics = {
-      ruling_party = libertarian_socialist
+      ruling_party = fasci
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes

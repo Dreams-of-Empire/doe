@@ -31,7 +31,7 @@ ideas = {
 			cancel = {
 				OR = {
 					has_government = collectivist
-					has_government = libertarian_socialist
+					has_government = fasci
 					has_government = national_populist
 					has_government = valkist
 					has_completed_focus = ITA_italian_election
@@ -157,7 +157,7 @@ ideas = {
 					OR = {
 						has_government = collectivist
 						has_government = vanguardist
-						has_government = libertarian_socialist
+						has_government = fasci
 					}
 				}
 			}
@@ -176,7 +176,7 @@ ideas = {
 					OR = {
 						has_government = collectivist
 						has_government = vanguardist
-						has_government = libertarian_socialist
+						has_government = fasci
 					}
 				}
 			}
@@ -194,7 +194,7 @@ ideas = {
 					OR = {
 						has_government = collectivist
 						has_government = vanguardist
-						has_government = libertarian_socialist
+						has_government = fasci
 					}
 				}
 			}

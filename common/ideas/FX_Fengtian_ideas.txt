@@ -473,7 +473,7 @@ ideas = {
 			}
 
 			modifier = {
-				libertarian_socialist_drift = 0.05
+				fasci_drift = 0.05
 				authoritarian_democrat_drift = 0.05
 				political_power_factor = 0.05
 				}
@@ -501,7 +501,7 @@ ideas = {
 			}
 
 			modifier = {
-				libertarian_socialist_drift = -0.05
+				fasci_drift = -0.05
 				authoritarian_democrat_drift = 0.05
 				political_power_factor = 0.05
 				stability_weekly = -0.01

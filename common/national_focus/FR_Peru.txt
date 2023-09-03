@@ -331,7 +331,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRU_work_with_the_unions"
 			add_popularity = { 
-				ideology = libertarian_socialist popularity = -0.025
+				ideology = fasci popularity = -0.025
 			}
 			add_popularity = { 
 				ideology = collectivist popularity = -0.025
@@ -563,7 +563,7 @@ focus_tree = {
 				ideology = collectivist popularity = -0.025
 			}
 			add_popularity = { 
-				ideology = libertarian_socialist popularity = -0.025
+				ideology = fasci popularity = -0.025
 			}
 		} 
 	}
@@ -2148,7 +2148,7 @@ focus = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = valkist
 				}
 			is_subject = no
@@ -2176,7 +2176,7 @@ focus = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = valkist
 				}
 			is_subject = no

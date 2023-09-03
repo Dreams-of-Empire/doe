@@ -20,7 +20,7 @@ set_popularities = {
     valkist = 19
     paternal_autocrat = 42
     collectivist = 6
-    libertarian_socialist = 6
+    fasci = 6
     authoritarian_democrat = 5
 }
 set_convoys = 40

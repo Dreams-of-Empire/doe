@@ -113,7 +113,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Sidney_Bunting_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_happy_amateur
 			}
 		}
@@ -427,7 +427,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Bram_Fischer_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_biased_intellectual
 			}
 		}
@@ -454,7 +454,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Yusuf_Dadoo_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_ideological_crusader
 			}
 		}
@@ -508,7 +508,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Lazar_Bach_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_reformer
 			}
 		}
@@ -764,7 +764,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Douglas_Wolton_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_efficient_sociopath
 			}
 		}
@@ -791,7 +791,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_W_H_Andrews_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -810,7 +810,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_W_H_Andrews_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_compassionate_gentleman
 			}
 		}
@@ -1210,7 +1210,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1419,7 +1419,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Alfred_Bitini_Xuma_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_privileged_socialist
 			}
 		}

@@ -2977,7 +2977,7 @@ focus_tree = {
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = -0.25
 			}
 		}
@@ -3299,7 +3299,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = 0.1
 			}
 			add_popularity = {
@@ -3572,7 +3572,7 @@ focus_tree = {
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = -0.05
 			}
 		}
@@ -4184,7 +4184,7 @@ focus_tree = {
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = fasci
 				popularity = -0.15
 			}
 		}

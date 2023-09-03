@@ -850,7 +850,7 @@ country_event = { #Flavor3
 		name = chl.1002.a
 		add_political_power = 25
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = 0.025
 		}
 	}

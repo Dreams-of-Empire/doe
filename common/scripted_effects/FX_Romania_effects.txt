@@ -133,7 +133,7 @@ ROM_make_michael_king = {
 			promote_leader = yes
 			country_leader = {
 				desc = POLITICS_MICHAEL_I_DESC
-				ideology = libertarian_socialist_subtype
+				ideology = fasci_subtype
 				traits = {}
 			}
 		}
@@ -234,13 +234,13 @@ ROM_make_nicholas_king = {
 		}
 		if = {
 			limit = {
-				NOT = { has_ideology_group = libertarian_socialist }
+				NOT = { has_ideology_group = fasci }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
 					desc = POLITICS_NICHOLAS_I_DESC
-					ideology = libertarian_socialist_subtype
+					ideology = fasci_subtype
 					traits = {}
 				}
 			}
@@ -373,7 +373,7 @@ ROM_become_republic = {
 		character = ROM_Mihai_Dumitru_Ralea
 		promote_leader = yes
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = {}
 		}
 	}

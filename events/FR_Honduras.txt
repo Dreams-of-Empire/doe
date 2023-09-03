@@ -28,7 +28,7 @@ country_event = {
     set_country_flag = madrugada_coup
     add_political_power = -200
     set_politics = {
-      ruling_party = libertarian_socialist
+      ruling_party = fasci
       elections_allowed = no
     }
     hidden_effect = {

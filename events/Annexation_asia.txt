@@ -672,7 +672,7 @@ country_event = { # Fate of Philippines
             ROOT = { has_socialist_government = yes }
           }
           set_politics = {
-            ruling_party = libertarian_socialist
+            ruling_party = fasci
             elections_allowed = no
           }
         }

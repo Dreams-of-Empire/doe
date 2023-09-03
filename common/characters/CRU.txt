@@ -21,7 +21,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Elvia_Carrillo_Puerto_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_red_chairmen
 			}
 		}
@@ -40,7 +40,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Elvia_Carrillo_Puerto_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_relations_expert
 			}
 		}
@@ -59,7 +59,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Elvia_Carrillo_Puerto_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_planned_economy_proponent
 			}
 		}
@@ -78,7 +78,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Elvia_Carrillo_Puerto_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_silent_lawyer
 			}
 		}
@@ -92,7 +92,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 		advisor = {
@@ -110,7 +110,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Felipe_Carrillo_Puerto_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_silent_workhorse
 			}
 		}
@@ -576,7 +576,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Alma_Marie_Sullivan_Reed_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_ideological_crusader
 			}
 		}
@@ -603,7 +603,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Jose_Clemente_Orozco_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_foreign_sympathizer
 			}
 		}
@@ -906,7 +906,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Raquel_Dzib_Cicero_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_imbedded_unioneer
 			}
 		}
@@ -1087,7 +1087,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Maria_Rosa_Torre_Gonzalez_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_health_and_safety
 			}
 		}

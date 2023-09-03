@@ -927,11 +927,11 @@ country_event = { # 1940 Elections
 		name = usa.28.f
 		trigger = { has_country_flag = USA_socialist_popularity_increasing }
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = fasci
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = 0.1
 		}
 		remove_every_minister = yes
@@ -991,7 +991,7 @@ country_event = { # Socialists Gaining Popularity
 	option = {
 		name = usa.31.a
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = 0.15
 		}
 	}
@@ -1135,7 +1135,7 @@ country_event = { # The Chicago Incident
 		name = usa.39.a
 		remove_ideas = USA_strikes
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = 0.05
 		}
 	}

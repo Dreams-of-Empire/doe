@@ -47,7 +47,7 @@ set_stability = 0.50
 set_war_support = 0.50
 
 set_politics = {	
-	ruling_party = libertarian_socialist
+	ruling_party = fasci
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -56,7 +56,7 @@ set_politics = {
 set_popularities = {
   vanguardist = 0
   collectivist = 0
-  libertarian_socialist = 4
+  fasci = 4
   social_democrat = 0
   social_liberal = 4
   market_liberal = 0

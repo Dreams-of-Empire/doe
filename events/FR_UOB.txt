@@ -42,10 +42,10 @@ country_event = {
 		name = "The ILP with their moderate socialism will ensure stability"
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = fasci
 			elections_allowed = no
 		}
-		add_popularity = { ideology = libertarian_socialist popularity = 0.4 }
+		add_popularity = { ideology = fasci popularity = 0.4 }
 		set_country_flag = ilp_victory
 	}
 }

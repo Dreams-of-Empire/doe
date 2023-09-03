@@ -22,7 +22,7 @@ set_popularities = {
   social_democrat = 5
   valkist = 2
   collectivist = 52
-  libertarian_socialist = 17
+  fasci = 17
   vanguardist = 7
 }
 

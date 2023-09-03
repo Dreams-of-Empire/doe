@@ -834,7 +834,7 @@ SPA_foreign_policy = {
 					OR = {
 						has_government = vanguardist
 						has_government = collectivist
-						has_government = libertarian_socialist
+						has_government = fasci
 					}
 				}
 				add_opinion_modifier = {

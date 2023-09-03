@@ -22,7 +22,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Jack_Reed_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_red_chairmen
 			}
 		}
@@ -922,7 +922,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Eugene_Dennis_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_relations_expert
 			}
 		}
@@ -1284,7 +1284,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Paul_Mattick_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_balanced_budget_economy
 			}
 		}
@@ -1538,7 +1538,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_John_Abt_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_health_and_safety
 			}
 		}
@@ -2554,7 +2554,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}

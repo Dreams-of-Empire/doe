@@ -411,7 +411,7 @@ country_event = { #Government deals with the labourers
 			popularity = 0.025
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = 0.025
 		}
 		add_political_power = 25	
@@ -685,7 +685,7 @@ country_event = { #subsidized
 			popularity = 0.0125
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = fasci
 			popularity = -0.0125
 		}
 		add_popularity = {
@@ -1092,7 +1092,7 @@ country_event = { #socialism across the andes
 			ideology = collectivist popularity = 0.025
 			}
 		add_popularity = { 
-			ideology = libertarian_socialist popularity = 0.025
+			ideology = fasci popularity = 0.025
 			}
 		}
 	option = {
@@ -1352,7 +1352,7 @@ country_event = { #socialism in bolivia
 			ideology = collectivist popularity = 0.025
 			}
 		add_popularity = { 
-			ideology = libertarian_socialist popularity = 0.025
+			ideology = fasci popularity = 0.025
 			}
 		}
 	option = {
@@ -1457,7 +1457,7 @@ country_event = { #socialism paraguay
 			ideology = collectivist popularity = 0.025
 			}
 		add_popularity = { 
-			ideology = libertarian_socialist popularity = 0.025
+			ideology = fasci popularity = 0.025
 			}
 		}
 	option = {
@@ -1594,7 +1594,7 @@ country_event = { #socialism uruguay
 			ideology = collectivist popularity = 0.025
 			}
 		add_popularity = { 
-			ideology = libertarian_socialist popularity = 0.025
+			ideology = fasci popularity = 0.025
 			}
 		}
 	option = {
@@ -1970,10 +1970,10 @@ country_event = { #congress of workers
 		name = arg.254.b
 		add_ideas = communist_state
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = fasci
 		}
 		add_popularity = {
-			ideology = libertarian_socialist 
+			ideology = fasci 
 			popularity = 0.2
 		}
 		hidden_effect = {
@@ -2164,7 +2164,7 @@ country_event = { #you don goofed
 		ai_chance = { factor = 60 }
 		add_political_power = -30
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.05
+			ideology = fasci popularity = 0.05
 		}
 		add_popularity = {
 			ideology = collectivist popularity = -0.05
@@ -2228,7 +2228,7 @@ country_event = { #the great coalition
 			ideology = collectivist popularity = 0.05
 		}
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.05
+			ideology = fasci popularity = 0.05
 			}
 		}
 	}

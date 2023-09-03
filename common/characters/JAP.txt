@@ -103,7 +103,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 			traits = { }
 		}
 	}
@@ -1219,7 +1219,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Suzuki_Mosaburo_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_ambitious_union_boss
 			}
 		}
@@ -2697,7 +2697,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Sakisaka_Itsuro_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_back_stabber
 			}
 		}

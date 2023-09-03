@@ -39,7 +39,7 @@ HOL_INF_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 				has_government = paternal_autocrat
@@ -92,7 +92,7 @@ HOL_INF_02 =
 
 	can_use = {
 		OR = {
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = collectivist
 			has_government = vanguardist
 		}
@@ -186,7 +186,7 @@ HOL_CAV_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 				has_government = paternal_autocrat
@@ -227,7 +227,7 @@ HOL_CAV_02 =
 
 	can_use = {
 		OR = {
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = collectivist
 			has_government = vanguardist
 		}
@@ -265,7 +265,7 @@ HOL_CAV_03 =
 
 	can_use = {
 		OR = {
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = collectivist
 			has_government = vanguardist
 		}
@@ -337,7 +337,7 @@ HOL_MEC_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 				has_government = paternal_autocrat
@@ -379,7 +379,7 @@ HOL_MEC_02 =
 
 	can_use = {
 		OR = {
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = collectivist
 			has_government = vanguardist
 			has_government = national_populist
@@ -648,7 +648,7 @@ HOL_FIETS_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
 				has_government = paternal_autocrat
@@ -689,7 +689,7 @@ HOL_FIETS_02 =
 
 	can_use = {
 		OR = {
-			has_government = libertarian_socialist
+			has_government = fasci
 			has_government = collectivist
 			has_government = vanguardist
 		}

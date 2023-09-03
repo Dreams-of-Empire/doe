@@ -73,7 +73,7 @@ country_event = { # Commies win, unrest is invalid
 		OR = {
 			has_government = collectivist
 			has_government = vanguardist
-			has_government = libertarian_socialist
+			has_government = fasci
 		}
 	}
 	

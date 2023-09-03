@@ -18,7 +18,7 @@ set_politics = {
 }
 
 set_popularities = {
-	libertarian_socialist = 10
+	fasci = 10
 	social_liberal = 22
 	social_conservative = 51
 	authoritarian_democrat = 15

@@ -1054,7 +1054,7 @@ ENG_add_edward_windsor = {
       promote_leader = yes
       country_leader = {
         desc = "POLITICS_ENG_EDWARD_VIII_DESC"
-        ideology = libertarian_socialist_subtype
+        ideology = fasci_subtype
         traits = { meddler charismatic }
       }
     }
@@ -1150,7 +1150,7 @@ ENG_add_albert_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = libertarian_socialist_subtype
+        ideology = fasci_subtype
         traits = { }
       }
     }

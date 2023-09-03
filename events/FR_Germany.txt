@@ -205,7 +205,7 @@ country_event = { # Germany wants to renegotiate Navy
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -252,7 +252,7 @@ country_event = { # Germany wants to renegotiate Navy
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -430,7 +430,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -489,7 +489,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -544,7 +544,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -613,7 +613,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -1163,7 +1163,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -1217,7 +1217,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -1517,7 +1517,7 @@ country_event = { # German alliance - Poland
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -1562,7 +1562,7 @@ country_event = { # German alliance - Poland
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -7968,7 +7968,7 @@ country_event = { # Slovakia - German alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -8015,7 +8015,7 @@ country_event = { # Slovakia - German alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -8639,7 +8639,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -8686,7 +8686,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -9378,7 +9378,7 @@ country_event = { # Finland - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -9425,7 +9425,7 @@ country_event = { # Finland - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -9511,7 +9511,7 @@ country_event = { # Turkey - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -9590,7 +9590,7 @@ country_event = { # Turkey - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -9777,7 +9777,7 @@ country_event = { # Lithuania - German support?
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 0.25
@@ -9822,7 +9822,7 @@ country_event = { # Lithuania - German support?
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = fasci
 			}
 			modifier = {
 				factor = 4
@@ -11634,7 +11634,7 @@ country_event = { # Italy Capitulates to North Africa
 					NOT = {
 						OR = {
 							has_government = collectivist
-							has_government = libertarian_socialist
+							has_government = fasci
 							has_government = vanguardist
 							has_government = valkist
 							has_government = paternal_autocrat

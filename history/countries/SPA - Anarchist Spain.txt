@@ -138,7 +138,7 @@ set_politics = {
 set_popularities = {
 	vanguardist = 8
 	collectivist = 33
-	libertarian_socialist = 33
+	fasci = 33
 	social_democrat = 10
 	social_liberal = 5
 	market_liberal = 0
@@ -150,7 +150,7 @@ set_popularities = {
 }
 
 add_coalition_vanguardist = yes 
-add_coalition_libertarian_socialist = yes 
+add_coalition_fasci = yes 
 add_coalition_social_democrat = yes 
 
 set_convoys = 150

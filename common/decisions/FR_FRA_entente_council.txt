@@ -516,7 +516,7 @@ FRA_entente_council = {
 				OR = {
 					has_government = vanguardist
 					has_government = collectivist
-					has_government = libertarian_socialist
+					has_government = fasci
 				}
 				NOT = {
 					is_in_faction_with = FRA

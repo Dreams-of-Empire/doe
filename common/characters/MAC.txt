@@ -38,7 +38,7 @@ characters = {
 			ideology = collectivist_subtype
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = fasci_subtype
 		}
 		country_leader = {
 			ideology = autocratic_socialist_subtype

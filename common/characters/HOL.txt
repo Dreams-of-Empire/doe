@@ -716,7 +716,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Henk_Sneevliet_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_pragmatic_statesman
 			}
 		}
@@ -743,7 +743,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Piet_Johannes_Schmidt_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				hog_charismatic_charmer
 			}
 		}
@@ -824,7 +824,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Benjamin_Boers_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				for_biased_intellectual
 			}
 		}
@@ -892,7 +892,7 @@ characters = {
 			}
 		}
     country_leader = {
-      ideology = libertarian_socialist_subtype
+      ideology = fasci_subtype
       traits = {}
     }
 		advisor = {
@@ -910,7 +910,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Jacques_de_Kadt_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_industrialiser
 			}
 		}
@@ -937,7 +937,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Jan_Tinbergen_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				eco_balanced_budget_economy
 			}
 		}
@@ -1045,7 +1045,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Abraham_Menist_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_silent_lawyer
 			}
 		}
@@ -1072,7 +1072,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Fokke_Bosman_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				fasci
 				sec_prince_of_terror
 			}
 		}

@@ -6680,7 +6680,7 @@ country_event = { # Sweden losing - Peace with Moderate Norway?
 		}
 		NOR = {
 			OR = { # Must have a moderate government
-				has_government = libertarian_socialist
+				has_government = fasci
 				has_government = social_democrat
 				has_government = social_liberal
 				has_government = market_liberal
