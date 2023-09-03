@@ -1,0 +1,318 @@
+#Travancore - annexation_TRV_CONQ
+can_release_travancore = { 
+	state = 952
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = TRV
+			has_country_flag = TRV_CONQ
+		}
+	}
+}
+
+#Madras - annexation_MDR_CONQ
+can_release_madras = { 
+	state = 424
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = MDR
+			has_country_flag = MDR_CONQ
+		}
+	}
+}
+
+#Hyderabad - annexation_HYD_CONQ
+can_release_hyderabad = { 
+	state = 427
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = HYD
+			has_country_flag = HYD_CONQ
+		}
+	}
+}
+
+#Orissa - annexation_ORI_CONQ
+can_release_orissa = { 
+	state = 426
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = ORI
+			has_country_flag = ORI_CONQ
+		}
+	}
+}
+
+#Punjab - annexation_PUN_CONQ
+can_release_punjab = { 
+	state = 440
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = PUN
+			has_country_flag = PUN_CONQ
+		}
+	}
+}
+
+#Kashmir - annexation_KAS_CONQ
+can_release_kashmir = { 
+	state = 441
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = KAS
+			has_country_flag = KAS_CONQ
+		}
+	}
+}
+
+#Baluchistan - annexation_BAL_CONQ
+can_release_baluchistan = { 
+	state = 444
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = BAL
+			has_country_flag = BAL_CONQ
+		}
+	}
+}
+
+#Rajahstan - annexation_RJH_CONQ
+can_release_rajahstan = { 
+	state = 443
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = RJH
+			has_country_flag = RJH_CONQ
+		}
+	}
+}
+
+#Bombay - annexation_BOM_CONQ
+can_release_bombay = { 
+	state = 429
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = BOM
+			has_country_flag = BOM_CONQ
+		}
+	}
+}
+
+#Mysore - annexation_MYS_CONQ
+can_release_mysore = { 
+	state = 425
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = MYS
+			has_country_flag = MYS_CONQ
+		}
+	}
+}
+
+#Bihar - annexation_BIH_CONQ
+can_release_bihar = { 
+	state = 435
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = BIH
+			has_country_flag = BIH_CONQ
+		}
+	}
+}
+
+#Sri Lanka - annexation_SRL_CONQ
+can_release_sri_lanka = { 
+	state = 422
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+		NOT = {
+			country_exists = SRL
+			has_country_flag = SRL_CONQ
+		}
+	}
+}
+
+#Maldives - annexation_MLD_CONQ
+can_release_maldives = { 
+	state = 281
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+		NOT = {
+			country_exists = MLD
+			has_country_flag = MLD_CONQ
+		}
+	}
+}
+
+#India - annexation_IND_CONQ
+can_release_india = { 
+	state = 439
+  439 = { is_valid_annexation_state = yes } # New Delhi
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    is_indian_tag = no
+		NOT = {
+			country_exists = IND
+			has_country_flag = IND_CONQ
+		}
+	}
+}
+
+#Bengal - annexation_BNG_CONQ
+can_release_bengal = { 
+	state = 430
+	NOT = { is_claimed_by = ROOT }
+	ROOT = {
+    should_release_india_first = yes
+    is_indian_tag = no
+		NOT = {
+			country_exists = BNG
+			has_country_flag = BNG_CONQ
+		}
+	}
+}
+
+#Afganistan - annexation_AFG_CONQ
+can_release_afganistan = { 
+	state = 267
+	NOT = { is_claimed_by = ROOT}
+	ROOT = {
+		NOT = {
+			country_exists = AFG
+			has_country_flag = AFG_CONQ
+		}
+	}
+}
+
+#Bhutan - annexation_BHU_CONQ
+can_release_bhutan = { 
+	state = 324
+	NOT = { is_claimed_by = ROOT}
+	ROOT = {
+		NOT = {
+			country_exists = BHU
+			has_country_flag = BHU_CONQ
+		}
+	}
+}
+
+#Nepal - annexation_NEP_CONQ
+can_release_nepal = { 
+	state = 323
+	NOT = { is_claimed_by = ROOT}
+	ROOT = {
+		NOT = {
+			country_exists = NEP
+			has_country_flag = NEP_CONQ
+		}
+	}
+}
+
+#Peshawar - annexation_PESHAWAR_CONQ
+can_release_peshawar = {
+  state = 442
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    # Do Afgan release first
+    should_release_afganistan_first = yes
+    # Do Indian release first
+    should_release_india_first = yes
+    NOT = {
+      is_indian_tag = yes
+      tag = AFG
+      has_country_flag = PESHAWAR_CONQ
+    }
+  }
+}
+
+#Quetta - annexation_QUETTA_CONQ
+can_release_quetta = {
+  state = 445
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    # Do Afgan release first
+    should_release_afganistan_first = yes
+    # Do Indian release first
+    should_release_india_first = yes
+    NOT = {
+      is_indian_tag = yes
+      tag = AFG
+      has_country_flag = QUETTA_CONQ
+    }
+  }
+}
+
+#Tirhut - annexation_TIRHUT_CONQ
+can_release_tirhut = {
+  state = 811
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    # Do Nepali release first
+    should_release_nepal_first = yes
+    # Do Indian release first
+    should_release_india_first = yes
+    NOT = {
+      tag = NEP
+      is_indian_tag = yes
+      has_country_flag = TIRHUT_CONQ
+    }
+  }
+}
+
+should_release_afganistan_first = {
+  OR = {
+    country_exists = AFG
+    has_country_flag = AFG_CONQ
+    237 = { is_valid_annexation_state = no } # Kabul
+  }
+}
+
+should_release_india_first = {
+  OR = {
+    country_exists = RAJ
+    country_exists = IND
+    country_exists = INC
+    has_country_flag = IND_CONQ
+    439 = { is_valid_annexation_state = no } # Delhi
+  }
+}
+
+should_release_nepal_first = {
+  OR = {
+    country_exists = NEP
+    has_country_flag = NEP_CONQ
+    323 = { is_valid_annexation_state = no } # Kathmandu
+  }
+}

@@ -1,0 +1,9 @@
+GER_forceful_takeovers = {
+	icon = GFX_decision_category_border_war
+
+	picture = GFX_decision_cat_picture_generic_border_conflicts
+
+	allowed = {
+		original_tag = TUR
+	}
+}

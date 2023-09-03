@@ -1,0 +1,1106 @@
+focus_tree = {
+	id = FR_Republican_Spain
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SPR
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1350 }
+	
+	shared_focus = SPR_republican_navy
+	shared_focus = SPR_republican_air_force
+	shared_focus = SPR_republican_army
+	shared_focus = SPR_economic_recovery
+	
+	focus = {
+		id = SPR_republic_triumphant
+		icon = GFX_goal_DOM_End_Judicial_Corruption
+		cost = 3.60
+		x = 34
+		y = 0
+		
+		available = {
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_republic_triumphant"
+			add_political_power = 25
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = SPR_ban_socialist_militas
+		icon = GFX_HOL_crackdown_syndie
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_republic_triumphant
+		}
+		x = 32
+		y = 1
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_ban_socialist_militas"
+			add_stability = 0.02
+			add_political_power = -20
+			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+			if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery_idea
+					add_idea = SPR_civil_war_recovery1_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery1_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery1_idea
+					add_idea = SPR_civil_war_recovery2_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery2_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery2_idea
+					add_idea = SPR_civil_war_recovery3_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery3_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery3_idea
+					add_idea = SPR_civil_war_recovery4_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery4_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery4_idea
+					add_idea = SPR_civil_war_recovery5_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery5_idea
+				}
+				remove_ideas = SPR_civil_war_recovery5_idea
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = SPR_civil_war_recovery4_idea
+					}
+				}
+				add_stability = 0.03
+			}
+		}
+
+	}
+	focus = {
+		id = SPR_ban_communist_party
+		icon = GFX_goal_anti_comintern_pact
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_ban_socialist_militas
+		}
+		x = 31
+		y = 2
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_ban_communist_party"
+			add_stability = 0.02
+			add_political_power = -20
+			add_popularity = { ideology = collectivist popularity = -0.04 }
+			if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery_idea
+					add_idea = SPR_civil_war_recovery1_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery1_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery1_idea
+					add_idea = SPR_civil_war_recovery2_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery2_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery2_idea
+					add_idea = SPR_civil_war_recovery3_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery3_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery3_idea
+					add_idea = SPR_civil_war_recovery4_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery4_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery4_idea
+					add_idea = SPR_civil_war_recovery5_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery5_idea
+				}
+				remove_ideas = SPR_civil_war_recovery5_idea
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = SPR_civil_war_recovery4_idea
+					}
+				}
+				add_stability = 0.03
+			}
+		}
+
+	}
+	focus = {
+		id = SPR_curtail_monarchism
+		icon = GFX_focus_rom_handle_king
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_republic_triumphant
+		}
+		x = 34
+		y = 1
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_curtail_monarchism"
+			add_stability = 0.02
+			add_political_power = -20
+			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery_idea
+					add_idea = SPR_civil_war_recovery1_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery1_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery1_idea
+					add_idea = SPR_civil_war_recovery2_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery2_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery2_idea
+					add_idea = SPR_civil_war_recovery3_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery3_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery3_idea
+					add_idea = SPR_civil_war_recovery4_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery4_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery4_idea
+					add_idea = SPR_civil_war_recovery5_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery5_idea
+				}
+				remove_ideas = SPR_civil_war_recovery5_idea
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = SPR_civil_war_recovery4_idea
+					}
+				}
+				add_stability = 0.03
+			}
+		}
+
+	}
+	focus = {
+		id = SPR_ban_royalty_from_spain
+		icon = GFX_focus_rom_abdicate
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_curtail_monarchism
+		}
+		x = 34
+		y = 2
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_ban_royalty_from_spain"
+			add_stability = 0.02
+			add_political_power = -20
+			add_popularity = { ideology = authoritarian_democrat popularity = -0.04 }
+			if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery_idea
+					add_idea = SPR_civil_war_recovery1_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery1_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery1_idea
+					add_idea = SPR_civil_war_recovery2_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery2_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery2_idea
+					add_idea = SPR_civil_war_recovery3_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery3_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery3_idea
+					add_idea = SPR_civil_war_recovery4_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery4_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery4_idea
+					add_idea = SPR_civil_war_recovery5_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery5_idea
+				}
+				remove_ideas = SPR_civil_war_recovery5_idea
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = SPR_civil_war_recovery4_idea
+					}
+				}
+				add_stability = 0.03
+			}
+		}
+
+	}
+	focus = {
+		id = SPR_ban_monarchist_militas
+		icon = GFX_goal_HOL_ban_paramilitary
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_republic_triumphant
+		}
+		x = 36
+		y = 1
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_ban_monarchist_militas"
+			add_stability = 0.02
+			add_political_power = -20
+			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = valkist popularity = -0.03 }
+			if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery_idea
+					add_idea = SPR_civil_war_recovery1_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery1_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery1_idea
+					add_idea = SPR_civil_war_recovery2_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery2_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery2_idea
+					add_idea = SPR_civil_war_recovery3_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery3_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery3_idea
+					add_idea = SPR_civil_war_recovery4_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery4_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery4_idea
+					add_idea = SPR_civil_war_recovery5_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery5_idea
+				}
+				remove_ideas = SPR_civil_war_recovery5_idea
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = SPR_civil_war_recovery4_idea
+					}
+				}
+				add_stability = 0.03
+			}
+		}
+
+	}
+	focus = {
+		id = SPR_ban_carlists
+		icon = GFX_HOL_crackdown_natpop
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_ban_monarchist_militas
+		}
+		x = 37
+		y = 2
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_ban_carlists"
+			add_stability = 0.02
+			add_political_power = -20
+			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = valkist popularity = -0.02 }
+			if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery_idea
+					add_idea = SPR_civil_war_recovery1_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery1_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery1_idea
+					add_idea = SPR_civil_war_recovery2_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery2_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery2_idea
+					add_idea = SPR_civil_war_recovery3_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery3_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery3_idea
+					add_idea = SPR_civil_war_recovery4_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery4_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_civil_war_recovery4_idea
+					add_idea = SPR_civil_war_recovery5_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_civil_war_recovery5_idea
+				}
+				remove_ideas = SPR_civil_war_recovery5_idea
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = SPR_civil_war_recovery4_idea
+					}
+				}
+				add_stability = 0.03
+			}
+		}
+
+	}
+	focus = {
+		id = SPR_first_republican_election
+		icon = GFX_goal_generic_elections
+		cost = 3.60
+		prerequisite = {
+			focus = SPR_ban_communist_party
+		}
+		prerequisite = {
+			focus = SPR_ban_royalty_from_spain
+		}
+		prerequisite = {
+			focus = SPR_ban_carlists
+		}
+		x = 34
+		y = 3
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_first_republican_election"
+			country_event = { id = repspain.102 days = 1 }
+		}
+
+	}
+	focus = {
+		id = SPR_integrate_socialists
+		icon = GFX_goal_ideology_social_democrat
+		cost = 5.00
+		prerequisite = {
+			focus = SPR_first_republican_election
+		}
+		x = 30
+		y = 4
+		
+		available = {
+			has_government = social_liberal
+			has_country_flag = SPR_election_happened_flag
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_integrate_socialists"
+			country_event = { id = repspain.104 days = 1 }
+			add_political_power = 20
+			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = social_democrat popularity = 0.02 }
+			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		}
+
+	}
+	focus = {
+		id = SPR_remove_caballero
+		icon = GFX_goal_generic_secret_weapon
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_integrate_socialists
+		}
+		x = 30
+		y = 5
+		
+		available = {
+			has_government = social_liberal
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_remove_caballero"
+			country_event = { id = repspain.105 days = 1 }
+			add_political_power = -25
+			add_popularity = { ideology = libertarian_socialist popularity = -0.07 }
+			add_popularity = { ideology = collectivist popularity = -0.03 }
+		}
+
+	}
+	focus = {
+		id = SPR_gain_socialist_support
+		icon = GFX_goal_tripartite_pact
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_remove_caballero
+		}
+		x = 29
+		y = 6
+		
+		available = {
+			has_government = social_liberal
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_gain_socialist_support"
+			country_event = { id = repspain.106 days = 1 }
+			add_stability = 0.03
+			add_political_power = -40
+			add_ideas = SPR_gain_socialist_support_idea
+		}
+
+	}
+	focus = {
+		id = SPR_negotiate_with_anarchist_politicans
+		icon = GFX_goal_anarcho_communism
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_remove_caballero
+		}
+		x = 31
+		y = 6
+		
+		available = {
+			has_government = social_liberal
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_negotiate_with_anarchist_politicans"
+			country_event = { id = repspain.107 days = 1 }
+			add_stability = 0.03
+			add_political_power = -40
+			add_ideas = SPR_negotiate_with_anarchist_politicans_idea
+		}
+
+	}
+	focus = {
+		id = SPR_uniting_left
+		icon = GFX_goal_HOL_list_left
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_gain_socialist_support
+		}
+		prerequisite = {
+			focus = SPR_negotiate_with_anarchist_politicans
+		}
+		x = 30
+		y = 7
+		
+		available = {
+			has_government = social_liberal
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_uniting_left"
+			add_stability = 0.05
+			add_popularity = { ideology = social_liberal popularity = 0.05 }
+			add_popularity = { ideology = social_democrat popularity = -0.02 }
+			add_popularity = { ideology = collectivist popularity = -0.02 }
+		}
+
+	}
+	focus = {
+		id = SPR_secularize_state
+		icon = GFX_goal_COS_Ferrer_Coup
+		cost = 5.00
+		prerequisite = {
+			focus = SPR_first_republican_election
+		}
+		x = 34
+		y = 4
+		
+		available = {
+			OR = {
+				has_government = social_liberal
+				has_government = market_liberal
+			}
+			has_country_flag = SPR_election_happened_flag
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_secularize_state"
+			add_stability = 0.05
+			add_political_power = -20
+		}
+
+	}
+	focus = {
+		id = SPR_establish_proper_autonomies
+		icon = GFX_BEL_Federalism
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_secularize_state
+		}
+		x = 33
+		y = 5
+		
+		available = {
+			OR = {
+				has_government = social_liberal
+				has_government = market_liberal
+			}
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_establish_proper_autonomies"
+			add_stability = 0.03
+			add_political_power = -20
+			add_ideas = SPR_establish_proper_autonomies_idea
+		}
+
+	}
+	focus = {
+		id = SPR_assure_loyalty
+		icon = GFX_goal_DEI_focus_disband_volksraad
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_establish_proper_autonomies
+		}
+		x = 33
+		y = 6
+		
+		available = {
+			OR = {
+				has_government = social_liberal
+				has_government = market_liberal
+			}
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_assure_loyalty"
+			add_political_power = -25
+			swap_ideas = {
+				remove_idea = SPR_establish_proper_autonomies_idea
+				add_idea = SPR_assure_loyalty_idea
+			}
+		}
+
+	}
+	focus = {
+		id = SPR_limit_catholic_influence
+		icon = GFX_goal_MAF_Kulturkampf
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_secularize_state
+		}
+		x = 35
+		y = 5
+		
+		available = {
+			OR = {
+				has_government = social_liberal
+				has_government = market_liberal
+			}
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_establish_proper_autonomies"
+			add_stability = -0.03
+			add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = SPR_deal_with_religious_education
+		icon = GFX_goal_KTG_Bookstack
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_limit_catholic_influence
+		}
+		x = 35
+		y = 6
+		
+		available = {
+			OR = {
+				has_government = social_liberal
+				has_government = market_liberal
+			}
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_deal_with_religious_education"
+			country_event = { id = repspain.108 days = 1 }
+		}
+
+	}
+	focus = {
+		id = SPR_modern_spanish_state
+		icon = GFX_goal_ideology_social_liberal
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_assure_loyalty
+		}
+		prerequisite = {
+			focus = SPR_deal_with_religious_education
+		}
+		x = 34
+		y = 7
+		
+		available = {
+			OR = {
+				has_government = social_liberal
+				has_government = market_liberal
+			}
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_assure_loyalty"
+			add_political_power = 25
+			swap_ideas = {
+				remove_idea = SPR_unstable_republican_spirit_idea
+				add_idea = SPR_modern_spanish_state_idea
+			}
+		}
+
+	}
+	focus = {
+		id = SPR_integrate_conservatives
+		icon = GFX_goal_ideology_social_conservative
+		cost = 5.00
+		prerequisite = {
+			focus = SPR_first_republican_election
+		}
+		x = 38
+		y = 4
+		
+		available = {
+			has_government = market_liberal
+			has_country_flag = SPR_election_happened_flag
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_integrate_conservatives"
+			country_event = { id = repspain.109 days = 1 }
+			add_political_power = 20
+			add_popularity = { ideology = market_liberal popularity = 0.03 }
+			add_popularity = { ideology = social_conservative popularity = 0.02 }
+			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+		}
+
+	}
+	focus = {
+		id = SPR_remove_valiente_soriano
+		icon = GFX_goal_generic_secret_weapon
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_integrate_conservatives
+		}
+		x = 38
+		y = 5
+		
+		available = {
+			has_government = market_liberal
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_remove_valiente_soriano"
+			country_event = { id = repspain.110 days = 1 }
+			add_political_power = -25
+			add_popularity = { ideology = authoritarian_democrat popularity = -0.06 }
+			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+		}
+
+	}
+	focus = {
+		id = SPR_negotiate_with_accion_espanola
+		icon = GFX_focus_HOL_deal_with_right
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_remove_valiente_soriano
+		}
+		x = 37
+		y = 6
+		
+		available = {
+			has_government = market_liberal
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_negotiate_with_accion_espanola"
+			country_event = { id = repspain.112 days = 1 }
+			add_stability = 0.03
+			add_political_power = -40
+			add_popularity = { ideology = market_liberal popularity = 0.03 }
+			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+		}
+
+	}
+	focus = {
+		id = SPR_gain_conservative_support
+		icon = GFX_goal_generic_major_alliance
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_remove_valiente_soriano
+		}
+		x = 39
+		y = 6
+		
+		available = {
+			has_government = market_liberal
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_gain_conservative_support"
+			country_event = { id = repspain.111 days = 1 }
+			add_stability = 0.03
+			add_political_power = -40
+			add_ideas = SPR_gain_conservative_support_idea
+		}
+
+	}
+	focus = {
+		id = SPR_uniting_right
+		icon = GFX_goal_liberty
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_negotiate_with_accion_espanola
+		}
+		prerequisite = {
+			focus = SPR_gain_conservative_support
+		}
+		x = 38
+		y = 7
+		
+		available = {
+			has_government = market_liberal
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_uniting_right"
+			add_stability = 0.05
+			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = social_conservative popularity = -0.02 }
+			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+		}
+
+	}
+	focus = {
+		id = SPR_legacy_of_manuel_azana
+		icon = GFX_goal_socialist_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = SPR_uniting_left
+		}
+		prerequisite = {
+			focus = SPR_modern_spanish_state
+		}
+		x = 32
+		y = 8
+		
+		available = {
+			has_government = social_liberal
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_legacy_of_manuel_azana"
+			add_political_power = 50
+			add_popularity = { ideology = social_liberal popularity = 0.05 }
+			add_popularity = { ideology = market_liberal popularity = -0.04 }
+		}
+
+	}
+	focus = {
+		id = SPR_legacy_of_niceto_alcala_zamora
+		icon = GFX_goal_collaborate_local_elites
+		cost = 5.00
+		prerequisite = {
+			focus = SPR_modern_spanish_state
+		}
+		prerequisite = {
+			focus = SPR_uniting_right
+		}
+		x = 36
+		y = 8
+		
+		available = {
+			has_government = market_liberal
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_legacy_of_niceto_alcala_zamora"
+			add_political_power = 50
+			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = social_liberal popularity = -0.04 }
+		}
+
+	}
+	focus = {
+		id = SPR_plus_ultra
+		icon = GFX_focus_spr_maintain_the_republic
+		cost = 5.00
+		prerequisite = {
+			focus = SPR_legacy_of_manuel_azana
+			focus = SPR_legacy_of_niceto_alcala_zamora
+		}
+		x = 34
+		y = 9
+		
+		available = {
+			OR = {
+				has_government = social_liberal
+				has_government = market_liberal
+			}
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_plus_ultra"
+			add_stability = 0.10
+			add_popularity = { ideology = social_democrat popularity = 0.03 }
+			add_popularity = { ideology = social_liberal popularity = 0.05 }
+			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = social_conservative popularity = 0.03 }
+		}
+
+	}
+}

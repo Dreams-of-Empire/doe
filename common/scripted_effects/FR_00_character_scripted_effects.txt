@@ -1,0 +1,427 @@
+#used to mark characters as permanently gone from the game
+#WARNING, will clear all roles - do not reactivate the character after running this
+
+remove_all_country_leader_roles = {
+	remove_country_leader_role_vanguardist = yes
+	remove_country_leader_role_collectivist = yes
+	remove_country_leader_role_libertarian_socialist = yes
+	remove_country_leader_role_social_democrat = yes
+	remove_country_leader_role_social_liberal = yes
+	remove_country_leader_role_market_liberal = yes
+	remove_country_leader_role_social_conservative = yes
+	remove_country_leader_role_authoritarian_democrat = yes
+	remove_country_leader_role_paternal_autocrat = yes
+	remove_country_leader_role_national_populist = yes
+	remove_country_leader_role_valkist = yes
+}
+
+remove_country_leader_role_vanguardist = {
+	if = {
+		limit = { has_ideology_group = vanguardist }
+
+		if = {
+			limit = { has_ideology = revolutionary_showaist_subtype }
+			remove_country_leader_role = { ideology = revolutionary_showaist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = autocratic_socialist_subtype }
+			remove_country_leader_role = { ideology = autocratic_socialist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = vanguardist_subtype }
+			remove_country_leader_role = { ideology = vanguardist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = hardliner_bolshevism_subtype }
+			remove_country_leader_role = { ideology = hardliner_bolshevism_subtype }
+		}
+	}
+}
+
+remove_country_leader_role_collectivist = {
+	if = {
+		limit = { has_ideology_group = collectivist }
+		
+		if = {
+			limit = { has_ideology = monsoc_subtype }
+			remove_country_leader_role = { ideology = monsoc_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = leninism_subtype }
+			remove_country_leader_role = { ideology = leninism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = anarchism_subtype }
+			remove_country_leader_role = { ideology = anarchism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = collectivist_subtype }
+			remove_country_leader_role = { ideology = collectivist_subtype }
+		}
+	}
+}
+
+remove_country_leader_role_libertarian_socialist = {
+	if = {
+		limit = { has_ideology_group = libertarian_socialist }
+
+		if = {
+			limit = { has_ideology = socialist_feminist_subtype }
+			remove_country_leader_role = { ideology = socialist_feminist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = libsoc_utopian_socialism_subtype }
+			remove_country_leader_role = { ideology = libsoc_utopian_socialism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = anarcho_syndicalism_subtype }
+			remove_country_leader_role = { ideology = anarcho_syndicalism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = agrarian_socialism_subtype }
+			remove_country_leader_role = { ideology = agrarian_socialism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = bukharinist_subtype }
+			remove_country_leader_role = { ideology = bukharinist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = moderate_socialist_subtype }
+			remove_country_leader_role = { ideology = moderate_socialist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = libertarian_socialist_subtype }
+			remove_country_leader_role = { ideology = libertarian_socialist_subtype }
+		}
+	}
+}
+
+remove_country_leader_role_social_democrat = {
+	if = {
+		limit = { has_ideology_group = social_democrat }
+		
+		if = {
+			limit = { has_ideology = social_democrat_subtype }
+			remove_country_leader_role = { ideology = social_democrat_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = socdem_longism_subtype }
+			remove_country_leader_role = { ideology = socdem_longism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = socdem_democratic_socialism_subtype }
+			remove_country_leader_role = { ideology = socdem_democratic_socialism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = socdem_left_nationalism_subtype }
+			remove_country_leader_role = { ideology = socdem_left_nationalism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = socdem_christian_socialism_subtype }
+			remove_country_leader_role = { ideology = socdem_christian_socialism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = socdem_humanistic_capitalism_subtype }
+			remove_country_leader_role = { ideology = socdem_humanistic_capitalism_subtype }
+		}
+	}
+}
+
+remove_country_leader_role_social_liberal = {
+	if = {
+		limit = { has_ideology_group = social_liberal }
+		
+		if = {
+			limit = { has_ideology = social_liberal_subtype }
+			remove_country_leader_role = { ideology = social_liberal_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = centrist_subtype }
+			remove_country_leader_role = { ideology = centrist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = radical_liberalism_subtype }
+			remove_country_leader_role = { ideology = radical_liberalism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = venizelism_subtype }
+			remove_country_leader_role = { ideology = venizelism_subtype }
+		}
+	}
+}
+
+remove_country_leader_role_market_liberal = {
+	if = {
+		limit = { has_ideology_group = market_liberal }
+		
+		if = {
+			limit = { has_ideology = market_liberal_subtype }
+			remove_country_leader_role = { ideology = market_liberal_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = marlib_centrist_subtype }
+			remove_country_leader_role = { ideology = marlib_centrist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = marlib_classical_liberalism_subtype }
+			remove_country_leader_role = { ideology = marlib_classical_liberalism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = liberal_conservative_subtype }
+			remove_country_leader_role = { ideology = liberal_conservative_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = marlib_venizelism_subtype }
+			remove_country_leader_role = { ideology = marlib_venizelism_subtype }
+		}
+	}
+}
+
+remove_country_leader_role_social_conservative = {
+	if = {
+		limit = { has_ideology_group = social_conservative }
+		
+		if = {
+			limit = { has_ideology = social_conservative_subtype }
+			remove_country_leader_role = { ideology = social_conservative_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = christian_democracy_subtype }
+			remove_country_leader_role = { ideology = christian_democracy_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = soccon_warlordism_subtype }
+			remove_country_leader_role = { ideology = soccon_warlordism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = toryism_subtype }
+			remove_country_leader_role = { ideology = toryism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = national_conservative_subtype }
+			remove_country_leader_role = { ideology = national_conservative_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = ukrainian_social_conservatism_subtype }
+			remove_country_leader_role = { ideology = ukrainian_social_conservatism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = soccon_jadidism_subtype }
+			remove_country_leader_role = { ideology = soccon_jadidism_subtype }
+		}
+	}
+}
+
+remove_country_leader_role_authoritarian_democrat = {
+	if = {
+		limit = { has_ideology_group = authoritarian_democrat }
+		
+		if = {
+			limit = { has_ideology = authoritarian_democrat_subtype }
+			remove_country_leader_role = { ideology = authoritarian_democrat_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = authdem_national_conservative_subtype }
+			remove_country_leader_role = { ideology = authdem_national_conservative_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = auth_duumvirism_subtype }
+			remove_country_leader_role = { ideology = auth_duumvirism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = police_state_subtype }
+			remove_country_leader_role = { ideology = police_state_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = authdem_junta_subtype }
+			remove_country_leader_role = { ideology = authdem_junta_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = authdem_warlordism_subtype }
+			remove_country_leader_role = { ideology = authdem_warlordism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = colonial_govt_subtype }
+			remove_country_leader_role = { ideology = colonial_govt_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = oligarchy_subtype }
+			remove_country_leader_role = { ideology = oligarchy_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = prussian_constitutionalism_subtype }
+			remove_country_leader_role = { ideology = prussian_constitutionalism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = controlled_democracy_subtype }
+			remove_country_leader_role = { ideology = controlled_democracy_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = hetmanism_subtype }
+			remove_country_leader_role = { ideology = hetmanism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = authdem_revolution_nationale_subtype }
+			remove_country_leader_role = { ideology = authdem_revolution_nationale_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = authdem_christian_democracy_subtype }
+			remove_country_leader_role = { ideology = authdem_christian_democracy_subtype }
+		}
+	}
+}
+
+remove_country_leader_role_paternal_autocrat = {
+	if = {
+		limit = { has_ideology_group = paternal_autocrat }
+		
+		if = {
+			limit = { has_ideology = paternal_autocrat_subtype }
+			remove_country_leader_role = { ideology = paternal_autocrat_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = absolute_mon_subtype }
+			remove_country_leader_role = { ideology = absolute_mon_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = pat_duumvirism_subtype }
+			remove_country_leader_role = { ideology = pat_duumvirism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = samurai_dictatorship_subtype }
+			remove_country_leader_role = { ideology = samurai_dictatorship_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = junta_subtype }
+			remove_country_leader_role = { ideology = junta_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = autocratic_colonial_govt_subtype }
+			remove_country_leader_role = { ideology = autocratic_colonial_govt_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = pataut_warlordism_subtype }
+			remove_country_leader_role = { ideology = pataut_warlordism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = caudillo_populism_subtype }
+			remove_country_leader_role = { ideology = caudillo_populism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = corporatocracy_subtype }
+			remove_country_leader_role = { ideology = corporatocracy_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = pataut_legionarism_subtype }
+			remove_country_leader_role = { ideology = pataut_legionarism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = ukrainian_nationalism_subtype }
+			remove_country_leader_role = { ideology = ukrainian_nationalism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = revolution_nationale_subtype }
+			remove_country_leader_role = { ideology = revolution_nationale_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = theocracy_subtype }
+			remove_country_leader_role = { ideology = theocracy_subtype }
+		}
+	}
+}
+
+remove_country_leader_role_national_populist = {
+	if = {
+		limit = { has_ideology_group = national_populist }
+		
+		if = {
+			limit = { has_ideology = national_populist_subtype }
+			remove_country_leader_role = { ideology = national_populist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = statist_showaist_subtype }
+			remove_country_leader_role = { ideology = statist_showaist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = legionarism_subtype }
+			remove_country_leader_role = { ideology = legionarism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = integralism_subtype }
+			remove_country_leader_role = { ideology = integralism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = klan_nationalism_subtype }
+			remove_country_leader_role = { ideology = klan_nationalism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = ukrainian_national_integralism_subtype }
+			remove_country_leader_role = { ideology = ukrainian_national_integralism_subtype }
+		}
+	}
+}
+
+remove_country_leader_role_valkist = {
+	if = {
+		limit = { has_ideology_group = valkist }
+		
+		if = {
+			limit = { has_ideology = valkist_subtype }
+			remove_country_leader_role = { ideology = valkist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = panasian_nichirenist_subtype }
+			remove_country_leader_role = { ideology = panasian_nichirenist_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = occultism_subtype }
+			remove_country_leader_role = { ideology = occultism_subtype }
+		}
+		else_if = {
+			limit = { has_ideology = val_legionarism_subtype }
+			remove_country_leader_role = { ideology = val_legionarism_subtype }
+		}
+	}
+}
+
+#used when transferring characters between tags
+promote_to_field_marshal = {
+	hidden_effect = {
+		if = {
+			limit = {
+				is_army_leader = yes
+				is_field_marshal = no
+			}
+			promote_leader = yes
+			remove_trait = { trait = recently_promoted }
+		}
+	}
+}
+
+#used when transferring characters between tags
+demote_to_general = {
+	hidden_effect = {
+		if = {
+			limit = {
+				is_army_leader = yes
+				is_field_marshal = yes
+			}
+			demote_leader = yes
+			remove_trait = { trait = recently_promoted }
+		}
+	}
+}
+
+character_becomes_leader_of_ruling_party_effect_tooltip = {
+	effect_tooltip = {
+		meta_effect = {
+			text = {
+				add_country_leader_role = {
+					country_leader = { ideology = [IDEOLOGY] }
+					promote_leader = yes
+				}
+			}
+			IDEOLOGY = "[PREV.PREV.GetRulingIdeologySubtype]"
+		}
+	}
+}

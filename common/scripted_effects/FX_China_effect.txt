@@ -1,0 +1,115 @@
+######Zhili Provinces Array Set######
+CHI_set_zhili_provinces = {
+	every_controlled_state = {
+		limit = {
+			OR = {
+				state = 600
+				state = 595
+				state = 1028
+				state = 1027
+				state = 1026
+				state = 1025
+				state = 596
+				state = 606
+				state = 934
+				state = 598
+				state = 895
+				state = 613
+			}
+		}
+		add_to_array = { 
+			array = ROOT.Zhili_Province 
+		}
+	}
+}
+CHI_set_zhili_provinces_claim = {
+	hidden_effect = {
+		CHI_set_zhili_provinces = yes
+		for_each_scope_loop = {
+			array = ROOT.Zhili_Province
+			add_claim_by = ZHI
+		}
+	}
+}
+CHI_zhili_dominant_china_state_claim = {
+	for_each_scope_loop = {
+		array = CHI.core_states
+		add_claim_by = ZHI
+	}
+}
+######Chinese Clique Array Set######
+CHI_set_clique = {
+	every_country = {
+		limit = { is_chinese_tag = yes }
+		add_to_array = { 
+			array = global.Chinese_clique
+		}
+	}
+}
+CHI_remove_core_and_claim_from_dead_clique = {
+	hidden_effect = {
+		every_state = {
+			limit = {
+				any_of = {
+					array = global.Chinese_clique
+					OR = {
+						is_claimed_by = var:v
+						is_core_of = var:v
+					}
+					var:v = {
+						exists = no
+					}
+				}
+			}
+			for_each_scope_loop = {
+				array = global.Chinese_clique
+				if = {
+					limit = { exists = no }
+					remove_state_claim = PREV
+					if = {
+						limit = { check_variable = { PREV.core_countries^num > 1 } }
+						remove_state_core = PREV
+					}
+				}
+			}
+		}
+	}
+}
+######National Assembly Calculation######
+CHI_national_assembly_calculation_in_China = {
+	every_controlled_state = {
+		limit = { is_controlled_by = CHI }
+		CHI = {
+			set_variable = { CHIPop = PREV.state_population }
+			multiply_variable = { CHIPop = -1 }
+			divide_variable = { CHIPop = 100000 }
+			round_variable = CHIPop
+		}
+	}
+	###KMT 
+	set_temp_variable = { GovPop = ROOT.party_popularity@authoritarian_democrat }
+	multiply_temp_variable = { GovPop = 100 }
+	multiply_temp_variable = { GovPop = CHIPop }
+	set_variable = { KMTMemberAssembly = GovPop }
+	round_variable = KMTMemberAssembly
+	###Zhili 
+	set_temp_variable = { ZhiliPop = ROOT.party_popularity@paternal_autocrat }
+	multiply_temp_variable = { ZhiliPop = 100 }
+	multiply_temp_variable = { ZhiliPop = CHIPop }
+	set_variable = { JGDMemberAssembly = ZhiliPop }
+	round_variable = JGDMemberAssembly
+}
+CHI_set_quorum_presidential_election_win = {
+	every_controlled_state = {
+		limit = { is_controlled_by = CHI }
+		CHI = {
+			set_variable = { CHIPop = PREV.state_population }
+			multiply_variable = { CHIPop = -1 }
+			divide_variable = { CHIPop = 1000 }
+			round_variable = CHIPop
+		}
+	}
+	set_variable = { PresidentialQuorum = CHIPop }
+	multiply_variable = { PresidentialQuorum = 0.6 }
+	round_variable = PresidentialQuorum
+}

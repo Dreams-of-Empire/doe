@@ -1,0 +1,21 @@
+scripted_gui = {
+	KR_welcome_splash = {
+		context_type = player_context
+		window_name = "FX_intro_window_container"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			is_ai = no
+			has_country_flag = show_intro_gui
+		}
+
+		effects = {
+			mod_options_button_click = {
+				clr_country_flag = show_intro_gui
+			}
+		}
+	}
+}

@@ -1,0 +1,629 @@
+#	Various useful scripted effects
+#
+#	Credit to the KR team, by Rylock
+#	Changed to fit FR's ideologies and other tweaks by Arser
+
+increase_mobilization = {
+	if = {
+		limit = { has_idea = civilian_economy }
+		swap_ideas = {
+			remove_idea = civilian_economy
+			add_idea = low_economic_mobilisation
+		}
+	}
+	else_if = {
+		limit = { has_idea = low_economic_mobilisation }
+		swap_ideas = {
+			remove_idea = low_economic_mobilisation
+			add_idea = partial_economic_mobilisation
+		}
+	}
+	else_if = {
+		limit = { has_idea = partial_economic_mobilisation }
+		swap_ideas = {
+			remove_idea = partial_economic_mobilisation
+			add_idea = war_economy
+		}
+	}
+}
+
+# removes the country in scope from all wars (separately - it won't end the wars)
+separate_peace_all_wars = {
+  if = {
+    limit = { has_war = yes }
+    custom_effect_tooltip = FX_separate_peace
+		hidden_effect = {
+			save_event_target_as = peace_country
+
+			# first peace out with faction leaders
+			every_enemy_country = {
+				limit = {
+					is_faction_leader = yes
+				}
+				event_target:peace_country = { white_peace = PREV }
+			}
+
+			# then all non-puppets whose faction leaders aren't in the war
+			every_enemy_country = {
+				limit = {
+					is_subject = no
+					is_in_faction = yes
+					faction_leader = { NOT = { has_war_with = ROOT } }
+				}
+				event_target:peace_country = { white_peace = PREV }
+			}
+
+			# then all non-puppets who aren't in factions
+			every_enemy_country = {
+				limit = {
+					is_subject = no
+					is_in_faction = no
+				}
+				event_target:peace_country = { white_peace = PREV }
+			}
+
+			# then all puppets whose overlords aren't in the war
+			every_enemy_country = {
+				limit = {
+					is_subject = yes
+					overlord = { NOT = { has_war_with = ROOT } }
+				}
+				event_target:peace_country = { white_peace = PREV }
+			}
+		}
+  }
+}
+
+# removes all current ministers for the country in scope - no tooltips displayed
+remove_every_minister = {
+	hidden_effect = {
+		remove_every_hog_trait = yes
+		remove_every_for_trait = yes
+		remove_every_eco_trait = yes
+		remove_every_sec_trait = yes
+	}
+}
+
+# removes all ministers but the Head of Government 
+remove_every_minister_but_hog = {
+	hidden_effect = {
+		remove_every_for_trait = yes
+		remove_every_eco_trait = yes
+		remove_every_sec_trait = yes
+	}
+}
+
+# changes the government of the country in scope to that of ROOT (the country running the event)
+copy_government_of_ROOT = {
+	if = {
+		limit = { ROOT = { has_government = vanguardist } }
+		set_politics = { ruling_party = vanguardist elections_allowed = no }
+	}
+	if = {
+		limit = { ROOT = { has_government = collectivist } }
+		set_politics = { ruling_party = collectivist elections_allowed = no }
+	}
+	if = {
+		limit = { ROOT = { has_government = libertarian_socialist } }
+		set_politics = { ruling_party = libertarian_socialist elections_allowed = no }
+	}
+	if = {
+		limit = { ROOT = { has_government = social_democrat } }
+		set_politics = { ruling_party = social_democrat elections_allowed = no }
+	}
+	if = {
+		limit = { ROOT = { has_government = social_liberal } }
+		set_politics = { ruling_party = social_liberal elections_allowed = no }
+	}
+	if = {
+		limit = { ROOT = { has_government = market_liberal } }
+		set_politics = { ruling_party = market_liberal elections_allowed = no }
+	}
+	if = {
+		limit = { ROOT = { has_government = social_conservative } }
+		set_politics = { ruling_party = social_conservative elections_allowed = no }
+	}
+	if = {
+		limit = { ROOT = { has_government = authoritarian_democrat } }
+		set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
+	}
+	if = {
+		limit = { ROOT = { has_government = paternal_autocrat } }
+		set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
+	}
+	if = {
+		limit = { ROOT = { has_government = national_populist } }
+		set_politics = { ruling_party = national_populist elections_allowed = no }
+	}
+	if = {
+		limit = { ROOT = { has_government = valkist } }
+		set_politics = { ruling_party = valkist elections_allowed = no }
+	}
+}
+
+copy_government_idea_of_ROOT = {
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = direct_democracy
+			}
+		}
+		add_ideas = direct_democracy
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = presidential_republic
+			}
+		}
+		add_ideas = presidential_republic
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = semi_presidential_republic
+			}
+		}
+		add_ideas = semi_presidential_republic
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = parliamentary_republic
+			}
+		}
+		add_ideas = parliamentary_republic
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = republican_dictatorship
+			}
+		}
+		add_ideas = republican_dictatorship
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = theocratic_republic
+			}
+		}
+		add_ideas = theocratic_republic
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = theocratic_dictatorship
+			}
+		}
+		add_ideas = theocratic_dictatorship
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = one_party_dictatorship
+			}
+		}
+		add_ideas = one_party_dictatorship
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = workers_republic
+			}
+		}
+		add_ideas = workers_republic
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = communist_state
+			}
+		}
+		add_ideas = communist_state
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = colonial_government
+			}
+		}
+		add_ideas = colonial_government
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = absolute_monarchy
+			}
+		}
+		add_ideas = absolute_monarchy
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = constitutional_monarchy
+			}
+		}
+		add_ideas = constitutional_monarchy
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = elective_monarchy
+			}
+		}
+		add_ideas = elective_monarchy
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = military_junta
+			}
+		}
+		add_ideas = military_junta
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = revolutionary_movement
+			}
+		}
+		add_ideas = revolutionary_movement
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_idea = generic_government
+			}
+		}
+		add_ideas = generic_government
+	}
+}
+
+# the following effects are excellent for preserving a puppet's government so it doesn't change to the overlord
+# use the first command in the scope of the about-to-be-puppeted country right before the puppet command is executed
+# and then the second, also in the scope of the puppet, right after
+get_current_government_type = {
+	clr_country_flag = was_libertarian_socialist
+	clr_country_flag = was_collectivist
+	clr_country_flag = was_vanguardist
+	clr_country_flag = was_social_democrat
+	clr_country_flag = was_social_liberal
+	clr_country_flag = was_market_liberal
+	clr_country_flag = was_social_conservative
+	clr_country_flag = was_authoritarian_democrat
+	clr_country_flag = was_paternal_autocrat
+	clr_country_flag = was_national_populist
+	clr_country_flag = was_valkist
+
+	set_variable = { var = libsoc value = party_popularity@libertarian_socialist }
+	set_variable = { var = collie value = party_popularity@collectivist }
+	set_variable = { var = vang value = party_popularity@vanguardist }
+	set_variable = { var = socdem value = party_popularity@social_democrat }
+	set_variable = { var = soclib value = party_popularity@social_liberal }
+	set_variable = { var = marklib value = party_popularity@market_liberal }
+	set_variable = { var = soccon value = party_popularity@social_conservative }
+	set_variable = { var = authdem value = party_popularity@authoritarian_democrat }
+	set_variable = { var = pataut value = party_popularity@paternal_autocrat }
+	set_variable = { var = natpop value = party_popularity@national_populist }
+	set_variable = { var = valk value = party_popularity@valkist }
+
+	if = {
+		limit = { has_government = libertarian_socialist }
+		set_country_flag = was_libertarian_socialist
+	}
+	if = {
+		limit = { has_government = collectivist }
+		set_country_flag = was_collectivist
+	}
+	if = {
+		limit = { has_government = vanguardist }
+		set_country_flag = was_vanguardist
+	}
+	if = {
+		limit = { has_government = social_democrat }
+		set_country_flag = was_social_democrat
+	}
+	if = {
+		limit = { has_government = social_liberal }
+		set_country_flag = was_social_liberal
+	}
+	if = {
+		limit = { has_government = market_liberal }
+		set_country_flag = was_market_liberal
+	}
+	if = {
+		limit = { has_government = social_conservative }
+		set_country_flag = was_social_conservative
+	}
+	if = {
+		limit = { has_government = authoritarian_democrat }
+		set_country_flag = was_authoritarian_democrat
+	}
+	if = {
+		limit = { has_government = paternal_autocrat }
+		set_country_flag = was_paternal_autocrat
+	}
+	if = {
+		limit = { has_government = national_populist }
+		set_country_flag = was_national_populist
+	}
+	if = {
+		limit = { has_government = valkist }
+		set_country_flag = was_valkist
+	}
+}
+
+restore_previous_government_type = {
+	hidden_effect = {
+		if = {
+			limit = { has_country_flag = was_libertarian_socialist }
+			set_politics = { ruling_party = libertarian_socialist }
+		}
+		if = {
+			limit = { has_country_flag = was_collectivist }
+			set_politics = { ruling_party = collectivist }
+		}
+		if = {
+			limit = { has_country_flag = was_vanguardist }
+			set_politics = { ruling_party = vanguardist }
+		}
+		if = {
+			limit = { has_country_flag = was_social_democrat }
+			set_politics = { ruling_party = social_democrat }
+		}
+		if = {
+			limit = { has_country_flag = was_social_liberal }
+			set_politics = { ruling_party = social_liberal }
+		}
+		if = {
+			limit = { has_country_flag = was_market_liberal }
+			set_politics = { ruling_party = market_liberal }
+		}
+		if = {
+			limit = { has_country_flag = was_social_conservative }
+			set_politics = { ruling_party = social_conservative }
+		}
+		if = {
+			limit = { has_country_flag = was_authoritarian_democrat }
+			set_politics = { ruling_party = authoritarian_democrat }
+		}
+		if = {
+			limit = { has_country_flag = was_paternal_autocrat }
+			set_politics = { ruling_party = paternal_autocrat }
+		}
+		if = {
+			limit = { has_country_flag = was_national_populist }
+			set_politics = { ruling_party = national_populist }
+		}
+		if = {
+			limit = { has_country_flag = was_valkist }
+			set_politics = { ruling_party = valkist }
+		}
+		add_popularity = { ideology = libertarian_socialist popularity = -1.0 }
+		add_popularity = { ideology = libertarian_socialist popularity = libsoc }
+		add_popularity = { ideology = collectivist popularity = -1.0 }
+		add_popularity = { ideology = collectivist popularity = collie }
+		add_popularity = { ideology = vanguardist popularity = -1.0 }
+		add_popularity = { ideology = vanguardist popularity = vang }
+		add_popularity = { ideology = social_democrat popularity = -1.0 }
+		add_popularity = { ideology = social_democrat popularity = socdem }
+		add_popularity = { ideology = social_liberal popularity = -1.0 }
+		add_popularity = { ideology = social_liberal popularity = soclib }
+		add_popularity = { ideology = market_liberal popularity = -1.0 }
+		add_popularity = { ideology = market_liberal popularity = marklib }
+		add_popularity = { ideology = social_conservative popularity = -1.0 }
+		add_popularity = { ideology = social_conservative popularity = soccon }
+		add_popularity = { ideology = authoritarian_democrat popularity = -1.0 }
+		add_popularity = { ideology = authoritarian_democrat popularity = authdem }
+		add_popularity = { ideology = paternal_autocrat popularity = -1.0 }
+		add_popularity = { ideology = paternal_autocrat popularity = pataut }
+		add_popularity = { ideology = national_populist popularity = -1.0 }
+		add_popularity = { ideology = national_populist popularity = natpop }
+		add_popularity = { ideology = valkist popularity = -1.0 }
+		add_popularity = { ideology = valkist popularity = valk }
+
+		clear_variable = libsoc
+		clear_variable = collie
+		clear_variable = valk
+		clear_variable = socdem
+		clear_variable = soclib
+		clear_variable = marklib
+		clear_variable = soccon
+		clear_variable = authdem
+		clear_variable = pataut
+		clear_variable = natpop
+		clear_variable = valk
+	}
+}
+
+force_recalculate_factories = {
+	hidden_effect = {
+		if = {
+			limit = { has_idea = undisturbed_isolation }
+			add_ideas = isolation
+			add_ideas = undisturbed_isolation
+		}
+		else_if = {
+			limit = { has_idea = isolation }
+			add_ideas = civilian_economy
+			add_ideas = isolation
+		}
+		else_if = {
+			limit = { has_idea = civilian_economy }
+			add_ideas = low_economic_mobilisation
+			add_ideas = civilian_economy
+		}
+		else_if = {
+			limit = { has_idea = low_economic_mobilisation }
+			add_ideas = partial_economic_mobilisation
+			add_ideas = low_economic_mobilisation
+		}
+		else_if = {
+			limit = { has_idea = partial_economic_mobilisation }
+			add_ideas = war_economy
+			add_ideas = partial_economic_mobilisation
+		}
+		else_if = {
+			limit = { has_idea = war_economy }
+			add_ideas = tot_economic_mobilisation
+			add_ideas = war_economy
+		}
+		else_if = {
+			limit = { has_idea = tot_economic_mobilisation }
+			add_ideas = war_economy
+			add_ideas = tot_economic_mobilisation
+		}
+	}
+}
+
+embargo_ROOT = {
+	add_opinion_modifier = {
+		modifier = embargo
+		target = ROOT
+	}
+	reverse_add_opinion_modifier = {
+		modifier = embargo
+		target = ROOT
+	}
+}
+
+clear_embargo_ROOT = {
+	remove_opinion_modifier = {
+		modifier = embargo
+		target = ROOT
+	}
+	ROOT = {
+		remove_opinion_modifier = {
+			modifier = embargo
+			target = PREV
+		}
+	}
+}
+
+embargo_PREV = {
+	add_opinion_modifier = {
+		modifier = embargo
+		target = PREV
+	}
+	reverse_add_opinion_modifier = {
+		modifier = embargo
+		target = PREV
+	}
+}
+
+clear_embargo_PREV = {
+	remove_opinion_modifier = {
+		modifier = embargo
+		target = PREV
+	}
+	PREV = {
+		remove_opinion_modifier = {
+			modifier = embargo
+			target = PREV
+		}
+	}
+}
+
+embargo_FROM = {
+	add_opinion_modifier = {
+		modifier = embargo
+		target = FROM
+	}
+	reverse_add_opinion_modifier = {
+		modifier = embargo
+		target = FROM
+	}
+}
+
+clear_embargo_FROM = {
+	remove_opinion_modifier = {
+		modifier = embargo
+		target = FROM
+	}
+	FROM = {
+		remove_opinion_modifier = {
+			modifier = embargo
+			target = PREV
+		}
+	}
+}
+
+
+destroy_all_ships = {
+	destroy_ships = {
+		type = ship_hull_light
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_cruiser
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_cruiser_panzerschiff
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_cruiser_coastal_defense_ship
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_pre_dreadnought
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_heavy
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_super_heavy_1
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_submarine
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_cruiser_submarine
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_carrier
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_carrier_conversion_bb
+		count = all
+	}
+	destroy_ships = {
+		type = ship_hull_carrier_conversion_ca
+		count = all
+	}
+}
+
+# To quickly become government in exile through console, do: `e become_goi`
+# become_goi = {
+# 	become_exiled_in = {
+# 		target = GER
+# 		legitimacy = 10	
+# 	}
+# }
+
+# changes the popularites of the country in scope to that of ROOT (the country running the event)
+copy_popularities_of_ROOT = {
+	hidden_effect = {
+		set_popularities = {
+			vanguardist = ROOT.party_popularity_100@vanguardist
+			collectivist = ROOT.party_popularity_100@collectivist
+			libertarian_socialist = ROOT.party_popularity_100@libertarian_socialist
+			social_democrat = ROOT.party_popularity_100@social_democrat
+			social_liberal = ROOT.party_popularity_100@social_liberal
+			market_liberal = ROOT.party_popularity_100@market_liberal
+			social_conservative = ROOT.party_popularity_100@social_conservative
+			authoritarian_democrat = ROOT.party_popularity_100@authoritarian_democrat
+			paternal_autocrat = ROOT.party_popularity_100@paternal_autocrat
+			national_populist = ROOT.party_popularity_100@national_populist
+			valkist = ROOT.party_popularity_100@valkist
+		}
+	}
+}

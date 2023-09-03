@@ -1,0 +1,22 @@
+ARB_foreign_weapons_imports = {
+  allowed = { original_tag = ARB }
+  visible = { has_completed_focus = ARB_weapons_imports }
+  icon = GFX_decision_category_generic_economy
+  
+  priority = 80
+}
+
+ARB_war_of_arabian_reunification = {
+  allowed = { original_tag = ARB }
+  visible = { has_country_flag = ARB_revolt }
+  icon = GFX_decisions_cat_unification_hashemite
+  picture = GFX_decision_cat_generic_arabia
+  priority = 80
+  visible_when_empty = yes
+}
+
+ARB_british_mandate = {
+  allowed = { original_tag = ARB }
+  icon = GFX_decisions_cat_british_mandate
+  priority = 100
+}

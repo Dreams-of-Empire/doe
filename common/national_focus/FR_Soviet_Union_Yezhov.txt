@@ -1,0 +1,290 @@
+#####################
+# Soviet Focus Tree #
+#################################
+# Coded by fbruchmueller #
+#################################
+
+focus_tree = {
+	id = sov_focus_yezhov
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = SOV
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+    shared_focus = SOV_red_army
+    shared_focus = SOV_airforce
+    shared_focus = SOV_red_fleet
+    shared_focus = SOV_kickstart_industrialization 
+       	
+	focus = {	
+		id = SOV_Premier_Yezhov
+		icon = GFX_goal_premier_Yezhov
+		available = {
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Premier_Yezhov"
+	     	add_political_power = 30
+		}
+	}
+
+	focus = {	
+		id = SOV_grand_cleanse
+		icon = GFX_goal_purge_opposition
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Yezhov 
+		}
+		bypass = {
+			always = yes
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_Premier_Yezhov
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_grand_cleanse"
+		}
+	}
+
+
+	focus = {	
+		id = SOV_public_executions
+		icon = GFX_reign_of_terror
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_grand_cleanse 
+		}
+		bypass = {
+		}	
+		x = -2
+		y = 1
+		relative_position_id = SOV_grand_cleanse
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_public_executions"
+			add_stability = 0.10
+		}
+	}
+
+	focus = {	
+		id = SOV_wither_away_education
+		icon = GFX_goal_SOV_Village_Education
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_grand_cleanse 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_grand_cleanse
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_wither_away_education"
+			add_ideas = SOV_village_education
+	     	SOV_reduce_industrilization = yes
+	     	hidden_effect = {
+	     		country_event = {
+	     			id = sovietpol.1337
+	     			days = 30
+	     		}
+	     	}
+		}
+	}
+
+	focus = {	
+		id = SOV_end_freedom_movement
+		icon = GFX_goal_SOV_End_Freedom_of_Movement
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_grand_cleanse 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_grand_cleanse
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_end_freedom_movement"
+			increase_ruling_party_popularity_by_10 = yes
+			set_country_flag = SOV_internal_passport_flag
+			custom_effect_tooltip = SOV_internal_passport
+		}
+	}
+
+	focus = {	
+		id = SOV_control_children
+		icon = GFX_goal_SOV_Children
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_end_freedom_movement 
+		}
+		prerequisite = { 
+		    focus = SOV_wither_away_education 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_end_freedom_movement
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_control_children"
+			swap_ideas = {
+				remove_idea = SOV_village_education
+				add_idea = SOV_state_controlled_youth
+			}
+		}
+	}
+
+	focus = {	
+		id = SOV_state_atheism
+		icon = GFX_goal_MAF_Kulturkampf
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_public_executions 
+		}
+		prerequisite = { 
+		    focus = SOV_wither_away_education 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_wither_away_education
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_state_atheism"
+			increase_ruling_party_popularity_by_10 = yes
+			hidden_effect = {
+				country_event = {
+					id = sovietpol.1338
+					days = 15
+				}
+			}
+		}
+	}
+
+	focus = {	
+		id = SOV_hang_up_portraits
+		icon = GFX_goal_SOV_Hang_up_Portraits
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_state_atheism 
+		}
+		prerequisite = { 
+		    focus = SOV_control_children 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_control_children
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_hang_up_portraits"
+			add_political_power = 50
+			add_stability = 0.10
+		}
+	}
+
+	focus = {	
+		id = SOV_yezhov_constitution
+		icon = GFX_goal_OTT_constitution
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_hang_up_portraits 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_hang_up_portraits
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_yezhov_constitution"
+			add_political_power = 150
+		}
+	}
+
+	focus = {	
+		id = SOV_carrot_and_stick_reforms
+		icon = GFX_goal_SOV_Carrot_and_Stick
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_hang_up_portraits 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_hang_up_portraits
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_carrot_and_stick_reforms"
+			custom_effect_tooltip = SOV_carrot_stick_reforms
+	     	SOV_reduce_industrilization = yes
+		}
+	}
+}

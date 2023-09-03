@@ -1,0 +1,160 @@
+MAN_one_china_policy = {
+     MAN_the_forging_of_a_new_china = {
+
+          cost = 100
+
+          available = {
+            OR = {
+            has_completed_focus = MAN_syncretic_statehood
+            has_completed_focus = MAN_the_de_facto_chinese_state
+            has_completed_focus = MAN_transforming_china
+            has_completed_focus = MAN_the_next_stage_for_china
+            has_completed_focus = MAN_the_power_of_the_east
+            }
+            ZHI = { exists = no }
+      			CHI = { exists = no }
+      			GXC = { exists = no }
+      			SCH = { exists = no }
+      			YUN = { exists = no }
+      			NOT = {
+      			has_war_with = JAP
+      			}
+          }
+
+          visible = {
+               tag = MAN
+          }
+
+          fire_only_once = yes
+
+          ai_will_do = {
+      			factor = 100
+      		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision MAN_the_forging_of_a_new_china"
+          add_war_support = 0.05
+
+          custom_effect_tooltip = 19_MAN_tt
+
+          if = {
+            limit = {
+              AND = {
+                JAP = {
+                  has_country_flag = JAP_support_ZHI
+                }
+                has_completed_focus = MAN_the_de_facto_chinese_state
+              }
+            }
+            set_cosmetic_tag = MAN_PAJV
+          }
+
+          if = {
+            limit = {
+              AND = {
+                JAP = {
+                  has_country_flag = JAP_support_MAN
+                }
+                has_completed_focus = MAN_syncretic_statehood
+                }
+            }
+            set_cosmetic_tag = MAN_PPJV
+          }
+
+          if = {
+            limit = {
+              AND = {
+                JAP = {
+                  has_country_flag = JAP_support_MAN
+                }
+                has_completed_focus = MAN_transforming_china
+                }
+            }
+            set_cosmetic_tag = MAN_IPJV
+          }
+
+          if = {
+            limit = {
+              AND = {
+                JAP = {
+                  has_country_flag = JAP_support_ZHI
+                }
+                has_completed_focus = MAN_the_next_stage_for_china
+                }
+            }
+            set_cosmetic_tag = MAN_IAJV
+          }
+
+          if = {
+            limit = {
+              AND = {
+                is_puppet_of = JAP
+                has_completed_focus = MAN_the_power_of_the_east
+                }
+            }
+            set_cosmetic_tag = MAN_PJMPJ
+          }
+
+          if = {
+            limit = {
+              AND = {
+                NOT = {
+                  is_puppet_of = JAP
+                }
+                has_completed_focus = MAN_the_power_of_the_east
+                }
+            }
+            set_cosmetic_tag = MAN_PJMAJ
+          }
+
+      	}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove MAN_the_forging_of_a_new_china"
+      		}
+
+     }
+
+}
+
+MAN_our_china_one_china = {
+     MAN_death_to_pretenders = {
+
+          cost = 50
+
+          available = {
+            OR = {
+            has_completed_focus = MAN_battle_for_northern_china
+            has_completed_focus = MAN_breaking_free
+            has_completed_focus = MAN_seeking_protection
+            }
+          }
+
+          visible = {
+               tag = MAN
+               has_completed_focus = MAN_fengtian_stands_alone
+          }
+
+          fire_only_once = yes
+
+	  days_remove = 20
+
+    	  war_with_on_remove = ZHI
+
+          ai_will_do = {
+      			factor = 100
+      		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision MAN_death_to_pretenders"
+
+           		declare_war_on = {
+              			target = ZHI
+          			type = annex_everything
+        		}
+	
+      	}
+
+     }
+
+}

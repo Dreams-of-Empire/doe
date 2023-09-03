@@ -1,0 +1,4 @@
+﻿l_english:
+unlock_focuses: "§GThis focus will eventually be automatically bypassed and will unlock the other focuses§!"
+tooltip_focus_unlocked_by_event: "§GThis focus will be automatically unlocked via event§!"
+enables_new_focus_branches: "Enables new focus branches"

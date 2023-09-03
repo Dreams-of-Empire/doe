@@ -1,0 +1,22 @@
+#####################
+#   Zhili Focus Tree#
+#      By Thymos	#
+#####################
+focus_tree = {
+	id = FR_Zhili_base
+	country = {
+		factor = 0
+		modifier = {
+			add = 50
+			tag = ZHI
+		}
+	}
+  continuous_focus_position = { x = 50 y = 2000 }
+
+    shared_focus = ZHI_MAIN_far_east
+    shared_focus = ZHI_further_improvement
+    shared_focus = ZHI_MIL_traitors
+    shared_focus = ZHI_jade_emperor_domain
+    shared_focus = ZHI_dragon_of_eastern_sea
+    shared_focus = ZHI_MAIN_broken_jewel
+}

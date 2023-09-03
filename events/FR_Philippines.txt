@@ -1,0 +1,3071 @@
+# Philippine Events
+# created by: dax0102
+
+add_namespace = philippines
+
+country_event = { # The Pearl of the Orient, 1936
+  id = philippines.0
+  title = philippines.0.t
+  desc = philippines.0.d
+  picture = GFX_report_event_PHI_intro
+  is_triggered_only = yes
+  
+  option = { # Mabuhay ang Pilipinas!
+    name = philippines.0.a
+  }
+}
+
+country_event = { # Independence At Last
+  id = philippines.1
+  title = philippines.1.t
+  desc = philippines.1.d
+  picture = GFX_report_event_PHI_independence
+  is_triggered_only = yes
+
+  option = { # Mabuhay ang Pilipinas!
+    name = philippines.1.a
+    drop_cosmetic_tag = yes
+    USA = {
+      diplomatic_relation = { country = PHI relation = non_aggression_pact }
+    }
+    hidden_effect = {
+      random_other_country = {
+        news_event = { id = fxnews.1 days = 2 }
+      }
+    }
+  }
+}
+
+country_event = { # An Open Door Policy?
+  id = philippines.2
+  title = philippines.2.t
+  desc = philippines.2.d
+  picture = GFX_report_event_GER_konrad_henlein
+  fire_only_once = yes
+
+  trigger = {
+    tag = PHI
+    GER = { has_completed_focus = GER_form_govt }
+  }
+
+  option = { # Give them the entry visas
+    name = philippines.2.a
+    add_political_power = -50
+    add_timed_idea = {
+      idea = PHI_german_refugees
+      days = 480
+    }
+    set_country_flag = PHI_has_open_door_policy
+    hidden_effect = {
+      country_event = { id = philippines.3 days = 12 }
+    }
+  }
+  option = { # We have more problems to deal with
+    name = philippines.2.b
+    add_stability = -0.05
+    hidden_effect = {
+      country_event = { id = philippines.3 days = 12 }
+    }
+  }
+}
+
+country_event = { # Aguinaldo Critises the Government
+  id = philippines.3
+  title = philippines.3.t
+  desc = {
+    text = philippines.3.d.1
+    trigger = { has_idea = PHI_german_refugees }
+  }
+  desc = {
+    text = philippines.3.d.2
+    trigger = {
+      NOT = { has_idea = PHI_german_refugees }
+    }
+  }
+  picture = GFX_report_event_PHI_aguinaldo_quezon
+  is_triggered_only = yes
+
+  option = { # Such hypocrite!
+    name = philippines.3.a
+  }
+}
+
+country_event = { # Investments in the Philippines?
+  id = philippines.4
+  title = philippines.4.t
+  desc = philippines.4.d
+  picture = GFX_report_event_generic_sign_treaty1
+  is_triggered_only = yes
+
+  option = { # 
+    name = philippines.4.a
+    FROM = { 
+      country_event = { id = philippines.5 days = 2 }
+      add_opinion_modifier = {
+        target = ROOT
+        modifier = PHI_provided_investment
+      }
+    }
+    hidden_effect = {
+      country_event = { id = philippines.8 days = 360 }
+    }
+  }
+  option = { # It's not worth it
+    name = philippines.4.b
+    FROM = { 
+      country_event = { id = philippines.6 days = 2 }
+    }
+  }
+}
+
+country_event = { # FROM invests in the Philippines
+  id = philippines.5
+  title = philippines.5.t
+  desc = philippines.5.d
+  picture = GFX_report_event_generic_sign_treaty1
+  is_triggered_only = yes
+
+  option = {
+    name = philippines.5.a
+    custom_effect_tooltip = PHI_companies_available_tt
+    FROM = { set_country_flag = PHI_investments }
+    add_offsite_building = {
+      type = industrial_complex
+      level = 1
+    }
+  }
+}
+
+country_event = { # FROM not invest in the Philippines
+  id = philippines.6
+  title = philippines.6.t
+  desc = philippines.6.d
+  picture = GFX_report_event_generic_sign_treaty1
+  is_triggered_only = yes
+
+  option = {
+    name = philippines.6.a
+  }
+}
+
+country_event = { # Removes investments from Philippines
+  id = philippines.7
+  title = philippines.7.t
+  desc = philippines.7.d
+  picture = GFX_report_event_generic_sign_treaty1
+  is_triggered_only = yes
+
+  option = {
+    name = philippines.7.a
+    hidden_effect = {
+      add_offsite_building = {
+        type = industrial_complex
+        level = -1
+      }
+    }
+  }
+}
+
+country_event = { # Profits from the Philippines
+  id = philippines.8
+  title = philippines.8.t
+  desc = philippines.8.d
+  picture = GFX_report_event_PHI_intro
+  is_triggered_only = yes
+
+  trigger = {
+    has_country_flag = PHI_investments
+  }
+
+  option = { # Let the money flow
+    name = philippines.8.a
+    add_offsite_building = {
+      type = industrial_complex
+      level = 1
+    }
+  }
+}
+
+country_event = { # The Envelope
+  id = philippines.9
+  title = philippines.9.t
+  desc = philippines.9.d
+  picture = GFX_report_event_PHI_aquino_speech
+  is_triggered_only = yes
+
+  option = { # Summon Aquino Now!
+    name = philippines.9.a
+    hidden_effect = {
+      country_event = { id = philippines.10 days = 7 }
+    }
+  }
+}
+
+country_event = { # The Arrival of the Crook
+  id = philippines.10
+  title = philippines.10.t
+  desc = philippines.10.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Let's hope this won't get ugly.
+    name = philippines.10.a
+    remove_ideas = PHI_Benigno_Aquino_Sr_eco_sco
+    add_ideas = PHI_Jose_G_David_eco_sco
+    hidden_effect = {
+      country_event = { id = philippines.11 days = 12 }
+    }
+  }
+}
+
+country_event = { # Sakdalista Popularity Growing
+  id = philippines.11
+  title = philippines.11.t
+  desc = philippines.11.d
+  picture = GFX_report_event_PHI_crowd_1
+  is_triggered_only = yes
+
+  option = { # Let's hope that their popularity stops rising
+    name = philippines.11.a
+    add_popularity = {
+      ideology = valkist
+      popularity = 0.05
+    }
+    hidden_effect = {
+      country_event = { id = philippines.12 days = 12 }
+    }
+  }
+}
+
+country_event = { # Aguinaldo Publishes Criticisms
+  id = philippines.12
+  title = philippines.12.t
+  desc = philippines.12.d
+  picture = GFX_report_event_PHI_crowd_2
+  is_triggered_only = yes
+
+  option = { # This old man won't keep mouth shut.
+    name = philippines.12.a
+    hidden_effect = {
+      country_event = { id = philippines.13 days = 42 }
+    }
+  }
+  option = { # He may have a point
+    name = philippines.12.b
+    add_popularity = {
+      ideology = authoritarian_democrat
+      popularity = 0.05
+    }
+    hidden_effect = {
+      country_event = { id = philippines.13 days = 42 }
+    }
+  }
+}
+
+country_event = { # Proclamation of the Liberal Party
+  id = philippines.13
+  title = philippines.13.t
+  desc = philippines.13.d
+  picture = GFX_report_event_PHI_roxas_quirino
+  is_triggered_only = yes
+
+  option = { # Dude... uncool...
+    name = philippines.13.a
+    end_coalition = yes 
+    hidden_effect = {
+      if = {
+        limit = {
+          has_country_flag = PHI_has_open_door_policy
+        }
+        country_event = {
+          id = philippines.14 days = 18
+        }
+      }
+
+      set_party_name = {
+        ideology = market_liberal
+        name = PHI_new_liberal_party
+        long_name = PHI_new_liberal_party_long
+      }
+      set_party_name = {
+        ideology = social_liberal
+        name = PHI_new_liberal_party
+        long_name = PHI_new_liberal_party_long
+      }
+    }
+  }
+}
+
+country_event = { # Roxas Advocates for Early Elections
+  id = philippines.14
+  title = philippines.14.t
+  desc = philippines.14.d
+  is_triggered_only = yes
+  picture = GFX_report_event_PHI_roxas_quirino
+
+  option = { # That's absurd!
+    name = philippines.14.a
+    hidden_effect = {
+      country_event = { id = philippines.15 days = 2 }
+    }
+  }
+}
+
+country_event = { # Aguinaldo Supports Early Elections
+  id = philippines.15
+  title = philippines.15.t
+  desc = philippines.15.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Just try and try Miong...
+    name = philippines.15.a
+    hidden_effect = {
+      country_event = { id = philippines.16 days = 4 }
+    }
+  }
+}
+
+country_event = { # Benigno Ramos Arrives from Tokyo
+  id = philippines.16
+  title = philippines.16.t
+  desc = philippines.16.d
+  picture = GFX_report_event_PHI_benigno_ramos
+  is_triggered_only = yes
+
+  option = { # Not you too...
+    name = philippines.16.a
+    hidden_effect = {
+      country_event = { id = philippines.17 days = 3 }
+    }
+  }
+}
+
+country_event = { # Government Response
+  id = philippines.17
+  title = philippines.17.t
+  desc = philippines.17.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Now we wait
+    name = philippines.17.a
+    hidden_effect = {
+      country_event = { id = philippines.18 days = 2 }
+    }
+  }
+}
+
+country_event = { # Anti-Government Protests in Tarlac
+  id = philippines.18
+  title = philippines.18.t
+  desc = philippines.18.d
+  picture = GFX_report_event_gathering_protest
+  is_triggered_only = yes
+
+  option = { # Oh no...
+    name = philippines.18.a
+    decrease_ruling_party_popularity_by_10 = yes
+  }
+}
+
+country_event = { # London Stock Market Crash
+  id = philippines.19
+  title = philippines.19.t
+  desc = philippines.19.d
+  picture = GFX_report_event_gathering_protest
+  is_triggered_only = yes
+
+  option = { # Diyos ko!
+    name = philippines.19.a
+    add_ideas = PHI_hindered_british_trade
+    hidden_effect = {
+      country_event = { id = philippines.20 days = 8 }
+    }
+  }
+}
+
+country_event = { # Protests in Manila
+  id = philippines.20
+  title = philippines.20.t
+  desc = philippines.20.d
+  picture = GFX_report_event_PHI_protests
+  is_triggered_only = yes
+
+  option = { # Let them protest
+    name = philippines.20.a
+    add_popularity = {
+      ideology = valkist
+      popularity = 0.05
+    }
+    add_popularity = {
+      ideology = authoritarian_democrat
+      popularity = 0.05
+    }
+    add_political_power = -100
+    hidden_effect = {
+      country_event = { id = philippines.23 days = 8 }
+    }
+  }
+  option = { # Try to talk to the protesters
+    name = philippines.20.b
+    add_political_power = -100
+    add_popularity = {
+      ideology = valkist
+      popularity = 0.05
+    }
+    add_popularity = {
+      ideology = authoritarian_democrat
+      popularity = 0.05
+    }
+    hidden_effect = {
+      country_event = { id = philippines.21 days = 8 }
+    }
+  }
+}
+
+country_event = { # Farmers Demands Government Help
+  id = philippines.21
+  title = philippines.21.t
+  desc = philippines.21.d
+  picture = GFX_report_event_PHI_protests
+  is_triggered_only = yes
+
+  option = { # Accept
+    name = philippines.21.a
+    add_timed_idea = {
+      idea = PHI_farmer_help
+      days = 30
+    }
+    hidden_effect = {
+      country_event = { id = philippines.22 days = 2 }
+    }
+  }
+  option = { # Refuse
+    name = philippines.21.b
+    add_stability = -0.15
+    add_popularity = {
+      ideology = social_democrat
+      popularity = 0.15
+    }
+    add_popularity = {
+      ideology = libertarian_socialist
+      popularity = 0.1
+    }
+    add_popularity = {
+      ideology = collectivist
+      popularity = 0.05
+    }
+    add_popularity = {
+      ideology = vanguardist
+      popularity = 0.05
+    }
+    hidden_effect = {
+      country_event = { id = philippines.23 days = 7 }
+    }
+  }
+}
+
+country_event = { # Protests Losing Momentum
+  id = philippines.22
+  title = philippines.22.t
+  desc = philippines.22.d
+  picture = GFX_report_event_PHI_protests
+  is_triggered_only = yes
+
+  option = { # Excellent
+    name = philippines.22.a
+    add_popularity = {
+      ideology = valkist
+      popularity = -0.05
+    }
+    add_popularity = {
+      ideology = authoritarian_democrat
+      popularity = -0.05
+    }
+  }
+}
+
+country_event = { # Protests Expands to Other Areas
+  id = philippines.23
+  title = philippines.23.t
+  desc = philippines.23.d
+  picture = GFX_report_event_PHI_quezon
+  is_triggered_only = yes
+
+  option = { # Evacuate the President, now!
+    name = philippines.23.a
+    add_popularity = {
+      ideology = authoritarian_democrat
+      popularity = 0.05
+    }
+    add_popularity = {
+      ideology = valkist
+      popularity = 0.05
+    }
+    hidden_effect = {
+      country_event = { id = philippines.24 days = 7 }
+    }
+  }
+
+  option = { # It will be fine...
+    name = philippines.23.b
+    hidden_effect = {
+      country_event = { id = philippines.101 days = 8 }
+    }
+  }
+}
+
+country_event = { # Scouts Expel Protesters in Mendiola
+  id = philippines.24
+  title = philippines.24.t
+  desc = philippines.24.d
+  picture = GFX_report_event_PHI_protests
+  is_triggered_only = yes
+
+  option = { # This is not good.
+    name = philippines.24.a
+    add_manpower = -50
+    add_popularity = {
+      ideology = libertarian_socialist
+      popularity = 0.1
+    }
+    add_popularity = {
+      ideology = collectivist
+      popularity = 0.05
+    }
+    add_popularity = {
+      ideology = vanguardist
+      popularity = 0.05
+    }
+    hidden_effect = {
+      set_country_flag = PHI_farmers_expelled
+      if = {
+        limit = {
+          NOT = { has_government = paternal_autocrat }
+        }
+        country_event = { id = philippines.25 days = 12 }
+      }
+    }
+  }
+}
+
+country_event = { # Roxas Calls for Investigation
+  id = philippines.25
+  title = philippines.25.t
+  desc = philippines.25.d
+  picture = GFX_report_event_PHI_roxas_quirino
+  is_triggered_only = yes
+
+  option = { # Just stop already...
+    name = philippines.25.a
+    add_popularity = {
+      ideology = market_liberal
+      popularity = 0.05
+    }
+    hidden_effect = {
+      country_event = { id = philippines.26 days = 7 }
+    }
+  }
+}
+
+country_event = { # Ramos and Aguinaldo Slams the Government
+  id = philippines.26
+  title = philippines.26.t
+  desc = philippines.26.d
+  picture = GFX_report_event_PHI_benigno_ramos
+  is_triggered_only = yes
+
+  option = { # Getting tired of their sh...
+    name = philippines.26.a
+    add_popularity = {
+      ideology = authoritarian_democrat
+      popularity = 0.05
+    }
+    add_popularity = {
+      ideology = valkist
+      popularity = 0.05
+    }
+    hidden_effect = {
+      country_event = { id = philippines.29 days = 7 }
+    }
+  }
+}
+
+country_event = { # Feast of the Black Nazarene
+  id = philippines.27
+  title = philippines.27.t
+  desc = philippines.27.d
+  picture = GFX_report_event_PHI_black_nazarene
+  is_triggered_only = yes
+
+  option = { # Everything went smoothly it seems...
+    name = philippines.27.a
+  }
+}
+
+country_event = { # The Annual Latern Festival
+  id = philippines.28
+  title = philippines.28.t
+  desc = philippines.28.d
+  picture = GFX_report_event_PHI_pampanga_lantern
+  is_triggered_only = yes
+
+  option = { # So bright!
+    name = philippines.28.a
+  }
+}
+
+country_event = { # The Secretary's Suggestions
+  id = philippines.29
+  title = philippines.29.t
+  desc = philippines.29.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # The President agrees
+    name = philippines.29.a
+    hidden_effect = {
+      country_event = { id = philippines.30 days = 3 }
+    }
+  }
+  option = { # Stop wasting my time!
+    name = philippines.29.b
+  }
+}
+
+country_event = { # The Presidential Visit
+  id = philippines.30
+  title = philippines.30.t
+  desc = philippines.30.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Condolences
+    name = philippines.30.a
+    increase_ruling_party_popularity_by_10 = yes
+  }
+}
+
+country_event = { # Misa de Gallo
+  id = philippines.31
+  title = philippines.31.t
+  desc = philippines.31.d
+  picture = GFX_report_event_PHI_misa_de_gallo
+  is_triggered_only = yes
+
+  option = {
+    name = philippines.31.a
+  }
+}
+
+country_event = { # Bonifacio Day
+  id = philippines.32
+  title = philippines.32.t
+  desc = philippines.32.d
+  picture = GFX_report_event_PHI_bonifacio
+  is_triggered_only = yes
+
+  option = { # Mabuhay ang Supremo!
+    name = philippines.32.a
+    increase_ruling_party_popularity_by_5 = yes
+  }
+}
+
+country_event = { # Opening of the Campaign Season
+  id = philippines.33
+  title = philippines.33.t
+  desc = philippines.33.d
+  picture = GFX_report_event_PHI_crowd_1
+  is_triggered_only = yes
+
+  trigger = {
+    NOT = {
+      has_government = paternal_autocrat
+    }
+  }
+
+  option = { # Your campaign jingles are too loud!
+    name = philippines.33.a
+    add_political_power = 20
+  }
+}
+
+country_event = { # Elections of 1937
+  id = philippines.34
+  title = philippines.34.t
+  desc = philippines.34.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  trigger = {
+    tag = PHI
+    date > 1937.1.1
+    date < 1938.1.1
+    NOT = { 
+      has_country_flag = PHI_has_1937_elections
+      has_country_flag = PHI_junta_in_control
+    }
+  }
+
+  option = { # Liberal
+    name = philippines.34.a
+    ai_chance = {
+      base = 200
+      modifier = {
+        factor = 2
+        has_country_flag = PHI_west_focus
+      }
+      modifier = {
+        factor = 2
+        has_country_flag = PHI_usa_focus
+      }
+    }
+    set_politics = {
+      ruling_party = market_liberal
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_20 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Manuel_Roxas_hog_mli
+      PHI_Elpidio_Quirino_for_sli
+      PHI_Mariano_Garchitorena_eco_mli
+      PHI_Jose_Zulueta_sec_mli
+    }
+    hidden_effect = {
+      add_stability = 0.15
+      random_other_country = {
+        news_event = { id = fxnews.3 days = 2 }
+      }
+      country_event = { id = philippines.55 days = 230 }
+      country_event = { id = philippines.95 days = 14 }
+      set_country_flag = PHI_has_1937_elections
+      set_country_flag = PHI_liberal_party_victory
+    }
+  }
+  option = { # Nacionalista
+    name = philippines.34.b
+    ai_chance = {
+      base = 200
+      modifier = {
+        factor = 2
+        has_country_flag = PHI_west_focus
+      }
+      modifier = {
+        factor = 2
+        has_country_flag = PHI_usa_focus
+      }
+    }
+    set_politics = {
+      ruling_party = social_conservative
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_5 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Manuel_Luis_Quezon_hog_sco
+      PHI_Sergio_P_Osmena_for_sco
+      PHI_Andres_Soriano_eco_sco
+      PHI_Basilio_J_Valdez_sec_sco
+    }
+    hidden_effect = {
+      add_stability = 0.15
+      random_other_country = {
+        news_event = { id = fxnews.2 days = 2 }
+      }
+      country_event = { id = philippines.55 days = 230 }
+      country_event = { id = philippines.95 days = 14 }
+      set_country_flag = PHI_has_1937_elections
+      set_country_flag = PHI_nacionalista_party_victory
+    }
+  }
+  option = { # Progressista
+    name = philippines.34.c
+    set_politics = {
+      ruling_party = authoritarian_democrat
+      elections_allowed = yes
+    }
+    ai_chance = {
+      base = 200
+      modifier = {
+        factor = 2
+        has_country_flag = PHI_japan_focus
+      }
+    }
+    increase_ruling_party_popularity_by_20 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Emilio_Aguinaldo_hog_npo
+      PHI_Claro_M_Recto_for_ade
+      PHI_Serafin_Fausto_eco_ade
+      PHI_Benigno_Aquino_Sr_sec_ade
+    }
+    hidden_effect = {
+      add_stability = 0.15
+      random_other_country = {
+        news_event = { id = fxnews.4 days = 2 }
+      }
+      country_event = { id = philippines.93 days = 60 }
+      country_event = { id = philippines.94 days = 14 }
+      set_country_flag = PHI_has_1937_elections
+      set_country_flag = PHI_progressista_party_victory
+    }
+  }
+  option = { # Sakdalista
+    name = philippines.34.e
+    ai_chance = {
+      base = 200
+      modifier = {
+        factor = 2
+        has_country_flag = PHI_japan_focus
+      }
+    }
+    set_politics = {
+      ruling_party = valkist
+      elections_allowed = no
+    }
+    increase_ruling_party_popularity_by_20 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Benigno_Ramos_hog_val
+      PHI_Jorge_Vargas_for_val
+      PHI_Rafael_Alunan_eco_val
+      PHI_Jose_G_Lukban_sec_val
+    }
+    hidden_effect = {
+      add_stability = 0.15
+      random_other_country = {
+        news_event = { id = fxnews.5 days = 2 }
+      }
+      country_event = { id = philippines.55 days = 230 }
+      country_event = { id = philippines.93 days = 60 }
+      country_event = { id = philippines.94 days = 14 }
+      remove_ideas = PHI_lingering_sakdalistas
+      set_country_flag = PHI_has_1937_elections
+      set_country_flag = PHI_sakdalista_party_victory
+    }
+  }
+  option = {
+    name = philippines.34.f
+    trigger = {
+      has_country_flag = PHI_farmers_expelled
+    }
+    set_politics = {
+      ruling_party = libertarian_socialist
+      elections_allowed = no
+    }
+    increase_ruling_party_popularity_by_20 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Crisanto_Evangelista_hog_lib
+      PHI_Guillermo_Capadocia_for_col
+      PHI_Carlos_P_Garcia_eco_sde
+      PHI_Mariano_Balgos_sec_lib
+    }
+    hidden_effect = {
+      country_event = { id = philippines.102 days = 48 }
+      random_other_country = {
+        news_event = { id = fxnews.46 days = 2 }
+      }
+      set_country_flag = PHI_has_1937_elections
+      set_country_flag = PHI_socialists_in_control
+      mark_focus_tree_layout_dirty = yes
+      add_popularity = {
+        ideology = collectivist
+        popularity = 0.1
+      }
+      add_popularity = {
+        ideology = vanguardist
+        popularity = 0.1
+      }
+    }
+  }
+}
+
+country_event = { # Operation Merdeka
+  id = philippines.35
+  title = philippines.35.t
+  desc = philippines.35.d
+  picture = GFX_report_event_japanese_soldiers_01
+  is_triggered_only = yes
+
+  option = { # Greenlight the operation...
+    name = philippines.35.a
+    ai_chance = {
+      base = 200
+    }
+    add_political_power = 30
+    hidden_effect = {
+      country_event = { id = philippines.36 days = 30 }
+    }
+  }
+  option = { # It's too risky...
+    name = philippines.35.b
+    trigger = {
+      is_ai = no
+    }
+    ai_chance = {
+      base = 0
+    }
+    increase_ruling_party_popularity_by_5 = yes
+  }
+}
+
+country_event = { # Operation Merdeka - Successfull
+  id = philippines.36
+  title = philippines.36.t
+  desc = philippines.36.d
+  picture = GFX_report_event_japanese_soldiers_01
+  is_triggered_only = yes
+
+  immediate = {
+    hidden_effect = {
+      transfer_state = 785
+      random_other_country = {
+        news_event = { id = fxnews.6 days = 1 }
+      }
+      add_named_threat = {
+        name = threat_north_borneo_occupation
+        threat = 10
+      }
+    }
+  }
+
+  option = { # Excellent...
+    name = philippines.36.a
+    increase_ruling_party_popularity_by_10 = yes
+    INS = { country_event = { id = philippines.37 days = 2 } }
+    BEA = { country_event = { id = philippines.37 days = 2 } }
+    ENG = { country_event = { id = philippines.38 days = 2 } }
+  }
+}
+
+country_event = { # Filipino Troops Occupies North Borneo
+  id = philippines.37
+  title = philippines.37.t
+  desc = philippines.37.d
+  picture = GFX_report_event_japanese_soldiers_01
+  is_triggered_only = yes
+
+  option = { # We'll get them back
+    name = philippines.37.a
+    add_opinion_modifier = {
+      target = PHI
+      modifier = ITA_outraged
+    }
+  }
+}
+
+country_event = { # Philippine Seizes North Borneo
+  id = philippines.38
+  title = philippines.38.t
+  desc = philippines.38.d
+  picture = GFX_report_event_japanese_soldiers_01
+  is_triggered_only = yes
+
+  option = { # What?!
+    name = philippines.38.a
+    add_opinion_modifier = {
+      target = PHI
+      modifier = ITA_outraged
+    }
+  }
+}
+
+country_event = { # Filipino Equipment Arrives
+  id = philippines.39
+  title = philippines.39.t
+  desc = philippines.39.d
+  picture = GFX_report_event_japanese_soldiers_01
+  is_triggered_only = yes
+
+  option = { # Much needed!
+    name = philippines.39.a
+    effect_tooltip = {
+      add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = 1000
+        producer = FROM
+      }
+    }
+  }
+}
+
+country_event = { # Filipino Volunteers
+  id = philippines.40
+  title = philippines.40.t
+  desc = philippines.40.d
+  picture = GFX_report_event_japanese_soldiers_01
+  is_triggered_only = yes
+
+  option = { # Send the volunteers
+    name = philippines.40.a
+    INS = { 
+      country_event = { id = philippines.41 days = 3 }
+    }
+  }
+  option = { # Equipment are already enough
+    name = philippines.40.b
+    add_political_power = 50
+  }
+}
+
+country_event = { # Filipino Volunteers Sent
+  id = philippines.41
+  title = philippines.41.t
+  desc = philippines.41.d
+  picture = GFX_report_event_japanese_soldiers_01
+  is_triggered_only = yes
+
+  option = { # Excellent.
+    name = philippines.41.a
+    random_owned_controlled_state = {
+      create_unit = {
+        division = "name = \"Filipino Volunteers\" division_template = \"Divisi Infanteri\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
+        owner = INS
+      }
+      create_unit = {
+        division = "name = \"Filipino Volunteers\" division_template = \"Divisi Infanteri\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
+        owner = INS
+      }
+    }
+  }
+}
+
+country_event = { # Aftermath of Typhoon Seling
+  id = philippines.42
+  title = philippines.42.t
+  desc = philippines.42.d
+  is_triggered_only = yes
+  picture = GFX_report_event_PHI_floods
+
+  option = { # Send help immediately!
+    name = philippines.42.a
+    628 = {
+      damage_building = {
+        type = infrastructure
+        damage = 1
+      }
+    }
+    625 = {
+      damage_building = {
+        type = infrastructure
+        damage = 1
+      }
+    }
+    add_political_power = 50
+  }
+}
+
+country_event = { # Quezon Seeks Medical Care in the US
+  id = philippines.43
+  title = philippines.43.t
+  desc = philippines.43.d
+  is_triggered_only = yes
+  picture = GFX_report_event_PHI_quezon
+
+  trigger = {
+    has_character = PHI_Manuel_Luis_Quezon
+    NOT = {
+      has_government = social_conservative
+    }
+  }
+
+  option = { # Have a safe flight!
+    name = philippines.43.a
+    set_country_flag = PHI_quezon_in_the_usa
+    remove_country_leader_role = {
+      character = PHI_Manuel_Luis_Quezon
+      ideology = christian_democracy_subtype
+    }
+    add_country_leader_role = {
+      character = PHI_Sergio_P_Osmena
+      promote_leader = yes
+      country_leader = {
+        ideology = christian_democracy_subtype
+        traits = {}
+      }
+    }
+  }
+}
+
+country_event = { # President Tours the Farmlands
+  id = philippines.44
+  title = philippines.44.t
+  desc = philippines.44.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Magtanim ay hindi biro...
+    name = philippines.44.a
+    increase_ruling_party_popularity_by_5 = yes
+  }
+}
+
+country_event = { # The Filipino Language
+  id = philippines.45
+  title = philippines.45.t
+  desc = philippines.45.d
+  picture = GFX_report_event_PHI_school
+  is_triggered_only = yes
+
+  option = { # Mabuhay ang Pilipinas!
+    name = philippines.45.a
+    if = {
+      limit = {
+        has_country_leader = {
+          character = PHI_Manuel_Luis_Quezon
+          ruling_only = yes
+        }
+      }
+
+      add_country_leader_trait = PHI_father_of_the_filipino_language
+    }
+  }
+}
+
+country_event = { # Crucifixion in San Fernando, Pampanga
+  id = philippines.46
+  title = philippines.46.t
+  desc = philippines.46.d
+  picture = GFX_report_event_PHI_holy_week
+  is_triggered_only = yes
+
+  option = { # That's got to hurt...
+    name = philippines.46.a
+  }
+}
+
+country_event = { # Border Clash in North Borneo
+  id = philippines.47
+  title = philippines.47.t
+  desc = philippines.47.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  trigger = {
+    has_global_flag = insulindian_uprising_crushed
+    PHI = { 
+      controls_state = 785
+      is_neighbor_of = BEA
+      NOT = { 
+        has_war_with = ENG
+        is_in_faction_with = ENG
+      }
+    }
+  }
+
+  option = { # Summon the British Ambassador now!
+    name = philippines.47.a
+    add_war_support = 0.05
+    ENG = {
+      country_event = { id = philippines.48 days = 1 }
+    }
+  }
+}
+
+country_event = { # Border Clash in North Borneo
+  id = philippines.48
+  title = philippines.48.t
+  desc = philippines.48.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = { # We have to accept
+    name = philippines.48.a
+    FROM = {
+      country_event = { id = philippines.49 days = 1 }
+    }
+  }
+  option = { # It ain't our fault
+    name = philippines.48.b
+    FROM = {
+      country_event = { id = philippines.50 days = 1 }
+    }
+  }
+}
+
+country_event = { # The From Accepts Our Demands
+  id = philippines.49
+  title = philippines.49.t
+  desc = philippines.49.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = { # Excellent
+    name = philippines.49.a
+    increase_ruling_party_popularity_by_5 = yes
+    add_political_power = 100
+  }
+}
+
+country_event = { # The From Refuses Our Demands
+  id = philippines.50
+  title = philippines.50.t
+  desc = philippines.50.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = { # Dissapointing...
+    name = philippines.50.a
+  }
+}
+
+country_event = { # Garrisons Attacked in North Borneo
+  id = philippines.51
+  title = philippines.51.t
+  desc = philippines.51.d
+  picture = GFX_report_event_PHI_scouts_2
+  is_triggered_only = yes
+
+  trigger = {
+    has_global_flag = insulindian_uprising_success
+    PHI = {
+      controls_state = 785
+      is_neighbor_of = INS
+      NOT = {
+        has_war_with = INS
+        is_in_faction_with = INS
+      }
+    }
+  }
+
+  option = { # What?!
+    name = philippines.51.a
+  }
+}
+
+country_event = { # Nacionalistas Critices Private-Public Partnership Program
+  id = philippines.52
+  title = philippines.52.t
+  desc = philippines.52.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Quite nonsense...
+    name = philippines.52.a
+    add_popularity = {
+      ideology = social_conservative
+      popularity = 0.05
+    }
+  }
+}
+
+country_event = { # Sakdalista Movement Losing Support
+  id = philippines.53
+  title = philippines.53.t
+  desc = philippines.53.d
+  picture = GFX_report_event_PHI_crowd_1
+  is_triggered_only = yes
+
+  option = { # All according to plan...
+    name = philippines.53.a
+    remove_ideas = PHI_lingering_sakdalistas
+  }
+}
+
+country_event = { # Land Reform Finished
+  id = philippines.54
+  title = philippines.54.t
+  desc = philippines.54.d
+  picture = GFX_report_event_PHI_crowd_1
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.54.a
+    327 = {
+      if = {
+        limit = {
+          free_building_slots = {
+            building = industrial_complex
+            size > 0
+            include_locked = yes
+          }
+        }
+        add_extra_state_shared_building_slots = 1
+      }
+    }
+    623 = {
+      if = {
+        limit = {
+          free_building_slots = {
+            building = industrial_complex
+            size > 0
+            include_locked = yes
+          }
+        }
+        add_extra_state_shared_building_slots = 1
+      }
+    }
+    624 = {
+      if = {
+        limit = {
+          free_building_slots = {
+            building = industrial_complex
+            size > 0
+            include_locked = yes
+          }
+        }
+        add_extra_state_shared_building_slots = 1
+      }
+    }
+    627 = {
+      if = {
+        limit = {
+          free_building_slots = {
+            building = industrial_complex
+            size > 0
+            include_locked = yes
+          }
+        }
+        add_extra_state_shared_building_slots = 1
+      }
+    }
+  }
+}
+
+country_event = { # Aguinaldo Retires from Politics
+  id = philippines.55
+  title = philippines.55.t
+  desc = {
+    text = philippines.55.d
+    trigger = {
+      NOT = {
+        has_government = social_conservative
+      }
+    }
+  }
+  desc = {
+    text = philippines.55.d.1
+    trigger = {
+      has_government = social_conservative
+    }
+  }
+  picture = GFX_report_event_PHI_aguinaldo_quezon
+  is_triggered_only = yes
+
+  option = { # Happy retirement, Miong!
+    name = philippines.55.a
+    retire_character = PHI_Emilio_Aguinaldo
+    add_popularity = {
+      ideology = authoritarian_democrat
+      popularity = -0.15
+    }
+    add_country_leader_role = {
+      character = PHI_Benigno_Aquino_Sr
+      promote_leader = yes
+      country_leader = {
+        ideology = authdem_national_conservative_subtype
+        traits = { }
+      }
+    }
+  }
+}
+
+country_event = { # 1941 Presidential Elections
+  id = philippines.56
+  title = philippines.56.t
+  desc = {
+    text = philippines.56.d
+    trigger = {
+      NOT = { has_government = market_liberal }
+    }
+  }
+  desc = {
+    text = philippines.56.d.1
+    trigger = {
+      has_government = market_liberal
+    }
+  }
+  picture = GFX_report_event_election_vote
+  is_triggered_only = yes
+
+  trigger = {
+    tag = PHI
+    date > 1941.1.1
+    date < 1942.1.1
+    NOT = { has_country_flag = PHI_has_1941_elections }
+  }
+
+  option = { # Sergio Osmena
+    name = philippines.56.a
+    if = {
+      limit = { 
+        NOT = { has_country_flag = PHI_quezon_in_the_usa }
+      }
+      remove_country_leader_role = {
+        character = PHI_Manuel_Luis_Quezon
+        ideology = christian_democracy_subtype
+      }
+      add_country_leader_role = {
+        character = PHI_Sergio_P_Osmena
+        promote_leader = yes
+        country_leader = {
+          ideology = christian_democracy_subtype
+          traits = {}
+        }
+      }
+    }
+    set_politics = {
+      ruling_party = social_conservative
+      elections_allowed = yes
+    }
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Sergio_P_Osmena_hog_sco
+      PHI_Manuel_Quadrino_for_sco
+      PHI_Andres_Soriano_eco_sco
+      PHI_Jose_Yulo_sec_sco
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1941_elections
+      if = {
+        limit = { social_conservative < 0.1 }
+        increase_ruling_party_popularity_by_20 = yes
+      }
+      else_if = {
+        limit = { social_conservative < 0.2 }
+        increase_ruling_party_popularity_by_15 = yes
+      }
+      else = {
+        increase_ruling_party_popularity_by_10 = yes
+      }
+    }
+  }
+
+  option = { # Manuel A. Roxas
+    name = philippines.56.b
+    set_politics = {
+      ruling_party = market_liberal
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Manuel_Roxas_hog_mli
+      PHI_Quentin_Paredes_for_mli
+      PHI_Mariano_Garchitorena_eco_mli
+      PHI_Jose_Zulueta_sec_mli
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1941_elections
+      if = {
+        limit = { market_liberal < 0.1 }
+        increase_ruling_party_popularity_by_20 = yes
+      }
+      else_if = {
+        limit = { market_liberal < 0.2 }
+        increase_ruling_party_popularity_by_15 = yes
+      }
+      else = {
+        increase_ruling_party_popularity_by_10 = yes
+      }
+    }
+  }
+}
+
+country_event = { # 1945 Presidential Elections
+  id = philippines.57
+  title = philippines.57.t
+  desc = {
+    text = philippines.57.d
+    trigger = {
+      NOT = { has_government = market_liberal }
+    }
+  }
+  desc = {
+    text = philippines.57.d.1
+    trigger = {
+      has_government = market_liberal
+    }
+  }
+  picture = GFX_report_event_election_vote
+  is_triggered_only = yes
+
+  trigger = {
+    tag = PHI
+    date > 1945.1.1
+    date < 1946.1.1
+    NOT = { has_country_flag = PHI_has_1945_elections }
+  }
+
+  option = { # Sergio Osmena
+    name = philippines.57.a
+    set_politics = {
+      ruling_party = social_conservative
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Sergio_P_Osmena_hog_sco
+      PHI_Manuel_Quadrino_for_sco
+      PHI_Andres_Soriano_eco_sco
+      PHI_Jose_Yulo_sec_sco
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1945_elections
+    }
+  }
+
+  option = { # Elpidio Quirino
+    name = philippines.57.b
+    set_politics = {
+      ruling_party = social_liberal
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Elpidio_Quirino_hog_sli
+      PHI_Joaquin_Elizalde_for_sli
+      PHI_Antonio_de_las_Alas_eco_sli
+      PHI_Alberto_Ramos_sec_sli
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1945_elections
+    }
+  }
+
+  option = { # Juan Sumulong
+    name = philippines.57.c
+    set_politics = {
+      ruling_party = social_democrat
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Juan_Sumulong_hog_sde
+      PHI_Rafael_Liwanag_for_sde
+      PHI_Carlos_P_Garcia_eco_sde
+      PHI_Pardo_de_Tavera_sec_sde
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1945_elections
+    }
+  }
+}
+
+country_event = { # 1949 Presidential Elections
+  id = philippines.58
+  title = philippines.58.t
+  desc = philippines.58.d
+  picture = GFX_report_event_election_vote
+  is_triggered_only = yes
+
+  trigger = {
+    tag = PHI
+    date > 1949.1.1
+    date < 1950.1.1
+    NOT = { has_country_flag = PHI_has_1949_elections }
+  }
+
+  option = { # Eulogio Rodriguez Sr
+    name = philippines.58.a
+    set_politics = {
+      ruling_party = social_conservative
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Eulogio_Rodriguez_Sr_hog_sco
+      PHI_Manuel_Quadrino_for_sco
+      PHI_Andres_Soriano_eco_sco
+      PHI_Jose_Yulo_sec_sco
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1949_elections
+      remove_country_leader_role = {
+        character = PHI_Sergio_P_Osmena
+        ideology = national_conservative_subtype
+      }
+      add_country_leader_role = {
+        character = PHI_Eulogio_Rodriguez_Sr
+        promote_leader = yes
+        country_leader = {
+          ideology = christian_democracy_subtype
+          traits = { }
+        }
+      }
+    }
+  }
+
+  option = { # Elpidio Quirino
+    name = philippines.58.b
+    set_politics = {
+      ruling_party = social_liberal
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Elpidio_Quirino_hog_sli
+      PHI_Joaquin_Elizalde_for_sli
+      PHI_Antonio_de_las_Alas_eco_sli
+      PHI_Alberto_Ramos_sec_sli
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1949_elections
+    }
+  }
+
+  option = { # Claro M. Recto
+    name = philippines.58.c
+    set_politics = {
+      ruling_party = social_democrat
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Claro_M_Recto_hog_sde
+      PHI_Rafael_Liwanag_for_sde
+      PHI_Carlos_P_Garcia_eco_sde
+      PHI_Pardo_de_Tavera_sec_sde
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1949_elections
+      remove_country_leader_role = {
+        character = PHI_Juan_Sumulong
+        ideology = socdem_christian_socialism_subtype
+      }
+      add_country_leader_role = {
+        character = PHI_Claro_M_Recto
+        promote_leader = yes
+        country_leader = {
+          ideology = socdem_left_nationalism_subtype
+          traits = { }
+        }
+      }
+    }
+  }
+}
+
+country_event = { # 1953 Presidential Elections
+  id = philippines.59
+  title = philippines.59.t
+  desc = philippines.59.d
+  picture = GFX_report_event_election_vote
+  is_triggered_only = yes
+
+  trigger = {
+    tag = PHI
+    date > 1953.1.1
+    date < 1954.1.1
+    NOT = { has_country_flag = PHI_has_1953_elections }
+  }
+
+  option = { # Eulogio Rodriguez Sr
+    name = philippines.59.a
+    set_politics = {
+      ruling_party = social_conservative
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Eulogio_Rodriguez_Sr_hog_sco
+      PHI_Manuel_Quadrino_for_sco
+      PHI_Andres_Soriano_eco_sco
+      PHI_Jose_Yulo_sec_sco
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1953_elections
+    }
+  }
+
+  option = { # J. Antonio Araneta
+    name = philippines.59.b
+    set_politics = {
+      ruling_party = market_liberal
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_J_Antonio_Araneta_hog_mli
+      PHI_Quentin_Paredes_for_mli
+      PHI_Ramon_Magsaysay_eco_mli
+      PHI_Jose_Zulueta_sec_mli
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1953_elections
+      remove_country_leader_role = {
+        character = PHI_Manuel_Roxas
+        ideology = marlib_classical_liberalism_subtype
+      }
+      add_country_leader_role = {
+        character = PHI_J_Antonio_Araneta
+        promote_leader = yes
+        country_leader = {
+          ideology = liberal_conservative_subtype
+          traits = { }
+        }
+      }
+    }
+  }
+
+  option = { # Claro M. Recto
+    name = philippines.59.c
+    set_politics = {
+      ruling_party = social_democrat
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Claro_M_Recto_hog_sde
+      PHI_Rafael_Liwanag_for_sde
+      PHI_Carlos_P_Garcia_eco_sde
+      PHI_Pardo_de_Tavera_sec_sde
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1953_elections
+    }
+  }
+}
+
+country_event = { # 1957 Presidential Elections
+  id = philippines.60
+  title = philippines.60.t
+  desc = philippines.60.d
+  picture = GFX_report_event_election_vote
+  is_triggered_only = yes
+
+  trigger = {
+    tag = PHI
+    date > 1957.1.1
+    date < 1958.1.1
+    NOT = { has_country_flag = PHI_has_1957_elections }
+  }
+
+  option = { # Camilio Osias
+    name = philippines.60.a
+    set_politics = {
+      ruling_party = social_conservative
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Camilio_Osias_hog_sco
+      PHI_Manuel_Quadrino_for_sco
+      PHI_Andres_Soriano_eco_sco
+      PHI_Jose_Yulo_sec_sco
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1953_elections
+      remove_country_leader_role = {
+        character = PHI_Eulogio_Rodriguez_Sr
+        ideology = christian_democracy_subtype
+      }
+      add_country_leader_role = {
+        character = PHI_Camilio_Osias
+        promote_leader = yes
+        country_leader = {
+          ideology = christian_democracy_subtype
+          traits = { }
+        }
+      }
+    }
+  }
+
+  option = { # J. Antonio Araneta
+    name = philippines.60.b
+    set_politics = {
+      ruling_party = market_liberal
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_J_Antonio_Araneta_hog_mli
+      PHI_Quentin_Paredes_for_mli
+      PHI_Ramon_Magsaysay_eco_mli
+      PHI_Jose_Zulueta_sec_mli
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1957_elections
+    }
+  }
+
+  option = { # Lope K. Santos
+    name = philippines.60.c
+    set_politics = {
+      ruling_party = social_democrat
+      elections_allowed = yes
+    }
+    increase_ruling_party_popularity_by_10 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Claro_M_Recto_hog_sde
+      PHI_Rafael_Liwanag_for_sde
+      PHI_Carlos_P_Garcia_eco_sde
+      PHI_Pardo_de_Tavera_sec_sde
+    }
+    hidden_effect = {
+      set_country_flag = PHI_has_1957_elections
+      remove_country_leader_role = {
+        character = PHI_Claro_M_Recto
+        ideology = socdem_left_nationalism_subtype
+      }
+      add_country_leader_role = {
+        character = PHI_Lope_K_Santos
+        promote_leader = yes
+        country_leader = {
+          ideology = socdem_democratic_socialism_subtype
+          traits = { }
+        }
+      }
+    }
+  }
+}
+
+country_event = { # Philippine Entry to the Entente
+  id = philippines.61
+  title = philippines.61.t
+  desc = philippines.61.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Accept
+    name = philippines.61.a
+    ai_chance = {
+      base = 200
+    }
+    FROM = {
+      country_event = { id = philippines.62 days = 2 }
+    }
+    hidden_effect = {
+      if = {
+        limit = { tag = SOV }
+        random_other_country = {
+          news_event = { id = fxnews.7 days = 2 }
+        }
+      }
+    }
+  }
+  option = { # Refuse
+    name = philippines.61.b
+    ai_chance = {
+      base = 20
+    }
+    FROM = {
+      country_event = { id = philippines.63 days = 2 }
+    }
+  }
+}
+
+country_event = { # France Accepts Philippines to the Entente
+  id = philippines.62
+  title = philippines.62.t
+  desc = philippines.62.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.62.a
+    FROM = {
+      add_to_faction = ROOT
+    }
+    mark_focus_tree_layout_dirty = yes
+  }
+}
+
+country_event = { # France Refuses Philippines to the Entente
+  id = philippines.63
+  title = philippines.63.t
+  desc = philippines.63.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.63.a
+    if = {
+      limit = { 
+        FROM = { tag = FRA } 
+      }
+      mark_focus_tree_layout_dirty = yes
+      uncomplete_national_focus = {
+        focus = PHI_look_to_the_west
+        uncomplete_children = yes
+        refund_political_power = no
+      }
+    }
+    else_if = {
+      limit = {
+        FROM = { tag = JAP }
+      }
+      mark_focus_tree_layout_dirty = yes
+      uncomplete_national_focus = {
+        focus = PHI_pivot_to_japan
+        uncomplete_children = yes
+        refund_political_power = no
+      }
+    }
+  }
+}
+
+country_event = { # Philippines Proposes Alliance
+  id = philippines.64
+  title = philippines.64.t
+  desc = philippines.64.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Accept
+    name = philippines.64.a
+    ai_chance = {
+      base = 40
+      modifier = {
+        factor = 100
+        has_democratic_government = yes
+      }
+    }
+
+    if = {
+      limit = { is_faction_leader = yes }
+      add_to_faction = FROM
+
+      else = {
+        create_faction = PHI_USA_faction
+      }
+    }
+
+    FROM = {
+      country_event = { id = philippines.65 days = 2 }
+    }
+  }
+  option = { # Refuse
+    name = philippines.64.b
+    ai_chance = {
+      base = 20
+    }
+    FROM = {
+      country_event = { id = philippines.66 days = 2 }
+    }
+  }
+}
+
+country_event = { # US Accepts Philippine Alliance
+  id = philippines.65
+  title = philippines.65.t
+  desc = philippines.65.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.65.a
+    
+    if = {
+      limit = {
+        NOT = { is_in_faction_with = FROM }
+      }
+
+      FROM = {
+        add_to_faction = ROOT
+      }
+    }
+  }
+}
+
+country_event = { # US Refuses Philippine Alliance
+  id = philippines.66
+  title = philippines.66.t
+  desc = philippines.66.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.66.a
+    uncomplete_national_focus = {
+      focus = PHI_maintain_american_relations
+      uncomplete_children = yes
+      refund_political_power = no
+    }
+  }
+}
+
+country_event = { # Philippines Proposes Alliance
+  id = philippines.67
+  title = philippines.67.t
+  desc = philippines.67.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Accept
+    name = philippines.67.a
+    ai_chance = {
+      base = 100
+    }
+    create_faction = PHI_JAP_faction
+    FROM = {
+      country_event = { id = philippines.68 days = 2 }
+    }
+    hidden_effect = {
+      random_other_country = {
+        news_event = { id = fxnews.40 days = 2 }
+      }
+    }
+  }
+  option = { # Refuse
+    name = philippines.67.b
+    ai_chance = {
+      base = 20
+    }
+    FROM = {
+      country_event = { id = philippines.69 days = 2 }
+    }
+  }
+}
+
+country_event = { # Japan Accepts Philippine Alliance
+  id = philippines.68
+  title = philippines.68.t
+  desc = philippines.68.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.68.a
+    FROM = {
+      add_to_faction = ROOT
+    }
+  }
+}
+
+country_event = { # Japan Refuses Philippine Alliance
+  id = philippines.69
+  title = philippines.69.t
+  desc = philippines.69.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.69.a
+    uncomplete_national_focus = {
+      focus = PHI_pivot_to_japan
+      uncomplete_children = yes
+      refund_political_power = no
+    }
+  }
+}
+
+country_event = { # Philippines Invites us to their Alliance
+  id = philippines.70
+  title = philippines.70.t
+  desc = philippines.70.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Accept
+    name = philippines.70.a
+    ai_chance = {
+      base = 40
+    }
+    FROM = {
+      country_event = { id = philippines.71 days = 2 }
+    }
+  }
+  option = { # Refuse
+    name = philippines.70.b
+    ai_chance = {
+      base = 20
+    }
+    FROM = {
+      country_event = { id = philippines.72 days = 2 }
+    }
+  }
+}
+
+country_event = { # Country Accepts Invitation
+  id = philippines.71
+  title = philippines.71.t
+  desc = philippines.71.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.71.a
+    random_other_country = {
+      limit = {
+        is_in_faction_with = ROOT
+        is_faction_leader = yes
+      }
+      add_to_faction = FROM
+    }
+  }
+}
+
+country_event = { # Country Refuses Invitation
+  id = philippines.72
+  title = philippines.72.t
+  desc = philippines.72.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Shame...
+    name = philippines.72.a
+    add_political_power = 20
+  }
+  option = { # We will force them into the alliance!
+    name = philippines.72.b
+    create_wargoal = {
+      target = FROM
+      type = annex_everything
+    }
+  }
+}
+
+country_event = { # Philippines Demands Burma
+  id = philippines.73
+  title = philippines.73.t
+  desc = philippines.73.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Accept
+    name = philippines.73.a
+    ai_chance = {
+      base = 40
+    }
+    FROM = {
+      country_event = { id = philippines.74 days = 2 }
+    }
+  }
+  option = { # Refuse
+    name = philippines.73.b
+    ai_chance = {
+      base = 20
+    }
+    FROM = {
+      country_event = { id = philippines.75 days = 2 }
+    }
+  }
+}
+
+country_event = { # Country Accepts Invitation
+  id = philippines.74
+  title = philippines.74.t
+  desc = philippines.74.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.74.a
+    transfer_state = 288 # Rangoon
+    transfer_state = 640
+    transfer_state = 805
+    transfer_state = 812
+    transfer_state = 1007
+  }
+}
+
+country_event = { # Country Refuses Invitation
+  id = philippines.75
+  title = philippines.75.t
+  desc = philippines.75.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+
+  option = { # Shame...
+    name = philippines.75.a
+  }
+  option = { # We will force them into the alliance!
+    name = philippines.75.b
+  }
+}
+
+country_event = { # Singapore Falls
+  id = philippines.76
+  title = philippines.76.t
+  desc = {
+    text = philippines.76.d
+    trigger = {
+      BEA = { has_capitulated = yes }
+    }
+  }
+  desc = {
+    text = philippines.76.d.1
+    trigger = {
+      INS = { exists = yes }
+    }
+  }
+  picture = GFX_report_event_PHI_scouts_2
+  is_triggered_only = yes
+
+  trigger = {
+    NOT = { tag = PHI }
+  }
+
+  option = { # Prepare to sue peace
+    name = philippines.76.a
+    ai_chance = {
+      base = 100
+    }
+    add_war_support = -0.05
+    every_enemy_country = {
+      limit = { 
+        OR = {
+          tag = PHI
+          is_in_faction_with = PHI
+        } 
+      }
+      white_peace = PREV
+    }
+    hidden_effect = {
+      PHI = {
+        set_country_flag = PHI_whitepeaced_with_britain
+      }
+      every_other_country = {
+        limit = { is_in_faction_with = ROOT }
+        PREV = {
+          country_event = philippines.78
+        }
+      }
+      FROM = {
+        annex_country = {
+          target = BEA
+          transfer_troops = no
+        }
+        transfer_state = 819
+        transfer_state = 820
+        transfer_state = 336
+        transfer_state = 821
+      }
+    }
+  }
+  option = { # Not all is lost!
+    name = philippines.76.b
+    ai_chance = {
+      base = 0
+    }
+    add_stability = -0.05
+    add_war_support = -0.15
+  }
+}
+
+country_event = { # Defeat in Indochina
+  id = philippines.77
+  title = philippines.77.t
+  desc = philippines.77.d
+  picture = GFX_report_event_PHI_scouts_2
+  is_triggered_only = yes
+
+  option = { # Abandon Indochina
+    name = philippines.77.a
+    ai_chance = {
+      base = 100
+    }
+    add_war_support = -0.05
+    every_enemy_country = {
+      limit = { 
+        OR = {
+          tag = PHI
+          is_in_faction_with = PHI
+        } 
+      }
+      white_peace = PREV
+    }
+    hidden_effect = {
+      every_other_country = {
+        limit = { is_in_faction_with = ROOT }
+        PREV = {
+          country_event = philippines.78
+        }
+        every_owned_state = {
+          limit = {
+            is_on_continent = asia
+            is_controlled_by = PHI
+          }
+          PHI = {
+            transfer_state = PREV
+          }
+        }
+      }
+      PHI = {
+        annex_country = {
+          target = FIC
+          transfer_troops = no
+        }
+      }
+    }
+  }
+
+  option = { # Not all is lost!
+    name = philippines.77.b
+    ai_chance = {
+      base = 0
+    }
+    add_stability = -0.05
+    add_war_support = -0.15
+  }
+}
+
+country_event = { # Hidden Event to whitepeace other British allies
+  id = philippines.78
+  is_triggered_only = yes
+  hidden = yes
+  option = {}
+  immediate = {
+    every_enemy_country = {
+      limit = {
+        OR = {
+          tag = PHI
+          is_in_faction_with = PHI
+        }
+      }
+      white_peace = PREV
+    }
+  }
+}
+
+country_event = { # Philippines Wants to Safeguard Indochina/East Indies
+  id = philippines.79
+  title = philippines.79.t
+  desc = philippines.79.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = { # Accept
+    name = philippines.79.a
+    ai_chance = {
+      base = 40
+    }
+    add_offsite_building = {
+      type = industrial_complex 
+      level = 2
+    }
+    add_manpower = 100000
+    FROM = {
+      country_event = { id = philippines.80 days = 2 }
+    }
+  }
+  option = { # Refuse
+    name = philippines.79.b
+    ai_chance = {
+      base = 20
+    }
+    FROM = {
+      country_event = { id = philippines.81 days = 2 }
+    }
+  }
+}
+
+country_event = { # ENG/FRA Accepts Control
+  id = philippines.80
+  title = philippines.80.t
+  desc = philippines.80.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.80.a
+    if = {
+      limit = {
+        FROM = { tag = ENG }
+      }
+      puppet = BEA
+    }
+    else_if = {
+      limit = {
+        FROM = { tag = FRA }
+      }
+      puppet = FIC
+    }
+  }
+}
+
+country_event = { # ENG/FRA Refuses Control
+  id = philippines.81
+  title = philippines.81.t
+  desc = philippines.81.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = { # Shame...
+    name = philippines.81.a
+  }
+}
+
+country_event = { # Philippines Wants Guam
+  id = philippines.82
+  title = philippines.82.t
+  desc = philippines.82.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = { # Accept
+    name = philippines.82.a
+    ai_chance = {
+      base = 40
+    }
+    FROM = {
+      country_event = { id = philippines.83 days = 2 }
+    }
+  }
+  option = { # Refuse
+    name = philippines.82.b
+    ai_chance = {
+      base = 20
+    }
+    FROM = {
+      country_event = { id = philippines.84 days = 2 }
+    }
+  }
+}
+
+country_event = { # Guam owner accepts
+  id = philippines.83
+  title = philippines.83.t
+  desc = philippines.83.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = { # Great!
+    name = philippines.83.a
+    transfer_state = 638
+  }
+}
+
+country_event = { # Guam owner refuses
+  id = philippines.84
+  title = philippines.84.t
+  desc = philippines.84.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = { # Extradite their ambassador!
+    name = philippines.84.a
+    FROM = {
+      add_opinion_modifier = {
+        modifier = ITA_outraged
+        target = ROOT
+      }
+    }
+  }
+  option = { # We will take it by force!
+    name = philippines.84.b
+    unlock_decision_tooltip = PHI_take_guam_force
+    set_country_flag = PHI_refused_guam
+  }
+}
+
+country_event = { # Guam Successfully Occupied
+  id = philippines.85
+  title = philippines.85.t
+  desc = philippines.85.d
+  picture = GFX_report_event_PHI_scouts_2
+  is_triggered_only = yes
+
+  immediate = {
+    638 = {
+      OWNER = {
+        country_event = { id = philippines.87 days = 2 }
+      }
+    }
+  }
+
+  option = { # Now we wait.
+    name = philippines.85.a
+    transfer_state = 638
+  }
+}
+
+country_event = { # Guam Failure Occupation
+  id = philippines.86
+  title = philippines.86.t
+  desc = philippines.86.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = { # Now we wait.
+    name = philippines.86.a
+    add_war_support = -0.025
+  }
+}
+
+country_event = { # Philippines Seizes Guam!
+  id = philippines.87
+  title = philippines.87.t
+  desc = philippines.87.d
+  picture = GFX_report_event_PHI_scouts_2
+  is_triggered_only = yes
+
+  option = { # Now we wait.
+    name = philippines.87.a
+    declare_war_on = {
+      target = FROM
+      type = annex_everything
+    }
+    set_global_flag = filipino_occupied_guam
+  }
+  option = { # Back down
+    name = philippines.87.b
+  }
+}
+
+country_event = { # Bountiful Harvest this Year
+  id = philippines.88
+  title = philippines.88.t
+  desc = philippines.88.d
+  picture = GFX_report_event_PHI_assembly
+  is_triggered_only = yes
+
+  option = { # Let's go eat!
+    name = philippines.88.a
+    add_stability = 0.05
+  }
+}
+
+country_event = { # Landlords Resists the Land Reform
+  id = philippines.89
+  title = philippines.89.t
+  desc = philippines.89.d
+  picture = GFX_report_event_PHI_crowd_1
+  is_triggered_only = yes
+
+  option = { # How dare they?
+    name = philippines.89.a
+    add_stability = 0.05
+    hidden_effect = {
+      country_event = { id = philippines.90 days = 120 }
+    }
+  }
+}
+
+country_event = { # Trial of the Landlords
+  id = philippines.90
+  title = philippines.90.t
+  desc = philippines.90.d
+  picture = GFX_report_event_PHI_crowd_1
+  is_triggered_only = yes
+
+  option = { # Arrest these vultures!
+    name = philippines.90.a
+    add_stability = 0.05
+    increase_ruling_party_popularity_by_5 = yes
+  }
+}
+
+country_event = { # Socialist Symphaties in the Unions
+  id = philippines.91
+  title = philippines.91.t
+  desc = philippines.91.d
+  picture = GFX_report_event_PHI_crowd_1
+  is_triggered_only = yes
+
+  option = { # They are mere minority
+    name = philippines.91.a
+    add_popularity = {
+      ideology = libertarian_socialist
+      popularity = 0.05
+    }
+    add_popularity = {
+      ideology = social_democrat
+      popularity = 0.10
+    }
+  }
+}
+
+country_event = { # Gregorio Aglipay Has Died
+  id = philippines.92
+  title = philippines.92.t
+  desc = philippines.92.d
+  picture = GFX_report_event_PHI_aglipay
+  is_triggered_only = yes
+
+  option = { # You will be missed
+    name = philippines.92.a
+    retire_character = PHI_Gregorio_Aglipay
+  }
+}
+
+country_event = { # Status of the English Language
+  id = philippines.93
+  title = philippines.93.t
+  desc = philippines.93.d
+  picture = GFX_report_event_PHI_school
+  is_triggered_only = yes
+
+  option = { # Remove it
+    name = philippines.93.a
+    add_political_power = 100
+  }
+  option = { # Focus on our own
+    name = philippines.93.b
+    add_stability = 0.05
+  }
+  option = { # Let it be
+    name = philippines.93.c
+    increase_ruling_party_popularity_by_5 = yes 
+  }
+}
+
+country_event = { # Japan Seeks Increased Diplomatic Relations
+  id = philippines.94
+  title = philippines.94.t
+  desc = philippines.94.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+  
+  option = { # That's nice of them...
+    name = philippines.94.a
+    add_political_power = 100
+  }
+}
+
+country_event = { # United States Supports New President
+  id = philippines.95
+  title = philippines.95.t
+  desc = philippines.95.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+  
+  option = { # That's nice of them...
+    name = philippines.95.a
+    add_political_power = 100
+  }
+}
+
+country_event = { # PH Proposes Confederation
+  id = philippines.96
+  title = philippines.96.t
+  desc = philippines.96.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+  
+  option = { # Together we are strong
+    name = philippines.96.a
+    FROM = {
+      country_event = { id = philippines.97 days = 2 }
+    }
+  }
+  option = { # We are fine by our own
+    name = philippines.96.b
+    FROM = {
+      country_event = { id = philippines.98 days = 2 }
+    }
+  }
+}
+
+country_event = { # From Accepts
+  id = philippines.97
+  title = philippines.97.t
+  desc = philippines.97.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+  
+  option = { # Together we are strong
+    name = philippines.97.a
+    annex_country = {
+      target = FROM
+      transfer_troops = yes
+    }
+  }
+}
+
+country_event = { # From Refuses
+  id = philippines.98
+  title = philippines.98.t
+  desc = philippines.98.d
+  picture = GFX_report_event_PHI_malacanan
+  is_triggered_only = yes
+  
+  option = { # Fine
+    name = philippines.98.a
+  }
+  option = { # War
+    name = philippines.98.b
+    if = {
+      limit = { is_in_faction_with = FROM }
+      remove_from_faction = FROM
+    }
+    declare_war_on = {
+      target = FROM
+      type = annex_everything
+    }
+  }
+}
+
+country_event = { # Capitulation of Australia
+  id = philippines.99
+  title = philippines.98.t
+  desc = philippines.98.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+  
+  option = { # Sue for peace
+    name = philippines.99.a
+    ai_chance = {
+      base = 40
+      modifier = {
+        factor = 10
+        has_war_with = GER
+      }
+      modifier = {
+        factor = 10
+        has_war_with = SOV
+      }
+      modifier = {
+        factor = 10
+        has_war_with = FRA
+      }
+    }
+    add_war_support = -0.1
+    decrease_ruling_party_popularity_by_10 = yes
+    hidden_effect = {
+      every_enemy_country = {
+        limit = { 
+          OR = {
+            tag = PHI
+            is_in_faction_with = PHI
+          } 
+        }
+        white_peace = PREV
+      }
+      every_other_country = {
+        limit = { is_in_faction_with = ROOT }
+        PREV = {
+          country_event = philippines.78
+        }
+      }
+    }
+    custom_effect_tooltip = PHI_annex_australia_tt
+    FROM = {
+      country_event = { id = philippines.100 days = 1 }
+    }
+  }
+  option = { # No peace
+    name = philippines.99.b
+    add_political_power = -100
+  }
+}
+
+country_event = { # Britain Sues for Peace
+  id = philippines.100
+  title = philippines.100.t
+  desc = philippines.100.d
+  picture = GFX_report_event_PHI_scouts_2
+  is_triggered_only = yes
+
+  option = { # Excellent...
+    name = philippines.100.a
+    annex_country = {
+      target = AST
+      transfer_troops = no
+    }
+    annex_country = {
+      target = NZL
+      transfer_troops = no
+    }
+  }
+}
+
+country_event = { # President Quezon Assassinated
+  id = philippines.101
+  title = philippines.101.t
+  desc = philippines.101.d
+  picture = GFX_report_event_PHI_quezon
+  is_triggered_only = yes
+
+  option = {
+    name = philippines.101.a
+    retire_character = PHI_Manuel_Luis_Quezon
+    PHI_Sergio_P_Osmena = {
+      add_country_leader_role = {
+        promote_leader = yes
+        country_leader = {
+          ideology = national_conservative_subtype
+          traits = { }
+        }
+      }
+    }
+    set_country_flag = PHI_junta_in_control
+    mark_focus_tree_layout_dirty = yes
+    set_politics = {
+      ruling_party = paternal_autocrat
+      elections_allowed = no
+    }
+    increase_ruling_party_popularity_by_20 = yes
+    remove_every_minister = yes
+    add_ideas = {
+      PHI_Basilio_J_Valdez_hog_pau
+      PHI_Vicente_P_Lim_for_pau
+      PHI_Ramon_A_Alcaraz_eco_pau
+      PHI_Jose_Yulo_sec_sco
+    }
+    hidden_effect = {
+      random_other_country = {
+        news_event = { id = fxnews.44 days = 1 }
+      }
+      country_event = { id = philippines.24 days = 2 }
+    }
+  }
+}
+
+country_event = { # Assassination Attempt Against President Evangelista
+  id = philippines.102
+  title = philippines.102.t
+  desc = philippines.102.d
+  picture = GFX_report_event_PHI_aquino_speech
+  is_triggered_only = yes
+
+  option = {
+    name = philippines.102.a
+    add_stability = -0.15
+  }
+}
+
+country_event = { # Pope Arrives in the Philippines
+  id = philippines.103
+  title = philippines.103.t
+  picture = GFX_report_event_ITA_pope
+  fire_only_once = yes
+
+  trigger = {
+    tag = PHI
+    OR = {
+      ITA = {
+        AND = {
+          controls_state = 2
+          has_socialist_government = yes
+        }
+      }
+      ITP = {
+        AND = {
+          controls_state = 2
+          is_subject = yes
+          OR = {
+            has_government = valkist
+            has_socialist_government = yes
+          }
+        }
+      }
+    }
+  }
+
+  mean_time_to_happen = {
+    days = 7
+  }
+
+  desc = {
+    text = philippines.103.d_ita
+    trigger = {
+      ITA = { controls_state = 2 }
+    }
+  }
+  desc = {
+    text = philippines.103.d_itp
+    trigger = {
+      ITP = { controls_state = 2 }
+    }
+  }
+  desc = {
+    text = philippines.103.d
+  }
+
+  option = { # We welcome, His Holiness
+    name = philippines.103.a
+    add_ideas = PHI_papacy_in_exile
+    set_country_flag = PHI_exiled_pope
+    hidden_effect = {
+      ITA = {
+        set_nationality = {
+          target_country = ROOT
+          character = ITA_Pope_Julius_IV
+        }
+      }
+      country_event = { id = philippines.104 days = 30 }
+    }
+  }
+}
+
+country_event = { # Death of Pius XII
+  id = philippines.104
+  title = philippines.104.t
+  desc = philippines.104.d
+  picture = GFX_report_event_ITA_pope_death
+  is_triggered_only = yes
+
+  option = { # Good Luck, Your Holiness
+    name = philippines.104.a
+    add_political_power = 20
+    hidden_effect = {
+      country_event = { id = philippines.105 days = 14 }
+    }
+  }
+}
+
+country_event = { # Growing Political Catholic Church Influence
+  id = philippines.105
+  title = philippines.105.t
+  desc = philippines.105.d
+  picture = GFX_report_event_ITA_pope
+  is_triggered_only = yes
+
+  option = { # Every men can have their opinions expressed freely
+    name = philippines.105.a
+    set_country_flag = PHI_start_of_the_great_game
+    set_power_balance = {
+			id = PHI_power_balance
+			left_side = PHI_papacy_side # will keep the last set side if not specified
+			right_side = PHI_government_side # will keep the last set side if not specified
+			set_default = yes # whether or not to reset the power balance to the initial value, default = no
+		}
+  }
+}
+
+country_event = { # Pope 
+  id = philippines.106
+  title = philippines.106.t
+  desc = philippines.106.d
+  picture = GFX_report_event_ITA_pope
+  is_triggered_only = yes
+
+  option = { # Deus Vult!
+    name = philippines.106.a
+    add_country_leader_role = {
+      character = ITA_Pope_Julius_IV
+      promote_leader = yes
+      country_leader = {
+        ideology = integralism_subtype
+        traits = { exiled_pope }
+      }
+    }
+    set_politics = {
+      ruling_party = national_populist
+      elections_allowed = no
+      election_frequency = 48
+      long_name = PHI_holy_party_long
+      name = PHI_holy_party
+    }
+    increase_ruling_party_popularity_by_20 = yes
+    remove_every_minister = yes
+    set_cosmetic_tag = PHI_HOLY
+    add_ideas = {
+      PHI_Andres_Soriano_hog_npo
+      PHI_Claro_M_Recto_for_ade
+      PHI_Enrique_Zobel_de_Ayala_eco_npo
+      PHI_Benigno_Aquino_Sr_sec_ade
+    }
+    hidden_effect = {
+      add_stability = -0.20
+      add_ideas = {
+        elective_monarchy
+        PHI_resisting_muslim_minorities
+        PHI_uncooperative_protestants
+        PHI_guerilla_problem
+      }
+      627 = {
+        add_dynamic_modifier = {
+          modifier = PHI_moro_resistance
+        }
+      }
+
+      if = {
+        limit = {
+          has_completed_focus = PHI_into_the_world
+        }
+        uncomplete_national_focus = {
+          focus = PHI_into_the_world
+          uncomplete_children = yes
+        }
+      }
+      if = {
+        limit = { is_in_faction = yes }
+        leave_faction = yes
+      }
+      if = {
+        limit = { has_war = yes }
+        every_enemy_country = {
+          white_peace = ROOT
+        }
+      }
+
+      set_country_flag = PHI_pope_in_control
+      clr_country_flag = PHI_start_of_the_great_game
+      clr_country_flag = PHI_junta_in_control
+      clr_country_flag = PHI_socialists_in_control
+      mark_focus_tree_layout_dirty = yes
+
+      remove_power_balance = {
+        id = PHI_power_balance
+      }
+    }
+  }
+}
+
+country_event = { # Conspiracy of a Coup
+  id = philippines.107
+  title = philippines.107.t
+  desc = philippines.107.d
+  picture = GFX_report_event_PHI_scouts_1
+  is_triggered_only = yes
+
+  option = {
+    name = philippines.107.a
+    clr_country_flag = PHI_great_game
+    swap_ideas = {
+      remove_idea = PHI_papacy_in_exile
+      add_idea = PHI_papacy_in_exile_1
+    }
+  }
+}
+
+country_event = { # Manalo Arrested
+  id = philippines.108
+  title = philippines.108.t
+  desc = philippines.108.d
+  picture = GFX_report_event_PHI_protests
+  is_triggered_only = yes
+
+  option = {
+    name = philippines.108.a
+    add_political_power = -100
+  }
+}
+
+country_event = { # The Crown's Representative in Manila
+  id = philippines.109
+  title = philippines.109.t
+  desc = philippines.109.d
+  picture = GFX_report_event_ENG_edward_windsor
+  is_triggered_only = yes
+
+  trigger = {
+    ENG = {
+      OR = {
+        has_character = ENG_Albert_Windsor
+        has_character = ENG_Henry_Windsor
+        has_character = ENG_George_Windsor
+      }
+    }
+  }
+
+  option = { # Governor-General
+    name = philippines.109.a
+    PHI = { 
+      PHI_add_governor_general = yes
+    }
+  }
+
+  option = { # No Governor-General
+    name = philippines.109.b
+  }
+}
+
+country_event = { # Rumours of Aswang in Capiz
+  id = philippines.110
+  title = philippines.110.t
+  desc = philippines.110.d
+  picture = GFX_report_event_PHI_aswang
+  is_triggered_only = yes
+  
+  option = { # Does an aswang really exist though?
+    name = philippines.110.a
+  }
+}

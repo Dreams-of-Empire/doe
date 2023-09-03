@@ -1,0 +1,1520 @@
+ideas = {
+	country = {
+		MAN_political_reform = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_political_reform"}
+			picture = FRA_scw_intervention_republicans_focus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = -0.2
+				stability_weekly = 0.005
+			}
+		}
+
+		MAN_antijapanese_sentiment = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_antijapanese_sentiment"}
+			picture = MAN_antijapanese_sentiment
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				drift_defence_factor = 0.2
+				social_conservative_drift = -0.05
+			}
+			targeted_modifier = {
+				tag = JAP
+				defense_bonus_against = 0.05
+			}
+		}
+
+		MAN_lessened_antijapanese_sentiment = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_lessened_antijapanese_sentiment"}
+			picture = MAN_antijapanese_sentiment
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				social_conservative_drift = -0.02
+			}
+			targeted_modifier = {
+				tag = JAP
+				defense_bonus_against = 0.03
+			}
+		}
+
+		MAN_greater_antijapanese_sentiment = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_greater_antijapanese_sentiment"}
+			picture = MAN_antijapanese_sentiment
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				drift_defence_factor = 0.25
+				social_conservative_drift = -0.05
+				national_populist_drift = -0.05
+			}
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.03
+				defense_bonus_against = 0.05
+			}
+		}
+
+		MAN_warlord_ubiquity = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_warlord_ubiquity"}
+			picture = MAN_warlord_loyalty
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = 0.20
+				war_support_factor = 0.10
+			}
+		}
+
+		MAN_middling_industry = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_middling_industry"}
+			picture = chi_hyper_inflation2
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.10
+				line_change_production_efficiency_factor = -0.10
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+		MAN_thriving_industry = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_thriving_industry"}
+			picture = chi_hyper_inflation4
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.10
+				line_change_production_efficiency_factor = 0.10
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		MAN_renewed_antijapanese_sentiment = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_renewed_antijapanese_sentiment"}
+			picture = MAN_antijapanese_sentiment
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				drift_defence_factor = 0.25
+				surrender_limit = 0.15
+				social_conservative_drift = -0.1
+			}
+		}
+
+		MAN_no_central_rule = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_no_central_rule"}
+			picture = generic_anarchism_rising
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				drift_defence_factor = 0.25
+				surrender_limit = 0.15
+				social_conservative_drift = -0.1
+			}
+		}
+
+		MAN_industry_paralyzed = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_industry_paralyzed"}
+			picture = grl_minority_rule
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.60
+				production_speed_buildings_factor = -0.90
+				production_factory_max_efficiency_factor = -0.75
+			}
+		}
+
+		MAN_japanese_interests_in_manchuria = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_japanese_interests_in_manchuria"}
+			picture = jap_zaibatsu
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				local_resources_factor = 0.20
+				production_speed_arms_factory_factor = -0.1
+				social_conservative_drift = 0.03
+			}
+		}
+
+		MAN_military_disarray = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_military_disarray"}
+			picture = tfv_can_conscription_crisis
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				conscription_factor = -0.90
+				planning_speed = -0.85
+				army_org = -0.90
+			}
+		}
+
+		MAN_harbin_military_academy_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_harbin_military_academy_idea"}
+			picture = saf_soviet_advisers
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_leader_start_level = 1
+				planning_speed = 0.05
+				}
+		}
+
+		MAN_tianjin_naval_academy_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_tianjin_naval_academy_idea"}
+			picture = generic_sea_focused_navy
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				navy_max_range_factor = 0.10
+				naval_hit_chance = 0.075
+				}
+		}
+
+		MAN_power_from_the_people = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_power_from_the_people"}
+			picture = ast_abandon_the_westminster_system
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				conscription_factor = -0.2
+			}
+		}
+
+		MAN_power_from_the_people_conscription = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_power_from_the_people_conscription"}
+			picture = ast_abandon_the_westminster_system
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				conscription_factor = -0.1
+				training_time_factor = -0.1
+				}
+		}
+
+		MAN_electrifying_the_cities = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_electrifying_the_cities"}
+			picture = generic_central_management
+
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+				consumer_goods_factor = -0.03
+			}
+		}
+
+		MAN_schools = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_schools"}
+			picture = generic_army_war_college
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				research_speed_factor = 0.03
+			}
+		}
+
+		MAN_police = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_police"}
+			picture = LEC_police
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		MAN_monuments = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_monuments"}
+			picture = generic_pp_unity_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.05
+			}
+		}
+
+		MAN_culture_manchu_revival = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_culture_manchu_revival"}
+			picture = MAN_old_manchu_culture
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = 0.10
+			}
+		}
+
+		MAN_culture_han = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_culture_han"}
+			picture = chi_chinese_support
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.05
+			}
+		}
+
+		MAN_culture_westernized = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_culture_westernized"}
+			picture = generic_democratic_drift_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.04
+				war_support_factor = 0.04
+				political_power_factor = -0.07
+			}
+		}
+
+		MAN_interior_defense_doctrine = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_interior_defense_doctrine"}
+			picture = generic_wall_line
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_bunker_factor = 0.075
+				production_speed_coastal_bunker_factor = 0.10
+			}
+		}
+
+		MAN_doctrine_of_speed = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_doctrine_of_speed"}
+			picture = generic_armor
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				max_planning = -0.03
+				planning_speed = -0.05
+				attrition = -0.15
+				supply_consumption_factor = -0.20
+				land_reinforce_rate = -0.030
+				training_time_army_factor = 0.020
+			}
+		}
+
+		MAN_doctrine_of_caution = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_doctrine_of_caution"}
+			picture = generic_artillery_regiments
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				max_planning = 0.15
+				planning_speed = 0.15
+				attrition = 0.01
+				supply_consumption_factor = 0.025
+				land_reinforce_rate = -0.030
+				training_time_army_factor = 0.020
+			}
+		}
+
+		MAN_doctrine_of_dedication = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_doctrine_of_dedication"}
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				max_planning = -0.02
+				planning_speed = -0.03
+				attrition = 0.01
+				supply_consumption_factor = 0.025
+				land_reinforce_rate = 0.10
+				training_time_army_factor = -0.10
+			}
+		}
+
+		MAN_buildings_for_the_airforce_arms_factories = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_buildings_for_the_airforce_arms_factories"}
+			picture = economic_control_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.20
+			}
+		}
+
+		MAN_buildings_for_the_airforce_air_fields = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_buildings_for_the_airforce_air_fields"}
+			picture = economic_control_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_air_base_factor = 0.20
+			}
+		}
+
+		MAN_leasing_ports = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_leasing_ports"}
+			picture = generic_coastal_navy
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industrial_capacity_dockyard = -0.50
+				production_speed_dockyard_factor = 0.25
+				consumer_goods_factor = -0.05
+				}
+		}
+
+		MAN_unions_are_integrated = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_unions_are_integrated"}
+			picture = anti_soviet_pact
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				libertarian_socialist_drift = 0.05
+				authoritarian_democrat_drift = 0.05
+				political_power_factor = 0.05
+				}
+		}
+
+		MAN_compromise_of_the_unions = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_compromise_of_the_unions"}
+			picture = country_focus_political
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.075
+				}
+		}
+
+		MAN_dismantling_the_unions = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_dismantling_the_unions"}
+			picture = ast_classify_aliens
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				libertarian_socialist_drift = -0.05
+				authoritarian_democrat_drift = 0.05
+				political_power_factor = 0.05
+				stability_weekly = -0.01
+				}
+		}
+
+		MAN_raider_impact = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_raider_impact"}
+			picture = tfv_can_conscription_crisis
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industry_free_repair_factor = -0.10
+				production_speed_infrastructure_factor = 0.10
+				}
+		}
+
+		MAN_paying_off_hunters = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_paying_off_hunters"}
+			picture = generic_coastal_navy
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_factory_max_efficiency_factor = -0.05
+				}
+		}
+
+		MAN_japan_sides_with_the_zhili_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_japan_sides_with_the_zhili_idea"}
+			picture = generic_purge
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.30
+				war_support_factor = 0.20
+				political_power_factor = -0.90
+				}
+		}
+
+		MAN_raiders_against_other_nations = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_raiders_against_other_nations"}
+			picture = generic_purge
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				industry_free_repair_factor = -0.10
+				consumer_goods_factor = 0.03
+				}
+		}
+
+		MAN_new_senate_building = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_new_senate_building"}
+			picture = generic_purge
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				social_conservative_drift = 0.05
+				national_populist_drift = 0.05
+				political_power_gain = 0.50
+				}
+		}
+
+		MAN_successful_raid_against_other_nation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_successful_raid_against_other_nation"}
+			picture = generic_purge
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				consumer_goods_factor = -0.05
+				}
+		}
+
+		MAN_new_republican_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_new_republican_army"}
+			picture = generic_purge
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				mobilization_speed = 0.10
+				conscription_factor = 0.05
+				}
+		}
+
+		MAN_fengtian_native_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_fengtian_native_economy"}
+			picture = SOV_scientist_defect
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				trade_laws_cost_factor = 2.0
+				}
+				equipment_bonus = {
+					infantry_equipment = {
+						build_cost_ic = -0.2 instant = yes
+					}
+				}
+		}
+
+		MAN_school_reform_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_school_reform_idea"}
+			picture = jap_supremacy_of_will
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				research_speed_factor = 0.03
+		}
+	}
+
+		MAN_republican_association_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_republican_association_idea"}
+		picture = generic_reserve_divisions
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			social_liberal_drift = 0.05
+			political_power_factor = 0.05
+		}
+		targeted_modifier = {
+							tag = JAP
+							attack_bonus_against = 0.03
+							defense_bonus_against = 0.03
+		}
+	}
+
+		MAN_securing_executive_powers_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_securing_executive_powers_idea"}
+		picture = generic_deal_with_the_devil
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			social_conservative_drift = 0.05
+			political_power_factor = 0.10
+			stability_factor = 0.05
+			}
+	}
+
+		MAN_concordias_fengtian_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_concordias_fengtian_idea"}
+		picture = generic_fascism_drift_2
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			national_populist_drift = 0.05
+			political_power_factor = 0.05
+			war_support_factor = 0.05
+			}
+	}
+
+		MAN_the_new_unity_party_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_the_new_unity_party_idea"}
+		picture = generic_agrarian_society
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			social_democrat_drift = 0.05
+			political_power_factor = 0.05
+			conscription = 0.01
+			}
+	}
+
+		MAN_the_better_works_of_china = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_the_better_works_of_china"}
+		picture = generic_pp_unity_bonus
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			production_speed_arms_factory_factor = 0.03
+			production_speed_industrial_complex_factor = 0.05
+			}
+	}
+
+		MAN_rebuilding_henan = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_rebuilding_henan"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			industry_free_repair_factor = 0.15
+			consumer_goods_factor = 0.05
+			}
+	}
+
+		MAN_rebuilding_shandong = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_rebuilding_shandong"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			industry_free_repair_factor = 0.15
+			consumer_goods_factor = 0.05
+			}
+	}
+		MAN_damage_in_shandong = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_damage_in_shandong"}
+			picture = KTG_Industrial_Crisis_Factories
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_factory_max_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.2
+				production_speed_buildings_factor = -0.2
+			}
+		}
+
+		MAN_rebuilding_jiangshu = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_rebuilding_jiangshu"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			industry_free_repair_factor = 0.15
+			consumer_goods_factor = 0.05
+			}
+	}
+
+		MAN_rebuilding_anhui = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_rebuilding_anhui"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			industry_free_repair_factor = 0.15
+			consumer_goods_factor = 0.05
+			}
+	}
+
+		MAN_emergency_taxation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_emergency_taxation"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			consumer_goods_factor = -0.10
+			political_power_factor = -0.10
+			}
+	}
+
+		MAN_political_hegemony = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_political_hegemony"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			stability_weekly = -0.005
+			political_power_factor = 0.10
+			}
+	}
+
+		MAN_women_enter_conscription = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_women_enter_conscription"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			stability_weekly = -0.02
+			production_factory_max_efficiency_factor = -0.10
+			mobilization_speed = 0.10
+			conscription_factor = 0.20
+			}
+	}
+
+		MAN_economic_propaganda = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_economic_propaganda"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			production_factory_max_efficiency_factor = 0.05
+			political_power_factor = -0.10
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+	}
+
+		MAN_chinese_liberalism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_chinese_liberalism"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			political_power_factor = -0.05
+			production_factory_max_efficiency_factor = 0.10
+			trade_laws_cost_factor = -0.20
+			}
+	}
+
+		MAN_supreme_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_supreme_army"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			army_leader_start_level = 2
+			mobilization_speed = 0.05
+			}
+	}
+
+		MAN_paying_for_the_manchurians_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_paying_for_the_manchurians_economy"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.10
+			}
+			research_bonus = {
+       construction_tech = -0.05
+			 }
+	}
+
+		MAN_japan_subsidized_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_japan_subsidized_economy"}
+		picture = SOV_scientist_defect
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			consumer_goods_factor = -0.12
+			}
+			research_bonus = {
+       construction_tech = 0.05
+			 }
+	}
+
+		MAN_paying_for_the_manchurians_military = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_paying_for_the_manchurians_military"}
+		picture = FRA_factory_strikes
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+		production_speed_arms_factory_factor = -0.07
+		production_factory_efficiency_gain_factor = -0.07
+			}
+			research_bonus = {
+       military_tech = 0.05
+			 }
+	}
+
+	MAN_japan_subsidized_military = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_japan_subsidized_military"}
+		picture = man_five_year_plan_tank
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			production_speed_arms_factory_factor = 0.10
+			production_factory_efficiency_gain_factor = 0.10
+		}
+		research_bonus = {
+       military_tech = -0.05
+		}
+	}
+
+		MAN_fengtian_rallies_for_the_cause = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_fengtian_rallies_for_the_cause"}
+		picture = generic_war_preparation
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			conscription_factor = 0.05
+			}
+			targeted_modifier = {
+				tag = ZHI
+				attack_bonus_against = 0.05
+			}
+	}
+
+		MAN_pseudo_autarky_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_pseudo_autarky_idea"}
+		picture = man_five_year_plan_industry
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			consumer_goods_factor = -0.1
+			industrial_capacity_factory = -0.20
+			}
+	}
+
+		MAN_pseudo_autarky_fixed_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_pseudo_autarky_fixed_idea"}
+		picture = man_five_year_plan_industry
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			consumer_goods_factor = -0.1
+			industrial_capacity_factory = -0.05
+			}
+	}
+
+		MAN_paying_out = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_paying_out"}
+		picture = capital_outflow
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = -0.01
+			}
+	}
+
+		MAN_paid_up = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_paid_up"}
+		picture = LIB_bailout_usa
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			consumer_goods_factor = -0.1
+			industrial_capacity_factory = 0.05
+			}
+	}
+
+		MAN_american_capitalism_comes_to_china = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_american_capitalism_comes_to_china"}
+		picture = generic_central_management
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			production_speed_buildings_factor = 0.04
+			industrial_capacity_factory = 0.04
+			political_power_factor = -0.10
+			}
+	}
+
+		MAN_economy_in_the_hinterland = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_economy_in_the_hinterland"}
+		picture = generic_agrarian_society
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			production_speed_buildings_factor = 0.02
+			industrial_capacity_factory = 0.02
+			}
+	}
+
+		MAN_incorporating_foreign_business = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_incorporating_foreign_business"}
+		picture = man_five_year_plan_industry
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			trade_laws_cost_factor = -0.2
+			political_power_gain = 0.4
+			stability_factor = 0.05
+			}
+	}
+
+		MAN_ensuring_the_raiders_stay_back = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_ensuring_the_raiders_stay_back"}
+		picture = man_five_year_plan_industry
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.03
+			}
+	}
+
+		MAN_memories_of_the_betrayal = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_memories_of_the_betrayal"}
+		picture = generic_fascism_banned
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			stability_factor = -0.10
+			}
+	}
+
+		MAN_the_silver_age_of_manchuria = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_the_silver_age_of_manchuria"}
+		picture = generic_agrarian_society
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			stability_factor = 0.04
+			industrial_capacity_factory = 0.04
+			production_speed_buildings_factor = 0.04
+			consumer_goods_factor = 0.05
+			}
+	}
+
+		MAN_the_silver_age_of_manchuria_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_the_silver_age_of_manchuria_2"}
+		picture = generic_agrarian_society
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			industrial_capacity_factory = 0.04
+			consumer_goods_factor = -0.05
+			political_power_factor = -0.15
+			}
+	}
+
+		MAN_sending_economic_output_to_japan = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_sending_economic_output_to_japan"}
+		picture = FNG_japan_money
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			stability_factor = 0.05
+			consumer_goods_factor = 0.10
+			industrial_capacity_factory = -0.20
+			}
+	}
+
+		MAN_sending_economic_output_to_japan_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_sending_economic_output_to_japan_2"}
+		picture = FNG_japan_money
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+		 	political_power_factor = -0.10
+			consumer_goods_factor = 0.12
+			industrial_capacity_factory = -0.25
+			}
+	}
+
+		MAN_manchurian_dividends = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_manchurian_dividends"}
+		picture = generic_agrarian_society
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			stability_factor = 0.05
+			political_power_factor = 0.10
+			industrial_capacity_factory = 0.10
+			}
+	}
+		MAN_manchurian_economic_gains = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_manchurian_economic_gains"}
+		picture = MAN_manchurian_economic_gains
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			consumer_goods_factor = -0.05
+			political_power_gain = 0.1
+			industrial_capacity_factory = 0.05
+			}
+	}
+
+		MAN_american_democracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_american_democracy"}
+		picture = LIB_bailout_usa
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			trade_laws_cost_factor = -0.10
+			industrial_capacity_factory = 0.05
+			political_power_factor = -0.05
+			}
+	}
+
+		MAN_british_democracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_british_democracy"}
+		picture = generic_crown
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			drift_defence_factor = 0.10
+			political_power_factor = 0.05
+			political_power_gain = 0.10
+			}
+	}
+
+		MAN_french_democracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_french_democracy"}
+		picture = generic_scales
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			#these costs factors aren't working proprely, increased pp factor from 0.05 to 0.15 to compensate
+			# turned it back
+			political_advisor_cost_factor = -0.10
+			mobilization_laws_cost_factor = -0.10
+			economy_cost_factor = -0.10
+			political_power_factor = 0.05 
+			}
+	}
+
+		MAN_polish_democracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_polish_democracy"}
+		picture = big_entente_idea
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			army_core_defence_factor = 0.05
+			consumer_goods_factor = -0.05
+			political_power_gain = 0.25
+			}
+	}
+
+		MAN_persian_democracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_persian_democracy"}
+		picture = man_five_year_plan_tank
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			foreign_subversive_activites = 1.00
+			drift_defence_factor = 0.10
+			production_speed_buildings_factor = 0.05
+			political_power_gain = 0.05
+			}
+	}
+
+		MAN_foreign_designer_goods = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_foreign_designer_goods"}
+		picture = generic_coins
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.10
+			political_power_factor = -0.10
+			}
+	}
+
+		MAN_independent_fengtian_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_independent_fengtian_idea"}
+		picture = war_of_words
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			army_core_attack_factor = 0.05
+			army_core_defence_factor = 0.05
+			}
+	}
+
+		MAN_japanese_investment_eliminated = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_japanese_investment_eliminated"}
+		picture = war_of_words
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			production_factory_efficiency_gain_factor = -0.05
+			production_speed_buildings_factor = -0.05
+			political_power_factor = -0.05
+			}
+	}
+
+		MAN_bandit_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_bandit_army"}
+		picture = war_of_words
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			offence = 0.05
+			army_speed_factor = 0.05
+			planning_speed = 0.05
+			max_planning = -0.05
+			consumer_goods_factor = 0.10
+			}
+	}
+
+		MAN_languishing_conscription_rolls = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_languishing_conscription_rolls"}
+		picture = generic_secret_police
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			conscription_factor = -0.40
+			mobilization_speed = -0.30
+			}
+	}
+
+		MAN_softened_standards = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_softened_standards"}
+		picture = Recruitment_Crisis
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+			conscription_factor = -0.05
+			mobilization_speed = -0.10
+			max_planning = -0.10
+			}
+	}
+
+		MAN_industry_woes_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_industry_woes_1"}
+		picture = country_focus_efficency
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+				research_speed_factor = -0.2
+			}
+			research_bonus = {
+				electronics = -0.28
+				nuclear = -0.4
+				armor = -10
+				air_equipment = -10
+				naval_equipment = -10
+			}
+	}
+
+		MAN_industry_woes_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_industry_woes_2"}
+		picture = country_focus_efficency
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+				research_speed_factor = -0.1677
+			}
+			research_bonus = {
+				electronics = -0.07
+				nuclear = -0.16
+				armor = -10
+				air_equipment = -10
+				naval_equipment = -10
+			}
+	}
+
+		MAN_industry_woes_3 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_industry_woes_3"}
+		picture = country_focus_efficency
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+				research_speed_factor = -0.1
+				conscription_factor = -0.10
+			}
+			research_bonus = {
+				nuclear = -0.16
+				armor = -3.5
+				air_equipment = -5
+				naval_equipment = -7.5
+			}
+	}
+
+		MAN_equipment_woes_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_equipment_woes_1"}
+		picture = generic_army_problems
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+				line_change_production_efficiency_factor = -0.6
+				industrial_capacity_factory = -0.30
+				consumer_goods_factor = 0.10
+				industrial_capacity_dockyard = -0.20
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				mechanized_equipment = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				anti_air_equipment = {
+					build_cost_ic = 15.0
+					instant = yes
+				}
+				anti_tank_equipment = {
+					build_cost_ic = 15.0
+					instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = 20.0
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = 20.0
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = 20.0
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = 20.0
+					instant = yes
+				}
+			}
+	}
+
+		MAN_equipment_woes_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_equipment_woes_2"}
+		picture = generic_army_problems
+
+		allowed = {
+			always = no
+		}
+
+		modifier = {
+				line_change_production_efficiency_factor = -0.35
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.10
+				consumer_goods_factor = 0.20
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				mechanized_equipment = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				anti_air_equipment = {
+					build_cost_ic = 15.0
+					instant = yes
+				}
+				anti_tank_equipment = {
+					build_cost_ic = 15.0
+					instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = 20.0
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = 20.0
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = 20.0
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = 20.0
+					instant = yes
+				}
+			}
+		}
+	}
+}

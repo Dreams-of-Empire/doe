@@ -1,0 +1,22 @@
+uses_leader_gui = {
+	OR = {
+		GRE_has_leader_GUI = yes
+		JAP_has_leader_GUI = yes
+		has_country_flag = LEADER_GUI_VISIBLE
+	}
+}
+
+GRE_has_leader_GUI = {
+	OR = {
+		has_idea = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli
+	}
+}
+
+JAP_has_leader_GUI = {
+	OR = {
+		has_country_flag = JAP_Tri_Edo_Commissioner
+		has_country_flag = JAP_Tokugawa_Iesato_Not_Dead
+		has_country_flag = JAP_Hirohito_hos
+		has_country_flag = JAP_Yasuhito_hos
+	}
+}

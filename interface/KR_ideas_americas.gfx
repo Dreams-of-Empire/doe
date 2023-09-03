@@ -1,0 +1,58 @@
+spriteTypes = {
+
+	### ARG ###
+
+	spriteType = {
+		name = "GFX_idea_ARG_quenched_expansionism"
+		texturefile = "gfx/interface/ideas/ARG/ARG_quenched_expansionism.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ARG_ARA"
+		texturefile = "gfx/interface/ideas/ideas/ARG_ARA.png"
+	}
+
+	### BRA ###
+
+	spriteType = {
+		name = "GFX_idea_BRA_faith_unity"
+		texturefile = "gfx/interface/ideas/ideas/BRA_faith_unity.png"
+	}
+
+	### USA ###
+
+	spriteType = {
+		name = "GFX_idea_USA_fighting_for_america"
+		texturefile = "gfx/interface/ideas/ideas/USA_fighting_for_america.png"
+	}
+	spriteType = {
+		name = "GFX_idea_monroe_doctrine"
+		texturefile = "gfx/interface/ideas/ideas/idea_monroe_doctrine.png"
+	}
+
+	### CAN ###
+
+	spriteType = {
+		name = "GFX_idea_CAN_canadian_broadcasting"
+		texturefile = "gfx/interface/ideas/ideas/CAN_canadian_broadcasting.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CAN_transcanada_airlines"
+		texturefile = "gfx/interface/ideas/ideas/CAN_transcanada_airlines.png"
+	}
+
+	### GUA ###
+
+	spriteType = {
+		name = "GFX_idea_GUA_militaristic_state"
+		texturefile = "gfx/interface/ideas/ideas/GUA_militaristic_state.png"
+	}
+
+	### PRU ###
+
+	spriteType = {
+		name = "GFX_idea_PRU_mountain_corps"
+		texturefile = "gfx/interface/ideas/ideas/PRU_mountain_corps.png"
+	}
+
+}

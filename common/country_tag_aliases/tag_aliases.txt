@@ -1,0 +1,12 @@
+FNG = {
+	original_tag = MAN
+}
+BAT = { # LAT, EST, LIT
+	global_event_target = unified_baltic
+}
+CRP = { # ROM, HUN, SLO
+	global_event_target = unified_carpathia
+}
+CAU = { # GEO, GOR, AZR, ARM
+	global_event_target = unified_caucasia
+}

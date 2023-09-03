@@ -1,0 +1,910 @@
+characters = {
+	ARB_Abd_al_Ilah = {
+		name = "Abd al-Ilah"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARB/Portrait_ARB_Abd_al_Ilah.png"
+        small = "gfx/interface/ministers/ARB/ARB_Abd_al_Ilah.png"
+			}
+		}
+    country_leader = {
+      desc = POLITICS_ARB_ADB_AL_ILAH_DESC
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+    country_leader = {
+      desc = POLITICS_ARB_ADB_AL_ILAH_DESC
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+    country_leader = {
+      desc = POLITICS_ARB_ADB_AL_ILAH_DESC
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+    country_leader = {
+      desc = POLITICS_ARB_ADB_AL_ILAH_DESC
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+    country_leader = {
+      desc = POLITICS_ARB_ADB_AL_ILAH_DESC
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+      desc = POLITICS_ARB_ADB_AL_ILAH_DESC
+			ideology = absolute_mon_subtype
+			traits = { }
+		}
+    advisor = {
+			cost = 150
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Abd_al_Ilah_hog_pau_hired }
+			}			
+			idea_token = ARB_Abd_al_Ilah_hog_pau
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Abd_al_Ilah_hog_pau_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Abd_al_Ilah_hog_pau_hired }
+			}
+			traits = {
+				paternal_autocrat
+				hog_charismatic_charmer
+			}
+		}
+	}
+	ARB_Zeid_bin_Hussein_al_Hashmid = {
+		name = "Zeid bin Hussein al-Hashmid"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARB/Portrait_ARB_Zeid_bin_Hussein_al_Hashmid.png"
+			}
+		}
+		field_marshal = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+  ARB_Abdul_Qadir_Pasha_el_Jundi = {
+		name = "Abdul Qadir Pasha el-Jundi"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARB/Portrait_ARB_Abdul_Qadir_Pasha_el_Jundi.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_expert infantry_officer infantry_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	ARB_Ghazi_bin_Faisal_al_Hashmid = {
+		name = "Ghazi bin Faisal al-Hashmid"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARB/Portrait_ARB_Ghazi_bin_Faisal_al_Hashmid_army.png"
+			}
+			civilian = {
+				large = "gfx/leaders/ARB/Portrait_ARB_Ghazi_bin_Faisal_al_Hashmid.png"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+  ARB_Fahd_Al_Salem_Al_Sabah = {
+		name = "Fahd Al-Salem Al-Sabah"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Fahd_Al_Salem_Al_Sabah.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Fahd_Al_Salem_Al_Sabah_hog_sde_hired }
+			}			
+			idea_token = ARB_Fahd_Al_Salem_Al_Sabah_hog_sde
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Fahd_Al_Salem_Al_Sabah_hog_sde_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Fahd_Al_Salem_Al_Sabah_hog_sde_hired }
+			}
+			traits = {
+				social_democrat
+				hog_ambitious_union_boss
+			}
+		}
+	}
+	ARB_Yasin_al_Hashimi = {
+		name = "Yasin al-Hashimi"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ARB/Portrait_ARB_Yasin_Hashimi.png"
+			}
+		}
+		corps_commander = {
+			traits = { 
+				politically_connected
+				infantry_leader
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ARB_Husain_Sirhan = {
+		name = "Husain Sirhan"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Husain_Sirhan.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Husain_Sirhan_hog_sli_hired }
+			}			
+			idea_token = ARB_Husain_Sirhan_hog_sli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Husain_Sirhan_hog_sli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Husain_Sirhan_hog_sli_hired }
+			}
+			traits = {
+				social_liberal
+				hog_happy_amateur
+			}
+		}
+	}
+	ARB_Ahmad_Al_Jaber_Al_Sabah = {
+		name = "Ahmad Al-Jaber Al-Sabah"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Ahmad_Al_Jaber_Al_Sabah.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Ahmad_Al_Jaber_Al_Sabah_hog_mli_hired }
+			}			
+			idea_token = ARB_Ahmad_Al_Jaber_Al_Sabah_hog_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Ahmad_Al_Jaber_Al_Sabah_hog_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Ahmad_Al_Jaber_Al_Sabah_hog_mli_hired }
+			}
+			traits = {
+				market_liberal
+				hog_pragmatic_statesman
+			}
+		}
+	}
+  ARB_Calouste_Gulbenkian = {
+    name = "Calouste Gulbenkian"
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/ARB/Portrait_ARB_Calouste_Gulbenkian.png"
+        small = "gfx/interface/ministers/ARB/ARB_Calouste_Gulbenkian.png"
+      }
+    }
+    advisor = {
+      cost = 150
+      slot = head_of_government
+      available = {
+				hidden_trigger = { has_country_flag = ARB_Calouste_Gulbenkian_hog_mli_hired }
+			}			
+			idea_token = ARB_Calouste_Gulbenkian_hog_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Calouste_Gulbenkian_hog_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Calouste_Gulbenkian_hog_mli_hired }
+			}
+      traits = {
+        market_liberal
+        hog_smiling_oilman
+      }
+    }
+  }
+	ARB_Abdullah_III_Al_Salim_Al_Sabah = {
+		name = "Abdullah III Al-Salim Al-Sabah"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Abdullah_III_Al_Salim_Al_Sabah.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Abdullah_III_Al_Salim_Al_Sabah_hog_sco_hired }
+			}			
+			idea_token = ARB_Abdullah_III_Al_Salim_Al_Sabah_hog_sco
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Abdullah_III_Al_Salim_Al_Sabah_hog_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Abdullah_III_Al_Salim_Al_Sabah_hog_sco_hired }
+			}
+			traits = {
+				social_conservative
+				hog_old_compromiser
+			}
+		}
+	}
+	ARB_Ali_bin_Ashwan = {
+		name = "Ali bin Ashwan"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Ali_bin_Ashwan.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Ali_bin_Ashwan_hog_ade_hired }
+			}			
+			idea_token = ARB_Ali_bin_Ashwan_hog_ade
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Ali_bin_Ashwan_hog_ade_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Ali_bin_Ashwan_hog_ade_hired }
+			}
+			traits = {
+				authoritarian_democrat
+				hog_backroom_backstabber
+			}
+		}
+	}
+	ARB_Eqab_bin_Mohaya = {
+		name = "Eqab bin Mohaya"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Eqab_bin_Mohaya.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Eqab_bin_Mohaya_hog_ade_hired }
+			}			
+			idea_token = ARB_Eqab_bin_Mohaya_hog_ade
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Eqab_bin_Mohaya_hog_ade_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Eqab_bin_Mohaya_hog_ade_hired }
+			}
+			traits = {
+				authoritarian_democrat
+				hog_charismatic_charmer
+			}
+		}
+	}
+	ARB_Hamad_bin_Jazi_al_Hawaita = {
+		name = "Hamad bin Jazi al-Hawaita"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Hamad_bin_Jazi_al_Hawaita.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Hamad_bin_Jazi_al_Hawaita_hog_ade_hired }
+			}			
+			idea_token = ARB_Hamad_bin_Jazi_al_Hawaita_hog_ade
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Hamad_bin_Jazi_al_Hawaita_hog_ade_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Hamad_bin_Jazi_al_Hawaita_hog_ade_hired }
+			}
+			traits = {
+				authoritarian_democrat
+				hog_flamboyant_tough_guy
+			}
+		}
+	}
+	
+	ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah = {
+		name = "Mohammed Ahmad Al-Jaber Al-Sabah"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah.png"
+			}
+			army = {
+				small = "gfx/interface/ministers/ARB/ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah_for_mli_hired }
+			}			
+			idea_token = ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah_for_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah_for_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah_for_mli_hired }
+			}
+			traits = {
+				market_liberal
+				for_relations_expert
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief			
+			idea_token = ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah_cair_mli
+			traits = {
+				cair_air_superiority_doctrine
+			}
+		}
+	}
+	ARB_Abdullah_Al_Jaber_Al_Sabah = {
+		name = "Abdullah Al-Jaber Al-Sabah"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Abdullah_Al_Jaber_Al_Sabah.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_for_sco_hired }
+			}			
+			idea_token = ARB_Abdullah_Al_Jaber_Al_Sabah_for_sco
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_for_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_for_sco_hired }
+			}
+			traits = {
+				social_conservative
+				for_apologetic_clerk
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_eco_sco_hired }
+			}			
+			idea_token = ARB_Abdullah_Al_Jaber_Al_Sabah_eco_sco
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_eco_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_eco_sco_hired }
+			}
+			traits = {
+				social_conservative
+				eco_construction_magnate
+			}
+		}
+	}
+	ARB_Tahseen_Qadri = {
+		name = "Tahseen Qadri"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Tahseen_Qadri.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Tahseen_Qadri_for_sli_hired }
+			}			
+			idea_token = ARB_Tahseen_Qadri_for_sli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Tahseen_Qadri_for_sli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Tahseen_Qadri_for_sli_hired }
+			}
+			traits = {
+				social_liberal
+				for_moderate_among_radicals
+			}
+		}
+	}
+	ARB_Sabah_al_Salem_al_Sabah = {
+		name = "Sabah al-Salem al-Sabah"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Sabah_al_Salem_al_Sabah.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Sabah_al_Salem_al_Sabah_for_ade_hired }
+			}			
+			idea_token = ARB_Sabah_al_Salem_al_Sabah_for_ade
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Sabah_al_Salem_al_Sabah_for_ade_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Sabah_al_Salem_al_Sabah_for_ade_hired }
+			}
+			traits = {
+				authoritarian_democrat
+				for_relations_expert
+			}
+		}
+	}
+	ARB_Mubarak_Al_Hamad_Al_Sabah = {
+		name = "Mubarak Al-Hamad Al-Sabah"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Mubarak_Al_Hamad_Al_Sabah.png"
+			}
+			army = {
+				small = "gfx/interface/ministers/ARB/ARB_Mubarak_Al_Hamad_Al_Sabah.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Mubarak_Al_Hamad_Al_Sabah_eco_mli_hired }
+			}			
+			idea_token = ARB_Mubarak_Al_Hamad_Al_Sabah_eco_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Mubarak_Al_Hamad_Al_Sabah_eco_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Mubarak_Al_Hamad_Al_Sabah_eco_mli_hired }
+			}
+			traits = {
+				market_liberal
+				eco_industrialiser
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief			
+			idea_token = ARB_Mubarak_Al_Hamad_Al_Sabah_carm_mli
+			traits = {
+				carm_guns_and_butter_doctrine
+			}
+		}
+	}
+	ARB_Sheikh_Salih_al_Rajihi = {
+		name = "Sheikh Salih al Rajihi"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Sheikh_Salih_al_Rajihi.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Sheikh_Salih_al_Rajihi_eco_pau_hired }
+			}			
+			idea_token = ARB_Sheikh_Salih_al_Rajihi_eco_pau
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Sheikh_Salih_al_Rajihi_eco_pau_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Sheikh_Salih_al_Rajihi_eco_pau_hired }
+			}
+			traits = {
+				paternal_autocrat
+				eco_resource_industrialist
+			}
+		}
+	}
+	ARB_Mohammed_bin_Awad_bin_Laden = {
+		name = "Mohammed bin Awad bin Laden"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Mohammed_bin_Awad_bin_Laden.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Mohammed_bin_Awad_bin_Laden_eco_ade_hired }
+			}			
+			idea_token = ARB_Mohammed_bin_Awad_bin_Laden_eco_ade
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Mohammed_bin_Awad_bin_Laden_eco_ade_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Mohammed_bin_Awad_bin_Laden_eco_ade_hired }
+			}
+			traits = {
+				authoritarian_democrat
+				eco_reformer
+			}
+		}
+	}
+	ARB_Sulaiman_S_Olayan = {
+		name = "Sulaiman S. Olayan"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Sulaiman_S_Olayan.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Sulaiman_S_Olayan_eco_ade_hired }
+			}			
+			idea_token = ARB_Sulaiman_S_Olayan_eco_ade
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Sulaiman_S_Olayan_eco_ade_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Sulaiman_S_Olayan_eco_ade_hired }
+			}
+			traits = {
+				authoritarian_democrat
+				eco_the_minister_for_everything
+			}
+		}
+	}
+	ARB_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah = {
+		name = "Abdullah Al-Ahmad Al-Jaber Al-Sabah"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = security_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah_sec_mli_hired }
+			}			
+			idea_token = ARB_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah_sec_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah_sec_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah_sec_mli_hired }
+			}
+			traits = {
+				market_liberal
+				sec_media_magnate
+			}
+		}
+	}
+	ARB_Hazaa_bin_Sultan_Al_Nahyan = {
+		name = "Hazaa bin Sultan Al Nahyan"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Hazaa_bin_Sultan_Al_Nahyan.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = security_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Hazaa_bin_Sultan_Al_Nahyan_sec_mli_hired }
+			}			
+			idea_token = ARB_Hazaa_bin_Sultan_Al_Nahyan_sec_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Hazaa_bin_Sultan_Al_Nahyan_sec_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Hazaa_bin_Sultan_Al_Nahyan_sec_mli_hired }
+			}
+			traits = {
+				market_liberal
+				sec_silent_lawyer
+			}
+		}
+	}
+	ARB_Jassim_bin_Muhammed_bin_Jassim_Al_Thani = {
+		name = "Jassim bin Muhammed bin Jassim Al Thani"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Jassim_bin_Muhammed_bin_Jassim_Al_Thani.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = security_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Jassim_bin_Muhammed_bin_Jassim_Al_Thani_sec_sco_hired }
+			}			
+			idea_token = ARB_Jassim_bin_Muhammed_bin_Jassim_Al_Thani_sec_sco
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Jassim_bin_Muhammed_bin_Jassim_Al_Thani_sec_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Jassim_bin_Muhammed_bin_Jassim_Al_Thani_sec_sco_hired }
+			}
+			traits = {
+				social_conservative
+				sec_compassionate_gentleman
+			}
+		}
+	}
+	ARB_Mohammed_bin_Sharif_Al_Farouqi = {
+		name = "Mohammed bin Sharif Al Farouqi"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Mohammed_bin_Sharif_Al_Farouqi.png"
+			}
+			army = {
+				small = "gfx/interface/ministers/ARB/ARB_Mohammed_bin_Sharif_Al_Farouqi.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = security_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Mohammed_bin_Sharif_Al_Farouqi_sec_sco_hired }
+			}			
+			idea_token = ARB_Mohammed_bin_Sharif_Al_Farouqi_sec_sco
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Mohammed_bin_Sharif_Al_Farouqi_sec_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Mohammed_bin_Sharif_Al_Farouqi_sec_sco_hired }
+			}
+			traits = {
+				social_conservative
+				sec_compassionate_gentleman
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief			
+			idea_token = ARB_Mohammed_bin_Sharif_Al_Farouqi_carm_sco
+			traits = {
+				carm_decisive_battle_doctrine
+			}
+		}
+	}
+	ARB_Salem_Al_Mubarak_Al_Sabah = {
+		name = "Salem Al-Mubarak Al-Sabah"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/ARB/ARB_Salem_Al_Mubarak_Al_Sabah.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = security_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Salem_Al_Mubarak_Al_Sabah_sec_ade_hired }
+			}			
+			idea_token = ARB_Salem_Al_Mubarak_Al_Sabah_sec_ade
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Salem_Al_Mubarak_Al_Sabah_sec_ade_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Salem_Al_Mubarak_Al_Sabah_sec_ade_hired }
+			}
+			traits = {
+				authoritarian_democrat
+				sec_silent_lawyer
+			}
+		}
+	}
+	ARB_Jamil_al_Madafi = {
+		name = "Jamil al-Madafi"
+		portraits = {
+			army = {
+				small = "gfx/interface/ministers/ARB/ARB_Jamil_al_Madafi.png"
+			}
+			navy = {
+				small = "gfx/interface/ministers/ARB/ARB_Jamil_al_Madafi.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command			
+			idea_token = ARB_Jamil_al_Madafi_cos
+			traits = {
+				cos_school_of_psychology
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief			
+			idea_token = ARB_Jamil_al_Madafi_carm
+			traits = {
+				carm_doctrine_of_autonomy
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief			
+			idea_token = ARB_Jamil_al_Madafi_cnav
+			traits = {
+				cnav_indirect_approach_doctrine
+			}
+		}
+	}
+	ARB_Nada_bin_Nuhair = {
+		name = "Nada bin Nuhair"
+		portraits = {
+			army = {
+				small = "gfx/interface/ministers/ARB/ARB_Nada_bin_Nuhair.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command			
+			idea_token = ARB_Nada_bin_Nuhair_cos
+			traits = {
+				cos_school_of_defence
+			}
+		}
+	}
+  ARB_Nuri_al_Said = {
+    name = "Nuri al-Said"
+    portraits = {
+      civilian = {
+        small = "gfx/interface/ministers/ARB/ARB_Nuri_al_Said.png"
+      }
+    }
+    advisor = {
+			cost = 150
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Nuri_al_Said_hog_mli_hired }
+			}			
+			idea_token = ARB_Nuri_al_Said_hog_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Nuri_al_Said_hog_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Nuri_al_Said_hog_mli_hired }
+			}
+			traits = {
+				market_liberal
+				hog_corporate_suit
+			}
+		}
+  }
+  ARB_Francis_Humphrys = {
+    name = "Francis Humphrys"
+    portraits = {
+      civilian = {
+        small = "gfx/interface/ministers/ARB/ARB_Francis_Humphrys.png"
+      }
+    }
+    advisor = {
+			cost = 150
+			slot = foreign_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Francis_Humphrys_for_mli_hired }
+			}			
+			idea_token = ARB_Francis_Humphrys_for_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Francis_Humphrys_for_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Francis_Humphrys_for_mli_hired }
+			}
+			traits = {
+				market_liberal
+				for_great_compromiser
+			}
+		}
+  }
+  ARB_John_Cadman = {
+    name = "John Cadman"
+    portraits = {
+      civilian = {
+        small = "gfx/interface/ministers/ARB/ARB_John_Cadman.png"
+      }
+    }
+    advisor = {
+			cost = 150
+			slot = economy_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_John_Cadman_eco_mli_hired }
+			}			
+			idea_token = ARB_John_Cadman_eco_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_John_Cadman_eco_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_John_Cadman_eco_mli_hired }
+			}
+			traits = {
+				market_liberal
+				eco_resource_industrialist
+			}
+		}
+  }
+  ARB_Percy_Cox = {
+    name = "Percy Cox"
+    portraits = {
+      civilian = {
+        small = "gfx/interface/ministers/ARB/ARB_Percy_Cox.png"
+      }
+    }
+    advisor = {
+			cost = 150
+			slot = security_minister
+			available = {
+				hidden_trigger = { has_country_flag = ARB_Percy_Cox_sec_mli_hired }
+			}			
+			idea_token = ARB_Percy_Cox_sec_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ARB_Percy_Cox_sec_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ARB_Percy_Cox_sec_mli_hired }
+			}
+			traits = {
+				market_liberal
+				sec_efficient_sociopath
+			}
+		}
+  }
+}

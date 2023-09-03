@@ -1,0 +1,14 @@
+characters = {
+	HAN_Erich_Maria_Remarque = {
+		name = "Erich Maria Remarque"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAN/Portrait_HAN_Erich_Maria_Remarque.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+	}
+}

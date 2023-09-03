@@ -1,0 +1,78 @@
+on_actions = {
+  on_new_term_election = {
+    effect = {
+      if = {
+        limit = { tag = ARB }
+        country_event = arabia.38 # 1940 Elections
+        country_event = arabia.39 # 1945 Elections
+      }
+    }
+  }
+  on_state_control_changed = {
+    effect = {
+      if = {
+        limit = {
+          ROOT = { tag = SAU }
+          FROM = { tag = YEM }
+          FROM.FROM = { state = 831 }
+        }
+        ROOT = {
+          country_event = saudi.11
+        }
+      }
+    }
+  }
+  # ROOT is the winner
+  # FROM gets annexed
+  on_annex = {
+    effect = {
+      # if Hashemite annexed Saudi/Rashid
+      if = {
+        limit = {
+          FROM = {
+            OR = {
+              tag = RAS
+              tag = SAU
+            }
+          }
+          ROOT = { tag = ARB }
+        }
+        FROM = {
+          country_event = arabia.37
+        }
+      }
+
+      # if Saudi annexed Hashemite/Rashid
+      if = {
+        limit = {
+          FROM = {
+            OR = {
+              tag = ARB
+              tag = RAS
+            }
+          }
+          ROOT = { tag = SAU }
+        }
+        FROM = {
+          country_event = saudi.1
+        }
+      }
+
+      # if Rashid annexed Hashemite/Saudi
+      if = {
+        limit = {
+          FROM = {
+            OR = {
+              tag = ARB
+              tag = SAU
+            }
+          }
+          ROOT = { tag = RAS }
+        }
+        FROM = {
+          country_event = rashid.100
+        }
+      }
+    }
+  }
+}

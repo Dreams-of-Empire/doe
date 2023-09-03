@@ -1,0 +1,413 @@
+#####################
+# Soviet Focus Tree #
+#################################
+# Coded by fbruchmueller #
+#################################
+
+focus_tree = {
+	id = sov_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+    shared_focus = SOV_red_army
+    shared_focus = SOV_airforce
+    shared_focus = SOV_red_fleet
+    shared_focus = SOV_kickstart_industrialization
+    	
+##Premier Lenin
+	focus = {	
+		id = SOV_Premier_Lenin
+		icon = GFX_goal_syndicalist_lenin
+		available = {
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Premier_Lenin"
+	     	add_political_power = 30
+		}
+	}
+
+	focus = {	
+		id = SOV_help_agriculture
+		icon = GFX_goal_RAJ_agricultural_aid
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Lenin 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_Premier_Lenin
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_help_agriculture"
+	     	add_stability = 0.07
+		}
+	}
+
+	focus = {	
+		id = SOV_continue_industrilization
+		icon = GFX_goal_RAJ_Workers_Paradise
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Lenin 
+		}
+		bypass = {
+		}	
+		x = 3
+		y = 1
+		relative_position_id = SOV_Premier_Lenin
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_continue_industrilization"
+	     	random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {	
+		id = SOV_workplace_democracy
+		icon = GFX_goal_RAJ_India_Worker_Rights
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Lenin 
+		}
+		bypass = {
+		}	
+		x = -3
+		y = 1
+		relative_position_id = SOV_Premier_Lenin
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_workplace_democracy"
+	     	add_war_support = 0.07
+		}
+	}
+
+	focus = {	
+		id = SOV_new_land_reform
+		icon = GFX_goal_RAJ_Decentralized_Land_Reform
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_help_agriculture 
+		}
+		prerequisite = { 
+		    focus = SOV_workplace_democracy 
+		}
+		bypass = {
+		}	
+		x = -2
+		y = 1
+		relative_position_id = SOV_help_agriculture
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_new_land_reform"
+	     	add_stability = 0.1
+		}
+	}
+
+	focus = {	
+		id = SOV_supress_reactionaries
+		icon = GFX_goal_generic_grim_reaper
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_help_agriculture 
+		}
+		prerequisite = { 
+		    focus = SOV_continue_industrilization 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_help_agriculture
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_supress_reactionaries"
+	     	increase_ruling_party_popularity_by_10 = yes
+		}
+	}
+
+	focus = {	
+		id = SOV_prepare_congress
+		icon = GFX_focus_SOV_the_path_of_marxism_leninism
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_supress_reactionaries 
+		}
+		prerequisite = { 
+		    focus = SOV_new_land_reform 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_help_agriculture
+		cost = 20
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_prepare_congress"
+	     	custom_effect_tooltip = SOV_congress_preperation
+		}
+	}
+
+	focus = {	
+		id = SOV_start_congress
+		icon = GFX_focus_SOV_the_supreme_soviet
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_prepare_congress 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_prepare_congress
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_start_congress"
+	     	custom_effect_tooltip = SOV_congress_start
+		}
+	}
+
+	focus = {	
+		id = SOV_kulak_question
+		icon = GFX_goal_RAJ_Question_Agriculture
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_start_congress 
+		}
+		bypass = {
+		}	
+		x = -3
+		y = 1
+		relative_position_id = SOV_start_congress
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_kulak_question"
+	        country_event = sovietcongress.1
+	   		}
+	    }
+
+	focus = {	
+		id = SOV_army_doctrine_question
+		icon = GFX_goal_RAJ_Question_The_Army
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_start_congress 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_start_congress
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_army_doctrine_question"
+	        country_event = sovietcongress.2
+		}
+	}
+
+	focus = {	
+		id = SOV_foreign_policy
+		icon = GFX_goal_RAJ_Question_Foreign_Policy
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_start_congress 
+		}
+		bypass = {
+		}	
+		x = 3
+		y = 1
+		relative_position_id = SOV_start_congress
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_foreign_policy"
+	     	country_event = sovietcongress.3
+		}
+	}
+
+	focus = {	
+		id = SOV_minorities
+		icon = GFX_goal_RAJ_Question_Minorities
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_army_doctrine_question 
+		}
+		prerequisite = { 
+		    focus = SOV_foreign_policy 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_army_doctrine_question
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_minorities"
+	     	country_event = sovietcongress.5
+		}
+	}
+
+	focus = {	
+		id = SOV_secret_service
+		icon = GFX_goal_RAJ_Question_Secret_Services
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_army_doctrine_question 
+		}
+		prerequisite = { 
+		    focus = SOV_kulak_question 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_army_doctrine_question
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_secret_service"
+	     	country_event = sovietcongress.4
+		}
+	}
+
+	focus = {	
+		id = SOV_resignation
+		icon = GFX_goal_big_news
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_secret_service 
+		}
+		prerequisite = { 
+		    focus = SOV_minorities 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 2
+		relative_position_id = SOV_army_doctrine_question
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_resignation"
+	     	custom_effect_tooltip = SOV_congress_resignation
+		}
+	}
+
+	focus = {	
+		id = SOV_congress_over
+		icon = GFX_goal_RAJ_Everything_Went_Fine
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_resignation 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_resignation
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_congress_over"
+	       custom_effect_tooltip = SOV_congress_over_tooltip
+		}
+	}
+}

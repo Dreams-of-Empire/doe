@@ -1,0 +1,8 @@
+state_categories={
+	minor_treaty_port = {
+		local_building_slots = 2
+	
+		color = { 240 240 0 }
+
+	}
+}

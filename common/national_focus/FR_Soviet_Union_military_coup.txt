@@ -1,0 +1,1624 @@
+#####################
+# Soviet Focus Tree #
+#################################
+# Coded by fbruchmueller #
+#################################
+
+focus_tree = {
+	id = sov_focus_military_coup
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = SOV
+		}
+	}
+
+    shared_focus = SOV_red_army
+    shared_focus = SOV_airforce
+    shared_focus = SOV_red_fleet
+    shared_focus = SOV_kickstart_industrialization  
+
+    continuous_focus_position = { x = 50 y = 2000 }
+      	
+	focus = {	
+		id = SOV_military_coup
+		icon = GFX_goal_SOV_Moscow
+		available = {
+		}
+		bypass = {
+			always = yes
+		}	
+		x = 0
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_military_coup"
+	     	add_political_power = 30
+		}
+	}
+
+	focus = {	
+		id = SOV_control_police
+		icon = GFX_focus_prc_infiltration
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_military_coup 
+		}
+		bypass = {
+		}	
+		x = -2
+		y = 1
+		relative_position_id = SOV_military_coup
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_control_police"
+			custom_effect_tooltip = SOV_government_10
+	     	add_to_variable = { var = sov_stability_factor value = 10 }
+		}
+	}
+
+	focus = {	
+		id = SOV_stabilize_government
+		icon = GFX_goal_constitutional_guarantees
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_military_coup 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_military_coup
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_stabilize_government"
+	     	swap_ideas = {
+	     		remove_idea = SOV_January_Coup_idea
+	     		add_idea = SOV_January_Coup_idea2
+	     	}
+		}
+	}
+
+	focus = {	
+		id = SOV_supress_protests
+		icon = GFX_goal_LEC_monkey
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_stabilize_government 
+		}
+		prerequisite = { 
+		    focus = SOV_control_police 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_stabilize_government
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_supress_protests"
+			custom_effect_tooltip = SOV_government_10
+	     	add_to_variable = { var = sov_stability_factor value = 10 }
+		}
+	}
+
+	focus = {	
+		id = SOV_purge_local_opposition
+		icon = GFX_goal_POR_the_tarrafal
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_military_coup 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_military_coup
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_purge_local_opposition"
+	     	add_stability = 0.10
+		}
+	}
+
+	focus = {	
+		id = SOV_lockdown_congress
+		icon = GFX_goal_DEI_focus_disband_volksraad
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_purge_local_opposition 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_purge_local_opposition
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_lockdown_congress"
+			add_stability = 0.05
+			custom_effect_tooltip = SOV_government_5
+	     	add_to_variable = { var = sov_stability_factor value = 5 }
+		}
+	}
+
+	focus = {	
+		id = SOV_regain_control_unloyal_divisions
+		icon = GFX_goal_checkmate
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_lockdown_congress 
+		}
+		prerequisite = { 
+		    focus = SOV_stabilize_government 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_lockdown_congress
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_regain_control_unloyal_divisions"
+	     	swap_ideas = {
+	     		remove_idea = SOV_January_Coup_idea2
+	     		add_idea = SOV_January_Coup_idea3
+	     	}
+		}
+	}
+
+	focus = {	
+		id = SOV_moscow_secured
+		icon = GFX_goal_Centralised_Government
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_regain_control_unloyal_divisions 
+		}
+		prerequisite = { 
+		    focus = SOV_supress_protests 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_regain_control_unloyal_divisions
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_moscow_secured"
+	     	remove_ideas = SOV_January_Coup_idea3
+		}
+	}
+
+	focus = {	
+		id = SOV_move_westwards
+		icon = GFX_goal_COS_War
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_moscow_secured 
+		}
+		bypass = {
+			always = yes
+		}	
+		x = -5
+		y = 1
+		relative_position_id = SOV_moscow_secured
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_move_westwards"
+		}
+	}
+
+	focus = {	
+		id = SOV_Kaluka_is_ours
+		icon = GFX_goal_skull_treaty2
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 30"
+			check_variable = { sov_stability_factor > 30 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_move_westwards 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_move_westwards
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Kaluka_is_ours"
+				if = {
+					limit = {
+						205 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					205 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+			}
+		}
+
+	focus = {	
+		id = SOV_bryansk_march_onwards
+		icon = GFX_GEA_counter_insurgency
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 30"
+			check_variable = { sov_stability_factor > 30 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_Kaluka_is_ours 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_Kaluka_is_ours
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_bryansk_march_onwards"
+				if = {
+					limit = {
+						224 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					224 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+			}
+		}
+
+	focus = {	
+		id = SOV_Tula
+		icon = GFX_goal_Human_tsunam_2
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 30"
+			check_variable = { sov_stability_factor > 30 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_move_westwards 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_move_westwards
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Tula"
+				if = {
+					limit = {
+						223 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					223 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+
+
+	focus = {	
+		id = SOV_Orel
+		icon = GFX_goal_Great_Railway_Incident
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 30"
+			check_variable = { sov_stability_factor > 30 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_Tula 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_Tula
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Orel"
+				if = {
+					limit = {
+						222 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					222 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+ 
+	focus = {	
+		id = SOV_Kursk
+		icon = GFX_focus_generic_provoke_border_clashes
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 30"
+			check_variable = { sov_stability_factor > 30 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_Orel 
+		}
+		prerequisite = { 
+		    focus = SOV_bryansk_march_onwards 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_bryansk_march_onwards
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Kursk"
+				if = {
+					limit = {
+						220 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					220 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+
+
+	focus = {	
+		id = SOV_move_northwards
+		icon = GFX_goal_national_arsenal
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_moscow_secured 
+		}
+		bypass = {
+			always = yes
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_moscow_secured
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_move_northwards"
+		}
+	}
+
+	focus = {	
+		id = SOV_move_into_smolensk
+		icon = GFX_goal_conscription
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 30"
+			check_variable = { sov_stability_factor > 30 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_move_northwards 
+		}
+		bypass = {
+		}	
+		x = -2
+		y = 1
+		relative_position_id = SOV_move_northwards
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_move_into_smolensk"
+				if = {
+					limit = {
+						242 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					242 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+			}
+		}
+
+	focus = {	
+		id = SOV_take_rezhev
+		icon = GFX_goal_military_academy
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 30"
+			check_variable = { sov_stability_factor > 30 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_move_northwards 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_move_northwards
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_take_rezhev"
+				if = {
+					limit = {
+						246 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					246 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+
+	focus = {	
+		id = SOV_liberate_kalinin
+		icon = GFX_goal_economic_control
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 30"
+			check_variable = { sov_stability_factor > 30 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_move_northwards 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_move_northwards
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_liberate_kalinin"
+				if = {
+					limit = {
+						247 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					247 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+
+	focus = {	
+		id = SOV_bordering_dnieper
+		icon = GFX_goal_revolution
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 50"
+			check_variable = { sov_stability_factor > 50 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_take_rezhev 
+		}
+		prerequisite = { 
+		    focus = SOV_move_into_smolensk 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_move_into_smolensk
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_bordering_dnieper"
+				if = {
+					limit = {
+						243 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					243 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						948 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					948 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						210 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					210 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						791 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					791 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						914 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					914 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						209 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					209 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		}
+	}
+
+	focus = {
+		id = SOV_Lava
+		icon = GFX_goal_checkmate
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 50"
+			check_variable = { sov_stability_factor > 50 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_take_rezhev 
+		}
+		prerequisite = { 
+		    focus = SOV_liberate_kalinin 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_take_rezhev
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Lava"
+				if = {
+					limit = {
+						263 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					263 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						264 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					264 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						244 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					244 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						208 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					208 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+			}
+		}
+
+	focus = {	
+		id = SOV_restoring_order_leningrad
+		icon = GFX_goal_HOL_amend_wapenwet
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 65"
+			check_variable = { sov_stability_factor > 65 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_Lava 
+		}
+		prerequisite = { 
+		    focus = SOV_bordering_dnieper 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_bordering_dnieper
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_restoring_order_leningrad"
+				if = {
+					limit = {
+						195 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					195 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+
+	focus = {	
+		id = SOV_move_southwards
+		icon = GFX_goal_national_mobilization
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_moscow_secured 
+		}
+		bypass = {
+			always = yes
+		}	
+		x = 5
+		y = 1
+		relative_position_id = SOV_moscow_secured
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_move_southwards"
+		}
+	}
+
+	focus = {	
+		id = SOV_pacifying_ryazan
+		icon = GFX_goal_nested_fortifications
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 30"
+			check_variable = { sov_stability_factor > 30 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_move_southwards 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_move_southwards
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_pacifying_ryazan"
+				if = {
+					limit = {
+						254 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					254 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+
+	focus = {	
+		id = SOV_march_continues
+		icon = GFX_goal_planning_bonus
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 55"
+			check_variable = { sov_stability_factor > 55 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_pacifying_ryazan 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_pacifying_ryazan
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_march_continues"
+				if = {
+					limit = {
+						258 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					258 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						257 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					257 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						255 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					255 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						260 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					260 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+  
+	focus = {	
+		id = SOV_don_volga
+		icon = GFX_goal_authority available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 70"
+			check_variable = { sov_stability_factor > 70 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_march_continues 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_march_continues
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_don_volga"
+				if = {
+					limit = {
+						239 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					239 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						265 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					265 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						240 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					240 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						228 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					228 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						227 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					227 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						218 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					218 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						245 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					245 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						265 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					265 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						217 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					217 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+  
+	focus = {	
+		id = SOV_partially_order_restored
+		icon = GFX_goal_liberty
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_restoring_order_leningrad 
+		}
+		prerequisite = { 
+		    focus = SOV_don_volga 
+		}
+		prerequisite = { 
+		    focus = SOV_Kursk 
+		}
+		bypass = {
+			always = yes
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_restoring_order_leningrad
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_partially_order_restored"
+		    }
+	    }
+
+	focus = {	
+		id = SOV_free_karelia
+		icon = GFX_goal_ideology_paternal_autocrat
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 30"
+			check_variable = { sov_stability_factor > 30 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_partially_order_restored 
+		}
+		bypass = {
+		}	
+		x = -3
+		y = 3
+		relative_position_id = SOV_partially_order_restored
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_free_karelia"
+				if = {
+					limit = {
+						216 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					216 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						215 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					215 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						236 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					236 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						213 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					213 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						722 = {
+							has_state_flag = SOV_demil_state
+						}
+					}
+					722 = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+
+	focus = {	
+		id = SOV_move_eastwards
+		icon = GFX_focus_generic_license_production
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_partially_order_restored 
+		}
+		bypass = {
+			always = yes
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_partially_order_restored
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_move_eastwards"
+		    }
+	    }
+
+	focus = {	
+		id = SOV_march_to_the_urals
+		icon = GFX_goal_POR_Imperial_Lunada
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_move_eastwards 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_move_eastwards
+		cost = 7
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_march_to_the_urals"
+				every_state = {
+					limit = {
+						has_state_flag = SOV_demil_state
+						OR = {
+							region = 150
+							region = 400
+							region = 137
+							is_on_continent = asia
+						}
+					}
+					THIS = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+			}
+		}
+
+	focus = {	
+		id = SOV_finish_the_traitors
+		icon = GFX_goal_intergrate_the_militia
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_march_to_the_urals 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_march_to_the_urals
+		cost = 8.6
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_finish_the_traitors"
+				every_state = {
+					limit = {
+						has_state_flag = SOV_demil_state
+						NOT = {
+							region = 135
+						}
+					}
+					THIS = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+
+	focus = {	
+		id = SOV_Restore_Order_Ciscaucasia
+		icon = GFX_goal_enlist_the_police
+		available = {
+			custom_trigger_tooltip = {
+			tooltip = "Our Government Stability is greater than 45"
+			check_variable = { sov_stability_factor > 45 }
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_partially_order_restored 
+		}
+		bypass = {
+		}	
+		x = 3
+		y = 3
+		relative_position_id = SOV_partially_order_restored
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Restore_Order_Ciscaucasia"
+				every_state = {
+					limit = {
+						has_state_flag = SOV_demil_state
+						region = 135
+					}
+					THIS = {
+						clr_state_flag = SOV_demil_state
+						add_state_modifier = {
+							modifier = {
+								local_manpower = 0.5
+								local_org_regain = 0.5
+								local_supplies = 0.5
+							}
+						}
+					}
+				}
+		    }
+	    }
+
+	focus = {	
+		id = SOV_nation_reunited
+		icon = GFX_goal_HOL_council_communism
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_free_karelia 
+		}
+		prerequisite = { 
+		    focus = SOV_finish_the_traitors 
+		}
+		prerequisite = { 
+		    focus = SOV_Restore_Order_Ciscaucasia 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_finish_the_traitors
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_nation_reunited"
+			#custom_effect_tooltip = SOV_load_focus_trees
+			#custom_effect_tooltip = SOV_regain_army
+			set_country_flag = SOV_regime_stabilized
+			clr_country_flag = SOV_military_coup_started
+			remove_ideas = SOV_political_divide
+			hidden_effect = {
+				#load_oob = SOV_Tukha_Army
+				if = {
+					limit = {
+						has_country_leader = {
+   							name = "Kliment Voroshilov"
+   							ruling_only = yes
+   						}
+					}
+					load_focus_tree = sov_focus_voroshilov
+				}
+
+				if = {
+					limit = {
+						has_country_leader = {
+   							name = "Nikolai Yezhov"
+   							ruling_only = yes
+   						}
+					}
+					load_focus_tree = sov_focus_yezhov
+				}
+				if = {
+					limit = {
+						has_country_leader = {
+							name = "Mikhail Tukhachevsky"
+							ruling_only = yes
+						}
+					}
+					load_focus_tree = sov_focus_tukhachevsky
+				}
+				if = {
+					limit = {
+						OR = {
+							has_idea = military_junta
+							has_idea = failed_state
+						}
+					}
+					add_ideas = workers_republic
+				}				
+			}
+	    }
+	}
+}

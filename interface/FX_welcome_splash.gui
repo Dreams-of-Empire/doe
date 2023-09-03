@@ -1,0 +1,97 @@
+guiTypes = {
+
+
+# CREDITS FOUND IN FX_00_general_l_english.yml	
+	containerWindowType = {
+		name = "FX_intro_window_container"
+		position = { x = 0 y = 175 }
+		size = { width = 800 height = 927 }
+		moveable = yes
+		orientation = CENTER
+		origo = center
+
+		background = {
+			name = "FX_logo"
+			spriteType = "GFX_FX_intro_logo"
+			position = { x = -4 y = -176 }	
+		}
+
+		## checkerboard backfill
+
+		containerWindowType = {
+			name = "splash_backfill"
+			position = { x = 0 y = 35 }
+			size = { width = 728 height = 308} ## INCREASE HERE IF MORE LINES ARE NEEDED
+			orientation = CENTER
+			origo = center
+
+			background = {
+				name = "splash_backfill"
+				quadTextureSprite = "GFX_tiled_window_thin_border"
+			}
+		}
+
+		## border texture & textboxes
+
+		containerWindowType = {
+			name = "splash_border"
+			position = { x = 0 y = 35 }
+			size = { width = 720 height = 300 } ## INCREASE HERE IF MORE LINES ARE NEEDED
+			orientation = CENTER
+			origo = center
+			background = {
+				name = "splash_border"
+				quadTextureSprite = "GFX_tiled_generic_bg_1"
+			}
+
+			instantTextboxType = {
+				name = "FX_splash_title"
+				position = { x = -330 y = 8 }
+				orientation = center_up
+
+				font = "hoi_20bs"
+				text = "FX_SPLASH_TITLE"
+				format = centre
+				maxWidth = 660
+			}
+
+			instantTextboxType = {
+				name = "FX_splash_credits"
+				position = { x = 17 y = 35 }
+				# orientation = center_up
+				scrollbarType = "standardtext_slider"
+				font = "hoi_20bs"
+				text = "FX_SPLASH_CREDITS"
+				format = centre
+				maxWidth = 685
+				maxHeight = 240
+			}
+
+		}
+		
+		containerWindowType = {
+			name = "exitbtn"
+			position = {x = -144 y = -175 }
+			size = { width = 720 height = 252 }
+			orientation = CENTER
+			origo = center
+
+			buttonType = {
+				name = "mod_options_button"
+				position = { x = 25 y = 235 }
+				orientation = center_down
+
+				quadTextureSprite = "GFX_play_button"
+				buttonText = "Continue"
+				buttonFont = "hoi_30header"
+				clicksound = click_default
+				oversound = ui_menu_over
+
+				shortcut = "ESCAPE"
+				shortcut = "RETURN"
+				# shortcut = "SPACE"
+			}
+			
+		}
+	}
+}

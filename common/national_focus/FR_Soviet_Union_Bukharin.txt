@@ -1,0 +1,224 @@
+###############################################################################
+# Soviet Focus Tree                                                           #
+###############################################################################
+# Coded by fbruchmueller                                                      #
+###############################################################################
+# Special thanks to sjarlewis, Anbory and Blackleaf for their invaluable help #
+###############################################################################
+focus_tree = {
+	id = sov_focus_bukharin
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = SOV
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+    shared_focus = SOV_red_army
+    shared_focus = SOV_airforce
+    shared_focus = SOV_red_fleet
+    shared_focus = SOV_kickstart_industrialization
+    	
+	focus = {	
+		id = SOV_Premier_Bukharin
+		icon = GFX_goal_premier_bukharin
+		available = {
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Premier_Bukharin"
+	     	add_political_power = 30
+		}
+	}
+	focus = {	
+		id = SOV_decrease_bureaucracy
+		icon = GFX_goal_big_news
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Bukharin 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_Premier_Bukharin
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_decrease_bureaucracy"
+	     	add_ideas = SOV_reduced_bureaucracy
+		}
+	}
+	focus = {	
+		id = SOV_inner_party_democracy
+		icon = GFX_goal_liberty
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Bukharin 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_Premier_Bukharin
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_inner_party_democracy"
+	     	add_stability = 0.10
+		}
+	}
+	focus = {	
+		id = SOV_agreements_trade_unions
+		icon = GFX_goal_tblra_union_agreement
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_decrease_bureaucracy 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_decrease_bureaucracy
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_agreements_trade_unions"
+	     	add_stability = 0.10
+		}
+	}
+	focus = {	
+		id = SOV_accilerate_industrialization
+		icon = GFX_goal_factory_complex
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_decrease_bureaucracy 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_decrease_bureaucracy
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_accilerate_industrialization"
+			swap_ideas = {
+				remove_idea = SOV_reduced_bureaucracy
+				add_idea = SOV_supporting_industrialization
+			}
+	     	SOV_reduce_industrilization = yes
+		}
+	}
+	focus = {	
+		id = SOV_fight_reactionaries
+		icon = GFX_goal_syndicalist_congress
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Bukharin 
+		}
+		bypass = {
+		}	
+		x = -3
+		y = 1
+		relative_position_id = SOV_Premier_Bukharin
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_fight_reactionaries"
+	     	increase_ruling_party_popularity_by_10 = yes
+		}
+	}
+	focus = {	
+		id = SOV_support_marxist_pluralism
+		icon = GFX_goal_HOL_council_communism
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_fight_reactionaries 
+		}
+		prerequisite = { 
+		    focus = SOV_inner_party_democracy 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_fight_reactionaries
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_support_marxist_pluralism"
+	     	add_political_power = 200
+		}
+	}
+
+	focus = {	
+		id = SOV_education
+		icon = GFX_goal_great_science
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_support_marxist_pluralism 
+		}
+		prerequisite = { 
+		    focus = SOV_agreements_trade_unions 
+		}
+		prerequisite = { 
+		    focus = SOV_accilerate_industrialization 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_support_marxist_pluralism
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_education"
+			swap_ideas = {
+				remove_idea = SOV_supporting_industrialization
+				add_idea = SOV_improved_education
+			}
+	     	SOV_reduce_industrilization = yes
+		}
+	}
+}

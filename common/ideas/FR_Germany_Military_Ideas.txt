@@ -1,0 +1,165 @@
+########################
+#GERMANY MILITARY IDEAS#
+########################
+
+ideas = {
+
+	## German Military Ideas ##
+
+	country = {
+	
+		FRA_uprepared_for_war = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea FRA_uprepared_for_war"}
+			picture = general_staff
+			modifier = {
+				army_org_factor = -0.15
+				land_reinforce_rate = -0.15
+				planning_speed = -0.15
+				army_morale_factor = -0.15
+				offence = -0.15
+				experience_gain_army_factor = -0.15
+				}
+			}
+
+		GER_standardize_equipment = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_standardize_equipment"}
+			picture = generic_war_preparation
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				} 
+			}
+		}
+		GER_command_structure = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_command_structure"}
+			picture = general_staff
+			modifier = {
+				army_org_factor = 0.1
+				land_reinforce_rate = 0.1
+				army_leader_start_level = 1
+				experience_gain_army_factor = 0.05
+				}
+			}
+		GER_strategic_planning_school = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_strategic_planning_school"}
+			picture = generic_army_war_college
+			modifier = {
+				max_planning = 0.1
+				planning_speed = 0.10
+				invasion_preparation = -0.3
+			}
+		}
+		GER_blitzkrieg = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_blitzkrieg"}
+			picture = generic_acquire_tanks
+			modifier = {
+				army_armor_speed_factor = 0.1
+				army_armor_attack_factor = 0.05
+				supply_consumption_factor = -0.1
+
+			}
+		}
+		GER_rule_the_skies = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_rule_the_skies"}
+			picture = air_support_focus
+			modifier = {
+				air_air_superiority_attack_factor = 0.05
+				army_bonus_air_superiority_factor = 0.05
+			}
+		}
+		GER_rain_of_fire = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_rain_of_fire"}
+			picture = combined_bomber_offensive
+			modifier = {
+				air_strategic_bomber_bombing_factor = 0.03
+				air_cas_present_factor = 0.1	
+			}
+		}
+		GER_new_wehrmacht = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_new_wehrmacht"}
+			picture = german_advisors
+			modifier = {
+			experience_gain_army = 0.05
+			army_morale_factor = 0.1
+
+			}
+		}
+		GER_germania_rules_the_waves = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_germania_rules_the_waves"}
+			picture = german_advisors
+			modifier = {
+				naval_coordination = 0.10
+			}
+		}
+		GER_carrier_focus = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_carrier_focus"}
+			picture = GFX_idea_generic_sea_focused_navy
+			equipment_bonus = {
+				carrier = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				cv_CAS_equipment = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+				cv_nav_bomber_equipment = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+			}
+		}
+		GER_capital_focus = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_capital_focus"}
+			picture = GFX_idea_generic_sea_focused_navy
+			equipment_bonus = {
+				heavy_cruiser = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				light_cruiser = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				battleship = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				battle_cruiser = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+		}
+		GER_sub_focus = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_sub_focus"}
+			picture = GFX_idea_generic_sea_focused_navy
+			equipment_bonus = {
+				destroyer = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				submarine = {
+					build_cost_ic = -0.25
+					instant = yes
+				}
+			}
+		}
+	}
+}

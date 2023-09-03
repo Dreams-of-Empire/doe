@@ -1,0 +1,112 @@
+#Alaska - annexation_ALASKA_CONQ
+can_release_alaska = {
+  state = 463
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    should_release_america_first = yes
+    # Do Canadian release first
+    OR = {
+      country_exists = CAN
+      has_country_flag = CAN_CONQ
+      276 = { is_valid_annexation_state = no } # Ottawa
+    }
+    OR = {
+      var:361.owner = {
+        is_american_tag = yes
+        ROOT_can_grant_land = yes
+      }
+    }
+    NOT = {
+      is_american_tag = yes
+      has_country_flag = ALASKA_CONQ
+    }
+  }
+}
+
+#America - annexation_USA_CONQ
+can_release_america = {
+  state = 361
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      has_country_flag = USA_CONQ
+      country_exists = USA
+    }
+  }
+}
+
+#Canada - annexation_CAN_CONQ
+can_release_canada = {
+  state = 276
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      has_country_flag = CAN_CONQ
+      country_exists = CAN
+    }
+  }
+}
+
+#Columbia - annexation_CLB_CONQ
+can_release_columbia = {
+  state = 373
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    should_release_america_first = yes
+    is_american_tag = no
+    NOT = {
+      country_exists = CLB
+      has_country_flag = CLB_CONQ
+    }
+  }
+}
+
+#New England - annexation_NEE_CONQ
+can_release_new_england = {
+  state = 357
+  ROOT = {
+    should_release_america_first = yes
+    is_american_tag = no
+    NOT = {
+      country_exists = NEE
+      has_country_flag = NEE_CONQ
+    }
+  }
+}
+
+#Rust Belt - annexation_NAR_CONQ
+can_release_rust_belt = {
+  state = 393
+  ROOT = {
+    should_release_america_first = yes
+    is_american_tag = no
+    NOT = {
+      country_exists = NAR
+      has_country_flag = NAR_CONQ
+    }
+  }
+}
+
+#West Coast - annexation_PSA_CONQ
+can_release_west_coast = {
+  state = 385
+  ROOT = {
+    should_release_america_first = yes
+    is_american_tag = no
+    NOT = {
+      country_exists = ORE
+      has_country_flag = ORE_CONQ
+    }
+  }
+}
+
+
+should_release_america_first = {
+  OR = {
+    has_country_flag = USA_CONQ
+    country_exists = USA
+    361 = { is_valid_annexation_state = no }
+  }
+}
+
+

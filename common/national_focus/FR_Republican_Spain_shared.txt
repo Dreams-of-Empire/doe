@@ -1,0 +1,1853 @@
+#SPANISH SHARED TREE#
+	shared_focus = {
+		id = SPR_economic_recovery
+		icon = GFX_goal_HOL_black_monday
+		cost = 8.00
+		x = 23
+		y = 0
+		
+		available = {
+			has_global_flag = SPR_london_crash_hits_spain_flag
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+			has_political_power > 0
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_economic_recovery"
+			add_political_power = -50
+			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = SPR_SPM_SPF_SPA_london_crash_idea
+				add_idea = SPR_economic_recovery_idea
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_republican_navy
+		icon = GFX_goal_SPR_Navy
+		cost = 5.00
+		x = 3
+		y = 0
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_republican_navy"
+			navy_experience = 20
+		}
+
+	}
+	shared_focus = {
+		id = SPR_expand_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_republican_navy
+		}
+		x = 1
+		y = 1
+		
+		available = {
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+			controls_state = 169
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_expand_dockyards"
+			169 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_assure_naval_merchant_ties
+		icon = GFX_goal_generic_coastal_navy2
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_republican_navy
+		}
+		x = 5
+		y = 1
+		
+		available = {
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_assure_naval_merchant_ties"
+			add_timed_idea = {
+				idea = SPR_assure_naval_merchant_ties_idea
+				days = 200
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_modernize_destroyers
+		icon = GFX_focus_generic_destroyer
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_republican_navy
+		}
+		x = 3
+		y = 1
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_modernize_destroyers"
+			navy_experience = 5
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 0.4
+				uses = 1
+				category = dd_tech
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_rule_seas
+		icon = GFX_goal_generic_navy_battleship
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_modernize_destroyers
+		}
+		mutually_exclusive = {
+			focus = SPR_hit_and_run
+		}
+		x = 2
+		y = 2
+		
+		available = {
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_rule_seas"
+			add_ideas = SPR_rule_seas_idea
+			add_doctrine_cost_reduction = {
+				name = naval_doctrine_bonus
+				cost_reduction = 0.4
+				uses = 1
+				category = cat_fleet_in_being
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_hit_and_run
+		icon = GFX_goal_generic_wolf_pack
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_modernize_destroyers
+		}
+		mutually_exclusive = {
+			focus = SPR_rule_seas
+		}
+		x = 4
+		y = 2
+		
+		available = {
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_hit_and_run"
+			add_ideas = SPR_hit_and_run_idea
+			add_doctrine_cost_reduction = {
+				name = naval_doctrine_bonus
+				cost_reduction = 0.4
+				uses = 1
+				category = cat_trade_interdiction
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_new_spanish_flagships
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_rule_seas
+		}
+		x = 1
+		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_new_spanish_flagships"
+			add_tech_bonus = {
+				name = bc_bonus
+				bonus = 0.5
+				uses = 1
+				category = bc_tech
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_fund_submarine_research
+		icon = GFX_goal_generic_navy_submarine
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_rule_seas
+			focus = SPR_hit_and_run
+		}
+		x = 3
+		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_fund_submarine_research"
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 0.4
+				uses = 2
+				category = ss_tech
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_light_ship_models
+		icon = GFX_focus_generic_cruiser2
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_hit_and_run
+		}
+		x = 5
+		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_light_ship_models"
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.4
+				uses = 2
+				category = cl_tech
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_heavier_cruiser_models
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_new_spanish_flagships
+		}
+		x = 2
+		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_heavier_cruiser_models"
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.4
+				uses = 2
+				category = ca_tech
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_invest_coast_guard
+		icon = GFX_goal_generic_defence
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_light_ship_models
+		}
+		x = 4
+		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_invest_coast_guard"
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 0.4
+				uses = 2
+				category = dd_tech
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_spanish_naval_doctrines
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_heavier_cruiser_models
+			focus = SPR_invest_coast_guard
+		}
+		prerequisite = {
+			focus = SPR_fund_submarine_research
+		}
+		x = 3
+		y = 5
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_spanish_naval_doctrines"
+			add_doctrine_cost_reduction = {
+				name = naval_doctrine_bonus
+				cost_reduction = 0.4
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_republican_air_force
+		icon = GFX_goal_SPR_Airforce
+		cost = 5.00
+		x = 9
+		y = 0
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_republican_navy"
+			air_experience = 20
+		}
+
+	}
+	shared_focus = {
+		id = SPR_expand_madrid_air_fields
+		icon = GFX_goal_generic_air_production
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_republican_air_force
+		}
+		x = 8
+		y = 1
+		
+		available = {
+			controls_state = 41
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_expand_madrid_air_fields"
+			41 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_interservice_cooperation
+		icon = GFX_goal_generic_major_alliance
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_republican_air_force
+		}
+		x = 10
+		y = 1
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_interservice_cooperation"
+			army_experience = 15
+			air_experience = 15
+			navy_experience = 15
+			add_political_power = 25
+		}
+
+	}
+	shared_focus = {
+		id = SPR_invest_naval_fighters
+		icon = GFX_goal_generic_navy_carrier
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_interservice_cooperation
+		}
+		x = 7
+		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_invest_naval_fighters"
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 0.4
+				uses = 2
+				category = naval_bomber
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_invest_close_land_fighters
+		icon = GFX_goal_generic_air_fighter2
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_interservice_cooperation
+		}
+		x = 11
+		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_invest_close_land_fighters"
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.4
+				uses = 2
+				category = cas_bomber
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_modernize_old_planes
+		icon = GFX_goal_continuous_air_production
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_expand_madrid_air_fields
+			focus = SPR_interservice_cooperation
+		}
+		x = 9
+		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_modernize_old_planes"
+			add_tech_bonus = {
+  				bonus = 0.4
+ 				uses = 2
+ 				category = light_fighter
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_aggresive_air_force
+		icon = GFX_goal_generic_air_bomber
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_modernize_old_planes
+		}
+		mutually_exclusive = {
+			focus = SPR_defensive_air_force
+		}
+		x = 8
+		y = 3
+		
+		available = {
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_aggresive_air_force"
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.4
+				uses = 2
+				category = tactical_bomber
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_strategic_bomber_efforts
+		icon = GFX_goal_generic_CAS
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_aggresive_air_force
+		}
+		x = 8
+		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_strategic_bomber_efforts"
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.4
+				uses = 2
+				category = cat_strategic_bomber
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_defensive_air_force
+		icon = GFX_goal_generic_air_fighter
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_modernize_old_planes
+		}
+		mutually_exclusive = {
+			focus = SPR_aggresive_air_force
+		}
+		x = 10
+		y = 3
+		
+		available = {
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_defensive_air_force"
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.4
+				uses = 2
+				category = light_fighter
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_interception_tactic_efforts
+		icon = GFX_goal_HOL_D21
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_defensive_air_force
+		}
+		x = 10
+		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_interception_tactic_efforts"
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.4
+				uses = 2
+				category = cat_heavy_fighter
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_spanish_airial_doctrines
+		icon = GFX_goal_generic_air_doctrine
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_strategic_bomber_efforts
+			focus = SPR_interception_tactic_efforts
+		}
+		x = 9
+		y = 5
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_spanish_airial_doctrines"
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.4
+				uses = 2
+				category = air_doctrine
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_republican_army
+		icon = GFX_goal_SPR_army
+		cost = 5.00
+		x = 15
+		y = 0
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_republican_army"
+			army_experience = 20
+		}
+
+	}
+	shared_focus = {
+		id = SPR_remove_outside_influences_army
+		icon = GFX_goal_purge_opposition
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_republican_army
+		}
+		x = 14
+		y = 1
+		
+		available = {
+			has_political_power > 0
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_remove_outside_influences_army"
+			add_political_power = -25
+			swap_ideas = {
+				remove_idea = SPR_organize_republican_forces_idea
+				add_idea = SPR_remove_outside_influences_army_idea
+			}
+			country_event = { id = repspain.101 days = 1 }
+		}
+
+	}
+	shared_focus = {
+		id = SPR_basic_equipment_research
+		icon = GFX_goal_generic_small_arms
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_republican_army
+		}
+		x = 16
+		y = 1
+		
+		available = {
+			has_political_power > 0
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_basic_equipment_research"
+			add_political_power = -25
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 0.4
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_mobilize_spanish_army
+		icon = GFX_goal_generic_army_motorized
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_remove_outside_influences_army
+		}
+		prerequisite = {
+			focus = SPR_basic_equipment_research
+		}
+		mutually_exclusive = {
+			focus = SPR_let_fire_rain
+			focus = SPR_planning_and_numbers
+		}
+		x = 13
+		y = 2
+		
+		available = {
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_mobilize_spanish_army"
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.4
+				uses = 1
+				category = cat_mobile_warfare
+			}
+			add_tech_bonus = {
+				name = motor_bonus
+				bonus = 0.4
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_invest_armour_research
+		icon = GFX_goal_generic_army_tanks
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_mobilize_spanish_army
+		}
+		x = 13
+		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_invest_armour_research"
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.4
+				uses = 2
+				category = armor
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_let_fire_rain
+		icon = GFX_goal_generic_army_artillery2
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_remove_outside_influences_army
+		}
+		prerequisite = {
+			focus = SPR_basic_equipment_research
+		}
+		mutually_exclusive = {
+			focus = SPR_mobilize_spanish_army
+			focus = SPR_planning_and_numbers
+		}
+		x = 15
+		y = 2
+		
+		available = {
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_let_fire_rain"
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.4
+				uses = 1
+				category = cat_superior_firepower
+			}
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 0.4
+				uses = 1
+				category = artillery
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_counter_air
+		icon = GFX_goal_anti_air
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_let_fire_rain
+		}
+		x = 15
+		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_counter_air"
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 0.4
+				uses = 2
+				technology = interwar_antiair
+				technology = antiair1
+				technology = antiair2
+				technology = antiair3
+				technology = antiair4
+				technology = antiair5
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_planning_and_numbers
+		icon = GFX_focus_generic_little_entente
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_remove_outside_influences_army
+		}
+		prerequisite = {
+			focus = SPR_basic_equipment_research
+		}
+		mutually_exclusive = {
+			focus = SPR_let_fire_rain
+			focus = SPR_mobilize_spanish_army
+		}
+		x = 17
+		y = 2
+		
+		available = {
+			has_global_flag = SPR_spanish_civil_war_ended_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_planning_and_numbers"
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.4
+				uses = 2
+				category = cat_grand_battle_plan
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_new_general_staff
+		icon = GFX_goal_officers
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_planning_and_numbers
+		}
+		x = 17
+		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_new_general_staff"
+			army_experience = 5
+			swap_ideas = {
+				remove_idea = SPR_remove_outside_influences_army_idea
+				add_idea = SPR_new_general_staff_idea
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_special_unit_efforts
+		icon = GFX_goal_generic_special_forces
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_invest_armour_research
+			focus = SPR_counter_air
+			focus = SPR_new_general_staff
+		}
+		x = 14
+		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_special_unit_efforts"
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.4
+				uses = 2
+				category = mountaineers_tech
+				category = marine_tech
+				category = para_tech
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_support_brigades
+		icon = GFX_focus_ger_oppose_hitler
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_invest_armour_research
+			focus = SPR_counter_air
+			focus = SPR_new_general_staff
+		}
+		x = 16
+		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_support_brigades"
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.4
+				uses = 2
+				technology = support_weapons
+				technology = support_weapons2
+				technology = support_weapons3
+				technology = support_weapons4
+			}
+			hidden_effect = {
+				set_technology = { bicycle_infantry = 1 }
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_armada_of_tanks
+		icon = GFX_focus_generic_tank_production
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_special_unit_efforts
+			focus = SPR_support_brigades
+		}
+		prerequisite = {
+			focus = SPR_invest_armour_research
+		}
+		x = 13
+		y = 5
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_armada_of_tanks"
+			add_political_power = -15
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.3
+				uses = 1
+				category = armor
+			}
+			swap_ideas = {
+				remove_idea = SPR_remove_outside_influences_army_idea
+				add_idea = SPR_armada_of_tanks_idea
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_mobile_artillary_efforts
+		icon = GFX_goal_generic_build_tank
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_special_unit_efforts
+			focus = SPR_support_brigades
+		}
+		prerequisite = {
+			focus = SPR_counter_air
+		}
+		x = 15
+		y = 5
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_mobile_artillary_efforts"
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 0.3
+				uses = 1
+				category = artillery
+			}
+			swap_ideas = {
+				remove_idea = SPR_remove_outside_influences_army_idea
+				add_idea = SPR_mobile_artillary_efforts_idea
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_rifle_for_soldiers
+		icon = GFX_focus_secret_rearmament
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_special_unit_efforts
+			focus = SPR_support_brigades
+		}
+		prerequisite = {
+			focus = SPR_new_general_staff
+		}
+		x = 17
+		y = 5
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_rifle_for_soldiers"
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 0.4
+				uses = 1
+				category = infantry_weapons
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 2500
+				producer = SPR
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_spanish_army_doctrines
+		icon = GFX_goal_generic_army_doctrines
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_armada_of_tanks
+			focus = SPR_mobile_artillary_efforts
+			focus = SPR_rifle_for_soldiers
+		}
+		x = 15
+		y = 6
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_spanish_army_doctrines"
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_sieze_unloyal_industries_assets
+		icon = GFX_focus_generic_industry_2
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_economic_recovery
+		}
+		x = 21
+		y = 1
+		
+		available = {
+			controls_state = 41
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_sieze_unloyal_industries_assets"
+			add_political_power = 15
+			add_offsite_building = { type = industrial_complex level = 1 }
+			41 = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_rebuilding_road_network
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_sieze_unloyal_industries_assets
+		}
+		x = 20
+		y = 2
+		
+		available = {
+			controls_state = 41
+			controls_state = 165
+			controls_state = 165
+			controls_state = 165
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_rebuilding_road_network"
+			add_political_power = -75
+			41 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			165 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			169 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			171 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_gradually_ending_austerity
+		icon = GFX_goal_tblra_union_agreement
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_economic_recovery
+		}
+		x = 23
+		y = 1
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_gradually_ending_austerity"
+			add_stability = 0.03
+			swap_ideas = {
+				remove_idea = SPR_economic_recovery_idea
+				add_idea = SPR_gradually_ending_austerity_idea
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_reopen_banks
+		icon = GFX_goal_COS_Ferrer_Coup
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_gradually_ending_austerity
+		}
+		x = 22
+		y = 2
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_reopen_banks"
+			add_political_power = -25
+			if = {
+				limit = {
+					has_idea = SPR_gradually_ending_austerity_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_gradually_ending_austerity_idea
+					add_idea = SPR_reopen_banks_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_higher_rations_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_higher_rations_idea
+					add_idea = SPR_economy_soon_good_again_idea
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_higher_rations
+		icon = GFX_focus_AUS_agriculture
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_gradually_ending_austerity
+		}
+		x = 24
+		y = 2
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_higher_rations"
+			add_political_power = -25
+			if = {
+				limit = {
+					has_idea = SPR_gradually_ending_austerity_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_gradually_ending_austerity_idea
+					add_idea = SPR_higher_rations_idea
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = SPR_reopen_banks_idea
+				}
+				swap_ideas = {
+					remove_idea = SPR_reopen_banks_idea
+					add_idea = SPR_economy_soon_good_again_idea
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_end_austerity_messures
+		icon = GFX_goal_civil_service
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_reopen_banks
+		}
+		prerequisite = {
+			focus = SPR_higher_rations
+		}
+		x = 23
+		y = 3
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_end_austerity_messures"
+			add_stability = 0.03
+			swap_ideas = {
+				remove_idea = SPR_economy_soon_good_again_idea
+				add_idea = SPR_end_austerity_messures_idea
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_invest_mineral_industry
+		icon = GFX_focus_generic_steel
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_economic_recovery
+		}
+		x = 25
+		y = 1
+		
+		available = {
+			controls_state = 168
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_invest_mineral_industry"
+			add_political_power = -15
+			add_resource = {
+				type = steel
+				amount = 10
+				state = 168
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_reopen_mineral_export
+		icon = GFX_SIA_maritmesilkroad
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_invest_mineral_industry
+		}
+		x = 26
+		y = 2
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_reopen_mineral_export"
+			add_offsite_building = { type = industrial_complex level = 1 }
+			add_timed_idea = {
+				idea = SPR_reopen_mineral_export_idea
+				days = 150
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_focus_state_controlled_industry
+		icon = GFX_goal_state_economy
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_rebuilding_road_network
+		}
+		prerequisite = {
+			focus = SPR_end_austerity_messures
+		}
+		mutually_exclusive = {
+			focus = SPR_focus_private_industries
+		}
+		x = 21
+		y = 4
+		
+		available = {
+			has_government = social_liberal
+			has_completed_focus = SPR_first_republican_election
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_focus_state_controlled_industry"
+			remove_ideas = SPR_end_austerity_messures_idea
+		}
+
+	}
+	shared_focus = {
+		id = SPR_focus_private_industries
+		icon = GFX_goal_capitalist_system
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_end_austerity_messures
+		}
+		prerequisite = {
+			focus = SPR_reopen_mineral_export
+		}
+		mutually_exclusive = {
+			focus = SPR_focus_state_controlled_industry
+		}
+		x = 25
+		y = 4
+		
+		available = {
+			has_government = market_liberal
+			has_completed_focus = SPR_first_republican_election
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_focus_private_industries"
+			remove_ideas = SPR_end_austerity_messures_idea
+		}
+
+	}
+	shared_focus = {
+		id = SPR_employment_programs
+		icon = GFX_goal_dam
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_focus_state_controlled_industry
+		}
+		x = 21
+		y = 5
+		
+		available = {
+			controls_state = 167
+			controls_state = 176
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_employment_programs"
+			add_political_power = -25
+			167 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			176 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_nationalized_railways
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_employment_programs
+		}
+		x = 20
+		y = 6
+		
+		available = {
+			controls_state = 166
+			controls_state = 170
+			controls_state = 175
+			controls_state = 176
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_nationalized_railways"
+			166 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			170 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			175 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			176 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_agricultural_reforms
+		icon = GFX_focus_AUS_agriculture
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_employment_programs
+		}
+		x = 22
+		y = 6
+		
+		available = {
+			controls_state = 170
+			controls_state = 175
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_agricultural_reforms"
+			add_ideas = SPR_agricultural_reforms_idea
+			170 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			175 = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_rural_employment_programs
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_nationalized_railways
+		}
+		prerequisite = {
+			focus = SPR_agricultural_reforms
+		}
+		x = 21
+		y = 7
+		
+		available = {
+			controls_state = 170
+			controls_state = 175
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_rural_employment_programs"
+			add_political_power = -40
+			170 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			175 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_build_new_arms_factories
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_focus_state_controlled_industry
+			focus = SPR_focus_private_industries
+		}
+		x = 23
+		y = 5
+		
+		available = {
+			controls_state = 175
+			controls_state = 176
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_build_new_arms_factories"
+			add_political_power = -25
+			175 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			176 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_new_searches_for_recourses
+		icon = GFX_focus_generic_tungsten
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_build_new_arms_factories
+		}
+		x = 23
+		y = 7
+		
+		available = {
+			controls_state = 168
+			controls_state = 172
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_new_searches_for_recourses"
+			add_political_power = -25
+			add_resource = {
+				type = steel
+				amount = 15
+				state = 168
+			}
+			add_resource = {
+				type = steel
+				amount = 15
+				state = 172
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_attract_french_investors
+		icon = GFX_focus_chi_reach_out_to_france
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_focus_private_industries
+		}
+		x = 25
+		y = 5
+		
+		available = {
+			controls_state = 41
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_attract_french_investors"
+			add_political_power = -20
+			add_offsite_building = { type = industrial_complex level = 1 }
+			41 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_liberalize_agriculture
+		icon = GFX_goal_agriculture
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_attract_french_investors
+		}
+		x = 24
+		y = 6
+		
+		available = {
+			controls_state = 166
+			controls_state = 170
+			controls_state = 171
+			controls_state = 175
+			controls_state = 176
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_liberalize_agriculture"
+			166 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			170 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			171 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			175 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			176 = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_encourage_spanish_buisnesses
+		icon = GFX_goal_model_cities
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_attract_french_investors
+		}
+		x = 26
+		y = 6
+		
+		available = {
+			controls_state = 41
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_encourage_spanish_buisnesses"
+			add_political_power = -20
+			41 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_encourage_rural_investments
+		icon = GFX_focus_generic_industry_2
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_liberalize_agriculture
+		}
+		prerequisite = {
+			focus = SPR_encourage_spanish_buisnesses
+		}
+		x = 25
+		y = 7
+		
+		available = {
+			controls_state = 170
+			controls_state = 175
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_encourage_rural_investments"
+			add_political_power = -15
+			170 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			175 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = SPR_spanish_republican_economic_boom
+		icon = GFX_goal_production
+		cost = 8.00
+		prerequisite = {
+			focus = SPR_rural_employment_programs
+			focus = SPR_encourage_rural_investments
+		}
+		prerequisite = {
+			focus = SPR_new_searches_for_recourses
+		}
+		x = 23
+		y = 8
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_spanish_republican_economic_boom"
+			add_stability = 0.05
+			add_political_power = 25
+			add_timed_idea = {
+				idea = SPR_spanish_republican_economic_boom_idea
+				days = 500
+			}
+		}
+
+	}

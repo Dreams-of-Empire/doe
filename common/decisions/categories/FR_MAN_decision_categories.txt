@@ -1,0 +1,15 @@
+MAN_one_china_policy = {
+	icon = generic_political_actions
+
+	allowed = {
+		original_tag = MAN
+	}
+}
+
+MAN_our_china_one_china = {
+	icon = generic_political_actions
+
+	allowed = {
+		original_tag = MAN
+	}
+}

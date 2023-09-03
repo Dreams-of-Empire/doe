@@ -1,0 +1,98 @@
+set_puppet_minister = {
+	if = {
+		limit = {	# Africa
+			capital_scope = {
+				OR = {
+          is_on_continent = africa
+          is_on_continent = north_africa
+        }
+			}
+		}
+		set_puppet_minister_africa = yes
+	}
+	else_if = {
+		limit = {	# North America, Central America, South America
+			capital_scope = {
+				OR = {
+					is_on_continent = north_america
+					is_on_continent = south_america
+				}
+			}
+		}
+		set_puppet_minister_america = yes
+	}
+	else_if = {
+		limit = {  # East Asia, Southeast Asia, India, Australia
+			capital_scope = {
+				OR = {
+					is_on_continent = asia
+					is_on_continent = india
+					is_on_continent = australia
+				}
+			}
+		}
+		set_puppet_minister_asia = yes
+	}
+	else_if = {
+		limit = {	# Europe
+			capital_scope = {
+				is_on_continent = europe
+			}
+		}
+		set_puppet_minister_europe = yes
+	}
+	else_if = {
+		limit = {	# Middle East
+			capital_scope = {
+				is_on_continent = middle_east
+			}
+		}
+		set_puppet_minister_middle_east = yes
+	}
+}
+
+set_puppet_minister_africa = {}
+set_puppet_minister_america = {}
+set_puppet_minister_asia = {}
+set_puppet_minister_europe = {}
+set_puppet_minister_middle_east = {}
+
+######################
+#
+#	SHORT TEMPLATE
+#
+######################
+
+#	if = {
+#		limit = { tag = [tag] }
+#		if = {
+#			limit = { has_socialist_government = yes }	# vanguardist, collectivist, libertarian_socialist ( social_democrat for some )
+#			add_ideas = {
+#				# Insert Ministers here
+#			}
+#		}
+#		else_if = {
+#			limit = { has_elected_government = yes }	# social_liberal, market_liberal, social_conservative ( social_democrat for some )
+#			add_ideas = {
+#				# Insert Ministers here
+#			}
+#		}
+#		else_if = {
+#			limit = { has_democratic_government = yes }	# social_liberal, market_liberal, social_conservative, authotharian_democrat ( social_democrat for some )
+#			add_ideas = {
+#				# Insert Ministers here
+#			}
+#		}
+#		else_if = {
+#			limit = { has_authoritarian_government = yes }	# authotharian_democrat, paternal_autocrat, national_populist
+#			add_ideas = {
+#				# Insert Ministers here
+#			}
+#		}
+#		else_if = {
+#			limit = { has_dictatorship_government = yes }	# paternal_autocrat, national_populist, valkist
+#			add_ideas = {
+#				# Insert Ministers here
+#			}
+#		}
+#	}

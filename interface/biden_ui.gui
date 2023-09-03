@@ -1,0 +1,107 @@
+guiTypes = {
+	containerWindowType =  {
+		name = "joe_biden_gui"
+		position = { x = 10 y = 44 }
+		size = { width = 170 height = 260 }
+		orientation = upper_left
+		#background = {
+		#	name = "biden_bg"		
+		#	quadTextureSprite ="GFX_tiled_window"
+		#}
+				
+		iconType = {
+			name = "Eleftherios_Venizelos"
+			position = {
+				x = 8
+				y = 25
+			}
+			spriteType = GFX_Portrait_GRE_Eleftherios_Kyriakou_Venizelos
+		}
+		iconType = {
+			name = "Tokugawa_Iesato"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_Japan_Tokugawa_Iesato"
+		}
+		iconType = {
+			name = "Tri_Edo_Commissioner"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_Japan_Tri_Edo_Commissioner"
+		}
+		iconType = {
+			name = "Hirohito"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_Japan_Hirohito"
+		}
+		iconType = {
+			name = "Yasuhito"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_Japan_Yasuhito"
+		}
+
+		# Add a new iconType (copy-paste) for every PM. Change its name and set the SpriteType to the PM, please give it an entry in the .gfx file
+		
+		iconType = {
+			name = "pm_frame"
+			quadTextureSprite ="GFX_pol_leader_frame"
+			position = { x = -1 y = 12 }
+			pdx_tooltip = "GUIHEADNAME"
+		}
+
+		buttonType = {
+			name = "leader_button"
+			quadTextureSprite ="GFX_HOS_button"
+			position = { x = 135 y = 260 }
+			pdx_tooltip = "HOS_OR_HOG"
+		}
+
+		instantTextboxType = {
+			name = "pm_name"
+			position = { x = 8 y = 238 }
+			font = "hoi_18mbs"
+			text = "[GetPrimeMinister]"
+			pdx_tooltip = "GUIHEADNAME"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}	
+	}
+	
+}
+
+guiTypes = {
+	containerWindowType = {
+		name = "for_joe_biden_gui"
+		position = { x = 130 y = 255 }
+
+		IconType = {
+			name = "for_leader_button"
+			position = { x = -5 y = 0}
+			spriteType = "GFX_HOS_button"
+			pdx_tooltip = "GetSecondLEADER"
+		}
+
+		# instantTextBoxType = {
+			# name ="for_leader_button_text"
+			# position = { x= 3 y = 4 }
+			# font = "hoi_18mbs"
+			# text = ""
+			# format = right
+			# maxWidth = 60
+			# maxHeight = 24
+			# fixedsize = yes
+
+			# pdx_tooltip = "GetSecondLEADER"
+			# pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		# }
+
+		#buttonType = {
+			#name = "for_leader_frame"
+			#position = { x = 30 y = 10}
+			#spriteType = "GFX_pol_leader_frame"
+		#}
+
+	}
+
+}
+

@@ -1,0 +1,62 @@
+characters = {
+	ERM_Otto_Braun = {
+		name = "Otto Braun"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ERM/Portrait_ERM_Otto_Braun.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+	}
+	ERM_Hermann_Hopker_Aschoff = {
+		name = "Hermann Höpker-Aschoff"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ERM/Portrait_ERM_Hermann_Hopker_Aschoff.png"
+			}
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+	}
+	ERM_Walther_Schreiber = {
+		name = "Walther Schreiber"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ERM/Portrait_ERM_Walther_Schreiber.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+	}
+	ERM_Hellmuth_Will = {
+		name = "Hellmuth Will"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ERM/Portrait_ERM_Hellmuth_Will.png"
+			}
+		}
+		country_leader = {
+			ideology = valkist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
+}

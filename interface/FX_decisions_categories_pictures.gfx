@@ -1,0 +1,10 @@
+spriteTypes = {
+  spriteType = {
+		name = "GFX_decision_cat_picture_annexation"
+		texturefile = "gfx/interface/decisions/decisions_categories_pictures/annexation.png"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_papacy_in_exile"
+		texturefile = "gfx/interface/decisions/decisions_categories_pictures/papacy_in_exile.png"
+	}
+}

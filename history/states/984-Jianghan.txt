@@ -1,0 +1,37 @@
+
+state={
+	id=984
+	name="STATE_984"
+	resources={
+		steel=24.000
+	}
+
+	history={
+		owner = ZHI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			4619 5 
+		}
+		victory_points = {
+			12467 5 
+		}
+		victory_points = {
+			7167 5 
+		}
+		add_core_of = CHI
+		add_core_of = ZHI
+		add_claim_by = MAN 
+	}
+
+	provinces={
+		1036 4619 4631 7167 7637 9959 10462 12467 
+	}
+	manpower=21401000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

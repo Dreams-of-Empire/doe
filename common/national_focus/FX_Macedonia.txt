@@ -1,0 +1,1317 @@
+# Macedonian April Fools content created by thanasislanaras, 
+# "The Legendary Kebab Remover"
+# personal note: this is so fucking linear
+focus_tree = {
+	id = MAC_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MAC
+		}
+	}
+	continuous_focus_position = {
+		x = 1
+		y = 1
+	}
+	focus = {
+		id = MAC_a_blast_from_past
+		icon = GFX_goal_MAC_blast_from_past
+		cost = 3
+		x = 10
+		y = 2
+		ai_will_do = {
+			factor = 0
+		}
+		completion_reward = {
+			country_event = {
+				id = macedonia.8
+				days = 1
+				random_hours = 3
+			}
+			hidden_effect = {
+				set_major = yes
+			}
+		}
+	}
+	focus = {
+		id = MAC_rearm_our_legions
+		icon = GFX_goal_MAC_rearm_legions
+		cost = 3
+		x = 0
+		y = 1
+		relative_position_id = MAC_a_blast_from_past
+		prerequisite = {
+			focus = MAC_a_blast_from_past
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		completion_reward = {
+			add_ideas = MAC_our_undefeatable_legions
+		}
+	}
+	focus = {
+		id = MAC_visit_greece
+		icon = GFX_goal_MAC_visit_greece
+		cost = 3
+		x = 0
+		y = 1
+		relative_position_id = MAC_rearm_our_legions
+		prerequisite = {
+			focus = MAC_rearm_our_legions
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		completion_reward = {
+			news_event = {
+				id = macedonia.3
+				days = 1
+				random_hours = 6
+			}
+			build_railway = {
+				level = 5
+				path = {
+					11818
+					3936
+					6990
+					9791
+					11774
+					11905
+					11842
+				}
+			}
+		}
+	}
+	focus = {
+		id = MAC_on_path_to_war
+		icon = GFX_goal_MAC_path_to_war
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = MAC_visit_greece
+		prerequisite = {
+			focus = MAC_visit_greece
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		completion_reward = {
+			# hidden_effect = {
+			# 	load_oob = "Legion"
+			# }
+			# 731 = {
+			# 	create_unit = {
+			# 		division = "name = \"Legion\" division_template = \"Legion\" start_experience_factor = 1\" start_equipment_factor = 1"
+			# 		owner = MAC
+			# 	}
+			# }
+		}
+	}
+	focus = {
+		id = MAC_retake_egypt
+		icon = GFX_goal_MAC_retake_egypt
+		cost = 5
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 10000
+		}
+		relative_position_id = MAC_on_path_to_war
+		prerequisite = {
+			focus = MAC_on_path_to_war
+		}
+		completion_reward = {
+			813 = {
+				transfer_state_to = EGY
+				add_core_of = EGY
+			}
+			EGY = {
+				OVERLORD = {
+					set_autonomy = {
+						target = EGY
+						autonomy_state = autonomy_free
+						end_wars = yes
+					}
+				}
+				leave_faction = yes
+			}
+			MAC = {
+				declare_war_on = {
+					target = EGY
+					type = annex_everything
+				}
+				every_state = {
+					limit = {
+						is_core_of = EGY
+					}
+					add_claim_by = MAC
+				}
+			}
+			unlock_decision_tooltip = MAC_marry_egypt
+			hidden_effect = {
+				country_event = macedonia.10
+			}
+		}
+	}
+	focus = {
+		id = MAC_destroy_bulgaria
+		icon = GFX_goal_MAC_destroy_bulgaria
+		cost = 5
+		x = -2
+		y = 1
+		relative_position_id = MAC_retake_egypt
+		prerequisite = {
+			focus = MAC_retake_egypt
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				GRE = {
+					exists = no
+				}
+				factor = 1000
+			}
+		}
+		completion_reward = {
+			MAC = {
+				every_state = {
+					limit = {
+						is_core_of = BUL
+					}
+					add_core_of = MAC
+				}
+				declare_war_on = {
+					target = BUL
+					type = annex_everything
+				}
+			}
+			hidden_effect = {
+				BUL = {
+					add_ideas = MAC_war_with_alexander
+				}
+			}
+		}
+	}
+	focus = {
+		id = MAC_dismantle_serbia
+		icon = GFX_goal_MAC_dismantle_serbia
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = MAC_retake_egypt
+		prerequisite = {
+			focus = MAC_retake_egypt
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				AND = {
+					GRE = {
+						exists = no
+					}
+					has_completed_focus = MAC_destroy_bulgaria
+				}
+				factor = 1000
+			}
+		}
+		completion_reward = {
+			# MAC = {
+			# 	add_state_core = 787
+			# 	add_state_core = 106
+			# 	add_state_core = 942
+			# 	annex_country = {
+			# 		target = SER
+			# 	}
+			# }
+			# SER = {
+			# 	every_state = {
+			# 		limit = {
+			# 			is_core_of = SER
+			# 			NOT = {
+			# 				state = 108
+			# 				state = 941
+			# 				state = 107
+			# 				state = 1038
+			# 				state = 931
+			# 			}
+			# 		}
+			# 		remove_core_of = SER
+			# 		add_claim_by = SER
+			# 	}
+			# }
+			# MAC = {
+			# 	set_autonomy = {
+			# 		target = SER
+			# 		autonomy_state = autonomy_puppet
+			# 	}
+			# }
+			# SER = {
+			# 	transfer_state = 108
+			# 	transfer_state = 941
+			# 	transfer_state = 107
+			# 	transfer_state = 1038
+			# 	transfer_state = 931
+			# }
+			# CRO = {
+			# 	transfer_state = 767
+			# 	transfer_state = 102
+			# 	transfer_state = 103
+			# 	transfer_state = 788
+			# 	transfer_state = 789
+			# 	# transfer_state = 1036
+			# 	transfer_state = 109
+			# }
+			# MAC = {
+			# 	set_autonomy = {
+			# 		target = CRO
+			# 		autonomy_state = autonomy_puppet
+			# 	}
+			# }
+			# BOS = {
+			# 	transfer_state = 788
+			# 	transfer_state = 104
+			# 	transfer_state = 1034
+			# 	transfer_state = 1037
+			# 	add_state_core = 1034
+			# 	add_state_core = 1037
+			# }
+			# MAC = {
+			# 	set_autonomy = {
+			# 		target = BOS
+			# 		autonomy_state = autonomy_puppet
+			# 	}
+			# }
+			declare_war_on = {
+				target = SER
+				type = annex_everything
+			}
+			every_state = {
+				limit = {
+					is_core_of = SER
+				}
+				add_core_of = MAC
+			}
+			hidden_effect = {
+				SER = {
+					add_ideas = MAC_war_with_alexander
+				}
+			}
+		}
+	}
+	# focus = {
+	# 	id = MAC_question_of_serbia
+	# 	icon = none
+	# 	cost = 5
+	# 	x = 0
+	# 	y = 1
+	# 	relative_position_id = MAC_dismantle_serbia
+	# 	prerequisite = {
+	# 		focus = MAC_dismantle_serbia
+	# 	}
+	# 	completion_reward = {
+	# 		country_event = macedonia.7
+	# 	}
+	# }
+	focus = {
+		id = MAC_annex_albania
+		icon = GFX_goal_MAC_annex_albania
+		cost = 5
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = MAC_retake_egypt
+		}
+		relative_position_id = MAC_retake_egypt
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				AND = {
+					GRE = {
+						exists = no
+					}
+					has_completed_focus = MAC_dismantle_serbia
+				}
+				factor = 1000
+			}
+		}
+		completion_reward = {
+			MAC = {
+				annex_country = {
+					target = ALB
+				}
+				add_state_core = 44
+				add_state_core = 765
+				add_state_core = 796
+				transfer_state = 796
+			}
+		}
+	}
+	focus = {
+		id = MAC_castrate_the_pretenders
+		icon = GFX_goal_MAC_castrate_the_pretenders
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = MAC_dismantle_serbia
+		prerequisite = {
+			focus = MAC_dismantle_serbia
+		}
+		prerequisite = {
+			focus = MAC_annex_albania
+		}
+		prerequisite = {
+			focus = MAC_destroy_bulgaria
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = ITA
+				type = annex_everything
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = ITA
+					}
+				}
+				add_core_of = MAC
+			}
+			ITA = {
+				leave_faction = yes
+			}
+			hidden_effect = {
+				ITA = {
+					add_ideas = MAC_war_with_alexander
+				}
+			}
+		}
+	}
+	focus = {
+		id = MAC_to_west
+		icon = GFX_goal_MAC_to_west
+		cost = 5
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				has_completed_focus = MAC_remove_kebab
+				factor = 1000
+			}
+		}
+		x = 0
+		y = 2
+		relative_position_id = MAC_destroy_bulgaria
+		prerequisite = {
+			focus = MAC_castrate_the_pretenders
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = MAC_war_in_carpathia
+		icon = GFX_goal_MAC_war_in_carpathia
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = MAC_to_west
+		prerequisite = {
+			focus = MAC_to_west
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				has_completed_focus = MAC_remove_kebab
+				factor = 10000
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = HUN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ROM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SLO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CZE
+				type = annex_everything
+			}
+			# every_state = {
+			# 	limit = {
+			# 		OR = {
+			# 			is_core_of = SLO
+			# 			is_core_of = HUN
+			# 			is_core_of = ROM
+			# 			is_core_of = CZE
+			# 		}
+			# 	}
+			# 	add_core_of = MAC
+			# }
+		}
+	}
+	focus = {
+		id = MAC_destroy_the_huns
+		icon = GFX_goal_MAC_destroy_huns
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = MAC_war_in_carpathia
+		prerequisite = {
+			focus = MAC_war_in_carpathia
+		}
+		ai_will_do = {
+			factor = 10000
+			# modifier = {
+			# 	factor = 10000
+			# 	has_completed_focus = MAC_seize_arabia
+			# }
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = AUS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = HOL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = LUX
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SWI
+				type = annex_everything
+			}
+			# every_state = {
+			# 	limit = {
+			# 		OR = {
+			# 			is_core_of = BEL
+			# 			is_core_of = HOL
+			# 			is_core_of = GER
+			# 			is_core_of = AUS
+			# 			is_core_of = LUX
+			# 			is_core_of = SWI
+			# 		}
+			# 	}
+			# 	add_core_of = MAC
+			# }
+			hidden_effect = {
+				GER = {
+					add_ideas = MAC_war_with_alexander
+				}
+			}
+		}
+	}
+	focus = {
+		id = MAC_attack_france
+		icon = GFX_goal_MAC_attack_france
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = MAC_destroy_the_huns
+		prerequisite = {
+			focus = MAC_destroy_the_huns
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = FRA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BEL
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					PHN = {
+						is_puppet_of = FRA
+					}
+				}
+				FRA = {
+					set_autonomy = {
+						target = PHN
+						autonomy_state = autonomy_free
+					}
+				}
+			}
+			# every_state = {
+			# 	limit = {
+			# 		OR = {
+			# 			is_core_of = FRA
+			# 			is_core_of = NFQ
+			# 			is_core_of = NFA
+			# 			# is_core_of = PHN
+			# 			is_core_of = MOR
+			# 			is_core_of = TUN
+			# 		}
+			# 	}
+			# 	add_core_of = MAC
+			# }
+		}
+	}
+	focus = {
+		id = MAC_albion_must_submit
+		icon = GFX_goal_MAC_albion_must_submit
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = MAC_attack_france
+		prerequisite = {
+			focus = MAC_attack_france
+		}
+		ai_will_do = {
+			factor = 10000
+			# modifier = {
+			# 	has_completed_focus = MAC_the_way_to_india
+			# 	factor = 10000
+			# }
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = ENG
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					RAJ = {
+						OVERLORD = {
+							tag = ENG
+						}
+					}
+				}
+				ENG = {
+					set_autonomy = {
+						target = RAJ
+						autonomy_state = autonomy_free
+					}
+				}
+			}
+			# every_state = {
+			# 	limit = {
+			# 		OR = {
+			# 			is_core_of = ENG
+			# 		}
+			# 	}
+			# 	add_core_of = MAC
+			# }
+		}
+	}
+	focus = {
+		id = MAC_pillage_iberia
+		icon = GFX_goal_MAC_pillage_iberia
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = MAC_albion_must_submit
+		prerequisite = {
+			focus = MAC_albion_must_submit
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				has_completed_focus = MAC_the_way_to_china
+				factor = 10000
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = POR
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					PRR = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = PRR
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					SPR = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = SPR
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					SPM = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = SPM
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					SPF = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = SPF
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					SPA = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = SPA
+					type = annex_everything
+				}
+			}
+			# every_state = {
+			# 	limit = {
+			# 		OR = {
+			# 			is_core_of = SPR
+			# 			is_core_of = POR
+			# 			is_core_of = SPF
+			# 			is_core_of = SPA
+			# 			is_core_of = SPM
+			# 		}
+			# 	}
+			# 	add_core_of = MAC
+			# }
+		}
+	}
+	focus = {
+		id = MAC_to_east
+		icon = GFX_goal_MAC_to_east
+		cost = 5
+		x = 0
+		y = 2
+		ai_will_do = {
+			factor = 1000
+		}
+		relative_position_id = MAC_annex_albania
+		prerequisite = {
+			focus = MAC_castrate_the_pretenders	
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = MAC_remove_kebab
+		icon = GFX_goal_MAC_remove_kebab
+		cost = 5
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 1000
+		}
+		relative_position_id = MAC_to_east
+		prerequisite = {
+			focus = MAC_to_east
+		}
+		completion_reward = {
+			ISR = {
+				OVERLORD = {
+					set_autonomy = {
+						target = ISR
+						autonomy_state = autonomy_free
+					}
+				}
+			}
+			IRQ = {
+				OVERLORD = {
+					set_autonomy = {
+						target = IRQ
+						autonomy_state = autonomy_free
+					}
+				}
+			}
+			IRQ = {
+				leave_faction = yes
+			}
+			ISR = {
+				leave_faction = yes
+			}
+			declare_war_on = {
+				target = TUR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IRQ
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ISR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KUR
+				type = annex_everything
+			}
+			PHN = {
+				OVERLORD = {
+					set_autonomy = {
+						target = PHN
+						autonomy_state = autonomy_free
+					}
+				}
+			}
+			declare_war_on = {
+				target = PHN
+				type = annex_everything
+			}
+			# every_state = {
+			# 	limit = {
+			# 		OR = {
+			# 			is_core_of = TUR
+			# 		}
+			# 	}
+			# 	add_core_of = MAC
+			# }
+		}
+	}
+	focus = {
+		id = MAC_seize_arabia
+		icon = GFX_goal_MAC_seize_arabia
+		cost = 5
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 1000
+			# modifier = {
+			# 	AND = {
+			# 		has_completed_focus = MAC_attack_france
+			# 		has_completed_focus = MAC_albion_must_submit
+			# 		has_completed_focus = MAC_destroy_the_huns
+			# 	}
+			# }
+		}
+		relative_position_id = MAC_remove_kebab
+		prerequisite = {
+			focus = MAC_remove_kebab
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					ARB = {
+						is_puppet = yes
+					}
+				}
+				ARB = {
+					OVERLORD = {
+						set_autonomy = {
+							target = ARB
+							autonomy_state = autonomy_free
+						}
+					}
+				}
+			}
+			declare_war_on = {
+				target = YEM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ARB
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					AND = {
+						OMA = {
+							exists = yes
+							is_puppet = yes
+						}
+					}
+				}
+				OMA = {
+					OVERLORD = {
+						set_autonomy = {
+							target = OMA
+							autonomy_state = autonomy_free
+						}
+					}
+				}
+				declare_war_on = {
+					target = OMA
+					type = annex_everything
+				}
+			}
+			else_if = {
+				limit = {
+						OMA = {
+							exists = yes
+							NOT = {
+								is_puppet = yes
+							}
+						}
+				}
+				declare_war_on = {
+					target = OMA
+					type = annex_everything
+				}
+			}
+			else = {
+				
+			}
+			# every_state = {
+			# 	limit = {
+			# 		OR = {
+			# 			is_core_of = YEM
+			# 			is_core_of = KUR
+			# 			is_core_of = PHN
+			# 			is_core_of = ISR
+			# 			is_core_of = IRQ
+			# 			is_core_of = ARB
+			# 		}
+			# 	}
+			# 	add_core_of = MAC
+			# }
+		}
+	}
+	focus = {
+		id = MAC_eliminate_iran
+		icon = GFX_goal_MAC_eliminate_iran
+		cost = 5
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 10000
+			# modifier = {
+			# 	AND = {
+			# 		has_completed_focus = MAC_attack_france
+			# 	}
+			# 	factor = 10000
+			# }
+		}
+		relative_position_id = MAC_seize_arabia
+		prerequisite = {
+			focus = MAC_seize_arabia
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = PER
+				type = annex_everything
+			}
+			# every_state = {
+			# 	limit = {
+			# 		is_core_of = PER
+			# 	}
+			# 	add_core_of = MAC
+			# }
+		}
+	}
+	focus = {
+		id = MAC_the_way_to_india
+		icon = GFX_goal_MAC_the_way_to_india
+		cost = 5
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 1000
+			# modifier = {
+			# 	AND = {
+			# 		has_completed_focus = MAC_attack_france
+			# 	}
+			# 	factor = 1000
+			# }
+		}
+		relative_position_id = MAC_eliminate_iran
+		prerequisite = {
+			focus = MAC_eliminate_iran
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					RAJ = {
+						is_subject = yes
+					}
+				}
+				RAJ = {
+					OVERLORD = {
+						set_autonomy = {
+							target = RAJ
+							autonomy_state = autonomy_free
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					RAJ = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = RAJ
+					type = annex_everything
+				}
+			}
+			declare_war_on = {
+				target = NEP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BHU
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					IND = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = IND
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					PUN = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = PUN
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					KAS = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = KAS
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					BAL = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = BAL
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					RJH = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = RJH
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					BOM = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = BOM
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					HYD = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = HYD
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					ORI = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = ORI
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					BIH = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = BIH
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					INC = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = INC
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					MDR = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = MDR
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					MYS = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = MYS
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					TRV = {
+						exists = yes
+					}
+				}
+				declare_war_on = {
+					target = TRV
+					type = annex_everything
+				}
+			}
+			# every_state = {
+			# 	limit = {
+			# 		is_core_of = RAJ
+			# 	}
+			# 	add_core_of = MAC
+			# }
+		}
+	}
+	focus = {
+		id = MAC_the_way_to_china
+		icon = GFX_goal_MAC_the_way_to_china
+		cost = 5
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 10000
+			# modifier = {
+			# 	AND = {
+			# 		has_completed_focus = MAC_attack_france
+			# 	}
+			# }
+		}
+		relative_position_id = MAC_the_way_to_india
+		prerequisite = {
+			focus = MAC_the_way_to_india
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = TIB
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = XSM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SIK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MON
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SHX
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CHI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MAN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ZHI
+				type = annex_everything
+			}
+			# every_state = {
+			# 	limit = {
+			# 		OR = {
+			# 			is_core_of = TIB
+			# 			is_core_of = XSM
+			# 			is_core_of = SIK
+			# 			is_core_of = MON
+			# 			is_core_of = SHX
+			# 			is_core_of = CHI
+			# 			is_core_of = MAN
+			# 			is_core_of = ZHI
+			# 		}
+
+			# 	}
+			# 	add_core_of = MAC
+			# }
+		}
+	}
+	focus = {
+		id = MAC_remove_russia
+		icon = GFX_goal_MAC_remove_russia
+		cost = 5
+		x = -2
+		y = 1
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				AND = {
+					has_completed_focus = MAC_pillage_iberia
+				}
+				factor = 10000
+			}
+		}
+		relative_position_id = MAC_the_way_to_china
+		prerequisite = {
+			focus = MAC_the_way_to_china
+		}
+		prerequisite = {
+			focus = MAC_pillage_iberia
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = UKR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BLR
+				type = annex_everything
+			}
+			# every_state = {
+			# 	limit = {
+			# 		OR = {
+			# 			is_core_of = SOV
+			# 			is_core_of = UKR
+			# 			is_core_of = BLR
+			# 		}
+
+			# 	}
+			# 	add_core_of = MAC
+			# }
+		}
+	}
+	focus = {
+		id = MAC_the_rest_of_the_world
+		icon = GFX_goal_MAC_rest_of_world
+		cost = 5
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = MAC_remove_russia
+		}
+		# prerequisite = {
+		# 	focus = MAC_pillage_iberia
+		# }
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1000000
+				has_completed_focus = MAC_pillage_iberia
+				has_completed_focus = MAC_remove_russia
+				
+			}
+		}
+		relative_position_id = MAC_remove_russia
+		completion_reward = {
+			every_state = {
+				limit = {
+					NOT = {
+						is_owned_and_controlled_by = MAC
+					}
+				}
+				transfer_state_to = MAC
+				add_core_of = MAC
+			}
+		}
+	}
+	focus = {
+		id = MAC_the_empire_reborn
+		icon = GFX_goal_MAC_the_empire_reborn
+		cost = 5
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = MAC_the_rest_of_the_world
+		}
+		ai_will_do = {
+			factor = 10000
+		}
+		relative_position_id = MAC_the_rest_of_the_world
+		completion_reward = {
+			#macedonia has now conquered all of the globe
+			set_cosmetic_tag = MAC_EMPIRE
+		}
+	}
+	# focus = {
+	# 	id = MAC_mission_to_mars
+	# 	icon = none
+	# 	cost = 5
+	# 	x = 0
+	# 	y = 1
+	# 	prerequisite = {
+	# 		focus = MAC_the_empire_reborn
+	# 	}
+	# 	relative_position_id = MAC_the_empire_reborn
+	# 	completion_reward = {
+	# 		#macedonia will conquer mars
+	# 		#future content for 2nd april fools??
+	# 	}
+	# }
+}

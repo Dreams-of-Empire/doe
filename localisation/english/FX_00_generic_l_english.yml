@@ -1,0 +1,92 @@
+﻿l_english:
+
+### Economy Laws
+colonial_economy: "Colonial Economy"
+colonial_economy_desc: "We are a colony, subject to the whims of our overlord. Our resources are exploited and our industrial efforts oppressed so as to keep us reliant on the industry of our mother country."
+isolation: "Isolation"
+isolation_desc: "Prioritizing internal affairs and managing our own nation is a preferable alternative to foreign intervention.\n"
+civilian_economy: "Peacetime Demobilization"
+civilian_economy_desc: "I believe it is peace for our time. Go home and get a nice quiet sleep.\n"
+low_economic_mobilisation: "Early Mobilization"
+low_economic_mobilisation_desc: "Opportunity belongs to those who seize it.\n"
+partial_economic_mobilisation: "Partial Mobilization"
+partial_economic_mobilisation_desc: "War looms on the horizon, we'd be simply foolish to disregard preparations for it.\n"
+war_economy: "Wartime Mobilization"
+war_economy_desc: "We are at war; we cannot afford to provide our enemies with slightest shred of sympathy.\n"
+tot_economic_mobilisation: "Total Mobilization"
+tot_economic_mobilisation_desc: "You don't reason with intellectuals. You shoot them.\n"
+free_trade: "Free Trade"
+free_trade_desc: "Globalization and free trade tends to spur economic growth, and they lead to lower prices on many goods.\n"
+export_focus: "Open Markets"
+export_focus_desc: "I'm not opposed to free trade if it's fair trade. But I am opposed to bad trade deals.\n"
+limited_exports: "Regulated Markets"
+limited_exports_desc: "As with anything in life; you must apply moderation.\n"
+closed_economy: "Closed Markets"
+closed_economy_desc: "Trade? Who needs trade?\n"
+
+### Conscription Laws
+disarmed_nation: "Disarmed Nation"
+disarmed_nation_desc: "It's for the best that we follow a limit imposed on our Military.\n"
+volunteer_only: "Volunteer-Only"
+volunteer_only_desc: "A "Just War" - if there could be such a thing - would not require conscription. Volunteers would be plentiful.\n"
+limited_conscription: "Limited Conscription"
+limited_conscription_desc: "Conscription if necessary, but not necessarily conscription.\n"
+extensive_conscription: "Extensive Conscription"
+extensive_conscription_desc: "Conscription is the vitality of a nation, the purification of its morality, and the real foundations of all its habits.\n"
+service_by_requirement: "Service by Requirement"
+service_by_requirement_desc: "Are you doing your part?\n"
+all_adults_serve: "All Adults Serve"
+all_adults_serve_desc: "The worse the man, the better the soldier.\n"
+scraping_the_barrel: "Scraping the Barrel"
+scraping_the_barrel_desc: "Every man, every women and every child will contribute to the War Effort, one way or another.\n"
+
+### Trade Modifiers
+embargo: "Embargo"
+trade_sanctions: "Trade Sanctions"
+heavy_tariffs: "Heavy Tariffs"
+
+### Skill Levels
+unskilled: "" #(unskilled)
+regular: "" #(regular)
+expert: "" #(expert)
+blank: "" #\n
+
+### Ideas
+independent_war: "Independent War"
+independent_war_desc: "This country is currently in a independent war. It does not want other countries to get involved directly in the war."
+
+### Threats
+threat_2nd_great_war: "The Second Great War"
+threat_north_borneo_occupation: "Filipino Occupation of North Borneo"
+
+### Generic Companies
+generic_arms_company: "[Root.Capital.GetCapitalVictoryPointName] Arsenal"
+generic_tank_company: "[Root.GetAdjective] Motors"
+generic_fighter_company: "[Root.GetAdjective] Aviation"
+generic_artillery_company: "[Root.Capital.GetCapitalVictoryPointName] Armaments Factory"
+generic_industrial_company: "[Root.GetAdjective] Industries"
+generic_naval_company: "[Root.Capital.GetCapitalVictoryPointName] Shipyards"
+
+separator_tt: "\n"
+
+### Decisions
+return_cores_to_ally: "Return [From.GetAdjective] Lands"
+return_cores_to_ally_desc: "The [Root.GetAdjective] government has been discussing what to do with the [From.GetAdjective] lands we currently occupy - land which we have no rightful claim to. Should we return the land to our [From.GetAdjective] allies?"
+return_cores_to_subject: "Return [From.GetAdjective] Lands"
+return_cores_to_subject_desc: "The [Root.GetAdjective] government has been discussing what to do with the [From.GetAdjective] lands we currently occupy - land which we have no rightful claim to. Should we return the land to our subjects in [From.GetNameDef]?"
+
+### Events
+decisions.3.t: "The [From.From.GetAdjective] Lands"
+decisions.3.d: "The [Root.GetAdjective] government has been discussing what to do with the [return_to.GetAdjective] lands we currently occupy - land which we have no rightful claim to. Should we return this land to them?"
+decisions.3.a: "Yes, return all land to them"
+FX_will_return_all: "All coastal or contiguous owned states which are [return_to.GetAdjective] cores or claims will be returned to §Y[return_to.GetNameDef]§!.\n\nNote this will §Rnot§! include states that are [Root.GetAdjective] §Yclaimed§! or §Ycore§! states."
+decisions.3.b: "Yes, return land to them... but keep the most vital states"
+FX_will_return_rest: "All coastal or contiguous owned states which are [return_to.GetAdjective] cores or claims will be returned to §Y[return_to.GetNameDef]§!.\n\nNote this will §Rnot§! include states that are [Root.GetAdjective] §Yclaimed§! or §Ycore§! states, nor will it include §Yvital§! states such as canals."
+decisions.3.c: "Return their core lands only"
+FX_will_return_cores: "All coastal or contiguous owned states which are [return_to.GetAdjective] cores will be returned to §Y[return_to.GetNameDef]§!.\n\nNote this will §Rnot§! include [Root.GetAdjective] §Yclaimed§! or §Ycore§! states, nor §Yvital§! states such as canals. Any [return_to.GetAdjective] §Yclaims§! will also be retained."
+decisions.3.e: "We will keep it all!"
+FX_will_not_return: "We will §Rnot§! return any of their lands, nor will we be asked to do so again."
+
+decisions.4.t: "[From.GetNameDefCap] Returns [Root.GetAdjective] Land"
+decisions.4.d: "Our allies in [From.GetNameDefCap] have returned some of our proper lands to us!"
+decisions.4.a: "Great!"

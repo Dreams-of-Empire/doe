@@ -1,0 +1,78 @@
+ideas = { #Ideas added by thanasislanaras
+	country = {
+		# IRQ_divided_nation = {
+		# 	on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRQ_divided_nation"}
+		# 	picture = generic_neutrality_drift_bonus
+		# 	modifier = {
+		# 		conscription_factor = -0.3
+		# 		stability_factor = -0.1
+		# 	}
+		# }
+		IRQ_hashmite_dynasty = {
+			picture = IRQ_hashmite_dynasty
+			
+			# targeted_modifier = {
+			# 	tag = ARB
+			# 	opinion_gain_monthly_factor = -0.01
+			# }
+			# targeted_modifier = {
+			# 	tag = TUR
+			# 	opinion_gain_monthly_factor = -0.02
+
+			# }
+			modifier = {
+				stability_factor = 0.15
+				# custom_modifier_tooltip = IRQ_OPINION_hasmite_tt
+				custom_modifier_tooltip = IRQ_OPINION_hasmite_tt
+			}
+		}
+		IRQ_semi_democratic_state = {
+			picture = IRQ_semi_democratic_state
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		IRQ_british_protection = {
+			modifier = {
+				war_support_factor = -0.1
+				recruitable_population_factor = -0.05
+			}
+			picture = IRQ_british_protection
+		}
+		IRQ_nationalist_unrest = {
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+				war_support_factor = 0.15
+			}
+			picture = IRQ_nationalist_unrest
+		}
+		IRQ_coalition_fraternal_communique = {
+			modifier = {
+				social_democrat_drift = 0.01
+				social_conservative_drift = 0.01
+			}
+			picture = IRQ_coalition_fraternal_communique
+		}
+	}
+	
+	# IRQ_Faisal_hog_ade = {
+		# on_add = {
+		# 		log = "[GetDateText]: [Root.GetName] added idea IRQ_Faisal_hog_ade"
+		# }
+		# 	allowed = {
+		# 		original_tag = IRQ
+		# 	}
+		# 	cancel_if_invalid = no
+		# 	available = {
+		# 		always = no
+		# 	}
+		# 	traits = {
+		# 		head_of_government
+		# 		social_democrat
+		# 		hog_ruthless_warlord
+		# 	}
+		# }
+						
+}

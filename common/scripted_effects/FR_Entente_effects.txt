@@ -1,0 +1,48 @@
+### Entente Faction Effects, currently aren't working. I probably missed something obvious.
+### Made by CIA
+#
+#	How to use:
+#	join_entente = yes
+#
+
+join_entente = {
+	if = { #Standard line, applies if the Entente hasn't split.
+		limit = {
+			AND = { 
+				NOT = { has_global_flag = Entente_Machine_Broke }
+				FRA = { is_faction_leader = yes }
+			}
+		}
+		FRA = { add_to_faction = THIS }
+	}
+	if = { #Broken Entente, Authoritarian nation joins France.
+		limit = {
+			AND = { 
+				has_global_flag = Entente_Machine_Broke
+				FRA = { is_faction_leader = yes }
+			}
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = national_populist
+				has_government = valkist
+			}
+		}
+		FRA = { add_to_faction = THIS }
+	}
+	if = { #Broken Entente, Democratic nation joins Italy.
+		limit = {
+			AND = { 
+				has_global_flag = Entente_Machine_Broke
+				ITA = { is_faction_leader = yes }
+			}
+			OR = {
+				has_government = social_conservative
+				has_government = market_liberal
+				has_government = social_liberal
+				has_government = social_democrat
+			}
+		}
+		ITA = { add_to_faction = THIS }
+	}
+}

@@ -1,0 +1,33 @@
+DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
+  if = {
+		limit = { check_variable = { modifier@cannot_call_allies_or_join_wars > 0 } }
+		custom_trigger_tooltip = {
+			tooltip = cannot_call_allies_or_join_wars_warning
+			always = no
+		}
+	}
+	else_if = {
+		limit = { check_variable = { FROM.modifier@cannot_call_allies_or_join_wars > 0 } }
+		custom_trigger_tooltip = {
+			tooltip = cannot_call_allies_or_join_wars_warning_FROM
+			always = no
+		}
+	}
+}
+
+DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
+  if = {
+		limit = { check_variable = { modifier@cannot_call_allies_or_join_wars > 0 } }
+		custom_trigger_tooltip = {
+			tooltip = cannot_call_allies_or_join_wars_warning
+			always = no
+		}
+	}
+	else_if = {
+		limit = { check_variable = { FROM.modifier@cannot_call_allies_or_join_wars > 0 } }
+		custom_trigger_tooltip = {
+			tooltip = cannot_call_allies_or_join_wars_warning_FROM
+			always = no
+		}
+	}
+}

@@ -1,0 +1,20 @@
+ZHI_war_decisions = {
+	allowed = {
+		original_tag = ZHI
+	}
+}
+ZHI_imperial_conquest = {
+	allowed = {
+		original_tag = ZHI
+	}
+}
+ZHI_alliances = {
+	allowed = {
+		original_tag = ZHI
+	}
+}
+ZHI_china = {
+	allowed = {
+		original_tag = ZHI
+	}
+}

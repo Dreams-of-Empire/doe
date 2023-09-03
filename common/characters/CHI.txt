@@ -1,0 +1,315 @@
+characters = {
+	CHI_Zhang_Guotao = {
+		name = "Zhang Guotao"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Zhang_Guotao.png"
+			}
+		}
+		country_leader = {
+			ideology = vanguardist_subtype
+			traits = { }
+		}
+	}
+	CHI_Li_Dazhao = {
+		name = "Li Dazhao"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Li_Dazhao.png"
+			}
+		}
+		country_leader = {
+			ideology = collectivist_subtype
+			traits = { }
+		}
+	}
+	CHI_Chiang_Kai_Shek = {
+		name = "Chiang Kai-Shek"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Chiang_Kai_Shek_fx.png"
+			}
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Chiang_Kai_Shek_fx.png"
+			}
+		}
+		country_leader = {
+			ideology = authdem_junta_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = pataut_warlordism_subtype
+			traits = { }
+		}
+		field_marshal = {
+			traits = { trait_cautious harsh_leader defensive_doctrine }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	CHI_Wang_Jingwei = {
+		name = "Wang Jingwei"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Wang_Jingwei_fx.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+	}
+	CHI_Sun_Fo = {
+		name = "Sun Fo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Sun_Fo.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+	}
+	CHI_Zhang_Zhizhong = {
+		name = "Zhang Zhizhong"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Zhang_Zhizhong.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_expert infantry_leader career_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	CHI_Hu_Hanmin = {
+		name = "Hu Hanmin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Hu_Hanmin.png"
+			}
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+	}
+	CHI_He_Yingqin = {
+		name = "He Yingqin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_CHI_He_Yingqin_fx.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+	}
+	CHI_Chen_Lifu = {
+		name = "Chen Lifu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Chen_Lifu.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+	}
+	CHI_Zhang_Lingfu = {
+		name = "Zhang Lingfu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Generic/Portrait_Asia_Generic_new_2.png"
+			}
+		}
+		country_leader = {
+			ideology = valkist_subtype
+			traits = { }
+		}
+	}
+	CHI_Chen_Jitang = {
+		name = "Chen Jitang"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Chen_Jitang.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				defensive_doctrine
+			}
+			skill = 2
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	CHI_Du_Yuming = {
+		name = "Du Yuming"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Du_Yuming_fx.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				harsh_leader
+				defensive_doctrine
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	CHI_Fang_Zhimin = {
+		name = "Fang Zhimin"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Fang_Zhimin.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ambusher
+				guerilla_fighter
+				politically_connected
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	CHI_Li_Zongren = {
+		name = "Li Zongren"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Li_Zongren.png"
+			}
+		}
+		field_marshal = {
+			traits = {
+				defensive_doctrine
+				trait_cautious
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	CHI_Xiao_Ke = {
+		name = "Xiao Ke"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Xiao_Ke.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+				commando
+			}
+			skill = 1
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	CHI_Xiong_Xianghui = {
+		name = "Xiong Xianghui"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Xiong_Xianghui.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				organisational_leader
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	CHI_Ye_Ting = {
+		name = "Ye Ting"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Ye_Ting.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				commando
+			}
+			skill = 1
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	CHI_Sun_Liren = {
+		name = "Sun Liren"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Sun_Liren.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				brilliant_strategist
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	CHI_Feng_Yuxiang = {
+		name = "Feng Yuxiang"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CHI/Portrait_CHI_Feng_Yuxiang.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				offensive_doctrine
+				trickster
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+}

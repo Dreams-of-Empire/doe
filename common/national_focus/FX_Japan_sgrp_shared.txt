@@ -1,0 +1,779 @@
+############ Foreign Tree #############
+shared_focus = {
+	id = JAP_sgrp_foreign_tree
+	icon = GFX_ 
+	allow_branch = {
+		has_country_flag = JAP_sgrp_foreign_unlock
+	}
+	x = 37
+	y = 8
+	cost = 4
+	completion_reward = {
+		add_popularity = {
+			ideology = var:current_party_ideology_group
+			popularity = 0.05
+		}
+		add_political_power = 50
+	}
+}
+shared_focus = {
+	id = JAP_expansionism
+	icon = GFX_ 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = -2
+	y = 1
+	prerequisite = {
+		focus = JAP_sgrp_foreign_tree
+	}
+	available = {
+		hidden_trigger = {
+			OR = {
+				has_country_leader = {
+					name = "Hashimoto Kingoro"
+					ruling_only = yes 
+				}
+				has_authoritarian_government = yes 
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		custom_effect_tooltip = "Unlock the series of decisions to expand our influence"
+	}
+}
+shared_focus = {
+	id = JAP_socialist_weltpolitik
+	icon = GFX_ 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = 2
+	y = 1
+	prerequisite = {
+		focus = JAP_sgrp_foreign_tree
+	}
+	available = {
+		hidden_trigger = {
+			has_socialist_government = yes
+			NOT = {
+				has_country_leader = {
+					name = "Hashimoto Kingoro"
+					ruling_only = yes 
+				}
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		custom_effect_tooltip = "Unlock the series of decisions to begin the Asian Liberation"
+	}
+}
+shared_focus = {
+	id = JAP_approach_germany
+	icon = GFX_ 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = -4
+	y = 2
+	prerequisite = {
+		focus = JAP_expansionism
+	}
+	available = {
+		hidden_trigger = {
+			or = {
+				has_country_leader = {
+					name = "Nakano Seigo"
+					ruling_only = yes 
+				}
+				has_country_leader = {
+					name = "Hashimoto Kingoro"
+					ruling_only = yes 
+				}
+			}
+		}
+	}
+	bypass = {
+		GER = {
+			OR = {
+				exists = no  
+				is_puppet = yes  
+				is_faction_leader = no
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		GER = {
+			country_event = jap_foreign.1 
+		}
+	}
+}
+shared_focus = {
+	id = JAP_join_our_own_ally
+	icon = GFX_ 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = -2
+	y = 2
+	prerequisite = {
+		focus = JAP_expansionism
+	}
+	mutually_exclusive = {
+		focus = JAP_our_own_way
+	}
+	available = {
+		hidden_trigger = {
+			has_government = paternal_autocrat
+			has_country_leader = {
+				name = "Tokugawa Kuniyuki"
+				ruling_only = yes 
+			}
+		}
+	}
+	bypass = {
+		ENG = {
+			OR = {
+				exists = no  
+				is_puppet = yes  
+				is_faction_leader = no 
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		ENG = {
+			country_event = jap_foreign.2 
+		}
+	}
+}
+shared_focus = {
+	id = JAP_our_own_way
+	icon = GFX_ 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = 0
+	y = 2
+	prerequisite = {
+		focus = JAP_expansionism
+		focus = JAP_socialist_weltpolitik
+	}
+	mutually_exclusive = {
+		focus = JAP_join_our_own_ally
+	}
+	available = {
+		hidden_trigger = {
+			or = {
+				has_country_leader = {
+					name = "Yamakawa Kikue"
+					ruling_only = yes 
+				}
+				has_country_leader = {
+					name = "Arahata Kanson"
+					ruling_only = yes 
+				}
+				has_country_leader = {
+					name = "Inoue Nissho"
+					ruling_only = yes 
+				}
+				has_country_leader = {
+					name = "Tokugawa Kuniyuki"
+					ruling_only = yes 
+				}
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		if = {
+			limit = {
+				has_government = libertarian_socialist
+			}
+			JAP = {
+				create_faction = "Fifth International"
+			}
+		}
+		if = {
+			limit = {
+				has_government = valkist
+			}
+			JAP = {
+				create_faction = "Juusou Shinshuu Domei"
+			}
+		}
+		if = {
+			limit = {
+				has_government = paternal_autocrat
+			}
+			JAP = {
+				create_faction = "Mikawa Accord"
+			}
+		}
+	}
+}
+shared_focus = {
+	id = JAP_asian_entente
+	icon = GFX_ 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = 2
+	y = 2
+	prerequisite = {
+		focus = JAP_socialist_weltpolitik
+	}
+	available = {
+		hidden_trigger = {
+			or = {
+				has_country_leader = {
+					name = "Jiichiro Matsumoto"
+					ruling_only = yes 
+				}
+				has_country_leader = {
+					name = "Aso Hisashi"
+					ruling_only = yes 
+				}
+			}		
+		}
+	}
+	cost = 4
+	completion_reward = {
+		if = {
+			limit = {
+				has_country_leader = {
+					name = "Jiichiro Matsumoto"
+					ruling_only = yes 
+				}
+			}
+			create_faction = "Asian Entente"
+		}
+		if = {
+			limit = {
+				has_country_leader = {
+					name = "Aso Hisashi"
+					ruling_only = yes 
+				}
+			}
+			create_faction = "Asian Liberation Front"
+		}
+	}
+}
+shared_focus = {
+	id = JAP_approach_russia
+	icon = GFX_ 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = 4
+	y = 2
+	prerequisite = {
+		focus = JAP_socialist_weltpolitik
+	}
+	available = {
+		hidden_trigger = {
+			or = {
+				has_country_leader = {
+					name = "Sanzo Nosaka"
+					ruling_only = yes 
+				}
+				has_country_leader = {
+					name = "Arahata Kanson"
+					ruling_only = yes 
+				}
+			}
+		}
+	}
+	bypass = {
+		SOV = {
+			OR = {
+				exists = no  
+				is_puppet = yes
+				is_faction_leader = no   
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		SOV = {
+			country_event = jap_foreign.3 
+		}
+	}
+}
+shared_focus = {
+	id = JAP_east_west_liaison_office
+	icon = GFX_goal_generic_british_officers 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = -3
+	y = 3
+	prerequisite = {
+		focus = JAP_approach_germany
+		focus = JAP_join_our_own_ally
+	}
+	cost = 4
+	completion_reward = {
+		random_country = {
+			limit = {
+				AND = {
+					is_in_faction_with = JAP 
+					is_faction_leader = yes
+					NOT = {
+						has_socialist_government = yes 
+					}
+				} 
+			}
+			add_ideas = JAP_foreign_liaison_office
+		}
+		JAP = {
+			add_ideas = JAP_foreign_liaison_office
+		}
+	}
+}
+shared_focus = {
+	id = JAP_overseas_affairs_office
+	icon = GFX_ 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = 1
+	y = 3
+	prerequisite = {
+		focus = JAP_our_own_way
+		focus = JAP_asian_entente
+	}
+	cost = 4
+	completion_reward = {
+		add_ideas = JAP_overseas_affairs_office_idea
+	}
+}
+shared_focus = {
+	id = JAP_comintern_cooperative_office
+	icon = GFX_ 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = 3
+	y = 3
+	prerequisite = {
+		focus = JAP_approach_russia 
+	}
+	cost = 4
+	completion_reward = {
+		random_country = {
+			limit = {
+				AND = {
+					has_socialist_government = yes
+					is_in_faction_with = JAP 
+					is_faction_leader = yes
+				} 
+			}
+			add_ideas = JAP_comintern_far_east_office
+		}
+		JAP = { add_ideas = JAP_comintern_far_east_office }
+	}
+}
+shared_focus = {
+	id = JAP_mobilize_kantogun
+	icon = GFX_ 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = -3
+	y = 4
+	prerequisite = {
+		focus = JAP_overseas_affairs_office
+		focus = JAP_east_west_liaison_office
+	}
+	cost = 4
+	completion_reward = {
+		add_ideas = JAP_beating_the_war_drum
+	}
+}
+shared_focus = {
+	id = JAP_dismantle_chinese_warlord
+	icon = GFX_ 
+	relative_position_id = JAP_mobilize_kantogun
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = JAP_mobilize_kantogun
+	}
+	cost = 4
+	completion_reward = {
+		custom_effect_tooltip = "Unlock decisions to invade Chinese cliques"
+	}
+}
+shared_focus = {
+	id = JAP_toward_pacific
+	icon = GFX_ 
+	relative_position_id = JAP_mobilize_kantogun
+	x = 1
+	y = 2
+	prerequisite = {
+		focus = JAP_dismantle_chinese_warlord
+	}
+	cost = 4
+	completion_reward = {
+		every_state = {
+			limit = {
+				OR = {
+					region = 105
+					region = 97
+					region = 180
+				}
+			}
+			add_claim_by = JAP 
+		}
+	}
+}
+shared_focus = {
+	id = JAP_toward_north_america
+	icon = GFX_goal_generic_attack_usa 
+	relative_position_id = JAP_mobilize_kantogun
+	x = 2
+	y = 3
+	prerequisite = {
+		focus = JAP_toward_pacific
+		focus = JAP_toward_indochina
+	}
+	bypass = {
+		USA = {
+			or = {
+				exists = no 
+				is_puppet_of = JAP 
+				is_in_faction_with = JAP 
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		every_state = {
+			limit = {
+				OR = {
+					state = 926
+					state = 378
+				}
+			}
+			add_claim_by = JAP
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = USA 
+		}
+	}
+}
+shared_focus = {
+	id = JAP_reclaim_our_colony
+	icon = GFX_goal_Korea_Colony 
+	relative_position_id = JAP_sgrp_foreign_tree
+	x = -1
+	y = 4
+	prerequisite = {
+		focus = JAP_overseas_affairs_office
+		focus = JAP_east_west_liaison_office
+	}
+	cost = 4
+	completion_reward = {
+		every_state = {
+			limit = {
+				is_core_of = KOR 
+			}
+			add_claim_by = JAP
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = KOR 
+		}
+	}
+}
+shared_focus = {
+	id = JAP_pressure_bangkok_authority
+	icon = GFX_ 
+	relative_position_id = JAP_reclaim_our_colony
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = JAP_reclaim_our_colony
+	}
+	cost = 4
+	completion_reward = {
+		SIA = {
+			country_event = {
+				id = jap_foreign.4
+				days = 7
+			}
+		}
+	}
+}
+shared_focus = {
+	id = JAP_toward_indochina
+	icon = GFX_ 
+	relative_position_id = JAP_reclaim_our_colony
+	x = 1
+	y = 2
+	prerequisite = {
+		focus = JAP_pressure_bangkok_authority
+	}
+	cost = 4
+	completion_reward = {
+		every_state = {
+			limit = {
+				is_core_of = FIC 
+			}
+			add_claim_by = JAP
+		}
+		if = {
+			limit = {
+				country_exists = FIC 
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = FIC 
+			}
+		}
+		if = {
+			limit = {
+				country_exists = ICR 
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ICR  
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					country_exists = CAM
+					country_exists = LAO
+					country_exists = VIN 
+				} 
+			}
+			every_country = {
+				limit = {
+					OR = {
+						AND = {
+							exists = yes 
+							tag = VIN 
+						}
+						AND = {
+							exists = yes 
+							tag = LAO 
+						}
+						AND = {
+							exists = yes 
+							tag = CAM 
+						}
+					}
+				}
+				JAP = {
+					create_wargoal = {
+						type = annex_everything
+						target = PREV   
+					}
+				}
+			}
+		}
+	}
+}
+shared_focus = {
+	id = JAP_toward_indian_subcontinent
+	icon = GFX_ 
+	relative_position_id = JAP_reclaim_our_colony
+	x = 2
+	y = 3
+	prerequisite = {
+		focus = JAP_toward_indochina
+	}
+	cost = 4
+	completion_reward = {
+		if = {
+			limit = {
+				country_exists = BRM 
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = BRM 
+			}
+		}
+		if = {
+			limit = {
+				country_exists = RAJ 
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = RAJ 
+			}
+		}
+		if = {
+			limit = {
+				country_exists = IND 
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = IND 
+			}
+		}
+		if = {
+			limit = {
+				has_government = valkist  
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = BHU 
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = NEP 
+			}
+		}
+		if = {
+			limit = {
+				any_country = {
+					has_country_flag = ind_revolter
+					exists = yes 
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_flag = ind_revolter
+				}
+				JAP = {
+					create_wargoal = {
+						type = annex_everything
+						target = PREV  
+					}
+				}
+			}
+		}
+	}
+}
+shared_focus = {
+	id = JAP_take_over_primorye_commission
+	icon = GFX_ 
+	relative_position_id = JAP_reclaim_our_colony
+	x = 3
+	y = 0
+	prerequisite = {
+		focus = JAP_overseas_affairs_office
+	}
+	mutually_exclusive = {
+		focus = JAP_strike_vladivostok
+	}
+	cost = 4
+	completion_reward = {
+		RUS = {
+			country_event = {
+				id = jap_foreign.7
+				days = 7 
+			}
+		}
+	}
+}
+shared_focus = {
+	id = JAP_strike_vladivostok
+	icon = GFX_ 
+	relative_position_id = JAP_reclaim_our_colony
+	x = 5
+	y = 0
+	prerequisite = {
+		focus = JAP_overseas_affairs_office
+		focus = JAP_comintern_cooperative_office
+	}
+	mutually_exclusive = {
+		focus = JAP_take_over_primorye_commission
+	}
+	bypass = {
+		RUS = {
+			or = {
+				exists = no 
+				is_puppet_of = ROOT  
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = RUS 
+		}
+	}
+}
+shared_focus = {
+	id = JAP_toward_mongolia
+	icon = GFX_ 
+	relative_position_id = JAP_strike_vladivostok
+	x = -1
+	y = 1
+	prerequisite = {
+		focus = JAP_strike_vladivostok
+		focus = JAP_take_over_primorye_commission
+	}
+	bypass = {
+		MON = {
+			or = {
+				exists = no 
+				is_puppet_of = ROOT 
+				is_in_faction_with = ROOT 
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = MON 
+		}
+	}	
+}
+shared_focus = {
+	id = JAP_end_red_scare
+	icon = GFX_ 
+	relative_position_id = JAP_strike_vladivostok
+	x = -3
+	y = 1
+	prerequisite = {
+		focus = JAP_reclaim_our_colony
+	}
+	prerequisite = {
+		focus = JAP_take_over_primorye_commission
+	}
+	bypass = {
+		SOV = {
+			or = {
+				exists = no 
+				is_puppet_of = JAP 
+				is_in_faction_with = JAP 
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = SOV 
+		}
+	}
+}
+shared_focus = {
+	id = JAP_claim_xinjiang_tibet_hegemony
+	icon = GFX_ 
+	relative_position_id = JAP_end_red_scare
+	x = 1
+	y = 1
+	prerequisite = {
+		focus = JAP_end_red_scare
+		focus = JAP_toward_mongolia
+	}
+	bypass = {
+		AND = {
+			SIK = {
+				or = {
+					exists = no 
+					is_puppet_of = JAP 
+					is_in_faction_with = JAP 
+				}
+			}
+			TIB = {
+				or = {
+					exists = no 
+					is_puppet_of = JAP 
+					is_in_faction_with = JAP 
+				}
+			}
+		}
+	}
+	cost = 4
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = SIK 
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = TIB 
+		}
+	}
+}

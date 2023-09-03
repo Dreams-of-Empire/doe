@@ -1,0 +1,109 @@
+#############################
+#       Hellas Events       #
+#############################
+#     Made by BobRossHD     #
+#############################
+
+add_namespace = gre
+
+### Introduction Event
+
+country_event = {
+	id = gre.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gre.0"}
+	title = gre.0.t
+	desc = gre.0.d
+	picture = Megali_Idea
+	
+	trigger = {
+		tag = GRE
+	}
+
+	mean_time_to_happen = { days = 3 }
+    	fire_only_once = yes
+	
+	option = {
+		name = gre.0.a
+		add_political_power = -15
+		hidden_effect = {
+			country_event = {
+				id = gre.1
+			}
+			GRE = {
+				# add_ideas = {
+					activate_advisor = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli
+					activate_advisor = GRE_Andreas_Michalakopoulos_for_sli
+					activate_advisor = GRE_Alexandros_Diomidis_eco_sli
+					activate_advisor = GRE_Georgios_Maris_sec_sli
+				# }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = gre.1
+	title = gre.1.t
+	desc = gre.1.d
+	picture = Megali_Idea
+	
+	is_triggered_only = yes
+
+	option = {
+		name = gre.1.a
+	}
+}
+
+### Political Events
+
+# Greek Independence Day
+country_event = {
+	id = gre.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gre.2 FROM = [From.GetName]" }
+	title = gre.2.t
+	desc = gre.2.d
+	picture = GFX_report_event_GRE_crowd2
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_subject = no
+	}
+
+	option = {
+		name = gre.2.a
+		add_political_power = 20
+		hidden_effect = {
+			country_event = {
+				id = gre.3
+				days = 365
+			}
+		}
+	}
+}
+
+# Greek Independence Day (subsequent years)
+country_event = {
+	id = gre.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gre.3 FROM = [From.GetName]" }
+	title = gre.2.t
+	desc = gre.3.d
+	picture = GFX_report_event_GRE_crowd2
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_subject = no
+	}
+
+	option = {
+		name = gre.3.a
+		add_political_power = 20
+		hidden_effect = {
+			country_event = {
+				id = gre.3
+				days = 365
+			}
+		}
+	}
+}

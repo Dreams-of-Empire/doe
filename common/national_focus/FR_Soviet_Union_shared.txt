@@ -1,0 +1,1464 @@
+###############################################################################
+# Soviet Focus Tree                                                           #
+###############################################################################
+# Coded by fbruchmueller                                                      #
+###############################################################################
+# Special thanks to sjarlewis, Anbory and Blackleaf for their invaluable help #
+###############################################################################
+##Army Tree
+	shared_focus = {	
+		id = SOV_red_army
+		icon = GFX_goal_SOV_army
+		available = {
+    		has_country_flag = SOV_regime_stabilized
+		}
+		bypass = {
+		}	
+		x = 25
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_red_army"
+			army_experience = 25
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_expand_military_factories
+		icon = GFX_goal_Arms_Export
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_red_army 
+		}
+		bypass = {
+		}	
+		x = -3
+		y = 1
+		relative_position_id = SOV_red_army
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_expand_military_factories"
+			random_owned_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = SOV
+					OR = {
+						industrial_complex > 0
+						arms_factory > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_mobile_warfare
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_expand_military_factories 
+		}
+		mutually_exclusive = {
+		    focus = SOV_planning
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_expand_military_factories
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_mobile_warfare"
+	    add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+	  }
+	}
+
+	shared_focus = {	
+		id = SOV_school_movement
+		icon = GFX_goal_RUS_Markov_plan
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_mobile_warfare 
+		}
+		prerequisite = { 
+		    focus = SOV_new_tanks 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 2
+		relative_position_id = SOV_mobile_warfare
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_school_movement"
+	     	add_ideas = SOV_movement_school
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_planning
+		icon = GFX_focus_generic_military_academy
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_expand_military_factories 
+		}
+		mutually_exclusive = {
+		    focus = SOV_mobile_warfare
+		}
+		bypass = {
+		}	
+		x = -4
+		y = 1
+		relative_position_id = SOV_expand_military_factories
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_planning"
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_planning_schools
+		icon = GFX_goal_brain
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_planning 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_planning
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_planning_schools"
+	     	add_ideas = SOV_planning
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_military_science
+		icon = GFX_goal_generic_scientific_exchange
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_planning_schools 
+		    focus = SOV_cult_offensive
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_planning_schools
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_military_science"
+	     	add_research_slot = 1
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_engineers
+		icon = GFX_goal_engineers
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_planning_schools 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_planning_schools
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_engineers"
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.75
+				uses = 1
+				category = engineers_tech
+			}
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_cult_offensive
+		icon = GFX_focus_prc_infiltration
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_mobile_warfare 		  
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_mobile_warfare
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_cult_offensive"
+	     	add_ideas = SOV_cult_of_offensive
+		}
+	}
+	shared_focus = {	
+		id = SOV_guns
+		icon = GFX_goal_army_guy_2
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_red_army 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_red_army
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_guns"
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+	
+
+
+	shared_focus = {	
+		id = SOV_artillery_expansions
+		icon = GFX_goal_artillery
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_guns 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_guns
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_artillery_expansions"
+ 			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}	
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_new_tanks
+		icon = GFX_focus_generic_army_tanks2
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_artillery_expansions 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_artillery_expansions
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_new_tanks"
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.50
+				uses = 1
+				category = armor
+		    }
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_anti_tank
+		icon = GFX_goal_demobilization
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_artillery_expansions 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_artillery_expansions
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_anti_tank"
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_anti_tank
+			}
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_airforce
+		icon = GFX_goal_SOV_airforce
+		available = {
+		    has_country_flag = SOV_regime_stabilized
+		}
+		bypass = {
+		}	
+		x = 30
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_airforce"
+			air_experience = 25
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_expand_air_bases
+		icon = GFX_goal_generic_airports
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_airforce 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_airforce
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_expand_air_bases"
+		948 = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+	shared_focus = {	
+		id = SOV_strategic_destruction
+		icon = GFX_goal_MAF_Napalm
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_expand_air_bases 
+		}
+		mutually_exclusive = {
+		    focus = SOV_anti_air
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_expand_air_bases
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_strategic_destruction"
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 2
+				category = heavy_air
+		}
+	}
+}
+
+	shared_focus = {	
+		id = SOV_expand_production_bombers
+		icon = GFX_goal_generic_air_bomber
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_strategic_destruction 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_strategic_destruction
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_expand_production_bombers"
+		add_tech_bonus = {
+			name = infantry_weapons_bonus
+			bonus = 0.5
+			uses = 1
+			category = cat_strategic_bomber
+		}
+	}
+}
+
+	shared_focus = {	
+		id = SOV_protectors_sky
+		icon = GFX_goal_generic_air_fighter
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_expand_air_bases 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_expand_air_bases
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_protectors_sky"
+		add_tech_bonus = {
+			name = infantry_weapons_bonus
+			bonus = 0.5
+			uses = 1
+			category = light_fighter
+		}
+	}
+}
+
+	shared_focus = {	
+		id = SOV_ground_support
+		icon = GFX_goal_generic_CAS
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_protectors_sky 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_protectors_sky
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_ground_support"
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.25
+				uses = 1
+				category = cas_bomber
+		}	
+	}
+}
+
+	shared_focus = {	
+		id = SOV_doctrine_advances
+		icon = GFX_goal_generic_special_forces
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_ground_support 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_ground_support
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_doctrine_advances"
+		add_doctrine_cost_reduction = {
+			name = infantry_weapons_bonus
+			cost_reduction = 0.5
+			uses = 2
+			category = air_doctrine
+		}
+	}
+}
+
+	shared_focus = {	
+		id = SOV_paratroopers
+		icon = GFX_goal_new_airforce
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_airforce 
+		}
+		prerequisite = { 
+		    focus = SOV_red_army 
+		}
+		bypass = {
+		}	
+		x = -2
+		y = 1
+		relative_position_id = SOV_airforce
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_paratroopers"
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = para_tech
+			}
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_anti_air
+		icon = GFX_goal_generic_air_defense2
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_paratroopers 
+		}
+		mutually_exclusive = {
+		    focus = SOV_strategic_destruction
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_paratroopers
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_anti_air"
+		219 = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = anti_air_building
+				level = 2
+				instant_build = yes
+			}
+		}
+		217 = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = anti_air_building
+				level = 2
+				instant_build = yes
+			}
+		}
+		195 = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = anti_air_building
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+	shared_focus = {	
+		id = SOV_army_air_cooperation
+		icon = GFX_goal_military_academy
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_anti_air 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_anti_air
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_army_air_cooperation"
+			add_tech_bonus = { 
+  				bonus = 0.50  
+ 				uses = 1  
+ 				category = cas_bomber 
+			}
+		}
+	}
+    shared_focus = {	
+		id = SOV_red_fleet
+		icon = GFX_goal_SOV_navy
+		available = {
+    		has_country_flag = SOV_regime_stabilized
+		}
+		bypass = {
+		}	
+		x = 35
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_red_fleet"
+	     	navy_experience = 25
+		}
+	}
+
+    shared_focus = {	
+		id = SOV_marines
+		icon = GFX_goal_nested_fortifications
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_red_army 
+		}	
+		prerequisite = { 
+		    focus = SOV_red_fleet 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_red_fleet
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_marines"
+		add_tech_bonus = {
+			name = infantry_weapons_bonus
+			bonus = 0.75
+			uses = 1
+			category = marine_tech
+		}
+	}
+}
+
+
+    shared_focus = {	
+		id = SOV_naval_bomers
+		icon = GFX_goal_generic_occupy_start_war
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_marines 
+		}	
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_marines
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_naval_bomers"
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	} 
+	  shared_focus = {	
+		id = SOV_battlecruisers
+		icon = GFX_goal_generic_sea_focused_navy
+		available = {
+		}	
+		prerequisite = { 
+		    focus = SOV_red_fleet 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_red_fleet
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_battlecruisers"
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.50
+				uses = 1
+				category = dd_tech
+		}
+	}
+}
+
+	  shared_focus = {	
+		id = SOV_cruisers
+		icon = GFX_focus_generic_cruiser2
+		available = {
+		}	
+		prerequisite = { 
+		    focus = SOV_battlecruisers 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_battlecruisers
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_cruisers"
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.50
+				uses = 1
+				category = cl_tech
+		}
+	}
+}
+
+	  shared_focus = {	
+		id = SOV_destroyers
+		icon = GFX_focus_generic_navy_battleship2
+		available = {
+		}	
+		prerequisite = { 
+		    focus = SOV_cruisers 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_cruisers
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_destroyers"
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.50
+				uses = 1
+				category = bb_tech
+		}
+	}
+}
+
+	  shared_focus = {	
+		id = SOV_carriers
+		icon = GFX_goal_generic_carrier_aircraft
+		available = {
+		}	
+		prerequisite = { 
+		    focus = SOV_destroyers 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_destroyers
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_carriers"
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.50
+				uses = 1
+				category = cv_tech
+		}
+	}
+}
+
+
+	shared_focus = {	
+		id = SOV_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		available = {
+		}	
+		prerequisite = { 
+		    focus = SOV_cruisers 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_cruisers
+		cost = 8
+		ai_will_do = {
+			factor = 2
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_dockyards"
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+			}
+		}
+	}
+}
+
+	shared_focus = {	
+		id = SOV_kickstart_industrialization
+		icon = GFX_goal_SOV_Industrialization
+		available = {
+    		has_country_flag = SOV_regime_stabilized
+		}	
+		bypass = {
+		}	
+		x = 11
+		y = 0
+		cost = 20
+		ai_will_do = {
+			factor = 5
+		}
+		
+			select_effect = {
+				country_event = { id = sovietpol.1 days = 15 }
+			}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_kickstart_industrialization"
+				custom_effect_tooltip = SOV_balancing_industry
+				add_ideas = partial_economic_mobilisation
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_electrification
+		icon = GFX_goal_Schelle
+		available = {
+			has_political_power > 0
+		}	
+		prerequisite = { 
+		    focus = SOV_kickstart_industrialization 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_kickstart_industrialization
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_electrification"
+			random_owned_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = SOV
+					OR = {
+						industrial_complex > 0
+						arms_factory > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+			add_political_power = -50
+			SOV_reduce_industrilization = yes
+	}
+}
+
+	shared_focus = {	
+		id = SOV_railway_expansion
+		icon = GFX_goal_generic_railway_construction
+		available = {
+			has_political_power > 0
+		}
+		prerequisite = { 
+		    focus = SOV_electrification 
+		}	
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_electrification
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_railway_expansion"
+		    add_ideas = SOV_infrastuctre
+			add_political_power = -50
+			SOV_reduce_industrilization = yes
+	}
+}
+
+    shared_focus = {	
+		id = SOV_modern_cities
+		icon = GFX_goal_model_cities
+		available = {
+			has_political_power > 0
+		}
+		prerequisite = { 
+		    focus = SOV_railway_expansion 
+		}	
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_railway_expansion
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_modern_cities"
+		    swap_ideas = {
+		    	remove_idea = SOV_infrastuctre
+		    	add_idea = SOV_modernized_cities
+		    }
+			add_political_power = -50
+			SOV_reduce_industrilization = yes
+			hidden_effect = {
+				country_event = {
+					id = sovietpol.1324
+					days = 35
+				}
+			}
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_mechanization
+		icon = GFX_goal_generic_highway
+		available = {
+			has_political_power > 0
+		}
+		prerequisite = { 
+		    focus = SOV_electrification 
+		}	
+		prerequisite = { 
+		    focus = SOV_peoples_credit 
+		}	
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_electrification
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_mechanization"
+			random_owned_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = SOV
+					OR = {
+						industrial_complex > 0
+						arms_factory > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+			add_political_power = -50
+			SOV_reduce_industrilization = yes
+			country_event = sovietpol.20
+	}
+}
+
+	shared_focus = {	
+		id = SOV_peoples_credit
+		icon = GFX_goal_SOV_labour_voucher_focus
+		available = {
+			has_political_power > 0
+		}
+		prerequisite = { 
+		    focus = SOV_kickstart_industrialization 
+		}	
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_kickstart_industrialization
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_peoples_credit"
+		    add_ideas = SOV_helping_people
+			add_political_power = -50
+	}
+}
+
+	shared_focus = {	
+		id = SOV_new_gear
+		icon = GFX_goal_generic_workers_democracy
+		available = {
+			has_political_power > 0
+		}	
+		prerequisite = { 
+		    focus = SOV_peoples_credit 
+		}	
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_peoples_credit
+
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_new_gear"
+			if = {
+				limit = {
+					has_government = vanguardist
+				}
+			country_event = {
+				id = sovietpol.1329
+				days = 3
+			}
+			else = {
+				country_event = {
+					id = sovietpol.1330
+					days = 3
+				}
+			}
+		}
+		    swap_ideas = {
+		    	remove_idea = SOV_helping_people
+		    	add_idea = SOV_modernized_equipment
+		    }
+			add_political_power = -50
+			SOV_reduce_industrilization = yes
+		}
+	}
+
+	shared_focus = {	
+		id = SOV_independent_vehicle_industry
+		icon = GFX_focus_SOV_the_road_of_life
+		available = {
+			has_political_power > 0
+		}	
+		prerequisite = { 
+		    focus = SOV_new_gear 
+		}
+		prerequisite = { 
+		    focus = SOV_mechanization 
+		}		
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_mechanization
+
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_independent_vehicle_industry"
+			random_owned_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = SOV
+					OR = {
+						industrial_complex > 0
+						arms_factory > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+			add_political_power = -50
+			SOV_reduce_industrilization = yes
+	}
+}
+
+	shared_focus = {	
+		id = SOV_modern_war_engine
+		icon = GFX_goal_Focus_Military_Mobilisation
+		available = {
+			has_political_power > 0
+		}		
+		prerequisite = { 
+		    focus = SOV_kickstart_industrialization 
+		}	
+		bypass = {
+		}	
+		x = -3
+		y = 1
+		relative_position_id = SOV_kickstart_industrialization
+
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_modern_war_engine"
+			add_political_power = -50
+			random_owned_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = SOV
+					OR = {
+						industrial_complex > 0
+						arms_factory > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+				add_ideas = SOV_engine_war
+		}
+	}	
+
+	shared_focus = {	
+		id = SOV_if_tomorrow_brings_war
+		icon = GFX_goal_SOV_Soviet_Bear_Awaken
+		available = {
+			has_political_power > 0
+		}
+		prerequisite = { 
+		    focus = SOV_modern_war_engine 
+		}		
+		bypass = {
+		}	
+		x = 0
+		y = 1
+        relative_position_id = SOV_modern_war_engine
+
+
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_if_tomorrow_brings_war"
+			add_political_power = -50
+			random_owned_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = SOV
+					OR = {
+						industrial_complex > 0
+						arms_factory > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+	}
+}
+
+	shared_focus = {	
+		id = SOV_the_whole_people_as_one_will_rise_up
+		icon = GFX_goal_SOV_rifles_guns_cannons
+		available = {
+			has_political_power > 0
+		}
+		prerequisite = { 
+		    focus = SOV_if_tomorrow_brings_war 
+		}		
+		bypass = {
+		}	
+		x = 0
+		y = 1
+        relative_position_id = SOV_if_tomorrow_brings_war
+
+
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_the_whole_people_as_one_will_rise_up"
+			add_political_power = -50
+			random_owned_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = SOV
+					OR = {
+						industrial_complex > 0
+						arms_factory > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+			}
+		}
+			swap_ideas = {
+				remove_idea = SOV_engine_war
+				add_idea = SOV_engine_war2
+			}
+	    }
+	}	
+
+	shared_focus = {	
+		id = SOV_industrial_autarky
+		icon = GFX_goal_state_economy
+		available = {
+			has_political_power > 0
+			NOT = {
+			has_country_flag = SOV_lacking_industrialization_flag
+			}
+		}
+		prerequisite = { 
+		    focus = SOV_the_whole_people_as_one_will_rise_up 
+		    focus = SOV_independent_vehicle_industry 
+		    focus = SOV_modern_cities 
+		}		
+		bypass = {
+		}	
+		x = 0
+		y = 1
+        relative_position_id = SOV_independent_vehicle_industry
+
+
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_industrial_autarky"
+			add_ideas = SOV_modern_economy
+	    }
+	}	
+
+	shared_focus = {	
+		id = SOV_women_workforce
+		icon = GFX_goal_BEL_women_suffrage
+		available = {
+			has_political_power > 0
+		}
+		prerequisite = { 
+		    focus = SOV_industrial_autarky 
+		}		
+		bypass = {
+		}	
+		x = -2
+		y = 1
+        relative_position_id = SOV_industrial_autarky
+
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_women_workforce"
+			add_political_power = -50
+			SOV_women_workforce_scripted_effect = yes
+	    }
+	}
+
+	shared_focus = {	
+		id = SOV_economic_stimulation
+		icon = GFX_goal_gold_up
+		available = {
+			has_political_power > 0
+		}
+		prerequisite = { 
+		    focus = SOV_industrial_autarky 
+		}		
+		bypass = {
+		}	
+		x = 0
+		y = 1
+        relative_position_id = SOV_industrial_autarky
+
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_economic_stimulation"
+			add_political_power = -50
+			SOV_economic_stimulation_scripted_effect = yes
+	    }
+	}
+
+	shared_focus = {	
+		id = SOV_full_employment
+		icon = GFX_goal_manage_industries
+		available = {
+			has_political_power > 0
+		}
+		prerequisite = { 
+		    focus = SOV_industrial_autarky 
+		}		
+		bypass = {
+		}	
+		x = 2
+		y = 1
+        relative_position_id = SOV_industrial_autarky
+
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus SOV_full_employment"
+			add_political_power = -50
+			SOV_full_employment_scripted_effect = yes
+	    }
+	}

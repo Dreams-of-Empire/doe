@@ -1,0 +1,10 @@
+spriteTypes = {
+  	spriteType = {
+		name = "GFX_autonomy_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_protectorate_icon.png"
+	}
+	spriteType = {
+		name = "GFX_special_autonomous_dependency_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_special_autonomous_dependency_icon.png"
+	}
+}

@@ -1,0 +1,263 @@
+#####################
+# Soviet Focus Tree #
+#################################
+# Coded by fbruchmueller #
+#################################
+
+focus_tree = {
+	id = sov_focus_shliapnikov
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = SOV
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+    shared_focus = SOV_red_army
+    shared_focus = SOV_airforce
+    shared_focus = SOV_red_fleet
+    shared_focus = SOV_kickstart_industrialization 
+       	
+	focus = {	
+		id = SOV_Premier_Shliapnikov
+		icon = GFX_goal_premier_Shlyapnikov
+		available = {
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Premier_Shliapnikov"
+	     	add_political_power = 30
+		}
+	}
+
+	focus = {	
+		id = SOV_equal_rights_female
+		icon = GFX_goal_liberty
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Shliapnikov 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_Premier_Shliapnikov
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_equal_rights_female"
+	     	add_ideas = SOV_female_rights
+		}
+	}
+
+	focus = {	
+		id = SOV_empower_workers
+		icon = GFX_goal_RAJ_India_Worker_Rights
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Shliapnikov 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_Premier_Shliapnikov
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_empower_workers"
+	     	add_ideas = SOV_entrenchted_workplace_democracy
+	    	SOV_reduce_industrilization = yes			
+		}
+	}
+
+	focus = {	
+		id = SOV_trade_union_economy
+		icon = GFX_goal_revolution_tools
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_empower_workers 
+		}
+		prerequisite = { 
+		    focus = SOV_equal_rights_female 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_equal_rights_female
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_trade_union_economy"
+	     	add_political_power = 30
+			SOV_reduce_industrilization = yes			
+		}
+	}
+
+	focus = {	
+		id = SOV_heavy_industry_investments
+		icon = GFX_focus_generic_industry_3
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_trade_union_economy 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_trade_union_economy
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_heavy_industry_investments"
+			random_owned_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = SOV
+					OR = {
+						industrial_complex > 0
+						arms_factory > 0
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			SOV_reduce_industrilization = yes
+		}
+	}
+
+	focus = {	
+		id = SOV_workerization_party
+		icon = GFX_focus_prc_agrarian_socialism
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Shliapnikov 
+		}
+		bypass = {
+		}	
+		x = -2
+		y = 1
+		relative_position_id = SOV_Premier_Shliapnikov
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_workerization_party"
+	     	add_stability = 0.10
+		}
+	}
+
+	focus = {	
+		id = SOV_freedom_of_speech_in_the_party
+		icon = GFX_goal_VIN_New_Colossus
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_workerization_party 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_workerization_party
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_freedom_of_speech_in_the_party"
+	     	increase_ruling_party_popularity_by_10 = yes
+		}
+	}
+
+	focus = {	
+		id = SOV_exclude_peasent_from_power
+		icon = GFX_goal_SOV_Village_Education
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_freedom_of_speech_in_the_party 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_freedom_of_speech_in_the_party
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_exclude_peasent_from_power"
+	     	add_political_power = 150
+		}
+	}
+
+	focus = {	
+		id = SOV_Syndicalist_State
+		icon = GFX_goal_HOL_council_communism
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_exclude_peasent_from_power 
+		}
+		prerequisite = { 
+		    focus = SOV_heavy_industry_investments 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_heavy_industry_investments
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Syndicalist_State"
+	     	swap_ideas = {
+	     		remove_idea = SOV_trade_union
+	     		add_idea = SOV_syndicalism
+	     	}
+		}
+	}
+}

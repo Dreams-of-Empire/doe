@@ -1,0 +1,176 @@
+### Conversion Effects
+### Half vanilla. FR-ified by CIA.
+#
+# How to use:
+#
+#	replace_civ_with_arms_factories = yes
+#	^ Replace 5 Civilian Factories with 5 Arms factories.
+#
+#	replace_arms_with_civ_factories = yes
+#	^ Replace 5 Arms factories with 5 Civilian Factories.
+
+replace_civ_with_arms_factories = {	
+
+	random_owned_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			industrial_complex > 0
+		}
+		remove_building = {
+			type = industrial_complex
+			level = 1
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	
+	random_owned_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			industrial_complex > 0
+		}
+		remove_building = {
+			type = industrial_complex
+			level = 1
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+
+	random_owned_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			industrial_complex > 0
+		}
+		remove_building = {
+			type = industrial_complex
+			level = 1
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+
+	random_owned_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			industrial_complex > 0
+		}
+		remove_building = {
+			type = industrial_complex
+			level = 1
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+
+	random_owned_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			industrial_complex > 0
+		}
+		remove_building = {
+			type = industrial_complex
+			level = 1
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+replace_arms_with_civ_factories = {	
+
+	random_owned_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			arms_factory > 0
+		}
+		remove_building = {
+			type = arms_factory
+			level = 1
+		}
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	
+	random_owned_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			arms_factory > 0
+		}
+		remove_building = {
+			type = arms_factory
+			level = 1
+		}
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+
+	random_owned_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			arms_factory > 0
+		}
+		remove_building = {
+			type = arms_factory
+			level = 1
+		}
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+
+	random_owned_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			arms_factory > 0
+		}
+		remove_building = {
+			type = arms_factory
+			level = 1
+		}
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+
+	random_owned_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			arms_factory > 0
+		}
+		remove_building = {
+			type = arms_factory
+			level = 1
+		}
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+}

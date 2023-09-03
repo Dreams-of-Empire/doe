@@ -1,0 +1,10 @@
+﻿l_english:
+
+ RECALL_VOLUNTEERS_TITLE: "Recall Volunteers"
+ RECALL_VOLUNTEERS_ACTION_DESC: "We can decide to recall the volunteers we have sent to other countries."
+ RECALL_VOLUNTEERS_TOOLTIP: "§Y[This.GetNameWithFlag]§! §Rmust have any volunteers from us we can recall.§!"
+ RECALL_VOLUNTEERS_TOOLTIP_G: "§Y[This.GetNameWithFlag]§! must have any volunteers from us we can recall."
+
+ cannot_call_allies_or_join_wars: "Cannot Call Allies or Join Wars"
+ cannot_call_allies_or_join_wars_warning: "§Y[ROOT.GetNameWithFlag]§! §Rcannot call allies or join wars.§!"
+ cannot_call_allies_or_join_wars_warning_FROM: "§Y[FROM.GetNameWithFlag]§! §Rcannot call allies or join wars.§!"

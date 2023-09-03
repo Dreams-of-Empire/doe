@@ -1,0 +1,270 @@
+#####################
+# Soviet Focus Tree #
+#################################
+# Coded by fbruchmueller #
+#################################
+
+focus_tree = {
+	id = sov_focus_tukhachevsky
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = SOV
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+    shared_focus = SOV_red_army
+    shared_focus = SOV_airforce
+    shared_focus = SOV_red_fleet
+    shared_focus = SOV_kickstart_industrialization
+    	
+	focus = {	
+		id = SOV_Premier_Tukhachevsky
+		icon = GFX_goal_premier_Tukhachevsky
+		available = {
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Premier_Tukhachevsky"
+	     	add_political_power = 30
+		}
+	}
+
+	focus = {	
+		id = SOV_install_pro_tukhachevsky
+		icon = GFX_focus_generic_treaty
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Tukhachevsky 
+		}
+		bypass = {
+		}	
+		x = -2
+		y = 1
+		relative_position_id = SOV_Premier_Tukhachevsky
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_install_pro_tukhachevsky"
+			increase_ruling_party_popularity_by_10 = yes
+		}
+	}
+
+	focus = {	
+		id = SOV_repression
+		icon = GFX_goal_big_news
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Tukhachevsky 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_Premier_Tukhachevsky
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_repression"
+	     	add_stability = 0.10
+		}
+	}
+
+	focus = {	
+		id = SOV_give_economy_to_trade_unions
+		icon = GFX_goal_tblra_union_agreement
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Tukhachevsky 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_Premier_Tukhachevsky
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_give_economy_to_trade_unions"
+	     	add_political_power = 200
+		}
+	}
+
+	focus = {	
+		id = SOV_Social_Pact
+		icon = GFX_focus_generic_military_academy
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_give_economy_to_trade_unions 
+		}
+		prerequisite = { 
+		    focus = SOV_repression 
+		}
+		prerequisite = { 
+		    focus = SOV_install_pro_tukhachevsky 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_repression
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Social_Pact"
+	     	add_stability = 0.15
+	     	add_political_power = 50
+		}
+	}
+
+	focus = {	
+		id = SOV_price_controls
+		icon = GFX_goal_SOV_Price_Controls
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Social_Pact 
+		}
+		bypass = {
+		}	
+		x = -2
+		y = 2
+		relative_position_id = SOV_Social_Pact
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_price_controls"
+	     	add_stability = 0.1
+		}
+	}
+
+	focus = {	
+		id = SOV_agriculture
+		icon = GFX_goal_RAJ_agricultural_aid
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Social_Pact 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_Social_Pact
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_agriculture"
+			add_stability = 0.10
+		}
+	}
+
+	focus = {	
+		id = SOV_four_year_plan
+		icon = GFX_goal_SOV_planned_economies
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Social_Pact 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 2
+		relative_position_id = SOV_Social_Pact
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_four_year_plan"
+			add_ideas = SOV_five_year_plan
+			activate_mission = SOV_Five_Year_mission
+			SOV_reduce_industrilization = yes
+		}
+	}
+
+	focus = {	
+		id = SOV_increasing_wages
+		icon = GFX_goal_RAJ_India_Worker_Rights
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Social_Pact 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_Social_Pact
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_increasing_wages"
+	     	add_ideas = SOV_helping_common_man
+		}
+	}
+
+	focus = {	
+		id = SOV_trade_union_law
+		icon = GFX_goal_manage_industries
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Social_Pact 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 2
+		relative_position_id = SOV_Social_Pact
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_trade_union_law"
+			add_ideas = SOV_supporting_trade_unions
+			SOV_reduce_industrilization = yes
+		}
+	}
+}

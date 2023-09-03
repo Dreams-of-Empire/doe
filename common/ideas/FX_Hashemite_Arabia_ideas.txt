@@ -1,0 +1,261 @@
+ideas = {
+  country = {
+    ARB_british_influence = {
+      allowed = { original_tag = ARB }
+      picture = ARB_british_influence
+    }
+    ARB_british_army_training = {
+      allowed = { original_tag = ARB }
+      picture = EGY_retired_brits
+      modifier = {
+        army_org_factor = 0.05
+        army_morale_factor = 0.05
+        supply_consumption_factor = -0.05
+      }
+    }
+    ARB_british_army_training_1 = {
+      allowed = { original_tag = ARB }
+      picture = EGY_retired_brits
+      modifier = {
+        army_org_factor = 0.1
+        army_morale_factor = 0.1
+        supply_consumption_factor = -0.1
+      }
+    }
+    ARB_ikhwan_raids = {
+      allowed = { original_tag = ARB }
+      modifier = {
+        stability_factor = -0.15
+        conscription_factor = -0.05
+      }
+    }
+    ARB_the_liquid_black_gold = {
+      allowed = { original_tag = ARB }
+      picture = ARB_black_gold
+      modifier = {
+        consumer_goods_factor = -0.1
+        fuel_gain_factor_from_states = -0.25
+      }
+    }
+    ARB_the_liquid_black_gold_1 = {
+      allowed = { original_tag = ARB }
+      picture = ARB_black_gold
+      modifier = {
+        consumer_goods_factor = -0.05
+        fuel_gain_factor_from_states = -0.05
+      }
+    }
+    ARB_black_wednesday = {
+      allowed = { original_tag = ARB }
+      picture = great_depression
+      modifier = {
+        consumer_goods_factor = 0.15
+        production_speed_buildings_factor = -0.15
+        production_factory_max_efficiency_factor = -0.15
+      }
+    }
+    ARB_black_wednesday_1 = {
+      allowed = { original_tag = ARB }
+      picture = great_depression
+      modifier = {
+        consumer_goods_factor = 0.1
+        production_speed_buildings_factor = -0.1
+      }
+    }
+    ARB_black_wednesday_2 = {
+      allowed = { original_tag = ARB }
+      picture = great_depression
+      modifier = {
+        consumer_goods_factor = 0.05
+      }
+    }
+    ARB_mecca_railway_corp = {
+      allowed = { original_tag = ARB }
+      picture = generic_build_infrastructure
+      modifier = {
+        production_speed_infrastructure_factor = 0.1
+        production_speed_rail_way_factor = 0.1
+        production_speed_supply_node_factor = 0.1
+      }
+    }
+    ARB_british_scholars_idea = {
+      allowed = { original_tag = ARB }
+      picture = ARB_british_scholars
+      modifier = {
+        research_speed_factor = 0.15
+      }
+    }
+    ARB_food_imports = {
+      allowed = { original_tag = ARB }
+      picture = generic_agrarian_reform
+      modifier = {
+        monthly_population = 0.40
+				supply_consumption_factor = -0.05
+				conscription = 0.01
+      }
+    }
+    ARB_guardians_of_hajj = {
+      allowed = { original_tag = ARB }
+      picture = raj_marginalized_muslim_community_happy
+      modifier = {
+        stability_factor = 0.1
+        political_power_gain = 0.15
+      }
+    }
+    ARB_guardians_of_hajj_1 = {
+      allowed = { original_tag = ARB }
+      picture = raj_marginalized_muslim_community_happy
+      modifier = {
+        stability_factor = 0.1
+        political_power_gain = 0.15
+        consumer_goods_factor = -0.05
+      }
+    }
+    ARB_british_migration = {
+      allowed = { original_tag = ARB }
+      picture = prc_low_popular_support3
+      modifier = {
+        monthly_population = 0.45
+      }
+    }
+    ARB_arab_resistance = {
+      allowed = { original_tag = ARB }
+      picture = chi_war_of_resistance3
+      modifier = {
+        political_power_gain = -0.35
+        stability_factor = -0.65
+        war_support_factor = -0.65
+      }
+    }
+    ARB_arab_resistance_1 = {
+      allowed = { original_tag = ARB }
+      picture = chi_war_of_resistance3
+      modifier = {
+        political_power_gain = -0.25
+        stability_factor = -0.45
+        war_support_factor = -0.45
+      }
+    }
+    ARB_arab_resistance_2 = {
+      allowed = { original_tag = ARB }
+      picture = chi_war_of_resistance3
+      modifier = {
+        political_power_gain = -0.15
+        stability_factor = -0.25
+        war_support_factor = -0.25
+      }
+    }
+    ARB_irrigation = {
+      allowed = { original_tag = ARB }
+      available = { has_country_flag = ARB_british_mandate_flag }
+      picture = generic_agrarian_society
+      modifier = {
+        industrial_capacity_factory = 0.15
+        production_factory_max_efficiency_factor = 0.1
+      }
+    }
+    ARB_rapid_industrialization_idea = {
+      allowed = { original_tag = ARB }
+      available = { has_country_flag = ARB_british_mandate_flag }
+      picture = generic_central_management
+      modifier = {
+        conscription_factor = -0.15
+        production_speed_buildings_factor = 0.25
+      }
+    }
+  }
+  materiel_manufacturer = {
+    designer = yes
+    ARB_bsa = {
+      allowed = { original_tag = ARB }
+      traits = { infantry_equipment_producer_offense_2 }
+      research_bonus = {
+        infantry_weapons = 0.15
+      }
+    }
+  }
+  tank_manufacturer = {
+    designer = yes
+
+    ARB_rolls_royce = {
+			allowed = { original_tag = ARB }
+      visible = {
+        has_completed_focus = ARB_invite_british_armament_industries
+      }
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+			traits = {
+				motorised_equipment_producer_offense_1
+			}
+		}
+  }
+  aircraft_manufacturer = {
+    designer = yes
+
+    ARB_hawker = {
+			allowed = { original_tag = ARB }
+      visible = {
+        has_completed_focus = ARB_invite_british_armament_industries
+      }
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			traits = { fighter_producer_offense_2 }
+		}
+    ARB_fairey_aviation = {
+			allowed = { original_tag = ARB }
+      visible = {
+        has_completed_focus = ARB_invite_british_armament_industries
+      }
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			traits = { fighter_producer_defense_2 }
+		}
+  }
+  naval_manufacturer = {
+    designer = yes
+
+    ARB_yarrow_shipbuilders = {
+			allowed = { original_tag = ARB }
+      visible = {
+        has_completed_focus = ARB_invite_british_armament_industries
+      }
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			traits = { small_ship_producer_offense_2 }
+		}	
+  }
+  industrial_concern = {
+    ARB_english_electric = {
+      allowed = { original_tag = ARB }
+      visible = {
+        has_completed_focus = ARB_deals_with_english_electric
+      }
+      traits = { electronics_manufacturer }
+      research_bonus = {
+        electronics = 0.15
+      }
+      modifier = {
+        industrial_capacity_factory = 0.05
+        industrial_capacity_dockyard = 0.05
+      }
+    }
+    ARB_ig_farben_company = {
+      allowed = { original_tag = ARB }
+      visible = {
+        has_completed_focus = ARB_contracts_with_ig_fabren
+      }
+      traits = { oil_concern }
+      research_bonus = {
+        synth_resources = 0.15
+      } 
+      modifier = {
+        fuel_gain_factor = 0.05
+        production_oil_factor = 0.05
+      }
+    }
+  }
+}

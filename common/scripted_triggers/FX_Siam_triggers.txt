@@ -1,0 +1,61 @@
+is_chinese_warlord = {
+	OR = {
+		tag = CHI
+		tag = ZHI
+		tag = MAN
+		tag = YUN
+		tag = SCH
+		tag = XSM
+		tag = SHX
+	}
+}
+is_fully_controlled_by_ENG_or_war_ally = {
+	custom_trigger_tooltip = {
+		tooltip = "Is Fully Controlled by Britain or her war ally"
+		controller = {
+			has_full_control_of_state = PREV
+			OR = {
+				tag = ENG
+				is_subject_of = ENG
+				is_in_faction_with = ENG
+				has_war_together_with = ENG
+			}
+		}
+	}
+}
+is_fully_controlled_by_SIA_or_war_ally = {
+	custom_trigger_tooltip = {
+		tooltip = "Is Fully Controlled by Siam or ally"
+		controller = {
+			has_full_control_of_state = PREV
+			OR = {
+				tag = SIA
+				is_subject_of = SIA
+				is_in_faction_with = SIA
+			}
+		}
+	}
+}
+is_valid_annexation_state = {
+	is_owned_and_controlled_by = ROOT
+	is_claim_or_core_of_ROOT = no
+}
+is_valid_claimed_state = {
+	is_claimed_by = ROOT
+	is_owned_and_controlled_by = ROOT
+}
+is_asean_tag = {
+	OR = {
+		tag = PHI
+		tag = ICR
+		tag = BRM
+		tag = MAL
+		tag = INS
+	}
+}
+is_not_change_manually = {
+	custom_trigger_tooltip = {
+		tooltip = minister_cant_change
+		always = no
+	}  
+}

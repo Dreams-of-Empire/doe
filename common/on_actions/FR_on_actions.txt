@@ -1,0 +1,480 @@
+on_actions = {
+	 on_startup = {
+		 effect = {
+			SOV = {
+				set_variable = { var = collectivization value = 2 }
+				clamp_variable = {
+					var = collectivization
+					min = 0
+					max = 100
+				}
+				SOV_set_collectivization_var = yes
+				add_offsite_building = { type = collectivization_idea level = collectivization }
+		   }
+			random_country = {
+				limit = {
+					exists = yes
+				}
+				country_event = gov.0
+		   }
+		}
+	}
+  on_startup = {
+	    effect = {
+
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = unit_limit_options
+						option = AI_ONLY
+					}
+				}
+				set_global_flag = KR_unit_limits_ai_only
+			}
+			else_if = {
+				limit = {
+					has_game_rule = {
+						rule = unit_limit_options
+						option = NONE
+					}
+				}
+				set_global_flag = KR_no_unit_limits
+			} 
+
+	    	every_country = {
+	        	limit = {
+	        		exists = yes
+	         		is_ai = no
+	        	}
+	        country_event = { hours = 1 id = intro.1 }
+	      	}
+	    }
+	}
+	
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					exists = yes
+				}
+				# unit limit calculations
+				calculate_actual_division_number = yes
+				calculate_maximum_divisions = yes
+			}
+			
+			#UI Setup
+			every_country = {
+				limit = {
+					exists = yes
+					is_ai = no
+				}
+				set_country_flag = show_intro_gui
+			}		
+		}
+	}	
+
+	on_weekly = {
+		effect = {
+			# unit limit calculations
+			if = {
+				limit = {
+					NOT = { has_global_flag = KR_no_unit_limits }
+				}
+				calculate_actual_division_number = yes
+				calculate_maximum_divisions = yes
+				if = {
+					limit = { is_faction_leader = yes }
+					country_event = fr.political.211
+					for_each_scope_loop = {
+						array = faction_members
+						country_event = fr.political.210
+					}
+				}
+				country_event = fr.political.122
+			}
+
+			# update intelligence agency AI
+			if = {
+				limit = {
+					has_intelligence_agency = yes
+					is_ai = yes
+				}
+				update_operation_ai = yes
+			}
+		}
+	}
+	
+	on_startup = {
+		effect = {
+			#Begin on_weekly event cycle
+			every_country = {
+		
+				country_event = { id = fr.political.2 }
+			}
+		}
+	}
+
+	on_startup = { # Entente Council
+		effect = {
+			every_country = {
+				limit = {
+					owns_state = 16
+				}
+				FRA = {
+					set_variable = { entente_faith = 65 }
+					set_variable = { entente_tension = 0 } # probably not going to be used
+				}
+			}
+				FRA = {
+					add_ideas = GEN_entente_leader_FRA
+				}
+				ITA = {
+					add_ideas = GEN_entente_leader_ITA
+				}
+
+			every_country = {
+				limit = {
+					OR = {
+						original_tag = BEL
+						original_tag = LUX
+						original_tag = CZE
+						original_tag = AUS
+						original_tag = POL
+						original_tag = ROM
+						original_tag = SPR
+						original_tag = DEN
+						original_tag = LAT
+						original_tag = UKR
+					}
+				}
+				add_ideas = GEN_entente_member
+			}
+
+		}
+	}
+
+	on_startup = { # Princely Pact
+		effect = { 
+			add_to_array = { global.HYD_princes = HYD }
+		}
+	}
+
+	on_daily = { # Variable cap for Entente Council. Can only be between 0 - 100
+		effect = {
+			if = {
+				limit = {
+					FRA = {
+						check_variable = { entente_faith > 100 } # Variable can't exceed 100 
+					}
+				}
+				set_variable = { entente_faith = 100 }
+			}
+			if = {
+				limit = {
+					FRA = {
+						check_variable = {
+							entente_faith < 0  # Variable can't be less than 0
+						}
+					}
+				}
+				set_variable = { entente_faith = 0 }
+			}
+		}
+	}
+
+	on_startup = {
+		effect = {
+			# Faction state Control for Italy
+			# Socialist Control
+			ITA = {
+				set_variable = { socialist_control = 15 }
+				set_variable = { syndie_control = 15 }
+			}
+			158 = {
+				set_state_flag = ITA_state_socialist
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.1
+						local_building_slots = 1
+					}
+				}
+			}
+			159 = {
+				set_state_flag = ITA_state_socialist
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.1
+						local_building_slots = 1
+					}
+				}
+			}
+			161 = {
+				set_state_flag = ITA_state_socialist
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.1
+						local_building_slots = 1
+					}
+				}
+			}
+			162 = {
+				set_state_flag = ITA_state_socialist
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.1
+						local_building_slots = 1
+					}
+				}
+			}
+			# Syndie Control
+			117 = {
+				set_state_flag = ITA_state_syndie
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.1
+					}
+				}
+			}
+			156 = {
+				set_state_flag = ITA_state_syndie
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.1
+					}
+				}
+			}
+			849 = {
+				set_state_flag = ITA_state_syndie
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.1
+					}
+				}
+			}
+			850 = {
+				set_state_flag = ITA_state_syndie
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.1
+					}
+				}
+			}
+		}
+	}
+
+	on_startup = {
+		effect = {
+			# Scorched States tracker for USSR
+			every_state = {
+				limit = {
+					region = 130
+				}
+				THIS = {
+					set_state_flag = SOV_ukraine
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 131
+				}
+				THIS = {
+					set_state_flag = SOV_belarus
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 37
+				}
+				THIS = {
+					set_state_flag = SOV_baltic
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 39
+				}
+				THIS = {
+					set_state_flag = SOV_east_poland
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 13
+				}
+				THIS = {
+					set_state_flag = SOV_finland
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 12
+				}
+				THIS = {
+					set_state_flag = SOV_north_scandinavia
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 132
+				}
+				THIS = {
+					set_state_flag = SOV_north_front
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 150
+				}
+				THIS = {
+					set_state_flag = SOV_arctic
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 133
+				}
+				THIS = {
+					set_state_flag = SOV_central_russia
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 137
+				}
+				THIS = {
+					set_state_flag = SOV_west_steppe
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 40
+				}
+				THIS = {
+					set_state_flag = SOV_transvolga
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 135
+				}
+				THIS = {
+					set_state_flag = SOV_kuban
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 134
+				}
+				THIS = {
+					set_state_flag = SOV_caucasus
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 138
+				}
+				THIS = {
+					set_state_flag = SOV_ural
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 136
+				}
+				THIS = {
+					set_state_flag = SOV_great_steppe
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 14
+				}
+				THIS = {
+					set_state_flag = SOV_trans_urals
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 151
+				}
+				THIS = {
+					set_state_flag = SOV_west_siberia
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 149
+				}
+				THIS = {
+					set_state_flag = SOV_east_siberia
+				}
+			}
+
+			every_state = {
+				limit = {
+					region = 148
+				}
+				THIS = {
+					set_state_flag = SOV_far_east
+				}
+			}
+		}
+	}
+	
+	on_government_change = { # When Government ideology changes this recalculates legislative support based on party popularity.
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						has_variable = senators_support
+					}
+				}
+				set_variable = { senators_support = NS_ruling_party_pop }
+			}
+		}
+	}
+
+	on_war_relation_added = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						tag = FRA
+						tag = GER
+					}
+					FROM = {
+						OR = {
+							tag = FRA
+							tag = GER
+						}
+					}
+				}
+
+				add_named_threat = {
+					threat = 80
+					name = threat_2nd_great_war
+				}
+				random_other_country = {
+					news_event = worldnews.100
+				}
+			}
+		}
+	}
+}

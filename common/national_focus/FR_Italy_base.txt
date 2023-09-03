@@ -1,0 +1,28 @@
+#####################
+# Socialist Economy #
+#####################
+
+focus_tree = {
+	id = italy_base
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+
+	default = no
+	
+	continuous_focus_position = { x = 25 y = 100 }
+	
+	shared_focus = ITA_future_ppi
+	shared_focus = ITA_forein_policy
+	shared_focus = ITA_balbo_returns
+	shared_focus = ITA_army_reforms
+	shared_focus = ITA_north_bases
+	shared_focus = ITA_south_bases
+	shared_focus = ITA_mare_nostrum
+}

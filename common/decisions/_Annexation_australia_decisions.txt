@@ -1,0 +1,97 @@
+annexation_decisions = {
+  annexation_FIJ_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = 60
+    is_good = no
+    cancel_trigger = {
+      636 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+      country_event = annex.5000
+    }
+    timeout_effect = {
+      occupy_tiny_country = yes
+      set_country_flag = FIJ_CONQ
+    }
+    ai_will_do = {
+      factor = 100
+    }
+  }
+  annexation_AST_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = 60
+    is_good = no
+    cancel_trigger = {
+      808 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+      country_event = annex.5001
+    }
+    timeout_effect = {
+      occupy_huge_country = yes
+      set_country_flag = AST_CONQ
+    }
+    ai_will_do = {
+      factor = 100
+    }
+  }
+  annexation_NZL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = 60
+    is_good = no
+    cancel_trigger = {
+      284 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+      country_event = annex.5002
+    }
+    timeout_effect = {
+      occupy_medium_country = yes
+      set_country_flag = NZL_CONQ
+    }
+    ai_will_do = {
+      factor = 100
+    }
+  }
+  annexation_HAW_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = 60
+    is_good = no
+    cancel_trigger = {
+      629 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+      country_event = annex.5004
+    }
+    timeout_effect = {
+      occupy_medium_country = yes
+      set_country_flag = HAW_CONQ
+    }
+    ai_will_do = {
+      factor = 100
+    } 
+  }
+  annexation_PNG_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = 60
+    is_good = no
+    cancel_trigger = {
+      523 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+      country_event = annex.5003
+    }
+    timeout_effect = {
+      occupy_medium_country = yes
+      set_country_flag = PNG_CONQ
+    }
+    ai_will_do = {
+      factor = 100
+    }
+  }
+}

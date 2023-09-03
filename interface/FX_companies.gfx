@@ -1,0 +1,843 @@
+spriteTypes = {
+  ################################################
+  # ARB
+  spriteType = {
+    name = "GFX_idea_ARB_bsa"
+    texturefile = "gfx/interface/ideas/ARB/companies/ARB_bsa.png"
+  }
+  spriteType = {
+    name = "GFX_idea_ARB_english_electric"
+    texturefile = "gfx/interface/ideas/ARB/companies/ARB_english_electric.png"
+  }
+  spriteType = {
+    name = "GFX_idea_ARB_ig_farben_company"
+    texturefile = "gfx/interface/ideas/ARB/companies/ARB_ig_farben_company.png"
+  }
+
+	################################################
+  # AST
+	spriteType = {
+		name = "GFX_idea_amalgamated_wireless_australia"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_amalgamated_wireless_australia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_broken_hill"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_broken_hill.png"
+	}
+	spriteType = {
+		name = "GFX_idea_commonwealth_oil_refineries"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_commonwealth_oil_refineries.png"
+	}
+	spriteType = {
+		name = "GFX_idea_lysaghts_works_fx"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_lysaghts_works_fx.png"
+	}
+	spriteType = {
+		name = "GFX_idea_colonial_ammunition_company"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_colonial_ammunition_company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_royal_australian_artillery"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_royal_australian_artillery.png"
+	}
+	spriteType = {
+		name = "GFX_idea_holden"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_holden.png"
+	}
+	spriteType = {
+		name = "GFX_idea_victorian_railways"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_victorian_railways.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ford_australia"
+		texturefile = "gfx/interface/ideas/USA/companies/ford.png"
+	}
+	spriteType = {
+		name = "GFX_idea_new_south_wales"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_new_south_wales.png"
+	}
+	spriteType = {
+		name = "GFX_idea_cac"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_cac.png"
+	}
+	spriteType = {
+		name = "GFX_idea_government_aircraft_factories"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_government_aircraft_factories.png"
+	}
+	spriteType = {
+		name = "GFX_idea_de_havilland_australia"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_de_havilland_australia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_cockatoo_island"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_cockatoo_island.png"
+	}
+	spriteType = {
+		name = "GFX_idea_walkers_limited"
+		texturefile = "gfx/interface/ideas/AST/companies/AST_walkers_limited.png"
+	}
+	spriteType = {
+		name = "GFX_idea_vickers_armstrong_australia"
+		texturefile = "gfx/interface/ideas/SAF/companies/south_african_vickers.png"
+	}
+
+	################################################
+	# BLR
+	spriteType = {
+		name = "GFX_idea_BLR_gomel_radio_plant"
+		texturefile = "gfx/interface/ideas/BLR/companies/BLR_BRDUIR.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BLR_baranovichi_aviation_repair_plant"
+		texturefile = "gfx/interface/ideas/BLR/companies/BLR_Dziarzauny_Avijacyjny_Zavod.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BLR_belarus_state_university"
+		texturefile = "gfx/interface/ideas/BLR/companies/BLR_Mazyrski_Naftapierapracoucy_Zavod.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BLR_minsk_automobile_plant"
+		texturefile = "gfx/interface/ideas/BLR/companies/BLR_Minski_Autamabilny_Zavod.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BLR_pinsk_shipyard"
+		texturefile = "gfx/interface/ideas/BLR/companies/BLR_pinsk_shipyard.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BLR_mzkt"
+		texturefile = "gfx/interface/ideas/BLR/companies/BLR_MZKT.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BLR_bsvt"
+		texturefile = "gfx/interface/ideas/BLR/companies/BLR_bsvt.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BLR_belarusian_railway"
+		texturefile = "gfx/interface/ideas/BLR/companies/BLR_Bielyja_Rusinskaja_Zalieznyja_Darohi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BLR_belaz"
+		texturefile = "gfx/interface/ideas/BLR/companies/BLR_belaz.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BLR_maaz"
+		texturefile = "gfx/interface/ideas/BLR/companies/BLR_maaz.png"
+	}
+
+	################################################
+	# EST
+	spriteType = {
+		name = "GFX_idea_arsenal_tallinn"
+		texturefile = "gfx/interface/ideas/EST/companies/EST_arsenal_tallinn.png"
+	}
+
+  ################################################
+  # JAP
+	spriteType = {
+		name = "GFX_idea_Furukawa_Siemens"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_Furukawa_Siemens.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Nippon_Electric_Company"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_Nippon_Electric_Company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Ishikawajima_Heavy_Industries"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_Ishikawajima_Heavy_Industries.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Mitsui_Zaibatsu"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_Mitsui_Zaibatsu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Nihon_Musen"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_Nihon_Musen.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Nippon_Oil"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_Nippon_Oil.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kawasaki"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_kawasaki.png"
+	}
+	spriteType = {
+		name = "GFX_idea_sumitomo"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_sumitomo.png"
+	}
+	spriteType = {
+		name = "GFX_idea_tokyo_shibaura_denki"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_tokyo_shibaura_denki.png"
+	}
+	spriteType = {
+		name = "GFX_idea_nichitsu"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_nichitsu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kokura_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_kokura_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_nagoya_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_nagoya_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_osaka_army_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_osaka_army_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_isuzu"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_isuzu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_toyota"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_toyota.png"
+	}
+	spriteType = {
+		name = "GFX_idea_hitachi"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_hitachi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_nissan"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_nissan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_tokyo_gas"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_tokyo_gas.png"
+	}
+	spriteType = {
+		name = "GFX_idea_mitsubishi"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_mitsubishi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kyushu_hikoki"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_kyushu_hikoki.png"
+	}
+	spriteType = {
+		name = "GFX_idea_aichi"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_aichi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_tachikawa"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_tachikawa.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_nakajima"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_nakajima.png"
+	}
+	spriteType = {
+		name = "GFX_idea_yokosuka"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_yokosuka.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kawanishi"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_kawanishi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_yokosuka_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_yokosuka_naval_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kure_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_kure_naval_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_sasebo_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_sasebo_naval_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_maizuru_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/JAP_maizuru_naval_arsenal.png"
+	}
+
+	################################################
+	# HOL
+	spriteType = {
+		name = "GFX_idea_koninklijke_hoogovens"
+		texturefile = "gfx/interface/ideas/HOL/companies/koninklijke_hoogovens.png"
+	}
+	spriteType = {
+		name = "GFX_idea_philips"
+		texturefile = "gfx/interface/ideas/HOL/companies/philips.png"
+	}
+	spriteType = {
+		name = "GFX_idea_hazemeyer"
+		texturefile = "gfx/interface/ideas/HOL/companies/hazemeyer.png"
+	}
+	spriteType = {
+		name = "GFX_idea_shell"
+		texturefile = "gfx/interface/ideas/HOL/companies/shell.png"
+	}
+	spriteType = {
+		name = "GFX_idea_artillerie_inrichtingen_company"
+		texturefile = "gfx/interface/ideas/HOL/companies/artillerie_inrichtingen.png"
+	}
+	spriteType = {
+		name = "GFX_idea_hih_siderius"
+		texturefile = "gfx/interface/ideas/HOL/companies/hih_siderius.png"
+	}
+	spriteType = {
+		name = "GFX_idea_daf"
+		texturefile = "gfx/interface/ideas/HOL/companies/daf.png"
+	}
+	spriteType = {
+		name = "GFX_idea_den_oudsten"
+		texturefile = "gfx/interface/ideas/HOL/companies/den_oudsten.png"
+	}
+	spriteType = {
+		name = "GFX_idea_werkspoor"
+		texturefile = "gfx/interface/ideas/HOL/companies/werkspoor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fokker"
+		texturefile = "gfx/interface/ideas/HOL/companies/fokker.png"
+	}
+	spriteType = {
+		name = "GFX_idea_koolhoven"
+		texturefile = "gfx/interface/ideas/HOL/companies/koolhoven.png"
+	}
+	spriteType = {
+		name = "GFX_idea_pander"
+		texturefile = "gfx/interface/ideas/HOL/companies/pander.png"
+	}
+	spriteType = {
+		name = "GFX_idea_aviolanda"
+		texturefile = "gfx/interface/ideas/HOL/companies/aviolanda.png"
+	}
+	spriteType = {
+		name = "GFX_idea_koninklijke_maatschappij"
+		texturefile = "gfx/interface/ideas/HOL/companies/koninklijke_maatschappij.png"
+	}
+	spriteType = {
+		name = "GFX_idea_wilton_fijenoord"
+		texturefile = "gfx/interface/ideas/HOL/companies/wilton_fijenoord.png"
+	}
+	spriteType = {
+		name = "GFX_idea_rotterdamsche_maatschappij"
+		texturefile = "gfx/interface/ideas/HOL/companies/rotterdamsche_maatschappij.png"
+	}
+	spriteType = {
+		name = "GFX_idea_spyker"
+		texturefile = "gfx/interface/ideas/HOL/companies/spyker.png"
+	}
+
+	################################################
+  # PHI
+  spriteType = {
+		name = "GFX_idea_PHI_army_research"
+		texturefile = "gfx/interface/ideas/PHI/companies/army_research.png"
+	}
+  spriteType = {
+		name = "GFX_idea_benguet_mining_corporation"
+		texturefile = "gfx/interface/ideas/PHI/companies/benguet_mining_corporation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_san_miguel_corporation"
+		texturefile = "gfx/interface/ideas/PHI/companies/san_miguel_corporation.png"
+	}
+
+  ################################################
+  # SWI
+  spriteType = {
+		name = "GFX_idea_brown_boveri"
+		texturefile = "gfx/interface/ideas/SWI/companies/brown_boveri.png"
+	}
+	spriteType = {
+		name = "GFX_idea_swi_ptt"
+		texturefile = "gfx/interface/ideas/SWI/companies/swi_ptt.png"
+	}
+	spriteType = {
+		name = "GFX_idea_sulzer_ag"
+		texturefile = "gfx/interface/ideas/SWI/companies/sulzer.png"
+	}
+	spriteType = {
+		name = "GFX_idea_lonza_elektrizitatswerke"
+		texturefile = "gfx/interface/ideas/SWI/companies/lonza_elektrizitatswerke.png"
+	}
+	spriteType = {
+		name = "GFX_idea_waffenfabrik_solothurn"
+		texturefile = "gfx/interface/ideas/SWI/companies/waffenfabrik_solothurn.png"
+	}
+	spriteType = {
+		name = "GFX_idea_schweizerische_industrie_gesellschaft"
+		texturefile = "gfx/interface/ideas/SWI/companies/schweizerische_industrie_gesellschaft.png"
+	}
+	spriteType = {
+		name = "GFX_idea_waffenfabrik_bern"
+		texturefile = "gfx/interface/ideas/SWI/companies/waffenfabrik_bern.png"
+	}
+	spriteType = {
+		name = "GFX_idea_oerlikon"
+		texturefile = "gfx/interface/ideas/SWI/companies/oerlikon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_swi_steel"
+		texturefile = "gfx/interface/ideas/SWI/companies/swi_steel.png"
+	}
+	spriteType = {
+		name = "GFX_idea_swi_saurer"
+		texturefile = "gfx/interface/ideas/SWI/companies/swi_saurer.png"
+	}
+	spriteType = {
+		name = "GFX_idea_swi_fbw"
+		texturefile = "gfx/interface/ideas/SWI/companies/swi_fbw.png"
+	}
+	spriteType = {
+		name = "GFX_idea_eidgenossische_konstruktionswerkstatte"
+		texturefile = "gfx/interface/ideas/SWI/companies/eidgenossische_konstruktionswerkstatte.png"
+	}
+	spriteType = {
+		name = "GFX_idea_berna"
+		texturefile = "gfx/interface/ideas/SWI/companies/berna.png"
+	}
+	spriteType = {
+		name = "GFX_idea_eidgenossisches_flugzeugwerk"
+		texturefile = "gfx/interface/ideas/SWI/companies/eidgenossisches_flugzeugwerk.png"
+	}
+	spriteType = {
+		name = "GFX_idea_flug_fahrzeugwerke_altenrhein"
+		texturefile = "gfx/interface/ideas/SWI/companies/flug_fahrzeugwerke_altenrhein.png"
+	}
+	spriteType = {
+		name = "GFX_idea_pilatus"
+		texturefile = "gfx/interface/ideas/SWI/companies/pilatus.png"
+	}
+	spriteType = {
+		name = "GFX_idea_swissair"
+		texturefile = "gfx/interface/ideas/SWI/companies/swissair.png"
+	}
+	spriteType = {
+		name = "GFX_idea_werner_risch"
+		texturefile = "gfx/interface/ideas/SWI/companies/werner_risch.png"
+	}
+
+	################################################
+	# UKR
+	spriteType = {
+		name = "GFX_idea_metallurgical_combine_azovstal"
+		texturefile = "gfx/interface/ideas/UKR/companies/metallurgical_combine_azovstal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_morozov_design_bureau"
+		texturefile = "gfx/interface/ideas/UKR/companies/fx_morozov_design_bureau.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kharkiv_locomotive_factory"
+		texturefile = "gfx/interface/ideas/UKR/companies/kharkiv_locomotive_factory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_antonov"
+		texturefile = "gfx/interface/ideas/UKR/companies/fx_antonov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_anatra"
+		texturefile = "gfx/interface/ideas/UKR/companies/anatra.png"
+	}
+	spriteType = {
+		name = "GFX_idea_motor_sich"
+		texturefile = "gfx/interface/ideas/UKR/companies/motor_sich.png"
+	}
+	spriteType = {
+		name = "GFX_idea_zaporizhia_automobile_plant"
+		texturefile = "gfx/interface/ideas/UKR/companies/zaporizhia_automobile_plant.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_beriev"
+		texturefile = "gfx/interface/ideas/UKR/companies/fx_beriev.png"
+	}
+	spriteType = {
+		name = "GFX_idea_black_sea_shipyard"
+		texturefile = "gfx/interface/ideas/UKR/companies/black_sea_shipyard.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kommunara_nikolayev_shipyards"
+		texturefile = "gfx/interface/ideas/UKR/companies/kommunara_nikolayev_shipyards.png"
+	}
+	spriteType = {
+		name = "GFX_idea_cb_central"
+		texturefile = "gfx/interface/ideas/UKR/companies/cb_central.png"
+	}
+	spriteType = {
+		name = "GFX_idea_concern_electron"
+		texturefile = "gfx/interface/ideas/UKR/companies/concern_electron.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fiolent"
+		texturefile = "gfx/interface/ideas/UKR/companies/fiolent.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ukr_fort"
+		texturefile = "gfx/interface/ideas/UKR/companies/ukr_fort.png"
+	}
+	spriteType = {
+		name = "GFX_idea_iksra"
+		texturefile = "gfx/interface/ideas/UKR/companies/iksra.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kyiv_tank_factory"
+		texturefile = "gfx/interface/ideas/UKR/companies/kyiv_tank_factory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_zhytomyr_tank_factory"
+		texturefile = "gfx/interface/ideas/UKR/companies/zhytomyr_tank_factory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kraz_motorized"
+		texturefile = "gfx/interface/ideas/UKR/companies/kraz_motorized.png"
+	}
+	spriteType = {
+		name = "GFX_idea_mayak"
+		texturefile = "gfx/interface/ideas/UKR/companies/mayak.png"
+	}
+	spriteType = {
+		name = "GFX_idea_cb_luch"
+		texturefile = "gfx/interface/ideas/UKR/companies/cb_luch.png"
+	}
+	spriteType = {
+		name = "GFX_idea_pallada"
+		texturefile = "gfx/interface/ideas/UKR/companies/pallada.png"
+	}
+	spriteType = {
+		name = "GFX_idea_research_and_design_center_for_shipbuilding"
+		texturefile = "gfx/interface/ideas/UKR/companies/research_and_design_center_for_shipbuilding.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ukr_central_research_institute"
+		texturefile = "gfx/interface/ideas/UKR/companies/ukr_central_research_institute.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ukr_valar"
+		texturefile = "gfx/interface/ideas/UKR/companies/valar.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ukr_arsenal"
+		texturefile = "gfx/interface/ideas/UKR/companies/ukr_arsenal.png"
+	}
+
+	################################################
+	# USA
+	spriteType = {
+		name = "GFX_idea_fx_att"
+		texturefile = "gfx/interface/ideas/USA/companies/att.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_general_electric"
+		texturefile = "gfx/interface/ideas/USA/companies/general_electric.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_ibm"
+		texturefile = "gfx/interface/ideas/USA/companies/ibm.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_raytheon"
+		texturefile = "gfx/interface/ideas/USA/companies/raytheon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_westinghouse"
+		texturefile = "gfx/interface/ideas/USA/companies/westinghouse.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_bethlehem_steel"
+		texturefile = "gfx/interface/ideas/USA/companies/bethlehem_steel.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_phelps_dodge"
+		texturefile = "gfx/interface/ideas/USA/companies/phelps_dodge.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_bfgoodrich"
+		texturefile = "gfx/interface/ideas/USA/companies/bfgoodrich.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_dupont"
+		texturefile = "gfx/interface/ideas/USA/companies/dupont.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_magnolia_petroleum"
+		texturefile = "gfx/interface/ideas/USA/companies/magnolia_petroleum.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_standard_oil"
+		texturefile = "gfx/interface/ideas/USA/companies/standard_oil.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_wood_river_oil"
+		texturefile = "gfx/interface/ideas/USA/companies/wood_river_oil.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_auto_ordnance_company"
+		texturefile = "gfx/interface/ideas/USA/companies/auto_ordnance_company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_browning"
+		texturefile = "gfx/interface/ideas/USA/companies/browning.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_colt"
+		texturefile = "gfx/interface/ideas/USA/companies/colt.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_federal_laboratories"
+		texturefile = "gfx/interface/ideas/USA/companies/federal_laboratories.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_harrington_and_richardson"
+		texturefile = "gfx/interface/ideas/USA/companies/harrington_and_richardson.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_marble_arms"
+		texturefile = "gfx/interface/ideas/USA/companies/marble_arms.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_marlin"
+		texturefile = "gfx/interface/ideas/USA/companies/marlin.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_remington"
+		texturefile = "gfx/interface/ideas/USA/companies/remington.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_sacramento_army_arsenal"
+		texturefile = "gfx/interface/ideas/USA/companies/sacramento_army_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_savage_arms"
+		texturefile = "gfx/interface/ideas/USA/companies/savage_arms.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_smith_and_wesson"
+		texturefile = "gfx/interface/ideas/USA/companies/smith_and_wesson.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_springfield_armory"
+		texturefile = "gfx/interface/ideas/USA/companies/springfield_armory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_western_cartridge_company"
+		texturefile = "gfx/interface/ideas/USA/companies/western_cartridge_company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_winchester_repeating_arms"
+		texturefile = "gfx/interface/ideas/USA/companies/winchester_repeating_arms.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_american_car_and_foundry"
+		texturefile = "gfx/interface/ideas/USA/companies/american_car_and_foundry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_army_ordnance_department"
+		texturefile = "gfx/interface/ideas/USA/companies/army_ordnance_department.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_rock_island_arsenal"
+		texturefile = "gfx/interface/ideas/USA/companies/rock_island_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_watervliet_arsenal"
+		texturefile = "gfx/interface/ideas/USA/companies/watervliet_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_buick"
+		texturefile = "gfx/interface/ideas/USA/companies/buick.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_cushman"
+		texturefile = "gfx/interface/ideas/USA/companies/cushman.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_hudson"
+		texturefile = "gfx/interface/ideas/USA/companies/hudson.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_kenworth_motor_truck"
+		texturefile = "gfx/interface/ideas/USA/companies/kenworth_motor_truck.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_mack"
+		texturefile = "gfx/interface/ideas/USA/companies/mack.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_marmon_herrington"
+		texturefile = "gfx/interface/ideas/USA/companies/marmon_herrington.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_nash_motors"
+		texturefile = "gfx/interface/ideas/USA/companies/nash_motors.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_studebaker"
+		texturefile = "gfx/interface/ideas/USA/companies/studebaker.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_willys"
+		texturefile = "gfx/interface/ideas/USA/companies/willys.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_davis"
+		texturefile = "gfx/interface/ideas/USA/companies/davis.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_american_bantam"
+		texturefile = "gfx/interface/ideas/USA/companies/american_bantam.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_caterpillar"
+		texturefile = "gfx/interface/ideas/USA/companies/caterpillar.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_chrysler"
+		texturefile = "gfx/interface/ideas/USA/companies/chrysler.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_cunningham"
+		texturefile = "gfx/interface/ideas/USA/companies/cunningham.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_dorris"
+		texturefile = "gfx/interface/ideas/USA/companies/dorris.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_packard"
+		texturefile = "gfx/interface/ideas/USA/companies/packard.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_american_locomotive_company"
+		texturefile = "gfx/interface/ideas/USA/companies/american_locomotive_company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_dodge"
+		texturefile = "gfx/interface/ideas/USA/companies/dodge.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_fisher_tank_arsenal"
+		texturefile = "gfx/interface/ideas/USA/companies/fisher_tank_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_pacific_car_and_foundry"
+		texturefile = "gfx/interface/ideas/USA/companies/pacific_car_and_foundry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_stutz"
+		texturefile = "gfx/interface/ideas/USA/companies/stutz.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_white_motor"
+		texturefile = "gfx/interface/ideas/USA/companies/white_motor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_baldwin_locomotive_works"
+		texturefile = "gfx/interface/ideas/USA/companies/baldwin_locomotive_works.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_ford"
+		texturefile = "gfx/interface/ideas/USA/companies/ford.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_general_motors"
+		texturefile = "gfx/interface/ideas/USA/companies/general_motors.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_ingalls_shipbuilding"
+		texturefile = "gfx/interface/ideas/USA/companies/ingalls_shipbuilding.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_newport_news_shipbuilding"
+		texturefile = "gfx/interface/ideas/USA/companies/newport_news_shipbuilding.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_norfolk_naval_shipyard"
+		texturefile = "gfx/interface/ideas/USA/companies/norfolk_naval_shipyard.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_kaiser_shipyards"
+		texturefile = "gfx/interface/ideas/USA/companies/kaiser_shipyards.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_new_york_shipbuilding"
+		texturefile = "gfx/interface/ideas/USA/companies/new_york_shipbuilding.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_electric_boat"
+		texturefile = "gfx/interface/ideas/USA/companies/electric_boat.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_higgins"
+		texturefile = "gfx/interface/ideas/USA/companies/higgins.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_mare_island_naval_shipyard"
+		texturefile = "gfx/interface/ideas/USA/companies/mare_island_naval_shipyard.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_philadelphia_naval_shipyard"
+		texturefile = "gfx/interface/ideas/USA/companies/philadelphia_naval_shipyard.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_beechcraft"
+		texturefile = "gfx/interface/ideas/USA/companies/beechcraft.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_bell"
+		texturefile = "gfx/interface/ideas/USA/companies/bell.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_consolidated"
+		texturefile = "gfx/interface/ideas/USA/companies/consolidated.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_grumman"
+		texturefile = "gfx/interface/ideas/USA/companies/grumman.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_lockheed"
+		texturefile = "gfx/interface/ideas/USA/companies/lockheed.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_north_american_aviation"
+		texturefile = "gfx/interface/ideas/USA/companies/north_american_aviation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_pan_american_airways"
+		texturefile = "gfx/interface/ideas/USA/companies/pan_american_airways.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_ryan"
+		texturefile = "gfx/interface/ideas/USA/companies/ryan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_vultee"
+		texturefile = "gfx/interface/ideas/USA/companies/vultee.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_brewster"
+		texturefile = "gfx/interface/ideas/USA/companies/brewster.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_curtiss_wright"
+		texturefile = "gfx/interface/ideas/USA/companies/curtiss_wright.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_fairchild"
+		texturefile = "gfx/interface/ideas/USA/companies/fairchild.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_hughes"
+		texturefile = "gfx/interface/ideas/USA/companies/hughes.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_northrop_corporation"
+		texturefile = "gfx/interface/ideas/USA/companies/northrop_corporation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_vought"
+		texturefile = "gfx/interface/ideas/USA/companies/vought.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_boeing"
+		texturefile = "gfx/interface/ideas/USA/companies/boeing.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fx_douglas"
+		texturefile = "gfx/interface/ideas/USA/companies/douglas.png"
+	}
+}

@@ -1,0 +1,29 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_HOS_button"
+		texturefile = "gfx/interface/HOS_button.png"
+	}
+	### Leaders ###
+	spriteType = {
+		name = "GFX_Portrait_Japan_Tokugawa_Iesato"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Tokugawa_Iesato.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Tri_Edo_Commissioner"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Tri_Edo_Com.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Hirohito"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Hirohito.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Yasuhito"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
+	}
+	### Leaders ###
+	### Greece ###
+	spriteType = {
+		name = "GFX_Portrait_GRE_Eleftherios_Kyriakou_Venizelos"
+		textureFile = "gfx/leaders/GRE/Portrait_GRE_Eleftherios_Kyriakou_Venizelos.png"
+	}
+}

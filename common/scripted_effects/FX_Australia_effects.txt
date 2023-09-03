@@ -1,0 +1,156 @@
+AST_become_republic = {
+  set_country_flag = AST_is_republic
+  hidden_effect = {
+    AST_Lance_Sharkey = { promote_leader = yes }
+    AST_Jack_Kavanagh = { promote_leader = yes }
+    AST_John_Smith_Garden = { promote_leader = yes }
+    AST_John_Curtin = { promote_leader = yes }
+    AST_Jack_Lang = { promote_leader = yes }
+    AST_Earle_Page = { promote_leader = yes }
+    AST_Robert_Menzies = { promote_leader = yes }
+    AST_William_Hughes = { promote_leader = yes }
+    AST_Percy_Stephensen = { promote_leader = yes }
+    AST_Eric_Campbell = { promote_leader = yes }
+  }
+}
+
+AST_remove_republic = {
+  clr_country_flag = AST_is_republic
+  hidden_effect = {
+    if = {
+      limit = {
+        ENG = { has_character = ENG_Henry_Windsor }
+      }
+      AST_create_governor_general_henry_windsor = yes
+    } 
+    else_if = {
+      limit = {
+        ENG = { has_character = ENG_George_Windsor }
+      }
+      AST_create_governor_general_george_windsor = yes
+    }
+    else = {
+      AST_create_governor_general_hore_ruthven = yes
+    }
+  }
+}
+
+AST_create_governor_general_george_windsor = {
+  ENG = {
+    ENG_George_Windsor = {
+      set_nationality = PREV.PREV
+      remove_all_country_leader_roles = yes
+      add_country_leader_role = {
+        country_leader = { ideology = social_democrat_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = social_liberal_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = market_liberal_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = social_conservative_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = authoritarian_democrat_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = paternal_autocrat_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = national_populist_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = valkist_subtype }
+        promote_leader = yes
+      }
+    }
+  }
+}
+
+AST_create_governor_general_henry_windsor = {
+  ENG = {
+    ENG_Henry_Windsor = {
+      set_nationality = PREV.PREV
+      remove_all_country_leader_roles = yes
+      add_country_leader_role = {
+        country_leader = { ideology = social_democrat_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = social_liberal_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = market_liberal_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = social_conservative_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = authoritarian_democrat_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = paternal_autocrat_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = national_populist_subtype }
+        promote_leader = yes
+      }
+      add_country_leader_role = {
+        country_leader = { ideology = valkist_subtype }
+        promote_leader = yes
+      }
+    }
+  }
+}
+
+AST_create_governor_general_hore_ruthven = {
+  AST_Alexander_Hore_Ruthven = {
+    remove_all_country_leader_roles = yes
+    add_country_leader_role = {
+      country_leader = { ideology = social_democrat_subtype }
+      promote_leader = yes
+    }
+    add_country_leader_role = {
+      country_leader = { ideology = social_liberal_subtype }
+      promote_leader = yes
+    }
+    add_country_leader_role = {
+      country_leader = { ideology = market_liberal_subtype }
+      promote_leader = yes
+    }
+    add_country_leader_role = {
+      country_leader = { ideology = social_conservative_subtype }
+      promote_leader = yes
+    }
+    add_country_leader_role = {
+      country_leader = { ideology = authoritarian_democrat_subtype }
+      promote_leader = yes
+    }
+    add_country_leader_role = {
+      country_leader = { ideology = paternal_autocrat_subtype }
+      promote_leader = yes
+    }
+    add_country_leader_role = {
+      country_leader = { ideology = national_populist_subtype }
+      promote_leader = yes
+    }
+    add_country_leader_role = {
+      country_leader = { ideology = valkist_subtype }
+      promote_leader = yes
+    }
+  }
+}

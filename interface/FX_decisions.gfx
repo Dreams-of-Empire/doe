@@ -1,0 +1,10 @@
+spriteTypes = {
+  spriteType = {
+    name = "GFX_decision_generic_cavalry"
+    texturefile = "gfx/interface/decisions/cavalry.png"
+  }
+  spriteType = {
+    name = "GFX_decision_generic_cement_mixer"
+    texturefile = "gfx/interface/decisions/cement_mixer.png"
+  }
+}

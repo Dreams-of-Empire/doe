@@ -1,0 +1,10 @@
+GXC_war_decisions = {
+	allowed = {
+		original_tag = GXC
+	}
+}
+GXC_chinese_unification_decisions = {
+    allowed = {
+        original_tag = GXC
+    }
+}

@@ -1,0 +1,33 @@
+# Originally made for Equestria at War, Yard1, original concept by Agatha (TWR dev team)
+
+defined_text = { # Country
+	name = GetNewspaperHeader
+	text = {
+		trigger = {
+			tag = UKR
+			has_democratic_government = yes
+		}
+		localization_key = newspaper_vidrodjenna
+	}
+	text = {
+		trigger = {
+			tag = UKR
+			has_dictatorship_government = yes
+		}
+		localization_key = newspaper_surma
+	}
+	text = {
+		trigger = {
+			tag = JAP
+			OR = {
+				has_democratic_government = yes
+				has_dictatorship_government = yes
+			}
+		}
+		localization_key = newspaper_asahi_shimbun
+	}
+    #keep this one without triggers and at the end as a fallback
+	text = {
+		localization_key = newspaper_header_2
+	}
+}

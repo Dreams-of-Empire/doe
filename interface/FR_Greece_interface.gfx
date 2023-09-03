@@ -1,0 +1,46 @@
+#Ideas
+SpriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_GRE_debt"
+		texturefile = "gfx/interface/ideas/ideas/GRE_debt.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_idea_GRE_economic_withering"
+		texturefile = "gfx/interface/ideas/ideas/GRE_economic_withering.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_GRE_minority"
+		texturefile = "gfx/interface/ideas/ideas/GRE_minority.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_GRE_anathema"
+		texturefile = "gfx/interface/ideas/ideas/GRE_anathema.png"
+	}		
+
+	SpriteType = {
+		name = "GFX_idea_GRE_officers"
+		texturefile = "gfx/interface/ideas/ideas/GRE_officers.png"
+	}		
+}
+
+#Agency
+SpriteTypes = {
+	SpriteType = {
+		name = "GFX_intelligence_agency_logo_kr_gre"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_KR_Greece.png"
+		noOfFrames = 2
+	}
+}
+
+#EventPics
+SpriteTypes = {
+    SpriteType = {
+		name = "Megali_Idea"
+		texturefile = "gfx/event_pictures/Megali_Idea.png"
+	}
+	
+}
+

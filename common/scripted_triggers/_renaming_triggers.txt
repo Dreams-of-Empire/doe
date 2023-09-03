@@ -1,0 +1,182 @@
+is_american_tag = {
+  OR = {
+    tag = USA # United States
+    tag = NAR # New American Republic
+    tag = NEE # New England
+    tag = ORE # Oregon
+    tag = SRA # Socialist Republic of America
+    tag = CLB # Pelley's Columbia
+  }
+}
+
+is_arab_tag = {
+  OR = {
+    is_arabian_tag = yes
+    tag = EGY
+    tag = YEM
+    tag = OMA
+    tag = LBY
+    tag = TUN
+    tag = SYR
+    tag = IRQ
+  }
+}
+
+is_arabian_tag = {
+  OR = {
+    tag = SAU
+    tag = ARB
+  }
+}
+
+is_brazillian_tag = {
+  OR = {
+    tag = BRA
+    tag = BPS
+    tag = UBR
+  }
+}
+
+is_dutch_tag = {
+  OR = {
+    tag = KNE
+    tag = HOL
+    tag = DEI
+    tag = FLA
+  }
+}
+
+is_english_tag = {
+  OR = {
+    is_american_tag = yes
+    is_british_isles_tag = yes
+  }
+}
+
+is_british_tag = {
+  OR = {
+    tag = ENG
+    tag = ELP
+    tag = EGL
+  }
+}
+
+is_british_isles_tag = {
+  OR = {
+    is_british_tag = yes
+    tag = WLS
+    tag = SCO
+    tag = IRE
+  }
+}
+
+is_bulgarian_tag = {
+  OR = {
+    tag = BUL
+    tag = BLR
+  }
+}
+
+is_french_tag = {
+  OR = {
+    tag = FRA
+    tag = FRP
+  }
+}
+
+is_german_tag = {
+  OR = {
+    tag = GER
+    tag = GRP
+  }
+}
+
+is_germany_or_splinter_tag = {
+  OR = {
+    tag = GER
+    tag = GRP
+    tag = ERM
+    tag = POM
+    tag = SIL
+    tag = BAY
+    tag = SAX
+    tag = HES
+    tag = HAN
+    tag = BAW
+    tag = BRW
+    AND = {
+      tag = RHI
+      is_subject = no
+    }
+    AND = {
+      tag = SHO
+      is_subject = no
+    }
+  }
+}
+
+is_italian_tag = {
+  OR = {
+    tag = ITA
+    tag = ITP
+  }
+}
+
+is_italian_or_splinter_tag = {
+  OR = {
+    is_italian_tag = yes
+    tag = NAP
+    tag = SIC
+    tag = UPC
+    tag = LOM
+    tag = PIE 
+    tag = SRV
+  }
+}
+
+is_portuguese_tag = {
+  OR = {
+    tag = POR
+    tag = PRR
+  }
+}
+
+is_russian_tag = {
+  OR = {
+    tag = SOV
+    tag = RUS
+  }
+}
+
+is_spanish_tag = {
+  OR = {
+    tag = SPA
+    tag = SPR
+    tag = SPM
+    tag = SPF
+  }
+}
+
+is_indian_tag = {
+  OR = {
+    tag = RAJ
+    tag = IND
+    tag = INC
+  }
+}
+
+is_indian_or_splinter_tag = {
+  OR = {
+    is_indian_tag = yes
+    tag = BIH
+    tag = PUN
+    tag = BAL
+    tag = BOM
+    tag = HYD
+    tag = KAS
+    tag = MDR
+    tag = MYS
+    tag = ORI
+    tag = TRV
+  }
+}

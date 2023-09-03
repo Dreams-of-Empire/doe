@@ -1,0 +1,381 @@
+﻿# Chinese Events
+# created by: dax0102
+
+add_namespace = china
+add_namespace = chinan ###China New Event Under Development of Kaiczer
+
+# Warlord Chiang
+country_event = {
+    id = china.1
+    title = china.1.t
+    desc = china.1.d
+    picture = GFX_report_event_german_troops_paris
+    
+    is_triggered_only = yes
+
+    option = {
+        name = china.1.a
+
+        add_ideas = CHI_socialist_opposition1
+        add_ideas = CHI_bsb_opposition1
+		if = {
+			limit = {
+				NOT = {
+					has_country_leader = {
+						character = CHI_Chiang_Kai_Shek
+						ruling_only = yes
+					}
+				}
+			}
+			add_country_leader_role = {
+				character = CHI_Chiang_Kai_Shek
+				promote_leader = yes
+				country_leader = {
+					ideology = paternal_autocrat_subtype
+					traits = {}
+				}
+			}
+		}
+        set_politics = {
+            ruling_party = paternal_autocrat
+            elections_allowed = no
+        }
+        hidden_effect = {
+            add_popularity = {
+                ideology = authoritarian_democrat
+                popularity = -0.2
+            }
+
+            add_popularity = {
+                ideology = paternal_autocrat
+                popularity = 0.15
+            }
+        }
+    }
+}
+
+# Subjugate the warlords
+country_event = {
+    id = china.2
+    title = china.2.t
+    desc = china.2.d
+    picture = GFX_report_event_german_troops_paris
+    
+    is_triggered_only = yes
+
+    option = {
+        name = china.2.a
+
+        CHI = {
+            annex_country = {
+                target = PREV
+                transfer_troops = yes
+            }
+        }
+    }
+
+    option = {
+        name = china.2.b
+
+        CHI = { country_event = { id = china.3 } }
+    }
+}
+
+# Warlord rejects demands
+country_event = {
+    id = china.3
+    title = china.3.t
+    desc = china.3.a
+    picture = GFX_report_event_german_troops_paris
+
+    is_triggered_only = yes
+
+    option = {
+        name = china.3.a
+
+        create_wargoal = {
+            target = FROM
+            type = annex_everything
+        }
+    }
+}
+
+# Foreign Claims (HK, Macau, Taiwan)
+country_event = {
+    id = china.4
+    title = china.4.t
+    desc = china.4.d
+    picture = GFX_report_event_german_troops_paris
+
+    is_triggered_only = yes
+
+    option = {
+        name = china.4.a
+
+        if = {
+            limit = { PREV = { tag = ENG } }
+            CHI = { transfer_state = 326 }
+        }
+        if = {
+            limit = { PREV = { tag = POR } }
+            CHI = { transfer_state = 729 }
+        }
+        if = {
+            limit = { PREV = { tag = PRR } }
+            CHI = { transfer_state = 729 }
+        }
+        if = {
+            limit = { PREV = { tag = JAP } }
+            CHI = { transfer_state = 524 }
+        }
+    }
+
+    option = {
+        name = china.4.b
+
+        CHI = { country_event = { id = china.5 } }
+    }
+}
+
+# Westerners Reject demands
+country_event = {
+    id = china.5
+    title = china.5.t
+    desc = china.5.d
+    picture = GFX_report_event_german_troops_paris
+
+    is_triggered_only = yes
+
+    option = {
+        name = china.5.a
+
+        if = {
+            limit = { FROM = { tag = ENG } }
+            CHI = { transfer_state = 326 }
+            ENG = { country_event = { id = china.6 } }
+        }
+        if = {
+            limit = { FROM = { tag = POR } }
+            CHI = { transfer_state = 729 }
+            POR = { country_event = { id = china.6 } }
+        }
+        if = {
+            limit = { FROM = { tag = PRR } }
+            CHI = { transfer_state = 729 }
+            PRR = { country_event = { id = china.6 } }
+        }
+        if = {
+            limit = { FROM = { tag = JAP } }
+            CHI = { transfer_state = 524 }
+            JAP = { country_event = { id = china.6 } }
+        }
+    }
+}
+
+# China steals territories
+country_event = {
+    id = china.6
+    title = china.6.t
+    desc = china.6.d
+    is_triggered_only = yes
+
+    option = {
+        name = china.6.a
+
+        add_political_power = -100
+    }
+
+    option = {
+        name = china.6.b
+
+        declare_war_on = {
+            target = CHI
+            type = annex_everything
+        }
+    }
+}
+#####Zhili Situation in KMT#####
+country_event = {
+	id = chinan.1
+	title = "The Beiyang in Exile"
+	desc = chinan.1.d
+	is_triggered_only = yes
+	option = {
+		name = "That's what we know about them"
+	}
+}
+country_event = { ###Black Wednesday Mission of China###
+	id = chinan.2
+	title = "Black Wednesday and Chinese Economy"
+	desc = chinan.2.d
+	trigger = {
+		tag = CHI
+		ENG = { has_idea = ENG_black_wednesday }
+		NOT = {
+			895 = {
+				is_claimed_by = ZHI
+			}
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+	immediate = {
+		CHI_set_zhili_provinces_claim = yes
+		hidden_effect = {
+			country_event = { id = chinan.3 days = 7 }
+			set_country_flag = {
+				flag = CHI_KMT
+				value = 0
+			}
+			set_country_flag = {
+				flag = CHI_LFP
+				value = 0
+			}
+		}
+	}
+	option = {
+		name = "Who cares?"
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+		modify_country_flag = {
+			flag = CHI_KMT
+			value = 1
+		}
+	}
+	option = {
+		name = "Protect our economy with all costs"
+		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+		modify_country_flag = {
+			flag = CHI_LFP
+			value = 1
+		}
+	}
+}
+country_event = { ###Port Labour Strike the Factory
+	id = chinan.3
+	title = "Labour Strike in Ningbo"
+	desc = chinan.3.d
+	is_triggered_only = yes
+	immediate = {
+		1025 = {
+			damage_building = {
+				type = industrial_complex
+				damage = 1
+			}
+		}
+	}
+	option = {
+		name = "Get rip of them, nobody alives"
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.07 }
+		add_popularity = { ideology = paternal_autocrat popularity = 0.07 }
+		add_stability = -0.1
+		modify_country_flag = {
+			flag = CHI_KMT
+			value = 1
+		}
+		hidden_effect = {
+			country_event = { 
+				id = chinan.4
+				days = 45
+			}
+		}
+	}
+	option = {
+		name = "Invite to our table"
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+		modify_country_flag = {
+			flag = CHI_LFP
+			value = 1
+		}
+		hidden_effect = {
+			country_event = { 
+				id = chinan.4
+				days = 45
+			}
+		}
+	}
+	option = {
+		name = "Do Nothing"
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal_autocrat popularity = 0.04 }
+		add_stability = -0.15
+		add_political_power = -100
+		modify_country_flag = {
+			flag = CHI_LFP
+			value = 1
+		}
+		hidden_effect = {
+			country_event = { 
+				id = chinan.4
+				days = 45
+			}
+		}
+	}
+}
+country_event = { ###Anqing Governor has been found corruption
+	id = chinan.4
+	title = "Anqing Bribery Scandal"
+	desc = chinan.4.d
+	is_triggered_only = yes
+	option = {
+		name = "Our men do nothing wrong"
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_political_power = -50
+		modify_country_flag = {
+			flag = CHI_KMT
+			value = 1
+		}
+		hidden_effect = {
+			country_event = { 
+				id = chinan.5
+				days = 60
+			}
+		}
+	}
+	option = {
+		name = "Judicial Yuan will take care of this"
+		add_popularity = { ideology = paternal_autocrat popularity = 0.04 }
+		add_political_power = 20
+		modify_country_flag = {
+			flag = CHI_LFP
+			value = 1
+		}
+		hidden_effect = {
+			country_event = { 
+				id = chinan.5
+				days = 60
+			}
+		}
+	}
+}
+country_event = { ###Judicial Yuan Declare the Government must be dissolved and hold the emergency election
+	id = chinan.5
+	title = "Judgement Without Mercy"
+	desc = chinan.5.d
+	is_triggered_only = yes
+	option = {
+		name = "Let's renew our fate"
+		if = {
+			limit = {
+				has_country_flag = {
+					flag = CHI_KMT
+					value > 1
+				}
+			}
+			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
+			set_country_flag = CHI_kmt_faction_selected
+		}
+		if = {
+			limit = {
+				has_country_flag = {
+					flag = CHI_LFP
+					value > 1
+				}
+			}
+			add_popularity = { ideology = paternal_autocrat popularity = 0.1 }
+			set_country_flag = CHI_zhili_faction_selected
+		}
+		clr_country_flag = CHI_KMT
+		clr_country_flag = CHI_LFP
+	}
+}

@@ -1,0 +1,17 @@
+on_actions = {
+  # ROOT is the winner
+  # FROM gets annexed
+  on_annex = {
+    effect = {
+      if = { # Show Event when revolt is crushed
+        limit = {
+          ROOT = { tag = KNE }
+          FROM = { tag = HOL }
+        }
+        ROOT = { 
+          country_event = { id = dutchexiles.103 days = 2 }
+        }
+      }
+    }
+  }
+}

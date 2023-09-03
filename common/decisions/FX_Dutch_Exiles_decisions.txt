@@ -1,0 +1,71 @@
+political_actions = {
+  KNE_join_entente = {
+    allowed = { original_tag = KNE }
+    icon = GFX_decision_generic_political_discourse
+    cost = 25
+    target_trigger = {
+      FROM = { tag = FRA }
+    }
+    visible = {
+      country_exists = HOL
+      is_in_faction = no
+      is_subject = no
+    }
+    available = {
+      HOL = {
+        has_war_with = FRA
+      }
+    }
+    days_remove = 14
+    visible = {
+      is_in_faction = no
+    }
+    ai_will_do = { factor = 200 }
+    remove_effect = {
+      FROM = {
+        country_event = { id = dutchexiles.100 days = 2 }
+      }
+    }
+  }
+  KNE_return_of_the_queen = {
+    allowed = { original_tag = KNE }
+    icon = GFX_decision_eng_support_imperialist_coup
+    days_remove = 21
+    target_trigger = {
+      FROM = {
+        tag = HOL
+      }
+    }
+    ai_will_do = {
+      base = 400
+    }
+    available = {
+      NOT = {
+        country_exists = HOL
+      }
+      owns_state = 7
+    }
+    remove_effect = {
+      remove_state_core = 970
+      remove_state_core = 309
+      add_state_claim = 970
+      add_state_claim = 309
+      
+      every_state = {
+        limit = {
+          OR = {
+            state = 7
+            state = 35
+            state = 36
+            state = 754
+            state = 938
+          }
+        }
+
+        remove_core_of = HOL
+        add_core_of = KNE
+      }
+      set_capital = { state = 7 }
+    }
+  }
+}

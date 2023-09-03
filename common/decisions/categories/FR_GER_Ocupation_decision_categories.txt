@@ -1,0 +1,11 @@
+GER_german_civilwar = {
+	icon = prepare_civil_war
+
+	allowed = {
+		OR = {
+			original_tag = GRP
+			original_tag = HAN
+			original_tag = BRW
+		}
+	}
+}

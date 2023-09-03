@@ -1,0 +1,185 @@
+characters = {
+	IRQ_Faisal_I = {
+		name = "Faisal I"
+		portraits = {
+			civilian = {
+				# large = "gfx/leaders/IRQ/Portrait_IRQ_Faisal_I_monarchist.png"
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Faisal_I_democrat.png"
+			}
+		}
+		country_leader = {
+			ideology = socdem_left_nationalism_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+		 	ideology = social_conservative_subtype
+		 	traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = valkist_subtype
+			traits = { }
+		}
+	}
+	IRQ_Arshad_al_Umari = {
+		name = "Arshad al-Umari"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Arshad_al_Umari.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+		 	ideology = social_conservative_subtype
+		 	traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = valkist_subtype
+			traits = { }
+		}
+	}
+	IRQ_Yusuf_Salman_Yusuf = {
+		name = "Yusuf Salman Yusuf"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Yusuf_Salman_Yusuf.png"
+			}
+		}
+		country_leader = {
+			ideology = vanguardist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = collectivist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = libertarian_socialist_subtype
+			traits = { }
+		}
+	}
+	IRQ_Rashid_Ali_al_Gaylani = {
+		name = "Rashid Ali al-Gaylani"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Rashid_Ali_al_Gaylani.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+	}
+	# Advisors 
+	IRQ_Al_Chaderchi = {
+		name = "Al Chaderchi"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/IRQ/IRQ_Al_Chaderchi.png"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = IRQ_Al_Chaderchi_hog_cli
+			can_be_fired = no
+			cost = 150
+			traits = {
+				hog_privileged_socialist
+				hog_state_secularist
+			}
+		}
+	}
+	IRQ_Saeed_Qazaz = {
+		name = "Saeed Qazaz"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/IRQ/IRQ_Saeed_Qazaz.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			can_be_fired = no
+			slot = security_minister
+			idea_token = IRQ_Saeed_Qazaz_sec_cli
+			traits = {
+				sec_secret_police_chief
+			}
+		}
+	}
+	IRQ_Dhia_Jafar = {
+		name = "Dhia Jafar"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/IRQ/IRQ_Dhia_Jafar.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			can_be_fired = no
+			slot = economy_minister
+			idea_token = IRQ_Dhia_Jafar_eco_cli
+			traits = {
+				eco_industrialiser
+			}
+		}
+	}
+	IRQ_Musa_Al_Shabander = {
+		name = "Musa Al Shabander"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/IRQ/IRQ_Musa_Al_Shabander.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			can_be_fired = no
+			slot = foreign_minister
+			idea_token = IRQ_Musa_Al_Shabander_for_cli
+			traits = {
+				for_great_compromiser
+			}
+		}
+	}
+}

@@ -1,0 +1,246 @@
+#Arica - annexation_ARICA_CONQ
+can_release_arica = {
+  state = 877
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    # Do Chilean release first
+    OR = {
+      country_exists = CHL
+      has_country_flag = CHL_CONQ
+      279 = { is_valid_annexation_state = no } # Santiago
+    }
+    # Do Peruvian release first
+    OR = {
+      country_exists = PRU
+      has_country_flag = PRU_CONQ
+      303 = { is_valid_annexation_state = no } # Lima
+    }
+    NOT = {
+      tag = CHL
+      tag = PRU
+      has_country_flag = ARICA_CONQ
+    }
+  }
+}
+
+#Argentina - annexation_ARG_CONQ
+can_release_argentina = {
+  state = 278
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = ARG
+      has_country_flag = ARG_CONQ
+    }
+  }
+}
+
+#Bolivia - annexation_BOL_CONQ
+can_release_bolivia = {
+  state = 302
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = BOL_CONQ
+      has_country_flag = BOL
+    }
+  }
+}
+
+#Brazil - annexation_BRA_CONQ
+can_release_brazil = {
+  state = 500
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    is_brazillian_tag = no
+    NOT = {
+      country_exists = UBR
+      country_exists = BRA
+      country_exists = BPS
+      has_country_flag = BRA_CONQ
+    }
+  }
+}
+
+#Chaco Boreal - annexation_CHACO_BOREAL_CONQ
+can_release_chaco_boreal = {
+  state = 688
+  NOT  = { is_claimed_by = ROOT }
+  ROOT = {
+    # Do Bolivian release first
+    OR = {
+      country_exists = BOL
+      has_country_flag = BOL_CONQ
+      302 = { is_valid_annexation_state = no }
+    }
+    # Do Paraguayan release first
+    OR = {
+      country_exists = PAR
+      has_country_flag = PAR_CONQ
+      301 = { is_valid_annexation_state = no }
+    }
+    NOT = {
+      tag = BOL
+      tag = PAR
+      has_country_flag = CHACO_BOREAL_CONQ
+    }
+  }
+}
+
+#Chile - annexation_CHL_CONQ
+can_release_chile = {
+  state = 279
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = CHL
+      has_country_flag = CHL_CONQ
+    }
+  }
+}
+
+#Colombia - annexation_COL_CONQ
+can_release_colombia = {
+  state = 306
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = COL
+      has_country_flag = COL_CONQ
+    }
+  }
+}
+
+#Ecuador - annexation_ECU_CONQ
+can_release_ecuador = {
+  state = 305
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = ECU
+      has_country_flag = ECU_CONQ
+    }
+  }
+}
+
+#Gannan - annexation_GANNAN_CONQ
+can_release_colombian_amazon = {
+  state = 753
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    # Do Peruvian release first
+    OR = {
+      country_exists = PRU
+      has_country_flag = PRU_CONQ
+      303 = { is_valid_annexation_state = no }
+    }
+    # Do Colombian release first
+    OR = {
+      country_exists = COL
+      has_country_flag = COL_CONQ
+      306 = { is_valid_annexation_state = no }
+    }
+    NOT = {
+      tag = PRU
+      tag = COL
+      has_country_flag = COLOMBIAN_AMAZON_CONQ
+    }
+  }
+}
+
+#Guyana - annexation_GYA_CONQ
+can_release_guyana = {
+  state = 309
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = GYA
+      has_country_flag = GYA_CONQ
+    }
+  }
+}
+
+#Paraguay - annexation_PAR_CONQ
+can_release_paraguay = {
+  state = 301
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = PAR
+      has_country_flag = PAR_CONQ
+    }
+  }
+}
+
+#Pastara - annexation_PASTARA_CONQ
+can_release_pastara = {
+  state = 490
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    # Do Ecuadorian release first
+    OR = {
+      country_exists = ECU
+      has_country_flag = ECU_CONQ
+      305 = { is_valid_annexation_state = no } # Ecuador
+    }
+    # Do Peruvian release first
+    OR = {
+      country_exists = PRU
+      has_country_flag = PRU_CONQ
+      303 = { is_valid_annexation_state = no } # Peru
+    }
+    NOT = {
+      tag = ECU
+      tag = PRU
+      has_country_flag = PASTARA_CONQ
+    }
+  } 
+}
+
+#Peru - annexation_PRU_CONQ
+can_release_peru = {
+  state = 303
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = PRU
+      has_country_flag = PRU_CONQ
+    }
+  }
+}
+
+#Suriname - annexation_SUR_CONQ
+can_release_suriname = {
+  state = 309
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = SUR
+      has_country_flag = SUR_CONQ
+    }
+  }
+}
+
+#Uruguay - annexation_URG_CONQ
+can_release_uruguay = {
+  state = 300
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = URG
+      has_country_flag = URG_CONQ
+    }
+  }
+}
+
+#Venezuela - annexation_VEN_CONQ
+can_release_venezuela = {
+  state = 307
+  NOT = { is_claimed_by = ROOT }
+  ROOT = {
+    NOT = {
+      country_exists = VEN
+      has_country_flag = VEN_CONQ
+    }
+  }
+}

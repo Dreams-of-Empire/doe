@@ -1,0 +1,518 @@
+ideas = {
+	country = {
+		#########################
+		iliterate_population = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea iliterate_population"}
+			removal_cost = -1
+			picture = generic_research_reduction
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				research_speed_factor = -0.2
+			}
+			research_bonus = {
+				electronics = -0.48
+				nuclear = -0.8
+				armor = -10
+				air_equipment = -10
+				naval_equipment = -10
+			}
+		}
+		iliterate_population_no_armor = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea iliterate_population_no_armor"}
+			removal_cost = -1
+			picture = generic_research_reduction
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				research_speed_factor = -0.2
+			}
+			research_bonus = {
+				electronics = -0.48
+				nuclear = -0.8
+				air_equipment = -10
+				naval_equipment = -10
+			}
+		}
+		iliterate_population_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea iliterate_population_1"}
+			removal_cost = -1
+			picture = generic_research_reduction
+ 			allowed = {
+				always = no
+			}
+ 			allowed_civil_war = {
+				always = yes
+			}
+ 			modifier = {
+				research_speed_factor = -0.1077
+			}
+ 			research_bonus = {
+				electronics = -0.24
+				nuclear = -0.4
+				armor = -10
+				air_equipment = -10
+				naval_equipment = -10
+			}
+		}
+		iliterate_population_1_no_armor = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea iliterate_population_1_no_armor"}
+			removal_cost = -1
+			picture = generic_research_reduction
+ 			allowed = {
+				always = no
+			}
+ 			allowed_civil_war = {
+				always = yes
+			}
+ 			modifier = {
+				research_speed_factor = -0.1077
+			}
+ 			research_bonus = {
+				electronics = -0.24
+				nuclear = -0.4
+				air_equipment = -10
+				naval_equipment = -10
+			}
+		}
+		iliterate_population_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea iliterate_population_2"}
+			removal_cost = -1
+			picture = generic_research_reduction
+ 			allowed = {
+				always = no
+			}
+ 			allowed_civil_war = {
+				always = yes
+			}
+ 			modifier = {
+				research_speed_factor = -0.06
+			}
+ 			research_bonus = {
+				electronics = -0.12
+				nuclear = -0.2
+				armor = -10
+				air_equipment = -10
+				naval_equipment = -10
+			}
+		}
+		iliterate_population_2_no_armor = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea iliterate_population_2_no_armor"}
+			removal_cost = -1
+			picture = generic_research_reduction
+ 			allowed = {
+				always = no
+			}
+ 			allowed_civil_war = {
+				always = yes
+			}
+ 			modifier = {
+				research_speed_factor = -0.06
+			}
+ 			research_bonus = {
+				electronics = -0.12
+				nuclear = -0.2
+				air_equipment = -10
+				naval_equipment = -10
+			}
+		}
+		only_armor = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea iliterate_population_2"}
+			removal_cost = -1
+			picture = generic_research_reduction
+ 			allowed = {
+				always = no
+			}
+ 			allowed_civil_war = {
+				always = yes
+			}
+ 			research_bonus = {
+				armor = -10
+			}
+		}
+
+		#########################
+		backwards_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea backwards_economy"}
+			removal_cost = -1
+			picture = KTG_Industrial_Crisis_Town
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			research_bonus = {
+				industry = -0.12
+			}
+			modifier = {
+				line_change_production_efficiency_factor = -0.6
+				industrial_capacity_factory = -0.30
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = 1.0
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				mechanized_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				anti_air_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				anti_tank_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				battle_cruiser = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				battleship = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				carrier = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				destroyer = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				heavy_cruiser = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				light_cruiser = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				submarine = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+			}
+		}
+
+		backwards_economy_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea backwards_economy_1"}
+			removal_cost = -1
+			picture = backward_industry
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			research_bonus = {
+				industry = -0.08
+			}
+			modifier = {
+				line_change_production_efficiency_factor = -0.5
+				industrial_capacity_factory = -0.20
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = 1.0
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				mechanized_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				anti_air_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				anti_tank_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				battle_cruiser = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				battleship = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				carrier = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				destroyer = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				heavy_cruiser = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				light_cruiser = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				submarine = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}			
+			}
+		}
+		backwards_economy_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea backwards_economy_2"}
+			removal_cost = -1
+			picture = backward_industry
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			research_bonus = {
+				industry = -0.04
+			}
+			modifier = {
+				line_change_production_efficiency_factor = -0.4
+				industrial_capacity_factory = -0.10
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = 1.0
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				mechanized_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				anti_air_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				anti_tank_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				battle_cruiser = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				battleship = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				carrier = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				destroyer = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				heavy_cruiser = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				light_cruiser = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				submarine = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}			
+			}
+		}
+		backwards_economy_3 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea backwards_economy_3"}
+			removal_cost = -1
+			picture = backward_industry
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			research_bonus = {
+				industry = -0.02
+			}
+			modifier = {
+				line_change_production_efficiency_factor = -0.3
+			}
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = 1.0
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				mechanized_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				anti_air_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				anti_tank_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				battle_cruiser = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				battleship = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				carrier = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				destroyer = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				heavy_cruiser = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}
+				light_cruiser = {
+					build_cost_ic = 1.0 
+					instant = yes
+				}
+				submarine = {
+					build_cost_ic = 30.0 
+					instant = yes
+				}		
+			}
+		}
+	}
+}

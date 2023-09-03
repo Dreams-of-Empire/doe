@@ -1,0 +1,255 @@
+#####################
+# Soviet Focus Tree #
+#################################
+# Coded by fbruchmueller #
+#################################
+
+focus_tree = {
+	id = sov_focus_trotsky
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = SOV
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+    shared_focus = SOV_red_army
+    shared_focus = SOV_airforce
+    shared_focus = SOV_red_fleet
+    shared_focus = SOV_kickstart_industrialization
+    	
+##Premier Lenin
+	focus = {	
+		id = SOV_Premier_Trotksy
+		icon = GFX_goal_premier_trotsky
+		available = {
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Premier_Trotksy"
+	     	add_political_power = 30
+		}
+	}
+
+	focus = {	
+		id = SOV_control_economy
+		icon = GFX_goal_factory_complex
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Trotksy 
+		}
+		bypass = {
+		}	
+		x = -2
+		y = 1
+		relative_position_id = SOV_Premier_Trotksy
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_control_economy"
+			add_ideas = SOV_militarization_labor
+	     	SOV_reduce_industrilization = yes
+		}
+	}
+
+	focus = {	
+		id = SOV_five_year_plans
+		icon = GFX_goal_SOV_planned_economies
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_control_economy 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_control_economy
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_five_year_plans"
+			swap_ideas = {
+				remove_idea = SOV_militarization_labor
+				add_idea = SOV_five_year_plan_trotsky
+			}
+			activate_mission = SOV_Five_Year_mission
+	     	SOV_reduce_industrilization = yes
+		}
+	}
+
+	focus = {	
+		id = SOV_dekulikasation
+		icon = GFX_goal_SOV_Scientific_Management
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_control_economy 
+		}
+		prerequisite = { 
+		    focus = SOV_fight_against_bureaucracy 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_control_economy
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_dekulikasation"
+			add_stability = 0.10
+		}
+	}
+
+	focus = {	
+		id = SOV_further_modernization
+		icon = GFX_focus_generic_industry_3
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_dekulikasation 
+		}
+		prerequisite = { 
+		    focus = SOV_five_year_plans 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_five_year_plans
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_further_modernization"
+	     	SOV_reduce_industrilization = yes
+		}
+	}
+
+	focus = {	
+		id = SOV_fight_against_bureaucracy
+		icon = GFX_goal_VIN_New_Militarism
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Trotksy 
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_Premier_Trotksy
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_fight_against_bureaucracy"
+	     	add_ideas = SOV_reduced_bureaucracy
+		}
+	}
+
+	focus = {	
+		id = SOV_purge_dissent
+		icon = GFX_goal_purge_opposition
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_fight_against_bureaucracy 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 1
+		relative_position_id = SOV_fight_against_bureaucracy
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_purge_dissent"
+			increase_ruling_party_popularity_by_10 = yes
+		}
+	}
+
+	focus = {	
+		id = SOV_peasants_alliance
+		icon = GFX_goal_RAJ_agricultural_aid
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_purge_dissent 
+		}
+		prerequisite = { 
+		    focus = SOV_dekulikasation 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_purge_dissent
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_peasants_alliance"
+	     	add_stability = 0.10
+		}
+	}
+
+	focus = {	
+		id = SOV_use_mass_media
+		icon = GFX_goal_VIN_New_Colossus
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_peasants_alliance 
+		}
+		prerequisite = { 
+		    focus = SOV_further_modernization 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_further_modernization
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_use_mass_media"
+			increase_ruling_party_popularity_by_10 = yes
+		}
+	}
+}

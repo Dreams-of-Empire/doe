@@ -1,0 +1,216 @@
+characters = {
+	RAJ_Lord_Linlithgow = {
+		name = "Lord Linlithgow"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Lord_Linlithgow_fx.png"
+			}
+		}
+		country_leader = {
+			ideology = colonial_govt_subtype
+			traits = { }
+		}
+	}
+	RAJ_Ganga_Singh = {
+		name = "Ganga Singh"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Ganga_Singh_army.png"
+			}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				organizer
+				thorough_planner
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	RAJ_Philip_Walhouse_Chetwode = {
+		name = "Philip Walhouse Chetwode"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Philip_Walhouse_Chetwode.png"
+			}
+		}
+		field_marshal = {
+			traits = { old_guard career_officer defensive_doctrine }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	RAJ_Thomas_Wynford_Rees = {
+		name = "Thomas Wynford Rees"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Thomas_Wynford_Rees.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer desert_fox }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	RAJ_Hastings_Ismay = {
+		name = "Hastings Ismay"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Hastings_Ismay.png"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected trickster }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RAJ_Geoffrey_Scoones = {
+		name = "Geoffrey Scoones"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Geoffrey_Scoones.png"
+			}
+		}
+		corps_commander = {
+			traits = { commando }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RAJ_Walter_Lentaigne = {
+		name = "Walter Lentaigne"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Walter_Lentaigne.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_officer skilled_staffer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	RAJ_Noel_Beresford_Peirse = {
+		name = "Noel Beresford-Peirse"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Noel_Beresford_Peirse_fx.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	RAJ_Frank_Messervy = {
+		name = "Frank Messervy"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Frank_Messervy_fx.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				hill_fighter
+			}
+			skill = 1
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_Douglas_Gracey = {
+		name = "Douglas Gracey"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Douglas_Gracey_fx.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				desert_fox
+			}
+			skill = 1
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	RAJ_Herbert_Fitzherbert = {
+		name = "Herbert Fitzherbert"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Herbert_Fitzherbert_fx.png"
+			}
+		}
+    navy_leader = {
+			traits = { spotter }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	RAJ_John_Henry_Godfrey = {
+		name = "John Henry Godfrey"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_John_Henry_Godfrey.png"
+			}
+		}
+		navy_leader = {
+			traits = { fleet_protector destroyer_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	RAJ_Montagu_Stopford = {
+		name = "Montagu Stopford"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RAJ/Portrait_RAJ_Montagu_Stopford.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

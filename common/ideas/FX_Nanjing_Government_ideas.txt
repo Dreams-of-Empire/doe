@@ -1,0 +1,177 @@
+ideas = {
+    country = {
+
+        CHI_growing_economy = {
+            allowed = { original_tag = CHI }
+
+            picture = generic_goods_red_bonus
+
+            modifier = {
+                production_speed_buildings_factor = 0.15
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+            }
+        }
+
+        CHI_research_investments = {
+            allowed = { original_tag = CHI }
+
+            picture = generic_research_bonus
+
+            modifier = {
+                research_speed_factor = 0.15
+            }
+        }
+
+        CHI_factionism = {
+            allowed = { original_tag = CHI }
+
+            picture = generic_disjointed_gov
+
+            modifier = {
+                political_power_gain = -0.50
+            }
+        }
+
+        CHI_illiterate_population = {
+            allowed = { original_tag = CHI }
+
+            picture = raj_risk_of_famine
+
+            modifier = {
+                research_speed_factor = -0.50
+            }
+        }
+
+        CHI_general_staff_idea = {
+            allowed = { original_tag = CHI }
+
+            picture = german_advisors
+            
+            modifier = {
+                army_org_factor = 0.05
+                planning_speed = 0.05
+            }
+        }
+
+        CHI_the_republican_army = {
+            allowed = { original_tag = CHI }
+
+            picture = generic_manpower_bonus
+
+            modifier = {
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+            }
+        }
+
+        CHI_dedicated_weapons_factories = {
+            allowed = { original_tag = CHI }
+
+            picture = ast_volunteer_defence_corps
+
+            equipment_bonus = {
+               infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+                artillery_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+            }
+        }
+
+        CHI_union_cooperation = {
+            allowed = { original_tag = CHI }
+
+            picture = generic_production_bonus
+
+            modifier = {
+                production_speed_buildings_factor = 0.05
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+            }
+        }
+
+        CHI_bsb_cooperation = {
+            allowed = { original_tag = CHI }
+
+            picture = vittoria_mutilata
+
+            modifier = {
+                army_attack_factor = 0.02
+                army_defence_factor = 0.02
+                army_org_factor = 0.02
+            }
+        }
+
+        CHI_militarism = {
+            allowed = { original_tag = CHI }
+
+            picture = generic_reserve_divisions
+
+            modifier = {
+                training_time_factor = -0.1
+            }
+        }
+
+        CHI_the_republic = {
+            allowed = { original_tag = CHI }
+
+            picture = generic_democratic_drift_bonus
+
+            modifier = {
+                surrender_limit = 0.05
+            }
+        }
+
+        CHI_socialist_opposition1 = {
+            allowed = { original_tag = CHI }
+
+            picture = trotskyite_plot_purged
+
+            modifier = {
+                production_speed_buildings_factor = -0.15
+                industrial_capacity_factory = -0.15
+                industrial_capacity_dockyard = -0.15
+            }
+        }
+
+        CHI_socialist_opposition2 = {
+            allowed = { original_tag = CHI }
+
+            picture = anti_soviet_pact
+
+            modifier = {
+                production_speed_buildings_factor = -0.05
+                industrial_capacity_factory = -0.05
+                industrial_capacity_dockyard = -0.05
+            }
+        }
+
+        CHI_bsb_opposition1 = {
+            allowed = { original_tag = CHI }
+
+            picture = generic_fascism_drift_bonus
+
+            modifier = {
+                army_attack_factor = -0.15
+                army_defence_factor = -0.15
+                army_org_factor = -0.15
+            }
+        }
+
+        CHI_bsb_opposition2 = {
+            allowed = { original_tag = CHI }
+
+            picture = generic_fascism_banned
+
+            modifier = {
+                army_attack_factor = -0.05
+                army_defence_factor = -0.05
+                army_org_factor = -0.05
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+##################
+#KUOMINTANG IDEAS#
+##################
+
+ideas =  {
+
+		## Kuomintang Ideas#
+
+country = {
+		KMT_british_embargo = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea KMT_british_embargo"}
+				picture = generic_navy_bonus
+				modifier = {
+					production_factory_efficiency_gain_factor = -0.1
+					production_speed_buildings_factor = -0.1
+					consumer_goods_factor = 0.05
+					}
+				}
+
+		KMT_secessionist_factions = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea KMT_secessionist_factions"}
+				picture = chi_warlord_integration
+				modifier = {
+					political_power_factor = -0.25
+					conscription_factor = -0.4
+					}
+				}
+
+		KMT_agrarian_pressure = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea KMT_agrarian_pressure"}
+				picture = generic_agrarian_society
+				modifier = {
+					monthly_population = -0.05
+					stability_factor = -0.10
+					}
+				}
+
+		KMT_the_absolute_state_of_china = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea KMT_the_absolute_state_of_china"}
+				picture = SAF_native_service
+				modifier = {
+					political_power_factor = 0.10
+					stability_factor = 0.05
+					}
+				}
+
+		KMT_secessionist_factions_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea KMT_secessionist_factions_2"}
+				picture = SAF_native_service
+				modifier = {
+					political_power_factor = -0.20
+					conscription_factor = -0.25
+					}
+				}
+
+		KMT_all_patriots_front_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea KMT_all_patriots_front_idea"}
+				picture = ast_volunteer_defence_corps
+				modifier = {
+					war_support_factor = 0.075
+					}
+				}
+			}
+	
+	hidden_ideas = {### Hidden Ideas
+		KMT_war_timer = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea KMT_war_timer"}
+			allowed = {always = no}
+			modifier = {}
+		}
+	}
+
+
+
+	}

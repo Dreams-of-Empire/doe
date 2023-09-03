@@ -1,0 +1,40 @@
+capital = 62
+
+oob = "POM"
+
+set_research_slots = 3
+set_convoys = 50
+set_stability = 0.40
+set_war_support = 0.40
+
+add_ideas = {
+	party_pop_0_40
+	parliamentary_republic
+}
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+  vanguardist = 2
+  collectivist = 5
+  libertarian_socialist = 8
+  social_democrat = 30
+  social_liberal = 3
+  market_liberal = 10
+  social_conservative = 40
+  authoritarian_democrat = 0
+  paternal_autocrat = 2
+  national_populist = 0
+  valkist = 0
+}
+
+recruit_character = POM_Wienand_Kaasch
+recruit_character = POM_Johann_Caspari
+recruit_character = POM_Herbert_von_Bismarck
+recruit_character = POM_Karl_Theodor_Bleek
+recruit_character = POM_Franz_Schwede

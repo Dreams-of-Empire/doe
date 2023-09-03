@@ -1,0 +1,568 @@
+#####################
+#   Zhili Focus Tree#
+#      By Thymos	#
+#####################
+focus_tree = {
+	id = FR_Zhi_Beiyang
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			tag = ZHI
+		}
+	}
+  continuous_focus_position = { x = 50 y = 2000 }
+  	default = no
+    shared_focus = ZHI_MAIN_far_east
+    shared_focus = ZHI_further_improvement
+    shared_focus = ZHI_MIL_traitors
+    shared_focus = ZHI_jade_emperor_domain
+    shared_focus = ZHI_dragon_of_eastern_sea
+    shared_focus = ZHI_MAIN_broken_jewel
+
+
+#Centralisation of the Beiyang Government
+focus = {
+		id = ZHI_beiyang_centralise
+		icon = GFX_goal_beiyang_star
+		cost = 7
+
+		available = {
+			has_country_flag = zhi_centralise
+		}
+
+		x = 25
+		y = 7
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_beiyang_centralise"
+			country_event = { id = zhi.21 days = 1}
+		}
+	}
+#Crush the Shanxi Traitors
+focus = {
+		id = ZHI_shanxi_traitors
+		icon = GFX_GEA_counter_insurgency
+		cost = 7
+		available = {
+			NOT = {
+				has_war = yes
+			}
+		country_exists = SHX
+		}
+		prerequisite = {
+			focus = ZHI_beiyang_centralise
+		}
+
+		x = -1
+		y = 1
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+			NOT = {
+				country_exists = SHX
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		will_lead_to_war_with = SHX
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_shanxi_traitors"
+			declare_war_on = {
+   				target = SHX
+  				type = annex_everything
+			}
+		}
+	}
+#No More Kyakhta Agreements
+focus = {
+		id = ZHI_no_kyakhta
+		icon = GFX_goal_no_agreements
+		cost = 7
+		available = {
+			NOT = {
+				has_war = yes
+			}
+			country_exists = MON
+		}
+		prerequisite = {
+			focus = ZHI_beiyang_centralise
+		}
+		x = 1
+		y = 1
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+			NOT = {
+				country_exists = MON
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		will_lead_to_war_with = MON
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_no_kyakhta"
+			MON = {
+				country_event = {id = zhi.22 days = 1}
+			}
+		}
+	}
+#An Agreement with the Whites
+focus = {
+		id = ZHI_white_deal
+		icon = GFX_goal_constitutional_guarantees
+		cost = 7
+		prerequisite = {
+			focus = ZHI_no_kyakhta
+		}
+		available = {
+			country_exists = RUS
+		}
+
+		x = 1
+		y = 2
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+			NOT = {
+				country_exists = RUS
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_white_deal"
+			RUS = {
+				country_event = { id = zhi.25 days = 1}
+			}
+		}
+	}
+#Expand the Administration
+focus = {
+		id = ZHI_admin_expansion
+		icon = GFX_goal_Centralised_Government
+		cost = 10
+		prerequisite = {
+			focus = ZHI_shanxi_traitors
+		}
+
+		x = -1
+		y = 2
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 120
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_admin_expansion"
+		add_political_power = 35
+		add_stability = 0.05
+		}
+	}
+#Topple the Southern Pretenders
+focus = {
+		id = ZHI_die_kmt
+		icon = GFX_goal_topple_south
+		cost = 7
+		available = {
+			NOT = {
+				has_war = yes
+			}
+			OR = {
+				country_exists = CHI
+				country_exists = GXC
+				country_exists = GDC
+			}
+		}
+		prerequisite = {
+			focus = ZHI_white_deal
+		}
+		prerequisite = {
+			focus = ZHI_admin_expansion
+		}
+		x = 0
+		y = 3
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+
+			NOT = {
+				OR = {
+					country_exists = CHI
+					country_exists = GXC
+					country_exists = GDC
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		will_lead_to_war_with = CHI
+		will_lead_to_war_with = GXC
+		will_lead_to_war_with = GDC
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_die_kmt"
+			if = {
+				limit = {
+					CHI = {
+						exists = yes
+					}
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = CHI
+				}
+			}
+			if = {
+				limit = {
+					GXC = {
+						exists = yes
+					}
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = GXC
+				}
+			}
+			if = {
+				limit = {
+					GDC = {
+						exists = yes
+					}
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = GDC
+				}
+			}
+		}
+	}
+#An Offer for Long Yun
+focus = {
+		id = ZHI_yunnan_offer
+		icon = GFX_goal_generic_military_deal
+		cost = 7
+		available = {
+			NOT = {
+				has_war = yes
+			}
+			country_exists = YUN
+		}
+		prerequisite = {
+			focus = ZHI_die_kmt
+		}
+		x = -3
+		y = 4
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+			NOT = {
+				country_exists = YUN
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		will_lead_to_war_with = YUN
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_yunnan_offer"
+			YUN = {
+				country_event = { id = zhi.28 days = 1}
+			}
+		}
+	}
+#Take Down the Mas
+focus = {
+		id = ZHI_ma_attack
+		icon = GFX_goal_no_bufang
+		cost = 7
+		available = {
+			NOT = {
+				has_war = yes
+			}
+			OR = {
+				country_exists = SIK
+				country_exists = XSM
+			}
+		}
+		prerequisite = {
+			focus = ZHI_die_kmt
+		}
+		x = -1
+		y = 4
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+			NOT = {
+				AND = {
+					country_exists = SIK
+					country_exists = XSM
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		will_lead_to_war_with = XSM
+		will_lead_to_war_with = SIK
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_ma_attack"
+			create_wargoal = {
+				type = annex_everything
+				target = SIK
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = XSM
+			}
+		}
+	}
+#Subjugate the Tibetans
+focus = {
+		id = ZHI_tibet_is_china
+		icon = GFX_goal_zhili_tibet
+		cost = 7
+		available = {
+			NOT = {
+				has_war = yes
+			}
+			country_exists = TIB
+		}
+		prerequisite = {
+			focus = ZHI_die_kmt
+		}
+		x = 1
+		y = 4
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+			NOT = {
+				country_exists = TIB
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		will_lead_to_war_with = TIB
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_tibet_is_china"
+			create_wargoal = {
+				type = annex_everything
+				target = TIB
+			}
+		}
+	}
+#An Offer for Deng Xihou
+focus = {
+		id = ZHI_Sichuan_offer
+		icon = GFX_goal_generic_military_deal
+		cost = 7
+		available = {
+			NOT = {
+				has_war = yes
+			}
+			country_exists = SCH
+		}
+		prerequisite = {
+			focus = ZHI_die_kmt
+		}
+		x = 3
+		y = 4
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+			NOT = {
+				country_exists = SCH
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		will_lead_to_war_with = SCH
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_Sichuan_offer"
+			SCH = {
+				country_event = {id = zhi.31 days = 1}
+			}
+		}
+	}
+#Against the Foreign Imperialist!
+focus = {
+		id = ZHI_no_imperialism
+		icon = GFX_focus_chi_one_china_policy
+		cost = 7
+		prerequisite = {
+			focus = ZHI_Sichuan_offer
+		}
+		prerequisite = {
+			focus = ZHI_tibet_is_china
+		}
+		prerequisite = {
+			focus = ZHI_ma_attack
+		}
+		prerequisite = {
+			focus = ZHI_yunnan_offer
+		}
+		x = 0
+		y = 5
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_no_imperialism"
+			custom_effect_tooltip = ZHI_one_china
+			hidden_effect = {
+				set_country_flag = ZHI_no_imperialists
+			}
+		}
+	}
+#Our Place on the World Stage
+focus = {
+		id = ZHI_world_stage
+		icon = GFX_goal_FRA_World_Revolution
+		cost = 5
+		prerequisite = {
+			focus = ZHI_beiyang_centralise
+		}
+		x = 4
+		y = 1
+		relative_position_id = ZHI_beiyang_centralise
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_world_stage"
+			add_political_power = 50
+		}
+	}
+#International Alliances
+focus = {
+		id = ZHI_alliances
+		icon = GFX_goal_generic_national_unity
+		cost = 7
+		prerequisite = {
+			focus = ZHI_world_stage
+		}
+		x = -1
+		y = 1
+		relative_position_id = ZHI_world_stage
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_alliances"
+			custom_effect_tooltip = ZHI_cool_alliances
+			hidden_effect = {set_country_flag = ZHI_int_alliances}
+		}
+	}
+#Support the Whites
+focus = {
+		id = ZHI_support_whites
+		icon = GFX_goal_russia
+		cost = 7
+		available = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = ZHI_RUS_support
+		}
+		prerequisite = {
+			focus = ZHI_world_stage
+		}
+		x = 1
+		y = 1
+		relative_position_id = ZHI_world_stage
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_support_whites"
+			send_equipment = {
+    			equipment = infantry_equipment
+    			amount = 3500
+  			  	target = RUS
+			}
+			RUS = {
+				country_event = { id = zhi.34 days = 1}
+			}
+		}
+	}
+#Anti-Soviet Alliance
+focus = {
+		id = ZHI_anti_soviet
+		icon = GFX_goal_broken_red_star
+		cost = 7
+		available = {
+			RUS = {
+				exists = yes
+			}
+		}
+
+		prerequisite = {
+			focus = ZHI_support_whites
+		}
+		x = 1
+		y = 2
+		relative_position_id = ZHI_world_stage
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ZHI_anti_soviet"
+			RUS = {
+				country_event = { id = zhi.35 days = 1}
+			}
+
+		}
+	}
+
+}

@@ -1,0 +1,1529 @@
+###
+###
+### Ambition Areas
+###
+### Each country has a list of states/regions which it will take in a peace conference even if it
+### doesn't have claims/cores. Other countries in their faction will let them take these areas unless there's a conflict.
+### If they're a minor, or they're in a faction but not the leader, they won't expand outside of this ambition area unless
+### there's no-one involved in the peace conference who can take the land.
+###
+### If a country is NOT in this list, then it only takes cores/claims.
+###
+
+create_ambition_areas = {
+	every_state = {
+		# AFG = Afghanistan
+		if = {
+			limit = {
+				OR = {
+					is_core_of = AFG
+					is_claimed_by = AFG
+					region = 162 #Afghanistan
+					state = 442 #West of Indus
+					state = 445
+					state = 444
+				}
+			}
+			set_variable = { ambition_area_@AFG = 1 }
+		}
+		# ALB - Albania
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ALB
+					is_claimed_by = ALB
+					state = 44
+					state = 796
+					state = 765
+					state = 931
+					state = 941
+				}
+			}
+			set_variable = { ambition_area_@ALB = 1 }
+		}
+		# ARB - Hashemite Arabia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ARB
+					is_claimed_by = ARB
+					region = 196 # Arabia
+				}
+			}
+			set_variable = { ambition_area_@ARB = 1 }
+		}
+		# ARM - Armenia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ARM
+					is_claimed_by = ARM
+				}
+			}
+			set_variable = { ambition_area_@ARM = 1 }
+		}
+		# AUS - Austria
+		if = {
+			limit = {
+				OR = {
+					is_core_of = AUS
+					is_claimed_by = AUS
+					state = 38 # Tyrol
+					state = 774
+					state = 770 # Istria
+					state = 736
+					state = 102 # Slovenia
+					state = 767
+				}
+			}
+			set_variable = { ambition_area_@AUS = 1 }
+		}
+		# ARG - Argentina 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ARG
+					is_claimed_by = ARG
+					region = 35 # South America
+					region = 64 # South Georgia Sea
+				}
+			}
+			set_variable = { ambition_area_@ARG = 1 }
+		}
+		# AST - Australia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = AST
+					is_claimed_by = AST
+					is_on_continent = australia
+				}
+			}
+			set_variable = { ambition_area_@AST = 1 }
+		}
+		# AZR - Azerbaijan
+		if = {
+			limit = {
+				OR = {
+					is_core_of = AZR
+					is_claimed_by = AZR
+					state = 230 # Armenia
+					state = 419 # Tabriz
+					state = 229 # Azerbaijan
+				}
+			}
+			set_variable = { ambition_area_@AZR = 1 }
+		}
+		# BOL - Bolivia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = BOL
+					is_claimed_by = BOL
+					region = 201 # North Andes
+					state = 688 # Chaco
+					state = 882 # Acre
+					state = 487 # Santa Cruz
+				}
+			}
+			set_variable = { ambition_area_@BOL = 1 }
+		}
+		# BEA - British East Indies
+		if = {
+			limit = {
+				OR = {
+					is_core_of = BEA
+					is_claimed_by = BEA
+					region = 187
+					region = 158
+					region = 159
+					region = 93
+					region = 91
+					region = 167
+					region = 188
+				}
+			}
+			set_variable = { ambition_area_@BEA = 1 }
+		}
+		# BEL - Belgium
+		if = {
+			limit = {
+				OR = {
+					is_core_of = BEL
+					is_claimed_by = BEL
+				}
+			}
+			set_variable = { ambition_area_@BEL = 1 }
+		}
+		# BHU - Bhutan
+		if = {
+			limit = {
+				OR = {
+					is_core_of = BHU
+					is_claimed_by = BHU
+				}
+			}
+			set_variable = { ambition_area_@BHU = 1 }
+		}
+		# BLR - Belarus
+		if = {
+			limit = {
+				OR = {
+					is_core_of = BLR
+					is_claimed_by = BLR
+					region = 131
+				}
+			}
+			set_variable = { ambition_area_@BLR = 1 }
+		}
+		# BRA - Brazil
+		if = {
+			limit = {
+				OR = {
+					is_core_of = BRA
+					is_claimed_by = BRA
+				}
+			}
+			set_variable = { ambition_area_@BRA = 1 }
+		}
+		# UBR - Union of Brazil
+		if = {
+			limit = {
+				OR = {
+					is_core_of = BRA
+					is_claimed_by = BRA
+					is_core_of = UBR
+					is_claimed_by = UBR
+				}
+			}
+			set_variable = { ambition_area_@UBR = 1 }
+		}
+		# BPS - Brazilian People State
+		if = {
+			limit = {
+				OR = {
+					is_core_of = BRA
+					is_claimed_by = BRA
+					is_core_of = BPS
+					is_claimed_by = BPS
+				}
+			}
+			set_variable = { ambition_area_@BPS = 1 }
+		}
+		# BUL - Bulgaria
+		if = {
+			limit = {
+				OR = {
+					is_core_of = BUL
+					is_claimed_by = BUL
+					state = 942 # Macedonia
+					state = 106
+					state = 787
+					state = 731 # Thessaloniki
+					state = 184
+					state = 763
+					state = 77 # South Dobruja
+					state = 342 # Thrace
+				}
+			}
+			set_variable = { ambition_area_@BUL = 1 }
+		}
+		# CAN - Canada
+		if = {
+			limit = {
+				OR = {
+					is_core_of = CAN
+					is_claimed_by = CAN
+					region = 121 # East Canada
+					region = 122 # West Canada
+					region = 197 # New England
+					region = 33 # Alaska	
+				}
+			}
+			set_variable = { ambition_area_@CAN = 1 }
+		}
+		# CHL - Chile
+		if = {
+			limit = {
+				OR = {
+					is_core_of = CHL
+					is_claimed_by = CHL
+					region = 35 # South America
+					state = 876 # Tacna
+					state = 32 # South Eastern Pacific
+				}
+			}
+			set_variable = { ambition_area_@CHL = 1 }
+		}
+		# CHI - China
+		if = {
+			limit = {
+				OR = {
+					is_core_of = CHI
+					is_claimed_by = CHI
+					region = 165 # Every Chinese Region
+					region = 164
+					region = 143
+					region = 155
+					region = 200
+					region = 144
+					region = 152
+					region = 145
+					region = 146
+				}
+			}
+			set_variable = { ambition_area_@CHI = 1 }
+		}
+		# COL - Columbia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = COL
+					is_claimed_by = COL
+					region = 124 # Gran Columbia
+					region = 109 # Galapagos
+				}
+			}
+			set_variable = { ambition_area_@COL = 1 }
+		}
+		# COS - Costa Rica
+		if = {
+			limit = {
+				OR = {
+					is_core_of = COS
+					is_claimed_by = COS
+				}
+			}
+			set_variable = { ambition_area_@COS = 1 }
+		}
+		# CUB - Cuba
+		if = {
+			limit = {
+				OR = {
+					is_core_of = CUB
+					is_claimed_by = CUB
+				}
+			}
+			set_variable = { ambition_area_@CUB = 1 }
+		}
+		# CZE - Czechia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = CZE
+					is_claimed_by = CZE
+				}
+			}
+			set_variable = { ambition_area_@CZE = 1 }
+		}
+		# DEN - Denmark 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = DEN
+					is_claimed_by = DEN
+					region = 10 # Sweden
+					region = 11 
+					region = 191 # Norway
+					region = 192
+					region = 13 # Finland
+					region = 12
+					region = 9 # Baltic Sea
+					region = 45 # Norway Sea
+					region = 161 # Iceland
+					region = 36 # Greenland
+				}
+			}
+			set_variable = { ambition_area_@DEN = 1 }
+		}
+		# DOM - Dominican Republic
+		if = {
+			limit = {
+				OR = {
+					is_core_of = DOM
+					is_claimed_by = DOM
+					state = 318
+				}
+			}
+			set_variable = { ambition_area_@DOM = 1 }
+		}
+		# ECU - Ecuador
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ECU
+					is_claimed_by = ECU
+					region = 124 # Gran Columbia
+					region = 109 # Galapagos
+				}
+			}
+			set_variable = { ambition_area_@ECU = 1 }
+		}
+		# ELS - El Salvador
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ELS
+					is_claimed_by = ELS
+				}
+			}
+			set_variable = { ambition_area_@ELS = 1 }
+		}
+		# EGL = England (Valkist Britain)
+		if = {
+			limit = {
+				OR = {
+					is_core_of = EGL
+					is_claimed_by = EGL
+					is_core_of = ENG
+					is_claimed_by = ENG
+					region = 1 #Southern England
+					region = 2 #Northern England
+					region = 3 #Scotland
+					is_british_colonial_claim = yes
+				}
+			}
+			set_variable = { ambition_area_@EGL = 1 }
+		}
+		# ENG = United Kingdom
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ENG
+					is_claimed_by = ENG
+					region = 1 #Southern England
+					region = 2 #Northern England
+					region = 3 #Scotland
+					is_british_colonial_claim = yes
+				}
+			}
+			set_variable = { ambition_area_@ENG = 1 }
+		}
+		# EST - Estonia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = EST
+					is_claimed_by = EST
+					region = 37
+				}
+			}
+			set_variable = { ambition_area_@EST = 1 }
+		}
+		# FIC = French Indochina
+		if = {
+			limit = {
+				OR = {
+					is_core_of = FIC
+					is_claimed_by = FIC
+					region = 142 # South East Asia
+				}
+			}
+			set_variable = { ambition_area_@FIC = 1 }
+		}
+		# FIN - Finland
+		if = {
+			limit = {
+				OR = {
+					is_core_of = FIN
+					is_claimed_by = FIN
+					region = 12 # North Scandinavia
+					region = 13 # Finland
+					state = 215	# Onega
+					state = 216 # Olonets
+				}
+			}
+			set_variable = { ambition_area_@FIN = 1 }
+		}
+		# FRA = France
+		if = {
+			limit = {
+				OR = {
+					is_core_of = FRA
+					is_claimed_by = FRA
+					is_on_continent = north_africa
+					region = 20 #Southern France
+					region = 19 #Northern France
+					state = 760 #Romandy Swiss
+					state = 1 #Corsica
+					is_french_colonial_claim = yes
+				}
+			}
+			set_variable = { ambition_area_@FRA = 1 }
+		}
+		# GEO = Georgia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = GEO
+					is_claimed_by = GEO
+					region = 134 # Caucas Region
+				}
+			}
+			set_variable = { ambition_area_@GEO = 1 }
+		}
+		# GER = Germany
+		if = {
+			limit = {
+				OR = {
+					is_core_of = GER
+					is_claimed_by = GER
+					is_on_continent = europe # Valkist Germany is done with traditional colonies
+				}
+			}
+			set_variable = { ambition_area_@GER = 1 }
+		}
+		# GOR - Mountain Republic
+		if = {
+			limit = {
+				OR = {
+					is_core_of = GOR
+					is_claimed_by = GOR
+				}
+			}
+			set_variable = { ambition_area_@GOR = 1 }
+		}
+		# GRE - Greece
+		if = {
+			limit = {
+				OR = {
+					is_core_of = GRE
+					is_claimed_by = GRE
+					region = 25 # Greece
+					region = 202 # Aegean Sea
+					region = 69 # East Mediterranean
+				}
+			}
+			set_variable = { ambition_area_@GRE = 1 }
+		}
+		# GUA - Grand Republic of Centroamerica
+		if = {
+			limit = {
+				OR = {
+					is_core_of = GUA
+					is_claimed_by = GUA
+					region = 205 # Yucatan
+					region = 34 # Central America
+				}
+			}
+			set_variable = { ambition_area_@GUA = 1 }
+		}
+		# HAI - Haiti
+		if = {
+			limit = {
+				OR = {
+					is_core_of = HAI
+					is_claimed_by = HAI
+					state = 319
+				}
+			}
+			set_variable = { ambition_area_@HAI = 1 }
+		}
+		# HOL = Dutch State
+		if = {
+			limit = {
+				OR = {
+					is_core_of = HOL
+					is_claimed_by = HOL
+					region = 5
+				}
+			}
+			set_variable = { ambition_area_@HOL = 1 }
+		}
+		# HON - Hondura
+		if = {
+			limit = {
+				OR = {
+					is_core_of = HON
+					is_claimed_by = HON
+				}
+			}
+			set_variable = { ambition_area_@HON = 1 }
+		}
+		# HUN - Hungary
+		if = {
+			limit = {
+				OR = {
+					is_core_of = HUN
+					is_claimed_by = HUN
+					region = 27 # Carpathians
+					state = 45 # Vojvodina
+					state = 750 # West Banat
+					state = 985 # Ruma
+					state = 109 # Croatia
+					state = 103
+					state = 664 # Slovakia
+					state = 70
+					state = 71
+				}
+			}
+			set_variable = { ambition_area_@HUN = 1 }
+		}
+		# IND - Indian Revolt
+		if = {
+			limit = {
+				OR = {
+					is_core_of = IND
+					is_claimed_by = IND
+					region = 153 # India regions
+					region = 190
+					region = 141
+					region = 31
+					state = 441 # Indian Himalayan States
+					state = 908
+					state = 883
+				}
+			}
+			set_variable = { ambition_area_@IND = 1 }
+		}
+		# ISR - Israel
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ISR
+					is_claimed_by = ISR
+				}
+			}
+			set_variable = { ambition_area_@ISR = 1 }
+		}
+		# IRQ - Iraq
+		if = {
+			limit = {
+				OR = {
+					is_core_of = IRQ
+					is_claimed_by = IRQ
+					region = 28 # Middle East
+				}
+			}
+			set_variable = { ambition_area_@IRQ = 1 }
+		}
+		# ITA = Italy
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ITA
+					is_claimed_by = ITA
+					is_on_continent = north_africa
+					region = 21 # Alpine
+					region = 23 # Italy
+					region = 68 # West Mediterranean
+					region = 169 # Tyrrhenian Sea
+					region = 29 # Central Mediterranean
+					region = 69 # East Mediterranean
+					region = 202 # Aegean Sea
+					region = 24 # Western Balkans
+					region = 129 # Asia Minor
+				}
+			}
+			set_variable = { ambition_area_@ITA = 1 }
+		}
+		# JAP = Japan
+		if = {
+			limit = {
+				OR = {
+					is_core_of = JAP
+					is_claimed_by = JAP
+					region = 154 #Home Islands
+					region = 186 #Korea
+					region = 76 #East China Sea
+					region = 87 #Sea of Okhotsk
+					region = 88 #Bering Sea
+					region = 94 #Mariana
+					region = 78 #Phillipine Sea
+					region = 84 #Bismarck Sea
+					region = 97 #South West Pacific
+					region = 95 #Midway Island
+					region = 180 #Micronesian Gap
+					region = 172 #Pacific Line Ridge
+					region = 105 #Hawaii Ridge
+					region = 145 #Russian Far East
+				}
+			}
+			set_variable = { ambition_area_@JAP = 1 }
+		}
+		# KNE = Kingdom of Netherlands
+		if = {
+			limit = {
+				OR = {
+					is_core_of = KNE
+					is_claimed_by = KNE
+					is_core_of = HOL
+					is_claimed_by = HOL
+				}
+			}
+			set_variable = { ambition_area_@KNE = 1 }
+		}
+		# KUR - Kurdistan
+		if = {
+			limit = {
+				OR = {
+					is_core_of = KUR
+					is_claimed_by = KUR
+				}
+			}
+			set_variable = { ambition_area_@KUR = 1 }
+		}
+		# LAT - Latvia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = LAT
+					is_claimed_by = LAT
+					region = 37
+				}
+			}
+			set_variable = { ambition_area_@LAT = 1 }
+		}
+		# LBA - Libya
+		if = {
+			limit = {
+				OR = {
+					is_core_of = LBA
+					is_claimed_by = LBA
+				}
+			}
+			set_variable = { ambition_area_@LBA = 1 }
+		}
+		# LIT - Lithuania 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = LIT
+					is_claimed_by = LIT
+				}
+			}
+			set_variable = { ambition_area_@LIT = 1 }
+		}
+		# LIB - Liberia 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = LIB
+					is_claimed_by = LIB
+				}
+			}
+			set_variable = { ambition_area_@LIB = 1 }
+		}
+		# LUX - Luxembourg 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = LUX
+					is_claimed_by = LUX
+				}
+			}
+			set_variable = { ambition_area_@LUX = 1 }
+		}
+		# MAN - Fengtian Government
+		if = {
+			limit = {
+				OR = {
+					is_core_of = MAN
+					is_claimed_by = MAN
+					region = 165 # Every Chinese Region
+					region = 164
+					region = 143
+					region = 155
+					region = 200
+					region = 144
+					region = 152
+					region = 145
+					region = 146
+				}
+			}
+			set_variable = { ambition_area_@MAN = 1 }
+		}
+		# MEX - Mexico
+		if = {
+			limit = {
+				OR = {
+					is_core_of = MEX
+					is_claimed_by = MEX
+					region = 204 # Sierra Madre
+					region = 205 # Yucatan
+					region = 123 # Mexico
+				}
+			}
+			set_variable = { ambition_area_@MEX = 1 }
+		}
+		# MON - Mongolia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = MON
+					is_claimed_by = MON
+					region = 152 # Central Steppe
+				}
+			}
+			set_variable = { ambition_area_@MON = 1 }
+		}
+		# MOR - Morocco 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = MOR
+					is_claimed_by = MOR
+					region = 182 # North West Africa
+				}
+			}
+			set_variable = { ambition_area_@MOR = 1 }
+		}
+		# NFA - French West Africa
+		if = {
+			limit = {
+				OR = {
+					is_core_of = NFA
+					is_claimed_by = NFA
+					region = 140 # Sub-Saharan Africa
+				}
+			}
+			set_variable = { ambition_area_@NFA = 1 }
+		}
+		# NFL = Newfoundland
+		if = {
+			limit = {
+				OR = {
+					is_core_of = NFL
+					is_claimed_by = NFL
+				}
+			}
+			set_variable = { ambition_area_@NFL = 1 }
+		}
+		# NFQ = French Equatorial Africa
+		if = {
+			limit = {
+				OR = {
+					is_core_of = NFQ
+					is_claimed_by = NFQ
+					region = 183
+					region = 184
+				}
+			}
+			set_variable = { ambition_area_@NFQ = 1 }
+		}
+		# NOR - Norway 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = NOR
+					is_claimed_by = NOR
+					is_core_of = DEN
+					is_claimed_by = DEN
+					region = 10 # Sweden
+					region = 11 
+					region = 191 # Norway
+					region = 192
+					region = 13 # Finland
+					region = 12
+					region = 9 # Baltic Sea
+					region = 45 # Norway Sea
+					region = 161 # Iceland
+					region = 36 # Greenland
+				}
+			}
+			set_variable = { ambition_area_@NOR = 1 }
+		}
+		# NZL = New Zealand
+		if = {
+			limit = {
+				OR = {
+					is_core_of = NZL
+					is_claimed_by = NZL
+					state = 157
+				}
+			}
+			set_variable = { ambition_area_@NZL = 1 }
+		}
+		# FRP = (Puppet France)
+		if = {
+			limit = {
+				OR = {
+					is_core_of = FRP
+					is_claimed_by = FRP
+					is_core_of = FRA
+					is_claimed_by = FRA
+					region = 20 #Southern France
+					region = 19 #Northern France
+					state = 760 #Romandy Swiss
+					state = 1 #Corsica
+					is_french_colonial_claim = yes
+				}
+			}
+			set_variable = { ambition_area_@FRP = 1 }
+		}
+		# PAN - Panama
+		if = {
+			limit = {
+				OR = {
+					is_core_of = PAN
+					is_claimed_by = PAN
+				}
+			}
+			set_variable = { ambition_area_@PAN = 1 }
+		}
+		# PAR - Paraguay
+		if = {
+			limit = {
+				OR = {
+					is_core_of = PAR
+					is_claimed_by = PAR
+				}
+			}
+			set_variable = { ambition_area_@PAR = 1 }
+		}
+		# PER - Iran
+		if = {
+			limit = {
+				OR = {
+					is_core_of = PER
+					is_claimed_by = PER
+					region = 162 # Afghanistan
+					region = 190 # Pakistan
+				}
+			}
+			set_variable = { ambition_area_@PER = 1 }
+		}
+		# PHI - Philipines
+		if = {
+			limit = {
+				OR = {
+					is_core_of = PHI
+					is_claimed_by = PHI
+					region = 160
+				}
+			}
+			set_variable = { ambition_area_@PHI = 1 }
+		}
+		# PHN - Phoenicia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = PHN
+					is_claimed_by = PHN
+					region = 28 # Middle East
+				}
+			}
+			set_variable = { ambition_area_@PHN = 1 }
+		}
+		# POL - Poland 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = POL
+					is_claimed_by = POL
+					region = 38 # West Poland
+					region = 39 # East Poland
+				}
+			}
+			set_variable = { ambition_area_@POL = 1 }
+		}
+		# POR - Portugal 
+		if = {
+			limit = {
+				OR = {
+					is_owned_by = PRR
+					is_core_of = POR
+					is_claimed_by = POR
+					is_core_of = PRR
+					is_claimed_by = PRR
+					region = 41 # Iberia
+					region = 51 # Azores
+					region = 61 # Cape Verde
+					state = 545 # Rhodesia (For Pink Map borders)
+					state = 702 # Cape Verde
+					state = 296 # Guinea Bissau
+					state = 296 # Guinea Bissau
+					state = 540 # Angola
+					state = 544 # Mozambique
+					state = 964 # Llindi
+					state = 321 # Goa
+					state = 721 # East Timor
+					state = 848 # West Timor
+					state = 729 # Macau
+				}
+			}
+			set_variable = { ambition_area_@POR = 1 }
+		}
+		# PRR - Portugal Republic
+		if = {
+			limit = {
+				OR = {
+					is_owned_by = POR
+					is_core_of = POR
+					is_claimed_by = POR
+					is_core_of = PRR
+					is_claimed_by = PRR
+					region = 41 # Iberia
+					region = 51 # Azores
+					region = 61 # Cape Verde
+					state = 545 # Rhodesia (For Pink Map borders)
+					state = 702 # Cape Verde
+					state = 296 # Guinea Bissau
+					state = 296 # Guinea Bissau
+					state = 540 # Angola
+					state = 544 # Mozambique
+					state = 964 # Llindi
+					state = 321 # Goa
+					state = 721 # East Timor
+					state = 848 # West Timor
+					state = 729 # Macau
+				}
+			}
+			set_variable = { ambition_area_@PRR = 1 }
+		}
+		# PRU - Peru
+		if = {
+			limit = {
+				OR = {
+					is_core_of = PRU
+					is_claimed_by = PRU
+					region = 201 # North Andes
+					state = 882 # Acre
+					state = 487 # Santa Cruz
+					state = 753 # Colombianos
+					state = 490 # Pastaza
+					state = 305 # Ecuador
+					state = 649 # Galapagos 
+				}
+			}
+			set_variable = { ambition_area_@PRU = 1 }
+		}
+		# QUE - Quebec
+		if = {
+			limit = {
+				OR = {
+					is_core_of = QUE
+					is_claimed_by = QUE
+					region = 121 # East Canada
+				}
+			}
+			set_variable = { ambition_area_@QUE = 1 }
+		}
+		# RAJ - British Raj
+		if = {
+			limit = {
+				OR = {
+					is_core_of = RAJ
+					is_claimed_by = RAJ
+					region = 153
+					region = 190
+					region = 141
+					region = 31
+					state = 441
+					state = 908
+					state = 883
+				}
+			}
+			set_variable = { ambition_area_@RAJ = 1 }
+		}
+		# RHI - Rhineland
+		if = {
+			limit = {
+				OR = {
+					is_core_of = RHI
+					is_claimed_by = RHI
+				}
+			}
+			set_variable = { ambition_area_@RHI = 1 }
+		}
+		# ROM - Romania 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ROM
+					is_claimed_by = ROM
+					state = 192 # Odessa
+					state = 198 
+				}
+			}
+			set_variable = { ambition_area_@ROM = 1 }
+		}
+		# RUS - Russia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SOV
+					is_claimed_by = SOV
+					is_core_of = RUS
+					is_claimed_by = RUS
+					region = 12 #North Scandinavia
+					region = 13 #Finland
+					region = 132 #Northern Front
+					region = 37 #Baltic States
+					region = 39 #Belarus
+					region = 130 #Ukraine
+					region = 135 #Kuban
+					region = 134 #Caucasus
+					region = 136 #Great Steppes
+					region = 148 #Amur
+					region = 87 #Sea of Ohstk
+					region = 149 #Eastern Siberia
+					region = 147 #Northern Siberia
+					region = 151 #Western Siberia
+					region = 14 #Trans-Urals
+					region = 138 #Ural
+					region = 137 #Western Steppe
+					region = 40 #Transvolga
+					region = 150 #Arctic Russia
+					region = 133 #Central Russia
+					region = 131 #Western Russia	
+					state = 73 #Carpathian Ruthenia
+					state = 80 #Bucovina
+					state = 78 #Bessarabia
+					state = 853 #Bugeac
+				}
+			}
+			set_variable = { ambition_area_@RUS = 1 }
+		}
+		# SAF - South Afric
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SAF
+					is_claimed_by = SAF
+					state = 810 # Rhodesia
+					region = 139 # South Africa
+				}
+			}
+			set_variable = { ambition_area_@SAF = 1 }
+		}
+		# SCH - Sichuan
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SCH
+					is_claimed_by = SCH
+					region = 165 # Every Chinese Region
+					region = 164
+					region = 143
+					region = 155
+					region = 200
+					region = 144
+					region = 152
+					region = 145
+					region = 146
+				}
+			}
+			set_variable = { ambition_area_@SCH = 1 }
+		}
+		# SER - Serbia 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SER
+					is_claimed_by = SER
+					region = 24
+				}
+			}
+			set_variable = { ambition_area_@SER = 1 }
+		}
+		# SIA - Siam 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SIA
+					is_claimed_by = SIA
+					region = 142 # Southeast Asia
+					region = 188 # Malaya
+				}
+			}
+			set_variable = { ambition_area_@SIA = 1 }
+		}
+		# SIK - Xinjiang
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SIK
+					is_claimed_by = SIK
+					region = 165 # Every Chinese Region
+					region = 164
+					region = 143
+					region = 155
+					region = 200
+					region = 144
+					region = 152
+					region = 145
+					region = 146
+				}
+			}
+			set_variable = { ambition_area_@SIK = 1 }
+		}
+		# SLO - Slovakia
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SLO
+					is_claimed_by = SLO
+				}
+			}
+			set_variable = { ambition_area_@SLO = 1 }
+		}
+		# SHO - Kiel Zone
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SHO
+					is_claimed_by = SHO
+				}
+			}
+			set_variable = { ambition_area_@SHO = 1 }
+		}
+		# SHX - Shanxi
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SHX
+					is_claimed_by = SHX
+					region = 165 # Every Chinese Region
+					region = 164
+					region = 143
+					region = 155
+					region = 200
+					region = 144
+					region = 152
+					region = 145
+					region = 146
+				}
+			}
+			set_variable = { ambition_area_@SHX = 1 }
+		}
+		# SPA - Commie Spain
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SPA
+					is_claimed_by = SPA
+					region = 41 # Iberia
+					region = 48 # Canary Islands
+					region = 182 # North West Africa
+					region = 68 # West Mediterranean
+				}
+			}
+			set_variable = { ambition_area_@SPA = 1 }
+		}
+		# SPF - Falangist Spain
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SPF
+					is_claimed_by = SPF
+					region = 41 # Iberia
+					region = 48 # Canary Islands
+					region = 182 # North West Africa
+					region = 68 # West Mediterranean
+				}
+			}
+			set_variable = { ambition_area_@SPF = 1 }
+		}
+		# SPR - Republican Spain
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SPR
+					is_claimed_by = SPR
+					region = 41 # Iberia
+					region = 48 # Canary Islands
+					region = 182 # North West Africa
+					region = 68 # West Mediterranean
+				}
+			}
+			set_variable = { ambition_area_@SPR = 1 }
+		}
+		# SPM - Monarchist Spain
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SPM
+					is_claimed_by = SPM
+					region = 41 # Iberia
+					region = 48 # Canary Islands
+					region = 182 # North West Africa
+					region = 68 # West Mediterranean
+				}
+			}
+			set_variable = { ambition_area_@SPM = 1 }
+		}
+		# SOV - Soviet Union
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SOV
+					is_claimed_by = SOV
+					region = 12 #North Scandinavia
+					region = 13 #Finland
+					region = 132 #Northern Front
+					region = 37 #Baltic States
+					region = 39 #Belarus
+					region = 130 #Ukraine
+					region = 135 #Kuban
+					region = 134 #Caucasus
+					region = 136 #Great Steppes
+					region = 148 #Amur
+					region = 87 #Sea of Ohstk
+					region = 149 #Eastern Siberia
+					region = 147 #Northern Siberia
+					region = 151 #Western Siberia
+					region = 14 #Trans-Urals
+					region = 138 #Ural
+					region = 137 #Western Steppe
+					region = 40 #Transvolga
+					region = 150 #Arctic Russia
+					region = 133 #Central Russia
+					region = 131 #Western Russia	
+					state = 73 #Carpathian Ruthenia
+					state = 80 #Bucovina
+					state = 78 #Bessarabia
+					state = 853 #Bugeac
+				}
+			}
+			set_variable = { ambition_area_@SOV = 1 }
+		}
+		# SRV - Serene Republic of Venice (Valkist Italy)
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SRV
+					is_claimed_by = SRV
+					is_core_of = ITA
+					is_claimed_by = ITA
+					region = 21 # Alpine
+					region = 23 # Italy
+					region = 68 # West Mediterranean
+					region = 169 # Tyrrhenian Sea
+					region = 29 # Central Mediterranean
+					region = 69 # East Mediterranean
+					region = 202 # Aegean Sea
+					region = 24 # Western Balkans
+					region = 129 # Asia Minor
+				}
+			}
+			set_variable = { ambition_area_@ITA = 1 }
+		}
+		# SWE - Sweden 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SWE
+					is_claimed_by = SWE
+					is_core_of = DEN
+					is_claimed_by = DEN
+					region = 10 # Sweden
+					region = 11 
+					region = 191 # Norway
+					region = 192
+					region = 13 # Finland
+					region = 12
+					region = 9 # Baltic Sea
+					region = 45 # Norway Sea
+					region = 161 # Iceland
+					region = 36 # Greenland
+				}
+			}
+			set_variable = { ambition_area_@SWE = 1 }
+		}
+		# SWI - Switzerland
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SWI
+					is_claimed_by = SWI
+				}
+			}
+			set_variable = { ambition_area_@SWI = 1 }
+		}
+		# TIB - Tibet
+		if = {
+			limit = {
+				OR = {
+					is_core_of = TIB
+					is_claimed_by = TIB
+				}
+			}
+			set_variable = { ambition_area_@TIB = 1 }
+		}
+		# TRK - Transcaspian Government
+		if = {
+			limit = {
+				OR = {
+					is_core_of = TRK
+					is_claimed_by = TRK
+					region = 136
+				}
+			}
+			set_variable = { ambition_area_@TRK = 1 }
+		}
+		# TUN - Tunisia 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = TUN
+					is_claimed_by = TUN
+				}
+			}
+			set_variable = { ambition_area_@TUN = 1 }
+		}
+		# TUR - Ottoman Empire
+		if = {
+			limit = {
+				OR = {
+					is_core_of = TUR
+					is_claimed_by = TUR
+					region = 25 # Greece
+					region = 202 # Aegean Sea
+					region = 69 # East Mediterranean
+					region = 129 # Asia Minor
+				}
+			}
+			set_variable = { ambition_area_@TUR = 1 }
+		}
+		 # TRT - Ottoman Empire
+		# if = {
+		# 	limit = {
+		# 		OR = {
+		# 			is_core_of = TRT
+		# 			is_claimed_by = TRT
+		# 			region = 25 # Greece
+		# 			region = 202 # Aegean Sea
+		# 			region = 69 # East Mediterranean
+		# 			region = 129 # Asia Minor
+		# 		}
+		# 	}
+		# 	set_variable = { ambition_area_@TRT = 1 }
+		# }
+		# UKR - Ukraine
+		if = {
+			limit = {
+				OR = {
+					is_core_of = UKR
+					is_claimed_by = UKR
+					region = 130
+				}
+			}
+			set_variable = { ambition_area_@UKR = 1 }
+		}
+		# URG - Uruguay
+		if = {
+			limit = {
+				OR = {
+					is_core_of = URG
+					is_claimed_by = URG
+				}
+			}
+			set_variable = { ambition_area_@URG = 1 }
+		}
+		# USA = United States
+		if = {
+			limit = {
+				OR = {
+					is_core_of = USA
+					is_claimed_by = USA
+					is_on_continent = north_america
+					region = 53 #Carribean Sea
+					region = 170 #Florida Coast
+					region = 57 #Sargasso Sea
+					region = 105 #Hawaii Ridge
+					region = 172 #Pacific
+					region = 180 #Pacific
+					region = 95 #Pacific
+					region = 97 #Pacific
+					region = 94 #Pacific
+					region = 78 #Pacific
+					region = 84 #Pacific
+					region = 160 #Phillipines
+				}
+			}
+			set_variable = { ambition_area_@USA = 1 }
+		}
+		# VEN - Venezuela
+		if = {
+			limit = {
+				OR = {
+					is_core_of = VEN
+					is_claimed_by = VEN
+					region = 124 # Gran Columbia
+					region = 109 # Galapagos
+				}
+			}
+			set_variable = { ambition_area_@VEN = 1 }
+		}
+		# YEM - Yemen
+		if = {
+			limit = {
+				OR = {
+					is_core_of = YEM
+					is_claimed_by = YEM
+				}
+			}
+			set_variable = { ambition_area_@YEM = 1 }
+		}
+		# YUG - Yugoslavia 
+		if = {
+			limit = {
+				OR = {
+					is_core_of = YUG
+					is_claimed_by = YUG
+					region = 24 # West Balkans
+					region = 26 # East Balkans
+				}
+			}
+			set_variable = { ambition_area_@YUG = 1 }
+		}
+		# YUN - Yunnan
+		if = {
+			limit = {
+				OR = {
+					is_core_of = YUN
+					is_claimed_by = YUN
+					region = 165 # Every Chinese Region
+					region = 164
+					region = 143
+					region = 155
+					region = 200
+					region = 144
+					region = 152
+					region = 145
+					region = 146
+				}
+			}
+			set_variable = { ambition_area_@YUN = 1 }
+		}
+		# XSM - Ma Clique
+		if = {
+			limit = {
+				OR = {
+					is_core_of = XSM
+					is_claimed_by = XSM
+					region = 165 # Every Chinese Region
+					region = 164
+					region = 143
+					region = 155
+					region = 200
+					region = 144
+					region = 152
+					region = 145
+					region = 146
+				}
+			}
+			set_variable = { ambition_area_@XSM = 1 }
+		}
+		# ZHI - Beijing Government
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ZHI
+					is_claimed_by = ZHI
+					region = 165 # Every Chinese Region
+					region = 164
+					region = 143
+					region = 155
+					region = 200
+					region = 144
+					region = 152
+					region = 145
+					region = 146
+				}
+			}
+			set_variable = { ambition_area_@ZHI = 1 }
+		}
+	}
+}

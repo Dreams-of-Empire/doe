@@ -1,0 +1,10 @@
+YUN_war_decisions = {
+	allowed = {
+		original_tag = YUN
+	}
+}
+YUN_chinese_unification_decisions = {
+    allowed = {
+        original_tag = YUN
+    }
+}

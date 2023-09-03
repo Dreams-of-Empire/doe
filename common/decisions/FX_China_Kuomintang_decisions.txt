@@ -1,0 +1,95 @@
+CHI_zhili_kmt_political_struggle = {
+	
+	###KMT Decision
+	CHI_rearrange_seat_quota_for_opposition = {
+		visible = {
+			select_kmt_faction = yes
+		}
+		available = {
+			select_kmt_faction = yes
+		}
+	}
+	CHI_anti_old_party_propaganda = {
+		visible = {
+			select_kmt_faction = yes
+		}
+		available = {
+			select_kmt_faction = yes
+		}
+	}
+	CHI_bribe_the_old_party_member = {
+		visible = {
+			select_kmt_faction = yes
+		}
+		available = {
+			select_kmt_faction = yes
+		}
+	}
+	CHI_hidden_arrest_of_key_people = {
+		visible = {
+			select_kmt_faction = yes
+		}
+		available = {
+			select_kmt_faction = yes
+		}
+	}
+	CHI_ban_old_party = {
+		visible = {
+			select_kmt_faction = yes
+		}
+		available = {
+			select_kmt_faction = yes
+		}
+	}
+	###Zhili Decision
+	LFP_discredit_the_government_corruption = {
+		visible = {
+			select_zhili_faction = yes
+		}
+		available = {
+			select_zhili_faction = yes
+		}
+	}
+	LFP_peaceful_era_campaign_propaganda = {
+		visible = {
+			select_zhili_faction = yes
+		}
+		available = {
+			select_zhili_faction = yes
+		}
+	}
+	LFP_increase_population_in_provincial_assembly = {
+		visible = {
+			select_zhili_faction = yes
+		}
+		available = {
+			select_zhili_faction = yes
+		}
+	}
+	LFP_discredit_military_junta_china = {
+		visible = {
+			select_zhili_faction = yes
+		}
+		available = {
+			select_zhili_faction = yes
+		}
+	}
+	LFP_appoint_presidential_candidate = {
+		visible = {
+			select_zhili_faction = yes
+		}
+		available = {
+			select_zhili_faction = yes
+		}
+	}
+	###Emergency Election 
+	CHI_emergency_election = {
+		complete_effect = { 
+			
+		}
+	}
+	###Final Blow Up
+	CHI_LFP_second_league_civil_war = {
+		complete_effect = {}
+	}
+}

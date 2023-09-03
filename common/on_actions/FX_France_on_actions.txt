@@ -1,0 +1,11 @@
+on_actions = {
+  on_new_term_election = {
+    effect = {
+      if = { 
+        limit = { tag = FRA }
+        country_event = fra.8 # 1936 elections
+        country_event = fra.95 # 1940 elections
+      }
+    }
+  }
+}

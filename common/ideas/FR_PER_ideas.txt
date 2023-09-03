@@ -1,0 +1,35 @@
+ideas = {
+
+	country = {
+
+		
+		PER_political_chaos = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PER_political_chaos"}
+			picture = FRA_matignon_agreements
+			modifier = {
+				political_power_gain = -0.2
+			}
+		}
+		PER_oil_fields = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PER_oil_fields"}
+			picture = FRA_matignon_agreements
+			modifier = {
+				consumer_goods_factor = 0.10
+			}
+		}
+		PER_civilian_Industry = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PER_civilian_Industry"}
+			picture = generic_goods_red_bonus
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		PER_immortals = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PER_immortals"}
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+				conscription = 0.02
+			}
+		}
+	}
+}

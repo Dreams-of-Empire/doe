@@ -1,0 +1,162 @@
+capital = 608 #Beijing
+
+oob = "MAN"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	gw_artillery = 1
+	construction1 = 1
+	excavation1 = 1
+	fuel_silos = 1
+  basic_train = 1
+}
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+	}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+		}
+	}
+}
+
+if = {
+  limit = { has_dlc = "No Step Back" }
+  set_technology = {
+    gwtank_chassis = 1
+  }
+	else = {
+		set_technology = {
+			gwtank = 1
+		}
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+	}
+	else = {
+		set_technology = {
+			early_destroyer = 1
+			early_light_cruiser = 1
+		}
+	}
+}
+
+add_ideas = {
+	party_pop_0_40
+	limited_conscription
+	MAN_political_reform
+	MAN_antijapanese_sentiment
+	MAN_warlord_ubiquity
+  backwards_economy
+  iliterate_population
+
+	military_junta
+}
+
+set_convoys = 130
+set_stability = 0.50
+set_war_support = 0.45
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+  vanguardist = 0
+  collectivist = 0
+  libertarian_socialist = 8
+  social_democrat = 0
+  social_liberal = 0
+  market_liberal = 14
+  social_conservative = 12
+  authoritarian_democrat = 46
+  paternal_autocrat = 9
+  national_populist = 11
+  valkist = 0
+}
+
+recruit_character = MAN_Tang_Hualong
+recruit_character = MAN_Tang_Shaoyi
+recruit_character = MAN_TV_Soong
+recruit_character = MAN_Zhang_Zuolin
+recruit_character = MAN_Cao_Rulin
+recruit_character = MAN_Zhang_Zongchang
+recruit_character = MAN_Feng_Zhanhai
+recruit_character = MAN_Zhang_Haipeng
+recruit_character = MAN_Ma_Zhanshan
+recruit_character = MAN_Zhang_Jinghui
+recruit_character = MAN_Su_Bingwen
+recruit_character = MAN_Liu_Zhennian
+recruit_character = MAN_Zhang_Council
+recruit_character = MAN_Zhang_Xueliang
+recruit_character = MAN_Chang_Yonghui
+recruit_character = MAN_Zhang_Shixi
+recruit_character = MAN_Local_Warlords
+recruit_character = MAN_Interim_Government
+recruit_character = MAN_Ruan_Zhenduo
+recruit_character = MAN_Yang_Yuting
+recruit_character = MAN_Liang_Shiyi
+recruit_character = MAN_Chen_Jiongming
+recruit_character = MAN_Huang_Fu
+recruit_character = MAN_Jin_Yunpeng
+recruit_character = MAN_Wang_Yitang
+recruit_character = MAN_Yu_Zhishan
+recruit_character = MAN_Wu_Jinglian
+recruit_character = MAN_Sun_Qichang
+recruit_character = MAN_Wang_Yintai
+recruit_character = MAN_Li_Shaogeng
+recruit_character = MAN_Lu_Ronghuan
+recruit_character = MAN_Pan_Fu
+recruit_character = MAN_Tang_Yulin
+recruit_character = MAN_Yuan_Jinkai
+recruit_character = MAN_Ding_Jianxiu
+recruit_character = MAN_Zhou_Ziqi
+recruit_character = MAN_Wu_Junsheng
+recruit_character = MAN_Zang_Shiyi
+recruit_character = MAN_Cao_Linsheng
+recruit_character = MAN_Wang_Chengzhi
+recruit_character = MAN_Wen_Yingxing
+recruit_character = MAN_Zou_Zuohua
+recruit_character = MAN_Bao_Wenyue
+recruit_character = MAN_Wan_Fulin
+recruit_character = MAN_Zhang_Zuoxiang
+recruit_character = MAN_Xu_Zuyi
+recruit_character = MAN_Shen_Honglie
+recruit_character = MAN_Yin_Tsuo_chien
+recruit_character = MAN_Jiang_Xiyuan
+recruit_character = MAN_Meng_Tieqiao
+recruit_character = MAN_Xie_Gangzhe
+recruit_character = MAN_Gao_Zhihang
+recruit_character = MAN_Li_Guidan
+recruit_character = MAN_Liu_Cuigang
+recruit_character = MAN_Tong_Yanbo
+
+### Starting Ministers
+activate_advisor = MAN_Zhang_Zuolin_hog_ade
+activate_advisor = MAN_Wu_Jinglian_for_ade
+activate_advisor = MAN_Pan_Fu_eco_ade
+activate_advisor = MAN_Tang_Yulin_sec_pau

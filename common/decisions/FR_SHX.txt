@@ -1,0 +1,1080 @@
+SHX_war_decisions = {
+		
+ SHX_invade_tibet = {
+        war_with_on_remove = TIB
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = TIB
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = TIB
+		}
+            TIB = {
+                exists = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = TIB
+		}
+            TIB = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_tibet target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = TIB
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_tibet target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = TIB
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	SHX_invade_mongolia = {
+        war_with_on_remove = MON
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = MON
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = MON
+		}
+            MON = {
+                exists = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = MON
+		}
+            MON = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_mongolia target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = MON
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_mongolia target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = MON
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	SHX_invade_yunnan = {
+        war_with_on_remove = YUN
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = YUN
+            }
+        }
+
+        available = {
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = YUN
+		}
+            YUN = {
+                exists = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = YUN
+		}
+            YUN = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_yunnan target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = YUN
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_yunnan target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = YUN
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	SHX_invade_ma = {
+        war_with_on_remove = XSM
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = XSM
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = XSM
+		}
+            XSM = {
+                exists = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = XSM
+		}
+            SHX = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_ma target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = XSM
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_ma target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = XSM
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	SHX_invade_xinjiang = {
+        war_with_on_remove = SIK
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = SIK
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = SIK
+		}
+            SIK = {
+                exists = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = SIK
+		}
+            SIK = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_xinjiang target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = SIK
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_xinjiang target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = SIK
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	SHX_invade_yunan = {
+        war_with_on_remove = YUN
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = YUN
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = YUN
+		}
+            YUN = {
+                exists = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = YUN
+		}
+            YUN = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_yunan target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = YUN
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_yunan target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = YUN
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	SHX_invade_kuomintang = {
+        war_with_on_remove = CHI
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = CHI
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = CHI
+		}
+            CHI = {
+                exists = yes
+				has_war = yes
+                NOT = {
+                    is_in_faction_with = XSM
+					is_puppet_of = XSM
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = CHI
+		}
+            CHI = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_kuomintang target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = CHI
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_kuomintang target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = CHI
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	SHX_invade_zhili = {
+        war_with_on_remove = ZHI
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = ZHI
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = ZHI
+		}
+            ZHI = {
+                exists = yes
+				has_war = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = ZHI
+		}
+            ZHI = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_zhili target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = ZHI
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_zhili target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = ZHI
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	SHX_invade_fengtian = {
+        war_with_on_remove = MAN
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = MAN
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = MAN
+		}
+            MAN = {
+                exists = yes
+				has_war = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = MAN
+		}
+            MAN = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_fengtian target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = MAN
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_fengtian target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = MAN
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+SHX_invade_guanxi = {
+        war_with_on_remove = GXC
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = GXC
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = GXC
+		}
+            GXC = {
+                exists = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = GXC
+		}
+            GXC = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_guanxi target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = GXC
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_guanxi target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = GXC
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+SHX_invade_guandong = {
+        war_with_on_remove = GDC
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = GDC
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = GDC
+		}
+            GDC = {
+                exists = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = GDC
+		}
+            GDC = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_guandong target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = GDC
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_guandong target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = GDC
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+SHX_invade_national_revoliutionary_army = {
+        war_with_on_remove = CHI
+
+        icon = infiltrate_state
+
+        target_trigger = {
+            FROM = {
+                tag = CHI
+            }
+        }
+
+        available = {
+		date > 1938.1.1
+		SHX = {
+		is_puppet = no
+		is_neighbor_of = CHI
+		}
+            CHI = {
+                exists = yes
+                NOT = {
+                    is_in_faction_with = SHX
+					is_puppet_of = SHX
+                }
+            }
+        }
+
+        visible = {
+            original_tag = SHX
+			SHX = {
+		  is_neighbor_of = CHI
+		}
+            SHX = {
+                exists = yes
+            }
+        }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_invade_national_revoliutionary_army target: [From.GetName]"
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+            every_state = {
+                limit = {
+                    is_owned_by = CHI
+                }
+                add_claim_by = SHX
+            }
+			hidden_effect = {
+# 			FROM = { country_event = { id = kmt.war.1  days = 1 } } don't know where this is, but keeps logging erros, therefore comment
+			}
+        }
+        
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove SHX_invade_national_revoliutionary_army target: [From.GetName]"
+            SHX = {
+                declare_war_on = {
+                    type = annex_everything
+                    target = CHI
+                }
+            }
+        }
+        
+        fire_only_once = yes
+        
+        days_remove = 50
+
+        cost = 75
+
+        ai_will_do = {
+            factor = 0
+            }
+        }
+    }
+
+	
+SHX_chinese_unification_decisions = {
+   SHX_claim_to_be_Beijing_government = {
+		
+		cost = 500  days_re_enable = 0
+		
+		visible = {
+
+				original_tag = SHX
+	}
+		available = {
+			is_puppet = no
+
+				original_tag = SHX
+				SHX = {
+			owns_state = 608
+		}
+	}
+		icon = generic_form_nation
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_claim_to_be_Beijing_government"
+			add_stability = 0.2
+			set_capital = { state = 608 }
+			set_cosmetic_tag = ZHI_BEI
+			custom_effect_tooltip = core_land
+				870 = { add_core_of = ROOT }
+				872 = { add_core_of = ROOT }
+				871 = { add_core_of = ROOT }
+				717 = { add_core_of = ROOT }
+				880 = { add_core_of = ROOT }
+				328 = { add_core_of = ROOT }
+				715 = { add_core_of = ROOT }
+				929 = { add_core_of = ROOT }
+				930 = { add_core_of = ROOT }
+				610 = { add_core_of = ROOT }
+				716 = { add_core_of = ROOT }
+				879 = { add_core_of = ROOT }
+				614 = { add_core_of = ROOT }
+				874 = { add_core_of = ROOT }
+				932 = { add_core_of = ROOT }
+				611 = { add_core_of = ROOT }
+				608 = { add_core_of = ROOT }
+				609 = { add_core_of = ROOT }
+				714 = { add_core_of = ROOT }
+			   616 = { add_claim_by = ROOT }
+				283 = { add_claim_by = ROOT }
+				325 = { add_claim_by = ROOT }
+				605 = { add_claim_by = ROOT }
+				622 = { add_claim_by = ROOT }
+				939 = { add_claim_by = ROOT }
+				934 = { add_claim_by = ROOT }
+				932 = { add_claim_by = ROOT }
+				930 = { add_claim_by = ROOT }
+				929 = { add_claim_by = ROOT }
+				894 = { add_claim_by = ROOT }
+				895 = { add_claim_by = ROOT }
+				893 = { add_claim_by = ROOT }
+				891 = { add_claim_by = ROOT }
+				892 = { add_claim_by = ROOT }
+				890 = { add_claim_by = ROOT }
+				880 = { add_claim_by = ROOT }
+				879 = { add_claim_by = ROOT }
+				874 = { add_claim_by = ROOT }
+				872 = { add_claim_by = ROOT }
+				870 = { add_claim_by = ROOT }
+				871 = { add_claim_by = ROOT }
+				869 = { add_claim_by = ROOT }
+				793 = { add_claim_by = ROOT }
+				729  = { add_claim_by = ROOT }
+				728 = { add_claim_by = ROOT }
+				717 = { add_claim_by = ROOT }
+				716 = { add_claim_by = ROOT }
+				715 = { add_claim_by = ROOT }
+				714 = { add_claim_by = ROOT }
+				621 = { add_claim_by = ROOT }
+				620 = { add_claim_by = ROOT }
+				615 = { add_claim_by = ROOT }
+				614 = { add_claim_by = ROOT }
+				613 = { add_claim_by = ROOT }
+				611 = { add_claim_by = ROOT }
+				612 = { add_claim_by = ROOT }
+				610 = { add_claim_by = ROOT }
+				608 = { add_claim_by = ROOT }
+				609 = { add_claim_by = ROOT }
+				607 = { add_claim_by = ROOT }
+				606 = { add_claim_by = ROOT }
+				604 = { add_claim_by = ROOT }
+				603 = { add_claim_by = ROOT }
+				601 = { add_claim_by = ROOT }
+				602 = { add_claim_by = ROOT }
+				600 = { add_claim_by = ROOT }
+				599 = { add_claim_by = ROOT }
+				598 = { add_claim_by = ROOT }
+				596 = { add_claim_by = ROOT }
+				597 = { add_claim_by = ROOT }
+				595 = { add_claim_by = ROOT }
+				593 = { add_claim_by = ROOT }
+				594 = { add_claim_by = ROOT }
+				592 = { add_claim_by = ROOT }
+				591 = { add_claim_by = ROOT }
+				524 = { add_claim_by = ROOT }
+				328 = { add_claim_by = ROOT }
+				326 = { add_claim_by = ROOT }
+				
+			}
+			}
+	
+	SHX_unite_china = {
+		
+		cost = 500  days_re_enable = 0
+		
+		visible = {
+				original_tag = SHX
+	}
+		available = {
+			is_puppet = no
+
+		 original_tag = SHX
+			SCH = { exists = no }
+			YUN = { exists = no }
+			XSM = { exists = no }
+			CHI = { exists = no }
+			MAN = { exists = no }
+			ZHI = { exists = no }
+			CHI = { exists = no }
+			GDC = { exists = no }
+			GXC = { exists = no }
+		}
+		icon = generic_form_nation`
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SHX_unite_china"
+			add_stability = 0.2
+			set_capital = { state = 608 }
+			set_cosmetic_tag = CHI_UNI
+			custom_effect_tooltip = core_land
+			    616 = { add_core_of = ROOT }
+				283 = { add_core_of = ROOT }
+				325 = { add_core_of = ROOT }
+				605 = { add_core_of = ROOT }
+				622 = { add_core_of = ROOT }
+				939 = { add_core_of = ROOT }
+				934 = { add_core_of = ROOT }
+				932 = { add_core_of = ROOT }
+				930 = { add_core_of = ROOT }
+				929 = { add_core_of = ROOT }
+				894 = { add_core_of = ROOT }
+				895 = { add_core_of = ROOT }
+				893 = { add_core_of = ROOT }
+				891 = { add_core_of = ROOT }
+				892 = { add_core_of = ROOT }
+				890 = { add_core_of = ROOT }
+				880 = { add_core_of = ROOT }
+				879 = { add_core_of = ROOT }
+				874 = { add_core_of = ROOT }
+				872 = { add_core_of = ROOT }
+				870 = { add_core_of = ROOT }
+				871 = { add_core_of = ROOT }
+				869 = { add_core_of = ROOT }
+				793 = { add_core_of = ROOT }
+				729 = { add_core_of = ROOT }
+				728 = { add_core_of = ROOT }
+				717 = { add_core_of = ROOT }
+				716 = { add_core_of = ROOT }
+				715 = { add_core_of = ROOT }
+				714 = { add_core_of = ROOT }
+				621 = { add_core_of = ROOT }
+				620 = { add_core_of = ROOT }
+				615 = { add_core_of = ROOT }
+				614 = { add_core_of = ROOT }
+				613 = { add_core_of = ROOT }
+				611 = { add_core_of = ROOT }
+				612 = { add_core_of = ROOT }
+				610 = { add_core_of = ROOT }
+				608 = { add_core_of = ROOT }
+				609 = { add_core_of = ROOT }
+				607 = { add_core_of = ROOT }
+				606 = { add_core_of = ROOT }
+				604 = { add_core_of = ROOT }
+				603 = { add_core_of = ROOT }
+				601 = { add_core_of = ROOT }
+				602 = { add_core_of = ROOT }
+				600 = { add_core_of = ROOT }
+				599 = { add_core_of = ROOT }
+				598 = { add_core_of = ROOT }
+				596 = { add_core_of = ROOT }
+				597 = { add_core_of = ROOT }
+				595 = { add_core_of = ROOT }
+				593 = { add_core_of = ROOT }
+				594 = { add_core_of = ROOT }
+				592 = { add_core_of = ROOT }
+				591 = { add_core_of = ROOT }
+				524 = { add_core_of = ROOT }
+				328 = { add_core_of = ROOT }
+				326 = { add_core_of = ROOT }
+				873 = { add_claim_by = ROOT }
+				601 = { add_claim_by = ROOT }
+				322 = { add_claim_by = ROOT }
+				287 = { add_claim_by = ROOT }
+				618 = { add_claim_by = ROOT }
+				617 = { add_claim_by = ROOT }
+				619 = { add_claim_by = ROOT }
+				935 = { add_claim_by = ROOT }
+				936 = { add_claim_by = ROOT }
+				801 = { add_claim_by = ROOT }
+				612 = { add_claim_by = ROOT }
+				330 = { add_claim_by = ROOT }
+				329 = { add_claim_by = ROOT }
+			}
+		}
+	}

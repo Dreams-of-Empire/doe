@@ -1,0 +1,461 @@
+defined_text = {
+	name = toggle_renaming_button_tooltip_loc
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = allowrenaming_flag
+			}
+		}
+		localization_key = toggle_renaming_button_tooltip_enable
+	}
+	text = {
+		trigger = {
+			has_global_flag = allowrenaming_flag
+		}
+		localization_key = toggle_renaming_button_tooltip_disable
+	}
+}
+defined_text = {
+	name = toggle_renaming_button_tooltip_desc_loc
+	text = {
+		trigger = {
+			has_global_flag = is_mp
+		}
+		localization_key = toggle_renaming_button_tooltip_mp
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = is_mp
+				has_global_flag = allowrenaming_flag
+			}
+		}
+		localization_key = toggle_renaming_button_tooltip_enable_desc
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = is_mp }
+			has_global_flag = allowrenaming_flag
+		}
+		localization_key = toggle_renaming_button_tooltip_disable_desc
+	}
+}
+defined_text = {
+	name = toggle_news_button_tooltip_loc
+	text = {
+		trigger = {
+			has_global_flag = is_mp
+		}
+		localization_key = toggle_news_button_tooltip_mp
+	}
+	text = {
+		trigger = {
+			has_global_flag = All_News_Events
+			NOT = { has_global_flag = is_mp }
+		}
+		localization_key = toggle_news_button_tooltip_all
+	}
+	text = {
+		trigger = {
+			has_global_flag = Important_News_Events
+			NOT = { has_global_flag = is_mp }
+		}
+		localization_key = toggle_news_button_tooltip_some
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = All_News_Events
+				has_global_flag = Important_News_Events
+				has_global_flag = is_mp
+			}
+		}
+		localization_key = toggle_news_button_tooltip_none
+	}
+}
+defined_text = {
+	name = toggle_news_button_tooltip_desc_loc
+	text = {
+		trigger = {
+			has_global_flag = is_mp
+		}
+		localization_key = empty
+	}
+	text = {
+		trigger = {
+			has_global_flag = All_News_Events
+			NOT = { has_global_flag = is_mp }
+		}
+		localization_key = toggle_news_button_tooltip_all_desc
+	}
+	text = {
+		trigger = {
+			has_global_flag = Important_News_Events
+			NOT = { has_global_flag = is_mp }
+		}
+		localization_key = toggle_news_button_tooltip_some_desc
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = All_News_Events
+				has_global_flag = Important_News_Events
+				has_global_flag = is_mp
+			}
+		}
+		localization_key = toggle_news_button_tooltip_none_desc
+	}
+}
+defined_text = {
+	name = toggle_news_text_loc
+	text = {
+		trigger = {
+			has_global_flag = All_News_Events
+		}
+		localization_key = toggle_news_text_all
+	}
+	text = {
+		trigger = {
+			has_global_flag = Important_News_Events
+		}
+		localization_key = toggle_news_text_regional
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = All_News_Events
+				has_global_flag = Important_News_Events
+			}
+		}
+		localization_key = toggle_news_text_none
+	}
+}
+### Division Limits ###
+defined_text = {
+	name = unit_limit_count_loc
+	text = {
+		trigger = {
+			check_variable = { num_actual_divisions > max_divisions }
+		}
+		localization_key = unit_limit_count_red
+	}
+	text = {
+		trigger = {
+			check_variable = { num_actual_divisions = max_divisions }
+		}
+		localization_key = unit_limit_count_yellow
+	}
+	text = {
+		localization_key = unit_limit_count_green
+	}
+}
+
+defined_text = {
+	name = above_unit_limit_desc
+	text = {
+		trigger = {
+			has_dynamic_modifier = { modifier = mobilisation_penalty_modifier }
+		}
+		localization_key = unit_limit_desc_above_limit
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+defined_text = {
+	name = unit_limit_major_power
+	text = {
+		trigger = { is_major = yes }
+		localization_key = unit_limit_major_power_desc
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+defined_text = {
+	name = unit_limit_world_tension
+	text = {
+		trigger = { threat > 0.69 }
+		localization_key = unit_limit_world_tension_desc
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+### Division Limits ###
+defined_text = {
+	name = unit_limit_count_loc
+	text = {
+		trigger = {
+			check_variable = { num_actual_divisions > max_divisions }
+		}
+		localization_key = unit_limit_count_red
+	}
+	text = {
+		trigger = {
+			check_variable = { num_actual_divisions = max_divisions }
+		}
+		localization_key = unit_limit_count_yellow
+	}
+	text = {
+		localization_key = unit_limit_count_green
+	}
+}
+
+defined_text = {
+	name = above_unit_limit_desc
+	text = {
+		trigger = {
+			has_dynamic_modifier = { modifier = mobilisation_penalty_modifier }
+		}
+		localization_key = unit_limit_desc_above_limit
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+defined_text = {
+	name = unit_limit_noncore_population
+	text = {
+		trigger = {
+			NOT = { check_variable = { non_core_base = 0 } }
+		}
+		localization_key = unit_limit_noncore_population_desc
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+defined_text = {
+	name = unit_limit_subject_population_bonus
+	text = {
+		trigger = {
+			NOT = { check_variable = { subject_base_units = 0 } }
+		}
+		localization_key = unit_limit_subject_population_bonus_desc
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+defined_text = {
+	name = unit_limit_subject_state_bonus
+	text = {
+		trigger = {
+			NOT = { check_variable = { subject_states = 0 } }
+		}
+		localization_key = unit_limit_subject_state_bonus_desc
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+defined_text = {
+	name = unit_limit_modifier_was_capped
+	text = {
+		trigger = {
+			check_variable = { industry_factor_uncapped < 0.5 }
+		}
+		localization_key = unit_limit_modifier_was_capped_desc
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+defined_text = {
+	name = unit_limit_modified_by
+	text = {
+		trigger = {
+			OR = {
+				is_faction_leader = yes
+				NOT = { check_variable = { modifier@unit_limit_bonus = 0 } }
+			}
+		}
+		localization_key = unit_limit_modified_by_desc
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+defined_text = {
+	name = unit_limit_faction_leader
+	text = {
+		trigger = { is_faction_leader = yes }
+		localization_key = unit_limit_faction_leader_desc
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+defined_text = {
+	name = unit_limit_economy_law
+	text = {
+		trigger = { has_idea = low_economic_mobilisation }
+		localization_key = unit_limit_low_economic_mobilisation
+	}
+	text = {
+		trigger = { has_idea = partial_economic_mobilisation }
+		localization_key = unit_limit_partial_economic_mobilisation
+	}
+	text = {
+		trigger = { has_idea = war_economy }
+		localization_key = unit_limit_war_economy
+	}
+	text = {
+		trigger = { has_idea = tot_economic_mobilisation }
+		localization_key = unit_limit_tot_economic_mobilisation
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+defined_text = {
+	name = unit_limit_bonus_used
+	text = {
+		trigger = {
+			NOT = { check_variable = { modifier@unit_limit_bonus = 0 } }
+		}
+		localization_key = unit_limit_bonus_used_desc
+	}
+	text = {
+		localization_key = empty
+	}
+}
+
+
+### Economic Spheres ###
+defined_text = {
+	name = GetEconomicSphereName
+	text = {
+		trigger = {
+			check_variable = { ROOT.economic_sphere_leader = GER }
+		}
+		localization_key = "Mitteleuropa"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROOT.economic_sphere_leader = INT }
+		}
+		localization_key = "Phalanstère Internationale"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROOT.economic_sphere_leader = ENT }
+		}
+		localization_key = "Imperial Economic Development Council"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROOT.economic_sphere_leader = JAP }
+		}
+		localization_key = "Co-Prosperity Sphere"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROOT.economic_sphere_leader = OTT }
+		}
+		localization_key = "Association of Muslim Nations"
+	}
+}
+
+defined_text = {
+	name = toggle_news_button_tooltip_loc
+	text = {
+		trigger = {
+			has_global_flag = is_mp
+		}
+		localization_key = toggle_news_button_tooltip_mp
+	}
+	text = {
+		trigger = {
+			has_global_flag = All_News_Events
+			NOT = { has_global_flag = is_mp }
+		}
+		localization_key = toggle_news_button_tooltip_all
+	}
+	text = {
+		trigger = {
+			has_global_flag = Important_News_Events
+			NOT = { has_global_flag = is_mp }
+		}
+		localization_key = toggle_news_button_tooltip_some
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = All_News_Events
+				has_global_flag = Important_News_Events
+				has_global_flag = is_mp
+			}
+		}
+		localization_key = toggle_news_button_tooltip_none
+	}
+}
+defined_text = {
+	name = toggle_news_button_tooltip_desc_loc
+	text = {
+		trigger = {
+			has_global_flag = is_mp
+		}
+		localization_key = ""
+	}
+	text = {
+		trigger = {
+			has_global_flag = All_News_Events
+			NOT = { has_global_flag = is_mp }
+		}
+		localization_key = toggle_news_button_tooltip_all_desc
+	}
+	text = {
+		trigger = {
+			has_global_flag = Important_News_Events
+			NOT = { has_global_flag = is_mp }
+		}
+		localization_key = toggle_news_button_tooltip_some_desc
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = All_News_Events
+				has_global_flag = Important_News_Events
+				has_global_flag = is_mp
+			}
+		}
+		localization_key = toggle_news_button_tooltip_none_desc
+	}
+}
+defined_text = {
+	name = toggle_news_text_loc
+	text = {
+		trigger = {
+			has_global_flag = All_News_Events
+		}
+		localization_key = toggle_news_text_all
+	}
+	text = {
+		trigger = {
+			has_global_flag = Important_News_Events
+		}
+		localization_key = toggle_news_text_regional
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = All_News_Events
+				has_global_flag = Important_News_Events
+			}
+		}
+		localization_key = toggle_news_text_none
+	}
+}

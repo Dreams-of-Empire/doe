@@ -1,0 +1,23 @@
+set_puppet_minister_asia = {
+  if = {
+    limit = { tag = PHI }
+    if = {
+      limit = { has_socialist_government = yes }
+      add_ideas = {
+        PHI_Luis_Taruc_hog_col
+        PHI_Jesus_Lava_for_col
+        PHI_Herminegildo_Cruz_eco_col
+        PHI_Guillermo_Capadocia_sec_col
+      }
+    }
+    else_if = {
+      limit = { has_socialist_government = no }
+      add_ideas = {
+        PHI_Jose_P_Laurel_hog_ade
+        PHI_Claro_M_Recto_for_ade
+        PHI_Serafin_Fausto_eco_ade
+        PHI_Benigno_Aquino_Sr_sec_ade
+      }
+    }
+  }
+}

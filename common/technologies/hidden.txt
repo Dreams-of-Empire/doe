@@ -1,0 +1,39 @@
+technologies = {
+  camel_corps_tech = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#If you change these
+		#Change the custom tooltip too: camel_corps_tech_effect
+		camelry = {
+			desert = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.03
+			}
+		}
+	}
+  desert_warfare = {
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#If you change these
+		#Change the custom tooltip too: desert_warfare_effect
+		category_light_infantry = {
+			desert = {
+				attack = 0.10
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+	}
+}

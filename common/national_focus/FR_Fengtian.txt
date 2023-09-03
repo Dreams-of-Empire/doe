@@ -1,0 +1,16 @@
+focus_tree = {
+	id = FR_Fengtian_base
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MAN
+		}
+	}
+  continuous_focus_position = { x = 50 y = 3200 }
+
+    shared_focus = MAN_new_political_modernization
+    shared_focus = MAN_problems_with_industry
+    shared_focus = MAN_state_of_the_army
+
+}

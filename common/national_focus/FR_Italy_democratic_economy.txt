@@ -1,0 +1,1362 @@
+######################
+# Democratic economy #
+######################
+
+focus_tree = {
+	id = italy_democratic_economy
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 1
+			tag = ITA
+		}
+	}
+
+	default = no
+	
+	continuous_focus_position = { x = 25 y = 100 }
+	
+	shared_focus = ITA_future_ppi
+	shared_focus = ITA_forein_policy
+	shared_focus = ITA_balbo_returns
+	shared_focus = ITA_army_reforms
+	shared_focus = ITA_north_bases
+	shared_focus = ITA_south_bases
+	shared_focus = ITA_mare_nostrum
+	
+	focus = {
+		id = ITA_economic_development
+		icon = GFX_goal_economic_control
+		x = 37
+		y = 0
+		cost = 5	
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+			has_completed_focus = ITA_italian_election
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_economic_development"
+		}
+	}
+	
+# Progressives	
+
+	focus = {
+		id = ITA_regulated_economy
+		icon = GFX_goal_ideology_social_democrat
+		x = 30
+		y = 1
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_economic_development
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_regulated_economy"
+			add_stability = 0.1
+		}
+	}
+	
+	focus = {
+		id = ITA_unemployed_benefits
+		icon = GFX_Hand_reaching_for_money
+		x = 27
+		y = 2
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_regulated_economy
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_unemployed_benefits"
+			add_ideas = ITA_unemployed_benefits_idea
+		}
+	}
+
+	focus = {
+		id = ITA_public_housing
+		icon = GFX_collective_housing
+		x = 27
+		y = 3
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_unemployed_benefits
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_public_housing"
+			add_ideas = ITA_public_housing_idea
+		}
+	}
+
+	focus = {
+		id = ITA_compulsory_education
+		icon = GFX_goal_great_science
+		x = 27
+		y = 4
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_public_housing
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_compulsory_education"
+			add_ideas = ITA_compulsory_education_idea
+		}
+	}
+
+	focus = {
+		id = ITA_iri_formula
+		icon = GFX_goal_state_economy
+		x = 30
+		y = 2
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_regulated_economy
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_iri_formula"
+			add_ideas = ITA_iri_formula_idea
+		}
+	}
+
+	focus = {
+		id = ITA_aid_faliures
+		icon = GFX_goal_VIN_Rights_of_Corporation
+		x = 29
+		y = 3
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_iri_formula
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_aid_faliures"
+			add_ideas = ITA_aid_faliures_ideas
+		}
+	}
+
+	focus = {
+		id = ITA_nationalize_rails
+		icon = GFX_goal_Great_Railway_Incident
+		x = 29
+		y = 4
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_aid_faliures
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_nationalize_rails"
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = ITA_subsidies_farms
+		icon = GFX_IRE_farms
+		x = 29
+		y = 5
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_nationalize_rails
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_subsidies_farms"
+			every_state =  {
+				limit = {
+					is_core_of = ITA
+					is_owned_by = ITA
+				}
+				set_state_flag = ITA_subsidies_farms_state
+				add_state_modifier = {
+					modifier = {
+						local_manpower = 0.1
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ITA_support_arms
+		icon = GFX_focus_generic_combined_arms
+		x = 31
+		y = 3
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_iri_formula
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_support_arms"
+			add_ideas = ITA_support_arms_ideas
+		}
+	}
+
+	focus = {
+		id = ITA_nationalize_docks
+		icon = GFX_goal_navy_decision
+		x = 31
+		y = 4
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_support_arms
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_nationalize_docks"
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 1
+					is_core_of = ITA
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = dockyard	
+					level = 2
+					instant_build = yes
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = ITA_nationalize_steel
+		icon = GFX_focus_generic_steel
+		x = 31
+		y = 5
+		cost = 5
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_nationalize_docks
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_nationalize_steel"
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+					has_resources_amount = {
+						resource = steel
+						amount > 1
+					}
+				}
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}			
+		}
+	}	
+	
+	focus = {
+		id = ITA_welfare_state
+		icon = GFX_goal_socialist_infrastructure	
+		x = 30
+		y = 6
+		cost = 5	
+
+		available = {
+			has_government = social_democrat
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_nationalize_steel
+		}	
+
+		prerequisite = {
+			focus = ITA_subsidies_farms
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_welfare_state"
+			add_ideas = ITA_welfare_state_idea
+		}
+	}	
+
+# Liberals
+
+	focus = {
+		id = ITA_free_market
+		icon = GFX_goal_ideology_market_liberal
+		x = 37
+		y = 1
+		cost = 5
+
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_economic_development
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_free_market"
+			add_ideas = ITA_free_market_idea
+			if = {
+				limit = {
+					has_idea = export_focus
+				}
+				add_ideas = free_trade
+			}
+			if = {
+				limit = {
+					has_idea = limited_exports
+				}
+				add_ideas = export_focus
+			}
+			if = {
+				limit = {
+					has_idea = closed_economy
+				}
+				add_ideas = limited_exports
+			}			
+		}
+	}
+
+	focus = {
+		id = ITA_capitalist_north
+		icon = GFX_focus_generic_industry_2
+		x = 34
+		y = 2
+		cost = 5
+
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_free_market
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_capitalist_north"
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+					region = 21
+				}
+				add_building_construction = {
+					type = industrial_complex	
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+					region = 21
+				}
+				add_building_construction = {
+					type = industrial_complex	
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = ITA_create_austrada
+		icon = GFX_focus_generic_socialist_science
+		x = 33
+		y = 3
+		cost = 5
+
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_capitalist_north
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_create_austrada"
+			add_ideas = ITA_create_austrada_idea
+		}
+	}	
+	
+	focus = {
+		id = ITA_auto_industry
+		icon = GFX_goal_generic_army_motorized
+		x = 33
+		y = 4
+		cost = 5		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+		
+		prerequisite = {
+			focus = ITA_create_austrada
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_auto_industry"
+			add_ideas = ITA_auto_industry_idea
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+					region = 21
+				}
+				add_building_construction = {
+					type = arms_factory	
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+	}
+
+	# focus = {
+		# id = ITA_end_tariffs
+		# icon = GFX_focus_generic_socialist_science
+		# x = 34
+		# y = 5
+		# cost = 5		
+		
+		# ai_will_do = {
+			# factor = 40
+		# }
+		
+		# prerequisite = {
+			# focus = ITA_auto_industry
+			# focus = ITA_merchant_marines
+		# }		
+		
+		# completion_reward = {
+			# log = "[GetDateText]: [Root.GetName]: Focus ITA_end_tariffs"
+		# }
+	# }	
+	
+	focus = {
+		id = ITA_expand_markets
+		icon = GFX_goal_generic_trade
+		x = 34
+		y = 5
+		cost = 5	
+
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_auto_industry
+			focus = ITA_merchant_marines
+		}			
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_markets"
+			add_ideas = ITA_expand_markets_idea
+		}
+	}
+
+	# focus = {
+		# id = ITA_trade_britain
+		# icon = GFX_focus_generic_socialist_science
+		# x = 33
+		# y = 6
+		# cost = 5	
+
+		# available = {
+			# OR = {
+				# has_government = market_liberal
+				# has_government = social_liberal
+			# }
+		# }		
+		
+		# ai_will_do = {
+			# factor = 40
+		# }
+		
+		# prerequisite = {
+			# focus = ITA_expand_markets
+		# }		
+		
+		# completion_reward = {
+			# log = "[GetDateText]: [Root.GetName]: Focus ITA_trade_britain"
+			# add_ideas = ITA_trade_britain_ideas
+		# }
+	# }
+
+	# focus = {
+		# id = ITA_trade_soviets
+		# icon = GFX_focus_generic_socialist_science
+		# x = 35
+		# y = 6
+		# cost = 5		
+		
+		# available = {
+			# OR = {
+				# has_government = market_liberal
+				# has_government = social_liberal
+			# }
+		# }		
+		
+		# ai_will_do = {
+			# factor = 40
+		# }
+		
+		# prerequisite = {
+			# focus = ITA_expand_markets
+		# }		
+		
+		# completion_reward = {
+			# log = "[GetDateText]: [Root.GetName]: Focus ITA_trade_soviets"
+			# add_ideas = ITA_trade_soviets_idea
+		# }
+	# }	
+	
+	focus = {
+		id = ITA_expand_docks
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 35
+		y = 3
+		cost = 5		
+		
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_capitalist_north
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_docks"
+			add_ideas = ITA_expand_docks_idea
+		}
+	}
+
+	focus = {
+		id = ITA_merchant_marines
+		icon = GFX_focus_generic_navy_battleship2
+		x = 35
+		y = 4
+		cost = 5		
+		
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_expand_docks
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_merchant_marines"
+			add_ideas = ITA_merchant_marines_idea
+		}
+	}	
+
+	focus = {
+		id = ITA_lease_torres
+		icon = GFX_goal_BEL_Battleship_Investements
+		x = 37
+		y = 4
+		cost = 5	
+
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+			owns_state = 768
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_expand_docks
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_lease_torres"
+			country_event = ita.186
+		}
+	}	
+	
+	focus = {
+		id = ITA_capitalist_south
+		icon = GFX_goal_agricultural_aid
+		x = 40
+		y = 2
+		cost = 5
+
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_free_market
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_capitalist_south"
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+					region = 23
+				}
+				add_building_construction = {
+					type = industrial_complex	
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+					region = 23
+				}
+				add_building_construction = {
+					type = industrial_complex	
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = ITA_modern_agriculture
+		icon = GFX_goal_SOV_tractors
+		x = 40
+		y = 3
+		cost = 5
+
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_capitalist_south
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_modern_agriculture"
+			add_ideas = ITA_modern_agriculture_idea
+		}
+	}	
+	
+	focus = {
+		id = ITA_farming_grants
+		icon = GFX_goal_new_treaty
+		x = 39
+		y = 4
+		cost = 5		
+		
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		mutually_exclusive = {
+			focus = ITA_farming_auctions
+		}
+		
+		prerequisite = {
+			focus = ITA_modern_agriculture
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_farming_grants"
+			add_ideas = ITA_farming_grants_idea
+		}
+	}
+
+	focus = {
+		id = ITA_farming_auctions
+		icon = GFX_goal_bag_of_money
+		x = 41
+		y = 4
+		cost = 5	
+
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		mutually_exclusive = {
+			focus = ITA_farming_grants
+		}		
+		
+		prerequisite = {
+			focus = ITA_modern_agriculture
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_farming_auctions"
+			add_ideas = ITA_farming_auctions_idea
+		}
+	}	
+	
+	focus = {
+		id = ITA_end_tariffs
+		icon = GFX_goal_liberty
+		x = 40
+		y = 5
+		cost = 5	
+
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_farming_auctions
+			focus = ITA_farming_grants
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_end_tariffs"
+			add_ideas = ITA_end_tariffs_idea
+		}
+	}	
+	
+	focus = {
+		id = ITA_resource_expansion
+		icon = GFX_goal_generic_all_resource
+		x = 40
+		y = 6
+		cost = 5		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		available = {
+			OR = {
+				has_government = market_liberal
+				has_government = social_liberal
+			}
+		}		
+		
+		prerequisite = {
+			focus = ITA_end_tariffs
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_resource_expansion"
+			every_state = {
+				limit = {
+					is_core_of = ITA
+					is_owned_by = ITA
+				}
+				set_state_flag = ITA_resource_expansion
+				add_state_modifier = {
+					modifier = {
+						local_resources = 0.1
+					}
+				}
+			}
+		}
+	}
+
+# Conservatives	
+
+	focus = {
+		id = ITA_protectionism
+		icon = GFX_goal_ideology_social_conservative
+		x = 44
+		y = 1
+		cost = 5
+		
+		available = {
+			has_government = social_conservative
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_economic_development
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_protectionism"
+			add_ideas = ITA_protectionism_idea
+			if = {
+				limit = {
+					has_idea = free_trade
+				}
+				add_ideas = export_focus
+			}
+			if = {
+				limit = {
+					has_idea = export_focus
+				}
+				add_ideas = limited_exports
+			}			
+		}
+	}
+	
+	focus = {
+		id = ITA_gaurantee_grain
+		icon = GFX_focus_AUS_agriculture
+		x = 43
+		y = 2
+		cost = 5		
+		
+		available = {
+			has_government = social_conservative
+		}			
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_protectionism
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_gaurantee_grain"
+			add_ideas = ITA_gaurantee_grain_idea
+		}
+	}
+	
+	focus = {
+		id = ITA_sell_land
+		icon = GFX_goal_bag_of_money
+		x = 43
+		y = 3
+		cost = 5		
+		
+		available = {
+			has_government = social_conservative
+		}			
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_gaurantee_grain
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_sell_land"
+			every_state = {
+				limit = {
+					is_owned_by = ITA
+					NOT = {
+						is_on_continent = europe
+					}
+				}
+				set_state_flag = ITA_sell_land_state
+				add_state_modifier = {
+					modifier = {
+						local_non_core_manpower = 0.15
+						local_building_slots_factor = 0.15
+					}
+				}
+			}
+			
+			if = {
+				limit = {
+					LBA = {
+						is_puppet_of = ITA					
+					}
+				}
+				every_state = {
+					limit = {
+						is_owned_by = LBA
+						NOT = {
+							is_on_continent = europe
+						}							
+					}
+					set_state_flag = ITA_sell_land_state
+					add_state_modifier = {
+						modifier = {
+							local_non_core_manpower = 0.15
+							local_building_slots_factor = 0.15
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = ITA_increase_tariffs
+		icon = GFX_goal_shield_bird
+		x = 45
+		y = 2
+		cost = 5	
+
+		available = {
+			has_government = social_conservative
+		}			
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_protectionism
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_increase_tariffs"
+			add_ideas = ITA_increase_tariffs_idea
+		}
+	}
+
+	focus = {
+		id = ITA_buy_italian
+		icon = GFX_goal_italianfed
+		x = 45
+		y = 3
+		cost = 5		
+		
+		available = {
+			has_government = social_conservative
+		}	
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_increase_tariffs
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_buy_italian"
+			add_ideas = ITA_buy_italian_idea
+		}
+	}
+
+	focus = {
+		id = ITA_government_austerity
+		icon = GFX_goal_government_icon
+		x = 43
+		y = 4
+		cost = 5	
+
+		available = {
+			has_government = social_conservative
+		}			
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_sell_land
+		}
+
+		prerequisite = {
+			focus = ITA_buy_italian
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_government_austerity"
+			add_ideas = ITA_government_austerity_idea
+		}
+	}	
+	
+	focus = {
+		id = ITA_docking_fees
+		icon = GFX_goal_generic_coastal_navy2
+		x = 45
+		y = 4
+		cost = 5		
+		
+		available = {
+			has_government = social_conservative
+		}			
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}
+		
+		prerequisite = {
+			focus = ITA_sell_land
+		}
+
+		prerequisite = {
+			focus = ITA_buy_italian
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_docking_fees"
+			add_ideas = ITA_docking_fees_idea
+		}
+	}		
+}

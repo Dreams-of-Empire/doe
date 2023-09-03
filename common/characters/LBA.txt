@@ -1,0 +1,74 @@
+characters = {
+	LBA_Italo_Balbo = {
+		name = "Italo Balbo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Italo_Balbo_fx.png"
+			}
+		}
+		country_leader = {
+			ideology = colonial_govt_subtype
+			traits = { }
+		}
+	}
+	LBA_Idris_Senussi = {
+		name = "Idris Senussi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LBA/Portrait_LBA_Idris_Senussi.png"
+			}
+		}
+	}
+	LBA_Bashir_es_Sadawi = {
+		name = "Bashir es Sadawi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_4.png"
+			}
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+	}
+	LBA_Ettore_Bastico = {
+		name = "Ettore Bastico"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LBA/Portrait_LBA_Ettore_Bastico.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+	}
+	LBA_Rodolfo_Graziani = {
+		name = "Rodolfo Graziani"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Rodolfo_Graziani.png"
+			}
+		}
+	}
+	LBA_Hassan_as_Senussi = {
+		name = "Hassan as-Senussi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Generic/Portrait_Arabia_Generic_new_5.png"
+			}
+		}
+		country_leader = {
+			ideology = vanguardist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = collectivist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = libertarian_socialist_subtype
+			traits = { }
+		}
+	}
+}

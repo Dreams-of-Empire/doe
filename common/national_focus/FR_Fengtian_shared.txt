@@ -1,0 +1,2793 @@
+########################################################
+################ FENGTIAN FOCUS TREE ###################
+######### Alde "that's just unfortunate" Baran #########
+########################################################
+
+  shared_focus = {
+		id = MAN_new_political_modernization
+		icon = GFX_goal_generic_elections
+		x = 5
+		y = 0
+		cost = 7
+
+		available = { always = no }
+
+	}
+
+  shared_focus = {
+		id = MAN_the_future_of_fengtian
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = MAN_new_political_modernization }
+		x = 5
+		y = 1
+		cost = 7
+
+		available = { always = no }
+
+	}
+
+  shared_focus = {
+		id = MAN_the_succession
+		icon = GFX_goal_authoritarian
+    prerequisite = { focus = MAN_the_future_of_fengtian }
+		x = 5
+		y = 2
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_zhang_xueliang
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = MAN_the_succession }
+		x = 5
+		y = 3
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_military_inheritance
+		icon = GFX_goal_national_arsenal
+    prerequisite = { focus = MAN_zhang_xueliang }
+		x = 3
+		y = 4
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_execute_disloyal_military_elements
+		icon = GFX_goal_secret_agents
+    prerequisite = { focus = MAN_zhang_xueliang }
+		x = 7
+		y = 4
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_junta
+		icon = GFX_goal_army_guy_2
+    prerequisite = { focus = MAN_military_inheritance }
+		x = 3
+		y = 5
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_descent_into_chaos
+		icon = GFX_goal_HOL_depillarization
+    prerequisite = { focus = MAN_military_inheritance focus = MAN_execute_disloyal_military_elements }
+		x = 5
+		y = 5
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_cult_of_zhang
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = MAN_execute_disloyal_military_elements }
+		x = 7
+		y = 5
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_ambassadors_enter_through_korea
+		icon = GFX_focus_jap_pacific_guardian
+    prerequisite = { focus = MAN_junta }
+		x = 3
+		y = 6
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_demands_from_japan
+		icon = GFX_goal_generic_forceful_treaty
+    prerequisite = { focus = MAN_ambassadors_enter_through_korea }
+		x = 3
+		y = 7
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_total_anarchy
+		icon = GFX_goal_flames_of_rebellion
+    prerequisite = { focus = MAN_ambassadors_enter_through_korea focus = MAN_descent_into_chaos }
+		x = 5
+		y = 7
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_pushover
+		icon = GFX_goal_HOL_pillarization
+    prerequisite = { focus = MAN_cult_of_zhang }
+		x = 7
+		y = 7
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_japans_move
+		icon = GFX_goal_china_deal
+    prerequisite = { focus = MAN_cult_of_zhang }
+		x = 9
+		y = 7
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+    id = MAN_preperations
+    icon = GFX_goal_zhang_rifle
+    prerequisite = { focus = MAN_pushover }
+    x = 7
+    y = 8
+    cost = 7
+
+		available = { always = no }
+
+
+  }
+
+  shared_focus = {
+		id = MAN_backslide
+		icon = GFX_goal_state_economy
+    prerequisite = { focus = MAN_demands_from_japan }
+		x = 3
+		y = 8
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_the_interests_war
+		icon = GFX_goal_foreign_diplomacy
+    prerequisite = { focus = MAN_total_anarchy }
+		x = 5
+		y = 9
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_awaken_pan_asianism
+		icon = GFX_focus_jap_cast_the_die
+    prerequisite = { focus = MAN_backslide }
+		x = 3
+		y = 9
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_concordian_ascension
+		icon = GFX_focus_HOL_deal_with_right
+    prerequisite = { focus = MAN_the_interests_war }
+		x = 4
+		y = 10
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+  shared_focus = {
+		id = MAN_communications_in_power
+		icon = GFX_goal_ideology_social_conservative
+    prerequisite = { focus = MAN_the_interests_war }
+		x = 6
+		y = 10
+		cost = 7
+
+		available = { always = no }
+
+
+	}
+
+#### ECONOMY ####
+
+	shared_focus = {
+		id = MAN_problems_with_industry
+		icon = GFX_focus_generic_treaty
+		x = 18
+		y = 0
+		cost = 1
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+		bypass = {
+		has_global_flag = MAN_elections_were_held
+		}
+
+    ai_will_do = {
+			factor = 3
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_problems_with_industry"
+
+		add_political_power = 20
+
+		}
+
+
+	}
+
+	shared_focus = {
+		id = MAN_the_bandit_issue
+		icon = GFX_focus_generic_provoke_border_clashes
+    prerequisite = { focus = MAN_problems_with_industry }
+		mutually_exclusive = { focus = MAN_eliminate_the_bandits }
+		x = 12
+		y = 1
+		cost = 10
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_the_bandit_issue"
+
+		add_political_power = 100
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_hire_the_bandits
+		icon = GFX_goal_generic_political_pressure
+    prerequisite = { focus = MAN_the_bandit_issue }
+		x = 12
+		y = 2
+		cost = 10
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_hire_the_bandits"
+
+		load_oob = MAN_integrated
+
+		country_event = man.57
+
+		set_global_flag = MAN_hunters_satisfied
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_military_integration
+		icon = GFX_goal_generic_allies_build_infantry
+    prerequisite = { focus = MAN_hire_the_bandits }
+		x = 12
+		y = 3
+		cost = 7
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_military_integration"
+
+	add_ideas = MAN_bandit_army
+
+	}
+
+	}
+
+	shared_focus = {
+		id = MAN_loot_caravans
+		icon = GFX_goal_generic_position_armies
+    prerequisite = { focus = MAN_military_integration }
+		x = 12
+		y = 4
+		cost = 7
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+        SOV = { has_war = no }
+        XSM = { has_war = no }
+        ZHI = { has_war = no }
+    }
+
+    ai_will_do = {
+    factor = 1
+    modifier = {
+      OR = {
+        SOV = { exists = yes }
+        XSM = { exists = yes }
+        ZHI = { exists = yes }
+      }
+      factor = 4
+      }
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_loot_caravans"
+
+		SOV = { country_event = { id = man.55 days = 2 } }
+		XSM = { country_event = { id = man.55 days = 2 } }
+		ZHI = { country_event = { id = man.55 days = 2 } }
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_the_future_of_industry
+		icon = GFX_goal_generic_construct_civ_factory
+    prerequisite = { focus = MAN_loot_caravans focus = MAN_a_safer_economy }
+		x = 12
+		y = 5
+		cost = 7
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_the_future_of_industry"
+
+		328 = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+						 }
+		}
+
+		add_tech_bonus = {
+			name = industry_bonus
+			bonus = 0.35
+			uses = 1
+			category = industry
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_fengtian_society_for_light_metals
+		icon = GFX_focus_generic_aluminum
+    prerequisite = { focus = MAN_the_future_of_industry focus = MAN_the_future_of_arms }
+		available = {
+		owns_state = 714
+		}
+		x = 12
+		y = 6
+		cost = 5
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_fengtian_society_for_light_metals"
+
+		add_popularity = { ideology = market_liberal popularity = 0.05 }
+
+		add_resource = {
+ 		type = aluminium
+ 		amount = 8
+ 		state = 714
+ 		}
+
+	 add_resource = {
+		type = chromium
+		amount = 8
+		state = 714
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_fengtian_society_for_heavy_metals
+		icon = GFX_focus_generic_steel
+    prerequisite = { focus = MAN_the_future_of_industry focus = MAN_the_future_of_arms }
+		available = {
+		owns_state = 871
+		}
+		x = 14
+		y = 6
+		cost = 5
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_fengtian_society_for_heavy_metals"
+
+		add_popularity = { ideology = market_liberal popularity = 0.05 }
+
+		add_resource = {
+     	type = steel
+    	amount = 12
+     	state = 871
+             }
+
+	 add_resource = {
+		type = tungsten
+		amount = 8
+		state = 871
+					              }
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_fengtian_society_for_mechanical_production
+		icon = GFX_goal_oil
+    prerequisite = { focus = MAN_the_future_of_industry focus = MAN_the_future_of_arms }
+		available = {
+		owns_state = 328
+		}
+		x = 16
+		y = 6
+		cost = 5
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_fengtian_society_for_mechanical_production"
+
+		add_popularity = { ideology = market_liberal popularity = 0.05 }
+
+		add_resource = {
+     	type = oil
+    	amount = 12
+     	state = 328
+    }
+
+	 add_resource = {
+		type = rubber
+		amount = 8
+		state = 328
+	 }
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_fengtian_foundation_for_infrastructure
+		icon = GFX_goal_generic_radar
+    prerequisite = { focus = MAN_the_future_of_industry focus = MAN_the_future_of_arms }
+		x = 18
+		y = 6
+		cost = 5
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_fengtian_foundation_for_infrastructure"
+
+		add_popularity = { ideology = social_conservative popularity = 0.10 }
+
+		add_tech_bonus = {
+			name = research_bonus
+			bonus = 0.30
+			uses = 2
+			category = electronics
+		}
+
+		}
+
+}
+
+	shared_focus = {
+		id = MAN_eliminate_the_bandits
+		icon = GFX_goal_generic_defence
+    prerequisite = { focus = MAN_problems_with_industry }
+		mutually_exclusive = { focus = MAN_the_bandit_issue }
+		x = 14
+		y = 1
+		cost = 7
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_eliminate_the_bandits"
+
+		add_political_power = 100
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_put_them_down
+		icon = GFX_goal_generic_military_sphere
+    prerequisite = { focus = MAN_eliminate_the_bandits }
+		x = 14
+		y = 2
+		cost = 7
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_put_them_down"
+
+		add_manpower = 20000
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_heilungkiang_hunters
+		icon = GFX_heilungkiang_hunters
+    prerequisite = { focus = MAN_put_them_down }
+		x = 14
+		y = 3
+		cost = 7
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 2
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_heilungkiang_hunters"
+
+		load_oob = MAN_hunters
+
+		#custom_effect_tooltip = MAN_hunters_tt
+
+		country_event = man.54
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_a_safer_economy
+		icon = GFX_goal_generic_intelligence_exchange
+    prerequisite = { focus = MAN_heilungkiang_hunters }
+		x = 14
+		y = 4
+		cost = 7
+
+		available = {
+				has_global_flag = MAN_hunters_eliminated
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 3
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_a_safer_economy"
+
+			add_ideas = MAN_thriving_industry
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_fengtian_quality_union
+		icon = GFX_goal_generic_consumer_goods
+    prerequisite = { focus = MAN_fengtian_society_for_light_metals focus = MAN_fengtian_society_for_heavy_metals focus = MAN_fengtian_society_for_mechanical_production focus = MAN_fengtian_foundation_for_infrastructure }
+		x = 14
+		y = 7
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_fengtian_quality_union"
+
+		add_political_power = -50
+
+		swap_ideas = {
+			remove_idea = iliterate_population
+			add_idea = MAN_industry_woes_1
+		}
+
+		}
+
+	}
+
+  shared_focus = {
+		id = MAN_state_run_university_unions
+		icon = GFX_goal_generic_scientific_exchange
+    prerequisite = { focus = MAN_fengtian_quality_union }
+		x = 14
+		y = 8
+		cost = 10
+
+    ai_will_do = {
+			factor = 3
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_state_run_university_unions"
+
+		add_political_power = -50
+
+		swap_ideas = {
+			remove_idea = MAN_industry_woes_1
+			add_idea = MAN_industry_woes_2
+		}
+
+    add_popularity = { ideology = market_liberal popularity = 0.05 }
+
+    add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_military_bureau_quality_officers
+		icon = GFX_focus_generic_little_entente
+    prerequisite = { focus = MAN_fengtian_society_for_light_metals focus = MAN_fengtian_society_for_heavy_metals focus = MAN_fengtian_society_for_mechanical_production focus = MAN_fengtian_foundation_for_infrastructure }
+		x = 16
+		y = 7
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_military_bureau_quality_officers"
+
+		add_political_power = -50
+
+		swap_ideas = {
+			remove_idea = backwards_economy
+			add_idea = MAN_equipment_woes_1
+		}
+
+		}
+
+	}
+
+  shared_focus = {
+		id = MAN_civilian_heroes_initiative
+		icon = GFX_goal_conscription
+    prerequisite = { focus = MAN_military_bureau_quality_officers }
+		x = 16
+		y = 8
+		cost = 10
+
+    ai_will_do = {
+			factor = 3
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_civilian_heroes_initiative"
+
+		add_political_power = -50
+
+		swap_ideas = {
+			remove_idea = MAN_equipment_woes_1
+			add_idea = MAN_equipment_woes_2
+		}
+
+		}
+
+	}
+
+  shared_focus = {
+		id = MAN_patent_military
+		icon = GFX_goal_generic_position_armies
+    prerequisite = { focus = MAN_civilian_heroes_initiative }
+    prerequisite = { focus = MAN_state_run_university_unions }
+		x = 15
+		y = 9
+		cost = 20
+
+    ai_will_do = {
+			factor = 4
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_patent_military"
+		add_political_power = -50
+		swap_ideas = {
+			remove_idea = MAN_industry_woes_2
+			add_idea = MAN_industry_woes_3
+		}
+ 	    add_timed_idea = { idea = MAN_foreign_designer_goods days = 720 }
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_develop_beijing
+		icon = GFX_goal_generic_construct_mil_factory
+    prerequisite = { focus = MAN_problems_with_industry }
+		mutually_exclusive = { focus = MAN_develop_hsinking }
+		x = 16
+		y = 1
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_tech = concentrated_industry
+				owns_state = 608
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_develop_beijing"
+
+		608 = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+								type = arms_factory
+								level = 2
+								instant_build = yes
+						 }
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_zhili_expeditions
+		icon = GFX_goal_Zhili_Expedition
+    prerequisite = { focus = MAN_develop_beijing }
+		x = 16
+		y = 2
+		cost = 7
+		ai_will_do = {
+		factor = 2
+		}
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_tech = concentrated_industry2
+				ZHI = {
+				controls_state = 597
+				}
+				ZHI = { exists = yes }
+    }
+		bypass = {
+		ZHI = { exists = no }
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_zhili_expeditions"
+
+		country_event = man.105
+
+		ZHI = { country_event = { id = man.106 hours = 3 } }
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_urban_tactics
+		icon = GFX_goal_generic_fortify_city
+    prerequisite = { focus = MAN_zhili_expeditions }
+		x = 16
+		y = 3
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_tech = concentrated_industry3
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_urban_tactics"
+
+			608 = {
+
+				add_building_construction = {
+					type = bunker
+					province = 9843
+					level = 4
+				}
+
+			}
+
+			874 = {
+
+				add_building_construction = {
+					type = bunker
+					province = 4058
+					level = 2
+				}
+
+				add_building_construction = {
+					type = bunker
+					province = 12062
+					level = 2
+				}
+
+				add_building_construction = {
+					type = bunker
+					province = 1169
+					level = 2
+				}
+
+				add_building_construction = {
+					type = bunker
+					province = 9987
+					level = 2
+				}
+
+			}
+
+			614 = {
+
+				add_building_construction = {
+					type = bunker
+					province = 7160
+					level = 2
+				}
+
+				add_building_construction = {
+					type = bunker
+					province = 7189
+					level = 2
+				}
+
+				add_building_construction = {
+					type = bunker
+					province = 1084
+					level = 2
+				}
+
+				add_building_construction = {
+					type = bunker
+					province = 12093
+					level = 2
+				}
+
+			}
+
+		}
+	}
+
+	shared_focus = {
+		id = MAN_build_the_south
+		icon = GFX_goal_generic_construct_civ_factory
+    prerequisite = { focus = MAN_urban_tactics }
+		x = 16
+		y = 4
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_tech = concentrated_industry4
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_build_the_south"
+
+		add_tech_bonus = {
+			name = industry_bonus
+			bonus = 0.75
+			uses = 1
+			category = industry
+		}
+
+		608 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+						 }
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_the_future_of_arms
+		icon = GFX_goal_generic_construct_mil_factory
+    prerequisite = { focus = MAN_build_the_south focus = MAN_ports_for_power }
+		x = 18
+		y = 5
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_the_future_of_arms"
+
+		328 = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+								type = arms_factory
+								level = 2
+								instant_build = yes
+						 }
+		}
+
+		add_tech_bonus = {
+			name = infantry_bonus
+			bonus = 0.35
+			uses = 1
+			category = infantry_weapons
+		}
+
+		}
+
+	}
+
+
+	shared_focus = {
+		id = MAN_develop_hsinking
+		icon = GFX_goal_generic_construct_mil_factory
+    prerequisite = { focus = MAN_problems_with_industry }
+		mutually_exclusive = { focus = MAN_develop_beijing }
+		x = 18
+		y = 1
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_tech = dispersed_industry
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_develop_hsinking"
+
+		328 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+						 }
+		}
+
+		879 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+						 }
+		}
+
+		880 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+						 }
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_countryside_industry
+		icon = GFX_goal_generic_construct_civ_factory
+    prerequisite = { focus = MAN_develop_hsinking }
+		x = 18
+		y = 2
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_tech = dispersed_industry2
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_countryside_industry"
+
+		add_tech_bonus = {
+			name = industry_bonus
+			bonus = 0.35
+			uses = 1
+			category = industry
+		}
+
+		715 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+						 }
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_interior_defense
+		icon = GFX_goal_generic_construct_military
+    prerequisite = { focus = MAN_countryside_industry }
+		x = 18
+		y = 3
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_tech = dispersed_industry3
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_interior_defense"
+
+		add_ideas = MAN_interior_defense_doctrine
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_ports_for_power
+		icon = GFX_goal_BEL_Battleship_Investements
+    prerequisite = { focus = MAN_interior_defense }
+		x = 18
+		y = 4
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_tech = dispersed_industry4
+				owns_state = 716
+				owns_state = 609
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_ports_for_power"
+
+			716 = {
+						 	add_extra_state_shared_building_slots = 2
+						 	add_building_construction = {
+								 	type = dockyard
+								 	level = 2
+								 	instant_build = yes
+						 	 }
+	 		}
+
+			609 = {
+							 add_extra_state_shared_building_slots = 2
+							 add_building_construction = {
+									 type = dockyard
+									 level = 2
+									 instant_build = yes
+							 }
+		 }
+		add_timed_idea = { idea = MAN_electrifying_the_cities days = 90 }
+		add_timed_idea = { idea = MAN_leasing_ports  days = 90 }
+
+	}
+
+	}
+
+	shared_focus = {
+		id = MAN_the_power_of_the_unions
+		icon = GFX_goal_syndicalist_industry
+    prerequisite = { focus = MAN_problems_with_industry }
+		x = 22
+		y = 1
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_the_power_of_the_unions"
+
+		country_event = man.53
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_union_integration
+		icon = GFX_goal_government_icon
+    prerequisite = { focus = MAN_the_power_of_the_unions }
+		mutually_exclusive = { focus = MAN_union_compromise }
+		mutually_exclusive = { focus = MAN_union_elimination }
+		x = 20
+		y = 2
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+		available = {
+				has_global_flag = MAN_unions_integrated
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_union_integration"
+		add_timed_idea = { idea = MAN_unions_are_integrated days = 45 }
+		add_political_power = 50
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_union_compromise
+		icon = GFX_goal_syndicalism
+    prerequisite = { focus = MAN_the_power_of_the_unions }
+		mutually_exclusive = { focus = MAN_union_integration }
+		mutually_exclusive = { focus = MAN_union_elimination }
+		x = 22
+		y = 2
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+		available = {
+        has_global_flag = MAN_compromise_with_the_unions
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_union_compromise"
+		add_timed_idea = { idea = MAN_compromise_of_the_unions days = 70 }
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_union_elimination
+		icon = GFX_goal_anti_comintern_pact
+    prerequisite = { focus = MAN_the_power_of_the_unions }
+		mutually_exclusive = { focus = MAN_union_integration }
+		mutually_exclusive = { focus = MAN_union_compromise }
+		x = 24
+		y = 2
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+		available = {
+        has_global_flag = MAN_end_of_the_association
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_union_elimination"
+		add_timed_idea = { idea = MAN_dismantling_the_unions days = 45 }
+		add_political_power = 50
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_a_stale_culture
+		icon = GFX_goal_constitutional_guarantees
+    prerequisite = { focus = MAN_union_compromise focus = MAN_union_elimination focus = MAN_union_integration }
+		x = 22
+		y = 3
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_a_stale_culture"
+
+		country_event = man.52
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_public_works
+		icon = GFX_goal_generic_construction
+    prerequisite = { focus = MAN_a_stale_culture }
+		x = 20
+		y = 4
+		cost = 10
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_public_works"
+
+    add_political_power = -50
+		country_event = man.51
+		add_timed_idea = { idea = MAN_electrifying_the_cities days = 90 }
+		custom_effect_tooltip = 8_MAN_tt
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_in_honor_of_the_warlord
+		icon = GFX_goal_conscription
+    prerequisite = { focus = MAN_public_works }
+		x = 20
+		y = 5
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_global_flag = zhang_zuolin_dead
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_in_honor_of_the_warlord"
+
+		add_stability = 0.075
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_dedication_to_china
+		icon = GFX_focus_chi_one_china_policy
+    prerequisite = { focus = MAN_in_honor_of_the_warlord }
+		x = 20
+		y = 6
+		cost = 7
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    ai_will_do = {
+			factor = 3
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_dedication_to_china"
+
+		add_political_power = 100
+
+
+		}
+	}
+
+	shared_focus = {
+		id = MAN_demand_warlord_tribute
+		icon = GFX_focus_generic_combined_arms
+    prerequisite = { focus = MAN_a_stale_culture }
+		x = 22
+		y = 4
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_demand_warlord_tribute"
+
+		add_equipment_to_stockpile = { type = infantry_equipment amount = 2552 producer = MAN }
+		add_political_power = -20
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_funding_for_the_people
+		icon = GFX_focus_research
+    prerequisite = { focus = MAN_demand_warlord_tribute }
+		x = 22
+		y = 5
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_funding_for_the_people"
+
+		add_research_slot = 1
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_tianjin_naval_academy
+		icon = GFX_goal_navy_decision
+    prerequisite = { focus = MAN_funding_for_the_people }
+		x = 22
+		y = 6
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				owns_state = 608
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_tianjin_naval_academy"
+
+			add_ideas = MAN_tianjin_naval_academy_idea
+
+       608 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = dockyard
+                    level = 1
+                    instant_build = yes
+                }
+			}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_demand_local_tithing
+		icon = GFX_goal_HOL_sustain_neutrality
+    prerequisite = { focus = MAN_a_stale_culture }
+		x = 24
+		y = 4
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_demand_local_tithing"
+
+		add_political_power = -50
+
+		add_ideas = MAN_power_from_the_people
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_increase_rural_conscription
+		icon = GFX_goal_army_guy
+    prerequisite = { focus = MAN_demand_local_tithing }
+		x = 24
+		y = 5
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_increase_rural_conscription"
+			swap_ideas = {
+  			remove_idea = MAN_power_from_the_people
+ 				add_idea = MAN_power_from_the_people_conscription
+ 			}
+			add_political_power = -75
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_harbin_military_academy
+		icon = GFX_goal_generic_construct_mil_factory
+    prerequisite = { focus = MAN_increase_rural_conscription }
+		x = 24
+		y = 6
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				owns_state = 328
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_harbin_military_academy"
+
+		army_experience = 10
+		add_ideas = MAN_harbin_military_academy_idea
+		328 = {
+						 add_extra_state_shared_building_slots = 1
+						 add_building_construction = {
+								 type = arms_factory
+								 level = 1
+								 instant_build = yes
+						 }
+	 				 }
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_a_people_at_sea
+		icon = GFX_goal_A_People_At_Sea
+    prerequisite = { focus = MAN_dedication_to_china}
+		prerequisite = { focus = MAN_tianjin_naval_academy }
+		x = 21
+		y = 7
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_a_people_at_sea"
+
+    add_political_power = -50
+
+		  add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_war_ideology
+		icon = GFX_goal_military_academy
+    prerequisite = { focus = MAN_harbin_military_academy}
+		prerequisite = { focus = MAN_tianjin_naval_academy }
+		x = 23
+		y = 7
+		cost = 7
+
+    ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_war_ideology"
+
+    add_political_power = -60
+
+			add_doctrine_cost_reduction = {
+				name = MAN_war_ideology
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_chinese_academies_for_chinese_students
+		icon = GFX_goal_great_science
+    prerequisite = { focus = MAN_a_people_at_sea focus = MAN_war_ideology }
+		available = {
+        ZHI = { exists = no }
+				CHI = { exists = no }
+				MAN = {
+					controls_state = 606
+				}
+				MAN = {
+					controls_state = 613
+				}
+				NOT = {
+				has_war_with = JAP
+				}
+    }
+		x = 22
+		y = 8
+		cost = 7
+
+    ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_chinese_academies_for_chinese_students"
+        add_research_slot = 1
+    }
+
+	}
+
+	#### MILITARY / AIRFORCE / NAVY ####
+
+	shared_focus = {
+		id = MAN_state_of_the_army
+		icon = GFX_focus_generic_strike_at_democracy1
+		available = {
+    }
+		x = 21
+		y = 9
+		cost = 7
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+		available = { always = no }
+
+		bypass = {
+		date > 1936.10.01
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_the_doctrine_of_war
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = MAN_state_of_the_army }
+		available = {
+    }
+		x = 21
+		y = 10
+		cost = 7
+
+		available = { always = no }
+
+		bypass = { has_global_flag = MAN_advances }
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	}
+
+	 shared_focus = {
+		id = MAN_superior_firepower_doctrine
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = MAN_the_doctrine_of_war }
+		available = {
+    }
+		x = 19
+		y = 11
+		cost = 7
+
+    ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = ZHI
+          has_war_with = JAP
+				}
+			}
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_global_flag = MAN_interests
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_superior_firepower_doctrine"
+
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.35
+			uses = 1
+			category = cat_superior_firepower
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_support_for_soldiers
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = MAN_superior_firepower_doctrine }
+		available = {
+		}
+		x = 19
+		y = 12
+		cost = 7
+
+    ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = ZHI
+          has_war_with = JAP
+				}
+			}
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+				NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+		}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_support_for_soldiers"
+
+		add_tech_bonus = {
+				category = support_tech
+				bonus = 0.35
+				uses = 1
+			}
+
+			add_tech_bonus = {
+					category = artillery
+					bonus = 0.35
+					uses = 1
+				}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_grand_battleplan_doctrine
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = MAN_the_doctrine_of_war }
+		available = {
+    }
+		x = 21
+		y = 11
+		cost = 7
+
+    ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = ZHI
+          has_war_with = JAP
+				}
+			}
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_global_flag = MAN_making_preperations
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_grand_battleplan_doctrine"
+
+		add_doctrine_cost_reduction  = {
+			cost_reduction = 0.35
+			uses = 1
+			category = cat_grand_battle_plan
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_elite_fighters
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = MAN_grand_battleplan_doctrine }
+		available = {
+    }
+		x = 21
+		y = 12
+		cost = 7
+
+    ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = ZHI
+          has_war_with = JAP
+				}
+			}
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_elite_fighters"
+
+		add_tech_bonus = {
+			bonus = 0.2333
+			uses = 1
+			category = marine_tech
+		}
+
+		add_tech_bonus = {
+			bonus = 0.2333
+			uses = 1
+			category = para_tech
+		}
+
+		add_tech_bonus = {
+			bonus = 0.2333
+			uses = 1
+			category = mountaineers_tech
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_mass_assault_doctrine
+		icon = GFX_goal_conscription
+		prerequisite = { focus = MAN_the_doctrine_of_war }
+		available = {
+    }
+		x = 23
+		y = 11
+		cost = 7
+
+    ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = ZHI
+          has_war_with = JAP
+				}
+			}
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+				has_global_flag = MAN_japan_is_making_a_move
+        has_global_flag = MAN_pan_asianism
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_mass_assault_doctrine"
+
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.35
+			uses = 1
+			category = cat_mass_assault
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_weapons_for_warriors
+		icon = GFX_goal_panzerwaffe
+		prerequisite = { focus = MAN_mass_assault_doctrine }
+		available = {
+    }
+		x = 23
+		y = 12
+		cost = 7
+
+    ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = ZHI
+          has_war_with = JAP
+				}
+			}
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_weapons_for_warriors"
+
+		add_tech_bonus = {
+			bonus = 0.70
+			uses = 1
+			category = infantry_weapons
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_quick
+		icon = GFX_focus_prc_infiltration
+		prerequisite = { focus = MAN_support_for_soldiers }
+		available = {
+    }
+		x = 19
+		y = 13
+		cost = 7
+
+    ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = ZHI
+          has_war_with = JAP
+				}
+			}
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_quick"
+
+		army_experience = 10
+		add_ideas = MAN_doctrine_of_speed
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_clean
+		icon = GFX_goal_national_mobilization
+		prerequisite = { focus = MAN_elite_fighters }
+		available = {
+    }
+		x = 21
+		y = 13
+		cost = 7
+
+    ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = ZHI
+          has_war_with = JAP
+				}
+			}
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_clean"
+
+		army_experience = 10
+		add_ideas = MAN_doctrine_of_caution
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_piles_of_dead_bodies
+		icon = GFX_goal_checkmate
+		prerequisite = { focus = MAN_weapons_for_warriors }
+		available = {
+    }
+		x = 23
+		y = 13
+		cost = 7
+
+    ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = ZHI
+          has_war_with = JAP
+				}
+			}
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_piles_of_dead_bodies"
+
+		army_experience = 10
+		add_ideas = MAN_doctrine_of_dedication
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_state_of_the_navy
+		icon = GFX_goal_generic_coastal_navy2
+		prerequisite = { focus = MAN_quick focus = MAN_clean focus = MAN_piles_of_dead_bodies }
+		available = {
+    }
+		x = 21
+		y = 14
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_state_of_the_navy"
+
+		navy_experience = 10
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_layered_doctrine
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = { focus = MAN_state_of_the_navy }
+		mutually_exclusive = { focus = MAN_convoy_controllers focus = MAN_high_seas_chokepoints }
+		available = {
+    }
+		x = 19
+		y = 15
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_layered_doctrine"
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.35
+			uses = 1
+			category = cat_fleet_in_being
+		}
+	}
+}
+
+	shared_focus = {
+		id = MAN_heavy_ships
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = MAN_layered_doctrine }
+		available = {
+    }
+		x = 19
+		y = 16
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_heavy_ships"
+
+		add_tech_bonus = {
+			bonus = 0.30
+			uses = 1
+			category = bb_tech
+		}
+
+		add_tech_bonus = {
+			bonus = 0.30
+			uses = 1
+			category = ca_tech
+		}
+
+		add_tech_bonus = {
+			bonus = 0.30
+			uses = 1
+			category = bc_tech
+		}
+
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_convoy_controllers
+		icon = GFX_goal_generic_air_naval_bomber
+		prerequisite = { focus = MAN_state_of_the_navy }
+		mutually_exclusive = { focus = MAN_layered_doctrine focus = MAN_high_seas_chokepoints }
+		available = {
+    }
+		x = 21
+		y = 15
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_convoy_controllers"
+
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.35
+			uses = 1
+			category = cat_trade_interdiction
+		}
+	}
+}
+
+	shared_focus = {
+		id = MAN_fast_fleets
+		icon = GFX_goal_generic_navy_anti_submarine
+		prerequisite = { focus = MAN_convoy_controllers }
+		available = {
+    }
+		x = 21
+		y = 16
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_fast_fleets"
+
+		add_tech_bonus = {
+			bonus = 0.30
+			uses = 1
+			category = ss_tech
+		}
+
+		add_tech_bonus = {
+			bonus = 0.30
+			uses = 1
+			category = cl_tech
+		}
+
+		add_tech_bonus = {
+			bonus = 0.30
+			uses = 1
+			category = ca_tech
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_high_seas_chokepoints
+		icon = GFX_goal_generic_navy_carrier
+		prerequisite = { focus = MAN_state_of_the_navy }
+		mutually_exclusive = { focus = MAN_layered_doctrine focus = MAN_convoy_controllers }
+		available = {
+    }
+		x = 23
+		y = 15
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_high_seas_chokepoints"
+
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.35
+			uses = 1
+			category = cat_base_strike
+		}
+	}
+}
+
+	shared_focus = {
+		id = MAN_superheavy_fleets
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = MAN_high_seas_chokepoints }
+		available = {
+    }
+		x = 23
+		y = 16
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+      modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_superheavy_fleets"
+
+		add_tech_bonus = {
+			bonus = 0.22
+			uses = 1
+			category = dd_tech
+		}
+
+		add_tech_bonus = {
+			bonus = 0.22
+			uses = 1
+			category = cl_tech
+		}
+
+		add_tech_bonus = {
+			bonus = 0.22
+			uses = 1
+			category = ca_tech
+		}
+
+		add_tech_bonus = {
+			bonus = 0.22
+			uses = 1
+			category = ss_tech
+		}
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_state_of_the_airforce
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = MAN_heavy_ships focus = MAN_fast_fleets focus = MAN_superheavy_fleets }
+		available = {
+    }
+		x = 21
+		y = 17
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_state_of_the_airforce"
+
+		air_experience = 10
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_target_cities_and_factories
+		icon = GFX_goal_generic_occupy_start_war
+		prerequisite = { focus = MAN_state_of_the_airforce }
+		mutually_exclusive = { focus = MAN_target_people_in_the_air focus = MAN_target_people_on_the_ground }
+		available = {
+    }
+		x = 19
+		y = 18
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_target_cities_and_factories"
+
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.50
+			uses = 1
+			category = cat_strategic_destruction
+		}
+	}
+}
+
+	shared_focus = {
+		id = MAN_target_people_on_the_ground
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = MAN_state_of_the_airforce }
+		mutually_exclusive = { focus = MAN_target_people_in_the_air focus = MAN_target_cities_and_factories }
+		available = {
+    }
+		x = 21
+		y = 18
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+    completion_reward = {
+      log = "[GetDateText]: [Root.GetName]: Focus MAN_target_people_on_the_ground"
+
+      add_doctrine_cost_reduction = {
+        cost_reduction = 0.50
+        uses = 1
+        category = cat_battlefield_support
+      }
+    }
+  }
+
+	shared_focus = {
+		id = MAN_target_people_in_the_air
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = MAN_state_of_the_airforce }
+		mutually_exclusive = { focus = MAN_target_cities_and_factories focus = MAN_target_people_on_the_ground}
+		available = {
+    }
+		x = 23
+		y = 18
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_target_people_in_the_air"
+
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.50
+			uses = 1
+			category = cat_operational_integrity
+		}
+	}
+}
+
+	shared_focus = {
+		id = MAN_plane_manufactories
+		icon = GFX_goal_generic_air_production
+		prerequisite = { focus = MAN_target_cities_and_factories focus = MAN_target_people_in_the_air focus = MAN_target_people_on_the_ground }
+		available = {
+    }
+		x = 20
+		y = 19
+		cost = 7
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_plane_manufactories"
+
+		add_ideas = MAN_buildings_for_the_airforce_arms_factories
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_plane_fields
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = MAN_target_cities_and_factories focus = MAN_target_people_in_the_air focus = MAN_target_people_on_the_ground }
+		available = {
+    }
+		x = 22
+		y = 19
+		cost = 3
+
+    ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_plane_fields"
+
+		add_ideas = MAN_buildings_for_the_airforce_air_fields
+
+		}
+
+	}
+
+	shared_focus = {
+		id = MAN_buildings_for_the_air
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = MAN_plane_manufactories }
+		prerequisite = { focus = MAN_plane_fields }
+		available = {
+    }
+		x = 21
+		y = 20
+		cost = 3
+
+    ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+        NOT = {
+				has_global_flag = MAN_in_a_state_of_anarchy
+				}
+    }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MAN_buildings_for_the_air"
+
+		328 = {
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+								type = arms_factory
+								level = 2
+								instant_build = yes
+						 }
+		}
+
+		328 = {
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+								type = air_base
+								level = 3
+								instant_build = yes
+						 }
+		}
+	}
+}
+
+	### OTHER TREES ###

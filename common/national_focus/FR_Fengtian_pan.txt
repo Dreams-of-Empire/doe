@@ -1,0 +1,829 @@
+focus_tree = {
+	id = FR_Fengtian_pan
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			tag = MAN
+		}
+	}
+  continuous_focus_position = { x = 50 y = 3200 }
+
+  ### Awakened Pan-Asianism ###
+    shared_focus = MAN_new_political_modernization
+    shared_focus = MAN_problems_with_industry
+    shared_focus = MAN_state_of_the_army
+
+		focus = {
+			id = MAN_sponsored_rallies
+			icon = GFX_focus_generic_military_academy
+			cost = 5
+			x = 4
+			y = 11
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_sponsored_rallies"
+
+			swap_ideas = {
+				remove_idea = MAN_antijapanese_sentiment
+				add_idea = MAN_lessened_antijapanese_sentiment
+			}
+
+			add_popularity = { ideology = valkist popularity = 0.05 }
+
+			}
+		}
+
+		focus = {
+			id = MAN_zhili_reproachment
+			icon = Zhili_Expedition
+			prerequisite = { focus = MAN_sponsored_rallies }
+			cost = 5
+			x = 0
+			y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_zhili_reproachment"
+
+			}
+		}
+
+		focus = {
+			id = MAN_burn_antijapanese_literature
+			icon = KTG_Bookstack
+			prerequisite = { focus = MAN_sponsored_rallies }
+			cost = 5
+			x = 2
+			y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_burn_antijapanese_literature"
+
+			remove_ideas = MAN_lessened_antijapanese_sentiment
+
+			add_popularity = { ideology = valkist popularity = 0.05 }
+
+			add_to_variable = {
+			var = MAN_fengtian_influence_with_japan
+			value = 1
+			}
+
+			custom_effect_tooltip = 12_MAN_tt
+
+			}
+		}
+
+		focus = {
+			id = MAN_a_fate_together
+			icon = GFX_Fengitan_Japan_cooperation_2
+			prerequisite = { focus = MAN_sponsored_rallies }
+			cost = 1
+			x = 4
+			y = 12
+			bypass = {
+				JAP = {
+					OR = {
+						has_country_flag = JAP_support_MAN
+						has_country_flag = JAP_support_ZHI
+					}
+				}
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_a_fate_together"
+
+			add_to_variable = {
+			var = MAN_fengtian_influence_with_japan
+			value = 1
+			}
+
+			custom_effect_tooltip = 12_MAN_tt
+
+			add_popularity = { ideology = valkist popularity = 0.05 }
+
+			}
+		}
+
+		focus = {
+			id = MAN_request_japanese_economic_stimulus
+			icon = GFX_goal_AST_new_markets
+			prerequisite = { focus = MAN_sponsored_rallies }
+			cost = 9
+			x = 7
+			y = 12
+			available = {
+				NOT = {
+					has_idea = MAN_japan_subsidized_military
+				}
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_request_japanese_economic_stimulus"
+
+			add_to_variable = {
+			var = MAN_fengtian_influence_with_japan
+			value = 1
+			}
+
+			custom_effect_tooltip = 12_MAN_tt
+
+			JAP = { country_event = { id = man.83 days = 1 } }
+
+			}
+		}
+
+		focus = {
+			id = MAN_request_japanese_military_stimulus
+			icon = GFX_goal_arisaka
+			prerequisite = { focus = MAN_sponsored_rallies }
+			cost = 9
+			x = 9
+			y = 12
+			available = {
+				NOT = {
+					has_idea = MAN_japan_subsidized_economy
+				}
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_request_japanese_military_stimulus"
+
+			add_to_variable = {
+			var = MAN_fengtian_influence_with_japan
+			value = 1
+			}
+
+			custom_effect_tooltip = 12_MAN_tt
+
+			JAP = { country_event = { id = man.86 days = 1 } }
+
+			}
+		}
+
+		focus = {
+			id = MAN_eliminate_sichuan
+			icon = GFX_goal_demand_sudetenland
+			prerequisite = { focus = MAN_sponsored_rallies }
+			cost = 5
+			x = 11
+			y = 12
+			available = {
+			SCH = { exists = yes }
+			ZHI = { exists = no }
+			}
+			will_lead_to_war_with = SCH
+			bypass = {
+				SCH = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_eliminate_sichuan"
+
+			declare_war_on = { type = annex_everything target = SCH }
+
+			}
+		}
+
+		focus = {
+			id = MAN_sichuanese_factories
+			icon = GFX_goal_generic_construct_mil_factory
+			prerequisite = { focus = MAN_sponsored_rallies }
+			cost = 5
+			x = 11
+			y = 13
+			available = {
+					MAN = {
+						controls_state = 605
+					}
+					MAN = {
+						controls_state = 895
+					}
+					SCH = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_sichuanese_factories"
+
+			605 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							 }
+			}
+
+			895 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							 }
+			}
+
+			}
+		}
+
+		focus = {
+			id = MAN_the_yunnan_question
+			icon = GFX_goal_generic_occupy_states_ongoing_war
+			prerequisite = { focus = MAN_sponsored_rallies }
+			cost = 5
+			x = 13
+			y = 12
+			available = {
+			YUN = { exists = yes }
+			ZHI = { exists = no }
+			}
+			will_lead_to_war_with = YUN
+			bypass = {
+				YUN = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_the_yunnan_question"
+
+			declare_war_on = { type = annex_everything target = YUN }
+
+			}
+		}
+
+		focus = {
+			id = MAN_yunnanese_factories
+			icon = GFX_goal_generic_construct_mil_factory
+			cost = 5
+			prerequisite = { focus = MAN_the_yunnan_question }
+			x = 13
+			y = 13
+			available = {
+					MAN = {
+						controls_state = 603
+					}
+					MAN = {
+						controls_state = 325
+					}
+					YUN = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_yunnanese_factories"
+
+			603 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							 }
+			}
+
+			325 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							 }
+			}
+
+			}
+		}
+
+		focus = {
+			id = MAN_japan_sides_with_the_zhili
+			icon = GFX_Fengitan_Flag_2
+			mutually_exclusive = { focus = MAN_japan_sides_with_us }
+			prerequisite = { focus = MAN_burn_antijapanese_literature focus = MAN_a_fate_together }
+			cost = 1
+			x = 2
+			y = 13
+			bypass = {
+				JAP = {
+					has_country_flag = JAP_support_ZHI
+				}
+			}
+			available = { always = no }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_japan_sides_with_the_zhili"
+
+			}
+		}
+
+		focus = {
+			id = MAN_japan_sides_with_us
+			icon = GFX_Fengitan_Japan_cooperation
+			mutually_exclusive = { focus = MAN_japan_sides_with_the_zhili }
+			prerequisite = { focus = MAN_burn_antijapanese_literature }
+			prerequisite = { focus = MAN_a_fate_together }
+			cost = 1
+			x = 5
+			y = 13
+			bypass = {
+				JAP = {
+					has_country_flag = JAP_support_MAN
+					}
+			}
+			available = { always = no }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_japan_sides_with_us"
+
+			}
+		}
+
+		focus = {
+			id = MAN_rally_chinese_states
+			icon = GFX_focus_generic_diplomatic_treaty
+			prerequisite = { focus = MAN_japan_sides_with_us }
+			cost = 5
+			x = 4
+			y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_rally_chinese_states"
+
+			add_political_power = 20
+			XSM = { country_event = { id = man.104 hours = 2 } }
+			SHX = { country_event = { id = man.104 hours = 2 } }
+			SIK = { country_event = { id = man.104 hours = 2 } }
+
+			}
+		}
+
+		focus = {
+			id = MAN_the_zhili_must_fall
+			icon = GFX_goal_Zhili_Expedition
+			prerequisite = { focus = MAN_japan_sides_with_us }
+			cost = 5
+			x = 6
+			y = 14
+			bypass = {
+			has_war_with = ZHI
+			}
+			will_lead_to_war_with = ZHI
+			bypass = {
+				ZHI = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_the_zhili_must_fall"
+
+			declare_war_on = {
+				type = annex_everything
+				target = ZHI
+			}
+
+			}
+		}
+
+		focus = {
+			id = MAN_japanese_economic_ties
+			icon = GFX_focus_chi_collaboration_with_the_japanese
+			prerequisite = { focus = MAN_the_zhili_must_fall }
+			cost = 5
+			x = 4
+			y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_japanese_economic_ties"
+
+			add_ideas = MAN_the_silver_age_of_manchuria_2
+
+			JAP = { add_ideas = MAN_manchurian_economic_gains }
+
+			}
+		}
+
+		focus = {
+			id = MAN_japanese_factories_1
+			icon = GFX_goal_generic_construct_mil_factory
+			prerequisite = { focus = MAN_japanese_economic_ties }
+			cost = 5
+			x = 4
+			y = 16
+			available = {
+					MAN = {
+						controls_state = 715
+					}
+					NOT = {
+					has_war_with = JAP
+					}
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_japanese_factories_1"
+
+			715 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							 }
+			}
+
+			}
+		}
+
+		focus = {
+			id = MAN_japanese_factories_2
+			icon = GFX_goal_generic_construct_mil_factory
+			prerequisite = { focus = MAN_japanese_factories_1 }
+			cost = 5
+			x = 4
+			y = 17
+			available = {
+					MAN = {
+						controls_state = 717
+					}
+					MAN = {
+						controls_state = 880
+					}
+					NOT = {
+					has_war_with = JAP
+					}
+					OR = {
+					ZHI = { exists = no }
+					has_war_with = ZHI
+					}
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_japanese_factories_2"
+
+			717 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							 }
+			}
+
+			880 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+							 }
+			}
+
+			}
+		}
+
+		focus = {
+			id = MAN_rally_the_country
+			icon = GFX_goal_generic_national_unity
+			prerequisite = { focus = MAN_the_zhili_must_fall }
+			cost = 2
+			x = 6
+			y = 15
+			ai_will_do = {
+			factor = 100
+			}
+			bypass = {
+			has_completed_focus = MAN_the_zhili_must_fall
+			NOT = {
+				has_war_with = ZHI
+			}
+			ZHI = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_rally_the_country"
+
+			add_timed_idea = { idea = MAN_fengtian_rallies_for_the_cause  days = 120 }
+
+			}
+		}
+
+		focus = {
+			id = MAN_affront_the_kuomintang
+			icon = GFX_focus_generic_china1
+			prerequisite = { focus = MAN_rally_the_country }
+			cost = 5
+			x = 6
+			y = 16
+			will_lead_to_war_with = CHI
+			bypass = {
+				CHI = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_affront_the_kuomintang"
+
+			declare_war_on = { type = annex_everything target = CHI }
+
+			}
+		}
+
+		focus = {
+			id = MAN_affront_the_guanxi
+			icon = GFX_focus_generic_china1
+			prerequisite = { focus = MAN_rally_the_country }
+			cost = 5
+			x = 10
+			y = 16
+			will_lead_to_war_with = GXC
+			bypass = {
+				GXC = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_affront_the_guanxi"
+
+			declare_war_on = { type = annex_everything target = GXC }
+
+			}
+		}
+
+		focus = {
+			id = MAN_border_wars
+			icon = GFX_focus_generic_provoke_border_clashes
+			prerequisite = { focus = MAN_affront_the_kuomintang focus = MAN_affront_the_guanxi }
+			available = {
+			CHI = { exists = no }
+			}
+			cost = 5
+			x = 6
+			y = 17
+			will_lead_to_war_with = GXC
+			will_lead_to_war_with = XSM
+			bypass = {
+				GXC = { exists = no }
+				XSM = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_border_wars"
+
+			declare_war_on = { type = annex_everything target = GXC }
+			declare_war_on = { type = annex_everything target = XSM }
+
+			}
+		}
+
+		focus = {
+			id = MAN_chinese_hegemony
+			icon = GFX_goal_boat_at_sea
+			prerequisite = { focus = MAN_border_wars }
+			cost = 5
+			x = 6
+			y = 18
+			available = {
+				ZHI = { exists = no }
+				CHI = { exists = no }
+				GXC = { exists = no }
+				SCH = { exists = no }
+				YUN = { exists = no }
+				NOT = {
+					has_war_with = JAP
+				}
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_chinese_hegemony"
+				add_political_power = 100
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		focus = {
+			id = MAN_japan_demands_money
+			icon = GFX_goal_japanese_corporations_1
+			prerequisite = { focus = MAN_chinese_hegemony }
+			cost = 5
+			x = 6
+			y = 19
+			ai_will_do = {
+			factor = 100
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_japan_demands_money"
+
+			country_event = man.103
+
+			}
+		}
+
+		focus = {
+			id = MAN_syncretic_statehood
+			icon = GFX_Fengitan_Japan_cooperation_2
+			prerequisite = { focus = MAN_japan_demands_money }
+			cost = 5
+			x = 6
+			y = 20
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_syncretic_statehood"
+
+			custom_effect_tooltip = 16_MAN_tt
+
+			add_political_power = 35
+
+			}
+		}
+
+		focus = {
+			id = MAN_betrayal_from_above
+			icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = MAN_japan_sides_with_the_zhili }
+			cost = 5
+			x = 2
+			y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_betrayal_from_above"
+
+			add_political_power = -50
+
+			}
+		}
+
+		focus = {
+			id = MAN_our_young_government_collapses
+			icon = GFX_focus_renounce_the_treaty_of_triannon
+			mutually_exclusive = { focus = MAN_a_new_kind_of_panasianism }
+			prerequisite = { focus = MAN_betrayal_from_above }
+			cost = 5
+			x = 0
+			y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_our_young_government_collapses"
+
+			remove_ideas = MAN_japan_sides_with_the_zhili_idea
+
+			add_ideas = MAN_greater_antijapanese_sentiment
+
+			}
+		}
+
+		focus = {
+			id = MAN_the_vacuum
+			icon = GFX_goal_skull_treaty
+			cost = 5
+			prerequisite = { focus = MAN_our_young_government_collapses }
+			x = 0
+			y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_the_vacuum"
+
+			country_event = man.63
+
+			}
+		}
+
+		focus = {
+			id = MAN_a_new_kind_of_panasianism
+			icon = GFX_goal_Five_Races_National_Populist
+			mutually_exclusive = { focus = MAN_our_young_government_collapses }
+			prerequisite = { focus = MAN_betrayal_from_above }
+			cost = 5
+			x = 2
+			y = 15
+			bypass = {
+			ZHI = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_a_new_kind_of_panasianism"
+
+			custom_effect_tooltip = 15_MAN_tt
+
+			remove_ideas = MAN_japan_sides_with_the_zhili_idea
+
+			country_event = man.64
+
+			}
+		}
+
+		focus = {
+			id = MAN_strike_west
+			icon = GFX_goal_generic_attack_allies
+			prerequisite = { focus = MAN_a_new_kind_of_panasianism }
+			cost = 5
+			x = 2
+			y = 16
+			bypass = {
+				NOT = {
+					XSM = {
+						controls_state = 621
+						}
+				}
+			}
+			available = {
+				XSM = {
+					controls_state = 621
+					}
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_strike_west"
+
+			XSM = { country_event = { id = man.66 days = 2 } }
+
+			}
+		}
+
+		focus = {
+			id = MAN_demand_fealty_from_the_shanxi
+			icon = GFX_goal_generic_attack_allies
+			prerequisite = { focus = MAN_strike_west }
+			cost = 5
+			x = 2
+			y = 17
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_demand_fealty_from_the_shanxi"
+
+			}
+		}
+
+		focus = {
+			id = MAN_demand_chahar
+			icon = GFX_goal_generic_major_war
+			prerequisite = { focus = MAN_demand_fealty_from_the_shanxi }
+			cost = 5
+			x = 2
+			y = 18
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_demand_chahar"
+
+			}
+		}
+
+		focus = {
+			id = MAN_the_ma
+			icon = GFX_goal_generic_alliance
+			prerequisite = { focus = MAN_demand_chahar }
+			cost = 5
+			x = 2
+			y = 19
+			bypass = {
+			XSM = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_the_ma"
+
+			}
+		}
+
+		focus = {
+			id = MAN_we_will_take_the_south
+			icon = GFX_goal_generic_secret_weapon
+			cost = 10
+			prerequisite = { focus = MAN_strike_west }
+			x = 2
+			y = 17
+			bypass = {
+			has_war_with = CHI
+			}
+			will_lead_to_war_with = GXC
+			bypass = {
+				CHI = { exists = no }
+				GXC = { exists = no }
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_we_will_take_the_south"
+
+			declare_war_on = {
+				type = annex_everything
+				target = CHI
+			}
+
+
+			declare_war_on = { type = annex_everything target = GXC }
+
+			}
+		}
+
+		focus = {
+			id = MAN_demand_the_japanese_leave
+			icon = GFX_goal_generic_demand_territory
+			cost = 5
+			prerequisite = { focus = MAN_we_will_take_the_south }
+			x = 2
+			y = 18
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_demand_the_japanese_leave"
+
+			}
+		}
+
+		focus = {
+			id = MAN_a_united_china
+			icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+			cost = 5
+			prerequisite = { focus = MAN_demand_the_japanese_leave }
+			x = 2
+			y = 19
+			ai_will_do = {
+			factor = 100
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_a_united_china"
+
+			add_political_power = 75
+
+			}
+		}
+
+		focus = {
+			id = MAN_the_de_facto_chinese_state
+			icon = GFX_goal_liberty
+			cost = 5
+			prerequisite = { focus = MAN_a_united_china }
+			x = 2
+			y = 20
+			ai_will_do = {
+			factor = 100
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_the_de_facto_chinese_state"
+
+			custom_effect_tooltip = 16_MAN_tt
+
+			add_political_power = 50
+
+			}
+		}
+
+}

@@ -1,0 +1,557 @@
+ENG = {
+	small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_ENG_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_ENG_fighter1_medium
+				GFX_ENG_fighter2_medium
+				GFX_ENG_fighter3_medium
+				GFX_ENG_jet_fighter1_medium
+				GFX_ENG_jet_fighter2_medium
+				GFX_ENG_CAS1_medium
+				GFX_ENG_CAS2_medium
+				GFX_ENG_CAS3_medium
+				GFX_ENG_naval_bomber1_medium
+				GFX_ENG_naval_bomber2_medium
+				GFX_ENG_naval_bomber3_medium
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_ENG_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_ENG_fighter1_medium
+				GFX_ENG_fighter2_medium
+				GFX_ENG_fighter3_medium
+				GFX_ENG_jet_fighter1_medium
+				GFX_ENG_jet_fighter2_medium
+				GFX_ENG_CAS1_medium
+				GFX_ENG_CAS2_medium
+				GFX_ENG_CAS3_medium
+				GFX_ENG_naval_bomber1_medium
+				GFX_ENG_naval_bomber2_medium
+				GFX_ENG_naval_bomber3_medium
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_ENG_early_bomber_medium
+				GFX_ENG_tactical_bomber1_medium
+				GFX_ENG_tactical_bomber2_medium
+				GFX_ENG_tactical_bomber3_medium
+				GFX_ENG_jet_tactical_bomber1_medium
+				GFX_ENG_jet_tactical_bomber2_medium
+				GFX_ENG_heavy_fighter1_medium
+				GFX_ENG_heavy_fighter2_medium
+				GFX_ENG_heavy_fighter3_medium
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_ENG_strategic_bomber1_medium
+				GFX_ENG_strategic_bomber2_medium
+				GFX_ENG_strategic_bomber3_medium
+				GFX_ENG_jet_strategic_bomber1_medium
+			}
+		}
+	}
+}
+
+CAN = {
+	small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_CAN_fighter1_medium
+				GFX_CAN_fighter2_medium
+				GFX_CAN_fighter3_medium
+				GFX_CAN_jet_fighter1_medium
+				GFX_CAN_jet_fighter2_medium
+				GFX_CAN_CAS1_medium
+				GFX_CAN_CAS2_medium
+				GFX_CAN_CAS3_medium
+				GFX_CAN_naval_bomber1_medium
+				GFX_CAN_naval_bomber2_medium
+				GFX_CAN_naval_bomber3_medium
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_CAN_fighter1_medium
+				GFX_CAN_fighter2_medium
+				GFX_CAN_fighter3_medium
+				GFX_CAN_jet_fighter1_medium
+				GFX_CAN_jet_fighter2_medium
+				GFX_CAN_CAS1_medium
+				GFX_CAN_CAS2_medium
+				GFX_CAN_CAS3_medium
+				GFX_CAN_naval_bomber1_medium
+				GFX_CAN_naval_bomber2_medium
+				GFX_CAN_naval_bomber3_medium
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_bomber_medium
+				GFX_CAN_tactical_bomber1_medium
+				GFX_CAN_tactical_bomber2_medium
+				GFX_CAN_tactical_bomber3_medium
+				GFX_CAN_jet_tactical_bomber1_medium
+				GFX_CAN_jet_tactical_bomber2_medium
+				GFX_CAN_heavy_fighter1_medium
+				GFX_CAN_heavy_fighter2_medium
+				GFX_CAN_heavy_fighter3_medium
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_strategic_bomber1_medium
+				GFX_CAN_strategic_bomber2_medium
+				GFX_CAN_strategic_bomber3_medium
+				GFX_CAN_jet_strategic_bomber1_medium
+			}
+		}
+	}
+}
+
+RAJ = {
+	small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_CAN_fighter1_medium
+				GFX_CAN_fighter2_medium
+				GFX_CAN_fighter3_medium
+				GFX_CAN_jet_fighter1_medium
+				GFX_CAN_jet_fighter2_medium
+				GFX_CAN_CAS1_medium
+				GFX_CAN_CAS2_medium
+				GFX_CAN_CAS3_medium
+				GFX_CAN_naval_bomber1_medium
+				GFX_CAN_naval_bomber2_medium
+				GFX_CAN_naval_bomber3_medium
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_CAN_fighter1_medium
+				GFX_CAN_fighter2_medium
+				GFX_CAN_fighter3_medium
+				GFX_CAN_jet_fighter1_medium
+				GFX_CAN_jet_fighter2_medium
+				GFX_CAN_CAS1_medium
+				GFX_CAN_CAS2_medium
+				GFX_CAN_CAS3_medium
+				GFX_CAN_naval_bomber1_medium
+				GFX_CAN_naval_bomber2_medium
+				GFX_CAN_naval_bomber3_medium
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_bomber_medium
+				GFX_CAN_tactical_bomber1_medium
+				GFX_CAN_tactical_bomber2_medium
+				GFX_CAN_tactical_bomber3_medium
+				GFX_CAN_jet_tactical_bomber1_medium
+				GFX_CAN_jet_tactical_bomber2_medium
+				GFX_CAN_heavy_fighter1_medium
+				GFX_CAN_heavy_fighter2_medium
+				GFX_CAN_heavy_fighter3_medium
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_strategic_bomber1_medium
+				GFX_CAN_strategic_bomber2_medium
+				GFX_CAN_strategic_bomber3_medium
+				GFX_CAN_jet_strategic_bomber1_medium
+			}
+		}
+	}
+}
+
+AST = {
+	small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_AST_early_fighter_medium
+				GFX_AST_fighter1_medium
+				GFX_AST_fighter2_medium
+				GFX_AST_fighter3_medium
+				GFX_AST_jet_fighter1_medium
+				GFX_AST_jet_fighter2_medium
+				GFX_AST_CAS1_medium
+				GFX_AST_CAS2_medium
+				GFX_AST_CAS3_medium
+				GFX_AST_naval_bomber1_medium
+				GFX_AST_naval_bomber2_medium
+				GFX_AST_naval_bomber3_medium
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_AST_early_fighter_medium
+				GFX_AST_fighter1_medium
+				GFX_AST_fighter2_medium
+				GFX_AST_fighter3_medium
+				GFX_AST_jet_fighter1_medium
+				GFX_AST_jet_fighter2_medium
+				GFX_AST_CAS1_medium
+				GFX_AST_CAS2_medium
+				GFX_AST_CAS3_medium
+				GFX_AST_naval_bomber1_medium
+				GFX_AST_naval_bomber2_medium
+				GFX_AST_naval_bomber3_medium
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_AST_early_bomber_medium
+				GFX_AST_tactical_bomber1_medium
+				GFX_AST_tactical_bomber2_medium
+				GFX_AST_tactical_bomber3_medium
+				GFX_AST_jet_tactical_bomber1_medium
+				GFX_AST_jet_tactical_bomber2_medium
+				GFX_AST_heavy_fighter1_medium
+				GFX_AST_heavy_fighter2_medium
+				GFX_AST_heavy_fighter3_medium
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_AST_strategic_bomber1_medium
+				GFX_AST_strategic_bomber2_medium
+				GFX_AST_strategic_bomber3_medium
+				GFX_AST_jet_strategic_bomber1_medium
+			}
+		}
+	}
+}
+
+NZL = {
+	small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_CAN_fighter1_medium
+				GFX_CAN_fighter2_medium
+				GFX_CAN_fighter3_medium
+				GFX_CAN_jet_fighter1_medium
+				GFX_CAN_jet_fighter2_medium
+				GFX_CAN_CAS1_medium
+				GFX_CAN_CAS2_medium
+				GFX_CAN_CAS3_medium
+				GFX_CAN_naval_bomber1_medium
+				GFX_CAN_naval_bomber2_medium
+				GFX_CAN_naval_bomber3_medium
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_CAN_fighter1_medium
+				GFX_CAN_fighter2_medium
+				GFX_CAN_fighter3_medium
+				GFX_CAN_jet_fighter1_medium
+				GFX_CAN_jet_fighter2_medium
+				GFX_CAN_CAS1_medium
+				GFX_CAN_CAS2_medium
+				GFX_CAN_CAS3_medium
+				GFX_CAN_naval_bomber1_medium
+				GFX_CAN_naval_bomber2_medium
+				GFX_CAN_naval_bomber3_medium
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_bomber_medium
+				GFX_CAN_tactical_bomber1_medium
+				GFX_CAN_tactical_bomber2_medium
+				GFX_CAN_tactical_bomber3_medium
+				GFX_CAN_jet_tactical_bomber1_medium
+				GFX_CAN_jet_tactical_bomber2_medium
+				GFX_CAN_heavy_fighter1_medium
+				GFX_CAN_heavy_fighter2_medium
+				GFX_CAN_heavy_fighter3_medium
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_strategic_bomber1_medium
+				GFX_CAN_strategic_bomber2_medium
+				GFX_CAN_strategic_bomber3_medium
+				GFX_CAN_jet_strategic_bomber1_medium
+			}
+		}
+	}
+}
+
+SAF = {
+	small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_SAF_early_fighter_medium
+				"gfx/interface/technologies/South_Africa/SAF_early_fighter_alt.png"
+				GFX_SAF_fighter1_medium
+				GFX_SAF_fighter2_medium
+				GFX_SAF_fighter3_medium
+				GFX_SAF_jet_fighter1_medium
+				GFX_SAF_jet_fighter2_medium
+				GFX_SAF_CAS1_medium
+				GFX_SAF_CAS2_medium
+				GFX_SAF_CAS3_medium
+				GFX_SAF_naval_bomber1_medium
+				GFX_SAF_naval_bomber2_medium
+				GFX_SAF_naval_bomber3_medium
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_SAF_early_fighter_medium
+				"gfx/interface/technologies/South_Africa/SAF_early_fighter_alt.png"
+				GFX_SAF_fighter1_medium
+				GFX_SAF_fighter2_medium
+				GFX_SAF_fighter3_medium
+				GFX_SAF_jet_fighter1_medium
+				GFX_SAF_jet_fighter2_medium
+				GFX_SAF_CAS1_medium
+				GFX_SAF_CAS2_medium
+				GFX_SAF_CAS3_medium
+				GFX_SAF_naval_bomber1_medium
+				GFX_SAF_naval_bomber2_medium
+				GFX_SAF_naval_bomber3_medium
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_SAF_early_bomber_medium
+				GFX_SAF_tactical_bomber1_medium
+				GFX_SAF_tactical_bomber2_medium
+				GFX_SAF_tactical_bomber3_medium
+				GFX_SAF_jet_tactical_bomber1_medium
+				GFX_SAF_jet_tactical_bomber2_medium
+				GFX_SAF_heavy_fighter1_medium
+				GFX_SAF_heavy_fighter2_medium
+				GFX_SAF_heavy_fighter3_medium
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_SAF_strategic_bomber1_medium
+				GFX_SAF_strategic_bomber2_medium
+				GFX_SAF_strategic_bomber3_medium
+				GFX_SAF_jet_strategic_bomber1_medium
+			}
+		}
+	}
+}
+
+NFL = {
+	small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_CAN_fighter1_medium
+				GFX_CAN_fighter2_medium
+				GFX_CAN_fighter3_medium
+				GFX_CAN_jet_fighter1_medium
+				GFX_CAN_jet_fighter2_medium
+				GFX_CAN_CAS1_medium
+				GFX_CAN_CAS2_medium
+				GFX_CAN_CAS3_medium
+				GFX_CAN_naval_bomber1_medium
+				GFX_CAN_naval_bomber2_medium
+				GFX_CAN_naval_bomber3_medium
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_CAN_fighter1_medium
+				GFX_CAN_fighter2_medium
+				GFX_CAN_fighter3_medium
+				GFX_CAN_jet_fighter1_medium
+				GFX_CAN_jet_fighter2_medium
+				GFX_CAN_CAS1_medium
+				GFX_CAN_CAS2_medium
+				GFX_CAN_CAS3_medium
+				GFX_CAN_naval_bomber1_medium
+				GFX_CAN_naval_bomber2_medium
+				GFX_CAN_naval_bomber3_medium
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_bomber_medium
+				GFX_CAN_tactical_bomber1_medium
+				GFX_CAN_tactical_bomber2_medium
+				GFX_CAN_tactical_bomber3_medium
+				GFX_CAN_jet_tactical_bomber1_medium
+				GFX_CAN_jet_tactical_bomber2_medium
+				GFX_CAN_heavy_fighter1_medium
+				GFX_CAN_heavy_fighter2_medium
+				GFX_CAN_heavy_fighter3_medium
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_strategic_bomber1_medium
+				GFX_CAN_strategic_bomber2_medium
+				GFX_CAN_strategic_bomber3_medium
+				GFX_CAN_jet_strategic_bomber1_medium
+			}
+		}
+	}
+}
+
+BEA = {
+	small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_CAN_fighter1_medium
+				GFX_CAN_fighter2_medium
+				GFX_CAN_fighter3_medium
+				GFX_CAN_jet_fighter1_medium
+				GFX_CAN_jet_fighter2_medium
+				GFX_CAN_CAS1_medium
+				GFX_CAN_CAS2_medium
+				GFX_CAN_CAS3_medium
+				GFX_CAN_naval_bomber1_medium
+				GFX_CAN_naval_bomber2_medium
+				GFX_CAN_naval_bomber3_medium
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_fighter_medium
+				"gfx/interface/technologies/Canada/CAN_early_fighter_alt.png"
+				GFX_CAN_fighter1_medium
+				GFX_CAN_fighter2_medium
+				GFX_CAN_fighter3_medium
+				GFX_CAN_jet_fighter1_medium
+				GFX_CAN_jet_fighter2_medium
+				GFX_CAN_CAS1_medium
+				GFX_CAN_CAS2_medium
+				GFX_CAN_CAS3_medium
+				GFX_CAN_naval_bomber1_medium
+				GFX_CAN_naval_bomber2_medium
+				GFX_CAN_naval_bomber3_medium
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_early_bomber_medium
+				GFX_CAN_tactical_bomber1_medium
+				GFX_CAN_tactical_bomber2_medium
+				GFX_CAN_tactical_bomber3_medium
+				GFX_CAN_jet_tactical_bomber1_medium
+				GFX_CAN_jet_tactical_bomber2_medium
+				GFX_CAN_heavy_fighter1_medium
+				GFX_CAN_heavy_fighter2_medium
+				GFX_CAN_heavy_fighter3_medium
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_CAN_strategic_bomber1_medium
+				GFX_CAN_strategic_bomber2_medium
+				GFX_CAN_strategic_bomber3_medium
+				GFX_CAN_jet_strategic_bomber1_medium
+			}
+		}
+	}
+}

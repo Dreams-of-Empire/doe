@@ -1,0 +1,130 @@
+
+remove_sick_man_idea = {
+	if = {
+		limit = {
+			has_idea = TUR_sick_man_of_europe
+		}
+		remove_ideas = TUR_sick_man_of_europe
+		else = {
+			if = {
+				limit = {
+					has_idea = TUR_sick_man_of_europe1
+				}
+				remove_ideas = TUR_sick_man_of_europe1
+				else = {
+					if = {
+						limit = {
+							has_idea = TUR_sick_man_of_europe2
+						}
+						remove_ideas = TUR_sick_man_of_europe2
+						else = {
+							if = {
+								limit = {
+									has_idea = TUR_sick_man_of_europe3
+								}
+								remove_ideas = TUR_sick_man_of_europe3
+								else = {
+									if = {
+										limit = {
+											has_idea = TUR_sick_man_of_europe4
+										}
+										remove_ideas = TUR_sick_man_of_europe4
+										else = {
+											if = {
+												limit = {
+													has_idea = TUR_sick_man_of_europe5
+												}
+												remove_ideas = TUR_sick_man_of_europe5
+												else = {
+													if = {
+														limit = {
+															has_idea = TUR_sick_man_of_europe6
+														}
+														remove_ideas = TUR_sick_man_of_europe6
+														else = {
+															if = {
+																limit = {
+																	has_idea = TUR_sick_man_of_europe7
+																}
+																remove_ideas = TUR_sick_man_of_europe7
+																else = {
+																	if = {
+																		limit = {
+																			has_idea = TUR_sick_man_of_europe8
+																		}
+																		remove_ideas = TUR_sick_man_of_europe8
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+remove_sick_man_idea2 = {
+	if = {
+		limit = {
+			has_idea = TUR_sick_man_of_europe9
+		}
+		remove_ideas = TUR_sick_man_of_europe9
+		else = {
+			if = {
+				limit = {
+					has_idea = TUR_sick_man_of_europe10
+				}
+				remove_ideas = TUR_sick_man_of_europe10
+				else = {
+					if = {
+						limit = {
+							has_idea = TUR_sick_man_of_europe11
+						}
+						remove_ideas = TUR_sick_man_of_europe11
+						else = {
+							if = {
+								limit = {
+									has_idea = TUR_sick_man_of_europe12
+								}
+								remove_ideas = TUR_sick_man_of_europe12
+								else = {
+									if = {
+										limit = {
+											has_idea = TUR_sick_man_of_europe13
+										}
+										remove_ideas = TUR_sick_man_of_europe13
+										else = {
+											if = {
+												limit = {
+													has_idea = TUR_sick_man_of_europe14
+												}
+												remove_ideas = TUR_sick_man_of_europe14
+												else = {
+													if = {
+														limit = {
+															has_idea = TUR_sick_man_of_europe15
+														}
+														remove_ideas = TUR_sick_man_of_europe15
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}		
+}		

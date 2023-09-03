@@ -1,0 +1,575 @@
+#######################
+# Nationalist economy #
+#######################
+
+focus_tree = {
+	id = italy_nationalist_economy
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 1
+			tag = ITA
+		}
+	}
+
+	default = no
+	
+	continuous_focus_position = { x = 25 y = 100 }
+	
+	shared_focus = ITA_future_ppi
+	shared_focus = ITA_forein_policy
+	shared_focus = ITA_balbo_returns
+	shared_focus = ITA_army_reforms
+	shared_focus = ITA_north_bases
+	shared_focus = ITA_south_bases
+	shared_focus = ITA_mare_nostrum
+
+
+# Nat Pops	
+	
+	focus = {
+		id = ITA_war_for_italy
+		icon = GFX_goal_ideology_national_populist
+		x = 30
+		y = 0
+		cost = 10
+		
+		available = {
+			has_government = national_populist
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}	
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_war_for_italy"
+			add_ideas = ITA_war_for_italy_idea
+		}
+	}	
+
+	focus = {
+		id = ITA_battle_grain
+		icon = GFX_focus_AUS_agriculture
+		x = 27
+		y = 1
+		cost = 10
+		
+		available = {
+			has_government = national_populist
+		}		
+
+		prerequisite = {
+			focus = ITA_war_for_italy
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_battle_grain"
+			add_ideas = ITA_battle_grain_idea
+			every_state = {
+				limit = {
+					is_core_of = ITA
+					is_owned_by = ITA
+				}
+				set_state_flag = ITA_battle_grain_state
+				add_state_modifier = {
+					modifier = {
+						local_supplies = 0.15
+					}
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = ITA_battle_lira
+		icon = GFX_goal_endless_money
+		x = 29
+		y = 1
+		cost = 10	
+
+		available = {
+			has_government = national_populist
+		}		
+		
+		prerequisite = {
+			focus = ITA_war_for_italy
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_battle_lira"
+			add_ideas = ITA_battle_lira_idea
+		}
+	}
+
+	focus = {
+		id = ITA_battle_land
+		icon = GFX_goal_RAJ_India_Revitalize_Farming
+		x = 31
+		y = 1
+		cost = 10	
+		
+		available = {
+			has_government = national_populist
+		}		
+		
+		prerequisite = {
+			focus = ITA_war_for_italy
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}	
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_battle_land"
+			every_state = {
+				limit = {
+					is_core_of = ITA
+					is_owned_by = ITA
+				}
+				set_state_flag = ITA_battle_land_state
+				add_state_modifier = {
+					modifier = {
+						local_building_slots = 1
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ITA_battle_births
+		icon = GFX_Italian_Settlers
+		x = 33
+		y = 1
+		cost = 10	
+		
+		available = {
+			has_government = national_populist
+		}		
+
+		prerequisite = {
+			focus = ITA_war_for_italy
+		}		
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_battle_births"
+			add_ideas = ITA_battle_births_idea
+		}
+	}	
+	
+	focus = {
+		id = ITA_national_autarky
+		icon = GFX_focus_generic_italy_first
+		x = 30
+		y = 2
+		cost = 10	
+		
+		available = {
+			has_government = national_populist
+		}		
+
+		prerequisite = {
+			focus = ITA_battle_births
+		}
+
+		prerequisite = {
+			focus = ITA_battle_land
+		}	
+
+		prerequisite = {
+			focus = ITA_battle_lira
+		}	
+
+		prerequisite = {
+			focus = ITA_battle_grain
+		}			
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}	
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_national_autarky"
+			add_ideas = ITA_national_autarky_idea
+		}
+	}
+
+# Valkist	
+	
+	focus = {
+		id = ITA_reforming_the_charter
+		icon = GFX_goal_ideology_valkist
+		x = 37
+		y = 0
+		cost = 5
+		
+		available = {
+			always = no
+		}
+		
+		bypass = {
+			has_completed_focus = ITA_roman_senate
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_reforming_the_charter"
+		}
+	}
+	
+	focus = {
+		id = ITA_elitest_council
+		icon = GFX_goal_collaborate_local_elites
+		x = 36
+		y = 1
+		cost = 5
+		
+		prerequisite = {
+			focus = ITA_reforming_the_charter
+		}
+		
+		mutually_exclusive = {
+			focus = ITA_peasent_council
+		}
+		
+		available = {
+			has_government = valkist
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_elitest_council"
+			add_ideas = ITA_elitest_council_idea
+		}
+	}
+	
+	focus = {
+		id = ITA_peasent_council
+		icon = GFX_goal_workers_rights
+		x = 38
+		y = 1
+		cost = 5
+		
+		prerequisite = {
+			focus = ITA_reforming_the_charter
+		}
+		
+		mutually_exclusive = {
+			focus = ITA_elitest_council
+		}
+		
+		available = {
+			has_government = valkist
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_peasent_council"
+			add_ideas = ITA_peasent_council_idea
+		}
+	}
+	
+	focus = {
+		id = ITA_centralized_army
+		icon = GFX_goal_officers
+		x = 36
+		y = 2
+		cost = 5
+		
+		prerequisite = {
+			focus = ITA_elitest_council
+			focus = ITA_peasent_council
+		}
+		
+		mutually_exclusive = {
+			focus = ITA_communal_army
+		}
+		
+		available = {
+			has_government = valkist
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_centralized_army"
+			add_ideas = ITA_centralized_army_idea
+		}
+	}
+	
+	focus = {
+		id = ITA_communal_army
+		icon = GFX_goal_Agarian_Soldiers
+		x = 38
+		y = 2
+		cost = 5
+		
+		prerequisite = {
+			focus = ITA_elitest_council
+			focus = ITA_peasent_council
+		}
+		
+		mutually_exclusive = {
+			focus = ITA_centralized_army
+		}
+		
+		available = {
+			has_government = valkist
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}	
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_communal_army"
+			add_ideas = ITA_communal_army_idea 
+		}
+	}
+	
+	focus = {
+		id = ITA_promote_industry
+		icon = GFX_focus_generic_industry_3
+		x = 36
+		y = 3
+		cost = 5
+		
+		prerequisite = {
+			focus = ITA_centralized_army
+			focus = ITA_communal_army
+		}
+		
+		mutually_exclusive = {
+			focus = ITA_promote_artists
+		}
+		
+		available = {
+			has_government = valkist
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_promote_industry"
+			add_ideas = ITA_promote_industry_idea
+		}
+	}
+	
+	focus = {
+		id = ITA_promote_artists
+		icon = GFX_goal_liberty
+		x = 38
+		y = 3
+		cost = 5
+		
+		prerequisite = {
+			focus = ITA_centralized_army
+			focus = ITA_communal_army
+		}
+		
+		mutually_exclusive = {
+			focus = ITA_promote_industry
+		}
+		
+		available = {
+			has_government = valkist
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}	
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_promote_artists"
+			add_ideas = ITA_promote_artists_idea
+		}
+	}
+	
+	focus = {
+		id = ITA_strong_commandant
+		icon = GFX_goal_support_fascism
+		x = 36
+		y = 4
+		cost = 5
+		
+		prerequisite = {
+			focus = ITA_promote_artists
+			focus = ITA_promote_industry
+		}
+		
+		mutually_exclusive = {
+			focus = ITA_weak_commandant
+		}
+		
+		available = {
+			has_government = valkist
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_strong_commandant"
+			add_ideas = {
+				ITA_strong_commandant_idea
+				one_party_dictatorship
+			}
+		}
+	}
+	
+	focus = {
+		id = ITA_weak_commandant
+		icon = GFX_goal_ideology_authoritarian_democrat
+		x = 38
+		y = 4
+		cost = 5
+		
+		prerequisite = {
+			focus = ITA_promote_artists
+			focus = ITA_promote_industry
+		}
+		
+		mutually_exclusive = {
+			focus = ITA_strong_commandant
+		}
+		
+		available = {
+			has_government = valkist
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_weak_commandant"
+			add_ideas = {
+				ITA_weak_commandant_idea
+				parliamentary_republic
+			}
+		}
+	}
+	
+	focus = {
+		id = ITA_solidifying_canaro
+		icon = GFX_focus_red_treaty
+		x = 37
+		y = 5
+		cost = 5
+		
+		prerequisite = {
+			focus = ITA_strong_commandant
+			focus = ITA_weak_commandant
+		}
+		
+		available = {
+			has_government = valkist
+		}
+		
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 2
+				num_of_factories < 100
+			}
+		}		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_solidifying_canaro"
+			swap_ideas = {
+				remove_idea = ITA_roman_senate_idea
+				add_idea = ITA_roman_senate_idea_2
+			}	
+		}
+	}
+}

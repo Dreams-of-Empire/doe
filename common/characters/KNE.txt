@@ -1,0 +1,246 @@
+characters = {
+	KNE_Queen_Wilhelmina = {
+		name = "Queen Wilhelmina"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Queen_Wilhelmina.png"
+			}
+		}
+		country_leader = {
+			ideology = vanguardist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = collectivist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = libertarian_socialist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = valkist_subtype
+			traits = { }
+		}
+	}
+	KNE_Herni_Winkelman = {
+		name = "Herni Winkelman"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Herni_Winkelman.png"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	KNE_Jan_van_Andel = {
+		name = "Jan van Andel"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Jan_van_Andel.png"
+			}
+		}
+		corps_commander = {
+			traits = { trait_engineer fortress_buster }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	KNE_Gustave_Statius_Muller = {
+		name = "Gustave Statius-Muller"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Gustave_Statius_Muller.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	KNE_Gerardus_Johannes_Berenschot = {
+		name = "Gerardus Johannes Berenschot"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Gerardus_Johannes_Berenschot.png"
+			}
+		}
+		corps_commander = {
+			traits = { career_officer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	KNE_Petrus_Wilhelmus_Best = {
+		name = "Petrus Wilhelmus Best"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Petrus_Wilhelmus_Best.png"
+			}
+		}
+		corps_commander = {
+			traits = { artillery_officer old_guard }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	KNE_Murk_Boerstra = {
+		name = "Murk Boerstra"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Murk_Boerstra.png"
+			}
+		}
+		corps_commander = {
+			traits = { trickster }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	KNE_Willem_Hackstroh = {
+		name = "Willem Hackstroh"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Willem_Hackstroh.png"
+			}
+		}
+		corps_commander = {
+			traits = { trait_reckless trickster }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	KNE_Jakob_Harberts = {
+		name = "Jakob Harberts"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Jakob_Harberts.png"
+			}
+		}
+		corps_commander = {
+			traits = { artillery_officer old_guard }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	KNE_Jan_van_Dulm = {
+		name = "Jan van Dulm"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Jan_van_Dulm.png"
+			}
+		}
+		navy_leader = {
+			traits = { seawolf }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 3
+		}
+	}
+	KNE_Maarten_van_Dulm = {
+		name = "Maarten van Dulm"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Maarten_van_Dulm.png"
+			}
+		}
+		navy_leader = {
+			traits = { spotter }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+	KNE_Willem_Jan_Kruys = {
+		name = "Willem Jan Kruys"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Willem_Jan_Kruys.png"
+			}
+		}
+		navy_leader = {
+			traits = { spotter }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	KNE_Albertus_Samuel_Pinke = {
+		name = "Albertus Samuel Pinke"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/KNE/Portrait_KNE_Albertus_Samuel_Pinke.png"
+			}
+		}
+		navy_leader = {
+			traits = { blockade_runner }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+}

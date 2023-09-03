@@ -1,0 +1,14 @@
+characters = {
+	SCH_Deng_Xihou = {
+		name = "Deng Xihou"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SCH/Portrait_SCH_Deng_Xihou.png"
+			}
+		}
+		country_leader = {
+			ideology = soccon_warlordism_subtype
+			traits = { }
+		}
+	}
+}

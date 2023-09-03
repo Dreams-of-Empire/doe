@@ -1,0 +1,171 @@
+# Auto-Generated; use the tool
+
+remove_every_hog_trait = {
+	hidden_effect = {
+		remove_ideas_with_trait = hog_red_chairmen
+		remove_ideas_with_trait = hog_ambitious_union_boss
+		remove_ideas_with_trait = hog_backroom_backstabber
+		remove_ideas_with_trait = hog_charismatic_charmer
+		remove_ideas_with_trait = hog_corporate_suit
+		remove_ideas_with_trait = hog_flamboyant_tough_guy
+		remove_ideas_with_trait = hog_happy_amateur
+		remove_ideas_with_trait = hog_local_tyrant
+		remove_ideas_with_trait = hog_naive_optimist
+		remove_ideas_with_trait = hog_old_admiral
+		remove_ideas_with_trait = hog_old_air_marshal
+		remove_ideas_with_trait = hog_old_general
+		remove_ideas_with_trait = hog_political_protege
+		remove_ideas_with_trait = hog_pragmatic_statesman
+		remove_ideas_with_trait = hog_reformist_soldier
+		remove_ideas_with_trait = hog_respected_war_hero
+		remove_ideas_with_trait = hog_silent_workhorse
+		remove_ideas_with_trait = hog_smiling_oilman
+		remove_ideas_with_trait = hog_spiritual_leader
+		remove_ideas_with_trait = hog_underground_figurehead
+		remove_ideas_with_trait = hog_undergrounder_figurehead
+		remove_ideas_with_trait = hog_antiwar_veteran
+		remove_ideas_with_trait = hog_state_secularist
+		remove_ideas_with_trait = hog_determined_populist
+		remove_ideas_with_trait = hog_revanchist_conspirator
+		remove_ideas_with_trait = hog_old_compromiser
+		remove_ideas_with_trait = hog_iron_heel
+		remove_ideas_with_trait = hog_oligarchic_council
+		remove_ideas_with_trait = hog_generic_portrait
+		remove_ideas_with_trait = hog_freikorps_veteran
+		remove_ideas_with_trait = hog_lauriers_heir
+		remove_ideas_with_trait = hog_king_emperor
+		remove_ideas_with_trait = hog_mad_jack
+		remove_ideas_with_trait = hog_meme_man
+		remove_ideas_with_trait = hog_philosopher_general
+		remove_ideas_with_trait = hog_ruthless_warlord
+		remove_ideas_with_trait = hog_democratic_tyrant
+		remove_ideas_with_trait = hog_privileged_socialist
+		remove_ideas_with_trait = hog_sincere_internationalist
+		remove_ideas_with_trait = hog_accomplished_diplomat
+		remove_ideas_with_trait = hog_kingsmaker
+		remove_ideas_with_trait = hog_holy_vice_marshal
+		remove_ideas_with_trait = hog_nationalist_patriot
+	}
+}
+
+remove_every_eco_trait = {
+	hidden_effect = {
+		remove_ideas_with_trait = eco_administrative_genius
+		remove_ideas_with_trait = eco_balanced_budget_economy
+		remove_ideas_with_trait = eco_bank_president
+		remove_ideas_with_trait = eco_construction_magnate
+		remove_ideas_with_trait = eco_corrupt_kleptocrat
+		remove_ideas_with_trait = eco_industrial_chemist
+		remove_ideas_with_trait = eco_industrialiser
+		remove_ideas_with_trait = eco_keynesian_economy
+		remove_ideas_with_trait = eco_laissez_faire_capitalist
+		remove_ideas_with_trait = eco_military_entrepreneur
+		remove_ideas_with_trait = eco_mixed_economy
+		remove_ideas_with_trait = eco_oil_baron
+		remove_ideas_with_trait = eco_planned_economy_proponent
+		remove_ideas_with_trait = eco_reformer
+		remove_ideas_with_trait = eco_devoted_monopoly_buster
+		remove_ideas_with_trait = eco_resource_industrialist
+		remove_ideas_with_trait = eco_steel_magnate
+		remove_ideas_with_trait = eco_railway_magnate
+		remove_ideas_with_trait = eco_theoretical_scientist
+		remove_ideas_with_trait = eco_imbedded_unioneer
+		remove_ideas_with_trait = eco_national_liberal
+		remove_ideas_with_trait = eco_air_superiority_proponent
+		remove_ideas_with_trait = eco_battlefield_support_proponent
+		remove_ideas_with_trait = eco_battle_fleet_proponent
+		remove_ideas_with_trait = eco_carrier_proponent
+		remove_ideas_with_trait = eco_infantry_proponent
+		remove_ideas_with_trait = eco_naval_aviation_proponent
+		remove_ideas_with_trait = eco_u_boat_proponent
+		remove_ideas_with_trait = eco_tank_proponent
+		remove_ideas_with_trait = eco_trade_proponent
+		remove_ideas_with_trait = eco_strategic_destruction_proponent
+		remove_ideas_with_trait = eco_socred_economist
+		remove_ideas_with_trait = eco_vernacular_industrialiser
+		remove_ideas_with_trait = eco_Haushuhn_Herrenvolk
+	}
+}
+
+remove_every_for_trait = {
+	hidden_effect = {
+		remove_ideas_with_trait = eco_the_minister_for_everything
+		remove_ideas_with_trait = for_biased_intellectual
+		remove_ideas_with_trait = for_ideological_crusader
+		remove_ideas_with_trait = for_apologetic_clerk
+		remove_ideas_with_trait = for_iron_fisted_brute
+		remove_ideas_with_trait = for_hawkish_intervener
+		remove_ideas_with_trait = for_relations_expert
+		remove_ideas_with_trait = for_great_compromiser
+		remove_ideas_with_trait = for_general_staffer
+		remove_ideas_with_trait = for_the_cloak_n_dagger_schemer
+		remove_ideas_with_trait = for_foreign_sympathizer
+		remove_ideas_with_trait = for_world_patrician
+		remove_ideas_with_trait = for_moderate_among_radicals
+		remove_ideas_with_trait = for_radical_among_moderates
+	}
+}
+
+remove_every_sec_trait = {
+	hidden_effect = {
+		remove_ideas_with_trait = sec_back_stabber
+		remove_ideas_with_trait = sec_compassionate_gentleman
+		remove_ideas_with_trait = sec_crime_fighter
+		remove_ideas_with_trait = sec_crooked_kleptocrat
+		remove_ideas_with_trait = sec_efficient_sociopath
+		remove_ideas_with_trait = sec_great_soul
+		remove_ideas_with_trait = sec_health_and_safety
+		remove_ideas_with_trait = sec_man_of_the_people
+		remove_ideas_with_trait = sec_media_magnate
+		remove_ideas_with_trait = sec_prince_of_terror
+		remove_ideas_with_trait = sec_driven_recruiter
+		remove_ideas_with_trait = sec_regionalist
+		remove_ideas_with_trait = sec_secret_police_chief
+		remove_ideas_with_trait = sec_silent_lawyer
+		remove_ideas_with_trait = sec_preserver_of_culture
+	}
+}
+
+remove_every_cos_trait = {
+	hidden_effect = {
+		remove_ideas_with_trait = cos_school_of_manoeuvre
+		remove_ideas_with_trait = cos_school_of_fire_support
+		remove_ideas_with_trait = cos_school_of_mass_combat
+		remove_ideas_with_trait = cos_school_of_psychology
+		remove_ideas_with_trait = cos_school_of_defence
+		remove_ideas_with_trait = cos_school_of_commando_operations
+	}
+}
+
+remove_every_carm_trait = {
+	hidden_effect = {
+		remove_ideas_with_trait = carm_elastic_defence_doctrine
+		remove_ideas_with_trait = carm_static_defence_doctrine
+		remove_ideas_with_trait = carm_decisive_battle_doctrine
+		remove_ideas_with_trait = carm_armoured_spearhead_doctrine
+		remove_ideas_with_trait = carm_guns_and_butter_doctrine
+		remove_ideas_with_trait = carm_commando_doctrine
+		remove_ideas_with_trait = carm_doctrine_of_autonomy
+	}
+}
+
+remove_every_cnav_trait = {
+	hidden_effect = {
+		remove_ideas_with_trait = cnav_open_seas_doctrine
+		remove_ideas_with_trait = cnav_decisive_battle_doctrine
+		remove_ideas_with_trait = cnav_power_projection_doctrine
+		remove_ideas_with_trait = cnav_indirect_approach_doctrine
+		remove_ideas_with_trait = cnav_base_control_doctrine
+	}
+}
+
+remove_every_cair_trait = {
+	hidden_effect = {
+		remove_ideas_with_trait = cair_air_superiority_doctrine
+		remove_ideas_with_trait = cair_naval_aviation_doctrine
+		remove_ideas_with_trait = cair_battlefield_support_doctrine
+		remove_ideas_with_trait = cair_carpet_bombing_doctrine
+		remove_ideas_with_trait = cair_vertical_envelopment_doctrine
+		remove_ideas_with_trait = cair_the_red_baron
+	}
+}

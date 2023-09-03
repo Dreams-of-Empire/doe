@@ -1,0 +1,10 @@
+SHX_war_decisions = {
+	allowed = {
+		original_tag = SHX
+	}
+}
+SHX_chinese_unification_decisions = {
+    allowed = {
+        original_tag = SHX
+    }
+}

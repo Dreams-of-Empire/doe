@@ -1,0 +1,263 @@
+#####################
+# Soviet Focus Tree #
+#################################
+# Coded by fbruchmueller #
+#################################
+
+focus_tree = {
+	id = sov_focus_voroshilov
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = SOV
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+    shared_focus = SOV_red_army
+    shared_focus = SOV_airforce
+    shared_focus = SOV_red_fleet
+    shared_focus = SOV_kickstart_industrialization   
+     	
+	focus = {	
+		id = SOV_Premier_Voroshilov
+		icon = GFX_goal_premier_Voroshilov
+		available = {
+		}
+		bypass = {
+		}	
+		x = 2
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_Premier_Voroshilov"
+	     	add_political_power = 30
+		}
+	}
+
+	focus = {	
+		id = SOV_militarize_education
+		icon = GFX_focus_generic_tank_production
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Voroshilov 
+		}
+		bypass = {
+		}	
+		x = -2
+		y = 1
+		relative_position_id = SOV_Premier_Voroshilov
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_militarize_education"
+	     	add_ideas = SOV_militarized_education
+		}
+	}
+
+	focus = {	
+		id = SOV_all_hail_the_army
+		icon = GFX_goal_army_guy_2
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Voroshilov 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 2
+		relative_position_id = SOV_Premier_Voroshilov
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_all_hail_the_army"
+	     	add_stability = 0.10
+		}
+	}
+
+	focus = {	
+		id = SOV_every_man_a_soldier
+		icon = GFX_goal_conscription
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_all_hail_the_army 
+		}
+		prerequisite = { 
+		    focus = SOV_militarize_education 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 2
+		relative_position_id = SOV_militarize_education
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_every_man_a_soldier"
+	     	swap_ideas = {
+	     		remove_idea = SOV_militarized_education
+	     		add_idea = SOV_mass_recruitment
+	     	}
+		}
+	}
+
+	focus = {	
+		id = SOV_an_economy_for_the_army
+		icon = GFX_DAH_Topke
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_Premier_Voroshilov 
+		}
+
+		bypass = {
+		}	
+		x = 2
+		y = 1
+		relative_position_id = SOV_Premier_Voroshilov
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_an_economy_for_the_army"
+	     	SOV_reduce_industrilization = yes
+	     	add_ideas = SOV_economy_for_the_army
+		}
+	}
+
+	focus = {	
+		id = SOV_food_for_the_army
+		icon = GFX_goal_RAJ_agricultural_aid
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_an_economy_for_the_army 
+		}
+		prerequisite = { 
+		    focus = SOV_all_hail_the_army 
+		}
+		bypass = {
+		}	
+		x = 0
+		y = 2
+		relative_position_id = SOV_an_economy_for_the_army
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_food_for_the_army"
+	     	add_stability = 0.10
+		}
+	}
+
+	focus = {	
+		id = SOV_expand_funding_of_the_army
+		icon = GFX_focus_generic_combined_arms
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_food_for_the_army 
+		}
+		prerequisite = { 
+		    focus = SOV_every_man_a_soldier 
+		}
+		bypass = {
+		}	
+		x = -1
+		y = 1
+		relative_position_id = SOV_food_for_the_army
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_expand_funding_of_the_army"
+	     	swap_ideas = {
+	     		remove_idea = SOV_economy_for_the_army
+	     		add_idea = SOV_army_favoured
+	     	}
+	     	SOV_reduce_industrilization = yes
+		}
+	}
+
+	focus = {	
+		id = SOV_red_army_is_the_strongest
+		icon = GFX_goal_Arms_Export
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_food_for_the_army 
+		}
+		prerequisite = { 
+		    focus = SOV_every_man_a_soldier 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_every_man_a_soldier
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_red_army_is_the_strongest"
+	     	swap_ideas = {
+	     		remove_idea = SOV_mass_recruitment
+	     		add_idea = SOV_strong_army
+	     	}
+		}
+	}
+
+	focus = {	
+		id = SOV_an_army_with_a_state
+		icon = GFX_goal_COS_War
+		available = {
+		}
+		prerequisite = { 
+		    focus = SOV_red_army_is_the_strongest 
+		}
+		prerequisite = { 
+		    focus = SOV_expand_funding_of_the_army 
+		}
+		bypass = {
+		}	
+		x = 1
+		y = 1
+		relative_position_id = SOV_red_army_is_the_strongest
+		cost = 8
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_an_army_with_a_state"
+	     	add_stability = 0.10
+		}
+	}
+}

@@ -1,0 +1,82 @@
+characters = {
+	POM_Wienand_Kaasch = {
+		name = "Wienand Kaasch"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POM/Portrait_POM_Wienand_Kaasch.png"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = collectivist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = vanguardist_subtype
+			traits = { }
+		}
+	}
+	POM_Johann_Caspari = {
+		name = "Johann Caspari"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POM/Portrait_POM_Johann_Caspari.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+	}
+	POM_Herbert_von_Bismarck = {
+		name = "Herbert von Bismarck"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POM/Portrait_POM_Herbert_von_Bismarck.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+	}
+	POM_Karl_Theodor_Bleek = {
+		name = "Karl Theodor Bleek"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POM/Portrait_POM_Karl_Theodor_Bleek.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+	}
+	POM_Franz_Schwede = {
+		name = "Franz Schwede"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POM/Portrait_POM_Franz_Schwede.png"
+			}
+		}
+		country_leader = {
+			ideology = valkist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
+}

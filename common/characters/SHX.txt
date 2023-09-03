@@ -1,0 +1,14 @@
+characters = {
+	SHX_Yan_Xishan = {
+		name = "Yan Xishan"
+		portraits = {
+      civilian = {
+        large = "gfx/leaders/SHX/Portrait_SHX_Yan_Xishan_fx.png"
+      }
+		}
+		country_leader = {
+			ideology = authdem_warlordism_subtype
+			traits = { }
+		}
+	}
+}

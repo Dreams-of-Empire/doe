@@ -1,0 +1,12 @@
+technology_sharing_group = {
+	id = national_research_council
+	name = national_research_council_name
+	desc = national_research_council_desc
+	picture = GFX_national_research_group
+    
+	research_sharing_per_country_bonus = 0.15
+
+    available = {
+        is_in_faction_with = SIA
+    }
+}

@@ -1,0 +1,38 @@
+spriteTypes = {
+  spriteType = {
+    name = "GFX_decisions_cat_catholic_alliance"
+    texturefile = "gfx/interface/decisions/decisions_categories/catholic_alliance.png"
+  }
+  spriteType = {
+    name = "GFX_decisions_cat_papacy"
+    texturefile = "gfx/interface/decisions/decisions_categories/papacy.png"
+  }
+  spriteType = {
+    name = "GFX_decisions_cat_expand_landwacht"
+    texturefile = "gfx/interface/decisions/decisions_categories/expand_landwacht.png"
+  }
+  spriteType = {
+    name = "GFX_decisions_cat_mexican_american_war"
+    texturefile = "gfx/interface/decisions/decisions_categories/mexican_american_war.png"
+  }
+  spriteType = {
+    name = "GFX_decisions_cat_unification_hashemite"
+    texturefile = "gfx/interface/decisions/decisions_categories/unification_hashemite.png"
+  }
+  spriteType = {
+    name = "GFX_decisions_cat_unification_rashid"
+    texturefile = "gfx/interface/decisions/decisions_categories/unification_rashid.png"
+  }
+  spriteType = {
+    name = "GFX_decisions_cat_unification_saud"
+    texturefile = "gfx/interface/decisions/decisions_categories/unification_saud.png"
+  }
+  spriteType = {
+    name = "GFX_decisions_cat_british_mandate"
+    texturefile = "gfx/interface/decisions/decisions_categories/british_mandate.png"
+  }
+  spriteType = {
+    name = "GFX_decisions_cat_macedonian_marriages"
+    texturefile = "gfx/interface/decisions/decisions_categories/macedonian_decisions.png"
+  }
+}

@@ -1,0 +1,117 @@
+capital = 679
+
+oob = "ARB"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	fuel_silos = 1
+  basic_train = 1
+}
+
+if = {
+  limit = { has_dlc = "No Step Back" }
+  set_technology = {
+    gwtank_chassis = 1
+  }
+
+  else = {
+    set_technology = {
+      gwtank = 1
+    }
+  }
+}
+
+set_convoys = 15
+set_stability = 0.50
+set_war_support = 0.50
+set_research_slots = 2
+
+add_ideas = {
+	party_pop_0_50
+	absolute_monarchy
+  ARB_british_influence
+  ARB_british_army_training
+  ARB_ikhwan_raids
+  ARB_the_liquid_black_gold
+}
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+  vanguardist = 0
+  collectivist = 0
+  libertarian_socialist = 2
+  social_democrat = 8
+  social_liberal = 2
+  market_liberal = 14
+  social_conservative = 16
+  authoritarian_democrat = 8
+  paternal_autocrat = 50
+  national_populist = 0
+  valkist = 0
+}
+
+give_military_access = ENG
+
+set_variable = { var = british_control value = 50 }
+set_variable = { british_control_percent = british_control }
+ARB_set_british_effects = yes
+add_dynamic_modifier = {
+  modifier = ARB_british_political_control
+}
+
+country_event = { id = arabia.0 days = 1 } # Intro
+country_event = { id = arabia.20 days = 60 } # 1936 Hajj
+country_event = { id = arabia.3 days = 30 } # British Prospectors
+country_event = { id = arabia.20 days = 415 } # 1937 Hajj 
+country_event = { id = arabia.20 days = 769 } # 1938 Hajj
+country_event = { id = arabia.20 days = 1123 } # 1939 Hajj
+country_event = { id = arabia.20 days = 1477 } # 1940 Hajj
+country_event = { id = arabia.20 days = 1831 } # 1941 Hajj
+country_event = { id = arabia.20 days = 2186 } # 1941 Hajj
+country_event = { id = arabia.20 days = 2541 } # 1942 Hajj
+
+recruit_character = ARB_Abd_al_Ilah
+recruit_character = ARB_Zeid_bin_Hussein_al_Hashmid
+recruit_character = ARB_Abdul_Qadir_Pasha_el_Jundi
+recruit_character = ARB_Ghazi_bin_Faisal_al_Hashmid
+recruit_character = ARB_Fahd_Al_Salem_Al_Sabah
+recruit_character = ARB_Husain_Sirhan
+recruit_character = ARB_Ahmad_Al_Jaber_Al_Sabah
+recruit_character = ARB_Abdullah_III_Al_Salim_Al_Sabah
+recruit_character = ARB_Ali_bin_Ashwan
+recruit_character = ARB_Eqab_bin_Mohaya
+recruit_character = ARB_Hamad_bin_Jazi_al_Hawaita
+recruit_character = ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah
+recruit_character = ARB_Abdullah_Al_Jaber_Al_Sabah
+recruit_character = ARB_Tahseen_Qadri
+recruit_character = ARB_Sabah_al_Salem_al_Sabah
+recruit_character = ARB_Mubarak_Al_Hamad_Al_Sabah
+recruit_character = ARB_Sheikh_Salih_al_Rajihi
+recruit_character = ARB_Mohammed_bin_Awad_bin_Laden
+recruit_character = ARB_Sulaiman_S_Olayan
+recruit_character = ARB_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah
+recruit_character = ARB_Hazaa_bin_Sultan_Al_Nahyan
+recruit_character = ARB_Jassim_bin_Muhammed_bin_Jassim_Al_Thani
+recruit_character = ARB_Mohammed_bin_Sharif_Al_Farouqi
+recruit_character = ARB_Salem_Al_Mubarak_Al_Sabah
+recruit_character = ARB_Jamil_al_Madafi
+recruit_character = ARB_Nada_bin_Nuhair
+recruit_character = ARB_Calouste_Gulbenkian
+recruit_character = ARB_Nuri_al_Said
+recruit_character = ARB_Francis_Humphrys
+recruit_character = ARB_John_Cadman
+recruit_character = ARB_Percy_Cox
+recruit_character = ARB_Yasin_al_Hashimi
+
+### Starting Ministers
+activate_advisor = ARB_Abd_al_Ilah_hog_pau
+activate_advisor = ARB_Sabah_al_Salem_al_Sabah_for_ade
+activate_advisor = ARB_Mohammed_bin_Awad_bin_Laden_eco_ade
+activate_advisor = ARB_Salem_Al_Mubarak_Al_Sabah_sec_ade

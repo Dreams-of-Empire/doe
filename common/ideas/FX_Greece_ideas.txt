@@ -1,0 +1,342 @@
+ideas = {
+	##############
+	# Country ideas
+	##############
+	country = {
+		GRE_abysmal_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRE_abysmal_economy"}
+			picture = GRE_debt
+			modifier = {
+				stability_factor = -0.25
+				consumer_goods_factor = 0.15
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_factory = -0.15
+			}
+		}
+
+		GRE_economic_withering_of_smyrna = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRE_economic_withering"}
+			picture = GRE_economic_withering
+			modifier = {
+				consumer_goods_factor = 0.05
+				local_resources_factor = -0.20
+				supply_consumption_factor = 0.05
+			}
+		}
+
+		GRE_minority_unrests = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRE_minority"}
+			picture = GRE_minority
+			modifier = {
+				stability_factor = -0.25
+				conscription_factor = -0.05
+				war_support_factor = -0.15
+				no_compliance_gain = 1
+			}
+		}
+
+		GRE_anathema = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRE_minority"}
+			picture = GRE_anathema
+			modifier = {
+				political_power_cost = 0.20
+				# disabled_ideas = 1
+				custom_modifier_tooltip = DISABLE_IDEA_TAKING_YES
+				hidden_modifier = {
+					mobilization_laws_cost_factor = 9.99
+					trade_laws_cost_factor = 9.99
+					naval_manufacturer_cost_factor = 9.99
+					aircraft_manufacturer_cost_factor = 9.99
+					materiel_manufacturer_cost_factor = 9.99
+					industrial_concern_cost_factor = 9.99
+					tank_manufacturer_cost_factor = 9.99
+					army_chief_cost_factor = 9.99
+					air_chief_cost_factor = 9.99
+					navy_chief_cost_factor = 9.99
+					theorist_cost_factor = 9.99
+					high_command_cost_factor = 9.99
+				}
+			}
+		}
+
+		GRE_venizelist_officers = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRE_officers"}
+			picture = GRE_officers
+			modifier = {
+				training_time_army_factor = -0.10
+				army_org_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+	}
+
+	##############
+	# Companies & Theorists
+	##############
+	industrial_concern = {
+		designer = yes
+		
+		spap = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea spap" }
+			allowed = { original_tag = GRE }
+			traits = { industrial_manufacturer }
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+
+		oasa = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea oasa" }
+			allowed = { original_tag = GRE }
+			traits = { industrial_manufacturer }
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+
+		ntua = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ntua" }
+			allowed = { original_tag = GRE }
+			traits = { electronics_manufacturer }
+			modifier = {
+				production_speed_radar_station_factor = 0.1
+			}
+			research_bonus = {
+				electronics = 0.1
+				industry = 0.1
+			}
+		}
+
+		chropei = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea chropei" }
+			allowed = { original_tag = GRE }
+			traits = { chemical_producer }
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.1
+			}
+			research_bonus = {
+				synth_resources = 0.1
+				industry = 0.1
+			}
+		}
+
+		ppc = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ppc" }
+			allowed = { original_tag = GRE }
+			traits = { refinery_concern }
+			modifier = {
+				fuel_gain_factor_from_states = 0.15
+			}
+			research_bonus = {
+				synth_resources = 0.1
+			}
+		}
+
+		pitsos = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea pitsos" }
+			allowed = { original_tag = GRE }
+			traits = { electronics_developer }
+			modifier = {
+				consumer_goods_factor = -0.07
+			}
+			research_bonus = {
+				electronics = 0.05
+			}
+		}
+
+		aete = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea aete" }
+			allowed = { original_tag = GRE }
+			traits = { electronics_developer }
+			cost = 200
+			modifier = {
+				production_speed_radar_station_factor = 0.25
+			}
+			research_bonus = {
+				electronics = 0.5
+			}
+		}
+
+		neorion = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea neorion" }
+			allowed = { original_tag = GRE }
+			traits = { construction_company }
+			cost = 200
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+				production_speed_industrial_complex_factor = 0.15
+			}
+			research_bonus = {
+				industry = 0.15
+			}
+		}
+	}
+	
+	materiel_manufacturer = {
+		designer = yes
+
+		greek_powder = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea greek_powder" }
+			allowed = { original_tag = GRE }
+			traits = { infantry_equipment_producer_offense_1 }
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+		}
+
+		biamax_weapons = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea biamax" }
+			allowed = { original_tag = GRE }
+			traits = { infantry_equipment_producer_allround_2 }
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+		}
+
+		saracakis_group_weapons = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea saracakis_group" }
+			allowed = { original_tag = GRE }
+			traits = { infantry_equipment_producer_defense_2 }
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+		}
+
+		tangalakis_temax = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tangalakis_temax" }
+			allowed = { original_tag = GRE }
+			traits = { motorised_equipment_producer_offense_1 }
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+		}
+
+		bouhagier_patras = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea bouhagier_patras" }
+			allowed = { original_tag = GRE }
+			traits = { motorised_equipment_producer_mass_2 }
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+		}
+
+		malkotsis = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea malkotsis"}
+			allowed = { original_tag = GRE }
+			traits = { artillery_producer_offense_2 }
+			research_bonus = {
+				artillery = 0.10
+			}
+		}
+	}
+	
+	tank_manufacturer = {
+		designer = yes
+		
+		biamax = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea biamax" }
+			allowed = { original_tag = GRE }
+			traits = { small_tank_producer_mass_1 }
+			research_bonus = {
+				armor = 0.1
+			}
+		}
+		
+		saracakis_group = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea saracakis_group" }
+			allowed = { original_tag = GRE }
+			traits = { medium_tank_producer_offense_1 }
+			research_bonus = {
+				armor = 0.1
+			}
+		}
+
+		petropoulos = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea petropoulos" }
+			allowed = { original_tag = GRE }
+			traits = { heavy_tank_producer_defense_1 }
+			research_bonus = {
+				armor = 0.1
+			}
+		}
+	}
+	
+	naval_manufacturer = {
+		designer = yes
+		
+		elefsis_shipyard = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea elefsis_shipyard" }
+			allowed = { original_tag = GRE }
+			traits = { capital_ship_producer_defense_2 }
+			research_bonus = {
+				naval_equipment = 0.1
+			}
+		}
+		
+		hellenic_shipyard = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea hellenic_shipyard" }
+			allowed = { original_tag = GRE }
+			traits = { cruiser_producer_mass_1 }
+			research_bonus = {
+				naval_equipment = 0.1
+			}
+		}
+
+		basileiades = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea basileiades" }
+			allowed = { original_tag = GRE }
+			traits = { small_ship_producer_offense_2 }
+			research_bonus = {
+				naval_equipment = 0.1
+			}
+		}
+		
+		astilleros_onassis = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea astilleros_onassis" }
+			allowed = { original_tag = GRE }
+			traits = { convoy_escort_naval_manufacturer }
+			research_bonus = {
+				naval_equipment = 0.1
+			}
+		}
+	}
+
+	aircraft_manufacturer = {
+		designer = yes
+
+		gnaf = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea gnaf" }
+			allowed = { original_tag = GRE }
+			traits = { light_aircraft_manufacturer_2 }
+			research_bonus = {
+				air_equipment = 0.1
+			}
+		}
+	
+		aekkea_raab = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea aekkea_raab" }
+			allowed = { original_tag = GRE }
+			traits = { bomber_producer_offense_1 }
+			research_bonus = {
+				air_equipment = 0.1
+			}
+		}
+
+		kea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea kea" }
+			allowed = { original_tag = GRE }
+			traits = { nav_cas_producer_mass_0 }
+			research_bonus = {
+				air_equipment = 0.1
+			}
+		}
+	}
+}			

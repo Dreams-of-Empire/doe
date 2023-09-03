@@ -1,0 +1,8 @@
+country_has_guides = {
+	OR = {
+		original_tag = GRE
+		original_tag = PHI
+		original_tag = JAP
+		original_tag = ARB
+	}
+}

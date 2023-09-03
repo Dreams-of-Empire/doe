@@ -1,0 +1,3 @@
+set_puppet_minister_middle_east = {
+
+}
