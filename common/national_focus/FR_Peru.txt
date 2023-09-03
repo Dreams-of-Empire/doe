@@ -154,7 +154,7 @@ focus_tree = {
 						is_in_faction_with = PRU
 						is_subject_of = PRU
 						has_war_with = PRU
-						has_government = market_liberal
+						has_government = illuminist
 						has_government = liberal
 						has_government = social_democrat
 						has_government = social_conservative
@@ -307,7 +307,7 @@ focus_tree = {
 				ideology = social_conservative popularity = 0.025
 			}
 			add_popularity = { 
-				ideology = market_liberal popularity = 0.025
+				ideology = illuminist popularity = 0.025
 			}
 			add_popularity = { 
 				ideology = liberal popularity = 0.025

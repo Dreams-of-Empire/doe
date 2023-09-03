@@ -187,7 +187,7 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_capitalists_support"
 			add_popularity = {
-				ideology = market_liberal
+				ideology = illuminist
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -875,7 +875,7 @@
 				OR = {
 					OR = {
 						has_government = liberal
-						has_government = market_liberal
+						has_government = illuminist
 					}
 					check_variable = { 
 						ita_liberal_vote > 0
@@ -895,7 +895,7 @@
 				factor = 1.5
 				OR = {
 					has_government = liberal
-					has_government = market_liberal
+					has_government = illuminist
 				}
 			}
 		}
@@ -904,7 +904,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_liberal_reforms"
 			
 			add_popularity = {
-				ideology = market_liberal
+				ideology = illuminist
 				popularity = 0.05
 			}	
 			add_popularity = {
@@ -927,7 +927,7 @@
 				OR = {
 					OR = {
 						has_government = liberal
-						has_government = market_liberal
+						has_government = illuminist
 					}
 					check_variable = { 
 						ita_liberal_vote > 1
@@ -946,7 +946,7 @@
 				factor = 1.5
 				OR = {
 					has_government = liberal
-					has_government = market_liberal
+					has_government = illuminist
 				}
 			}
 		}
@@ -983,7 +983,7 @@
 				OR = {
 					OR = {
 						has_government = liberal
-						has_government = market_liberal
+						has_government = illuminist
 					}
 					check_variable = { 
 						ita_liberal_vote > 2
@@ -1002,7 +1002,7 @@
 				factor = 1.5
 				OR = {
 					has_government = liberal
-					has_government = market_liberal
+					has_government = illuminist
 				}
 			}
 		}
@@ -1026,7 +1026,7 @@
 				OR = {
 					OR = {
 						has_government = liberal
-						has_government = market_liberal
+						has_government = illuminist
 					}
 					check_variable = { 
 						ita_liberal_vote > 3
@@ -1045,7 +1045,7 @@
 				factor = 1.5
 				OR = {
 					has_government = liberal
-					has_government = market_liberal
+					has_government = illuminist
 				}
 			}
 		}
@@ -1791,7 +1791,7 @@
 					# OR = {
 						# has_government = social_democrat
 						# has_government = liberal
-						# has_government = market_liberal
+						# has_government = illuminist
 						# has_government = social_conservative
 					# }
 				# }
@@ -5034,7 +5034,7 @@
               add_country_leader_role = {
                 promote_leader = yes
                 country_leader = {
-                  ideology = market_liberal_subtype
+                  ideology = illuminist_subtype
                 }
               }
               add_country_leader_role = {

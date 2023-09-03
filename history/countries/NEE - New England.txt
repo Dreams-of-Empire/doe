@@ -17,7 +17,7 @@ set_popularities = {
 	fasci = 30
 	social_democrat = 24
 	liberal = 28
-	market_liberal = 10
+	illuminist = 10
 	social_conservative = 6
 }
 

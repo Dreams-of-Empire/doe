@@ -36,10 +36,10 @@ increase_popularity_fasci: "Have [Root.GetLeader] make Factory visits" #Equal an
 increase_popularity_fasci_desc: "Putting large amounts of power in the hands of few is a one-way trip to a Dictatorship. A partially Socialist system must be applied to our nation; to steadily and moderately work towards the Marxist dream of Socialism. Making Factory visits to our workers to inform them of this will ensure our popularity and discredit the radical regimes proposed by some."
 increase_popularity_socdem: "Expansive welfare distribution" #Fair and Moderate.
 increase_popularity_socdem_desc: "Capitalism is flawed, but it is our duty to repair those flaws. Humane ethics must be applied to Capitalism in order to soften its rough outcome on the working classes. We will be the ones to take up that mantle; we will be the ones to reform, to fix our nation today so that a better one can exist tomorrow. "
-increase_popularity_soclib: "Protect Civil Liberties" #Free and Just.
-increase_popularity_soclib_desc: "Democratic values must be upheld at any cost; Democracy is non-negotiable. Laws cannot restrict the civil liberties of a man; only ensure their freedom. [Root.GetNameDef] is a free and just nation! We will never allow these values to be compromised!"
-increase_popularity_marklib: "Advocate Economic Privatisation" #Unchained and Unbound.
-increase_popularity_marklib_desc: "Economic chains will be tolerated no longer! Privatisation and Laissez-Faire principles must be upheld. We will ensure a free market for every citizen in [Root.GetNameDef]; the freer the market, the freer the people!"
+increase_popularity_libs: "Protect Civil Liberties" #Free and Just.
+increase_popularity_libs_desc: "Democratic values must be upheld at any cost; Democracy is non-negotiable. Laws cannot restrict the civil liberties of a man; only ensure their freedom. [Root.GetNameDef] is a free and just nation! We will never allow these values to be compromised!"
+increase_popularity_Illuminist: "Advocate Economic Privatisation" #Unchained and Unbound.
+increase_popularity_Illuminist_desc: "Economic chains will be tolerated no longer! Privatisation and Laissez-Faire principles must be upheld. We will ensure a free market for every citizen in [Root.GetNameDef]; the freer the market, the freer the people!"
 increase_popularity_soccon: "Promote the Status Quo" #Stable and Traditional.
 increase_popularity_soccon_desc: "Some may criticize us for our refusal to change many things, but they simply don't see that our national situation is optimal as-of current. Tradition and Stability are a few of the vital life-forces in a nation. We can never give either of these up to the radical forces of reform and revolution, and the people must know that."
 increase_popularity_authdem: "Broadcast our Responsibility" #Popular and Responsible.

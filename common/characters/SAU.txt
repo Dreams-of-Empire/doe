@@ -235,7 +235,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Shakhbut_bin_Sultan_Al_Nahyan_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_smiling_oilman
 			}
 		}

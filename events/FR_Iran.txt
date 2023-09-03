@@ -1343,7 +1343,7 @@ country_event = {
 
 	option = {
 		name = iran.121.a
-		add_popularity = { ideology = market_liberal popularity = -0.01 }
+		add_popularity = { ideology = illuminist popularity = -0.01 }
 		add_popularity = { ideology = social_democrat popularity = 0.01 }
 	}
 }
@@ -1452,9 +1452,9 @@ country_event = {
 		ai_chance = { base = 50 }
 		add_ideas = presidential_republic
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = illuminist elections_allowed = no
 		}
-		add_popularity = { ideology = market_liberal popularity = 0.10 }
+		add_popularity = { ideology = illuminist popularity = 0.10 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.25 }
 		
 		add_coalition_social_conservative = yes 
@@ -1465,7 +1465,7 @@ country_event = {
         character = PER_Mohammad_Reza
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = illuminist_subtype
           traits = {}
         }
       }

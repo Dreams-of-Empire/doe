@@ -189,9 +189,9 @@ country_event = { #The LSMC Hits Japan
 
 		IF = {
 			LIMIT = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
-			add_popularity = { ideology = market_liberal popularity = -0.1 }
+			add_popularity = { ideology = illuminist popularity = -0.1 }
 		}
 
 		IF = {
@@ -2233,8 +2233,8 @@ country_event = {
 			factor = 40
 		}
 		
-		add_popularity = { ideology = market_liberal popularity = 0.1 }
-		set_politics = { ruling_party = market_liberal }
+		add_popularity = { ideology = illuminist popularity = 0.1 }
+		set_politics = { ruling_party = illuminist }
 		remove_every_minister = yes
 		add_ideas = {
 			JAP_Hamaguchi_Osachi_hog_mli
@@ -2309,7 +2309,7 @@ country_event = {
 
 			modifier = {
 				factor = 10
-				has_government = market_liberal
+				has_government = illuminist
 			}
 		}
 	}
@@ -2344,8 +2344,8 @@ country_event = {
 	option = {
 		name = "Minseito prevails!"
 		trigger = { has_country_flag = jap_minseito_36 }
-		add_popularity = { ideology = market_liberal popularity = 0.1 }
-		set_politics = { ruling_party = market_liberal }
+		add_popularity = { ideology = illuminist popularity = 0.1 }
+		set_politics = { ruling_party = illuminist }
 		remove_every_minister = yes
 		add_ideas = {
 			JAP_Hamaguchi_Osachi_hog_mli
@@ -2358,8 +2358,8 @@ country_event = {
 	option = {
 		name = "Minseito wins by a landslide!"
 		trigger = { has_country_flag = jap_seiyukai_36 }
-		add_popularity = { ideology = market_liberal popularity = 0.1 }
-		set_politics = { ruling_party = market_liberal }
+		add_popularity = { ideology = illuminist popularity = 0.1 }
+		set_politics = { ruling_party = illuminist }
 		remove_every_minister = yes
 		add_ideas = {
 			JAP_Hamaguchi_Osachi_hog_mli
@@ -2681,7 +2681,7 @@ country_event = {
 		name = "Minseitō has their plans!"
 		add_political_power = -15
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = -0.05
 		}
 	}

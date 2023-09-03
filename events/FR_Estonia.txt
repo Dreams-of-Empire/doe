@@ -256,7 +256,7 @@ country_event = {
 		add_popularity = { ideology = national_populist popularity = -0.03 }
 		hidden_effect = {
 			country_event = { id = estonia.12 days = 6 }
-			set_temp_variable = { coalition_partner_var = token:market_liberal }
+			set_temp_variable = { coalition_partner_var = token:illuminist }
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:social_conservative }
 			remove_from_coalition = yes 
@@ -285,7 +285,7 @@ country_event = {
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.10 }
 		hidden_effect = {
 			set_party_name = {
-				ideology = market_liberal 
+				ideology = illuminist 
 				long_name = EST_no_patriotic_marlib_long 
 				name = EST_no_patriotic_marlib
 			}
@@ -458,7 +458,7 @@ country_event = {
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
 		hidden_effect = {
 			country_event = { id = estonia.12 days = 6 }
-			set_temp_variable = { coalition_partner_var = token:market_liberal }
+			set_temp_variable = { coalition_partner_var = token:illuminist }
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:social_conservative }
 			remove_from_coalition = yes 
@@ -611,7 +611,7 @@ country_event = {
 		hidden_effect = {
 			country_event = { id = estonia.22 days = 40 }
 			set_party_name = {
-				ideology = market_liberal 
+				ideology = illuminist 
 				long_name = EST_national_front_marlib_long 
 				name = EST_national_front_marlib
 			}

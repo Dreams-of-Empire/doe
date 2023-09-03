@@ -113,7 +113,7 @@ has_unsupported_manpower_law_ai = {
 		OR = {
 			has_war_support < 0.25
 			has_government = liberal
-			has_government = market_liberal
+			has_government = illuminist
 			AND = {
 				has_government = social_democrat
 				NOT = { has_country_flag = soc_dems_are_socialists }

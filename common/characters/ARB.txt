@@ -19,7 +19,7 @@ characters = {
 		}
     country_leader = {
       desc = POLITICS_ARB_ADB_AL_ILAH_DESC
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
     country_leader = {
@@ -203,7 +203,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Ahmad_Al_Jaber_Al_Sabah_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_pragmatic_statesman
 			}
 		}
@@ -231,7 +231,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Calouste_Gulbenkian_hog_mli_hired }
 			}
       traits = {
-        market_liberal
+        illuminist
         hog_smiling_oilman
       }
     }
@@ -370,7 +370,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_relations_expert
 			}
 		}
@@ -508,7 +508,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Mubarak_Al_Hamad_Al_Sabah_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_industrialiser
 			}
 		}
@@ -624,7 +624,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_media_magnate
 			}
 		}
@@ -651,7 +651,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Hazaa_bin_Sultan_Al_Nahyan_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_silent_lawyer
 			}
 		}
@@ -821,7 +821,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Nuri_al_Said_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -848,7 +848,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Francis_Humphrys_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_great_compromiser
 			}
 		}
@@ -875,7 +875,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_John_Cadman_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_resource_industrialist
 			}
 		}
@@ -902,7 +902,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Percy_Cox_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_efficient_sociopath
 			}
 		}

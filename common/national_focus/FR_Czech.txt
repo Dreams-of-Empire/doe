@@ -1789,7 +1789,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = market_liberal
+				ideology = illuminist
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -2174,7 +2174,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = CZE_national_social_victory
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
 		
 		ai_will_do = { factor = 50 } 
 		
@@ -2993,7 +2993,7 @@ focus_tree = {
 				popularity = -0.025
 			}
 			add_popularity = { 
-				ideology = market_liberal
+				ideology = illuminist
 				popularity = -0.025
 			}
 			add_popularity = { 
@@ -3477,7 +3477,7 @@ focus_tree = {
 				popularity = -0.025
 			}
 			add_popularity = { 
-				ideology = market_liberal
+				ideology = illuminist
 				popularity = -0.025
 			}
 		} 

@@ -155,7 +155,7 @@ focus_tree = {
 
 		focus = {
 			id = MAN_the_market_league
-			icon = GFX_goal_ideology_market_liberal
+			icon = GFX_goal_ideology_illuminist
 			prerequisite = { focus = MAN_elections }
 			available = { always = no }
 			mutually_exclusive = { focus = MAN_zhang_clique }
@@ -183,7 +183,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_the_transition_of_power"
 
-			add_popularity = { ideology = market_liberal popularity = 0.10 }
+			add_popularity = { ideology = illuminist popularity = 0.10 }
 
 			}
 

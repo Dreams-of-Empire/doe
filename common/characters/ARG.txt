@@ -320,7 +320,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Robustiniano_Patron_Costas_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_smiling_oilman
 			}
 		}
@@ -347,7 +347,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Torcuato_di_Tella_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -779,7 +779,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Segundo_Rosa_Storni_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_general_staffer
 			}
 		}
@@ -1176,7 +1176,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Alvaro_Alsogaray_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_laissez_faire_capitalist
 			}
 		}
@@ -2143,7 +2143,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 	}

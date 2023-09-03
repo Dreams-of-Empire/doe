@@ -110,7 +110,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1094,7 +1094,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Bertil_Ohlin_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -1443,7 +1443,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Gustaf_Andersson_i_Rasjon_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_apologetic_clerk
 			}
 		}
@@ -1767,7 +1767,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Gustav_Cassel_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_the_minister_for_everything
 			}
 		}
@@ -2004,7 +2004,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Thorwald_Bergquist_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_crime_fighter
 			}
 		}
@@ -2031,7 +2031,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Gustav_Andersson_i_Rasjon_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_compassionate_gentleman
 			}
 		}

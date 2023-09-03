@@ -15,7 +15,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -630,7 +630,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Albert_Meyer_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_accomplished_diplomat
 			}
 		}
@@ -657,7 +657,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Ernst_Wetter_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_charismatic_charmer
 			}
 		}
@@ -676,7 +676,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Ernst_Wetter_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_national_liberal
 			}
 		}
@@ -703,7 +703,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Johannes_Baumann_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -730,7 +730,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Karl_Kobelt_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -749,7 +749,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Karl_Kobelt_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_oil_baron
 			}
 		}
@@ -776,7 +776,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Marcel_Pilet_Golaz_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_old_compromiser
 			}
 		}
@@ -795,7 +795,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Marcel_Pilet_Golaz_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_apologetic_clerk
 			}
 		}
@@ -822,7 +822,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Walther_Stampfli_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_silent_workhorse
 			}
 		}
@@ -841,7 +841,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Walther_Stampfli_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_biased_intellectual
 			}
 		}
@@ -1144,7 +1144,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Justus_Stocklin_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_great_compromiser
 			}
 		}
@@ -1441,7 +1441,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Friedrich_Traugott_Wahlen_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_the_minister_for_everything
 			}
 		}
@@ -1468,7 +1468,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Rudolf_Minger_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_bank_president
 			}
 		}
@@ -1857,7 +1857,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Heinrich_Rothmund_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_great_soul
 			}
 		}
@@ -1884,7 +1884,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Paul_Frutig_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_media_magnate
 			}
 		}

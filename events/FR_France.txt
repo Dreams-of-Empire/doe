@@ -278,7 +278,7 @@ country_event = { #1936 election
 	#option = { #QP coalition victory
 	#	name = fra.8.f
 	#	set_politics = {
-	#		ruling_party = market_liberal
+	#		ruling_party = illuminist
 	#	}
 	#	add_coalition_liberal = yes 
 	#	set_country_flag = fra_triple_win_flag
@@ -3571,11 +3571,11 @@ country_event = { #1940 election
 			set_country_flag = fra_1940_elections
 		}
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.05
 		}
 		remove_every_minister = yes

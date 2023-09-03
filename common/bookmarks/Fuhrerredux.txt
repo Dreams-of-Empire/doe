@@ -24,7 +24,7 @@ bookmarks = {
     # }
     "USA" = {
       history = "USA_FUHRERREDUX_DESC"
-      ideology = market_liberal
+      ideology = illuminist
       ideas = {
         USA_the_greater_depression
         USA_malnourished_populace

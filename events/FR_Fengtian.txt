@@ -592,7 +592,7 @@ country_event = {
 
     add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
     add_popularity = { ideology = social_conservative popularity = 0.04 }
-    add_popularity = { ideology = market_liberal popularity = 0.02 }
+    add_popularity = { ideology = illuminist popularity = 0.02 }
 
     hidden_effect = {
 
@@ -612,7 +612,7 @@ country_event = {
 
     add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
     add_popularity = { ideology = social_conservative popularity = 0.04 }
-    add_popularity = { ideology = market_liberal popularity = 0.02 }
+    add_popularity = { ideology = illuminist popularity = 0.02 }
 
     hidden_effect = {
 
@@ -1227,7 +1227,7 @@ country_event = {
 
     add_political_power = -50
 
-    add_popularity = { ideology = market_liberal popularity = 0.05 }
+    add_popularity = { ideology = illuminist popularity = 0.05 }
     add_popularity = { ideology = liberal popularity = 0.03 }
 
     hidden_effect = {
@@ -2089,7 +2089,7 @@ country_event = {
     add_political_power = -20
 		add_stability = -0.025
 		add_ideas = MAN_culture_westernized
-		add_popularity = { ideology = market_liberal popularity = 0.10 }
+		add_popularity = { ideology = illuminist popularity = 0.10 }
 		set_global_flag = MAN_manchurian_culture_is_western
 	}
 }
@@ -3244,10 +3244,10 @@ country_event = {
 					set_global_flag = MAN_sides_with_the_market_league
 					add_stability = -0.05
 					add_political_power = 50
-					add_popularity = { ideology = market_liberal popularity = 0.10 }
+					add_popularity = { ideology = illuminist popularity = 0.10 }
 					add_ideas = parliamentary_republic
 					set_politics = {
-			        ruling_party = market_liberal
+			        ruling_party = illuminist
 			        elections_allowed = no
 			      }
 				  remove_every_minister = yes
@@ -3822,7 +3822,7 @@ country_event = {
 		OR = {
 			USA = { has_government = social_democrat }
 			USA = { has_government = liberal }
-			USA = { has_government = market_liberal }
+			USA = { has_government = illuminist }
 			USA = { has_government = social_conservative }
 			USA = { has_government = authoritarian_democrat }
 		}
@@ -3837,7 +3837,7 @@ country_event = {
 		OR = {
 			ENG = { has_government = social_democrat }
 			ENG = { has_government = liberal }
-			ENG = { has_government = market_liberal }
+			ENG = { has_government = illuminist }
 			ENG = { has_government = social_conservative }
 			ENG = { has_government = authoritarian_democrat }
 		}
@@ -3852,7 +3852,7 @@ country_event = {
 		OR = {
 			FRA = { has_government = social_democrat }
 			FRA = { has_government = liberal }
-			FRA = { has_government = market_liberal }
+			FRA = { has_government = illuminist }
 			FRA = { has_government = social_conservative }
 			FRA = { has_government = authoritarian_democrat }
 		}
@@ -3867,7 +3867,7 @@ country_event = {
 			OR = {
 				POL = { has_government = social_democrat }
 				POL = { has_government = liberal }
-				POL = { has_government = market_liberal }
+				POL = { has_government = illuminist }
 				POL = { has_government = social_conservative }
 				POL = { has_government = authoritarian_democrat }
 			}
@@ -3882,7 +3882,7 @@ country_event = {
 			OR = {
 				PER = { has_government = social_democrat }
 				PER = { has_government = liberal }
-				PER = { has_government = market_liberal }
+				PER = { has_government = illuminist }
 				PER = { has_government = social_conservative }
 				PER = { has_government = authoritarian_democrat }
 			}

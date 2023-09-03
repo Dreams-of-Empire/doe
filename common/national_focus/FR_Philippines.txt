@@ -50,7 +50,7 @@ focus_tree = {
   # Partido Liberal
   focus = {
     id = PHI_partido_liberal
-    icon = GFX_goal_ideology_market_liberal
+    icon = GFX_goal_ideology_illuminist
     x = -4
     y = 1
     cost = 6
@@ -82,7 +82,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = PHI_partido_liberal }
     relative_position_id = PHI_partido_liberal
@@ -105,7 +105,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = PHI_partido_liberal }
     relative_position_id = PHI_partido_liberal
@@ -130,7 +130,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = PHI_private_public_partnerships }
     relative_position_id = PHI_private_public_partnerships
@@ -155,7 +155,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = PHI_private_public_partnerships }
     relative_position_id = PHI_private_public_partnerships 
@@ -176,7 +176,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = PHI_reform_the_justice_system }
     relative_position_id = PHI_reform_the_justice_system
@@ -213,7 +213,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = PHI_further_agricultural_modernization }
     relative_position_id = PHI_further_agricultural_modernization
@@ -235,7 +235,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = PHI_discredit_radical_groups }
     prerequisite = { focus = PHI_wage_floors }
@@ -334,7 +334,7 @@ focus_tree = {
     available = {
       has_capitulated = no
       OR = {
-        has_government = market_liberal
+        has_government = illuminist
         has_government = social_conservative
       }
     }
@@ -369,7 +369,7 @@ focus_tree = {
     available = {
       has_capitulated = no
       OR = {
-        has_government = market_liberal
+        has_government = illuminist
         has_government = social_conservative
       }
     }
@@ -396,7 +396,7 @@ focus_tree = {
     available = {
       has_capitulated = no
       OR = {
-        has_government = market_liberal
+        has_government = illuminist
         has_government = social_conservative
       }
     }
@@ -4936,7 +4936,7 @@ focus_tree = {
     completion_reward = {
       add_political_power = 100
       add_popularity = {
-        ideology = market_liberal
+        ideology = illuminist
         popularity = -0.15
       }
       add_popularity = {

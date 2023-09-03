@@ -182,7 +182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_lower_corporate_tax
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
 		cost = 10
 		prerequisite = {
 			focus = NOR_economical_projects
@@ -609,7 +609,7 @@ focus_tree = {
 				has_idea = NOR_effect_london_crash_idea
 			}
 			NOT = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
 			controls_state = 110
 		}
@@ -647,7 +647,7 @@ focus_tree = {
 				has_idea = NOR_effect_london_crash_idea
 			}
 			NOT = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
 			controls_state = 110
 		}
@@ -688,7 +688,7 @@ focus_tree = {
 				has_idea = NOR_effect_london_crash_idea
 			}
 			NOT = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
 			controls_state = 110
 		}
@@ -1068,7 +1068,7 @@ focus_tree = {
 			OR = {
 				has_government = social_democrat
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
@@ -1165,7 +1165,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
@@ -2939,7 +2939,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_hoyre_victory"
-			add_popularity = { ideology = market_liberal popularity = 0.03 }
+			add_popularity = { ideology = illuminist popularity = 0.03 }
 			add_political_power = 30
 		}
 
@@ -2963,7 +2963,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_right_wing_cooperation"
 			add_political_power = -75
 			add_popularity = { ideology = liberal popularity = 0.03 }
-			add_popularity = { ideology = market_liberal popularity = 0.03 }
+			add_popularity = { ideology = illuminist popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			custom_effect_tooltip  = NOR_right_wing_cooperation_tooltip
 			hidden_effect = {
@@ -2973,7 +2973,7 @@ focus_tree = {
 					limit = {
 						has_government = liberal
 					}
-					set_country_flag = coalition_market_liberal
+					set_country_flag = coalition_illuminist
 					remove_ideas_with_trait = foreign_minister
 					remove_ideas_with_trait = economy_minister
 					activate_advisor = NOR_Ivar_Lykke_for_mli
@@ -3182,7 +3182,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_christian_labour_union"
 			add_political_power = -50
 			add_ideas = NOR_found_christian_trade_union_idea
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = illuminist popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
 		}
@@ -3324,7 +3324,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_remove_economic_regulations"
 			add_political_power = -30
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = illuminist popularity = 0.01 }
 			swap_ideas = {
 				remove_idea = NOR_conservative_welfare_plan_idea
 				add_idea = NOR_found_christian_trade_union_idea1
@@ -3504,7 +3504,7 @@ focus_tree = {
 			add_stability = 0.01
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
@@ -3555,7 +3555,7 @@ focus_tree = {
 			add_political_power = 40
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
 			country_event = { id = nor.37 }
@@ -3757,7 +3757,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_force_for_moderation"
 			add_political_power = -20
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_offsite_building = { type = industrial_complex level = 1 }
 		}
 
@@ -4735,7 +4735,7 @@ focus_tree = {
 			}
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			add_popularity = { ideology = liberal popularity = -0.04 }
-			add_popularity = { ideology = market_liberal popularity = -0.04 }
+			add_popularity = { ideology = illuminist popularity = -0.04 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_stability = 0.03
 		}
@@ -4961,7 +4961,7 @@ focus_tree = {
 			remove_ideas = NOR_monarchist_right_idea1
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
-			add_popularity = { ideology = market_liberal popularity = -0.03 }
+			add_popularity = { ideology = illuminist popularity = -0.03 }
 			add_popularity = { ideology = liberal popularity = -0.03 }
 			add_political_power = -60
 			add_manpower = -3500

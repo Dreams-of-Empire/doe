@@ -244,8 +244,8 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = liberal }
 		}
 		AND = {
-			has_government = market_liberal
-			ROOT = { has_government = market_liberal }
+			has_government = illuminist
+			ROOT = { has_government = illuminist }
 		}
 		AND = {
 			has_government = social_conservative
@@ -289,7 +289,7 @@ has_elected_government = {
 		OR = {
 			has_government = social_democrat
 			has_government = liberal
-			has_government = market_liberal
+			has_government = illuminist
 			has_government = social_conservative
 		}
 	}
@@ -302,7 +302,7 @@ has_democratic_government = {
 		OR = {
 			has_government = social_democrat
 			has_government = liberal
-			has_government = market_liberal
+			has_government = illuminist
 			has_government = social_conservative
 			has_government = authoritarian_democrat
 		}
@@ -323,7 +323,7 @@ has_democratic_right_government = {
 	custom_trigger_tooltip = {
 		tooltip = FX_is_democratic_right_tt
 		OR = {
-			has_government = market_liberal
+			has_government = illuminist
 			has_government = social_conservative
 		}
 	}

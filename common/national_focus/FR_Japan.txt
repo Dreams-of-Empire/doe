@@ -1577,7 +1577,7 @@ focus_tree = {
 
 			modifier = {
 				factor = 1.5
-				has_government = market_liberal
+				has_government = illuminist
 			}
 			modifier = {
 				factor = 1.5
@@ -1689,7 +1689,7 @@ focus_tree = {
 
 			modifier = {
 				factor = 0.5
-				has_government = market_liberal
+				has_government = illuminist
 			}
 
 			modifier = {
@@ -1851,7 +1851,7 @@ focus_tree = {
 
 			modifier = {
 				factor = 1.5
-				has_government = market_liberal
+				has_government = illuminist
 			}
 
 			modifier = {
@@ -1985,7 +1985,7 @@ focus_tree = {
 
 			modifier = {
 				factor = 2
-				has_government = market_liberal
+				has_government = illuminist
 			}
 			modifier = {
 				factor = 0.5
@@ -2228,7 +2228,7 @@ focus_tree = {
 
 			modifier = {
 				factor = 0.5
-				has_government = market_liberal
+				has_government = illuminist
 			}
 			modifier = {
 				factor = 2
@@ -4246,7 +4246,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = market_liberal
+				ideology = illuminist
 				popularity = 0.05
 			}
 			add_stability = 0.1
@@ -4335,7 +4335,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = market_liberal
+				ideology = illuminist
 				popularity = 0.05
 			}
 			add_political_power = 50

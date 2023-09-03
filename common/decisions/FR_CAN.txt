@@ -148,7 +148,7 @@ propaganda_efforts = {
 			industrial_capacity_factory = -0.05
 			political_power_cost = 0.15
 			social_conservative_drift = -0.05
-			market_liberal_drift = -0.05
+			illuminist_drift = -0.05
 			liberal_drift = -0.05
 			national_populist_drift = -0.05
 		}

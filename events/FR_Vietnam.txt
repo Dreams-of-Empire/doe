@@ -32,12 +32,12 @@ country_event = {
         name = viet.1.b
 
         set_politics = {
-            ruling_party = market_liberal
+            ruling_party = illuminist
             elections_allowed = no
         }
         hidden_effect = {
             add_popularity = {
-                ideology = market_liberal
+                ideology = illuminist
                 popularity = 0.15
             }
 

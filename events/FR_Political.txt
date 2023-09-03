@@ -361,9 +361,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
-			set_country_flag = opinion_set_market_liberal
+			set_country_flag = opinion_set_illuminist
 		}
 		if = {
 			limit = {
@@ -435,8 +435,8 @@ country_event = {
 				has_country_flag = opinion_set_liberal
 			}
 			AND = {
-				NOT = { has_government = market_liberal }
-				has_country_flag = opinion_set_market_liberal
+				NOT = { has_government = illuminist }
+				has_country_flag = opinion_set_illuminist
 			}
 			AND = {
 				NOT = { has_government = social_conservative }
@@ -464,7 +464,7 @@ country_event = {
 				NOT = { has_country_flag = opinion_set_fasci }
 				NOT = { has_country_flag = opinion_set_social_democrat }
 				NOT = { has_country_flag = opinion_set_liberal }
-				NOT = { has_country_flag = opinion_set_market_liberal }
+				NOT = { has_country_flag = opinion_set_illuminist }
 				NOT = { has_country_flag = opinion_set_social_conservative }
 				NOT = { has_country_flag = opinion_set_authoritarian_democrat }
 				NOT = { has_country_flag = opinion_set_paternal_autocrat }
@@ -484,7 +484,7 @@ country_event = {
 		clr_country_flag = opinion_set_fasci
 		clr_country_flag = opinion_set_social_democrat
 		clr_country_flag = opinion_set_liberal
-		clr_country_flag = opinion_set_market_liberal
+		clr_country_flag = opinion_set_illuminist
 		clr_country_flag = opinion_set_social_conservative
 		clr_country_flag = opinion_set_authoritarian_democrat
 		clr_country_flag = opinion_set_paternal_autocrat
@@ -672,9 +672,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
-			set_country_flag = opinion_set_market_liberal
+			set_country_flag = opinion_set_illuminist
 		}
 		if = {
 			limit = {

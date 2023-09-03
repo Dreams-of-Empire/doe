@@ -370,7 +370,7 @@ country_event = { # random event selector for ITA_promise_reforms
 	}
 }
 
-country_event = { # Market Liberals leave the coalition
+country_event = { # Illuminists leave the coalition
 	id = ita.11
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ita.11"}
 	title = ita.11.t
@@ -382,7 +382,7 @@ country_event = { # Market Liberals leave the coalition
 	option = {
 		name = ita.11.a
 		add_political_power = -50
-		remove_coalition_market_liberal = yes 
+		remove_coalition_illuminist = yes 
 		set_country_flag = ITA_liberals_right
 	}
 }
@@ -527,7 +527,7 @@ country_event = { # election events
 		set_country_flag = ITA_fpick_lib # Foreign minister candidate
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		add_political_power = 50
 		country_event = {
 			id = ita.15
@@ -627,7 +627,7 @@ country_event = {
 		ai_chance = { factor = 15 }
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		country_event = {
 			id = ita.16
 			hours = 12
@@ -724,7 +724,7 @@ country_event = {
 		set_country_flag = ITA_spick_lib # security minister candidate
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		add_political_power = -20
 		country_event = {
 			id = ita.17
@@ -834,7 +834,7 @@ country_event = { # Economic reforms
 		set_country_flag = ITA_epick_lib # economic minister candidate
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		add_political_power = 20
 		country_event = {
 			id = ita.18
@@ -946,7 +946,7 @@ country_event = { # Role of the Monarchy
 		ai_chance = { factor = 15 }
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		country_event = {
 			id = ita.19
 			hours = 12
@@ -1031,7 +1031,7 @@ country_event = { # Colonial policy
 		ai_chance = { factor = 15 }
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		random_state = {
 			limit = {
 				OR = {
@@ -1329,10 +1329,10 @@ country_event = { # liberal win
 		name = ita.22.a 
 		set_country_flag = ITA_lib_win
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 		}
 		add_political_power = 50
-		remove_coalition_market_liberal = yes
+		remove_coalition_illuminist = yes
 		remove_coalition_fasci = yes 
 		remove_coalition_social_democrat = yes 
 		if = {
@@ -1414,7 +1414,7 @@ country_event = { # conservative win
 			limit = {
 				has_country_flag = ITA_liberals_right
 			}
-			add_coalition_market_liberal = yes 
+			add_coalition_illuminist = yes 
 		}
 		add_political_power = 50
 		hidden_effect = {
@@ -2653,7 +2653,7 @@ country_event = { # Forming government - foreign minister
 				}
 			}
 			AND = {
-				has_government = market_liberal
+				has_government = illuminist
 				OR = {
 					has_country_flag = ITA_fpick_con
 					has_country_flag = ITA_fpick_lib
@@ -2744,7 +2744,7 @@ country_event = { # Forming government - foreign minister
 		trigger = {
 			has_country_flag = ITA_fpick_lib
 			NOT = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
 		}	
 		name = ita.50.e
@@ -2843,7 +2843,7 @@ country_event = { # Forming government - economic minister
 				}
 			}
 			AND = {
-				has_government = market_liberal
+				has_government = illuminist
 				OR = {
 					has_country_flag = ITA_epick_con
 					has_country_flag = ITA_epick_lib
@@ -2934,7 +2934,7 @@ country_event = { # Forming government - economic minister
 		trigger = {
 			has_country_flag = ITA_epick_lib
 			NOT = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
 		}	
 		name = ita.51.e
@@ -3033,7 +3033,7 @@ country_event = { # Forming government - economic minister
 				}
 			}
 			AND = {
-				has_government = market_liberal
+				has_government = illuminist
 				OR = {
 					has_country_flag = ITA_spick_con
 					has_country_flag = ITA_spick_lib
@@ -3117,7 +3117,7 @@ country_event = { # Forming government - economic minister
 		trigger = {
 			has_country_flag = ITA_spick_lib
 			NOT = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
 		}	
 		name = ita.52.e
@@ -3216,7 +3216,7 @@ country_event = { # Italy - What should we do about French states?
 					has_government = fasci
 					has_government = social_democrat
 					has_government = liberal
-					has_government = market_liberal
+					has_government = illuminist
 					has_government = social_conservative
 				}
 			}
@@ -14524,10 +14524,10 @@ country_event = { # Italy - 1941 election
 		}
 		if = {
 			limit = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
 			add_popularity = {
-				ideology = market_liberal
+				ideology = illuminist
 				popularity = 0.10
 			}
 		}
@@ -14539,7 +14539,7 @@ country_event = { # Italy - 1941 election
 		}
 		if = {
 			limit = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
 			add_political_power = 50
 		}
@@ -14602,7 +14602,7 @@ country_event = {
 				has_government = fasci
 				has_government = vanguardist
 				has_government = social_democrat
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = liberal
 			}
@@ -14618,7 +14618,7 @@ country_event = {
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 				has_government = revivalist
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = national_populist
 			}

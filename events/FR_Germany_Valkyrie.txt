@@ -397,7 +397,7 @@ country_event = { #inviting the local princes
 		add_political_power = -50
 		
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -460,7 +460,7 @@ country_event = { #Absolutist vs Parlementarian decision
       add_ideas = constitutional_monarchy
     }
     add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.10
 		}
 		add_popularity = {
@@ -506,7 +506,7 @@ country_event = { #Accession to the throne authdem/conservativism
 			popularity = 0.4
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.15
 		}
 		add_popularity = {
@@ -561,7 +561,7 @@ country_event = { #First German election
 		}
 
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.2
 		}
 		add_popularity = {
@@ -574,7 +574,7 @@ country_event = { #First German election
 		}
 
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = yes
 		}
 		

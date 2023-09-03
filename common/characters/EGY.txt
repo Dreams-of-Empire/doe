@@ -15,7 +15,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -192,7 +192,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Fouad_Serageddin_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_political_protege
 			}
 		}
@@ -219,7 +219,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Makram_Ebeid_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_silent_workhorse
 			}
 		}
@@ -246,7 +246,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Mohamed_Mahmoud_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_happy_amateur
 			}
 		}
@@ -273,7 +273,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Mostafa_El_Nahas_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_naive_optimist
 			}
 		}
@@ -689,7 +689,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Hassan_Sabry_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_biased_intellectual
 			}
 		}
@@ -716,7 +716,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Ali_Shamsi_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_general_staffer
 			}
 		}
@@ -878,7 +878,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Talaat_Harb_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_construction_magnate
 			}
 		}
@@ -1067,7 +1067,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Abbas_al_Aqqad_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_man_of_the_people
 			}
 		}
@@ -1094,7 +1094,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Abdel_Hamid_Badawi_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_crooked_kleptocrat
 			}
 		}

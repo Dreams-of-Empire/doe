@@ -127,7 +127,7 @@ country_event = {
 				desc = "POLITICS_GEORGE_VI_DESC" 
 				picture = "gfx/leaders/ENG/Portrait_Britain_George_VI.png" 
 				expire = "1965.1.1" 
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {  } 
 			}
 			create_country_leader = { 
@@ -196,7 +196,7 @@ country_event = {
 				desc = "POLITICS_EDWARD_VIII_DESC" 
 				picture = "gfx/leaders/ENG/Portrait_Britain_Edward_VIII_fx.png.png" 
 				expire = "1965.1.1" 
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {  } 
 			}
 			create_country_leader = { 
@@ -342,7 +342,7 @@ country_event = {
 	
 	option = {
 		name = "This can't be happening!"
-		add_popularity = { ideology = market_liberal popularity = 0.15 }
+		add_popularity = { ideology = illuminist popularity = 0.15 }
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.08 }
 		remove_ideas = CAN_red_tories
@@ -746,7 +746,7 @@ country_event = { #Waking the Tiger broke the event chain due to how infrastruct
 	option = {
 		name = "Let the Companies do as they please."
 		ai_chance = { factor = 25 }
-		add_popularity = { ideology = market_liberal popularity = 0.1 }
+		add_popularity = { ideology = illuminist popularity = 0.1 }
 		add_resource = {  
  				type = oil  
  				amount = 16 
@@ -996,7 +996,7 @@ country_event = {
 		}
 		add_stability = -0.01
 		add_popularity = { ideology = liberal popularity = 0.35 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		set_politics = {
 			ruling_party = liberal
 			elections_allowed = no
@@ -1068,9 +1068,9 @@ country_event = {
 			CAN_Ernest_Lapointe_sec_mli
 		}
 		add_stability = 0.01
-		add_popularity = { ideology = market_liberal popularity = 0.2 }
+		add_popularity = { ideology = illuminist popularity = 0.2 }
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = no
 		}
 	}
@@ -1203,9 +1203,9 @@ country_event = {
 			CAN_Ernest_Lapointe_sec_mli
 		}
 		add_stability = 0.01
-		add_popularity = { ideology = market_liberal popularity = 0.2 }
+		add_popularity = { ideology = illuminist popularity = 0.2 }
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = no
 		}
 	}
@@ -1338,9 +1338,9 @@ country_event = {
 			CAN_Ernest_Lapointe_sec_mli
 		}
 		add_stability = 0.01
-		add_popularity = { ideology = market_liberal popularity = 0.2 }
+		add_popularity = { ideology = illuminist popularity = 0.2 }
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = no
 		}
 	}
@@ -2025,7 +2025,7 @@ country_event = {
 		ai_chance = { factor = 40 }
 		country_event = { days = 2 id = canelection.3}
 		modify_country_flag = { flag = CAN_LIBERAL value = 2 }
-		add_popularity = { ideology = market_liberal popularity = 0.07 }
+		add_popularity = { ideology = illuminist popularity = 0.07 }
 	}
 
 	option = {
@@ -2071,7 +2071,7 @@ country_event = {
 		ai_chance = { factor = 30 }
 		country_event = { days = 2 id = canelection.4}
 		modify_country_flag = { flag = CAN_LIBERAL value = 2 }
-		add_popularity = { ideology = market_liberal popularity = 0.04 }
+		add_popularity = { ideology = illuminist popularity = 0.04 }
 	}
 
 	option = {
@@ -2117,7 +2117,7 @@ country_event = {
 		ai_chance = { factor = 30 }
 		country_event = { days = 2 id = canelection.5}
 		modify_country_flag = { flag = CAN_LIBERAL value = 2 }
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = illuminist popularity = 0.03 }
 	}
 
 	option = {
@@ -2163,7 +2163,7 @@ country_event = {
 		ai_chance = { factor = 30 }
 		country_event = { days = 2 id = canelection.6}
 		modify_country_flag = { flag = CAN_LIBERAL value = 2 }
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = illuminist popularity = 0.03 }
 	}
 
 	option = {
@@ -2219,7 +2219,7 @@ country_event = {
 		name = "The Liberals gain a Majority"
 		country_event = { days = 2 id = canelection.7}
 		modify_country_flag = { flag = CAN_LIBERAL value = 8 }
-		add_popularity = { ideology = market_liberal popularity = 0.1 }
+		add_popularity = { ideology = illuminist popularity = 0.1 }
 		ai_chance = {
 			base = 40
 			modifier = {
@@ -2309,7 +2309,7 @@ country_event = {
 		name = "The Liberals gain a Majority"
 		country_event = { days = 2 id = canelection.8}
 		modify_country_flag = { flag = CAN_LIBERAL value = 8 }
-		add_popularity = { ideology = market_liberal popularity = 0.1 }
+		add_popularity = { ideology = illuminist popularity = 0.1 }
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -2387,7 +2387,7 @@ country_event = {
 		name = "Just... Just give it to the Liberals."
 		ai_chance = { factor = 30 }
 		country_event = { days = 2 id = canelection.9}
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = illuminist popularity = 0.01 }
 	}
 
 	option = {
@@ -2431,7 +2431,7 @@ country_event = {
 		ai_chance = { factor = 30 }
 		country_event = { days = 2 id = canelection.10}
 		modify_country_flag = { flag = CAN_LIBERAL value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.02 }
+		add_popularity = { ideology = illuminist popularity = 0.02 }
 	}
 
 	option = {
@@ -2477,7 +2477,7 @@ country_event = {
 		ai_chance = { factor = 30 }
 		country_event = { days = 2 id = canelection.11}
 		modify_country_flag = { flag = CAN_LIBERAL value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = illuminist popularity = 0.03 }
 	}
 
 	option = {
@@ -2525,7 +2525,7 @@ country_event = {
 		hidden_effect = {
 			country_event = { days = 2 id = canelection.12}
 		}
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = illuminist popularity = 0.01 }
 	}
 
 	option = {
@@ -2614,16 +2614,16 @@ country_event = {
 		}
 		set_global_flag = CAN_LIBERAL
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = no
 		}
 		add_popularity = { ideology = liberal popularity = 0.2 }
 		hidden_effect = {
 			IF = {
 				limit = {
-					market_liberal < 0.4
+					illuminist < 0.4
 				}
-				add_popularity = { ideology = market_liberal popularity = 0.20 }
+				add_popularity = { ideology = illuminist popularity = 0.20 }
 			}
 		}
 	}
@@ -2719,7 +2719,7 @@ country_event = {
 			CAN_Ernest_Lapointe_sec_mli
 		}
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = no
 		}
 		add_popularity = { ideology = social_conservative popularity = -0.05 }

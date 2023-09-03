@@ -226,7 +226,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -244,7 +244,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Robert_Menzies_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -263,7 +263,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Robert_Menzies_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_mixed_economy
 			}
 		}
@@ -295,7 +295,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_William_Hughes_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_old_compromiser
 			}
 		}
@@ -402,7 +402,7 @@ characters = {
 		}
 		country_leader = {
 			desc = POLITICS_LORD_BIRDWOOD_DESC
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1138,7 +1138,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_George_F_Pearce_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_great_compromiser
 			}
 		}
@@ -1157,7 +1157,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_George_F_Pearce_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_compassionate_gentleman
 			}
 		}
@@ -1446,7 +1446,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Percy_C_Spender_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_great_compromiser
 			}
 		}
@@ -1770,7 +1770,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Eric_J_Harrison_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_infantry_proponent
 			}
 		}
@@ -2040,7 +2040,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Harold_Thorby_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_prince_of_terror
 			}
 		}

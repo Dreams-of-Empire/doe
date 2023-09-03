@@ -144,7 +144,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_dispose_of_the_traitors"
 			
 			add_popularity = { 
-				ideology = market_liberal popularity = -0.05
+				ideology = illuminist popularity = -0.05
 			}
 			add_popularity = { 
 				ideology = social_conservative popularity = -0.05
@@ -340,7 +340,7 @@ focus_tree = {
 						is_subject_of = BOL
 						has_war_with = BOL
 						has_government = liberal
-						has_government = market_liberal
+						has_government = illuminist
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
@@ -1679,7 +1679,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_expel_the_colonials"
 			add_political_power = 50
 			add_popularity = { 
-				ideology = market_liberal popularity = -0.05
+				ideology = illuminist popularity = -0.05
 			}
 			add_popularity = { 
 				ideology = social_democrat popularity = -0.05

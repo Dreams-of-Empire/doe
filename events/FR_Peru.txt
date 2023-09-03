@@ -268,7 +268,7 @@ country_event = { #suspending democracy
 			popularity = 0.025
 		}
 		add_popularity ={
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.025
 		}
 		add_political_power = -35
@@ -300,7 +300,7 @@ country_event = { #suspending democracy
 			popularity = -0.025
 		}
 		add_popularity ={
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = -0.025
 		}
 		hidden_effect = { country_event = { days = 20 id = pru.1337 } }

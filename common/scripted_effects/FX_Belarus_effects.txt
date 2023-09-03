@@ -113,7 +113,7 @@ BLR_create_monarchy = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = market_liberal_subtype
+        ideology = illuminist_subtype
         traits = {}
       }
     }

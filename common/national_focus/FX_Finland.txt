@@ -498,7 +498,7 @@ focus_tree = {
 				has_government = fasci
 				has_government = social_democrat
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 			}
@@ -1505,7 +1505,7 @@ focus_tree = {
 			has_completed_focus = FIN_regulate_trade
 			has_completed_focus = FIN_cut_spendings
 			NOT = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 			}
 		}
@@ -1723,7 +1723,7 @@ focus_tree = {
 			has_completed_focus = FIN_leviate_indebted_farmers
 			OR = {
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 			}
 			NOT = {
@@ -3096,7 +3096,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = liberal popularity = 0.03 }
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = illuminist popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 		}
 
@@ -3387,7 +3387,7 @@ focus_tree = {
 			has_country_flag = FIN_porvaristo_ja_viljelijat_flag
 			OR = {
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 			}
 		}
@@ -3401,7 +3401,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_political_power = 25
 			add_popularity = { ideology = liberal popularity = 0.01 }
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = illuminist popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 		}
 
@@ -3574,7 +3574,7 @@ focus_tree = {
 			add_war_support = 0.02
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
 			add_popularity = { ideology = liberal popularity = 0.03 }
-			add_popularity = { ideology = market_liberal popularity = 0.03 }
+			add_popularity = { ideology = illuminist popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 		}
 
@@ -3595,7 +3595,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = market_liberal
+				has_government = illuminist
 			}
 			has_country_flag = FIN_president_svinhufvud_flag
 			has_country_flag = FIN_porvaristo_ja_viljelijat_flag
@@ -3646,7 +3646,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
 			add_popularity = { ideology = liberal popularity = 0.03 }
-			add_popularity = { ideology = market_liberal popularity = 0.03 }
+			add_popularity = { ideology = illuminist popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 		}
 
@@ -3701,7 +3701,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_gain_church_support"
 			add_stability = 0.05
 			add_popularity = { ideology = liberal popularity = 0.03 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
 			add_popularity = { ideology = national_populist popularity = -0.03 }
@@ -4183,7 +4183,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
 			add_popularity = { ideology = liberal popularity = -0.03 }
-			add_popularity = { ideology = market_liberal popularity = -0.03 }
+			add_popularity = { ideology = illuminist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 		}
 
@@ -4496,7 +4496,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_popularity = { ideology = liberal popularity = -0.04 }
-			add_popularity = { ideology = market_liberal popularity = -0.03 }
+			add_popularity = { ideology = illuminist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.04 }
 		}
 

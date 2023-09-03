@@ -142,7 +142,7 @@ set_popularities = {
   fasci = 0
   social_democrat = 10
   liberal = 37
-  market_liberal = 30
+  illuminist = 30
   social_conservative = 10
   authoritarian_democrat = 4
   paternal_autocrat = 0
@@ -150,7 +150,7 @@ set_popularities = {
   revivalist = 5
 }
 
-add_coalition_market_liberal = yes 
+add_coalition_illuminist = yes 
 
 set_convoys = 150
 set_stability = 0.50

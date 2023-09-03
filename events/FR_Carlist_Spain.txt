@@ -97,7 +97,7 @@ country_event = {
 		hidden_effect = {
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
 			add_popularity = { ideology = liberal popularity = 0.05 }
-			add_popularity = { ideology = market_liberal popularity = 0.04 }
+			add_popularity = { ideology = illuminist popularity = 0.04 }
 		}
 	}
 }
@@ -858,7 +858,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = market_liberal_subtype
+						ideology = illuminist_subtype
 						traits = {}
 					}
 				}
@@ -924,7 +924,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = market_liberal_subtype
+						ideology = illuminist_subtype
 						traits = {}
 					}
 				}

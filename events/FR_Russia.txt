@@ -368,7 +368,7 @@ country_event = {   #Creation of Democracy
     country_event = { id = rus.17 days = 20 }
     add_coalition_paternal_autocrat = yes 
     add_coalition_revivalist = yes 
-    add_coalition_market_liberal = yes 
+    add_coalition_illuminist = yes 
     add_coalition_liberal = yes 
     add_coalition_social_democrat = yes 
   } 
@@ -536,13 +536,13 @@ country_event = { #Elections
       RUS_Grigory_Gershuni_sec_sde
     }
 		add_popularity = { ideology = liberal popularity = 0.1 }
-		add_popularity = { ideology = market_liberal popularity = 0.1 }
+		add_popularity = { ideology = illuminist popularity = 0.1 }
 		add_popularity = { ideology = social_democrat popularity = 0.1 }
 		country_event = { id = rusur.1 days = 7 }
 		complete_national_focus = RUS_control_economy
 		set_country_flag = UR_Victorious
 		set_country_flag = RUS_ready_militarise
-		add_coalition_market_liberal = yes 
+		add_coalition_illuminist = yes 
 		add_coalition_social_democrat = yes 
 		news_event = {
 			id = worldnews.113
@@ -1096,7 +1096,7 @@ country_event = {
 			    popularity = -0.05
 		    }	
 			add_popularity = { 
-			    ideology = market_liberal 
+			    ideology = illuminist 
 			    popularity = -0.05
 		    }			
 		hidden_effect = {

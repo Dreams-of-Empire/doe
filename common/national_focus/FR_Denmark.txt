@@ -1918,7 +1918,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_limit_capitalist_exploits"
 			add_stability = 0.03
-			add_popularity = { ideology = market_liberal popularity = -0.03 }
+			add_popularity = { ideology = illuminist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 		}
 
@@ -1973,7 +1973,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DEN_liberal_return
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
 		cost = 5.00
 		prerequisite = {
 			focus = DEN_snap_elections
@@ -1982,7 +1982,7 @@ focus_tree = {
 		y = 1
 		
 		available = {
-			has_government = market_liberal
+			has_government = illuminist
 		}
 		
 		ai_will_do = {
@@ -1992,7 +1992,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_liberal_return"
 			add_stability = 0.10
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 		}
 
 	}
@@ -2094,7 +2094,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_strengthen_agricultural_sector"
 			add_stability = 0.02
 			add_war_support = 0.05
-			add_popularity = { ideology = market_liberal popularity = 0.03 }
+			add_popularity = { ideology = illuminist popularity = 0.03 }
 		}
 
 	}
@@ -3087,7 +3087,7 @@ focus_tree = {
 			add_political_power = -50
 			add_popularity = { ideology = fasci popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
-			add_popularity = { ideology = market_liberal popularity = -0.02 }
+			add_popularity = { ideology = illuminist popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = DEN_danish_republicanism_idea
@@ -3382,7 +3382,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_tackle_big_capital"
 			add_stability = -0.03
 			add_political_power = 50
-			add_popularity = { ideology = market_liberal popularity = -0.02 }
+			add_popularity = { ideology = illuminist popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = DEN_corporatist_way_idea
 				add_idea = DEN_tackle_big_capital_idea
@@ -3600,7 +3600,7 @@ focus_tree = {
 			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = -0.03 }
+			add_popularity = { ideology = illuminist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			remove_ideas = DEN_trial_against_lyksborg_idea
 		}
@@ -3741,7 +3741,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_recover_from_capitalism"
 			add_stability = -0.04
 			add_political_power = 75
-			add_popularity = { ideology = market_liberal popularity = -0.02 }
+			add_popularity = { ideology = illuminist popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.01 }
 		}
 
@@ -4045,7 +4045,7 @@ focus_tree = {
 			add_political_power = -50
 			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
 			add_popularity = { ideology = liberal popularity = -0.02 }
-			add_popularity = { ideology = market_liberal popularity = -0.03 }
+			add_popularity = { ideology = illuminist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
 			add_popularity = { ideology = national_populist popularity = -0.01 }

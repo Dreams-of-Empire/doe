@@ -92,7 +92,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -110,7 +110,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Aleqsandre_Asatiani_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_smiling_oilman
 			}
 		}
@@ -129,7 +129,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Aleqsandre_Asatiani_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_balanced_budget_economy
 			}
 		}
@@ -719,7 +719,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Akaki_Khoshtaria_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_great_compromiser
 			}
 		}

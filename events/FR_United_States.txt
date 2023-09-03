@@ -83,11 +83,11 @@ country_event = { # 1936 Elections
 	option = { # Landon
 		name = usa.1.c
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.1
 		}
 		remove_every_minister = yes
@@ -876,11 +876,11 @@ country_event = { # 1940 Elections
 	option = { # Willkie
 		name = usa.28.c
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.1
 		}
 		remove_every_minister = yes
@@ -896,7 +896,7 @@ country_event = { # 1940 Elections
 								character = USA_Wendell_Willkie
 								promote_leader = yes
 								country_leader = {
-										ideology = market_liberal_subtype
+										ideology = illuminist_subtype
 										traits = { }
 								}
 						}
@@ -975,7 +975,7 @@ country_event = { # Last Minute Reforms Showing its Effects
 		name = usa.30.a
 		add_stability = 0.05
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.05
 		}
 	}
@@ -1186,7 +1186,7 @@ country_event = { # Demand Return of Free Government
 					set_politics = { ruling_party = liberal }
 				}
 				25 = {
-					set_politics = { ruling_party = market_liberal }
+					set_politics = { ruling_party = illuminist }
 				}
 				25 = {
 					set_politics = { ruling_party = social_conservative }
@@ -1318,11 +1318,11 @@ country_event = { # 1944 Elections
 	option = { # Barkley
 		name = usa.44.c
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.1
 		}
 		remove_every_minister = yes
@@ -1338,7 +1338,7 @@ country_event = { # 1944 Elections
 				character = USA_Alben_W_Barkley
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {}
 				}
 			}
@@ -1450,11 +1450,11 @@ country_event = { # 1948 Elections
 	option = { # Stassen
 		name = usa.45.c
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.1
 		}
 		remove_every_minister = yes
@@ -1470,7 +1470,7 @@ country_event = { # 1948 Elections
 				character = USA_Harold_Stassen
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {}
 				}
 			}
@@ -1588,7 +1588,7 @@ country_event = { # Concerns in Share our Wealth
 	option = {
 		name = usa.47.b
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -2937,7 +2937,7 @@ country_event = { # Oregon Question
 		set_popularities = {
 		  social_democrat = 18
 		  liberal = 3
-		  market_liberal = 6
+		  illuminist = 6
 		  social_conservative = 13
 		  authoritarian_democrat = 8
 		  paternal_autocrat = 44
@@ -3128,7 +3128,7 @@ country_event = { # New Elections!
 	option = { # MarLib - Truman
 		name = usa.114.c
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = yes
 			last_election = "1940.11.15"
 		}
@@ -3145,7 +3145,7 @@ country_event = { # New Elections!
 								character = USA_Harry_Truman
 								promote_leader = yes
 								country_leader = {
-										ideology = market_liberal_subtype
+										ideology = illuminist_subtype
 										traits = {}
 								}
 						}

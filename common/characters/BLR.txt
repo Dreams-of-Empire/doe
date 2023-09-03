@@ -698,7 +698,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Raman_Skirmunt_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -725,7 +725,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Mitrofan_Dovnar_Zapolsky_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_biased_intellectual
 			}
 		}
@@ -752,7 +752,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Karol_Niezabytowski_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_resource_industrialist
 			}
 		}
@@ -779,7 +779,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Jerzy_Osmolowski_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_efficient_sociopath
 			}
 		}

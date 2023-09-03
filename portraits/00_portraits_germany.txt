@@ -88,7 +88,7 @@ PRU = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -259,7 +259,7 @@ WGR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -430,7 +430,7 @@ DDR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -601,7 +601,7 @@ SAX = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -772,7 +772,7 @@ POM = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -943,7 +943,7 @@ SHO = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1114,7 +1114,7 @@ BRW = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1285,7 +1285,7 @@ HAN = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1456,7 +1456,7 @@ ERM = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1627,7 +1627,7 @@ HES = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1798,7 +1798,7 @@ BAW = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1969,7 +1969,7 @@ BAY = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2140,7 +2140,7 @@ SIL = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2311,7 +2311,7 @@ GRP = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2503,7 +2503,7 @@ GRP = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2674,7 +2674,7 @@ DDR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2845,7 +2845,7 @@ WGR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"

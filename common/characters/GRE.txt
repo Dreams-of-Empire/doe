@@ -106,7 +106,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Georgios_Kondylis_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_old_general
 			}
 		}
@@ -134,7 +134,7 @@ characters = {
 	# 			ROOT = { clr_country_flag = GRE_Ioannis_Theotokis_hog_mli_hired }
 	# 		}
 	# 		traits = {
-	# 			market_liberal
+	# 			illuminist
 	# 			hog_happy_amateur
 	# 		}
 	# 	}
@@ -640,7 +640,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1175,7 +1175,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Georgios_Kartalis_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_national_liberal
 			}
 		}
@@ -1511,7 +1511,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Dimitrios_Stefanopoulos_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_crooked_kleptocrat
 			}
 		}

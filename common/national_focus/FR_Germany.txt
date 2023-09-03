@@ -10426,7 +10426,7 @@ focus_tree = {
 			add_popularity = { ideology = fasci popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 } 
+			add_popularity = { ideology = illuminist popularity = 0.02 } 
 	 }
 	}
 	focus = {
@@ -10445,7 +10445,7 @@ focus_tree = {
             add_popularity = { ideology = fasci popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 } 
+			add_popularity = { ideology = illuminist popularity = 0.02 } 
 	  	}
 	}
 	focus = {
@@ -10464,7 +10464,7 @@ focus_tree = {
 			add_popularity = { ideology = fasci popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 } 
+			add_popularity = { ideology = illuminist popularity = 0.02 } 
 	  	}
 	}
 	focus = {
@@ -10633,7 +10633,7 @@ focus_tree = {
 		    OR = {
 				has_government = social_democrat  
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat

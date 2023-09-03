@@ -126,7 +126,7 @@ political_actions_dem = {
 			factor = 0 
 		}
 	}
-	increase_popularity_soclib = {
+	increase_popularity_libs = {
 		icon = generic_political_discourse
 		cost = 100
 		fire_only_once = no #May take this decision multiple times
@@ -138,26 +138,26 @@ political_actions_dem = {
 			has_government = liberal
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_soclib"
+			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_libs"
 			increase_ruling_party_popularity_by_5 = yes
 		}
 		ai_will_do = {
 			factor = 0 
 		}
 	}
-	increase_popularity_marklib = {
+	increase_popularity_Illuminist = {
 		icon = generic_political_discourse
 		cost = 100
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = market_liberal
+			has_government = illuminist
 		}
 		visible = {
-			has_government = market_liberal
+			has_government = illuminist
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_marklib"
+			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_Illuminist"
 			increase_ruling_party_popularity_by_5 = yes
 		}
 		ai_will_do = {
@@ -211,13 +211,13 @@ political_actions_dem = {
 		available = {
 			OR = {
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 			}
 		}
 		visible = {
 			OR = {
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 			}
 		}
 		modifier = {
@@ -462,7 +462,7 @@ political_actions = {
 		visible = {
 			OR = {
 				has_government = social_conservative
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 			NOT = {
@@ -1360,7 +1360,7 @@ war_measures = {
 					has_war_support > 0.60
 				}
 				AND = {
-					has_government = market_liberal
+					has_government = illuminist
 					has_war_support > 0.60
 				}
 				AND = {

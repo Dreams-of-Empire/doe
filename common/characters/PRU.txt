@@ -146,7 +146,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Manuel_Cisneros_Sanchez_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_charismatic_charmer
 			}
 		}
@@ -173,7 +173,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Rafael_Belaunde_Diez_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -601,7 +601,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Javier_Correa_Elias_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_relations_expert
 			}
 		}
@@ -628,7 +628,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Manuel_Prado_y_Ugarteche_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_ideological_crusader
 			}
 		}
@@ -860,7 +860,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Guillermo_Almenara_Irigoyen_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_construction_magnate
 			}
 		}
@@ -887,7 +887,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Romulo_Ferrero_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_resource_industrialist
 			}
 		}

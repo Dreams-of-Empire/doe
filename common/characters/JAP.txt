@@ -15,7 +15,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1297,7 +1297,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Hamaguchi_Osachi_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_local_tyrant
 			}
 		}
@@ -1323,7 +1323,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Machida_Chuji_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_happy_amateur
 			}
 		}
@@ -1349,7 +1349,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Miki_Bukichi_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -1375,7 +1375,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Ugaki_Kazushige_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_smiling_oilman
 			}
 		}
@@ -1869,7 +1869,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Shidehara_Kijuro_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_apologetic_clerk
 			}
 		}
@@ -2307,7 +2307,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Inoue_Junnosuke_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_bank_president
 			}
 		}
@@ -2333,7 +2333,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Matsumura_Kenzo_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_reformer
 			}
 		}
@@ -2749,7 +2749,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Kawasaki_Katsu_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_compassionate_gentleman
 			}
 		}
@@ -2775,7 +2775,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Kawasaki_Takukichi_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_silent_lawyer
 			}
 		}
@@ -2801,7 +2801,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Kimura_Kozaemon_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_man_of_the_people
 			}
 		}
@@ -2827,7 +2827,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Saito_Takao_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_efficient_sociopath
 			}
 		}

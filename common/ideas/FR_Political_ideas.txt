@@ -107,15 +107,15 @@ ideas = {
 			}
 		}
 
-		market_liberal_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea market_liberal_influence"}
+		illuminist_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea illuminist_influence"}
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
 
 			removal_cost = -1
@@ -123,8 +123,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				market_liberal_drift = 0.1
-				market_liberal_acceptance = 85
+				illuminist_drift = 0.1
+				illuminist_acceptance = 85
 			}
 		}
 

@@ -274,7 +274,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Carlos_R_Menendez_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_local_tyrant
 			}
 		}
@@ -288,7 +288,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -306,7 +306,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Gustavo_Arce_Correa_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_naive_optimist
 			}
 		}
@@ -325,7 +325,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Gustavo_Arce_Correa_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_military_entrepreneur
 			}
 		}
@@ -344,7 +344,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Gustavo_Arce_Correa_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_preserver_of_culture
 			}
 		}
@@ -814,7 +814,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Nicolas_Camara_Vales_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_reformer
 			}
 		}
@@ -833,7 +833,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Nicolas_Camara_Vales_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_apologetic_clerk
 			}
 		}
@@ -860,7 +860,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Rodolfo_Menendez_Mena_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_hawkish_intervener
 			}
 		}
@@ -879,7 +879,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Rodolfo_Menendez_Mena_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_secret_police_chief
 			}
 		}

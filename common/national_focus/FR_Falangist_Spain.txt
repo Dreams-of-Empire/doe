@@ -219,7 +219,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power = -20
 			add_popularity = { ideology = liberal popularity = -0.03 }
-			add_popularity = { ideology = market_liberal popularity = -0.03 }
+			add_popularity = { ideology = illuminist popularity = -0.03 }
 			if = {
 				limit = {
 					has_idea = SPR_civil_war_recovery_idea

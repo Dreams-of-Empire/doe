@@ -103,7 +103,7 @@ set_popularities = {
 	fasci = 0
 	social_democrat = 10
 	liberal = 4
-	market_liberal = 20
+	illuminist = 20
 	social_conservative = 40
 	authoritarian_democrat = 10
 	national_populist = 4
@@ -111,7 +111,7 @@ set_popularities = {
 }
 
 add_coalition_liberal = yes
-add_coalition_market_liberal = yes 
+add_coalition_illuminist = yes 
 
 recruit_character = PHI_Armed_Forces_Command
 recruit_character = PHI_Luis_Taruc

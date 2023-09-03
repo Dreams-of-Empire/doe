@@ -292,7 +292,7 @@ country_event = {
 		name = sweden.10.b
 		ai_chance = { factor = 10 }
 		add_political_power = -50
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = illuminist popularity = 0.01 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		country_event = { days = 8 id = sweden.12 }
@@ -353,7 +353,7 @@ country_event = {
 		}
 		remove_coalition_authoritarian_democrat = yes 
 		remove_coalition_social_conservative = yes 
-		remove_coalition_market_liberal = yes 
+		remove_coalition_illuminist = yes 
 		remove_coalition_liberal = yes 
 	}
 }
@@ -388,7 +388,7 @@ country_event = {
 
 		remove_coalition_social_conservative = yes 
 		add_coalition_liberal = yes 
-		add_coalition_market_liberal = yes 
+		add_coalition_illuminist = yes 
 		add_coalition_authoritarian_democrat = yes 
 		hidden_effect = {
 			country_event = { days = 120 id = sweden.32 }
@@ -414,7 +414,7 @@ country_event = {
 		set_country_flag = SWE_deal_with_devil_flag
 		
 		remove_coalition_liberal = yes 
-		remove_coalition_market_liberal = yes 
+		remove_coalition_illuminist = yes 
 		add_coalition_authoritarian_democrat = yes 
 		add_coalition_national_populist = yes 
 
@@ -676,7 +676,7 @@ country_event = {
         character = SWE_Gustaf_VI_Adolf
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = illuminist_subtype
           traits = {}
         }
       }
@@ -751,7 +751,7 @@ country_event = {
 
 
 		remove_coalition_liberal = yes 
-		remove_coalition_market_liberal = yes 
+		remove_coalition_illuminist = yes 
 		add_coalition_vanguardist = yes 
 		add_coalition_fasci = yes 
 		
@@ -1026,7 +1026,7 @@ country_event = {
 			
 			remove_coalition_social_conservative = yes 
 			add_coalition_authoritarian_democrat = yes 
-			add_coalition_market_liberal = yes 
+			add_coalition_illuminist = yes 
 			add_coalition_liberal = yes 
 			
 			country_event = { days = 4 id = sweden.31 }
@@ -1037,7 +1037,7 @@ country_event = {
 		name = sweden.30.b
 		ai_chance = { base = 25 }
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = illuminist elections_allowed = no
 		}
 		hidden_effect = {
 			remove_every_minister = yes
@@ -1075,7 +1075,7 @@ country_event = {
 			remove_coalition_social_conservative = yes 
 			add_coalition_authoritarian_democrat = yes 
 			add_coalition_social_conservative = yes 
-			add_coalition_market_liberal = yes 
+			add_coalition_illuminist = yes 
 			
 			country_event = { days = 4 id = sweden.31 }
 		}
@@ -1175,7 +1175,7 @@ country_event = {
 		name = sweden.33.b
 		ai_chance = { factor = 5 }
 		add_political_power = -50
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = illuminist popularity = 0.01 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		country_event = { days = 8 id = sweden.12 }
@@ -1245,7 +1245,7 @@ country_event = {
 		
 		remove_coalition_authoritarian_democrat = yes 
 		remove_coalition_social_conservative = yes 
-		remove_coalition_market_liberal = yes 
+		remove_coalition_illuminist = yes 
 		remove_coalition_liberal = yes 
 		add_coalition_paternal_autocrat = yes 
 		add_coalition_revivalist = yes 
@@ -1540,7 +1540,7 @@ country_event = {
         character = SWE_Gustaf_VI_Adolf
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = illuminist_subtype
           traits = {}
         }
       }
@@ -1634,7 +1634,7 @@ country_event = {
         }
       }
 			remove_coalition_liberal = yes 
-			remove_coalition_market_liberal = yes 
+			remove_coalition_illuminist = yes 
 			remove_coalition_social_conservative = yes 
 			remove_coalition_authoritarian_democrat = yes 
 			remove_coalition_national_populist = yes 
@@ -1841,7 +1841,7 @@ country_event = {
 		add_political_power = -30
 		add_popularity = { ideology = social_democrat popularity = -0.02 }
 		add_popularity = { ideology = liberal popularity = 0.02 }
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = illuminist popularity = 0.01 }
 		hidden_effect = {
 			country_event = { days = 10 id = sweden.55 }
 		}
@@ -2043,7 +2043,7 @@ country_event = {
 		}
 		hidden_effect = {
 			add_popularity = { ideology = liberal popularity = 0.01 }
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = illuminist popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 		}
 	}

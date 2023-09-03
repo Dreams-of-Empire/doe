@@ -26,7 +26,7 @@ set_politics = {
 }
 
 set_popularities = {
-  market_liberal = 0
+  illuminist = 0
   national_populist = 0
   collectivist = 0
   authoritarian_democrat = 100

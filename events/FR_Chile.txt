@@ -157,10 +157,10 @@ country_event = { #40 elections
 		activate_advisor = CHL_Manuel_Rivas_Vicuna_sec_sco
 
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 		}
 		add_popularity = {
-			ideology = market_liberal popularity = 0.25
+			ideology = illuminist popularity = 0.25
 		}
 		hidden_effect = {
 			set_global_flag = GRWON
@@ -383,10 +383,10 @@ country_event = { #blanche open elections
 		activate_advisor = CHL_Manuel_Rivas_Vicuna_sec_sco
 		add_ideas = presidential_republic
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 		}
 		add_popularity = {
-			ideology = market_liberal popularity = 0.25
+			ideology = illuminist popularity = 0.25
 		}
 		hidden_effect = {
 			set_global_flag = GRWON
@@ -476,10 +476,10 @@ country_event = { #blanche no left elections
 		activate_advisor = CHL_Carlos_Valdovinos_Valdovinos_sec_sli
 		add_ideas = presidential_republic
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 		}
 		add_popularity = {
-			ideology = market_liberal popularity = 0.25
+			ideology = illuminist popularity = 0.25
 		}
 		hidden_effect = {
 			set_global_flag = GRWON
@@ -883,7 +883,7 @@ country_event = { #Flavor4 economic plan
 		name = chl.1003.a
 		add_political_power = -25
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.025
 		}
 	}

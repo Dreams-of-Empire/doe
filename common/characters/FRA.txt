@@ -779,7 +779,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Paul_Reynaud_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_democratic_tyrant
 			}
 		}
@@ -1412,7 +1412,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Andre_Tardieu_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_construction_magnate
 			}
 		}
@@ -1444,7 +1444,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Pierre_Etienne_Flandin_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_national_liberal
 			}
 		}

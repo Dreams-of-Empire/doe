@@ -34,7 +34,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_REGENCY_COUNCIL_ROMANIA_DESC
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -506,7 +506,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Constantin_Bratianu_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_smiling_oilman
 			}
 		}
@@ -534,7 +534,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Constantin_Angelescu_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -772,7 +772,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Gheorghe_Tatarescu_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_iron_fisted_brute
 			}
 		}
@@ -799,7 +799,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Savel_Radulescu_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_ideological_crusader
 			}
 		}
@@ -1015,7 +1015,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Victor_Slavescu_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_bank_president
 			}
 		}
@@ -1042,7 +1042,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Mitita_Constantinescu_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_construction_magnate
 			}
 		}
@@ -1258,7 +1258,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Victor_Iamandi_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_compassionate_gentleman
 			}
 		}
@@ -1285,7 +1285,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Richard_Franasovici_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_crime_fighter
 			}
 		}

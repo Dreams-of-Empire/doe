@@ -969,7 +969,7 @@ ideas = {
 				fasci_drift = 0.02
 				social_democrat_drift = 0.02
 				liberal_drift = 0.02
-				market_liberal_drift = 0.02
+				illuminist_drift = 0.02
 				drift_defence_factor = 0.20
 			}
 		}

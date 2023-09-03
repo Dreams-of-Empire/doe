@@ -1578,7 +1578,7 @@ country_event = {	# Snap Elections Results
 			}
 
 			increase_ruling_party_popularity_by_15 = yes
-			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = illuminist popularity = 0.05 }
 			set_country_flag = tory_coal
 		}
 	}
@@ -1692,7 +1692,7 @@ country_event = { # General Elections
 				ENG_John_Anderson_sec_mli
 			}
 			increase_ruling_party_popularity_by_15 = yes
-			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = illuminist popularity = 0.05 }
 			set_country_flag = tory_coal
 		}
 	}
@@ -2065,7 +2065,7 @@ country_event = { # Ireland and the United Kingdom
         character = IRE_James_Matthew_Dillon
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = illuminist_subtype
           traits = {}
         }
       }
@@ -2160,7 +2160,7 @@ country_event = { # Ireland and the United Kingdom
         character = IRE_James_Matthew_Dillon
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = illuminist_subtype
           traits = {}
         }
       }
@@ -3952,7 +3952,7 @@ country_event = { # The Anglo-Arabian Oil Company
 		name = ukf.2.c
 		add_political_power = 100
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.05
 		}
 	}

@@ -95,7 +95,7 @@ country_event = {
 		hidden_effect = {
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = liberal popularity = 0.06 }
-			add_popularity = { ideology = market_liberal popularity = 0.04 }
+			add_popularity = { ideology = illuminist popularity = 0.04 }
 		}
 	}
 }
@@ -515,7 +515,7 @@ country_event = {
         character = SPM_Jaime_III
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = illuminist_subtype
           traits = {}
         }
       }
@@ -635,7 +635,7 @@ country_event = {
         character = SPM_Juan_III
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = illuminist_subtype
           traits = {}
         }
       }
@@ -912,9 +912,9 @@ country_event = {
 		name = monspain.107.b
 		ai_chance = { base = 30 }
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = illuminist elections_allowed = no
 		}
-		add_popularity = { ideology = market_liberal popularity = 0.08 }
+		add_popularity = { ideology = illuminist popularity = 0.08 }
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
 			add_ideas = SPM_Juan_de_la_Cierva_y_Penafiel_hog_mli
@@ -998,16 +998,16 @@ country_event = {
 			}
 		}
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = illuminist elections_allowed = no
 		}
 		if = {
 			limit = {
-				has_government = market_liberal
+				has_government = illuminist
 			}
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = illuminist popularity = 0.01 }
 		}
 		else = {
-			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = illuminist popularity = 0.05 }
 		}
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government

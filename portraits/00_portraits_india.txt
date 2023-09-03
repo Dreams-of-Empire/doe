@@ -66,7 +66,7 @@ IND = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -189,7 +189,7 @@ INC = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -312,7 +312,7 @@ TRV = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -435,7 +435,7 @@ MDR = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -558,7 +558,7 @@ HYD = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -681,7 +681,7 @@ ORI = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -804,7 +804,7 @@ RJH = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -927,7 +927,7 @@ BAL = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -1050,7 +1050,7 @@ PUN = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -1173,7 +1173,7 @@ KAS = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -1296,7 +1296,7 @@ BIH = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -1419,7 +1419,7 @@ BOM = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -1542,7 +1542,7 @@ PAK = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -1665,7 +1665,7 @@ BAN = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -1788,7 +1788,7 @@ SRL = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -1911,7 +1911,7 @@ MLD = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -2034,7 +2034,7 @@ MYS = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"
@@ -2157,7 +2157,7 @@ RAJ = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_2.png"

@@ -1853,7 +1853,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power = -50
 			add_popularity = { ideology = liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
 		}

@@ -234,7 +234,7 @@ SAF = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_10.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"
@@ -336,7 +336,7 @@ ZAF = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_10.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"
@@ -438,7 +438,7 @@ ZIM = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		illuminist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_10.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"

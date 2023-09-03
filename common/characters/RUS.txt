@@ -114,7 +114,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 	}
@@ -1335,7 +1335,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Pavel_N_Milyukov_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -1929,7 +1929,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Aleksandr_I_Konovalov_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_ideological_crusader
 			}
 		}
@@ -1956,7 +1956,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Alexei_M_Nikitin_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_iron_fisted_brute
 			}
 		}
@@ -2388,7 +2388,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Mikhail_V_Bernacki_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_bank_president
 			}
 		}
@@ -2415,7 +2415,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Wassily_Leontief_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_reformer
 			}
 		}
@@ -2847,7 +2847,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Andrei_I_Shingarev_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_silent_lawyer
 			}
 		}
@@ -2874,7 +2874,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vasily_A_Kharlamov_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_efficient_sociopath
 			}
 		}

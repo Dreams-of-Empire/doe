@@ -44,7 +44,7 @@ characters = {
 			ideology = autocratic_socialist_subtype
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 		}
 		country_leader = {
 			ideology = liberal_subtype

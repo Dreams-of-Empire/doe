@@ -55,7 +55,7 @@ country_event = { # The New Regent
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -629,7 +629,7 @@ country_event = { # 1937 General Elections
 			}
 		}
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 			elections_allowed = yes
 		}
 		increase_ruling_party_popularity_by_15 = yes
@@ -1398,7 +1398,7 @@ country_event = { # Coronation of Alexander I
       character = ROM_Alexandru_Cantacuzino
       promote_leader = yes
       country_leader = {
-        ideology = market_liberal_subtype
+        ideology = illuminist_subtype
         traits = {}
       }
     }
@@ -1984,7 +1984,7 @@ country_event = { # 1941 Elections
 		}
 		else = {
 			set_politics = {
-				ruling_party = market_liberal
+				ruling_party = illuminist
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes
@@ -2099,7 +2099,7 @@ country_event = { # 1945 Elections
 		}
 		else = {
 			set_politics = {
-				ruling_party = market_liberal
+				ruling_party = illuminist
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes
@@ -2209,7 +2209,7 @@ country_event = { # 1949 Elections
 		}
 		else = {
 			set_politics = {
-				ruling_party = market_liberal
+				ruling_party = illuminist
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes
@@ -2320,7 +2320,7 @@ country_event = { # 1953 Elections
 		}
 		else = {
 			set_politics = {
-				ruling_party = market_liberal
+				ruling_party = illuminist
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes
@@ -2431,7 +2431,7 @@ country_event = { # 1957 Elections
 		}
 		else = {
 			set_politics = {
-				ruling_party = market_liberal
+				ruling_party = illuminist
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes

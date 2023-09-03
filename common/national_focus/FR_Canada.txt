@@ -2720,7 +2720,7 @@ focus_tree = {
 #LIBERAL VICTORY
 	focus = {
 		id = CAN_liberal_victory
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
 		prerequisite = { focus = CAN_elections_1938 }
 		mutually_exclusive = { focus = CAN_tory_victory }
 		mutually_exclusive = { focus = CAN_ccf_victory }

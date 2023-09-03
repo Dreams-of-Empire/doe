@@ -119,7 +119,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 	}
@@ -464,7 +464,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Abdolhossein_Teymūrtāsh_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -491,7 +491,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Ali_Akbar_Dāvar_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_charismatic_charmer
 			}
 		}
@@ -788,7 +788,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Abdullah_Entezam_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_general_staffer
 			}
 		}
@@ -815,7 +815,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Ali_Mansur_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_apologetic_clerk
 			}
 		}
@@ -842,7 +842,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Mohammad_Ali_Foroughi_Zoka_ol_Molk_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -869,7 +869,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Muhammad_Sa_ed_Maraghei_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_iron_fisted_brute
 			}
 		}
@@ -1077,7 +1077,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Habib_Nafisi_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_steel_magnate
 			}
 		}
@@ -1358,7 +1358,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Esmail_Khan_Merat_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_efficient_sociopath
 			}
 		}

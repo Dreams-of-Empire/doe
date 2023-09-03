@@ -43,7 +43,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 	}
@@ -1015,7 +1015,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Imre_Csaky_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_ideological_crusader
 			}
 		}
@@ -1042,7 +1042,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Moric_Esterhazy_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_relations_expert
 			}
 		}
@@ -1420,7 +1420,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Gusztav_Gratz_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_reformer
 			}
 		}
@@ -1825,7 +1825,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Gabor_Ugron_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_crooked_kleptocrat
 			}
 		}

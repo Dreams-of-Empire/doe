@@ -39,7 +39,7 @@ ENG = {
 }
 
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = illuminist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -51,7 +51,7 @@ set_popularities = {
   fasci = 10
   social_democrat = 16
   liberal = 13
-  market_liberal = 23
+  illuminist = 23
   social_conservative = 15
   authoritarian_democrat = 7
   paternal_autocrat = 5

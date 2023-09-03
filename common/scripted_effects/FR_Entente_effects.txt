@@ -38,7 +38,7 @@ join_entente = {
 			}
 			OR = {
 				has_government = social_conservative
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 				has_government = social_democrat
 			}

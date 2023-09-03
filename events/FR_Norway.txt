@@ -114,7 +114,7 @@ country_event = {
 		add_political_power = -60
 		add_stability = -0.08
 		add_popularity = { ideology = fasci popularity = -0.02 }
-		add_popularity = { ideology = market_liberal popularity = 0.02 }
+		add_popularity = { ideology = illuminist popularity = 0.02 }
 		add_popularity = { ideology = liberal popularity = 0.02 }
 		
 	}
@@ -442,10 +442,10 @@ ai_chance = {
 	factor = 15
 }
 set_politics = {
-	ruling_party = market_liberal elections_allowed = no
+	ruling_party = illuminist elections_allowed = no
 }
 add_popularity = {
-	ideology = market_liberal popularity = 0.10
+	ideology = illuminist popularity = 0.10
 }
 add_popularity = {
 	ideology = social_conservative popularity = 0.05
@@ -473,7 +473,7 @@ hidden_effect = {
 		character = NOR_Martin_Tranmæl
 		promote_leader = yes
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = {}
 		}
 	}
@@ -784,9 +784,9 @@ country_event = {
 		ai_chance = { base = 30 }
 		add_ideas = presidential_republic
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = illuminist elections_allowed = no
 		}
-		add_popularity = { ideology = market_liberal popularity = 0.15 }
+		add_popularity = { ideology = illuminist popularity = 0.15 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		remove_every_minister = yes
 		add_ideas = {
@@ -1028,7 +1028,7 @@ country_event = {
 		if = {
 			limit = {
 				NOR = {
-					has_government = market_liberal
+					has_government = illuminist
 				}
 			}
 			add_country_leader_role = {
@@ -1050,7 +1050,7 @@ country_event = {
 				character = NOR_HM_King_Haakon_VII
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {}
 				}
 			}
@@ -1252,7 +1252,7 @@ country_event = {
 		set_politics = {
 			ruling_party = authoritarian_democrat elections_allowed = no
 		}
-		add_popularity = { ideology = market_liberal popularity = 0.10 }
+		add_popularity = { ideology = illuminist popularity = 0.10 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.20 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
 		remove_every_minister = yes
@@ -1263,7 +1263,7 @@ country_event = {
 			NOR_Per_von_Hirsch_sec_pau
 		}
 		add_coalition_paternal_autocrat = yes 
-		add_coalition_market_liberal = yes 
+		add_coalition_illuminist = yes 
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_HM_King_Haakon_VII
@@ -2391,7 +2391,7 @@ country_event = {
 				character = NOR_Carl_Joachim_Hambro
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {}
 				}
 			}
@@ -3119,13 +3119,13 @@ ai_chance = {
 	factor = 50
 }
 set_politics = {
-	ruling_party = market_liberal elections_allowed = no
+	ruling_party = illuminist elections_allowed = no
 }
 add_popularity = {
 	ideology = liberal popularity = 0.01
 }
 add_popularity = {
-	ideology = market_liberal popularity = 0.02
+	ideology = illuminist popularity = 0.02
 }
 add_popularity = {
 	ideology = social_conservative popularity = 0.01
@@ -3150,7 +3150,7 @@ hidden_effect = {
 			character = NOR_Martin_Tranmæl
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3165,7 +3165,7 @@ hidden_effect = {
 			character = NOR_Ingolf_Elster_Christensen
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3180,7 +3180,7 @@ hidden_effect = {
 			character = NOR_Johan_Ludwig_Mowinckel
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3194,7 +3194,7 @@ hidden_effect = {
 			character = NOR_HM_King_Haakon_VII
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3602,10 +3602,10 @@ ai_chance = {
 	factor = 30
 }
 set_politics = {
-	ruling_party = market_liberal elections_allowed = no
+	ruling_party = illuminist elections_allowed = no
 }
 add_popularity = {
-	ideology = market_liberal popularity = 0.08
+	ideology = illuminist popularity = 0.08
 }
 add_popularity = {
 	ideology = social_conservative popularity = 0.04
@@ -3631,7 +3631,7 @@ hidden_effect = {
 			character = NOR_Martin_Tranmæl
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3646,7 +3646,7 @@ hidden_effect = {
 			character = NOR_Ingolf_Elster_Christensen
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3661,7 +3661,7 @@ hidden_effect = {
 			character = NOR_Johan_Ludwig_Mowinckel
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3675,7 +3675,7 @@ hidden_effect = {
 			character = NOR_HM_King_Haakon_VII
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3801,10 +3801,10 @@ ai_chance = {
 	factor = 30
 }
 set_politics = {
-	ruling_party = market_liberal elections_allowed = no
+	ruling_party = illuminist elections_allowed = no
 }
 add_popularity = {
-	ideology = market_liberal popularity = 0.08
+	ideology = illuminist popularity = 0.08
 }
 add_popularity = {
 	ideology = social_conservative popularity = 0.02
@@ -3822,7 +3822,7 @@ hidden_effect = {
 			character = NOR_Martin_Tranmæl
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3846,7 +3846,7 @@ hidden_effect = {
 				character = NOR_Ingolf_Elster_Christensen
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {}
 				}
 			}
@@ -3862,7 +3862,7 @@ hidden_effect = {
 			character = NOR_Johan_Ludwig_Mowinckel
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3876,7 +3876,7 @@ hidden_effect = {
 			character = NOR_HM_King_Haakon_VII
 			promote_leader = yes
 			country_leader = {
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {}
 			}
 		}
@@ -3951,13 +3951,13 @@ ai_chance = {
 	factor = 50
 }
 set_politics = {
-	ruling_party = market_liberal elections_allowed = no
+	ruling_party = illuminist elections_allowed = no
 }
 add_popularity = {
 	ideology = liberal popularity = 0.01
 }
 add_popularity = {
-	ideology = market_liberal popularity = 0.02
+	ideology = illuminist popularity = 0.02
 }
 add_popularity = {
 	ideology = social_conservative popularity = 0.01
@@ -3983,7 +3983,7 @@ if = {
 		character = NOR_HM_King_Haakon_VII
 		promote_leader = yes
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = {}
 		}
 	}
@@ -4060,13 +4060,13 @@ ai_chance = {
 	factor = 50
 }
 set_politics = {
-	ruling_party = market_liberal elections_allowed = no
+	ruling_party = illuminist elections_allowed = no
 }
 add_popularity = {
 	ideology = liberal popularity = 0.01
 }
 add_popularity = {
-	ideology = market_liberal popularity = 0.02
+	ideology = illuminist popularity = 0.02
 }
 add_popularity = {
 	ideology = social_conservative popularity = 0.01
@@ -4091,7 +4091,7 @@ if = {
 		character = NOR_HM_King_Haakon_VII
 		promote_leader = yes
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = {}
 		}
 	}
@@ -4259,9 +4259,9 @@ country_event = {
 					character = NOR_Ingolf_Elster_Christensen
 					promote_leader = yes
 					country_leader = {
-						ideology = market_liberal_subtype
+						ideology = illuminist_subtype
 						traits = {
-							market_liberal
+							illuminist
 						}
 					}
 				}
@@ -4567,7 +4567,7 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		add_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = market_liberal popularity = 0.01
+			ideology = illuminist popularity = 0.01
 		}
 		hidden_effect = {
 			add_country_leader_role = {
@@ -4626,7 +4626,7 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		add_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = market_liberal popularity = 0.01
+			ideology = illuminist popularity = 0.01
 		}
 		hidden_effect = {
 			add_country_leader_role = {
@@ -4685,7 +4685,7 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		add_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = market_liberal popularity = 0.01
+			ideology = illuminist popularity = 0.01
 		}
 		hidden_effect = {
 			add_country_leader_role = {
@@ -4771,14 +4771,14 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		remove_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = market_liberal popularity = 0.01
+			ideology = illuminist popularity = 0.01
 		}
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_Arthur_Nordlie
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {}
 				}
 			}
@@ -4801,7 +4801,7 @@ country_event = {
 				character = NOR_Einar_Gerhardsen
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {}
 				}
 			}
@@ -4830,14 +4830,14 @@ country_event = {
 		set_country_flag = NOR_republic_flag
 		remove_ideas = NOR_government_president_struggle_idea
 		add_popularity = {
-			ideology = market_liberal popularity = 0.01
+			ideology = illuminist popularity = 0.01
 		}
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_Ingolf_Elster_Christensen
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {}
 				}
 			}
@@ -4860,7 +4860,7 @@ country_event = {
 				character = NOR_Einar_Gerhardsen
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {}
 				}
 			}
@@ -4907,13 +4907,13 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = market_liberal
+					has_government = illuminist
 				}
 				add_country_leader_role = {
 					character = NOR_Arthur_Nordlie
 					promote_leader = yes
 					country_leader = {
-						ideology = market_liberal_subtype
+						ideology = illuminist_subtype
 						traits = {}
 					}
 				}
@@ -4948,13 +4948,13 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = market_liberal
+					has_government = illuminist
 				}
 				add_country_leader_role = {
 					character = NOR_Einar_Gerhardsen
 					promote_leader = yes
 					country_leader = {
-						ideology = market_liberal_subtype
+						ideology = illuminist_subtype
 						traits = {}
 					}
 				}
@@ -5156,7 +5156,7 @@ country_event = {
 		set_politics = {
 			ruling_party = authoritarian_democrat elections_allowed = no
 		}
-		add_popularity = { ideology = market_liberal popularity = 0.10 }
+		add_popularity = { ideology = illuminist popularity = 0.10 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.20 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
 		remove_every_minister = yes
@@ -5168,7 +5168,7 @@ country_event = {
 		}
 		remove_coalition_social_conservative = yes 
 		add_coalition_paternal_autocrat = yes
-		add_coalition_market_liberal = yes 
+		add_coalition_illuminist = yes 
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_Olav_V
@@ -5199,7 +5199,7 @@ country_event = {
 			NOR_Nicolai_Rygg_eco_sco
 			NOR_Ivar_Kirkeby_Garstad_sec_sco
 		}
-		remove_coalition_market_liberal = yes 
+		remove_coalition_illuminist = yes 
 		add_coalition_paternal_autocrat = yes 
 		add_coalition_social_conservative = yes 
 		hidden_effect = {
@@ -5231,7 +5231,7 @@ country_event = {
 			NOR_Nicolai_Rygg_eco_sco
 			NOR_Ragnar_Skancke_sec_ade
 		}
-		remove_coalition_market_liberal = yes 
+		remove_coalition_illuminist = yes 
 		remove_coalition_social_conservative = yes 
 		add_coalition_paternal_autocrat = yes 
 		hidden_effect = {

@@ -46,7 +46,7 @@ set_politics = {
 
 set_popularities = {
 	social_democrat = 17
-	market_liberal = 13
+	illuminist = 13
 	social_conservative = 15
 	authoritarian_democrat = 24
 	paternal_autocrat = 14

@@ -36,12 +36,12 @@ NZL_remove_republic = {
         }
       }
       if = {
-        limit = { has_ideology = market_liberal_subtype }
-        promote_character = { ideology = market_liberal_subtype }
+        limit = { has_ideology = illuminist_subtype }
+        promote_character = { ideology = illuminist_subtype }
       }
       else = {
         add_country_leader_role = {
-          country_leader = { ideology = market_liberal_subtype }
+          country_leader = { ideology = illuminist_subtype }
           promote_leader = yes
         }
       }

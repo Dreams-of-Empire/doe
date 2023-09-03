@@ -380,7 +380,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Emiliano_Figueroa_Larrain_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -840,7 +840,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Miguel_Cruchaga_Tocornal_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1218,7 +1218,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Cristobal_Saenz_Cerda_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_laissez_faire_capitalist
 			}
 		}

@@ -2769,11 +2769,11 @@ focus_tree = {
 		relative_position_id = AST_united_australia
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_united_country"
-			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = illuminist popularity = 0.05 }
 			add_popularity = { ideology = social_conservative popularity = 0.05 }
 			
 			custom_effect_tooltip = AST_united_country_tt
-			hidden_effect = { add_coalition_market_liberal = yes }
+			hidden_effect = { add_coalition_illuminist = yes }
 
 			activate_advisor = AST_Robert_Menzies_eco_mli
 			activate_advisor = AST_George_F_Pearce_sec_mli
@@ -3832,7 +3832,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_purge_monarchist_parties"
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
 			add_popularity = { ideology = liberal popularity = -0.03 }
-			add_popularity = { ideology = market_liberal popularity = -0.05 }
+			add_popularity = { ideology = illuminist popularity = -0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.07 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.1 }
 

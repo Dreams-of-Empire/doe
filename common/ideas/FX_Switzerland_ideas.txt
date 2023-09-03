@@ -645,8 +645,8 @@ ideas = {
         }
 		}
 
-		SWI_market_liberal_hegemony = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWI_market_liberal_hegemony"}
+		SWI_illuminist_hegemony = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWI_illuminist_hegemony"}
       picture = generic_goods_red_bonus
       modifier = {
         political_power_factor = 0.15

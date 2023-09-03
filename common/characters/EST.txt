@@ -96,7 +96,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -411,7 +411,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Juri_Uluots_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -438,7 +438,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Kaarel_Liidak_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_happy_amateur
 			}
 		}
@@ -457,7 +457,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Kaarel_Liidak_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -484,7 +484,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Otto_Tief_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_naive_optimist
 			}
 		}
@@ -503,7 +503,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Otto_Tief_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_mixed_economy
 			}
 		}
@@ -903,7 +903,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Hugo_Partelpoeg_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_bank_president
 			}
 		}
@@ -933,7 +933,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Leo_Sepp_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_administrative_genius
 			}
 		}
@@ -1114,7 +1114,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_August_Jurima_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_efficient_sociopath
 			}
 		}
@@ -1141,7 +1141,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Johannes_Klesment_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_compassionate_gentleman
 			}
 		}
@@ -1171,7 +1171,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Richard_Veermaa_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_silent_lawyer
 			}
 		}

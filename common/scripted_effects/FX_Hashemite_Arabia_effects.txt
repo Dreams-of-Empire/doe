@@ -103,7 +103,7 @@ ARB_remove_abd_al_ilah = {
       ideology = liberal_subtype
     }
     remove_country_leader_role = {
-      ideology = market_liberal_subtype
+      ideology = illuminist_subtype
     }
     remove_country_leader_role = {
       ideology = social_conservative_subtype
@@ -126,7 +126,7 @@ ARB_remove_ghazi = {
       ideology = liberal_subtype
     }
     remove_country_leader_role = {
-      ideology = market_liberal_subtype
+      ideology = illuminist_subtype
     }
     remove_country_leader_role = {
       ideology = social_conservative_subtype
@@ -162,7 +162,7 @@ ARB_add_adb_al_ilah = {
       promote_leader = yes
       country_leader = {
         desc = POLITICS_ARB_ADB_AL_ILAH_DESC
-        ideology = market_liberal_subtype
+        ideology = illuminist_subtype
         traits = { }
       }
     }
@@ -213,7 +213,7 @@ ARB_add_ghazi = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = market_liberal_subtype
+        ideology = illuminist_subtype
         traits = { }
       }
     }

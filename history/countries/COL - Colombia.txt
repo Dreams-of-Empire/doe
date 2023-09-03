@@ -75,7 +75,7 @@ set_politics = {
 }
 
 set_popularities = {
-  market_liberal = 16
+  illuminist = 16
   liberal = 7
   social_conservative = 16
   authoritarian_democrat = 2

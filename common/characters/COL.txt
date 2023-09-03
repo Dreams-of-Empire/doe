@@ -237,7 +237,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Nemesio_Camacho_Macias_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_reformist_soldier
 			}
 		}
@@ -621,7 +621,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Francisco_Jose_Urrutia_Olano_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_moderate_among_radicals
 			}
 		}
@@ -648,7 +648,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Luis_Lopez_de_Mesa_Gomez_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_general_staffer
 			}
 		}
@@ -994,7 +994,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Benito_Hernandez_Bustos_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_national_liberal
 			}
 		}
@@ -1403,7 +1403,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Humberto_Chica_Pinzon_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_man_of_the_people
 			}
 		}
@@ -1623,7 +1623,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 	}

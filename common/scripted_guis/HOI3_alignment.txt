@@ -87,7 +87,7 @@ scripted_gui = {
 					}
 					add_to_temp_variable = {
 						var = democratic_Y
-						value = party_popularity@market_liberal
+						value = party_popularity@illuminist
 					}
 					add_to_temp_variable = {
 						var = democratic_Y
@@ -144,7 +144,7 @@ scripted_gui = {
 						OR = {
 							has_government = social_democrat
 							has_government = liberal
-							has_government = market_liberal
+							has_government = illuminist
 							has_government = social_conservative
 						}
 						all_of_scopes = {

@@ -1410,7 +1410,7 @@
 		y = 4
 		
 		available = {
-			has_government = market_liberal
+			has_government = illuminist
 			has_completed_focus = SPR_first_republican_election
 		}
 		

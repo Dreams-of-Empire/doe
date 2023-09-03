@@ -484,7 +484,7 @@
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MAN_fengtian_society_for_light_metals"
 
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 
 		add_resource = {
  		type = aluminium
@@ -526,7 +526,7 @@
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MAN_fengtian_society_for_heavy_metals"
 
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 
 		add_resource = {
      	type = steel
@@ -568,7 +568,7 @@
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus MAN_fengtian_society_for_mechanical_production"
 
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 
 		add_resource = {
      	type = oil
@@ -782,7 +782,7 @@
 			add_idea = MAN_industry_woes_2
 		}
 
-    add_popularity = { ideology = market_liberal popularity = 0.05 }
+    add_popularity = { ideology = illuminist popularity = 0.05 }
 
     add_popularity = { ideology = fasci popularity = 0.05 }
 

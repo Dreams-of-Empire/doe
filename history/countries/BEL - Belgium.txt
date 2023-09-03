@@ -59,7 +59,7 @@ add_ideas = {
 }
 
 add_coalition_social_democrat = yes 
-add_coalition_market_liberal = yes 
+add_coalition_illuminist = yes 
 set_politics = {	
 	ruling_party = social_conservative
 	last_election = "1933.3.5"
@@ -73,7 +73,7 @@ set_popularities = {
 	fasci = 1
 	social_democrat = 36
 	liberal = 0
-	market_liberal = 12
+	illuminist = 12
 	social_conservative = 40
 	authoritarian_democrat = 0
 	paternal_autocrat = 0

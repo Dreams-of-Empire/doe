@@ -28,7 +28,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = market_liberal
+	ruling_party = illuminist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -40,7 +40,7 @@ set_popularities = {
     fasci = 0
     social_democrat = 0
     liberal = 0
-    market_liberal = 50
+    illuminist = 50
     social_conservative = 0
     authoritarian_democrat = 30
     paternal_autocrat = 10

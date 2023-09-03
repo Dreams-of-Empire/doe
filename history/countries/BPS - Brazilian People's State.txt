@@ -15,7 +15,7 @@ set_politics = {
 
 set_popularities = {
     social_conservative = 5
-    market_liberal = 7
+    illuminist = 7
     national_populist = 10
     revivalist = 19
     paternal_autocrat = 42

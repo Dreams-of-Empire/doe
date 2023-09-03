@@ -91,7 +91,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 	}
@@ -871,7 +871,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Aimo_Cajander_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -898,7 +898,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Oskari_Mantere_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_smiling_oilman
 			}
 		}
@@ -1233,7 +1233,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Eljas_Erkko_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_great_compromiser
 			}
 		}
@@ -1260,7 +1260,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Toivo_Mikael_Kivimaki_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_biased_intellectual
 			}
 		}
@@ -1611,7 +1611,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Eemil_Linna_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_construction_magnate
 			}
 		}
@@ -1638,7 +1638,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Juho_Vennola_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_balanced_budget_economy
 			}
 		}
@@ -1665,7 +1665,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Risto_Ryti_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_balanced_budget_economy
 			}
 		}

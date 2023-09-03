@@ -46,9 +46,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = market_liberal
+			has_government = illuminist
 		}
-		localization_key = market_liberal_subtype_desc
+		localization_key = illuminist_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -227,12 +227,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = market_liberal
-				check_variable = { political_power_ideology = token:market_liberal }
+				has_government = illuminist
+				check_variable = { political_power_ideology = token:illuminist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:market_liberal }
+			is_in_array = { ROOT.coalition_partners = token:illuminist }
 		}
-		localization_key = party_pop_coalition_market_liberal
+		localization_key = party_pop_coalition_illuminist
 	}
 	text = {
 		localization_key = empty
@@ -342,11 +342,11 @@ defined_text = {
 		trigger = {
 			check_variable = { coalition_partner_var = token:liberal }
 		}
-		localization_key = colour_soclib_orange
+		localization_key = colour_libs_orange
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:market_liberal }
+			check_variable = { coalition_partner_var = token:illuminist }
 		}
 		localization_key = colour_marlib_yellow
 	}

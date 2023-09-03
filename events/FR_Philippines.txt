@@ -283,7 +283,7 @@ country_event = { # Proclamation of the Liberal Party
       }
 
       set_party_name = {
-        ideology = market_liberal
+        ideology = illuminist
         name = PHI_new_liberal_party
         long_name = PHI_new_liberal_party_long
       }
@@ -560,7 +560,7 @@ country_event = { # Roxas Calls for Investigation
   option = { # Just stop already...
     name = philippines.25.a
     add_popularity = {
-      ideology = market_liberal
+      ideology = illuminist
       popularity = 0.05
     }
     hidden_effect = {
@@ -722,7 +722,7 @@ country_event = { # Elections of 1937
       }
     }
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_20 = yes
@@ -1369,13 +1369,13 @@ country_event = { # 1941 Presidential Elections
   desc = {
     text = philippines.56.d
     trigger = {
-      NOT = { has_government = market_liberal }
+      NOT = { has_government = illuminist }
     }
   }
   desc = {
     text = philippines.56.d.1
     trigger = {
-      has_government = market_liberal
+      has_government = illuminist
     }
   }
   picture = GFX_report_event_election_vote
@@ -1437,7 +1437,7 @@ country_event = { # 1941 Presidential Elections
   option = { # Manuel A. Roxas
     name = philippines.56.b
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -1451,11 +1451,11 @@ country_event = { # 1941 Presidential Elections
     hidden_effect = {
       set_country_flag = PHI_has_1941_elections
       if = {
-        limit = { market_liberal < 0.1 }
+        limit = { illuminist < 0.1 }
         increase_ruling_party_popularity_by_20 = yes
       }
       else_if = {
-        limit = { market_liberal < 0.2 }
+        limit = { illuminist < 0.2 }
         increase_ruling_party_popularity_by_15 = yes
       }
       else = {
@@ -1471,13 +1471,13 @@ country_event = { # 1945 Presidential Elections
   desc = {
     text = philippines.57.d
     trigger = {
-      NOT = { has_government = market_liberal }
+      NOT = { has_government = illuminist }
     }
   }
   desc = {
     text = philippines.57.d.1
     trigger = {
-      has_government = market_liberal
+      has_government = illuminist
     }
   }
   picture = GFX_report_event_election_vote
@@ -1680,7 +1680,7 @@ country_event = { # 1953 Presidential Elections
   option = { # J. Antonio Araneta
     name = philippines.59.b
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -1776,7 +1776,7 @@ country_event = { # 1957 Presidential Elections
   option = { # J. Antonio Araneta
     name = philippines.60.b
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes

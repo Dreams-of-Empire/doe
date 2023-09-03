@@ -649,7 +649,7 @@ PHI_create_albert_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = market_liberal_subtype
+        ideology = illuminist_subtype
         traits = { }
       }
     }
@@ -732,7 +732,7 @@ PHI_create_henry_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = market_liberal_subtype
+        ideology = illuminist_subtype
         traits = { }
       }
     }
@@ -815,7 +815,7 @@ PHI_create_george_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = market_liberal_subtype
+        ideology = illuminist_subtype
         traits = { }
       }
     }
@@ -921,12 +921,12 @@ PHI_remove_governor_general = {
   }
   PHI_Manuel_Roxas = {
     if = {
-      limit = { has_ideology = market_liberal_subtype }
-      promote_character = { ideology = market_liberal_subtype }
+      limit = { has_ideology = illuminist_subtype }
+      promote_character = { ideology = illuminist_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = market_liberal_subtype }
+        country_leader = { ideology = illuminist_subtype }
         promote_leader = yes
       }
     }

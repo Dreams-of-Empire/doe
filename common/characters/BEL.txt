@@ -15,7 +15,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -810,7 +810,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Roger_Motz_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_relations_expert
 			}
 		}
@@ -1107,7 +1107,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Alexandre_Galopin_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -1134,7 +1134,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Franz_de_Voghel_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_national_liberal
 			}
 		}
@@ -1161,7 +1161,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Maurice_Lippens_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_trade_proponent
 			}
 		}
@@ -1431,7 +1431,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Albert_Deveze_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_prince_of_terror
 			}
 		}
@@ -1458,7 +1458,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Victor_Maistriau_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_compassionate_gentleman
 			}
 		}

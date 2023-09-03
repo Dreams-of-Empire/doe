@@ -1812,7 +1812,7 @@ ideas = {
 				fasci_drift = 0.01
 				social_democrat_drift = 0.01
 				liberal_drift = 0.01
-				market_liberal_drift = 0.01
+				illuminist_drift = 0.01
 				social_conservative_drift = 0.01
 				consumer_goods_factor = -0.01
 			}
@@ -1826,7 +1826,7 @@ ideas = {
 				fasci_drift = 0.03
 				social_democrat_drift = 0.02
 				liberal_drift = 0.01
-				market_liberal_drift = 0.01
+				illuminist_drift = 0.01
 				social_conservative_drift = 0.02
 				consumer_goods_factor = -0.02
 			}

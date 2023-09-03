@@ -2985,7 +2985,7 @@ country_event = { # Italy supports Austria without France
 		ITA = {
 			OR = {
 				has_government = social_democrat
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 			}
 		}

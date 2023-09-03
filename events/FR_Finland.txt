@@ -75,7 +75,7 @@ country_event = {
 		name = finland.2.a
 		add_political_power = 15
 		add_popularity = { ideology = liberal popularity = 0.04 }
-		add_popularity = { ideology = market_liberal popularity = 0.02 }
+		add_popularity = { ideology = illuminist popularity = 0.02 }
 		add_popularity = { ideology = social_conservative popularity = 0.04 }
 	}
 }
@@ -130,7 +130,7 @@ country_event = {
 		hidden_effect = {
 			add_political_power = -150
 			add_popularity = { ideology = liberal popularity = -0.05 }
-			add_popularity = { ideology = market_liberal popularity = -0.02 }
+			add_popularity = { ideology = illuminist popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
 		}
     }
@@ -161,17 +161,17 @@ country_event = {
 		add_ideas = FIN_Aimo_Cajander_hog_mli
 		hidden_effect = {
 			set_politics = {
-				ruling_party = market_liberal elections_allowed = no
+				ruling_party = illuminist elections_allowed = no
 			}
 			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
-			clr_country_flag = coalition_market_liberal
+			clr_country_flag = coalition_illuminist
 			set_country_flag = coalition_liberal
 			FIN_Pehr_Evind_Svinhufvud = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = market_liberal_subtype
+						ideology = illuminist_subtype
 						traits = { }
 					}
 				}
@@ -362,7 +362,7 @@ country_event = {
 		}
 		hidden_effect = {
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
-			set_country_flag = coalition_market_liberal
+			set_country_flag = coalition_illuminist
 			FIN_Pehr_Evind_Svinhufvud = {
 				add_country_leader_role = {
 					promote_leader = yes
@@ -446,7 +446,7 @@ country_event = {
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
 			add_popularity = { ideology = national_populist popularity = -0.03 }
-			clr_country_flag = coalition_market_liberal
+			clr_country_flag = coalition_illuminist
 			clr_country_flag = coalition_social_conservative
 			set_country_flag = coalition_vanguardist
 			set_country_flag = coalition_fasci
@@ -471,13 +471,13 @@ country_event = {
 		ai_chance = { base = 80 }
 		add_ideas = FIN_Aimo_Cajander_hog_mli
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = illuminist elections_allowed = no
 		}
 		hidden_effect = {
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.04 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.15 }
-			clr_country_flag = coalition_market_liberal
+			clr_country_flag = coalition_illuminist
 			
 			add_popularity = { ideology = vanguardist popularity = -0.03 }
 			add_popularity = { ideology = collectivist popularity = -0.03 }
@@ -515,7 +515,7 @@ country_event = {
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_popularity = { ideology = liberal popularity = -0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
-			clr_country_flag = coalition_market_liberal
+			clr_country_flag = coalition_illuminist
 			clr_country_flag = coalition_social_conservative
       add_country_leader_role = {
         character = FIN_Carl_Gustav_Mannerheim
@@ -568,7 +568,7 @@ country_event = {
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_popularity = { ideology = liberal popularity = -0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
-			clr_country_flag = coalition_market_liberal
+			clr_country_flag = coalition_illuminist
 			clr_country_flag = coalition_social_conservative
 			set_country_flag = coalition_national_populist
 			country_event = {
@@ -722,7 +722,7 @@ country_event = {
 				desc = "POLITICS_KYOSTI_KALLIO_DESC"
 				picture = "Portrait_Finland_Kyosti_Kallio.png"
 				expire = "1965.1.1"
-				ideology = market_liberal_subtype
+				ideology = illuminist_subtype
 				traits = {
 					#
 				}
@@ -743,12 +743,12 @@ country_event = {
 			FIN_Vaino_Tanner = {
 				if = {
 					limit = {
-						NOT = { has_ideology_group = market_liberal }
+						NOT = { has_ideology_group = illuminist }
 					}
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = market_liberal_subtype
+							ideology = illuminist_subtype
 							traits = { }
 						}
 					}
@@ -907,12 +907,12 @@ country_event = {
 				FIN_Vaino_Tanner = {
 					if = {
 						limit = {
-							NOT = { has_ideology_group = market_liberal }
+							NOT = { has_ideology_group = illuminist }
 						}
 						add_country_leader_role = {
 							promote_leader = yes
 							country_leader = {
-								ideology = market_liberal_subtype
+								ideology = illuminist_subtype
 								traits = { }
 							}
 						}
@@ -977,12 +977,12 @@ country_event = {
 				FIN_Vaino_Tanner = {
 					if = {
 						limit = {
-							NOT = { has_ideology_group = market_liberal }
+							NOT = { has_ideology_group = illuminist }
 						}
 						add_country_leader_role = {
 							promote_leader = yes
 							country_leader = {
-								ideology = market_liberal_subtype
+								ideology = illuminist_subtype
 								traits = { }
 							}
 						}
@@ -1111,7 +1111,7 @@ country_event = {
 			set_country_flag = FIN_stable_democratic_government_flag
 			set_country_flag = FIN_porvaristo_ja_viljelijat_flag
 			set_country_flag = FIN_ready_take_army_focuses_flag
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			set_country_flag = coalition_liberal
 		}
 	}
@@ -1174,7 +1174,7 @@ country_event = {
 					}
 				}
 			}
-			set_country_flag = coalition_market_liberal
+			set_country_flag = coalition_illuminist
 		}
 	}
 	
@@ -1237,7 +1237,7 @@ country_event = {
 				}
 			}
 			clr_country_flag = coalition_social_conservative
-			set_country_flag = coalition_market_liberal
+			set_country_flag = coalition_illuminist
 			set_country_flag = coalition_liberal
 		}
 	}
@@ -1338,7 +1338,7 @@ country_event = {
 		name = finland.28.a
 		ai_chance = { base = 95 }
 		add_stability = 0.05
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = illuminist popularity = 0.03 }
 		hidden_effect = {
 			if = {
 				limit = {
@@ -1372,14 +1372,14 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = market_liberal
+					has_government = illuminist
 				}
 				create_country_leader = {
 					name = "Risto Heikki Ryti"
 					desc = "POLITICS_RISTO_HEIKKI_RYTI_DESC"
 					picture = "Portrait_Finland_Risto_Heikki_Ryti.png"
 					expire = "1965.1.1"
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {
 						#
 					}
@@ -1447,14 +1447,14 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = market_liberal
+					has_government = illuminist
 				}
 				create_country_leader = {
 					name = "Johan Helo"
 					desc = "POLITICS_JOHAN_HELO_DESC"
 					picture = "Portrait_Finland_Johan_Helo.png"
 					expire = "1965.1.1"
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {
 						#
 					}
@@ -1478,7 +1478,7 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_government = market_liberal
+						has_government = illuminist
 						has_government = social_conservative
 					}
 				}
@@ -1541,7 +1541,7 @@ country_event = {
 			add_ideas = FIN_Vaeinoe_Salovaara_eco_sde
 			add_ideas = FIN_Eino_Kilpi_sec_lso
 			clr_country_flag = coalition_liberal
-			clr_country_flag = coalition_market_liberal
+			clr_country_flag = coalition_illuminist
 			clr_country_flag = coalition_social_conservative
 			set_country_flag = coalition_social_democrat
 			add_popularity = { ideology = fasci popularity = 0.10 }
@@ -1638,7 +1638,7 @@ country_event = {
 	option = {
 		name = finland.32.a
 		add_stability = 0.05
-		add_popularity = { ideology = market_liberal popularity = 0.02 }
+		add_popularity = { ideology = illuminist popularity = 0.02 }
 		add_popularity = { ideology = liberal popularity = 0.02 }
 		hidden_effect = {
 			add_ideas = FIN_Urho_Kekkonen_hog_sli
@@ -1679,14 +1679,14 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = market_liberal
+					has_government = illuminist
 				}
 				create_country_leader = {
 					name = "Risto Heikki Ryti"
 					desc = "POLITICS_RISTO_HEIKKI_RYTI_DESC"
 					picture = "Portrait_Finland_Risto_Heikki_Ryti.png"
 					expire = "1965.1.1"
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {
 						#
 					}
@@ -1773,7 +1773,7 @@ country_event = {
 					#
 				}
 			}
-			clr_country_flag = coalition_market_liberal
+			clr_country_flag = coalition_illuminist
 			clr_country_flag = coalition_social_conservative
 			set_country_flag = coalition_vanguardist
 			set_country_flag = coalition_fasci
@@ -1851,14 +1851,14 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = market_liberal
+					has_government = illuminist
 				}
 				create_country_leader = {
 					name = "Carl Gustav Mannerheim"
 					desc = "POLITICS_CARL_GUSTAV_MANNERHEIM_DESC"
 					picture = "Portrait_Finland_Carl_Gustav_Mannerheim.png"
 					expire = "1965.1.1"
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {
 						#
 					}
@@ -1910,7 +1910,7 @@ country_event = {
 		add_political_power = 10
 		hidden_effect = {
 			add_popularity = { ideology = liberal popularity = 0.01 }
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = illuminist popularity = 0.01 }
 		}
 	}
 	
@@ -1955,14 +1955,14 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = market_liberal
+					has_government = illuminist
 				}
 				create_country_leader = {
 					name = "Carl Gustav Mannerheim"
 					desc = "POLITICS_CARL_GUSTAV_MANNERHEIM_DESC"
 					picture = "Portrait_Finland_Carl_Gustav_Mannerheim.png"
 					expire = "1965.1.1"
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {
 						#
 					}
@@ -2058,14 +2058,14 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = market_liberal
+					has_government = illuminist
 				}
 				create_country_leader = {
 					name = "Carl Gustav Mannerheim"
 					desc = "POLITICS_CARL_GUSTAV_MANNERHEIM_DESC"
 					picture = "Portrait_Finland_Carl_Gustav_Mannerheim.png"
 					expire = "1965.1.1"
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {
 						#
 					}
@@ -2144,14 +2144,14 @@ country_event = {
 		name = finland.101.a
 		add_ideas = FIN_Aimo_Cajander_hog_mli
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = illuminist elections_allowed = no
 		}
 		hidden_effect = {
 			add_ideas = FIN_Urho_Kekkonen_for_sli
 			add_ideas = FIN_Juho_Niukkanen_eco_sli
 			add_ideas = FIN_Oskari_Lehtonen_sec_sco
 			add_popularity = { ideology = liberal popularity = 0.03 }
-			add_popularity = { ideology = market_liberal popularity = 0.03 }
+			add_popularity = { ideology = illuminist popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			set_country_flag = coalition_liberal
 			set_country_flag = coalition_social_conservative
@@ -2333,7 +2333,7 @@ country_event = {
 				fasci = 2
 				social_democrat = 35
 				liberal = 29
-				market_liberal = 12
+				illuminist = 12
 				social_conservative = 20
 				authoritarian_democrat = 0
 				paternal_autocrat = 2
@@ -2356,7 +2356,7 @@ country_event = {
 				fasci = 5
 				social_democrat = 44
 				liberal = 21
-				market_liberal = 7
+				illuminist = 7
 				social_conservative = 20
 				authoritarian_democrat = 0
 				paternal_autocrat = 3
@@ -2380,7 +2380,7 @@ country_event = {
 				fasci = 2
 				social_democrat = 35
 				liberal = 20
-				market_liberal = 7
+				illuminist = 7
 				social_conservative = 32
 				authoritarian_democrat = 0
 				paternal_autocrat = 4
@@ -2423,7 +2423,7 @@ country_event = {
 				fasci = 2
 				social_democrat = 34
 				liberal = 31
-				market_liberal = 12
+				illuminist = 12
 				social_conservative = 19
 				authoritarian_democrat = 0
 				paternal_autocrat = 2
@@ -2445,7 +2445,7 @@ country_event = {
 				fasci = 5
 				social_democrat = 44
 				liberal = 21
-				market_liberal = 7
+				illuminist = 7
 				social_conservative = 20
 				authoritarian_democrat = 0
 				paternal_autocrat = 3
@@ -2468,7 +2468,7 @@ country_event = {
 				fasci = 2
 				social_democrat = 34
 				liberal = 19
-				market_liberal = 7
+				illuminist = 7
 				social_conservative = 34
 				authoritarian_democrat = 0
 				paternal_autocrat = 4
@@ -2513,12 +2513,12 @@ country_event = {
 				FIN_Vaino_Tanner = {
 					if = {
 						limit = {
-							NOT = { has_ideology_group = market_liberal }
+							NOT = { has_ideology_group = illuminist }
 						}
 						add_country_leader_role = {
 							promote_leader = yes
 							country_leader = {
-								ideology = market_liberal_subtype
+								ideology = illuminist_subtype
 								traits = { }
 							}
 						}
@@ -2585,7 +2585,7 @@ country_event = {
 				}
 			}
 			clr_country_flag = coalition_liberal
-			set_country_flag = coalition_market_liberal
+			set_country_flag = coalition_illuminist
 		}
 	}
 	
@@ -2594,7 +2594,7 @@ country_event = {
 		ai_chance = { base = 30 }
 		add_ideas = FIN_Aimo_Cajander_hog_mli
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = illuminist elections_allowed = no
 		}
 		hidden_effect = {
 			add_ideas = FIN_Eljas_Erkko_for_mli
@@ -2607,12 +2607,12 @@ country_event = {
 				FIN_Vaino_Tanner = {
 					if = {
 						limit = {
-							NOT = { has_ideology_group = market_liberal }
+							NOT = { has_ideology_group = illuminist }
 						}
 						add_country_leader_role = {
 							promote_leader = yes
 							country_leader = {
-								ideology = market_liberal_subtype
+								ideology = illuminist_subtype
 								traits = { }
 							}
 						}
@@ -2643,7 +2643,7 @@ country_event = {
 					desc = "POLITICS_RISTO_HEIKKI_RYTI_DESC"
 					picture = "Portrait_Finland_Risto_Heikki_Ryti.png"
 					expire = "1965.1.1"
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {
 						#
 					}
@@ -2657,7 +2657,7 @@ country_event = {
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = market_liberal_subtype
+							ideology = illuminist_subtype
 							traits = { }
 						}
 					}
@@ -2672,13 +2672,13 @@ country_event = {
 					desc = "POLITICS_CARL_GUSTAV_MANNERHEIM_DESC"
 					picture = "Portrait_Finland_Carl_Gustav_Mannerheim.png"
 					expire = "1965.1.1"
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = {
 						#
 					}
 				}
 			}
-			clr_country_flag = coalition_market_liberal
+			clr_country_flag = coalition_illuminist
 			set_country_flag = coalition_liberal
 		}
 	}
@@ -2717,12 +2717,12 @@ country_event = {
 				FIN_Vaino_Tanner = {
 					if = {
 						limit = {
-							NOT = { has_ideology_group = market_liberal }
+							NOT = { has_ideology_group = illuminist }
 						}
 						add_country_leader_role = {
 							promote_leader = yes
 							country_leader = {
-								ideology = market_liberal_subtype
+								ideology = illuminist_subtype
 								traits = { }
 							}
 						}
@@ -2827,12 +2827,12 @@ country_event = {
 				FIN_Vaino_Tanner = {
 					if = {
 						limit = {
-							NOT = { has_ideology_group = market_liberal }
+							NOT = { has_ideology_group = illuminist }
 						}
 						add_country_leader_role = {
 							promote_leader = yes
 							country_leader = {
-								ideology = market_liberal_subtype
+								ideology = illuminist_subtype
 								traits = { }
 							}
 						}

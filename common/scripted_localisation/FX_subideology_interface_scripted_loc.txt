@@ -457,9 +457,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = market_liberal_subtype
+			has_country_leader_ideology = illuminist_subtype
 		}
-		localization_key = market_liberal
+		localization_key = illuminist
 	}
 	text = {
 		trigger = {
@@ -1357,9 +1357,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = market_liberal_subtype
+			has_country_leader_ideology = illuminist_subtype
 		}
-		localization_key = market_liberal_subtype_desc
+		localization_key = illuminist_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1880,14 +1880,14 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = market_liberal_subtype
+				has_country_leader_ideology = illuminist_subtype
 				has_country_leader_ideology = marlib_centrist_subtype
 				has_country_leader_ideology = marlib_classical_liberalism_subtype
 				has_country_leader_ideology = liberal_conservative_subtype
 				has_country_leader_ideology = marlib_venizelism_subtype
 			}
 		}
-		localization_key = market_liberal_color
+		localization_key = illuminist_color
 	}
 	text = {
 		trigger = {
@@ -2006,9 +2006,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = market_liberal_subtype
+			has_country_leader_ideology = illuminist_subtype
 		}
-		localization_key = market_liberal_subtype_desc
+		localization_key = illuminist_subtype_desc
 	}
 	text = {
 		trigger = {

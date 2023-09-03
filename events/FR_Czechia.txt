@@ -801,7 +801,7 @@ country_event = { #woo poli chain
     }
     add_popularity = { 
       popularity = 0.05
-      ideology = market_liberal
+      ideology = illuminist
     }
     add_popularity = { 
       popularity = 0.05
@@ -903,9 +903,9 @@ country_event = { #woo poli chain
     name = cze.97.c
     ai_chance = { factor = 15 }
     add_ideas = parliamentary_republic
-    add_popularity = { ideology = market_liberal popularity = 0.25 }
+    add_popularity = { ideology = illuminist popularity = 0.25 }
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2351,9 +2351,9 @@ country_event = { #woo poli chain
     name = cze.220.c
     ai_chance = { factor = 15 }
     add_ideas = parliamentary_republic
-    add_popularity = { ideology = market_liberal popularity = 0.3 }
+    add_popularity = { ideology = illuminist popularity = 0.3 }
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2417,9 +2417,9 @@ country_event = { #woo poli chain
   option = {
     name = cze.221.c
     ai_chance = { factor = 15 }
-    add_popularity = { ideology = market_liberal popularity = 0.3 }
+    add_popularity = { ideology = illuminist popularity = 0.3 }
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2484,10 +2484,10 @@ country_event = { #woo poli chain
   option = {
     name = cze.222.c
     ai_chance = { factor = 15 }
-    add_popularity = { ideology = market_liberal popularity = 0.05 }
+    add_popularity = { ideology = illuminist popularity = 0.05 }
     add_ideas = parliamentary_republic
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2552,10 +2552,10 @@ country_event = { #woo poli chain
   option = {
     name = cze.223.c
     ai_chance = { factor = 15 }
-    add_popularity = { ideology = market_liberal popularity = 0.3 }
+    add_popularity = { ideology = illuminist popularity = 0.3 }
     add_ideas = parliamentary_republic
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = no
     }
     remove_every_minister = yes

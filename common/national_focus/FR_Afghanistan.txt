@@ -685,7 +685,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_recieve_british_aid"
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 		}
 
 	}
@@ -905,7 +905,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_friend_of_empire"
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 		}
 
 	}
@@ -1953,7 +1953,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_british_air_planes"
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_tech_bonus = {
 				name = fighter_bonus
 				bonus = 0.5
@@ -2625,8 +2625,8 @@ focus_tree = {
 			add_popularity = { ideology = liberal popularity = 0.02 }
 			set_party_name = {
 				ideology = liberal
-				long_name = AFG_soclib_party_long
-				name = AFG_soclib_party
+				long_name = AFG_libs_party_long
+				name = AFG_libs_party
 			}
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			set_party_name = {
@@ -3057,8 +3057,8 @@ focus_tree = {
 			add_popularity = { ideology = liberal popularity = 0.02 }
 			set_party_name = {
 				ideology = liberal
-				long_name = AFG_soclib_party_long
-				name = AFG_soclib_party
+				long_name = AFG_libs_party_long
+				name = AFG_libs_party
 			}
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			set_party_name = {

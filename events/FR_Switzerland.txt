@@ -733,7 +733,7 @@ country_event = {
 
 	add_popularity = { ideology = authoritarian_democrat popularity = 0.04 }
 	add_popularity = { ideology = social_conservative popularity = 0.04 }
-	add_popularity = { ideology = market_liberal popularity = 0.01 }
+	add_popularity = { ideology = illuminist popularity = 0.01 }
 
 	add_manpower = -10000
 
@@ -753,7 +753,7 @@ country_event = {
 	name = "They can take the liberals."
 
 	add_popularity = { ideology = social_conservative popularity = 0.01 }
-	add_popularity = { ideology = market_liberal popularity = 0.04 }
+	add_popularity = { ideology = illuminist popularity = 0.04 }
 	add_popularity = { ideology = liberal popularity = 0.04 }
 
 	add_manpower = -10000
@@ -1052,7 +1052,7 @@ country_event = {
 			OR = {
 				has_government = social_democrat
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 			}
 		}
@@ -1069,7 +1069,7 @@ country_event = {
 	option = {
 		trigger = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
@@ -1201,7 +1201,7 @@ country_event = {
 	option = {
 		name = "The coalition between the FDP and CDVP has held."
     	complete_national_focus = SWI_the_seats_run_in_favor_of
-		add_popularity = { ideology = market_liberal popularity = 0.15 }
+		add_popularity = { ideology = illuminist popularity = 0.15 }
 		add_popularity = { ideology = social_conservative popularity = 0.15 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
 		hidden_effect = {
@@ -1261,7 +1261,7 @@ country_event = {
   option = {
 		name = "Good to know! Now let's get down to business."
     	complete_national_focus = SWI_status_quo_council_membership
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
 	}
@@ -1281,7 +1281,7 @@ country_event = {
   option = {
 		name = "Good to know! Now let's get down to business."
     	complete_national_focus = SWI_status_quo_council_membership
-		add_popularity = { ideology = market_liberal popularity = 0.07 }
+		add_popularity = { ideology = illuminist popularity = 0.07 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
 	}
@@ -1334,7 +1334,7 @@ country_event = {
   option = {
 		name = "Hopefully these negotiations will bring an end to this madness."
 		add_popularity = { ideology = fasci popularity = 0.03 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		hidden_effect = {
 			SWI = { country_event = { id = swi.109 days = 3 } }
 		}
@@ -1373,7 +1373,7 @@ country_event = {
 
   option = {
 		name = "This could have ended much differently!"
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		add_stability = 0.05
 		add_ideas = SWI_improved_conditions
 		complete_national_focus = SWI_FDP_maintains_seniority
@@ -1420,7 +1420,7 @@ country_event = {
 
   option = {
 		name = "This is a liberal government. Perhaps he would be more acquainted with the Reich?"
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = illuminist popularity = 0.03 }
 		add_political_power = -30
 	}
 }
@@ -1440,7 +1440,7 @@ country_event = {
 		name = "Is this a party falling apart?"
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
-		add_popularity = { ideology = market_liberal popularity = -0.05 }
+		add_popularity = { ideology = illuminist popularity = -0.05 }
 		SWI = { country_event = { id = swi.113 days = 2 } }
 	}
 }

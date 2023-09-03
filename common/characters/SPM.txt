@@ -23,7 +23,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -203,7 +203,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Juan_de_la_Cierva_y_Penafiel_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -365,7 +365,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Claudio_Sanchez_Albornoz_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_apologetic_clerk
 			}
 		}
@@ -581,7 +581,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Diego_Hidalgo_Duran_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_national_liberal
 			}
 		}
@@ -841,7 +841,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Miguel_Maura_Gamazo_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_back_stabber
 			}
 		}

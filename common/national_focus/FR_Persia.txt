@@ -420,7 +420,7 @@ focus_tree = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PER_persian_economic_theories"
 			add_political_power = -10
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = illuminist popularity = 0.01 }
 			add_tech_bonus = {
 				name = industry_bonus
 				bonus = 0.15
@@ -1873,7 +1873,7 @@ focus_tree = {
 					OR = {
 						has_government = social_democrat
 						has_government = liberal
-						has_government = market_liberal
+						has_government = illuminist
 						has_government = social_conservative
 					}
 				}
@@ -3969,7 +3969,7 @@ focus_tree = {
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = fasci popularity = 0.01 }
 			add_popularity = { ideology = liberal popularity = 0.01 }
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = illuminist popularity = 0.01 }
 		}
 
 	}
@@ -4401,7 +4401,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = -0.02 }
 			add_popularity = { ideology = fasci popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
-			add_popularity = { ideology = market_liberal popularity = -0.01 }
+			add_popularity = { ideology = illuminist popularity = -0.01 }
 			country_event = {
 				id = iran.126 days = 1
 			}
@@ -4912,7 +4912,7 @@ focus_tree = {
 			add_political_power = -15
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			add_popularity = { ideology = liberal popularity = -0.02 }
-			add_popularity = { ideology = market_liberal popularity = -0.02 }
+			add_popularity = { ideology = illuminist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		}
 

@@ -11854,11 +11854,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_SWI_market_liberal_shine"
-		texturefile = "gfx/interface/goals/SWI_market_liberal.png"
+		name = "GFX_SWI_illuminist_shine"
+		texturefile = "gfx/interface/goals/SWI_illuminist.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/SWI_market_liberal.png"
+			animationmaskfile = "gfx/interface/goals/SWI_illuminist.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -11871,7 +11871,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/SWI_market_liberal.png"
+			animationmaskfile = "gfx/interface/goals/SWI_illuminist.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

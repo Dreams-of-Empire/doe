@@ -485,14 +485,14 @@ focus_tree = {
 
 	focus = {
 		id = ITA_free_market
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
 		x = 37
 		y = 1
 		cost = 5
 
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}		
@@ -542,7 +542,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}		
@@ -595,7 +595,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}		
@@ -688,7 +688,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}		
@@ -721,7 +721,7 @@ focus_tree = {
 
 		# available = {
 			# OR = {
-				# has_government = market_liberal
+				# has_government = illuminist
 				# has_government = liberal
 			# }
 		# }		
@@ -749,7 +749,7 @@ focus_tree = {
 		
 		# available = {
 			# OR = {
-				# has_government = market_liberal
+				# has_government = illuminist
 				# has_government = liberal
 			# }
 		# }		
@@ -777,7 +777,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}		
@@ -809,7 +809,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}
@@ -841,7 +841,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 			owns_state = 768
@@ -874,7 +874,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}		
@@ -927,7 +927,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}		
@@ -959,7 +959,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}
@@ -995,7 +995,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}		
@@ -1031,7 +1031,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}		
@@ -1072,7 +1072,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = liberal
 			}
 		}		

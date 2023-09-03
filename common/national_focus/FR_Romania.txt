@@ -796,7 +796,7 @@ focus_tree = {
 	# The Liberal Regent
 	focus = {
 		id = ROM_the_liberal_regent
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
 		x = 1
 		y = 1
 		cost = 6
@@ -2229,7 +2229,7 @@ focus_tree = {
 	# The Liberal Government
 	focus = {
 		id = ROM_the_liberal_government
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
 		x = 0
 		y = 1
 		cost = 6

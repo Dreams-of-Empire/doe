@@ -299,7 +299,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_the_search_begins
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
     prerequisite = { focus = SWI_request_access_through_italian_ports }
 		x = 4
 		y = 6
@@ -944,7 +944,7 @@ focus_tree = {
 		add_popularity = { ideology = collectivist popularity = -0.05 }
 		add_popularity = { ideology = fasci popularity = -0.05 }
 		add_popularity = { ideology = liberal popularity = 0.10 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
 		add_popularity = { ideology = national_populist popularity = -0.05 }
@@ -1153,7 +1153,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_confederation_of_compromise
-		icon = GFX_SWI_market_liberal
+		icon = GFX_SWI_illuminist
     prerequisite = { focus = SWI_status_quo_council_membership }
 		x = 23
 		y = 3
@@ -1180,7 +1180,7 @@ focus_tree = {
 		available = {
 
 		NOT = {
-		has_government = market_liberal
+		has_government = illuminist
 		}
 
 		}
@@ -1264,7 +1264,7 @@ focus_tree = {
 
 		add_political_power = 30
 		add_popularity = { ideology = social_democrat popularity = 0.03 }
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = illuminist popularity = 0.03 }
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
 
 		}
@@ -1283,7 +1283,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_bring_progressives_into_the_coalition"
 
 		add_popularity = { ideology = liberal popularity = 0.03 }
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = illuminist popularity = 0.03 }
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
 		add_political_power = 30
 
@@ -1293,7 +1293,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_liberal_hegemony
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
     prerequisite = { focus = SWI_bring_progressives_into_the_coalition }
 		x = 21
 		y = 6
@@ -1302,7 +1302,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_liberal_hegemony"
 
-		add_ideas = SWI_market_liberal_hegemony
+		add_ideas = SWI_illuminist_hegemony
 
 		}
 
@@ -1417,7 +1417,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_FDP_maintains_seniority
-		icon = GFX_SWI_market_liberal
+		icon = GFX_SWI_illuminist
     prerequisite = { focus = SWI_confederation_of_compromise }
     mutually_exclusive = { focus = SWI_CDVP_becomes_senior_member }
 		x = 28

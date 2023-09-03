@@ -626,7 +626,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = fra_nuc_win
-			focus = fra_soclib_win
+			focus = fra_libs_win
 			focus = fra_soccon_win
 		}
 		prerequisite = { focus = fra_1936_election }
@@ -727,7 +727,7 @@ focus_tree = {
    				popularity = 0.02
 			}
 			add_popularity = {
-    			ideology = market_liberal
+    			ideology = illuminist
    				popularity = 0.05
 			}
 		}
@@ -774,7 +774,7 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = fra_socdem_win
-			focus = fra_soclib_win
+			focus = fra_libs_win
 		}
 		relative_position_id = fra_socdem_win
 		completion_reward = {
@@ -808,7 +808,7 @@ focus_tree = {
 	}
 	# The Parti Radical
 	focus = {
-		id = fra_soclib_win
+		id = fra_libs_win
 		icon = GFX_goal_ideology_liberal
 		x = 1
 		y = 1
@@ -848,8 +848,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 40
 		}
-		prerequisite = { focus = fra_soclib_win }
-		relative_position_id = fra_soclib_win
+		prerequisite = { focus = fra_libs_win }
+		relative_position_id = fra_libs_win
 		completion_reward = {
 			increase_ruling_party_popularity_by_10 = yes
 		}
@@ -922,7 +922,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = fra_socdem_win
-			focus = fra_soclib_win
+			focus = fra_libs_win
 			focus = fra_nuc_win
 		}
 		prerequisite = { focus = fra_1936_election }
@@ -935,7 +935,7 @@ focus_tree = {
 	# Regulating the Franc
 	focus = {
 		id = fra_regulate_franc
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
 		x = -2
 		y = 1
 		cost = 3
@@ -950,7 +950,7 @@ focus_tree = {
 			factor = 40
 		}
 		prerequisite = {
-			focus = fra_soclib_win
+			focus = fra_libs_win
 			focus = fra_soccon_win
 		}
 		relative_position_id = fra_soccon_win
@@ -1130,7 +1130,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = fra_socdem_win
-			focus = fra_soclib_win
+			focus = fra_libs_win
 			focus = fra_soccon_win
 		}
 		prerequisite = { focus = fra_1936_election }

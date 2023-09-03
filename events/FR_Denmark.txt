@@ -146,7 +146,7 @@ country_event = {
 		add_ideas = DEN_london_crash_idea
 		hidden_effect = {
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
-			add_popularity = { ideology = market_liberal popularity = -0.02 }
+			add_popularity = { ideology = illuminist popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			country_event = { id = denmark.7 days = 2 }
 			country_event = { id = denmark.10 days = 14 }
@@ -172,7 +172,7 @@ country_event = {
 		add_political_power = -25
 		add_popularity = { ideology = collectivist popularity = 0.01 }
 		add_popularity = { ideology = fasci popularity = 0.02 }
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = illuminist popularity = 0.01 }
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.01 }
 		hidden_effect = {
@@ -428,7 +428,7 @@ country_event = {
 		add_stability = 0.03
 		add_popularity = { ideology = social_democrat popularity = 0.03 }
 		add_popularity = { ideology = liberal popularity = 0.01 }
-		add_popularity = { ideology = market_liberal popularity = 0.02 }
+		add_popularity = { ideology = illuminist popularity = 0.02 }
 		set_country_flag = DEN_aftermath_kanslergade_meeting_flag
 		add_political_power = -25
 		custom_effect_tooltip = DEN_kanslergade_agreement_tooltip
@@ -559,7 +559,7 @@ country_event = {
 		ai_chance = {
 			factor = 30
 		}
-		add_popularity = { ideology = market_liberal popularity = 0.04 }
+		add_popularity = { ideology = illuminist popularity = 0.04 }
 		add_popularity = { ideology = social_conservative popularity = 0.04 }
 		hidden_effect = {
 			add_popularity = { ideology = fasci popularity = -0.01 }
@@ -745,7 +745,7 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_government = market_liberal
+					has_government = illuminist
 				}
 				country_event = { id = denmark.28 days = 93 }
 			}
@@ -917,9 +917,9 @@ country_event = {
 			factor = 50
 		}
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = illuminist elections_allowed = no
 		}
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = illuminist popularity = 0.01 }
 		hidden_effect = {
 			country_event = { id = denmark.27 days = 3 }
 			set_temp_variable = { coalition_partner_var = token:liberal }
@@ -948,7 +948,7 @@ country_event = {
 			country_event = { id = denmark.26 days = 1 }
 			set_temp_variable = { coalition_partner_var = token:liberal }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:market_liberal }
+			set_temp_variable = { coalition_partner_var = token:illuminist }
 			add_to_coalition = yes 
 			add_ideas = DEN_J_Christmas_Moller_hog_sco
 			add_ideas = DEN_Henrik_von_Kauffmann_for_sco
@@ -1066,7 +1066,7 @@ country_event = {
 	option = {
 		name = denmark.28.a
 		add_stability = 0.03
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = illuminist popularity = 0.03 }
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
 		add_popularity = { ideology = liberal popularity = 0.02 }
 		set_country_flag = DEN_snap_elections_flag
@@ -1129,7 +1129,7 @@ country_event = {
 		add_popularity = { ideology = fasci popularity = -0.04 }
 		add_popularity = { ideology = social_democrat popularity = -0.12 }
 		add_popularity = { ideology = liberal popularity = -0.03 }
-		add_popularity = { ideology = market_liberal popularity = -0.05 }
+		add_popularity = { ideology = illuminist popularity = -0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.05 }
 		add_popularity = { ideology = revivalist popularity = -0.02 }
 		set_country_flag = DEN_lyksborg_coup_flag
@@ -1161,7 +1161,7 @@ country_event = {
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:fasci }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:market_liberal }
+			set_temp_variable = { coalition_partner_var = token:illuminist }
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:authoritarian_democrat }
 			remove_from_coalition = yes 
@@ -1728,7 +1728,7 @@ country_event = {
 			factor = 30
 		}
 		hidden_effect = {
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			country_event = { id = denmark.46 days = 2 }
 			country_event = { id = denmark.44 days = 1100 }
@@ -1767,7 +1767,7 @@ country_event = {
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:social_conservative }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:market_liberal }
+			set_temp_variable = { coalition_partner_var = token:illuminist }
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:fasci }
 			remove_from_coalition = yes 
@@ -1807,9 +1807,9 @@ country_event = {
 			factor = 50
 		}
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = illuminist elections_allowed = no
 		}
-		add_popularity = { ideology = market_liberal popularity = 0.02 }
+		add_popularity = { ideology = illuminist popularity = 0.02 }
 		hidden_effect = {
 			set_temp_variable = { coalition_partner_var = token:liberal }
 			remove_from_coalition = yes 
@@ -1843,7 +1843,7 @@ country_event = {
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:authoritarian_democrat }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:market_liberal }
+			set_temp_variable = { coalition_partner_var = token:illuminist }
 			add_to_coalition = yes 
 			add_ideas = DEN_J_Christmas_Moller_hog_sco
 			add_ideas = DEN_Henrik_von_Kauffmann_for_sco
@@ -2463,12 +2463,12 @@ country_event = {
 		}
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.20 }
 		add_popularity = { ideology = liberal popularity = 0.03 }
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = illuminist popularity = 0.03 }
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.25 }
 		hidden_effect = {
 			add_ideas = constitutional_monarchy
-			set_temp_variable = { coalition_partner_var = token:market_liberal }
+			set_temp_variable = { coalition_partner_var = token:illuminist }
 			add_to_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:social_conservative }
 			add_to_coalition = yes 
@@ -2494,7 +2494,7 @@ country_event = {
         character = DEN_Christian_X
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = illuminist_subtype
           traits = {}
         }
       }
@@ -2554,7 +2554,7 @@ country_event = {
 		name = denmark.104.a
 		add_stability = -0.02
 		add_popularity = { ideology = collectivist popularity = 0.02 }
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = illuminist popularity = 0.01 }
 		hidden_effect = {
 		}
 	}
@@ -2666,7 +2666,7 @@ country_event = {
 		name = denmark.110.a
 		add_stability = -0.01
 		add_popularity = { ideology = liberal popularity = 0.05 }
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = illuminist popularity = 0.03 }
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		hidden_effect = {
 		}
@@ -2716,7 +2716,7 @@ country_event = {
 			ruling_party = liberal elections_allowed = no
 		}
 		add_popularity = { ideology = liberal popularity = 0.05 }
-		add_popularity = { ideology = market_liberal popularity = 0.02 }
+		add_popularity = { ideology = illuminist popularity = 0.02 }
 		hidden_effect = {
 			add_country_leader_role = {
         character = DEN_Carl_Theodor_Zahle
@@ -2727,7 +2727,7 @@ country_event = {
         }
       }
 			add_popularity = { ideology = fasci popularity = -0.05 }
-			set_temp_variable = { coalition_partner_var = token:market_liberal }
+			set_temp_variable = { coalition_partner_var = token:illuminist }
 			add_to_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:vanguardist }
 			remove_from_coalition = yes 
@@ -2806,7 +2806,7 @@ country_event = {
           fasci = 0
           social_democrat = 0
           liberal = 8
-          market_liberal = 7
+          illuminist = 7
           social_conservative = 0
           authoritarian_democrat = 51
           paternal_autocrat = 9
@@ -2957,7 +2957,7 @@ country_event = {
 		hidden_effect = {
 			add_popularity = { ideology = social_democrat popularity = 1.0 }
 			add_popularity = { ideology = liberal popularity = 0.1 }
-			add_popularity = { ideology = market_liberal popularity = 0.1 }
+			add_popularity = { ideology = illuminist popularity = 0.1 }
 			add_popularity = { ideology = social_conservative popularity = 0.15 }
 			add_popularity = { ideology = collectivist popularity = 0.05 }
 			add_popularity = { ideology = vanguardist popularity = 0.22 }
@@ -2979,7 +2979,7 @@ country_event = {
 		hidden_effect = {
 			add_popularity = { ideology = liberal popularity = 1.0 }
 			add_popularity = { ideology = social_democrat popularity = 0.1 }
-			add_popularity = { ideology = market_liberal popularity = 0.1 }
+			add_popularity = { ideology = illuminist popularity = 0.1 }
 			add_popularity = { ideology = social_conservative popularity = 0.15 }
 			add_popularity = { ideology = collectivist popularity = 0.05 }
 			add_popularity = { ideology = vanguardist popularity = 0.22 }
@@ -3002,7 +3002,7 @@ country_event = {
 			add_popularity = { ideology = social_conservative popularity = 1.0 }
 			add_popularity = { ideology = social_democrat popularity = 0.2 }
 			add_popularity = { ideology = liberal popularity = 0.05 }
-			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = illuminist popularity = 0.05 }
 			add_popularity = { ideology = collectivist popularity = 0.1 }
 			add_popularity = { ideology = vanguardist popularity = 0.22 }
 		}
@@ -3368,7 +3368,7 @@ country_event = {
           fasci = 7
           social_democrat = 9
           liberal = 6
-          market_liberal = 3
+          illuminist = 3
           social_conservative = 0
           authoritarian_democrat = 0
           paternal_autocrat = 10

@@ -264,7 +264,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Luigi_Einaudi_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_happy_amateur
 			}
 		}
@@ -671,7 +671,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Manlio_Brosio_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_iron_fisted_brute
 			}
 		}
@@ -759,7 +759,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1041,7 +1041,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Marcello_Soleri_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_infantry_proponent
 			}
 		}
@@ -1055,7 +1055,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1678,7 +1678,7 @@ characters = {
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {

@@ -67,7 +67,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 	}
@@ -1514,7 +1514,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hans_von_Raumer_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -1946,7 +1946,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Wilhelm_Roepke_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_great_compromiser
 			}
 		}
@@ -2364,7 +2364,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Julius_Curtis_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_bank_president
 			}
 		}
@@ -2743,7 +2743,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Wilhelm_Abegg_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_crime_fighter
 			}
 		}

@@ -1070,7 +1070,7 @@ country_event = { # First General Elections
       long_name = ARB_conservative_party_long
     }
     set_party_name = {
-      ideology = market_liberal
+      ideology = illuminist
       name = ARB_liberal_party
       long_name = ARB_liberal_party_long
     }
@@ -1101,7 +1101,7 @@ country_event = { # First General Elections
       long_name = ARB_conservative_party_long
     }
     set_party_name = {
-      ideology = market_liberal
+      ideology = illuminist
       name = ARB_liberal_party
       long_name = ARB_liberal_party_long
     }
@@ -1132,12 +1132,12 @@ country_event = { # First General Elections
       long_name = ARB_conservative_party_long
     }
     set_party_name = {
-      ideology = market_liberal
+      ideology = illuminist
       name = ARB_liberal_party
       long_name = ARB_liberal_party_long
     }
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -1218,7 +1218,7 @@ country_event = { # 1940 General Elections
   option = { # Liberals
     name = arabia.38.c
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -1290,7 +1290,7 @@ country_event = { # 1945 General Elections
   option = { # Liberals
     name = arabia.39.c
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -1325,7 +1325,7 @@ country_event = { # British Mandate Taken Control
     name = arabia.40.a
     hidden_effect = {
       set_party_name = {
-        ideology = market_liberal
+        ideology = illuminist
         name = ARB_mandate_party
         long_name = ARB_mandate_party_long
       }
@@ -1356,7 +1356,7 @@ country_event = { # British Mandate Taken Control
       }
     }
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = illuminist
       elections_allowed = no
     }
     add_stability = -0.15
@@ -1390,13 +1390,13 @@ country_event = { # Arab Counter-Coup!
     set_country_flag = ARB_arabian_counter_coup_flag
     mark_focus_tree_layout_dirty = yes
     add_popularity = {
-      ideology = market_liberal
+      ideology = illuminist
       popularity = -0.15
     }
     set_temp_variable = { british_control_temp = 40 }
     ARB_decrease_british_control = yes
     set_party_name = {
-      ideology = market_liberal
+      ideology = illuminist
       name = ARB_liberal_party
       long_name = ARB_liberal_party_long
     }
@@ -1491,7 +1491,7 @@ country_event = {
       add_country_leader_role = {
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = illuminist_subtype
           traits = { }
         }
       }

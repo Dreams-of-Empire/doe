@@ -214,7 +214,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Manuel_Roxas_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -910,7 +910,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_J_Antonio_Araneta_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_charismatic_charmer
 			}
 		}
@@ -1190,7 +1190,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Quentin_Paredes_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_apologetic_clerk
 			}
 		}
@@ -1452,7 +1452,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Ramon_Quisumbing_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_reformer
 			}
 		}
@@ -1479,7 +1479,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Ramon_Magsaysay_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_construction_magnate
 			}
 		}
@@ -1506,7 +1506,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Mariano_Garchitorena_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_national_liberal
 			}
 		}
@@ -1884,7 +1884,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Roman_Apolinario_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_media_magnate
 			}
 		}
@@ -2241,7 +2241,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Jose_Zulueta_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_secret_police_chief
 			}
 		}

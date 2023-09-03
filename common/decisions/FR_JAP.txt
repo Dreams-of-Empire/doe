@@ -819,11 +819,11 @@ JAP_counter_LSMC_Minseito = {
 
 		available = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 		visible = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 
 		cost = 100
@@ -851,11 +851,11 @@ JAP_counter_LSMC_Minseito = {
 
 		available = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 		visible = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 
 		cost = 75
@@ -878,11 +878,11 @@ JAP_counter_LSMC_Minseito = {
 
 		available = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 		visible = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 
 		cost = 75
@@ -907,11 +907,11 @@ JAP_counter_LSMC_Minseito = {
 
 		available = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 		visible = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 
 		cost = 65
@@ -936,11 +936,11 @@ JAP_counter_LSMC_Minseito = {
 
 		available = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 		visible = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 
 		cost = 150
@@ -964,11 +964,11 @@ JAP_counter_LSMC_Minseito = {
 
 		available = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 		visible = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 		}
 
 		cost = 100
@@ -990,12 +990,12 @@ JAP_counter_LSMC_Minseito = {
 
 		available = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 			has_country_flag = jap_public_works_act_passed
 		}
 		visible = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 			has_country_flag = jap_public_works_act_passed
 		}
 
@@ -1024,12 +1024,12 @@ JAP_counter_LSMC_Minseito = {
 
 		available = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 			has_country_flag = jap_shipbuilding_act_passed
 		}
 		visible = {
 			has_global_flag = black_wednesday 
-			has_government = market_liberal
+			has_government = illuminist
 			has_country_flag = jap_shipbuilding_act_passed
 		}
 

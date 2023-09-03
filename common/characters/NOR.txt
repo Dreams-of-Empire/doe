@@ -113,7 +113,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 	}
@@ -651,7 +651,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Carl_Joachim_Hambro_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_corporate_suit
 			}
 		}
@@ -678,7 +678,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Johan_Henrik_Andresen_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_smiling_oilman
 			}
 		}
@@ -1140,7 +1140,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Arne_Scheel_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_apologetic_clerk
 			}
 		}
@@ -1167,7 +1167,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Ivar_Lykke_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_iron_fisted_brute
 			}
 		}
@@ -1654,7 +1654,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Ole_Bæroe_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_mixed_economy
 			}
 		}
@@ -1681,7 +1681,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Sven_Nielsen_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_construction_magnate
 			}
 		}
@@ -2195,7 +2195,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Harald_Gram_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_health_and_safety
 			}
 		}
@@ -2222,7 +2222,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Odd_Klingenberg_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_compassionate_gentleman
 			}
 		}

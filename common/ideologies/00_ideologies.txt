@@ -171,7 +171,7 @@ ideologies = {
 			"FACTION_NAME_LIBERAL_5"
 			"FACTION_NAME_LIBERAL_6"
 		}
-		color = { 245 160 0 } #Originally 255 170 0. Changed the tint so it's now noticeably different from Market Liberal's colour.
+		color = { 245 160 0 } #Originally 255 170 0. Changed the tint so it's now noticeably different from Illuminist's colour.
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -191,9 +191,9 @@ ideologies = {
 		#can_be_boosted = no
 	}
 
-	market_liberal = {
+	illuminist = {
 		types = {
-			market_liberal_subtype = {}
+			illuminist_subtype = {}
 			marlib_centrist_subtype = { can_be_randomly_selected = no }
 			marlib_classical_liberalism_subtype = { can_be_randomly_selected = no }
 			liberal_conservative_subtype = { can_be_randomly_selected = no }

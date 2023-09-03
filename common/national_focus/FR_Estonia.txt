@@ -683,7 +683,7 @@ focus_tree = {
 			add_political_power = 20
 			add_stability = 0.05
 			add_popularity = { ideology = liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = national_populist popularity = 0.01 }
 			country_event = { id = estonia.105 days = 1 }
@@ -1168,7 +1168,7 @@ focus_tree = {
 			add_stability = 0.08
 			add_popularity = { ideology = national_populist popularity = 0.08 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			country_event = { id = estonia.107 days = 1 }
 		}

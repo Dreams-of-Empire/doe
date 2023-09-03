@@ -1726,7 +1726,7 @@ focus_tree = {
 			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = liberal popularity = 0.01 }
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = illuminist popularity = 0.01 }
 			add_popularity = { ideology = national_populist popularity = 0.02 }
 			country_event = { days = 1 id = sweden.81 }
 		}
@@ -1776,7 +1776,7 @@ focus_tree = {
 			add_political_power = -25
 			add_stability = -0.05
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
-			add_popularity = { ideology = market_liberal popularity = -0.02 }
+			add_popularity = { ideology = illuminist popularity = -0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
 		}
 
@@ -2990,7 +2990,7 @@ focus_tree = {
 			add_political_power = 50
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = illuminist popularity = 0.02 }
 			custom_effect_tooltip  = SWE_borgarliga_blocket_tooltip
 		}
 
@@ -4770,7 +4770,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_false_song_liberalism"
 			add_political_power = -30
 			add_popularity = { ideology = liberal popularity = -0.03 }
-			add_popularity = { ideology = market_liberal popularity = -0.03 }
+			add_popularity = { ideology = illuminist popularity = -0.03 }
 		}
 
 	}

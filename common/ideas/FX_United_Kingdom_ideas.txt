@@ -1186,7 +1186,7 @@ ideas = {
 				collectivist_drift = -0.1
 				fasci_drift = -0.1
 				social_democrat_drift = -0.02
-				market_liberal_drift = -0.02
+				illuminist_drift = -0.02
 				liberal_drift = -0.02
 			}
 		}
@@ -1407,7 +1407,7 @@ ideas = {
 			picture = generic_intel_bonus
 			removal_cost = -1
 			modifier = {
-				market_liberal_drift = 0.1
+				illuminist_drift = 0.1
 			}
 		}
 		ENG_agit_4 = {

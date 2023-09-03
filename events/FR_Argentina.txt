@@ -210,7 +210,7 @@ country_event = { #collies take over or dems
 				popularity = 0.1
 		}
 		add_popularity = {
-				ideology = market_liberal
+				ideology = illuminist
 				popularity = 0.05
 		}
 	}
@@ -542,7 +542,7 @@ country_event = { #reactionaries flee
 		name = arg.16.a
 		ai_chance = { factor = 50 }
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = -0.0125
 		}
 		add_popularity = {
@@ -594,7 +594,7 @@ country_event = { #standforthefederation
 		set_global_flag = ARG_radical_government
 		set_country_flag = ARG_republic_survives
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -1790,7 +1790,7 @@ country_event = { #UCR unites
 	option = {
 		name = arg.251.a
 		add_political_power = 25
-		set_party_name = { ideology = market_liberal long_name = ARG_liberal_party_long name = ARG_liberal_party }	
+		set_party_name = { ideology = illuminist long_name = ARG_liberal_party_long name = ARG_liberal_party }	
 	}
 }
 
@@ -1832,10 +1832,10 @@ country_event = { #40 elections
 	option = { #gallo
 		name = arg.252.b
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = illuminist
 		}
 			add_popularity = {
-				ideology = market_liberal popularity = 0.1
+				ideology = illuminist popularity = 0.1
 		}
 		hidden_effect = {
 			set_global_flag = ARG_gallo_won
@@ -2339,7 +2339,7 @@ country_event = { #demonstratios
 		ai_chance = { factor = 100 }
 		add_political_power = -25
 		add_popularity = {
-			ideology = market_liberal popularity = -0.025
+			ideology = illuminist popularity = -0.025
 		}		
 		}
 	}

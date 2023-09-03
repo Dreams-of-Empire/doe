@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = illuminist_subtype
 			traits = { }
 		}
 	}
@@ -384,7 +384,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Rudolf_Mlčoch_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_charismatic_charmer
 			}
 		}
@@ -730,7 +730,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Kamil_Krofta_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_iron_fisted_brute
 			}
 		}
@@ -1027,7 +1027,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Josef_Kalfus_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_infantry_proponent
 			}
 		}
@@ -1319,7 +1319,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Jaroslav_Stransky_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_secret_police_chief
 			}
 		}

@@ -137,7 +137,7 @@ country_event = { #tensions in the cabinet
 	option = {
 		name = bra.6.a
 		add_popularity = {
-			ideology = market_liberal popularity = -0.025
+			ideology = illuminist popularity = -0.025
 			}
 		add_popularity = {
 			ideology = social_conservative popularity = 0.025
@@ -174,7 +174,7 @@ country_event = { #speech for republic
 	option = {
 		name = bra.8.a
 		add_popularity = {
-			ideology = market_liberal popularity = 0.025
+			ideology = illuminist popularity = 0.025
 			}
 		add_political_power = 5
 		set_country_flag = BRA_firstpartdone

@@ -484,7 +484,7 @@ ideas = {
 
 			picture = generic_democratic_drift_bonus
 			modifier = {
-				market_liberal_drift = 0.02
+				illuminist_drift = 0.02
 				liberal_drift = 0.02
 			}
 		}
@@ -497,7 +497,7 @@ ideas = {
 
 			picture = generic_democratic_drift_bonus
 			modifier = {
-				market_liberal_drift = 0.02
+				illuminist_drift = 0.02
 				liberal_drift = 0.02
 				stability_factor = 0.05
 			}
@@ -511,7 +511,7 @@ ideas = {
 
 			picture = generic_democratic_drift_bonus
 			modifier = {
-				market_liberal_drift = 0.02
+				illuminist_drift = 0.02
 				liberal_drift = 0.02
 				stability_factor = 0.06
 				production_speed_industrial_complex_factor = 0.05

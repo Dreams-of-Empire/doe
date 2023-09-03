@@ -32,7 +32,7 @@ social_democrat_allowed = {
 		has_government = fasci
 		has_government = social_democrat
 		has_government = liberal
-		has_government = market_liberal
+		has_government = illuminist
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 	}
@@ -43,18 +43,18 @@ liberal_allowed = {
 		has_government = fasci
 		has_government = social_democrat
 		has_government = liberal
-		has_government = market_liberal
+		has_government = illuminist
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat
 	}
 }
 
-market_liberal_allowed = {
+illuminist_allowed = {
 	OR = {
 		has_government = social_democrat
 		has_government = liberal
-		has_government = market_liberal
+		has_government = illuminist
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat
@@ -65,7 +65,7 @@ social_conservative_allowed = {
 	OR = {
 		has_government = social_democrat
 		has_government = liberal
-		has_government = market_liberal
+		has_government = illuminist
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat
@@ -76,7 +76,7 @@ social_conservative_allowed = {
 
 authoritarian_democrat_allowed = {
 	OR = {
-		has_government = market_liberal
+		has_government = illuminist
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat

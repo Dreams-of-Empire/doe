@@ -1773,7 +1773,7 @@ focus_tree = {
 
   focus = {
     id = ARB_rise_of_free_market
-    icon = GFX_goal_ideology_market_liberal
+    icon = GFX_goal_ideology_illuminist
     x = 29
     y = 0
     cost = 0
@@ -1798,7 +1798,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_rise_of_free_market }
     relative_position_id = ARB_rise_of_free_market
@@ -1815,7 +1815,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_rise_of_free_market }
     relative_position_id = ARB_rise_of_free_market
@@ -1843,7 +1843,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_rise_of_free_market }
     relative_position_id = ARB_rise_of_free_market
@@ -1860,7 +1860,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_build_up_irrigation_schemes }
     relative_position_id = ARB_build_up_irrigation_schemes
@@ -1886,7 +1886,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_build_up_irrigation_schemes }
     prerequisite = { focus = ARB_rapid_industrialization }
@@ -1904,7 +1904,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_expand_oil_fields }
     prerequisite = { focus = ARB_transarabian_pipeline }
@@ -1922,7 +1922,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_bribe_the_officers }
     relative_position_id = ARB_bribe_the_officers
@@ -1939,7 +1939,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_bribe_the_officers }
     relative_position_id = ARB_bribe_the_officers
@@ -1956,7 +1956,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_demand_royal_support }
     relative_position_id = ARB_demand_royal_support
@@ -1974,7 +1974,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_demand_royal_support }
     prerequisite = { focus = ARB_suppress_arabs }
@@ -1992,7 +1992,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = market_liberal
+      has_government = illuminist
     }
     prerequisite = { focus = ARB_eradicate_radicals }
     prerequisite = { focus = ARB_invest_in_science }

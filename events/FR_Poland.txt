@@ -959,7 +959,7 @@ country_event = {
             ideology = liberal_subtype
           }
           remove_country_leader_role = {
-            ideology = market_liberal_subtype
+            ideology = illuminist_subtype
           }
           remove_country_leader_role = {
             ideology = social_conservative_subtype
@@ -997,7 +997,7 @@ country_event = {
         character = POL_Walery_Sławek
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = illuminist_subtype
           traits = {}
         }
       }
@@ -1151,7 +1151,7 @@ country_event = {
         ideology = liberal_subtype
       }
       remove_country_leader_role = {
-        ideology = market_liberal_subtype
+        ideology = illuminist_subtype
       }
       remove_country_leader_role = {
         ideology = social_conservative_subtype
@@ -1203,7 +1203,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = illuminist_subtype
 					traits = { }
 				}
 			}

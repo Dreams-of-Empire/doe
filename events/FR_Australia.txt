@@ -153,7 +153,7 @@ country_event = {
 		add_stability = -0.02
 		add_political_power = -20
 		add_popularity = { ideology = social_democrat popularity = -0.02 }
-		add_popularity = { ideology = market_liberal popularity = -0.02 }
+		add_popularity = { ideology = illuminist popularity = -0.02 }
 		hidden_effect = {
 			country_event = { days = 14 id = australia.8 }
 		}
@@ -311,10 +311,10 @@ country_event = {
 		name = australia.12.a
 		add_stability = 0.01
 		add_political_power = 15
-		add_popularity = { ideology = market_liberal popularity = -0.01 }
+		add_popularity = { ideology = illuminist popularity = -0.01 }
 		add_popularity = { ideology = social_democrat popularity = 0.01 }
 		hidden_effect = {
-			set_country_flag = coalition_market_liberal
+			set_country_flag = coalition_illuminist
 		}
 	}
 }
@@ -363,11 +363,11 @@ country_event = {
 		name = australia.14.a
 		add_political_power = -10
 		add_popularity = { ideology = social_democrat popularity = -0.04 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = illuminist popularity = 0.05 }
 		set_country_flag = AST_right_labour_split
 		hidden_effect = {
 			set_party_name = { 
-				ideology = market_liberal
+				ideology = illuminist
 				long_name = AST_mar_lib_alt_party_long 
 				name = AST_mar_lib_alt_party 
 			}
@@ -389,7 +389,7 @@ country_event = {
 		name = australia.15.a
 		add_political_power = -10
 		add_popularity = { ideology = social_democrat popularity = -0.03 }
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = illuminist popularity = 0.01 }
 		add_popularity = { ideology = liberal popularity = 0.02 }
 		add_popularity = { ideology = fasci popularity = 0.01 }
 		set_country_flag = AST_left_labour_split

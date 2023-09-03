@@ -507,7 +507,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Charles_Gavan_Power_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_silent_workhorse
 			}
 		}
@@ -539,7 +539,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_William_Lyon_Mackenzie_King_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				hog_respected_war_hero
 			}
 		}
@@ -1011,7 +1011,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_George_W_Stephens_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_ideological_crusader
 			}
 		}
@@ -1038,7 +1038,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Vincent_Massey_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				for_iron_fisted_brute
 			}
 		}
@@ -1362,7 +1362,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_CD_Howe_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				eco_trade_proponent
 			}
 		}
@@ -1686,7 +1686,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Douglas_Abbott_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_driven_recruiter
 			}
 		}
@@ -1713,7 +1713,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Ernest_Lapointe_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_silent_lawyer
 			}
 		}
@@ -1740,7 +1740,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_James_Garfield_Gardiner_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				illuminist
 				sec_crime_fighter
 			}
 		}

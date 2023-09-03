@@ -396,7 +396,7 @@ country_event = { #democratic rallies
 		name = hun.15.a
 		add_political_power = -50
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = -0.1
 		}
 	}
@@ -405,7 +405,7 @@ country_event = { #democratic rallies
 		name = hun.15.b
 		add_political_power = -25
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = -0.05
 		}
 	}

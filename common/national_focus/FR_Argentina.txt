@@ -77,7 +77,7 @@ focus_tree = {
 			popularity = 0.0125
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = illuminist
 			popularity = 0.0125
 		}
 		add_popularity = {
@@ -2830,7 +2830,7 @@ focus_tree = {
 						is_subject_of = ARG
 						has_war_with = ARG
 						has_government = liberal
-						has_government = market_liberal
+						has_government = illuminist
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
@@ -2880,7 +2880,7 @@ focus_tree = {
 						is_subject_of = ARG
 						has_war_with = ARG
 						has_government = liberal
-						has_government = market_liberal
+						has_government = illuminist
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
@@ -3616,7 +3616,7 @@ focus_tree = {
 				is_in_faction = no
 				OR = {
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = social_democrat
 				}
@@ -3642,7 +3642,7 @@ focus_tree = {
 				is_in_faction = no
 				OR = {
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = social_democrat
 				}
@@ -3670,7 +3670,7 @@ focus_tree = {
 				is_in_faction = no
 				OR = {
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = social_democrat
 				}
@@ -3720,7 +3720,7 @@ focus_tree = {
 				has_global_flag = PRU_DEMPATH
 				OR = {
 				has_government = liberal
-				has_government = market_liberal
+				has_government = illuminist
 				has_government = social_conservative
 				has_government = social_democrat
 				}
@@ -3762,7 +3762,7 @@ focus_tree = {
 						is_subject_of = ARG
 						has_war_with = ARG
 						has_government = liberal
-						has_government = market_liberal
+						has_government = illuminist
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
@@ -4645,7 +4645,7 @@ focus_tree = {
 			ideology = liberal popularity = -0.025
 			}
 			add_popularity = {
-			ideology = market_liberal popularity = -0.025
+			ideology = illuminist popularity = -0.025
 			}
 		} 
 	}
@@ -4796,7 +4796,7 @@ focus_tree = {
 
 		focus = {
 		id = ARG_gallo_victory
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
  		ai_will_do = { factor = 10 }
  		x =37
  		y =25

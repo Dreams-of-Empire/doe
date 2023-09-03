@@ -80,7 +80,7 @@ focus_tree = {
 
   focus = {	
 		id = ENG_tory_coalition
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_illuminist
 		available = {
 			custom_trigger_tooltip = { 
 				tooltip = ENG_has_torycoal
@@ -802,7 +802,7 @@ focus_tree = {
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_popularity = { ideology = liberal popularity = -0.05 }
-			add_popularity = { ideology = market_liberal popularity = -0.05 }
+			add_popularity = { ideology = illuminist popularity = -0.05 }
 			add_stability = 0.05
 		}
     search_filters = { FOCUS_FILTER_POLITICAL }

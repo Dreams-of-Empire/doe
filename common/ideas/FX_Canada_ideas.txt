@@ -460,7 +460,7 @@ ideas = {
 			allowed = {	always = no	}
 			allowed_civil_war = { always = yes }
 			modifier = {
-				market_liberal_drift = -0.05
+				illuminist_drift = -0.05
 				liberal_drift = -0.05
 				social_conservative_drift = 0.1
 			}

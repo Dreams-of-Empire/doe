@@ -1408,7 +1408,7 @@ shared_focus = {
             }
 		If = { 
 		    limit = { 
-		        has_government = market_liberal 
+		        has_government = illuminist 
 		        has_government = social_democrat
 		        } 
                 country_event = rusfor.2
