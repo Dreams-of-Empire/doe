@@ -31,9 +31,9 @@ HON_paternal_autocrat_DEF: "The State of Honduras"
 HON_national_populist: "State of Honduras"
 HON_national_populist_ADJ: "Honduran"
 HON_national_populist_DEF: "The State of Honduras"
-HON_valkist: "Blessed Honduran Republic"
-HON_valkist_ADJ: "Honduran"
-HON_valkist_DEF: "Blessed Honduran Republic"
+HON_revivalist: "Blessed Honduran Republic"
+HON_revivalist_ADJ: "Honduran"
+HON_revivalist_DEF: "Blessed Honduran Republic"
 
 #### Political Parties ####
 
@@ -57,8 +57,8 @@ HON_paternal_autocrat_party: "PRN"
 HON_paternal_autocrat_party_long: "National Renewal Party"
 HON_national_populist_party: "PRN"
 HON_national_populist_party_long: "National Renewal Party"
-HON_valkist_party: "FSNH"
-HON_valkist_party_long: "National Salvationist Front of Honduras"
+HON_revivalist_party: "FSNH"
+HON_revivalist_party_long: "National Salvationist Front of Honduras"
 
 #### Events ####
 

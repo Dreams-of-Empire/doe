@@ -150,7 +150,7 @@ focus_tree = {
 				ideology = social_conservative popularity = -0.05
 			}
 			add_popularity = { 
-				ideology = valkist popularity = -0.05
+				ideology = revivalist popularity = -0.05
 			}
 		} 
 	}
@@ -344,7 +344,7 @@ focus_tree = {
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
-						has_government = valkist
+						has_government = revivalist
 						has_government = national_populist
 						has_government = paternal_autocrat						
 						
@@ -1643,7 +1643,7 @@ focus_tree = {
 		icon = GFX_indigenist_takeover
 		available = {
 			has_country_flag = BOL_indigenist_takeover
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = { factor = 15 } 
@@ -1667,7 +1667,7 @@ focus_tree = {
 		icon = GFX_goal_revolution
 		prerequisite = { focus = BOL_retaking_the_birthright }
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		x = 31
 		y = 2
@@ -1696,7 +1696,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = BOL_expel_the_colonials }
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		x = 31
 		y = 3
@@ -1721,7 +1721,7 @@ focus_tree = {
 		icon = GFX_goal_national_populism
 		prerequisite = { focus = BOL_retaking_the_birthright }
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 15 } 
 		
@@ -1744,7 +1744,7 @@ focus_tree = {
 		icon = GFX_goal_forced_inf
 		prerequisite = { focus = BOL_integrating_the_mestizos }
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 15 } 
 		
@@ -1781,7 +1781,7 @@ focus_tree = {
 		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = BOL_control_the_opposition }
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 15 } 
 		
@@ -1808,7 +1808,7 @@ focus_tree = {
 		y =4 
 		cost = 10  
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		available_if_capitulated = yes  
 		
@@ -1824,7 +1824,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = BOL_tiwanaku_plan }
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 15 } 
 		
@@ -1854,7 +1854,7 @@ focus_tree = {
 		prerequisite = { focus = BOL_diverse_yet_united }
 		ai_will_do = { factor = 15 } 
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		x =33
 		y =5 
@@ -1877,7 +1877,7 @@ focus_tree = {
 		prerequisite = { focus = BOL_diverse_yet_united }
 		ai_will_do = { factor = 15 } 
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		x =31
 		y =5 
@@ -1906,7 +1906,7 @@ focus_tree = {
 		icon = GFX_goal_economic_control
 		prerequisite = { focus = BOL_anti_colonial_preparation focus = BOL_from_the_past_to_the_present }
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 15 } 
 		
@@ -1929,7 +1929,7 @@ focus_tree = {
 		prerequisite = { focus = BOL_authocthonous_economy }
 		available = {
 			date > 1937.6.1
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 15 } 
 		
@@ -1967,7 +1967,7 @@ focus_tree = {
 		prerequisite = { focus = BOL_recovering_our_continent }
 		available = {
 			date > 1938.1.1
-			has_government = valkist
+			has_government = revivalist
 		}
 		x = 30
 		y = 8
@@ -1990,7 +1990,7 @@ focus_tree = {
 		y = 9
 		cost = 10
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		will_lead_to_war_with = CHL	
 		ai_will_do = { factor = 15 } 
@@ -2018,7 +2018,7 @@ focus_tree = {
 		cost = 10
 		ai_will_do = { factor = 15 } 
 		available = {
-			has_government = valkist
+			has_government = revivalist
 			506 = { is_owned_by = BOL }
 		}	
 		completion_reward = {
@@ -2047,7 +2047,7 @@ focus_tree = {
 				is_subject = no
 				has_war = no
 			}
-			has_government = valkist
+			has_government = revivalist
 		}
 		will_lead_to_war_with = PAR	
 		completion_reward = {
@@ -2074,7 +2074,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			date > 1938.6.1
-			has_government = valkist
+			has_government = revivalist
 			BOL = {
 				is_subject = no
 				has_war = no
@@ -2099,7 +2099,7 @@ focus_tree = {
 		available = {
 			country_exists = PRU
 			date > 1938.6.1
-			has_government = valkist
+			has_government = revivalist
 			BOL = {
 				is_subject = no
 				has_war = no
@@ -2130,7 +2130,7 @@ focus_tree = {
 		cost = 10
 		ai_will_do = { factor = 15 } 
 		available = {
-			has_government = valkist
+			has_government = revivalist
 			492 = { is_owned_by = BOL }
 		}	
 		completion_reward = {
@@ -2152,7 +2152,7 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 		available = {
 			country_exists = ARG
-			has_government = valkist
+			has_government = revivalist
 			BOL = {
 				owns_state = 688
 				is_subject = no
@@ -2777,7 +2777,7 @@ focus_tree = {
 		y = 6
 		cost = 5
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 20 }
 		prerequisite = { focus = BOL_death_of_the_general }
@@ -2793,7 +2793,7 @@ focus_tree = {
 		y = 7
 		cost = 10
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 20 }
 		prerequisite = { focus = BOL_piqichiri_nina }
@@ -2810,7 +2810,7 @@ focus_tree = {
 		y = 8
 		cost = 10
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 20 }
 		prerequisite = { focus = BOL_military_autonomies }
@@ -2833,7 +2833,7 @@ focus_tree = {
 		x = 39
 		y = 7
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		cost = 10
 		ai_will_do = { factor = 20 }
@@ -2851,7 +2851,7 @@ focus_tree = {
 		y = 8
 		cost = 10
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 20 }
 		prerequisite = { focus = BOL_native_corporatism }
@@ -2859,7 +2859,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_loyalty_to_the_piqichiri"
 			add_stability = 0.05
 			add_popularity = { 
-				ideology = valkist popularity = 0.075
+				ideology = revivalist popularity = 0.075
 			}			
 		}		
 	}
@@ -2870,7 +2870,7 @@ focus_tree = {
 		y = 9
 		cost = 10
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 20 }
 		prerequisite = { focus = BOL_loyalty_to_the_piqichiri }
@@ -2888,7 +2888,7 @@ focus_tree = {
 		y = 10
 		cost = 10
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 20 }
 		prerequisite = { focus = BOL_declare_true_national_rebirth }
@@ -2908,7 +2908,7 @@ focus_tree = {
 		y = 11
 		cost = 10
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		ai_will_do = { factor = 20 }
 		prerequisite = { focus = BOL_the_great_suyu }

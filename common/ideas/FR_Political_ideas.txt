@@ -212,15 +212,15 @@ ideas = {
 			}
 		}
 
-		valkist_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea valkist_influence"}
+		revivalist_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea revivalist_influence"}
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = valkist
+				has_government = revivalist
 			}
 
 			removal_cost = -1
@@ -228,8 +228,8 @@ ideas = {
 			picture = generic_fascist_drift_bonus
 			
 			modifier = {
-				valkist_drift = 0.1
-				valkist_acceptance = 85
+				revivalist_drift = 0.1
+				revivalist_acceptance = 85
 			}
 		}
 		

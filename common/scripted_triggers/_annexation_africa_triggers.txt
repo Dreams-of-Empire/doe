@@ -547,7 +547,7 @@ can_establish_colony = {
     tag = ITA
     AND = {
       tag = GER
-      NOT = { has_government = valkist }
+      NOT = { has_government = revivalist }
     }
   }
   has_socialist_government = no

@@ -35,7 +35,7 @@ opinion_modifiers = {
   # Siam
   SIA_ENG_trade_treaty = { value = 80 }
   SIA_asia_alliance = { value = 50 }
-  SIA_two_pillars_of_valkist = { value = 80 }
+  SIA_two_pillars_of_revivalist = { value = 80 }
   SIA_fra_rival_forever = { value = -200 }
   SIA_fra_sia_relationship_improvement = { value = 100 }
   SIA_ger_sia_relationship_improvement = { value = 100 }

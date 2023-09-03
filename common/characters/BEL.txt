@@ -35,7 +35,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}
@@ -106,7 +106,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Leon_Degrelle_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_underground_figurehead
 			}
 		}
@@ -125,7 +125,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Leon_Degrelle_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -144,7 +144,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Leon_Degrelle_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_planned_economy_proponent
 			}
 		}

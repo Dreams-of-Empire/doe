@@ -79,7 +79,7 @@ add_ideas = {
 set_convoys = 17
 
 set_politics = {	
-	ruling_party = valkist
+	ruling_party = revivalist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -96,7 +96,7 @@ set_popularities = {
   authoritarian_democrat = 3
   paternal_autocrat = 11
   national_populist = 6
-  valkist = 50
+  revivalist = 50
 }
 
 ### VARIANTS ###

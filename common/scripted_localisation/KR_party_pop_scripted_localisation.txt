@@ -76,9 +76,9 @@ defined_text = {
 	}
     text = {
 		trigger = {
-			has_government = valkist
+			has_government = revivalist
 		}
-		localization_key = valkist_subtype_desc
+		localization_key = revivalist_subtype_desc
 	}
 }
 defined_text = {
@@ -300,13 +300,13 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionValkist
+	name = GetCoalitionrevivalist
 	text = {
 		trigger = {
-			NOT = { has_government = valkist }
-			is_in_array = { ROOT.coalition_partners = token:valkist }
+			NOT = { has_government = revivalist }
+			is_in_array = { ROOT.coalition_partners = token:revivalist }
 		}
-		localization_key = party_pop_coalition_valkist
+		localization_key = party_pop_coalition_revivalist
 	}
 	text = {
 		localization_key = empty
@@ -376,7 +376,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:valkist }
+			check_variable = { coalition_partner_var = token:revivalist }
 		}
 		localization_key = colour_green
 	}

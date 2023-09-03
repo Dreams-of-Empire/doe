@@ -86,7 +86,7 @@ set_popularities = {
 	authoritarian_democrat = 8
 	paternal_autocrat = 42
 	national_populist = 11
-	valkist = 0
+	revivalist = 0
 }
 
 recruit_character = NFA_Frederick_Joseph_Loftus_Tottenham

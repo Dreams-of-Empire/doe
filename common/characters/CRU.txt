@@ -507,7 +507,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -533,7 +533,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Francisco_May_Pech_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_respected_war_hero
 			}
 		}

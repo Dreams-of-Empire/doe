@@ -206,7 +206,7 @@ country_event = { #Political Turmoil
 			popularity = 0.1
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -215,7 +215,7 @@ country_event = { #Political Turmoil
 		}
 		set_temp_variable = { coalition_partner_var = token:national_populist }
 		add_to_coalition = yes 
-		set_temp_variable = { coalition_partner_var = token:valkist }
+		set_temp_variable = { coalition_partner_var = token:revivalist }
 		add_to_coalition = yes 
 		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 		add_to_coalition = yes 
@@ -661,20 +661,20 @@ country_event = { #Unbelievable Situation - Fate of Daijo-Kan
 	option = { #The Protector Elected
 		name = jap_shogun.16.c
 		add_popularity = {
-			ideology = valkist 
+			ideology = revivalist 
 			popularity = 0.37
 		}
 		clr_country_flag = JAP_Shogun_Regime
 		clr_country_flag = JAP_Tri_Edo_Commissioner
 		set_country_flag = JAP_sgrp_foreign_unlock
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
-			long_name = JAP_Purist_valkist_party_long
-			name = JAP_Purist_valkist_party
+			long_name = JAP_Purist_revivalist_party_long
+			name = JAP_Purist_revivalist_party
 		}
 		drop_cosmetic_tag = yes 
-		set_cosmetic_tag = JAP_valkist
+		set_cosmetic_tag = JAP_revivalist
 		mark_focus_tree_layout_dirty = yes
 		add_country_leader_role = {
 			character = JAP_Inoue_Nissho
@@ -1141,7 +1141,7 @@ country_event = {
 	option = {
 		name = jap_shogundom.16.a
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.1
 		}
 	}
@@ -1192,7 +1192,7 @@ country_event = {
 	option = {
 		name = jap_shogundom.20.a
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = -0.1
 		}
 	}

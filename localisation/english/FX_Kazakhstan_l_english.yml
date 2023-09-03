@@ -33,9 +33,9 @@ KAZ_paternal_autocrat_DEF: "The Great Khanate of Kazakhstan"
 KAZ_national_populist: "Great Kazakhstan"
 KAZ_national_populist_ADJ: "Kazakh"
 KAZ_national_populist_DEF: "The Great Nation of Kazakhstan"
-KAZ_valkist: "Қазақстан"
-KAZ_valkist_ADJ: "Qazaqstandıqtar"
-KAZ_valkist_DEF: "Қазақтың ұлы мемлекеті"
+KAZ_revivalist: "Қазақстан"
+KAZ_revivalist_ADJ: "Qazaqstandıqtar"
+KAZ_revivalist_DEF: "Қазақтың ұлы мемлекеті"
 
 #############
 ### FOCUS ###

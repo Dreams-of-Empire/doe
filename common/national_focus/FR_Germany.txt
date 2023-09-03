@@ -59,7 +59,7 @@ focus_tree = {
 			factor = 40
 		}
 		available = {
-			has_country_flag = GER_valkist_path
+			has_country_flag = GER_revivalist_path
 		}
 		prerequisite = {
 			focus = GER_form_govt
@@ -310,7 +310,7 @@ focus_tree = {
 		}
 	}
 	
-  ## Valkist diplomacy #
+  ## revivalist diplomacy #
 	focus = {
 		id = GER_pangerman
 		icon = GFX_Germany_Pan
@@ -1883,7 +1883,7 @@ focus_tree = {
 		id = GER_dismantle_entente
 		will_lead_to_war_with = FRA
 		will_lead_to_war_with = ITA
-		icon = GFX_Valkist_Germany_Wolf
+		icon = GFX_revivalist_Germany_Wolf
 		x = -14
 		y = 19
 		cost = 5
@@ -2101,7 +2101,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					FRP = { # Valkist France
+					FRP = { # revivalist France
 						is_in_faction_with = GER
 					}
 				}
@@ -2114,7 +2114,7 @@ focus_tree = {
 			
 			if = {
 				limit = {
-					SRV = { # Valkist Italy
+					SRV = { # revivalist Italy
 						is_in_faction_with = GER
 					}
 				}
@@ -2380,7 +2380,7 @@ focus_tree = {
 	
 #	focus = {
 #		id = GER_destabilize_centroslavia
-#		icon = GFX_Valkist_Funding
+#		icon = GFX_revivalist_Funding
 #		x = -8
 #		y = 12
 #		cost = 5
@@ -3030,7 +3030,7 @@ focus_tree = {
 	
 #	focus = {
 #		id = GER_annex_austria
-#		icon = GFX_goal_valkist_support
+#		icon = GFX_goal_revivalist_support
 #		x = -9
 #		y = 13
 #		cost = 5
@@ -5473,7 +5473,7 @@ focus_tree = {
 	
 #	focus = {
 #		id = GER_reichskommissariat_ostland
-#		icon = GFX_goal_valkist_star
+#		icon = GFX_goal_revivalist_star
 #		x = 22
 #		y = 16
 #		cost = 5
@@ -5492,7 +5492,7 @@ focus_tree = {
 	
 #	focus = {
 #		id = GER_reichskommissariat_ukraine
-#		icon = GFX_goal_valkist_star
+#		icon = GFX_goal_revivalist_star
 #		x = 24
 #		y = 16
 #		cost = 5
@@ -5511,7 +5511,7 @@ focus_tree = {
 #	
 #	focus = {
 #		id = GER_reichskommissariat_kaukasus
-#		icon = GFX_goal_valkist_star
+#		icon = GFX_goal_revivalist_star
 #		x = 26
 #		y = 16
 #		cost = 5
@@ -5530,7 +5530,7 @@ focus_tree = {
 	
 #	focus = {
 #		id = GER_reichskommissariat_moskowien
-#		icon = GFX_goal_valkist_star
+#		icon = GFX_goal_revivalist_star
 #		x = 28
 #		y = 16
 #		cost = 5
@@ -5549,7 +5549,7 @@ focus_tree = {
 #	
 #	focus = {
 #		id = GER_reichskommissariat_turkestan
-#		icon = GFX_goal_valkist_star
+#		icon = GFX_goal_revivalist_star
 #		x = 30
 #		y = 16
 #		cost = 5
@@ -5569,7 +5569,7 @@ focus_tree = {
 	## TST DEBATE
 	focus = {
 		id = GER_tst_question
-		icon = GFX_Valkist_Germany_Wolf
+		icon = GFX_revivalist_Germany_Wolf
 		x = -17
 		y = 7
 		cost = 4
@@ -5618,7 +5618,7 @@ focus_tree = {
 	
 	focus = {
 		id = GER_tst_divisions
-		icon = GFX_Valkist_Army
+		icon = GFX_revivalist_Army
 		x = -19
 		y = 9
 		cost = 5
@@ -6111,7 +6111,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_tst_internal"
 			add_stability = 0.05
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = 0.05
 			}
 		}
@@ -6142,7 +6142,7 @@ focus_tree = {
 		}
 	}
 	
-	# Valkist Economy
+	# revivalist Economy
 	focus = {
 		id = GER_direction_of_the_economy
 		icon = GFX_goal_economic_stuff
@@ -8138,7 +8138,7 @@ focus_tree = {
 # German Spirit
 	focus = {
 		id = GER_german_spirit
-		icon = GFX_Valkist_Germany
+		icon = GFX_revivalist_Germany
 		x = 12
 		y = 0
 		cost = 5
@@ -8182,14 +8182,14 @@ focus_tree = {
 		relative_position_id = GER_german_spirit
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_volkdeutsch_jugend"
-			add_popularity = { ideology = valkist popularity = 0.1 }
+			add_popularity = { ideology = revivalist popularity = 0.1 }
 			add_political_power = 100
 		}
 	}
 	
 	focus = {
 		id = GER_youth_military
-		icon = GFX_Valkist_Army
+		icon = GFX_revivalist_Army
 		x = -1
 		y = 1
 		cost = 5
@@ -8339,7 +8339,7 @@ focus_tree = {
 #	}
 	
 	focus = {
-		id = GER_valkist_education
+		id = GER_revivalist_education
 		icon = GFX_Germany_Pan
 		x = 3
 		y = 1
@@ -8356,7 +8356,7 @@ focus_tree = {
 		}
     relative_position_id = GER_german_spirit
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GER_valkist_education"
+			log = "[GetDateText]: [Root.GetName]: Focus GER_revivalist_education"
 			add_research_slot = 1
 			country_event = ger.150
 		}
@@ -8376,13 +8376,13 @@ focus_tree = {
 			}
 		}
 		prerequisite = {
-			focus = GER_valkist_education
+			focus = GER_revivalist_education
 		}
-    relative_position_id = GER_valkist_education
+    relative_position_id = GER_revivalist_education
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_germanic_research"
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = 0.10
 			}
 		}
@@ -8425,9 +8425,9 @@ focus_tree = {
 			}
 		}
 		prerequisite = {
-			focus = GER_valkist_education
+			focus = GER_revivalist_education
 		}
-		relative_position_id = GER_valkist_education
+		relative_position_id = GER_revivalist_education
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_experimental_research"
 			country_event = ger.1082	
@@ -10069,7 +10069,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_dissolve_the_Valkist_party
+		id = GER_dissolve_the_revivalist_party
 		icon = GFX_goal_step_on_skull
 		cost = 1
 		prerequisite = {
@@ -10082,9 +10082,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_deploy_the_army
 	    completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GER_dissolve_the_Valkist_party"	
+			log = "[GetDateText]: [Root.GetName]: Focus GER_dissolve_the_revivalist_party"	
 		 	add_popularity = {
-			    ideology = valkist
+			    ideology = revivalist
 			    popularity = -0.10
 			}
 			add_stability = 0.1
@@ -10095,11 +10095,11 @@ focus_tree = {
 		icon = GFX_goal_skull_treaty
 		cost = 4
 		prerequisite = {
-			focus = GER_dissolve_the_Valkist_party
+			focus = GER_dissolve_the_revivalist_party
 		}
 		x = -2
 		y = 1
-		relative_position_id = GER_dissolve_the_Valkist_party
+		relative_position_id = GER_dissolve_the_revivalist_party
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_end_martial_law"		
 		  	swap_ideas = { remove_idea = ger_political_collapse_1_s add_idea = ger_political_collapse_2_s }
@@ -10110,14 +10110,14 @@ focus_tree = {
 		icon = GFX_goal_DOM_Call_Special_Election
 		cost = 4
 		prerequisite = {
-			focus = GER_dissolve_the_Valkist_party
+			focus = GER_dissolve_the_revivalist_party
 		}
 		available = {
 			has_completed_focus = GER_end_martial_law
 		}
 		x = 0
 		y = 1
-		relative_position_id = GER_dissolve_the_Valkist_party
+		relative_position_id = GER_dissolve_the_revivalist_party
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_allow_local_elections"
 		  	swap_ideas = { remove_idea = ger_political_collapse_2_s add_idea = ger_political_collapse_3_s }	
@@ -10128,14 +10128,14 @@ focus_tree = {
 		icon = GFX_goal_big_news
 		cost = 4
 		prerequisite = {
-			focus = GER_dissolve_the_Valkist_party
+			focus = GER_dissolve_the_revivalist_party
 		}
 		available = {
 			has_completed_focus = GER_allow_local_elections
 		}
 		x = 2
 		y = 1
-		relative_position_id = GER_dissolve_the_Valkist_party
+		relative_position_id = GER_dissolve_the_revivalist_party
 		completion_reward = {
 		  	log = "[GetDateText]: [Root.GetName]: Focus GER_propaganda"
 		  	swap_ideas = { remove_idea = ger_political_collapse_3_s add_idea = ger_political_collapse_4_s }	
@@ -10221,7 +10221,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_epuration_of_the_state"	
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = -0.15
 			}
 			add_political_power = 150

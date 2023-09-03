@@ -2322,7 +2322,7 @@ focus_tree = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = -0.1
 			}
 		}
@@ -3896,7 +3896,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -3936,7 +3936,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -3961,7 +3961,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -3986,7 +3986,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4020,7 +4020,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4047,7 +4047,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4077,7 +4077,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4103,7 +4103,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4128,7 +4128,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4153,7 +4153,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4208,7 +4208,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4233,7 +4233,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4295,7 +4295,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4321,7 +4321,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4347,7 +4347,7 @@ focus_tree = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}
@@ -4557,7 +4557,7 @@ focus_tree = {
 	# Ties with the Germans
 	focus = {
 		id = UKR_ties_with_the_germans
-		icon = GFX_Valkist_Germany
+		icon = GFX_revivalist_Germany
 		x = -6
 		y = 1
 		cost = 6
@@ -5020,7 +5020,7 @@ focus_tree = {
 			country_exists = BLR
 			BLR = {
 				OR = {
-					has_government = valkist
+					has_government = revivalist
 					custom_trigger_tooltip = {
 						tooltip = UKR_belarus_is_friendly_with_germany_tt
 						OR = {

@@ -424,7 +424,7 @@ foreign_politics = {
       NOT = { has_war_with = FROM }
       FROM = {
         has_socialist_government = no
-        NOT = { has_government = valkist }
+        NOT = { has_government = revivalist }
       }
     }
     visible = {

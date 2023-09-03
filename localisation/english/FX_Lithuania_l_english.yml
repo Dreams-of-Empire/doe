@@ -31,9 +31,9 @@ LIT_paternal_autocrat_DEF: "The Kingdom of Lithuania"
 LIT_national_populist: "Renewed Lithuania Empire"
 LIT_national_populist_ADJ: "Lithuanian"
 LIT_national_populist_DEF: "The Renewed Lithuanian Empire"
-LIT_valkist: "Lietuvos Imperija"
-LIT_valkist_ADJ: "Lietuviškai"
-LIT_valkist_DEF: "Lietuvos Imperija"
+LIT_revivalist: "Lietuvos Imperija"
+LIT_revivalist_ADJ: "Lietuviškai"
+LIT_revivalist_DEF: "Lietuvos Imperija"
 
 #Decisions
 LIT_Augenis_Wetdream: "Augenis's Wetdream"

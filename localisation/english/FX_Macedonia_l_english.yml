@@ -12,9 +12,9 @@ l_english:
   MAC_national_populist_ADJ: "Macedonian"
   MAC_national_populist_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
-  MAC_valkist: "Vasíleio Tis Makedonías"
-  MAC_valkist_ADJ: "Macedonian"
-  MAC_valkist_DEF: "To Vasíleio tou Alexándrou tou Méga"
+  MAC_revivalist: "Vasíleio Tis Makedonías"
+  MAC_revivalist_ADJ: "Macedonian"
+  MAC_revivalist_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
   MAC_vanguardist: "Vasíleio Tis Makedonías"
   MAC_vanguardist_ADJ: "Macedonian"
@@ -77,7 +77,7 @@ l_english:
   macedonia.10.t: "Alexander's Ideology"
   macedonia.10.d: "What should Alexander be?"
   macedonia.10.a: "A hardcore Communist"
-  macedonia.10.b: "A Valkist"
+  macedonia.10.b: "A revivalist"
   macedonia.10.c: "Remain as a Monarch"
 
 

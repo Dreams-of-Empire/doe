@@ -58,10 +58,10 @@ country_event = { #Assassination Dressler
 		add_ideas = ger_political_collapse
 		retire_character = GER_Adam_Dressler
     add_country_leader_role = {
-      character = GER_Valkist_Council
+      character = GER_revivalist_Council
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
         traits = {}
       }
     }
@@ -178,7 +178,7 @@ country_event = { #Chaos in the Country
 			ruling_party = national_populist
 			elections_allowed = no
 		}
-    retire_character = GER_Valkist_Council
+    retire_character = GER_revivalist_Council
 		remove_every_minister = yes
 		add_ideas = {
 			GER_Hermann_Goring_hog_npo
@@ -1985,7 +1985,7 @@ country_event = { #France gets the German demand for referundum
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.5
@@ -3473,7 +3473,7 @@ country_event = { # WIP Austria coup
 	}
 	name = "Pan-German coup is successful!"
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.10
 		}
 		add_popularity = {
@@ -3498,7 +3498,7 @@ country_event = { # WIP Austria coup
 	ai_chance = {
 		factor = 160
 	}
-	name = "The Bundesheer fends the valkists off!"
+	name = "The Bundesheer fends the revivalists off!"
 		clr_country_flag = GER_aus_coup
 		GER = {
 			set_country_flag = GER_aus_lives
@@ -4295,7 +4295,7 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 1.5
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -4342,7 +4342,7 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -4435,7 +4435,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 1.5
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -4482,7 +4482,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4

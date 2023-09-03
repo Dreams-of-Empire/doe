@@ -38,7 +38,7 @@ ideas = {
 			allowed_civil_war = { always = no }
 			removal_cost = -1
 			modifier = {
-				valkist_drift = 0.2
+				revivalist_drift = 0.2
 				national_populist_drift = 0.1
 				vanguardist_drift = 0.05
 				paternal_autocrat_drift = -0.05

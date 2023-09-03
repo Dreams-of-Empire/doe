@@ -1,6 +1,6 @@
 ideas = {
 
-	## Valkist Britian Ideas ##
+	## revivalist Britian Ideas ##
 
 	country = {
 		

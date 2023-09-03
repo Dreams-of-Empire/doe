@@ -129,7 +129,7 @@ set_popularities = {
 	authoritarian_democrat = 7
 	paternal_autocrat = 1
 	national_populist = 1
-	valkist = 0
+	revivalist = 0
 }
 
 create_faction = continental_entente

@@ -33,9 +33,9 @@ BOL_paternal_autocrat_DEF: "Bolivia"
 BOL_national_populist: "State of Bolivia"
 BOL_national_populist_ADJ: "Bolivian"
 BOL_national_populist_DEF: "Bolivia"
-BOL_valkist: "Wuliwya Suyu"
-BOL_valkist_ADJ: "Bolivian"
-BOL_valkist_DEF: "Wuliwya Suyu"
+BOL_revivalist: "Wuliwya Suyu"
+BOL_revivalist_ADJ: "Bolivian"
+BOL_revivalist_DEF: "Wuliwya Suyu"
 
 
 BOL_vanguardist_party: "POR"
@@ -58,8 +58,8 @@ BOL_paternal_autocrat_party: "MNR"
 BOL_paternal_autocrat_party_long: "Movimiento Nacionalista Revolucionario"
 BOL_national_populist_party: "FSB"
 BOL_national_populist_party_long: "Falange Socialista Boliviana"
-BOL_valkist_party: "Caciques Apoderados"
-BOL_valkist_party_long: "Caciques Apoderados"
+BOL_revivalist_party: "Caciques Apoderados"
+BOL_revivalist_party_long: "Caciques Apoderados"
 
 #ideas
 

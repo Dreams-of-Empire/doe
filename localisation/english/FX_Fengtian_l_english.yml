@@ -34,9 +34,9 @@ MAN_paternal_autocrat_DEF: "The Fengtian Clique"
 MAN_national_populist: "Fengtian State"
 MAN_national_populist_ADJ: "Fengtian"
 MAN_national_populist_DEF: "The Fengtian State"
-MAN_valkist: "Fengtian State"
-MAN_valkist_ADJ: "Fengtian"
-MAN_valkist_DEF: "The Fengtian State"
+MAN_revivalist: "Fengtian State"
+MAN_revivalist_ADJ: "Fengtian"
+MAN_revivalist_DEF: "The Fengtian State"
 
 #### Political Parties ####
 
@@ -60,8 +60,8 @@ MAN_paternal_autocrat_party: "Beiyang Army"
 MAN_paternal_autocrat_party_long: "Beiyang Army"
 MAN_national_populist_party: "Concordia Association"
 MAN_national_populist_party_long: "Concordia Association"
-MAN_valkist_party: "Fealty Party"
-MAN_valkist_party_long: "Fealty Party"
+MAN_revivalist_party: "Fealty Party"
+MAN_revivalist_party_long: "Fealty Party"
 
 #### OOB ####
 

@@ -31,9 +31,9 @@ TRT_paternal_autocrat_DEF: "The Ottoman Empire"
 TRT_national_populist: "Ottoman Empire"
 TRT_national_populist_ADJ: "Ottoman"
 TRT_national_populist_DEF: "The Ottoman Empire"
-TRT_valkist: "Osmanlı İmparatorluğu"
-TRT_valkist_ADJ: "Osmanlı"
-TRT_valkist_DEF: "Osmanlı İmparatorluğu"
+TRT_revivalist: "Osmanlı İmparatorluğu"
+TRT_revivalist_ADJ: "Osmanlı"
+TRT_revivalist_DEF: "Osmanlı İmparatorluğu"
 
 ### Parties
 TRT_vanguardist_party: "Ahali Fırkası"
@@ -58,8 +58,8 @@ TRT_paternal_autocrat_party: "Ittihad-i Muhammadî"
 TRT_paternal_autocrat_party_long: "Ittihad-i Muhammadî Fırkası"
 TRT_national_populist_party: "Turancılar"
 TRT_national_populist_party_long: "Turancı Fırkası"
-TRT_valkist_party: "VF"
-TRT_valkist_party_long: "Valkist Fırkası"
+TRT_revivalist_party: "VF"
+TRT_revivalist_party_long: "revivalist Fırkası"
 
 #### Focus ####
 TRT_emergency_session: "Emergency Session"

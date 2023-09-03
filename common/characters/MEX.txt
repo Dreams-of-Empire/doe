@@ -504,7 +504,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Jose_Antonio_Urquiza_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -909,7 +909,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Jose_de_Leon_Toral_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_great_compromiser
 			}
 		}
@@ -1535,7 +1535,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Victoriano_Ramirez_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_crime_fighter
 			}
 		}
@@ -1924,7 +1924,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}

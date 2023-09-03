@@ -138,7 +138,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = CHL_the_critical_point }
 		mutually_exclusive = { focus = CHL_military_guard } 
-		mutually_exclusive = { focus = CHL_chilean_valkism }
+		mutually_exclusive = { focus = CHL_chilean_revivalism }
 		x = 2
 		y = 4
 		cost = 5
@@ -321,7 +321,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_ban_the_extremists"
 			add_political_power = -50
 			add_popularity = { 
-				ideology = valkist popularity = -0.10
+				ideology = revivalist popularity = -0.10
 			}
 		}
 	}
@@ -366,7 +366,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = CHL_the_critical_point }
 		mutually_exclusive = { focus = CHL_democracy_survives } 
-		mutually_exclusive = { focus = CHL_chilean_valkism } 
+		mutually_exclusive = { focus = CHL_chilean_revivalism } 
 		x = 9
 		y = 4
 		cost = 5
@@ -409,7 +409,7 @@ focus_tree = {
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
-						has_government = valkist
+						has_government = revivalist
 						has_government = national_populist
 						has_government = collectivist
 						has_government = vanguardist
@@ -434,7 +434,7 @@ focus_tree = {
 				ideology = social_liberal popularity = -0.05
 			}
 			add_popularity = { 
-				ideology = valkist popularity = -0.10
+				ideology = revivalist popularity = -0.10
 			}
 			add_ideas = CHL_guided_men
 		}
@@ -607,10 +607,10 @@ focus_tree = {
 	}
 }
 	 focus = {
-		id = CHL_chilean_valkism
-		icon = GFX_goal_ideology_valkist
+		id = CHL_chilean_revivalism
+		icon = GFX_goal_ideology_revivalist
 		available = {
-			has_global_flag = CHILEAN_VALKISM
+			has_global_flag = CHILEAN_REVIVALISM
 		}
 		prerequisite = { focus = CHL_the_critical_point }
 		mutually_exclusive = { focus = CHL_democracy_survives } 
@@ -622,8 +622,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHL_chilean_valkism"
-			add_ideas = CHL_chilean_valkism_idea
+			log = "[GetDateText]: [Root.GetName]: Focus CHL_chilean_revivalism"
+			add_ideas = CHL_chilean_revivalism_idea
 			if = {
 				limit = { has_idea = CHL_crumbling_government }
 				remove_ideas = CHL_crumbling_government
@@ -635,7 +635,7 @@ focus_tree = {
 	focus = {
 		id = CHL_unite_the_classes
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = CHL_chilean_valkism }
+		prerequisite = { focus = CHL_chilean_revivalism }
 		x = 14
 		y = 5
 		cost = 10
@@ -655,7 +655,7 @@ focus_tree = {
 	focus = {
 		id = CHL_work_for_the_chilean
 		icon = GFX_goal_generic_production
-		prerequisite = { focus = CHL_chilean_valkism }
+		prerequisite = { focus = CHL_chilean_revivalism }
 		x = 18
 		y = 5
 		cost = 10
@@ -758,10 +758,10 @@ focus_tree = {
  		ai_will_do = { factor = 15 } 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_glory_to_the_rotos"
-			add_ideas = CHL_roto_valkism
+			add_ideas = CHL_roto_revivalism
 			if = {
-				limit = { has_idea = CHL_chilean_valkism_idea }
-				remove_ideas = CHL_chilean_valkism_idea
+				limit = { has_idea = CHL_chilean_revivalism_idea }
+				remove_ideas = CHL_chilean_revivalism_idea
 			add_political_power = 50
 			}
 		}
@@ -792,7 +792,7 @@ focus_tree = {
 
 	focus = {
 		id = CHL_revitalized_nation
-		icon = GFX_goal_valkist_star
+		icon = GFX_goal_revivalist_star
 		prerequisite = { focus = CHL_glory_to_the_rotos }
 		prerequisite = { focus = CHL_militarized_nation }
 		prerequisite = { focus = CHL_our_warrior_legacy }
@@ -1793,7 +1793,7 @@ focus = {
 						has_government = collectivist
 						has_government = paternal_autocrat
 						has_government = authoritarian_democrat
-						has_government = valkist
+						has_government = revivalist
 						has_government = national_populist
 					}
 				}
@@ -1926,7 +1926,7 @@ focus = {
 						has_government = market_liberal
 						has_government = social_democrat
 						has_government = social_conservative
-						has_government = valkist
+						has_government = revivalist
 						has_government = national_populist
 					}
 				}
@@ -2021,7 +2021,7 @@ focus = {
 			}
 			OR = {
 				has_global_flag = CARLOS_COUP
-				has_global_flag = CHILEAN_VALKISM
+				has_global_flag = CHILEAN_REVIVALISM
 			}
 			date > 1937.1.1
 		}
@@ -2541,7 +2541,7 @@ focus = {
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
-						has_government = valkist
+						has_government = revivalist
 						has_government = national_populist
 						has_government = paternal_autocrat
 					}

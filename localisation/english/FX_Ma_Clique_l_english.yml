@@ -31,9 +31,9 @@ XSM_paternal_autocrat_DEF: "The Ma Clique"
 XSM_national_populist: "Ma Clique"
 XSM_national_populist_ADJ: "Ma"
 XSM_national_populist_DEF: "The Ma Clique"
-XSM_valkist: "Ma Clique"
-XSM_valkist_ADJ: "Ma"
-XSM_valkist_DEF: "The Ma Clique"
+XSM_revivalist: "Ma Clique"
+XSM_revivalist_ADJ: "Ma"
+XSM_revivalist_DEF: "The Ma Clique"
 
 ### Parties
 XSM_vanguardist_party: "RC"

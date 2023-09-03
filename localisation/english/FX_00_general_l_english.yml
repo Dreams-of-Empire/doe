@@ -5,7 +5,7 @@ FUHRERREDUX_CAREER_PROFILE: "Führerredux"
 BM_HISTORY_TITLE: "Brief History"
 FUHRERREDUX_NAME: "Legacy of the Great War"
 FUHRERREDUX_DESC: "The end of the Great War saw the empires of the old—the Ottomans, the Austrians, and the Germans—fall greatly in both power and influence while the United States, Britain, and France have risen. While the Great War was thought by many to usher in a new era of peace, it seems that the tensions of old have not yet faded away and, with them, could threaten the tenuous peace that remains..."
-OTHER_FUHRERREDUX_DESC: "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the valkists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its peaceful existance, plummeting into the hells of war. And it will not wait for your decisions."
+OTHER_FUHRERREDUX_DESC: "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the revivalists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its peaceful existance, plummeting into the hells of war. And it will not wait for your decisions."
 
 TEXT_GAMELOGO_BOOKMARK_UP: "\n@UKRUkrainian People's Republic @UKR"
 
@@ -69,7 +69,7 @@ POLITICS_NOELECTIONS: "No Elections"
 ### Ideologies
 vanguardist: "National Collectivist"
 collectivist: "Collectivist"
-fasci: "Libertarian Socialist"
+fasci: "Fasci"
 social_democrat: "Social Democrat"
 social_liberal: "Social Liberal"
 market_liberal: "Market Liberal"
@@ -77,7 +77,7 @@ social_conservative: "Social Conservative"
 authoritarian_democrat: "Authoritarian Democrat"
 paternal_autocrat: "Paternal Autocrat"
 national_populist: "National Populist"
-valkist: "Valkist"
+revivalist: "Revivalist"
 
 ### Ideologies Colored
 
@@ -91,7 +91,7 @@ social_conservative_color: "§3Social Conservatives§!"
 authoritarian_democrat_color: "§gAuthoritarian Democrats§!"
 paternal_autocrat_color: "§PPaternal Autocrats§!"
 national_populist_color: "§NNational Populists§!"
-valkist_color: "§VValkists§!"
+revivalist_color: "§VRevivalists§!"
 
 ### Ideology Nouns
 vanguardist_noun: "National Collectivism"
@@ -104,7 +104,7 @@ social_conservative_noun: "Social Conservatism"
 authoritarian_democrat_noun: "Authoritarian Democracy"
 paternal_autocrat_noun: "Paternal Autocracy"
 national_populist_noun: "National Populism"
-valkist_noun: "Valkism"
+revivalist_noun: "Revivalism"
 
 ### Ideology Desc
 ideology_alignment: "Alignment"
@@ -118,7 +118,7 @@ social_conservative_desc: "Center Right"
 authoritarian_democrat_desc: "Authoritarian Center"
 paternal_autocrat_desc: "Authoritarian Right"
 national_populist_desc: "Authoritarian Center"
-valkist_desc: "Authoritarian Center"
+revivalist_desc: "Authoritarian Center"
 
 ### Ideology Drift
 vanguardist_drift: "Daily National Collectivist support"
@@ -131,7 +131,7 @@ social_conservative_drift: "Daily Social Conservative support"
 authoritarian_democrat_drift: "Daily Authoritarian Democrat support"
 paternal_autocrat_drift: "Daily Paternal Autocrat support"
 national_populist_drift: "Daily National Populist support"
-valkist_drift: "Daily Valkist support"
+revivalist_drift: "Daily Revivalist support"
 
 ### Ideology Subtype Desc
 vanguardist_subtype_desc: "National Collectivism is a term used to describe the collection of theories and concepts created by Vyacheslav Molotov based off of the attempted Hamburg Commune. National Collectivism emphasizes the development of socialism within the state. National Collectivist states build and implement their political base along Leninist lines, creating a revolutionary vanguard state to eventually reach a communist society. However, most power in National Collectivism is centralized around the strong state and its leader. Due to its totalitarian nature, political violence is used liberally to purge counter-revolutionary elements  Agriculture is often collectivized en masse and industry is centrally planned. Despite this, National Collectivism is widespread and sees itself as the true successor of Leninist thought, separating itself from Libertarianism completely while remaining suspicious of mainstream Leninist Socialism."
@@ -144,7 +144,7 @@ social_conservative_subtype_desc: "Conservatism is a political ideology which ca
 authoritarian_democrat_subtype_desc: "Authoritarian Democracy is an ideology that combines a strong executive power with a representative parliament and a partial democratic political system. Authoritarian Democratic regimes often take a conservative stance on social issues, favour centralization and typically have Hawkish sentiments in-government; although isolationist branches of this ideology are not unheard of. The aim of these regimes is to maintain national stability and provide the people both a popular and responsible government."
 paternal_autocrat_subtype_desc: "Paternal Autocracy is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the leader, either a king or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people of under his benevolent protection. These countries usually have a very authoritarian government, conservative social views and a state controlled economy."
 national_populist_subtype_desc: "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
-valkist_subtype_desc: "Named after the Germanic symbol that German Valkists wear, Valkism is an extreme nationalist and militaristic ideology, that proposes a system where the political power is centralized under a strong leadership, that through the state controls and guides the nation to its national rebirth. Nonetheless, Valkists fundamentally defend socially progressive ideals and the leader grants liberties to the people. Valkists are characterized by adopting conceptual and aesthetical aspects from ancient, pagan, mystical and esoterical traditions, generally relevant to the nation in question. There are many schools of thought in Valkist economics, but the state supremacy and control over it is undisputed."
+revivalist_subtype_desc: "Named after the Germanic symbol that German Revivalists wear, Revivalism is an extreme nationalist and militaristic ideology, that proposes a system where the political power is centralized under a strong leadership, that through the state controls and guides the nation to its national rebirth. Nonetheless, revivalists fundamentally defend socially progressive ideals and the leader grants liberties to the people. revivalists are characterized by adopting conceptual and aesthetical aspects from ancient, pagan, mystical and esoterical traditions, generally relevant to the nation in question. There are many schools of thought in revivalist economics, but the state supremacy and control over it is undisputed."
 internationalist_subtype_desc: "Developed from particularly interventionist branches of collectivism and marxism overall, Internationalist Socialism, as it calls itself, or more commonly known as Internationalism,  is a socialist ideology that proposes the workers, once in power, must organize to enact a perpetual revolution, and to continue proactively in their struggle to bring socialism to the world. While most socialist strains are of international nature, the proactive spirit of Internationalism has given it a more militant nature, and Internationalist ideologues are known advocates of increased militarization of the workers in name of the revolution, as well as establishing a strong state that is able to defend the workers’ interests and protect the revolution from reactionary forces that may oppose it, as the revolution is never supposed to stop spreading."
 
 ### Ideology Acceptance
@@ -158,7 +158,7 @@ social_conservative_acceptance: "Acceptance of Social Conservatism"
 authoritarian_democrat_acceptance: "Acceptance of Authoritarian Democracy"
 paternal_autocrat_acceptance: "Acceptance of Paternal Autocracy"
 national_populist_acceptance: "Acceptance of National Populism"
-valkist_acceptance: "Acceptance of Valkism"
+revivalist_acceptance: "Acceptance of Revivalism"
 
 ### Ideology Banned
 vanguardist_banned: "Banned National Collectivists"
@@ -171,14 +171,14 @@ social_conservative_banned: "Banned Social Conservatives"
 authoritarian_democrat_banned: "Banned Authoritarian Democrats"
 paternal_autocrat_banned: "Banned Paternal Autocrats"
 national_populist_banned: "Banned National Populists"
-valkist_banned: "Banned Valkists"
+revivalist_banned: "Banned revivalists"
 
 ### Triggers
 can_replace_hog: "Can Replace Head of Government"
 ministers_cannot_be_replaced: "§gMinisters can only be replaced through focuses, events or decisions.§!"
 
-FX_is_socialist_tt: "Has a §YCollectivist§!, §YSocialist§! or a §YLibertarian Socialist§! government."
-FX_is_socialist_tt_NOT: "Does §Rnot§! have a Collectivist, Socialist or a Libertarian Socialist government."
+FX_is_socialist_tt: "Has a §YCollectivist§!, §YSocialist§! or a §YFasci§! government."
+FX_is_socialist_tt_NOT: "Does §Rnot§! have a Collectivist, Socialist or a Fasci government."
 FX_is_elected_tt: "Has a democratic-elected government."
 FX_is_elected_tt_NOT: "Does §Rnot§! have a democratic-elected government."
 FX_is_democratic_tt: "Has a democratic government."

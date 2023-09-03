@@ -131,7 +131,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -149,7 +149,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Sven_Olov_Lindholm_for_npo_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_radical_among_moderates
 			}
 		}

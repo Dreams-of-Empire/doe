@@ -220,7 +220,7 @@ SAM_SCW_matters = {
  			has_war = no
  	 		has_equipment = { infantry_equipment > 1000 } 
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -239,7 +239,7 @@ SAM_SCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -388,7 +388,7 @@ SAM_SCW_matters = {
 				small_plane_airframe > 50
 			}
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -407,7 +407,7 @@ SAM_SCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -559,7 +559,7 @@ SAM_SCW_matters = {
  			has_war = no
  	 		has_manpower > 4999
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -578,7 +578,7 @@ SAM_SCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -766,7 +766,7 @@ SAM_BCW_matters = {
  			has_war = no
  	 		has_equipment = { infantry_equipment > 1000 } 
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -782,7 +782,7 @@ SAM_BCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -915,7 +915,7 @@ SAM_BCW_matters = {
 				ratio > 0.2
 			}
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -931,7 +931,7 @@ SAM_BCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -1068,7 +1068,7 @@ SAM_BCW_matters = {
  			has_war = no
  	 		has_manpower > 4999
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}
@@ -1084,7 +1084,7 @@ SAM_BCW_matters = {
 				}
  			}
  	 		OR = {
- 	 			has_government = valkist
+ 	 			has_government = revivalist
  	 			has_government = national_populist
  	 			has_government = paternal_autocrat
  	 		}

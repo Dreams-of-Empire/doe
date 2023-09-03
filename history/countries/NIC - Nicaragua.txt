@@ -56,7 +56,7 @@ set_popularities = {
   authoritarian_democrat = 48
   paternal_autocrat = 0
   national_populist = 9
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = NIC_Anastasio_Somoza_Garcia

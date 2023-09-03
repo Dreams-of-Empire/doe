@@ -247,7 +247,7 @@ country_event = { # Fate of Insulindia
     trigger = {
       tag = PHI
       has_completed_focus = PHI_on_our_own
-      has_government = valkist
+      has_government = revivalist
     }
 
     ROOT = {
@@ -460,7 +460,7 @@ country_event = { # Fate of Malaya
     trigger = {
       tag = PHI
       has_completed_focus = PHI_on_our_own
-      has_government = valkist
+      has_government = revivalist
     }
     ROOT = {
       add_state_claim = 336

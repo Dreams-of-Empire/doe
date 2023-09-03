@@ -70,7 +70,7 @@ set_popularities = {
   authoritarian_democrat = 4
   paternal_autocrat = 60
   national_populist = 8
-  valkist = 0
+  revivalist = 0
 }
 
 #Events

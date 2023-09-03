@@ -1156,7 +1156,7 @@ characters = {
 		}
 		country_leader = {
 			desc = LEADER_STANISLAW_BULAK_BALACHOWICZ_DESC
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = {
 				the_otaman
 			}
@@ -1333,7 +1333,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Radasłaŭ_Astroŭski_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_determined_populist
 			}
 		}
@@ -1360,7 +1360,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Fabijan_Ivanovich_Akintschyz_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_accomplished_diplomat
 			}
 		}
@@ -1379,7 +1379,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Fabijan_Ivanovich_Akintschyz_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_biased_intellectual
 			}
 		}
@@ -1406,7 +1406,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Vladislav_Wenceslaus_Kozlowski_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_foreign_sympathizer
 			}
 		}
@@ -1433,7 +1433,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Leon_Ivanovich_Dubeykovsky_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_planned_economy_proponent
 			}
 		}

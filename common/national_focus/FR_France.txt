@@ -5165,9 +5165,9 @@ focus_tree = {
 			add_ideas = FRA_military_propaganda
 		}
 	}
-	# Deal with the Sarre Valkists
+	# Deal with the Sarre revivalists
 	focus = {
-		id = fra_valkist_saar
+		id = fra_revivalist_saar
 		icon = GFX_goal_step_on_skull
 		x = 1
 		y = 1
@@ -5196,7 +5196,7 @@ focus_tree = {
 			has_government = paternal_autocrat
 		}
 		prerequisite = {
-			focus = fra_valkist_saar
+			focus = fra_revivalist_saar
 		}
 		prerequisite = {
 			focus = fra_attack_commies

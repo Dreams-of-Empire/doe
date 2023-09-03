@@ -31,9 +31,9 @@ SPR_paternal_autocrat_DEF: "Republican Spain"
 SPR_national_populist: "Republican Spain"
 SPR_national_populist_ADJ: "Spanish"
 SPR_national_populist_DEF: "Republican Spain"
-SPR_valkist: "Republican Spain"
-SPR_valkist_ADJ: "Spanish"
-SPR_valkist_DEF: "Republican Spain"
+SPR_revivalist: "Republican Spain"
+SPR_revivalist_ADJ: "Spanish"
+SPR_revivalist_DEF: "Republican Spain"
 
 ### Parties ###
 SPR_vanguardist_party: "PCE"
@@ -60,8 +60,8 @@ SPR_paternal_autocrat_party: "Renovación"
 SPR_paternal_autocrat_party_long: "Renovación Española"
 SPR_national_populist_party: "PNE"
 SPR_national_populist_party_long: "Partido Nacionalista Español"
-SPR_valkist_party: "JCAH"
-SPR_valkist_party_long: "Juntas Castellanas de Actuación Hispánica"
+SPR_revivalist_party: "JCAH"
+SPR_revivalist_party_long: "Juntas Castellanas de Actuación Hispánica"
 
 ### National Spirits ###
 SPR_unstable_republican_spirit_idea: "Unstable Republican Spirit"

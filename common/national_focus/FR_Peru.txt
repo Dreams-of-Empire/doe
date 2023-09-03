@@ -2149,7 +2149,7 @@ focus = {
 				has_government = vanguardist
 				has_government = collectivist
 				has_government = fasci
-				has_government = valkist
+				has_government = revivalist
 				}
 			is_subject = no
 			}
@@ -2177,7 +2177,7 @@ focus = {
 				has_government = vanguardist
 				has_government = collectivist
 				has_government = fasci
-				has_government = valkist
+				has_government = revivalist
 				}
 			is_subject = no
 			}
@@ -3035,7 +3035,7 @@ focus = {
  		available = { always = no }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRU_tackle_the_indigenous_issue"
-			add_popularity = { ideology = valkist popularity = -0.025 }
+			add_popularity = { ideology = revivalist popularity = -0.025 }
 			add_stability = 0.025
 		} 
 	}

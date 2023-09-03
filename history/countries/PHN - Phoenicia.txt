@@ -105,7 +105,7 @@ set_popularities = {
   authoritarian_democrat = 10
   paternal_autocrat = 0
   national_populist = 1
-  valkist = 0
+  revivalist = 0
 }
 recruit_character = PHN_Emile_Edde
 

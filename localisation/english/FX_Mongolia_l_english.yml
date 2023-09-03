@@ -31,9 +31,9 @@ MON_paternal_autocrat_DEF: "Mongolian"
 MON_national_populist: "Mongolian State"
 MON_national_populist_ADJ: "Mongolian"
 MON_national_populist_DEF: "Mongolian"
-MON_valkist: "Mongol Empire"
-MON_valkist_ADJ: "Mongolia"
-MON_valkist_DEF: "Mongolia"
+MON_revivalist: "Mongol Empire"
+MON_revivalist_ADJ: "Mongolia"
+MON_revivalist_DEF: "Mongolia"
 
 #Parties
 
@@ -66,9 +66,9 @@ MON_paternal_autocrat_party_long: "Absolutists"
 #Mongol Restoration Party
 MON_national_populist_party: "MRP"
 MON_national_populist_party_long: "Mongol Restoration Party"
-#Mongolian Valkist Party
-MON_valkist_party: "NYM"
-MON_valkist_party_long: "Northern Yuan Movement"
+#Mongolian revivalist Party
+MON_revivalist_party: "NYM"
+MON_revivalist_party_long: "Northern Yuan Movement"
 
 #Events
 mon.1.t: "The Steppes of Mongolia"

@@ -1889,7 +1889,7 @@ focus_tree = {
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
 						has_government = national_populist
-						has_government = valkist
+						has_government = revivalist
 					}
 				}
 				add_equipment_to_stockpile = {
@@ -2095,7 +2095,7 @@ focus_tree = {
 				has_war_with = GER
 			}
 			OR = {
-				has_government = valkist
+				has_government = revivalist
 				has_government = national_populist
 				has_government = paternal_autocrat
 			}
@@ -2133,7 +2133,7 @@ focus_tree = {
 				has_war_with = GER
 			}
 			OR = {
-				has_government = valkist
+				has_government = revivalist
 				has_government = national_populist
 				has_government = paternal_autocrat
 			}
@@ -2351,7 +2351,7 @@ focus_tree = {
 				has_government = collectivist
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -2726,7 +2726,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_deal_with_nationalists"
 			add_stability = 0.02
-			add_popularity = { ideology = valkist popularity = -0.02 }
+			add_popularity = { ideology = revivalist popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
 			remove_ideas = PER_MIL_purge_socialist_elements_idea
 		}
@@ -4047,7 +4047,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
 			add_popularity = { ideology = national_populist popularity = -0.01 }
-			add_popularity = { ideology = valkist popularity = -0.01 }
+			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
 
 	}
@@ -4345,7 +4345,7 @@ focus_tree = {
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = 0.03 }
-			add_popularity = { ideology = valkist popularity = 0.03 }
+			add_popularity = { ideology = revivalist popularity = 0.03 }
 		}
 
 	}
@@ -4416,7 +4416,7 @@ focus_tree = {
 			focus = PER_NAT_end_civil_war
 		}
 		mutually_exclusive = {
-			focus = PER_NAT_valkist_state
+			focus = PER_NAT_revivalist_state
 		}
 		x = 30
 		y = 3
@@ -4559,7 +4559,7 @@ focus_tree = {
 			add_political_power = -20
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
-			add_popularity = { ideology = valkist popularity = -0.03 }
+			add_popularity = { ideology = revivalist popularity = -0.03 }
 		}
 
 	}
@@ -4732,7 +4732,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = PER_NAT_shia_state
-			focus = PER_NAT_valkist_state
+			focus = PER_NAT_revivalist_state
 		}
 		x = 34
 		y = 4
@@ -4820,8 +4820,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = PER_NAT_valkist_state
-		icon = GFX_goal_ideology_valkist
+		id = PER_NAT_revivalist_state
+		icon = GFX_goal_ideology_revivalist
 		cost = 5
 		prerequisite = {
 			focus = PER_NAT_end_civil_war
@@ -4833,7 +4833,7 @@ focus_tree = {
 		y = 3
 		
 		available = {
-			has_country_flag = PER_NAT_valkist_flag
+			has_country_flag = PER_NAT_revivalist_flag
 		}
 		
 		ai_will_do = {
@@ -4841,9 +4841,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_valkist_state"
+			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_revivalist_state"
 			add_political_power = 25
-			add_popularity = { ideology = valkist popularity = 0.02 }
+			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
 
 	}
@@ -4852,7 +4852,7 @@ focus_tree = {
 		icon = GFX_focus_generic_little_entente
 		cost = 10
 		prerequisite = {
-			focus = PER_NAT_valkist_state
+			focus = PER_NAT_revivalist_state
 		}
 		x = 38
 		y = 4
@@ -5007,7 +5007,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_NAT_adopt_zoroastrian_identity
-		icon = GFX_goal_valkist_supreme
+		icon = GFX_goal_revivalist_supreme
 		cost = 10
 		prerequisite = {
 			focus = PER_NAT_cult_of_personality
@@ -5073,7 +5073,7 @@ focus_tree = {
 			add_political_power = 50
 			add_stability = 0.05
 			add_research_slot = 1
-			add_popularity = { ideology = valkist popularity = 0.05 }
+			add_popularity = { ideology = revivalist popularity = 0.05 }
 		}
 
 	}

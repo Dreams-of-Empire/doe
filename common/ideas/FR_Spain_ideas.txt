@@ -1271,7 +1271,7 @@ ideas = {
 				authoritarian_democrat_acceptance = -15
 				paternal_autocrat_acceptance = -20
 				national_populist_acceptance = -20
-				valkist_acceptance = -20
+				revivalist_acceptance = -20
 				political_power_gain = -0.05
 			}
 		}

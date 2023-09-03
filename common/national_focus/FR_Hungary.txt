@@ -127,7 +127,7 @@ focus_tree = {
 	
 	focus = {
 		id = hun_join_stahlpakt 
-		icon = GFX_Valkist_Germany
+		icon = GFX_revivalist_Germany
 		cost = 10
 		x = 20
 		y = 3
@@ -168,7 +168,7 @@ focus_tree = {
 			ROM = {
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 				is_puppet = no
 			}

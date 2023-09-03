@@ -191,7 +191,7 @@ focus_tree = {
         popularity = -0.05
       }
       add_popularity = {
-        ideology = valkist
+        ideology = revivalist
         popularity = -0.05
       }
       hidden_effect = {
@@ -763,7 +763,7 @@ focus_tree = {
   # Lapiang Sakdalista
   focus = {
     id = PHI_lapiang_sakdalista
-    icon = GFX_goal_ideology_valkist
+    icon = GFX_goal_ideology_revivalist
     x = 4
     y = 0
     cost = 6
@@ -799,7 +799,7 @@ focus_tree = {
       has_capitulated = no
       OR = {
         has_government = authoritarian_democrat
-        has_government = valkist
+        has_government = revivalist
       }
     }
     prerequisite = {
@@ -832,7 +832,7 @@ focus_tree = {
       has_capitulated = no
       OR = {
         has_government = authoritarian_democrat
-        has_government = valkist
+        has_government = revivalist
       }
     }
     prerequisite = { focus = PHI_nationalize_the_lands }
@@ -860,7 +860,7 @@ focus_tree = {
     available = {
       has_capitulated = no
       OR = {
-        has_government = valkist
+        has_government = revivalist
         has_government = authoritarian_democrat
       }
     }
@@ -886,7 +886,7 @@ focus_tree = {
     cost = 6 
     available = {
       has_capitulated = no
-      has_government = valkist
+      has_government = revivalist
     }
     prerequisite = { focus = PHI_lapiang_sakdalista }
     relative_position_id = PHI_lapiang_sakdalista
@@ -907,7 +907,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = valkist
+      has_government = revivalist
     }
     prerequisite = { focus = PHI_reform_the_national_bank }
     relative_position_id = PHI_reform_the_national_bank
@@ -931,7 +931,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = valkist
+      has_government = revivalist
     }
     prerequisite = { focus = PHI_reform_the_national_bank }
     relative_position_id = PHI_reform_the_national_bank
@@ -953,7 +953,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = valkist
+      has_government = revivalist
     }
     prerequisite = { focus = PHI_promote_local_unions }
     relative_position_id = PHI_promote_local_unions
@@ -977,7 +977,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = valkist
+      has_government = revivalist
     }
     prerequisite = { focus = PHI_promote_local_unions }
     relative_position_id = PHI_promote_local_unions
@@ -998,7 +998,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = valkist
+      has_government = revivalist
     }
     prerequisite = { focus = PHI_institute_wealth_ceiling }
     relative_position_id = PHI_institute_wealth_ceiling
@@ -1023,7 +1023,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = valkist
+      has_government = revivalist
     }
     prerequisite = { focus = PHI_economic_independence }
     prerequisite = { focus = PHI_promote_local_unions }
@@ -1287,7 +1287,7 @@ focus_tree = {
       remove_ideas = PHI_lingering_sakdalistas
       increase_ruling_party_popularity_by_5 = yes
       add_popularity = {
-        ideology = valkist
+        ideology = revivalist
         popularity = -0.15
       }
       add_popularity = {

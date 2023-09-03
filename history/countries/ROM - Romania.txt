@@ -107,7 +107,7 @@ set_popularities = {
   authoritarian_democrat = 28
   paternal_autocrat = 0
   national_populist = 3
-  valkist = 15
+  revivalist = 15
 }
 
 country_event = { id = romania.0 days = 1 } # Intro

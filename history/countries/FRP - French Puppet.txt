@@ -29,7 +29,7 @@ set_popularities = {
   authoritarian_democrat = 0
   paternal_autocrat = 1
   national_populist = 1
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = FRP_Francois_Coty

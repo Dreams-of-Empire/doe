@@ -306,7 +306,7 @@ country_event = {
 		add_political_power = 10
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.07 }
-		add_popularity = { ideology = valkist popularity = 0.01 }
+		add_popularity = { ideology = revivalist popularity = 0.01 }
 		country_event = { days = 8 id = sweden.34 }
 		set_country_flag = SWE_election_happened_flag
 	}
@@ -1189,7 +1189,7 @@ country_event = {
 		add_political_power = 10
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.07 }
-		add_popularity = { ideology = valkist popularity = 0.01 }
+		add_popularity = { ideology = revivalist popularity = 0.01 }
 		country_event = { days = 8 id = sweden.34 }
 		set_country_flag = SWE_election_happened_flag
 	}
@@ -1248,7 +1248,7 @@ country_event = {
 		remove_coalition_market_liberal = yes 
 		remove_coalition_social_liberal = yes 
 		add_coalition_paternal_autocrat = yes 
-		add_coalition_valkist = yes 
+		add_coalition_revivalist = yes 
 		hidden_effect = {
 			set_variable = {
 				var = SWE_nat_conservative_influence_var

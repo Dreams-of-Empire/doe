@@ -50,9 +50,9 @@ AST_aut_dem_alt_party_long: "United Australia Party                             
 AST_paternal_autocrat_party: "Centre"
 AST_paternal_autocrat_party_long: "Centre Party                                                          §gThe Centre Party, founded in 1933, is the political branch of the nationalist, monarchist New Guard, a paramilitary organization emerging from the Greater Sydney area. The party seeks to rid Australia for socialism, being a strong opposition to Labor in both New South Wales and elsewhere. Unlike the AFM, Centre are strongly in favour of the British Empire and the monarchy, combining it with Australian nationalism.§!"
 AST_national_populist_party: "AFM"
-AST_national_populist_party_long: "Australia First Movement                                       §gThe Australia First Movement is one of the youngest movements in Australia, growing out of the Rationalist Association of New South Wales and the Victorian Socialist Party. The movement seems to unite a diverse group of people to the message of Australia First, with inspirations taken from valkist and national syndicalist movements. While xenophobic, the movement are also seen as an opponent to war and a voice for isolationism.§!"
-AST_valkist_party: "AFM (Odinist)"
-AST_valkist_party_long: "Australia First Movement (Odinist Wing)" 
+AST_national_populist_party_long: "Australia First Movement                                       §gThe Australia First Movement is one of the youngest movements in Australia, growing out of the Rationalist Association of New South Wales and the Victorian Socialist Party. The movement seems to unite a diverse group of people to the message of Australia First, with inspirations taken from revivalist and national syndicalist movements. While xenophobic, the movement are also seen as an opponent to war and a voice for isolationism.§!"
+AST_revivalist_party: "AFM (Odinist)"
+AST_revivalist_party_long: "Australia First Movement (Odinist Wing)" 
 
 AST_ano_party: "ANO"
 AST_ano_party_long: "Aboriginal National Organisation"
@@ -173,7 +173,7 @@ australia.3.d: "These days, state elections have been held in the most-western s
 australia.3.a: "Rarely Any Good News From Perth.."
 
 australia.4.t: "The Military Training Debate"
-australia.4.d: "With the rise of Valkism in Europe, calls to make new reforms regarding military training in Australia has been called. Even with the situation ahead, the issue over a stronger and increased military training plan has been met with opposition among Labor politicians, even in the Federal Government itself.\n\nWhile both the Nationalist opposition as well as many Laborites and Country politicians urges the government to strengthen the military training of Australian soldiers, there are perhaps even more Laborites opposed to such a plan, along with many pacifists opposed to the military all together. In the end, this issue has not reached a conclusion, with the Federal Government choosing to do nothing for now."
+australia.4.d: "With the rise of Revivalism in Europe, calls to make new reforms regarding military training in Australia has been called. Even with the situation ahead, the issue over a stronger and increased military training plan has been met with opposition among Labor politicians, even in the Federal Government itself.\n\nWhile both the Nationalist opposition as well as many Laborites and Country politicians urges the government to strengthen the military training of Australian soldiers, there are perhaps even more Laborites opposed to such a plan, along with many pacifists opposed to the military all together. In the end, this issue has not reached a conclusion, with the Federal Government choosing to do nothing for now."
 australia.4.a: "Status Quo is Sometimes the Best"
 
 australia.5.t: "London Stock Market Crash Hits Australia"
@@ -215,7 +215,7 @@ australia.13.a: "We Need New South Wales on Our Side"
 australia.13.b: "No! We Should Take a Balanced Approach"
 
 australia.14.t: "Joseph Lyons Cross the Floor"
-australia.14.d: "With the rejection of his plan by the Federal government, Joseph Lyons has left Labor. Together with other economically conservative Laborites, he has now found new friends amoung the Nationalist Party. From this base, the Nationalists has been absorbed by a new political force in Australia: The United Australia Party.\n\nWith the leadership of Joseph Lyons, this new opposition party has gained huge momentum. For the first time since 1934, Labor has gained a formidable challenge to their power. The new party has commited themselves to the conservative recovery plan of Lyons, cutting spendings and balancing the budget. In addition, the party seeks to unite Australian society as a whole against the Socialist and Valkist threats present in the world."
+australia.14.d: "With the rejection of his plan by the Federal government, Joseph Lyons has left Labor. Together with other economically conservative Laborites, he has now found new friends amoung the Nationalist Party. From this base, the Nationalists has been absorbed by a new political force in Australia: The United Australia Party.\n\nWith the leadership of Joseph Lyons, this new opposition party has gained huge momentum. For the first time since 1934, Labor has gained a formidable challenge to their power. The new party has commited themselves to the conservative recovery plan of Lyons, cutting spendings and balancing the budget. In addition, the party seeks to unite Australian society as a whole against the Socialist and revivalist threats present in the world."
 australia.14.a: "A Worthy Opponent Indeed"
 
 australia.15.t: "Lang's Response"

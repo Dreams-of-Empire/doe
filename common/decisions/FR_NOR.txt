@@ -158,7 +158,7 @@ NOR_war_with_decistions = {
  		visible = { 
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
  		}
 		ai_will_do = {

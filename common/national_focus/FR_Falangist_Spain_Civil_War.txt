@@ -32,7 +32,7 @@ focus_tree = {
 			add_war_support = 0.01
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 			add_popularity = { ideology = national_populist popularity = 0.01 }
-			add_popularity = { ideology = valkist popularity = 0.01 }
+			add_popularity = { ideology = revivalist popularity = 0.01 }
 		}
 
 	}
@@ -186,7 +186,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.03
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-			add_popularity = { ideology = valkist popularity = 0.01 }
+			add_popularity = { ideology = revivalist popularity = 0.01 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = SPR_pass_civil_war_emergency_idea
@@ -224,8 +224,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SPF_valkist_friends
-		icon = GFX_goal_valkist_star
+		id = SPF_revivalist_friends
+		icon = GFX_goal_revivalist_star
 		cost = 5.00
 		prerequisite = {
 			focus = SPF_legitimacy_strong
@@ -242,14 +242,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SPF_valkist_friends"
+			log = "[GetDateText]: [Root.GetName]: Focus SPF_revivalist_friends"
 			add_political_power = -35
 			if = {
 				limit = {
 					GER = {
 						OR = {
 							has_government = national_populist
-							has_government = valkist
+							has_government = revivalist
 						}
 					}
 				}
@@ -268,7 +268,7 @@ focus_tree = {
 					HOL = {
 						OR = {
 							has_government = national_populist
-							has_government = valkist
+							has_government = revivalist
 						}
 					}
 				}
@@ -287,7 +287,7 @@ focus_tree = {
 					NOR = {
 						OR = {
 							has_government = national_populist
-							has_government = valkist
+							has_government = revivalist
 						}
 					}
 				}

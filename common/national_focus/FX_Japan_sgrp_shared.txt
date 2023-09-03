@@ -189,7 +189,7 @@ shared_focus = {
 		}
 		if = {
 			limit = {
-				has_government = valkist
+				has_government = revivalist
 			}
 			JAP = {
 				create_faction = "Juusou Shinshuu Domei"
@@ -598,7 +598,7 @@ shared_focus = {
 		}
 		if = {
 			limit = {
-				has_government = valkist  
+				has_government = revivalist  
 			}
 			create_wargoal = {
 				type = annex_everything

@@ -31,9 +31,9 @@ POR_paternal_autocrat_DEF: "The Kingdom of Portugal"
 POR_national_populist: "Kingdom of Portugal"
 POR_national_populist_ADJ: "Portuguese"
 POR_national_populist_DEF: "The Kingdom of Portugal"
-POR_valkist: "Império Português"
-POR_valkist_ADJ: "Português"
-POR_valkist_DEF: "O Império Português"
+POR_revivalist: "Império Português"
+POR_revivalist_ADJ: "Português"
+POR_revivalist_DEF: "O Império Português"
 
 ### Parties (from KR)
 POR_vanguardist_party: "PCP (Rates)"

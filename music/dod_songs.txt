@@ -18,7 +18,7 @@ music = {
 			factor = 2
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		modifier = {
@@ -53,7 +53,7 @@ music = {
 			factor = 2
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		modifier = {
@@ -85,7 +85,7 @@ music = {
 			factor = 2
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		modifier = {

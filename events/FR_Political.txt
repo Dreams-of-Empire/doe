@@ -391,9 +391,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = valkist
+				has_government = revivalist
 			}
-			set_country_flag = opinion_set_valkist
+			set_country_flag = opinion_set_revivalist
 		}
 	}
 	
@@ -455,8 +455,8 @@ country_event = {
 				has_country_flag = opinion_set_national_populist
 			}
 			AND = {
-				NOT = { has_government = valkist }
-				has_country_flag = opinion_set_valkist
+				NOT = { has_government = revivalist }
+				has_country_flag = opinion_set_revivalist
 			}
 			AND = {
 				NOT = { has_country_flag = opinion_set_vanguardist }
@@ -469,7 +469,7 @@ country_event = {
 				NOT = { has_country_flag = opinion_set_authoritarian_democrat }
 				NOT = { has_country_flag = opinion_set_paternal_autocrat }
 				NOT = { has_country_flag = opinion_set_national_populist }
-				NOT = { has_country_flag = opinion_set_valkist }
+				NOT = { has_country_flag = opinion_set_revivalist }
 			}
 		}
 	}
@@ -489,7 +489,7 @@ country_event = {
 		clr_country_flag = opinion_set_authoritarian_democrat
 		clr_country_flag = opinion_set_paternal_autocrat
 		clr_country_flag = opinion_set_national_populist
-		clr_country_flag = opinion_set_valkist
+		clr_country_flag = opinion_set_revivalist
 		every_country = {
 			remove_opinion_modifier = {
 				target = ROOT
@@ -702,9 +702,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = valkist
+				has_government = revivalist
 			}
-			set_country_flag = opinion_set_valkist
+			set_country_flag = opinion_set_revivalist
 		}
 	}
 	

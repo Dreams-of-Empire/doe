@@ -101,7 +101,7 @@ ideas = {
 				political_power_gain = -0.15
 				stability_factor = -0.10
 				conscription_factor = -0.05
-				valkist_drift = 0.01
+				revivalist_drift = 0.01
 			}
 			picture = chi_war_of_resistance2
 			removal_cost = -1

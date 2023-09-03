@@ -104,7 +104,7 @@ foreign_politics = {
     available = {
       is_subject = no
       has_capitulated = no
-      NOT = { has_government = valkist }
+      NOT = { has_government = revivalist }
       NOT = { has_war_with = FROM }
     }
     remove_effect = {
@@ -157,8 +157,8 @@ ROM_reclaimation_of_old_territories = {
 }
 
 ROM_cementing_our_power = {
-  # Valkist
-  ROM_eliminate_opposition_valkist = {
+  # revivalist
+  ROM_eliminate_opposition_revivalist = {
     is_good = no
     icon = GFX_decision_oppression
     fire_only_once = yes
@@ -193,7 +193,7 @@ ROM_cementing_our_power = {
     cost = 20
     days_remove = 25
     fire_only_once = yes
-    visible = { has_active_mission = ROM_eliminate_opposition_valkist }
+    visible = { has_active_mission = ROM_eliminate_opposition_revivalist }
     available = {
       custom_trigger_tooltip = {
         tooltip = ROM_operation_pending
@@ -216,7 +216,7 @@ ROM_cementing_our_power = {
     cost = 20
     days_remove = 25
     fire_only_once = yes
-    visible = { has_active_mission = ROM_eliminate_opposition_valkist }
+    visible = { has_active_mission = ROM_eliminate_opposition_revivalist }
     available = {
       custom_trigger_tooltip = {
         tooltip = ROM_operation_pending
@@ -239,7 +239,7 @@ ROM_cementing_our_power = {
     cost = 20
     days_remove = 25
     fire_only_once = yes
-    visible = { has_active_mission = ROM_eliminate_opposition_valkist }
+    visible = { has_active_mission = ROM_eliminate_opposition_revivalist }
     available = {
       custom_trigger_tooltip = {
         tooltip = ROM_operation_pending
@@ -262,7 +262,7 @@ ROM_cementing_our_power = {
     cost = 20
     days_remove = 25
     fire_only_once = yes
-    visible = { has_active_mission = ROM_eliminate_opposition_valkist }
+    visible = { has_active_mission = ROM_eliminate_opposition_revivalist }
     available = {
       custom_trigger_tooltip = {
         tooltip = ROM_operation_pending

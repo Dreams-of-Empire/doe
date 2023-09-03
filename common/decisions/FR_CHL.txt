@@ -47,10 +47,10 @@ CHL_political_decisions = {
 		icon = generic_political_discourse
 		available = {
 			has_completed_focus = CHL_closing_the_gap
-			has_global_flag = CHILEAN_VALKISM
+			has_global_flag = CHILEAN_REVIVALISM
  		}
  		visible = { 
-			has_global_flag = CHILEAN_VALKISM
+			has_global_flag = CHILEAN_REVIVALISM
  		}
 		ai_will_do = {
 			factor = 1

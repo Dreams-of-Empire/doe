@@ -197,7 +197,7 @@ PHI_catholic_alliance_cat = {
       FROM = {
         exists = yes
         has_socialist_government = no
-        NOT = { has_government = valkist }
+        NOT = { has_government = revivalist }
         capital_scope = {
           OR = {
             is_on_continent = south_america
@@ -205,7 +205,7 @@ PHI_catholic_alliance_cat = {
           }
         }
         NOT = {
-          has_government = valkist
+          has_government = revivalist
           tag = KNE
           tag = USA
           tag = CAN
@@ -1750,7 +1750,7 @@ PHI_great_game = {
       }
     }
   }
-  PHI_condemn_valkism = {
+  PHI_condemn_revivalism = {
     icon = GFX_decision_ger_reichskommissariats
     cost = 20
     days_remove = 30
@@ -1760,8 +1760,8 @@ PHI_great_game = {
     }
     available = {
       OR = {
-        has_government = valkist
-        valkist > 0.3
+        has_government = revivalist
+        revivalist > 0.3
       }
     }
     remove_effect = {

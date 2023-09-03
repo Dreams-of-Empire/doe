@@ -31,9 +31,9 @@ ETH_paternal_autocrat_DEF: "The Empire of Abyssinia"
 ETH_national_populist: "Abyssinia"
 ETH_national_populist_ADJ: "Abyssinian"
 ETH_national_populist_DEF: "The Empire of Abyssinia"
-ETH_valkist: "Mekwanint People's State"
-ETH_valkist_ADJ: "Abyssinian"
-ETH_valkist_DEF: "Abyssinia"
+ETH_revivalist: "Mekwanint People's State"
+ETH_revivalist_ADJ: "Abyssinian"
+ETH_revivalist_DEF: "Abyssinia"
 
 ### Cosmetic
 ETH_ITA_subject: "Italian East Africa"

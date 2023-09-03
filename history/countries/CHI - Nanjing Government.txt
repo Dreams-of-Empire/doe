@@ -95,7 +95,7 @@ set_popularities = {
   authoritarian_democrat = 33
   paternal_autocrat = 12
   national_populist = 3
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = CHI_Zhang_Guotao

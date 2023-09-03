@@ -31,9 +31,9 @@ OMA_paternal_autocrat_DEF: "The Sultanate of Oman"
 OMA_national_populist: "Greater Oman"
 OMA_national_populist_ADJ: "Omani"
 OMA_national_populist_DEF: "The Greater Sultanate of Oman"
-OMA_valkist: "Caliphate of Arabia"
-OMA_valkist_ADJ: "Arabian"
-OMA_valkist_DEF: "The Caliphate of Arabia"
+OMA_revivalist: "Caliphate of Arabia"
+OMA_revivalist_ADJ: "Arabian"
+OMA_revivalist_DEF: "The Caliphate of Arabia"
 
 ### Parties
 OMA_authoritarian_democrat_party: "Al Said"

@@ -464,7 +464,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -482,7 +482,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Gabrielle_D_Annunzio_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_underground_figurehead
 			}
 		}
@@ -779,7 +779,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -851,7 +851,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giacomo_Acerbo_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_radical_among_moderates
 			}
 		}
@@ -906,7 +906,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Alceste_De_Ambris_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1182,7 +1182,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Edmondo_Rossoni_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_steel_magnate
 			}
 		}
@@ -1452,7 +1452,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Luigi_Razza_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_preserver_of_culture
 			}
 		}
@@ -1698,7 +1698,7 @@ characters = {
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { ITA_soldier_king }
 		}
 	}

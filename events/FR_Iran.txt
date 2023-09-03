@@ -637,11 +637,11 @@ country_event = {
 		}
 		add_popularity = { ideology = social_conservative popularity = 0.02 }
 		add_popularity = { ideology = national_populist popularity = 0.08 }
-		add_popularity = { ideology = valkist popularity = 0.08 }
+		add_popularity = { ideology = revivalist popularity = 0.08 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.15 }
 		set_country_flag = PER_nationalist_flag
 		
-		add_coalition_valkist = yes 
+		add_coalition_revivalist = yes 
 		
 		hidden_effect = {
 			set_country_flag = PER_NATIONALIST_TREE
@@ -1570,10 +1570,10 @@ country_event = {
 			ruling_party = national_populist elections_allowed = no
 		}
 		add_popularity = { ideology = national_populist popularity = 0.10 }
-		add_popularity = { ideology = valkist popularity = -0.10 }
+		add_popularity = { ideology = revivalist popularity = -0.10 }
 		set_country_flag = PER_NAT_shia_flag
 		
-		remove_coalition_valkist = yes 
+		remove_coalition_revivalist = yes 
 		
 		hidden_effect = {
 			add_ideas = theocratic_republic
@@ -1590,11 +1590,11 @@ country_event = {
 		ai_chance = { base = 50 }
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = valkist elections_allowed = no
+			ruling_party = revivalist elections_allowed = no
 		}
-		add_popularity = { ideology = valkist popularity = 0.10 }
+		add_popularity = { ideology = revivalist popularity = 0.10 }
 		add_popularity = { ideology = national_populist popularity = -0.10 }
-		set_country_flag = PER_NAT_valkist_flag
+		set_country_flag = PER_NAT_revivalist_flag
 		hidden_effect = {
 		}
 	}

@@ -34,7 +34,7 @@ PHI_form_confederation_cat = {
   priority = 20
   visible = {
     has_completed_focus = PHI_on_our_own
-    has_government = valkist
+    has_government = revivalist
   }
 }
 

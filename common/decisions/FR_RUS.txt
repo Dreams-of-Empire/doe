@@ -86,7 +86,7 @@ RUS_allow_teaching_native_languages = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_allow_teaching_native_languages"
 		add_popularity = { 
-		    ideology = valkist 
+		    ideology = revivalist 
 		    popularity = 0.03
 		    }
 		}
@@ -112,7 +112,7 @@ RUS_prohibit_child_work_nus = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_prohibit_child_work_nus"
 		add_popularity = { 
-		    ideology = valkist 
+		    ideology = revivalist 
 		    popularity = 0.03
 		    }
 		}
@@ -163,7 +163,7 @@ RUS_protect_women_work = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_protect_women_work"
 		add_popularity = { 
-		    ideology = valkist 
+		    ideology = revivalist 
 		    popularity = 0.03
 		    }
    		}

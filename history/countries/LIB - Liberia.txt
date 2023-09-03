@@ -47,7 +47,7 @@ set_popularities = {
   authoritarian_democrat = 5
   paternal_autocrat = 22
   national_populist = 2
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = LIB_Edwin_Barclay

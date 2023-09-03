@@ -177,7 +177,7 @@ country_event = { #King Albert dies
         character = BEL_Leon_Degrelle
         promote_leader = yes
         country_leader = {
-          ideology = valkist_subtype
+          ideology = revivalist_subtype
           traits = {}
         }
       }
@@ -800,7 +800,7 @@ country_event = { #Far-right Coalition
 		ai_chance = { factor = 15 }
 		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 		add_to_coalition = yes 
-		set_temp_variable = { coalition_partner_var = token:valkist }
+		set_temp_variable = { coalition_partner_var = token:revivalist }
 		add_to_coalition = yes 
 		set_politics = {
 			ruling_party = national_populist
@@ -808,7 +808,7 @@ country_event = { #Far-right Coalition
 		}
 		add_popularity = { ideology = national_populist popularity = 0.4 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
-		add_popularity = { ideology = valkist popularity = 0.05 }
+		add_popularity = { ideology = revivalist popularity = 0.05 }
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
 			remove_ideas_with_trait = foreign_minister
@@ -827,7 +827,7 @@ country_event = { #Far-right Coalition
 		ai_chance = { factor = 15 }
 		set_temp_variable = { coalition_partner_var = token:national_populist }
 		add_to_coalition = yes 
-		set_temp_variable = { coalition_partner_var = token:valkist }
+		set_temp_variable = { coalition_partner_var = token:revivalist }
 		add_to_coalition = yes 
 		set_politics = {
 			ruling_party = paternal_autocrat
@@ -835,7 +835,7 @@ country_event = { #Far-right Coalition
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.4 }
 		add_popularity = { ideology = national_populist popularity = 0.05 }
-		add_popularity = { ideology = valkist popularity = 0.05 }
+		add_popularity = { ideology = revivalist popularity = 0.05 }
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
 			remove_ideas_with_trait = foreign_minister
@@ -857,10 +857,10 @@ country_event = { #Far-right Coalition
 		set_temp_variable = { coalition_partner_var = token:national_populist }
 		add_to_coalition = yes 
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 		}
-		add_popularity = { ideology = valkist popularity = 0.4 }
+		add_popularity = { ideology = revivalist popularity = 0.4 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 		add_popularity = { ideology = national_populist popularity = 0.05 }
 		hidden_effect = {
@@ -894,7 +894,7 @@ country_event = { #King summons PM after Krijgswet failing
 	}	
 }
 
-country_event = { #Valkist Manifesto by Degrelle
+country_event = { #revivalist Manifesto by Degrelle
 	id = bel.14
 	immediate = {log = "[GetDateText]: [Root.GetName]: event bel.14"}
 	title = bel.14.t
@@ -909,7 +909,7 @@ country_event = { #Valkist Manifesto by Degrelle
 	
 	option = {
 		name = bel.14.a
-		add_popularity = { ideology = valkist popularity = 0.05 }
+		add_popularity = { ideology = revivalist popularity = 0.05 }
 		set_country_flag = BEL_Degrelle_rocks
 	}
 
@@ -1018,7 +1018,7 @@ country_event = { #March on Brussels
 	}
 	option = { #Allow the peaceful protest
 		name = bel.19.b
-		add_popularity = { ideology = valkist popularity = 0.02 }
+		add_popularity = { ideology = revivalist popularity = 0.02 }
 		set_country_flag = BEL_Degrelle_shouts
 	}
 }
@@ -1101,7 +1101,7 @@ country_event = { #van Zeeland discredited
 	}
 	option = { #LEON DEGREEEEELLE
 		name = bel.24.a
-		add_popularity = { ideology = valkist popularity = 0.10 } 
+		add_popularity = { ideology = revivalist popularity = 0.10 } 
 		add_popularity = { ideology = social_conservative popularity = -0.05 }
 		set_country_flag = BEL_Degrelle_shouts
 	}

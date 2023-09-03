@@ -98,14 +98,14 @@ country_event = {
         name = grp.3.a
 
         add_stability = 0.05
-        remove_ideas = GRP_valkist_economy
+        remove_ideas = GRP_revivalist_economy
     }
 
     option = {
         name = grp.3.b
 
         add_political_power = -100
-        remove_ideas = GRP_valkist_economy
+        remove_ideas = GRP_revivalist_economy
     }
 }
 
@@ -121,14 +121,14 @@ country_event = {
         name = grp.4.a
 
         add_stability = 0.05
-        remove_ideas = GRP_valkist_bureaucracy
+        remove_ideas = GRP_revivalist_bureaucracy
     }
 
     option = {
         name = grp.4.b
 
         add_political_power = -100
-        remove_ideas = GRP_valkist_bureaucracy
+        remove_ideas = GRP_revivalist_bureaucracy
     }
 }
 
@@ -143,7 +143,7 @@ country_event = {
     option = {
         name = grp.5.a
 
-        remove_ideas = GRP_valkist_society
+        remove_ideas = GRP_revivalist_society
         add_stability = 0.05
     }
 

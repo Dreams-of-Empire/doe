@@ -367,7 +367,7 @@ country_event = {   #Creation of Democracy
       }
     country_event = { id = rus.17 days = 20 }
     add_coalition_paternal_autocrat = yes 
-    add_coalition_valkist = yes 
+    add_coalition_revivalist = yes 
     add_coalition_market_liberal = yes 
     add_coalition_social_liberal = yes 
     add_coalition_social_democrat = yes 
@@ -498,8 +498,8 @@ country_event = { #Elections
 		ai_chance = { factor = 43 }
 		hidden_effect = {
 		add_ideas = parliamentary_republic
-		set_politics = { ruling_party = valkist }
-		add_popularity = { ideology = valkist popularity = 0.2 }
+		set_politics = { ruling_party = revivalist }
+		add_popularity = { ideology = revivalist popularity = 0.2 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.1 }
 
 		remove_ideas_with_trait = head_of_government
@@ -830,7 +830,7 @@ country_event = {   #Start of Goverment Reform Chain
 	fire_only_once = yes
 	
 	trigger = {
-		has_government = valkist
+		has_government = revivalist
 		original_tag = SOV
 	}
 
@@ -1231,7 +1231,7 @@ country_event = {
 		add_war_support = -1
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 			last_election = "1937.6.13"
 			election_frequency = 72
@@ -1245,7 +1245,7 @@ country_event = {
         character = RUS_Arkadiy_Stolypin
         promote_leader = yes
         country_leader = {
-          ideology = valkist_subtype
+          ideology = revivalist_subtype
           traits = {}
         }
       }
@@ -1263,7 +1263,7 @@ country_event = {
 		add_ideas = RUS_new_year_act_1932
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 			last_election = "1937.6.13"
 			election_frequency = 72
@@ -1277,7 +1277,7 @@ country_event = {
         character = RUS_Vladimir_Romanov_Krasinsky
         promote_leader = yes
         country_leader = {
-          ideology = valkist_subtype
+          ideology = revivalist_subtype
           traits = {}
         }
       }

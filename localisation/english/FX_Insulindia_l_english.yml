@@ -31,9 +31,9 @@ INS_paternal_autocrat_DEF: "The Sultanate of Insulindia"
 INS_national_populist: "Islamic State of Insulindia"
 INS_national_populist_ADJ: "Insulindian"
 INS_national_populist_DEF: "The Islamic State of Insulindia"
-INS_valkist: "Insulindia"
-INS_valkist_ADJ: "Insulindian"
-INS_valkist_DEF: "Insulindia"
+INS_revivalist: "Insulindia"
+INS_revivalist_ADJ: "Insulindian"
+INS_revivalist_DEF: "Insulindia"
 
 #### Political Parties ####
 INS_vanguardist_party: "Murba"
@@ -62,8 +62,8 @@ INS_MAJ_paternal_autocrat_party: "Kerajaan Majapahit"
 INS_MAJ_paternal_autocrat_party_long: "Ordo Kerajaan Majapahit (Absolutis)"
 INS_MAJ_national_populist_party: "Kerajaan Majapahit"
 INS_MAJ_national_populist_party_long: "Ordo Kerajaan Majapahit(Nasionalis)"
-INS_valkist_party: "PVI"
-INS_valkist_party_long: "Partai Valkist Insulindia"
+INS_revivalist_party: "PVI"
+INS_revivalist_party_long: "Partai revivalist Insulindia"
 
 #### Ideas ####
 INS_war_for_insulindian_independence_idea: "War For Insulindian Independence"

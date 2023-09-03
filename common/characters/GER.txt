@@ -199,7 +199,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
       desc = "POLITICS_ADAM_DRESSLER_DESC"
 			traits = { }
 		}
@@ -1703,7 +1703,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Rudolf_Sebottendorf_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_local_tyrant
 			}
 		}
@@ -1730,7 +1730,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Julius_Schrek_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_backroom_backstabber
 			}
 		}
@@ -1757,7 +1757,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Erich_Schmidt_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_naive_optimist
 			}
 		}
@@ -1784,7 +1784,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Anton_Arco_auf_Valley_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -2121,7 +2121,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Max_Amann_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_ideological_crusader
 			}
 		}
@@ -2148,7 +2148,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Alfred_Rosenburg_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_iron_fisted_brute
 			}
 		}
@@ -2499,7 +2499,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Gregor_Strasser_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_planned_economy_proponent
 			}
 		}
@@ -2526,7 +2526,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Gernhard_Rossbach_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_construction_magnate
 			}
 		}
@@ -2554,7 +2554,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Otto_Strasser_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -2581,7 +2581,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Adolf_Hitler_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_administrative_genius
 			}
 		}
@@ -2986,7 +2986,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hermann_Ehrhardt_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_preserver_of_culture
 			}
 		}
@@ -3243,11 +3243,11 @@ characters = {
 			}
 		}
 	}
-  GER_Valkist_Council = {
-    name = "Valkist Council"
+  GER_revivalist_Council = {
+    name = "revivalist Council"
     portraits = {
       civilian = {
-        large = "gfx/leaders/GER/Portrait_GER_Valkist_Council.png"
+        large = "gfx/leaders/GER/Portrait_GER_revivalist_Council.png"
       }
     }
   }

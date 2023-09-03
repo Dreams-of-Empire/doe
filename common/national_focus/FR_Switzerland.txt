@@ -464,7 +464,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_suppress_the_VWF"
 
-		add_popularity = { ideology = valkist popularity = -0.05 }
+		add_popularity = { ideology = revivalist popularity = -0.05 }
 		IF = {
 			limit = {
 				NOT = {
@@ -948,7 +948,7 @@ focus_tree = {
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
 		add_popularity = { ideology = national_populist popularity = -0.05 }
-		add_popularity = { ideology = valkist popularity = -0.05 }
+		add_popularity = { ideology = revivalist popularity = -0.05 }
 		add_political_power = -50
 
 		}
@@ -1213,7 +1213,7 @@ focus_tree = {
 		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		add_popularity = { ideology = national_populist popularity = -0.02 }
-		add_popularity = { ideology = valkist popularity = -0.02 }
+		add_popularity = { ideology = revivalist popularity = -0.02 }
 
 		add_timed_idea = { idea = SWI_internal_remediation  days = 70 }
 
@@ -1237,7 +1237,7 @@ focus_tree = {
 		add_popularity = { ideology = vanguardist popularity = -0.02 }
 		add_popularity = { ideology = collectivist popularity = -0.02 }
 		add_popularity = { ideology = fasci popularity = -0.02 }
-		add_popularity = { ideology = valkist popularity = -0.02 }
+		add_popularity = { ideology = revivalist popularity = -0.02 }
 
 		}
 

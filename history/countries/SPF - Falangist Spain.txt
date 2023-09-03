@@ -145,11 +145,11 @@ set_popularities = {
 	authoritarian_democrat = 5
 	paternal_autocrat = 28
 	national_populist = 30
-	valkist = 22
+	revivalist = 22
 }
 
 add_coalition_paternal_autocrat = yes 
-add_coalition_valkist = yes 
+add_coalition_revivalist = yes 
 
 set_convoys = 150
 set_stability = 0.40

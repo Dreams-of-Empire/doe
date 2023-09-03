@@ -163,7 +163,7 @@ CRU_germany_send_volunteers = {
         }
         MEX = {
             has_war_with = CRU
-            NOT = { has_government = valkist }
+            NOT = { has_government = revivalist }
         }
     }
     abort_when_not_enabled = yes

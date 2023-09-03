@@ -31,9 +31,9 @@ SWE_paternal_autocrat_DEF: "The Kingdom of Sweden"
 SWE_national_populist: "Nysvenska Riket"
 SWE_national_populist_ADJ: "Nysvenska"
 SWE_national_populist_DEF: "Nysvenska Riket"
-SWE_valkist: "Svea Rike"
-SWE_valkist_ADJ: "Svenska"
-SWE_valkist_DEF: "Svea Rike"
+SWE_revivalist: "Svea Rike"
+SWE_revivalist_ADJ: "Svenska"
+SWE_revivalist_DEF: "Svea Rike"
 
 #### Political Parties #####
 
@@ -65,8 +65,8 @@ SWE_pataut_army: "Armékoalitionen"
 SWE_pataut_army_long: "Nationella Återhämtningskoalitionen"
 SWE_national_populist_party: "Nysvenska Rörelsen"
 SWE_national_populist_party_long: "Nysvenska Rörelsen"
-SWE_valkist_party: "Lindholmarna"
-SWE_valkist_party_long: "Valkistiska Arbetarepartiet"
+SWE_revivalist_party: "Lindholmarna"
+SWE_revivalist_party_long: "revivalistiska Arbetarepartiet"
 
 #### IDEAS ####
 
@@ -74,9 +74,9 @@ SWE_unbroken_neutrality_idea: "Unbroken Neutrality"
 SWE_unbroken_neutrality_idea_desc: "Sweden has, since 1814, been a country at peace. No wars since then has touched the Kingdom, and has continued to stay neutral even when the world around it burned."
 
 SWE_sluggish_economy_idea: "Sluggish Economy"
-SWE_sluggish_economy_idea_desc: "The Valkist overthrow of the German Republic, our biggest economic partner since the Great War, had a sour impact on the Swedish economy. With our nation being somewhat left outside economically by the winning side of the Great War, it will be a priority for us to find new or old partners in trade."
+SWE_sluggish_economy_idea_desc: "The revivalist overthrow of the German Republic, our biggest economic partner since the Great War, had a sour impact on the Swedish economy. With our nation being somewhat left outside economically by the winning side of the Great War, it will be a priority for us to find new or old partners in trade."
 SWE_sluggish_economy1_idea: "Sluggish Economy"
-SWE_sluggish_economy1_idea_desc: "The Valkist overthrow of the German Republic, our biggest economic partner since the Great War, had a sour impact on the Swedish economy. With our nation being somewhat left outside economically by the winning side of the Great War, it will be a priority for us to find new or old partners in trade."
+SWE_sluggish_economy1_idea_desc: "The revivalist overthrow of the German Republic, our biggest economic partner since the Great War, had a sour impact on the Swedish economy. With our nation being somewhat left outside economically by the winning side of the Great War, it will be a priority for us to find new or old partners in trade."
 
 SWE_revolution_and_reaction_idea: "Revolution and Reaction"
 SWE_revolution_and_reaction_idea_desc: "Swedish politics has seen increasing political polarization. Over the years, the country is seemingly split between those seeking revolutionary action on the left, and those seeking reactionary or nationalist action on the right, with just some standing in the sensible center. The prime ministership of Carl Gustaf Hammarskjöld, one that should stabilize the nation, has utterly failed in this task, only making the situation worse."
@@ -266,7 +266,7 @@ lindholmen: "Lindholmen"
 
 #### EVENTS ####
 sweden.0.t: "The Status of Sweden"
-sweden.0.d: "From the ending days of the Napoleonic wars, Sweden has reserved itself from involvement in foreign conflicts. Even when Norway left the union between the two countries in 1905 and a war dipped Europe in blood, Sweden managed to remain neutral.\n\nEven with this neutrality, it was clear that Sweden was internationally leaning in favour of the Central Powers and Germany. While Sweden never joined the fighting, they had no problem in supplying Germany with Swedish steel and other materials. Likewise, the Entente had no problem to use this fact to extend the North Sea Blockade to include Sweden as well.\n\n1917 became one of the most troublesome years in recent Swedish history. With the blockade causing a crisis, with austerity and rationing being implemented, revolutions was soon in the air. As Russia fell to revolution, Sweden would soon see itself nearing one as well. The Swedish Revolution of 1917 failed as soon as it started. But the aftermath of it would grip the country through political polarization and resentment between the right and the left.\n\nThe end of the Great War would mean the end of the North Sea Blockade. Sweden came out of this era acquiring the Åland islands and a modest resentment against the Entente powers. Through the 1920s and early 1930s, Sweden would continue with a pro-German line on foreign and trade policy, with little trading with France or the United Kingdom. This economical dependency on Germany would smite Sweden as the Valkist takeover in Germany severed economical ties between the countries, leading to a new economic crisis.\n\nAs the situation worsened, King Gustaf V appointed general Carl Gustaf Hammarskjöld as prime minister in an attempt to stabilize the nation. While this was the intention, the result would be far different, with a rise of political tensions and a more defiant left-wing. The political tensions would manifest itself in the May Day incident of 1935, where the government reacted brutally against a May Day protest. While Sweden still is tored by crisis, many believes the Hammarskjöld government's days are numbered."
+sweden.0.d: "From the ending days of the Napoleonic wars, Sweden has reserved itself from involvement in foreign conflicts. Even when Norway left the union between the two countries in 1905 and a war dipped Europe in blood, Sweden managed to remain neutral.\n\nEven with this neutrality, it was clear that Sweden was internationally leaning in favour of the Central Powers and Germany. While Sweden never joined the fighting, they had no problem in supplying Germany with Swedish steel and other materials. Likewise, the Entente had no problem to use this fact to extend the North Sea Blockade to include Sweden as well.\n\n1917 became one of the most troublesome years in recent Swedish history. With the blockade causing a crisis, with austerity and rationing being implemented, revolutions was soon in the air. As Russia fell to revolution, Sweden would soon see itself nearing one as well. The Swedish Revolution of 1917 failed as soon as it started. But the aftermath of it would grip the country through political polarization and resentment between the right and the left.\n\nThe end of the Great War would mean the end of the North Sea Blockade. Sweden came out of this era acquiring the Åland islands and a modest resentment against the Entente powers. Through the 1920s and early 1930s, Sweden would continue with a pro-German line on foreign and trade policy, with little trading with France or the United Kingdom. This economical dependency on Germany would smite Sweden as the revivalist takeover in Germany severed economical ties between the countries, leading to a new economic crisis.\n\nAs the situation worsened, King Gustaf V appointed general Carl Gustaf Hammarskjöld as prime minister in an attempt to stabilize the nation. While this was the intention, the result would be far different, with a rise of political tensions and a more defiant left-wing. The political tensions would manifest itself in the May Day incident of 1935, where the government reacted brutally against a May Day protest. While Sweden still is tored by crisis, many believes the Hammarskjöld government's days are numbered."
 sweden.0.a: "För Sverige - i tiden!"
 sweden.1.t: "6th of June"
 sweden.1.d: "While Sweden has no official national holiday, 6th of June is often seen as a unofficial day to celebrate. This day marks the day when Sweden, under king Gustav Vasa, became independent from the Kalmar Union in 1523. The day also marks the day when, in 1809, a new Swedish constitution granted more power to Ståndsriksdagen, when Karl XIII became king of Sweden."
@@ -371,7 +371,7 @@ sweden.27.a: "Maybe We can use it for the Betterment of Sweden?"
 sweden.27.b: "The Treasure must be Shown to the Public"
 
 sweden.28.t: "Calls to Remove Hammarskjöld"
-sweden.28.d: "The last year have not been one pleasant for the government of Carl Gustaf Hammarskjöld. His policies in face of the economic crisis that arose after the Valkist takeover in Germany, among with his cruel reaction on the May Day protests, have utterly destroyed his reputation. While holding on to support from many conservatives, many others are in opposition to a continuation of the Hammarskjöld prime ministership. It is to see if the King is willing to remove him, with him being rather found of the government."
+sweden.28.d: "The last year have not been one pleasant for the government of Carl Gustaf Hammarskjöld. His policies in face of the economic crisis that arose after the revivalist takeover in Germany, among with his cruel reaction on the May Day protests, have utterly destroyed his reputation. While holding on to support from many conservatives, many others are in opposition to a continuation of the Hammarskjöld prime ministership. It is to see if the King is willing to remove him, with him being rather found of the government."
 sweden.28.a: "Hammarskjöld Stays!"
 sweden.28.b: "Hammarskjöld Has to Go!"
 sweden.29.t: "Protests Against the Government"
@@ -473,7 +473,7 @@ sweden.56.d: "With hearing that our leaders was going to let the monarchy live u
 sweden.56.a: "It Would Cause Too Much Instability"
 
 sweden.57.t: "Hammarskjöld Denounce Foreign Influences"
-sweden.57.d: "Prime minister Carl Gustaf Hammarskjöld have today presented a denouncement of foreign influence, calling out Soviet and Valkist influences for the destabilizing effects on Swedish politics, while blaming British influences in Sweden for causing the economic crisis to arrive in our country. While these denouncments and blamings are in many ways without cause, it paints opposition to the government as a treasonous act."
+sweden.57.d: "Prime minister Carl Gustaf Hammarskjöld have today presented a denouncement of foreign influence, calling out Soviet and revivalist influences for the destabilizing effects on Swedish politics, while blaming British influences in Sweden for causing the economic crisis to arrive in our country. While these denouncments and blamings are in many ways without cause, it paints opposition to the government as a treasonous act."
 sweden.57.a: "We Will Tear Them Down!"
 sweden.58.t: "Hammarskjöld Meets the Politicians"
 sweden.58.d: "Today, prime minister Carl Gustaf Hammarskjöld met with many different politicians, most of them being conservatives, but also some liberals and agrarians. The prime minister hope that getting in kahoot with Swedish politicians will further secure the position of the government. While the country is far from healed, we are on our way to see that goal."
@@ -752,8 +752,8 @@ SWE_expand_car_roads_desc: ""
 #SWE_ban_communist_party: "Ban Sveriges Kommunistiska Parti"
 #SWE_ban_communist_party_desc: "Sveriges Kommunistiska Parti is a party of revolutionaries. They want to destroy Sweden and lay the country under a totalitarian rule with power centralized in Moscow. They are traitors and shall be dealt with like traitors. Communism is Treason! And Treason is punishable by Death!"
 
-#SWE_attract_rightwing_valkists: "Attract Right-wing Valkists"
-#SWE_attract_rightwing_valkists_desc: "Lindholmarna are very similar to us, but they are more against the monarchy and are generally more left-leaning with their socialist policies. But there are some of these valkists that can be easily attracted to us. We must just show us as a better alternative than the valkists."
+#SWE_attract_rightwing_revivalists: "Attract Right-wing revivalists"
+#SWE_attract_rightwing_revivalists_desc: "Lindholmarna are very similar to us, but they are more against the monarchy and are generally more left-leaning with their socialist policies. But there are some of these revivalists that can be easily attracted to us. We must just show us as a better alternative than the revivalists."
 
 ## Right-Wing Tree ##
 
@@ -1024,7 +1024,7 @@ SWE_join_british_alliance: "Joining the British Alliance"
 SWE_join_soviet_international: "Joining the Soviet International"
 
 SWE_far_right_decisions: "Divisions in the Far-Right"
-SWE_far_right_decisions_desc: "While Swedish right-wing nationalists are mostly united under the New Sweden Movement, this movement is not all completely united. Encompassing both reactionary conservatives, revolutionary valkists and ultra-monarchists, the movement will need to balance between its more conservative and more radical wings.\n\n§YConservative§! influence is currently [ROOT.GetConservativeInfluence] ([?SWE_nat_conservative_influence_var|Y0])\n§YConservative§! loyalty towards our government is currently [ROOT.GetConservativeLoyalty] ([?SWE_nat_conservative_loyalty_var|Y0]%)\n\n§YRadical§! influence is currently [ROOT.GetRadicalInfluence] ([?SWE_nat_radical_influence_var|Y0])\n§YRadical§! loyalty towards our government is currently [ROOT.GetRadicalLoyalty] ([?SWE_nat_radical_loyalty_var|Y0]%)"
+SWE_far_right_decisions_desc: "While Swedish right-wing nationalists are mostly united under the New Sweden Movement, this movement is not all completely united. Encompassing both reactionary conservatives, revolutionary revivalists and ultra-monarchists, the movement will need to balance between its more conservative and more radical wings.\n\n§YConservative§! influence is currently [ROOT.GetConservativeInfluence] ([?SWE_nat_conservative_influence_var|Y0])\n§YConservative§! loyalty towards our government is currently [ROOT.GetConservativeLoyalty] ([?SWE_nat_conservative_loyalty_var|Y0]%)\n\n§YRadical§! influence is currently [ROOT.GetRadicalInfluence] ([?SWE_nat_radical_influence_var|Y0])\n§YRadical§! loyalty towards our government is currently [ROOT.GetRadicalLoyalty] ([?SWE_nat_radical_loyalty_var|Y0]%)"
 SWE_empower_swedish_church: "Empower the Swedish Church"
 SWE_break_up_big_capital: "Break Up Big Capital"
 
@@ -1041,7 +1041,7 @@ SWE_calm: "§YCalm§!"
 #### TOOLTIPS ####
 SWE_no_elections_tooltip: "§OElections will no longer be held.§!\n"
 
-SWE_warning_german_investment_tooltip: "§RWarning! To High Leaning Towards the Germans can Result in a Valkist Coup!§!\n"
+SWE_warning_german_investment_tooltip: "§RWarning! To High Leaning Towards the Germans can Result in a revivalist Coup!§!\n"
 SWE_warning_ukrainian_corn_tooltip: "§RWarning! To High Leaning Towards the Soviets can Result in a Socialist Coup!§!\n"
 
 SWE_popular_front_tooltip: "The §YSocialist Party§! and some §YCommunists§! will grant their support to our government."
@@ -1073,6 +1073,6 @@ Nordic_cooperation: "Established Nordic Cooperation"
 #### OTHER STUFFS ####
 FR_Sweden_Socialist: "Swedish Far-Left Focus Tree"
 
-SWE_FUHRERREDUX_DESC: "The Kingdom of Sweden was once one of Europe's greatest power. Today, they are only a regional power in Scandinavia. Following the path of neutrality, even when Europe burned in the Great War. \n\nAfter the war, Swedish politics where marked by strife between the right and the left, and a growth in the far-right New Sweden Movement. With the Valkists taking power in Germany, Sweden have seen an ever suffering economy. This have resulted in the unpopular Hammarskjöld cabinet, trying desperatly to regain stability. It is yet to see where Sweden will go."
+SWE_FUHRERREDUX_DESC: "The Kingdom of Sweden was once one of Europe's greatest power. Today, they are only a regional power in Scandinavia. Following the path of neutrality, even when Europe burned in the Great War. \n\nAfter the war, Swedish politics where marked by strife between the right and the left, and a growth in the far-right New Sweden Movement. With the revivalists taking power in Germany, Sweden have seen an ever suffering economy. This have resulted in the unpopular Hammarskjöld cabinet, trying desperatly to regain stability. It is yet to see where Sweden will go."
 POLITICS_GUSTAF_V_DESC: "King Gustaf V of Sweden has been the king of Sweden since 1907. He is the eldest son of the late king Oscar II and Sophia of Nassau. Gustaf grew up in the 19th century of the autocratic kingdom of Sweden, but when he ascended the throne, Sweden was already transforming into a parliamentarian democracy. In 1881, Gustaf married Victoria of Baden, a German noble woman and a descendance of a former royal house of Sweden. Under the great war the king, and especially his wife, was leaning on the pro-German side, but Sweden continued its neutrality. Today, king Gustaf is an old man. He is a king from an another century and it will to see how the future will bring to the Swedish royal house."
 SWE_joined_entente: "Has joined the §HEntente§!"

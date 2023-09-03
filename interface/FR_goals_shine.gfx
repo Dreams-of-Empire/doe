@@ -1961,11 +1961,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_valkist_thing_shine"
-		texturefile = "gfx/interface/goals/goal_valkist_thing.png"
+		name = "GFX_goal_revivalist_thing_shine"
+		texturefile = "gfx/interface/goals/goal_revivalist_thing.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_valkist_thing.png"
+			animationmaskfile = "gfx/interface/goals/goal_revivalist_thing.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1978,7 +1978,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_valkist_thing.png"
+			animationmaskfile = "gfx/interface/goals/goal_revivalist_thing.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3338,11 +3338,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_Valkist_Germany_Wolf_shine"
-		texturefile = "gfx/interface/goals/Valkist_Germany_Wolf.png"
+		name = "GFX_revivalist_Germany_Wolf_shine"
+		texturefile = "gfx/interface/goals/revivalist_Germany_Wolf.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Valkist_Germany_Wolf.png"
+			animationmaskfile = "gfx/interface/goals/revivalist_Germany_Wolf.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3355,7 +3355,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Valkist_Germany_Wolf.png"
+			animationmaskfile = "gfx/interface/goals/revivalist_Germany_Wolf.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3370,11 +3370,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_Valkist_Germany_shine"
-		texturefile = "gfx/interface/goals/Valkist_Germany.png"
+		name = "GFX_revivalist_Germany_shine"
+		texturefile = "gfx/interface/goals/revivalist_Germany.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Valkist_Germany.png"
+			animationmaskfile = "gfx/interface/goals/revivalist_Germany.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3387,7 +3387,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Valkist_Germany.png"
+			animationmaskfile = "gfx/interface/goals/revivalist_Germany.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3402,11 +3402,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_Valkist_Army_shine"
-		texturefile = "gfx/interface/goals/Valkist_Army.png"
+		name = "GFX_revivalist_Army_shine"
+		texturefile = "gfx/interface/goals/revivalist_Army.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Valkist_Army.png"
+			animationmaskfile = "gfx/interface/goals/revivalist_Army.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3419,7 +3419,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Valkist_Army.png"
+			animationmaskfile = "gfx/interface/goals/revivalist_Army.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3466,11 +3466,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_Valkist_Funding_shine"
-		texturefile = "gfx/interface/goals/Valkist_Funding.png"
+		name = "GFX_revivalist_Funding_shine"
+		texturefile = "gfx/interface/goals/revivalist_Funding.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Valkist_Funding.png"
+			animationmaskfile = "gfx/interface/goals/revivalist_Funding.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3483,7 +3483,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Valkist_Funding.png"
+			animationmaskfile = "gfx/interface/goals/revivalist_Funding.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -5483,11 +5483,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_ideology_valkist_shine"
-		texturefile = "gfx/interface/goals/goal_ideology_valkist.png"
+		name = "GFX_goal_ideology_revivalist_shine"
+		texturefile = "gfx/interface/goals/goal_ideology_revivalist.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_valkist.png"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_revivalist.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -5500,7 +5500,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_valkist.png"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_revivalist.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -5643,11 +5643,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_valkist_support_shine"
-		texturefile = "gfx/interface/goals/Valkist_Support.png"
+		name = "GFX_goal_revivalist_support_shine"
+		texturefile = "gfx/interface/goals/revivalist_Support.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Valkist_Support.png"
+			animationmaskfile = "gfx/interface/goals/revivalist_Support.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -5660,7 +5660,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Valkist_Support.png"
+			animationmaskfile = "gfx/interface/goals/revivalist_Support.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -12046,11 +12046,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_valkist_star_shine"
-		texturefile = "gfx/interface/goals/goal_valkist_star.png"
+		name = "GFX_goal_revivalist_star_shine"
+		texturefile = "gfx/interface/goals/goal_revivalist_star.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_valkist_star.png"
+			animationmaskfile = "gfx/interface/goals/goal_revivalist_star.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -12063,7 +12063,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_valkist_star.png"
+			animationmaskfile = "gfx/interface/goals/goal_revivalist_star.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

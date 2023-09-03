@@ -123,7 +123,7 @@ set_popularities = {
   authoritarian_democrat = 11
   paternal_autocrat = 2
   national_populist = 17
-  valkist = 2
+  revivalist = 2
 }
 
 give_guarantee = FIN

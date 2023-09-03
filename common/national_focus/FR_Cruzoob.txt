@@ -416,7 +416,7 @@ focus_tree = {
 		relative_position_id = CRU_the_tables_have_turned
 		completion_reward = {
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -453,7 +453,7 @@ focus_tree = {
 			GER = {
 				exists = yes
 				has_capitulated = no
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		prerequisite = { focus = CRU_seeking_new_friends }
@@ -481,7 +481,7 @@ focus_tree = {
 			BOL = {
 				exists = yes
 				has_capitulated = no
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		prerequisite = { focus = CRU_seeking_new_friends }
@@ -572,7 +572,7 @@ focus_tree = {
 				exists = yes
 				has_capitulated = no
 				NOT = { has_war_with = ROOT }
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		mutually_exclusive = { focus = CRU_join_the_stahlpakt }

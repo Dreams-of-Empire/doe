@@ -33,9 +33,9 @@ COL_paternal_autocrat_DEF: "Colombia"
 COL_national_populist: "State of Colombia"
 COL_national_populist_ADJ: "Colombian"
 COL_national_populist_DEF: "Colombia"
-COL_valkist: "Estado de Colombia"
-COL_valkist_ADJ: "Colombian"
-COL_valkist_DEF: "Colombia"
+COL_revivalist: "Estado de Colombia"
+COL_revivalist_ADJ: "Colombian"
+COL_revivalist_DEF: "Colombia"
 
 ### Political Parties ###
 
@@ -59,8 +59,8 @@ COL_paternal_autocrat_party: "UNCR"
 COL_paternal_autocrat_party_long: "Unión Nacional Colombiana Revolucionaria"
 COL_national_populist_party: "UNCR"
 COL_national_populist_party_long: "Unión Nacional Colombiana Revolucionaria"
-COL_valkist_party: "Leopardos"
-COL_valkist_party_long: "Legión Organizada para la Restauración del Orden Social"
+COL_revivalist_party: "Leopardos"
+COL_revivalist_party_long: "Legión Organizada para la Restauración del Orden Social"
 
 #focus
 COL_granadine_manifesto: "Granadine Manifesto"

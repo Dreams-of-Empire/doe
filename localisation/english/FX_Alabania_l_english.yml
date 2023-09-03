@@ -31,9 +31,9 @@ ALB_paternal_autocrat_DEF: "The Kingdom of Albania"
 ALB_national_populist: "Albanian State"
 ALB_national_populist_ADJ: "Albanian"
 ALB_national_populist_DEF: "The Albanian State"
-ALB_valkist: "Shteti Shqiptar"
-ALB_valkist_ADJ: "Shqiptar"
-ALB_valkist_DEF: "Shteti Shqiptar"
+ALB_revivalist: "Shteti Shqiptar"
+ALB_revivalist_ADJ: "Shqiptar"
+ALB_revivalist_DEF: "Shteti Shqiptar"
 
 ### Political Parties
 ALB_vanguardist_party: "PPSh"
@@ -56,8 +56,8 @@ ALB_paternal_autocrat_party: "PMSh"
 ALB_paternal_autocrat_party_long: "Partia Monarkiste Shqiptare"
 ALB_national_populist_party: "Balli Kombëtar"
 ALB_national_populist_party_long: "Balli Kombëtar"
-ALB_valkist_party: "ARP"
-ALB_valkist_party_long: "Aleanca e Republikanëve Përparimtarë"
+ALB_revivalist_party: "ARP"
+ALB_revivalist_party_long: "Aleanca e Republikanëve Përparimtarë"
 
 ### Ideas ###
 ALB_liberation_movement: "National Liberation Movement"

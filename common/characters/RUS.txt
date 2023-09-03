@@ -33,7 +33,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}
@@ -574,7 +574,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Anton_Turkul_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_efficient_sociopath
 			}
 		}
@@ -1713,7 +1713,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Viktor_M_Baydalakov_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_backroom_backstabber
 			}
 		}
@@ -2253,7 +2253,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Alexander_Vuygrler_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_ideological_crusader
 			}
 		}
@@ -2766,7 +2766,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Georgiy_Gins_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_national_liberal
 			}
 		}

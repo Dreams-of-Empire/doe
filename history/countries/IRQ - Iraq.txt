@@ -122,7 +122,7 @@ set_popularities = {
   authoritarian_democrat = 0
   paternal_autocrat = 18
   national_populist = 7
-  valkist = 3
+  revivalist = 3
 }
 
 recruit_character = IRQ_Faisal_I

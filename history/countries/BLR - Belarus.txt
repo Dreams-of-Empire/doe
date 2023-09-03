@@ -66,7 +66,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = valkist
+	ruling_party = revivalist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -88,7 +88,7 @@ set_popularities = {
   authoritarian_democrat = 3
   paternal_autocrat = 15
   national_populist = 4
-  valkist = 19
+  revivalist = 19
 }
 
 recruit_character = BLR_Usievalad_Ihnatouski

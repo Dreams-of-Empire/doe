@@ -29,7 +29,7 @@ ideas = {
 				conscription_factor = -0.05
 				political_power_gain = -0.20
 				national_populist_drift = 0.01
-				valkist_drift = 0.01
+				revivalist_drift = 0.01
 			}
 		}
 		NOR_samfundsvernets_rule_idea = {
@@ -40,7 +40,7 @@ ideas = {
 				stability_factor = -0.05
 				political_power_gain = -0.10
 				national_populist_drift = 0.01
-				valkist_drift = 0.01
+				revivalist_drift = 0.01
 			}
 		}
 		NOR_military_deserters_idea = {
@@ -362,7 +362,7 @@ ideas = {
 				political_power_gain = 0.10
 				paternal_autocrat_drift = -0.02
 				national_populist_drift = -0.02
-				valkist_drift = -0.02
+				revivalist_drift = -0.02
 			}
 		}
 		NOR_internal_control_idea1 = {
@@ -375,7 +375,7 @@ ideas = {
 				vanguardist_drift = -0.01
 				paternal_autocrat_drift = -0.03
 				national_populist_drift = -0.03
-				valkist_drift = -0.03
+				revivalist_drift = -0.03
 			}
 		}
 		NOR_internal_control_idea2 = {
@@ -389,7 +389,7 @@ ideas = {
 				authoritarian_democrat_drift = -0.01
 				paternal_autocrat_drift = -0.03
 				national_populist_drift = -0.03
-				valkist_drift = -0.03
+				revivalist_drift = -0.03
 			}
 		}
 		NOR_monarchist_right_idea1 = {
@@ -405,13 +405,13 @@ ideas = {
 		NOR_war_on_samfundsvernet_idea1 = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NOR_war_on_samfundsvernet_idea1"}
 			allowed = { original_tag = NOR }
-			picture = generic_valkist_support
+			picture = generic_revivalist_support
 			modifier = {
 				stability_factor = -0.05
 				conscription_factor = -0.03
 				political_power_gain = -0.10
 				national_populist_drift = 0.01
-				valkist_drift = 0.01
+				revivalist_drift = 0.01
 			}
 		}
 		NOR_grow_welfare_state_idea = {
@@ -473,7 +473,7 @@ ideas = {
 		NOR_samfundsvernet_peaceful_idea = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NOR_samfundsvernet_peaceful_idea"}
 			allowed = { original_tag = NOR }
-			picture = generic_valkist_support
+			picture = generic_revivalist_support
 			modifier = {
 				stability_factor = -0.05
 				political_power_gain = -0.05
@@ -526,7 +526,7 @@ ideas = {
 				collectivist_drift = -0.01
 				paternal_autocrat_drift = -0.01
 				national_populist_drift = -0.01
-				valkist_drift = -0.01
+				revivalist_drift = -0.01
 			}
 		}
 		NOR_peoples_king_idea = {
@@ -644,8 +644,8 @@ ideas = {
 				national_populist_drift = 0.02
 			}
 		}
-		NOR_promote_christian_valkism_idea = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NOR_promote_christian_valkism_idea"}
+		NOR_promote_christian_revivalism_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NOR_promote_christian_revivalism_idea"}
 			allowed = { original_tag = NOR }
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
@@ -695,7 +695,7 @@ ideas = {
 			picture = FRA_army_of_aggression_focus
 			modifier = {
 				war_support_factor = 0.05
-				valkist_drift = 0.02
+				revivalist_drift = 0.02
 			}
 		}
 		NOR_sea_raids_idea = {
@@ -704,7 +704,7 @@ ideas = {
 			picture = FRA_army_of_aggression_focus
 			modifier = {
 				war_support_factor = 0.05
-				valkist_drift = 0.02
+				revivalist_drift = 0.02
 				navy_max_range_factor = 0.05
 			}
 		}
@@ -714,20 +714,20 @@ ideas = {
 			picture = FRA_army_of_aggression_focus
 			modifier = {
 				war_support_factor = 0.10
-				valkist_drift = 0.05
+				revivalist_drift = 0.05
 				navy_max_range_factor = 0.05
 				monthly_population = -0.05
 				army_core_attack_factor = 0.05
 				army_core_defence_factor = 0.05
 			}
 		}
-		NOR_long_live_nation_valkist_idea = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NOR_long_live_nation_valkist_idea"}
+		NOR_long_live_nation_revivalist_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NOR_long_live_nation_revivalist_idea"}
 			allowed = { original_tag = NOR }
 			picture = FRA_army_of_aggression_focus
 			modifier = {
 				war_support_factor = 0.10
-				valkist_drift = 0.05
+				revivalist_drift = 0.05
 				navy_max_range_factor = 0.05
 				monthly_population = -0.05
 				army_core_attack_factor = 0.05

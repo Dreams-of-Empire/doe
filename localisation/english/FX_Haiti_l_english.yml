@@ -31,9 +31,9 @@ HAI_paternal_autocrat_DEF: "Haitian"
 HAI_national_populist: "State of Haiti"
 HAI_national_populist_ADJ: "Haitian"
 HAI_national_populist_DEF: "Haitian"
-HAI_valkist: "Etat d'Haïti"
-HAI_valkist_ADJ: "Haitian"
-HAI_valkist_DEF: "Haitian"
+HAI_revivalist: "Etat d'Haïti"
+HAI_revivalist_ADJ: "Haitian"
+HAI_revivalist_DEF: "Haitian"
 
 ### Political Parties ###
 
@@ -57,8 +57,8 @@ HAI_paternal_autocrat_party: "House of Dessalines"
 HAI_paternal_autocrat_party_long: "House of Dessalines"
 HAI_national_populist_party: "Nationaux"
 HAI_national_populist_party_long: "Nationaux"
-HAI_valkist_party: "PANH"
-HAI_valkist_party_long: "Parti Agraire National Haïtien"
+HAI_revivalist_party: "PANH"
+HAI_revivalist_party_long: "Parti Agraire National Haïtien"
 
 ### Events
 haiti.1.t: "Haitian Independence"

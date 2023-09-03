@@ -491,7 +491,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = 0.05
 			}
 		}
@@ -1661,7 +1661,7 @@ focus_tree = {
 	# BNSP Secures Power
 	focus = {
 		id = BLR_bnsp_secures_power
-		icon = GFX_goal_ideology_valkist
+		icon = GFX_goal_ideology_revivalist
 		x = 26
 		y = 0
 		cost = 6
@@ -2118,7 +2118,7 @@ focus_tree = {
 		relative_position_id = BLR_the_home_guard_in_control
 		completion_reward = {
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = -0.15
 			}
 			hidden_effect = {

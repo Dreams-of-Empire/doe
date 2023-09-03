@@ -40,7 +40,7 @@ DEN_domestic_affairs_decisions = {
 		}
 	}
 	
-	DEN_clamp_down_valkist_gangs = {
+	DEN_clamp_down_revivalist_gangs = {
 
 		icon = generic_form_nation
 		available = {
@@ -62,7 +62,7 @@ DEN_domestic_affairs_decisions = {
 		modifier = {
 			political_power_gain = -0.10
 			weekly_manpower = -150
-			valkist_drift = -0.01
+			revivalist_drift = -0.01
 		}
 		
 		complete_effect = {
@@ -111,7 +111,7 @@ DEN_domestic_affairs_decisions = {
 				add_resistance = -5
 				add_compliance = 5
 			}
-			add_popularity = { ideology = valkist popularity = -0.01 }
+			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
 	}
 	
@@ -235,7 +235,7 @@ DEN_domestic_affairs_decisions = {
 		}
 	}
 	
-	DEN_discredit_german_valkism = {
+	DEN_discredit_german_revivalism = {
 
 		icon = generic_form_nation
 		available = {
@@ -275,7 +275,7 @@ DEN_domestic_affairs_decisions = {
 		}
 	}
 	
-	DEN_fund_anti_valkist_german_groups = {
+	DEN_fund_anti_revivalist_german_groups = {
 
 		icon = generic_form_nation
 		available = {
@@ -301,7 +301,7 @@ DEN_domestic_affairs_decisions = {
 		}
 		
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision DEN_fund_anti_valkist_german_groups"
+			log = "[GetDateText]: [Root.GetName]: Decision DEN_fund_anti_revivalist_german_groups"
 			set_country_flag = DEN_ongoing_flensburg_plebiscite_decision_flag
 		}
 		

@@ -79,7 +79,7 @@ set_popularities = {
   authoritarian_democrat = 23
   paternal_autocrat = 9
   national_populist = 32
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = BUL_Konstantin_Muraviev

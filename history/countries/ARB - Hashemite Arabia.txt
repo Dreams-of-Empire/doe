@@ -54,7 +54,7 @@ set_popularities = {
   authoritarian_democrat = 8
   paternal_autocrat = 50
   national_populist = 0
-  valkist = 0
+  revivalist = 0
 }
 
 give_military_access = ENG

@@ -358,7 +358,7 @@ leader_traits = {
 	}
 	hog_holy_vice_marshal = {
 		random = no 
-		valkist_drift = 0.01
+		revivalist_drift = 0.01
 		stability_factor = 0.1
 		war_support_factor = 0.2 
 		weekly_manpower = 150

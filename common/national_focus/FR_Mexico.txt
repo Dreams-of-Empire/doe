@@ -52,7 +52,7 @@ focus_tree = {
 		id = MEX_royalists
 		icon = GFX_goal_MEX_calles
 		prerequisite = { focus = MEX_final_election }
-		mutually_exclusive = { focus = MEX_valkists focus = MEX_national_synarchist_union }
+		mutually_exclusive = { focus = MEX_revivalists focus = MEX_national_synarchist_union }
 		x = 2
 		y = 1
 		cost = 5
@@ -263,7 +263,7 @@ focus_tree = {
 		id = MEX_national_synarchist_union
 		icon = GFX_goal_ideology_national_populist
 		prerequisite = { focus = MEX_final_election }
-		mutually_exclusive = { focus = MEX_royalists focus = MEX_valkists }
+		mutually_exclusive = { focus = MEX_royalists focus = MEX_revivalists }
 		x = 4
 		y = 1
 		cost = 5
@@ -371,14 +371,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_radicals_to_centrists"
-			add_popularity = { ideology = valkist popularity = -0.1 } #Hey aldebaran, know you want this focus to do something else. This is just temporary so it 'looks' finished.
+			add_popularity = { ideology = revivalist popularity = -0.1 } #Hey aldebaran, know you want this focus to do something else. This is just temporary so it 'looks' finished.
 			add_political_power = 25
 		}
 	}
 
 	focus = {
-		id = MEX_valkists
-		icon = GFX_goal_ideology_valkist
+		id = MEX_revivalists
+		icon = GFX_goal_ideology_revivalist
 		prerequisite = { focus = MEX_final_election }
 		mutually_exclusive = { focus = MEX_royalists focus = MEX_national_synarchist_union }
 		x = 6
@@ -391,13 +391,13 @@ focus_tree = {
 			NOT = {
 				is_puppet_of = USA
 			}
-			has_global_flag = MEX_VALKISTS
+			has_global_flag = MEX_revivalistS
 		}
 
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus MEX_valkists"
+			log = "[GetDateText]: [Root.GetName]: Focus MEX_revivalists"
 			add_political_power = 100
 		}
 	}
@@ -405,7 +405,7 @@ focus_tree = {
 	focus = {
 		id = MEX_un_enemigo_comun
 		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = MEX_valkists }
+		prerequisite = { focus = MEX_revivalists }
 		x = 6
 		y = 2
 		cost = 5

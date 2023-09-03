@@ -128,9 +128,9 @@ ITA_ai_behavior = {
 		desc = RULE_OPTION_ITA_DEMOCRATIC_DESC
 	}
 	option = {
-		name = ITA_VALKIST
-		text = RULE_OPTION_ITA_VALKIST
-		desc = RULE_OPTION_ITA_VALKIST_DESC
+		name = ITA_revivalist
+		text = RULE_OPTION_ITA_revivalist
+		desc = RULE_OPTION_ITA_revivalist_DESC
 	}	
 }
 

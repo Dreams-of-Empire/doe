@@ -28,7 +28,7 @@ focus_tree = {
 				add_idea = MAN_lessened_antijapanese_sentiment
 			}
 
-			add_popularity = { ideology = valkist popularity = 0.05 }
+			add_popularity = { ideology = revivalist popularity = 0.05 }
 
 			}
 		}
@@ -58,7 +58,7 @@ focus_tree = {
 
 			remove_ideas = MAN_lessened_antijapanese_sentiment
 
-			add_popularity = { ideology = valkist popularity = 0.05 }
+			add_popularity = { ideology = revivalist popularity = 0.05 }
 
 			add_to_variable = {
 			var = MAN_fengtian_influence_with_japan
@@ -95,7 +95,7 @@ focus_tree = {
 
 			custom_effect_tooltip = 12_MAN_tt
 
-			add_popularity = { ideology = valkist popularity = 0.05 }
+			add_popularity = { ideology = revivalist popularity = 0.05 }
 
 			}
 		}

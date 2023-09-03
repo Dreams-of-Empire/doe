@@ -223,7 +223,7 @@ foreign_politics = {
               authoritarian_democrat = 0
               paternal_autocrat = 10
               national_populist = 0
-              valkist = 0
+              revivalist = 0
           }
 				}
 			}

@@ -47,7 +47,7 @@ focus_tree = {
 		bypass = {} 
 		mutually_exclusive = { focus = RHI_autonomy_1} 
 		mutually_exclusive = { focus = RHI_mandate_1} 
-		mutually_exclusive = { focus = RHI_valkist_1} 
+		mutually_exclusive = { focus = RHI_revivalist_1} 
 		prerequisite = { focus = RHI_watch_on_the_rhine } 
 		available = {
 			custom_trigger_tooltip = {
@@ -125,7 +125,7 @@ focus_tree = {
 			bypass = {} 
 			mutually_exclusive = { focus = RHI_independence_1} 
 			mutually_exclusive = { focus = RHI_mandate_1} 
-			mutually_exclusive = { focus = RHI_valkist_1} 
+			mutually_exclusive = { focus = RHI_revivalist_1} 
 			prerequisite = { focus = RHI_watch_on_the_rhine } 
 			available = {
 				custom_trigger_tooltip = {
@@ -144,7 +144,7 @@ focus_tree = {
 				}
 			}
 			hidden_effect = {
-				add_popularity = { ideology = valkist popularity = 0.20 }
+				add_popularity = { ideology = revivalist popularity = 0.20 }
 				add_popularity = { ideology = national_populist popularity = 0.10 }
 				add_popularity = { ideology = social_democrat popularity = 0.20 }
 				add_popularity = { ideology = social_conservative popularity = 0.40 }
@@ -220,7 +220,7 @@ focus_tree = {
 		bypass = {} 
 		mutually_exclusive = { focus = RHI_autonomy_1} 
 		mutually_exclusive = { focus = RHI_independence_1} 
-		mutually_exclusive = { focus = RHI_valkist_1} 
+		mutually_exclusive = { focus = RHI_revivalist_1} 
 		prerequisite = { focus = RHI_watch_on_the_rhine } 
 		available = {
 			custom_trigger_tooltip = {
@@ -239,7 +239,7 @@ focus_tree = {
 			}
 		}
 		hidden_effect = {
-			add_popularity = { ideology = valkist popularity = 0.25 }
+			add_popularity = { ideology = revivalist popularity = 0.25 }
 			add_popularity = { ideology = national_populist popularity = 0.10 }
 			add_popularity = { ideology = social_democrat popularity = 0.10 }
 			add_popularity = { ideology = social_conservative popularity = 0.10 }
@@ -311,8 +311,8 @@ focus = {
 }
 
 focus = { 
-	id = RHI_valkist_1
-	icon = GFX_goal_ideology_valkist
+	id = RHI_revivalist_1
+	icon = GFX_goal_ideology_revivalist
 	bypass = {} 
 	mutually_exclusive = { focus = RHI_autonomy_1} 
 	mutually_exclusive = { focus = RHI_mandate_1} 
@@ -321,13 +321,13 @@ focus = {
 	available = {
 		custom_trigger_tooltip = {
 			tooltip = unlocked_later
-			has_global_flag=RHI_F_valkist
+			has_global_flag=RHI_F_revivalist
 		}
 	}
 	available_if_capitulated = yes 
 	cost = 1   
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus RHI_valkist_1"
+		log = "[GetDateText]: [Root.GetName]: Focus RHI_revivalist_1"
 		remove_ideas = {RHI_S_political_powderkeg }
 		hidden_effect = {
 			set_autonomy = { 
@@ -346,15 +346,15 @@ x = 7
 y =1 
 }
 focus = { 
-	id = RHI_valkist_2
+	id = RHI_revivalist_2
 	icon = GFX_focus_ger_reichskommisariats
 	bypass = {} 
-	prerequisite = { focus = RHI_valkist_1 } 
+	prerequisite = { focus = RHI_revivalist_1 } 
 	available = {}
 	available_if_capitulated = yes 
 	cost = 5   
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus RHI_valkist_2"
+		log = "[GetDateText]: [Root.GetName]: Focus RHI_revivalist_2"
 		custom_effect_tooltip  = RHI_FT_gov_oob
 		hidden_effect = {
 			load_oob = RHI_VAL
@@ -365,15 +365,15 @@ focus = {
 	y =2 
 }
 focus = { 
-	id = RHI_valkist_3
+	id = RHI_revivalist_3
 	icon = GFX_DAH_Topke
 	bypass = {} 
-	prerequisite = { focus = RHI_valkist_2 } 
+	prerequisite = { focus = RHI_revivalist_2 } 
 	available = {}
 	available_if_capitulated = yes 
 	cost = 5  
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus RHI_valkist_3"
+		log = "[GetDateText]: [Root.GetName]: Focus RHI_revivalist_3"
 		swap_ideas = { remove_idea = RHI_S_rhine_crisis add_idea = RHI_S_crisis_recovery }
 	}
 	ai_will_do = { factor = 40 } 
@@ -381,15 +381,15 @@ focus = {
 	y =3
 }
 focus = { 
-	id = RHI_valkist_4
+	id = RHI_revivalist_4
 	icon = GFX_focus_ger_oppose_hitler
 	bypass = {} 
-	prerequisite = { focus = RHI_valkist_3 } 
+	prerequisite = { focus = RHI_revivalist_3 } 
 	available = {}
 	available_if_capitulated = yes 
 	cost = 10   
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus RHI_valkist_4"
+		log = "[GetDateText]: [Root.GetName]: Focus RHI_revivalist_4"
 		add_ideas=RHI_S_val_gov
 		set_country_flag = RHI_F_remilitarize
 		GER = { set_autonomy = { 
@@ -453,7 +453,7 @@ focus = {
 		factor = 25
 		modifier = {
 			factor = 0.1
-			has_government = valkist
+			has_government = revivalist
 		}
 		modifier = {
 			factor = 0.1
@@ -493,7 +493,7 @@ focus = {
 	ai_will_do = { factor = 25
 	modifier = {
 		factor = 10
-		has_government = valkist
+		has_government = revivalist
 	}
 	modifier = {
 		factor = 10
@@ -549,7 +549,7 @@ focus = {
 	ai_will_do = { factor = 25
 	modifier = {
 		factor = 0.1
-		has_government = valkist
+		has_government = revivalist
 	}
 	modifier = {
 		factor = 0.1
@@ -588,7 +588,7 @@ focus = {
 	ai_will_do = { factor = 25
 	modifier = {
 		factor = 10
-		has_government = valkist
+		has_government = revivalist
 	}
 	modifier = {
 		factor = 10
@@ -643,7 +643,7 @@ focus = {
 	ai_will_do = { factor = 25
 	modifier = {
 		factor = 0.1
-		has_government = valkist
+		has_government = revivalist
 	}
 	modifier = {
 		factor = 0.1
@@ -683,7 +683,7 @@ focus = {
 	ai_will_do = { factor = 25
 	modifier = {
 		factor = 10
-		has_government = valkist
+		has_government = revivalist
 	}
 	modifier = {
 		factor = 10
@@ -1357,7 +1357,7 @@ focus = {
 	available = {
 		or = {	has_government = social_democrat 
 		has_government = national_populist
-		has_government = valkist
+		has_government = revivalist
 	} 
 }
 available_if_capitulated = yes  

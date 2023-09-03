@@ -1963,16 +1963,16 @@ country_event = { #waityo
       character = CZE_Jan_Rys_Rozsevač
       promote_leader = yes
       country_leader = {
-      ideology = valkist_subtype
+      ideology = revivalist_subtype
       traits = {}
       }
     }
     add_ideas = one_party_dictatorship
     set_politics = {
-      ruling_party = valkist
+      ruling_party = revivalist
     }
     add_popularity = {
-      ideology = valkist
+      ideology = revivalist
       popularity = 0.35
     }
     hidden_effect = {
@@ -2149,7 +2149,7 @@ country_event = { #waityo
     name = cze.175.a
     add_political_power = -50
     add_popularity = {
-      ideology = valkist
+      ideology = revivalist
       popularity = 0.025
     }
     swap_ideas = {
@@ -2174,16 +2174,16 @@ country_event = { #waityo
       character = CZE_Jan_Rys_Rozsevač
       promote_leader = yes
       country_leader = {
-      ideology = valkist_subtype
+      ideology = revivalist_subtype
       traits = {}
       }
     }
     add_ideas = one_party_dictatorship
     set_politics = {
-      ruling_party = valkist
+      ruling_party = revivalist
     }
     add_popularity = {
-      ideology = valkist
+      ideology = revivalist
       popularity = 0.35
     }
     hidden_effect = {
@@ -2231,7 +2231,7 @@ country_event = { #waityo
     add_ideas = CZE_Jiri_Stribrny_eco_npo
     add_ideas = CZE_Ladislav_Kobsinek_sec_npo
     add_popularity = {
-      ideology = valkist
+      ideology = revivalist
       popularity = -0.25
     }
   }

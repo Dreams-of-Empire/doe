@@ -111,7 +111,7 @@ set_popularities = {
 	authoritarian_democrat = 3
 	paternal_autocrat = 4
 	national_populist = 4
-	valkist = 0
+	revivalist = 0
 }
 
 set_cosmetic_tag = AST_ENG

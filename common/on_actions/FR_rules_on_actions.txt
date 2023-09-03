@@ -227,10 +227,10 @@ on_actions = {
 					limit = {
 						has_game_rule = {
 							rule = ITA_ai_behavior
-							option = ITA_VALKIST
+							option = ITA_revivalist
 						}
 					}
-					set_country_flag = ITA_rule_picked_valkist
+					set_country_flag = ITA_rule_picked_revivalist
 				}
 			}
 			### Wakanda
@@ -534,7 +534,7 @@ on_actions = {
 					}
 					set_country_flag = BLR_ai_chosen
 					random_list = {
-						50 = { set_country_flag = BLR_valkist_behavior }
+						50 = { set_country_flag = BLR_revivalist_behavior }
 						50 = { set_country_flag = BLR_democratic_behavior }
 					}
 				}
@@ -552,7 +552,7 @@ on_actions = {
 					random_list = {
 						30 = { set_country_flag = ROM_democratic_behavior }
 						25 = { set_country_flag = ROM_socialist_behavior }
-						15 = { set_country_flag = ROM_valkist_behavior }
+						15 = { set_country_flag = ROM_revivalist_behavior }
 						30 = { set_country_flag = ROM_autocrat_behavior }
 					}
 				}
@@ -584,7 +584,7 @@ on_actions = {
 						}
 					}
 					set_country_flag = ROM_ai_chosen
-					set_country_flag = ROM_valkist_behavior
+					set_country_flag = ROM_revivalist_behavior
 				}
 				else_if = {
 					limit = {
@@ -647,7 +647,7 @@ on_actions = {
 						}
 					}
 					set_country_flag = UKR_ai_chosen
-					set_country_flag = UKR_valkist_behavior
+					set_country_flag = UKR_revivalist_behavior
 				}
 			}
 			### PLPC ###

@@ -90,7 +90,7 @@ set_puppet_minister_middle_east = {}
 #			}
 #		}
 #		else_if = {
-#			limit = { has_dictatorship_government = yes }	# paternal_autocrat, national_populist, valkist
+#			limit = { has_dictatorship_government = yes }	# paternal_autocrat, national_populist, revivalist
 #			add_ideas = {
 #				# Insert Ministers here
 #			}

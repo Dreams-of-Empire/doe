@@ -58,7 +58,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}
@@ -1073,7 +1073,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Rotha_Beryl_Lintorn_Orman_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_determined_populist
 			}
 		}

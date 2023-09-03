@@ -1437,8 +1437,8 @@ spriteTypes = {
 		textureFile = "gfx/leaders/MAC/Portrait_MAC_Alexander_The_Great_Communist.png"
 	}
 	spriteType = {
-		name = "GFX_Portrait_Macedonia_Alexander_Valkist"
-		textureFile = "gfx/leaders/MAC/Portrait_MAC_Alexander_The_Great_Valkist.png"
+		name = "GFX_Portrait_Macedonia_Alexander_revivalist"
+		textureFile = "gfx/leaders/MAC/Portrait_MAC_Alexander_The_Great_revivalist.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_Macedonia_Alexander_Monarch"

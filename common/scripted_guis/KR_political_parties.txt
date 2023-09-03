@@ -34,7 +34,7 @@ scripted_gui = {
 					has_country_leader_ideology = social_conservative_subtype
 					has_country_leader_ideology = authoritarian_democrat_subtype
 					has_country_leader_ideology = paternal_autocrat_subtype
-					has_country_leader_ideology = valkist_subtype
+					has_country_leader_ideology = revivalist_subtype
 					has_country_leader_ideology = national_populist_subtype
 				}
 			}

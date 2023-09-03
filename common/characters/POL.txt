@@ -138,7 +138,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -412,7 +412,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Jan_Mosdorf_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_underground_figurehead
 			}
 		}
@@ -439,7 +439,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Henryk_Rossman_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_local_tyrant
 			}
 		}
@@ -547,7 +547,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Jerzy_Kurcyusz_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_ideological_crusader
 			}
 		}
@@ -944,7 +944,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Tadeusz_Todtleben_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_resource_industrialist
 			}
 		}
@@ -998,7 +998,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Jan_Jodzewicz_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_back_stabber
 			}
 		}
@@ -1106,7 +1106,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Tadeusz_Gluziński_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_man_of_the_people
 			}
 		}

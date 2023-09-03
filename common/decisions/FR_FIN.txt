@@ -146,7 +146,7 @@ FIN_foreign_policy = {
 			}
 			NOT = {
 				has_country_flag = FIN_foreign_anti_sovietism_flag
-				has_government = valkist
+				has_government = revivalist
 				has_government = national_populist
 				has_government = paternal_autocrat
 				has_government = social_conservative
@@ -206,7 +206,7 @@ FIN_foreign_policy = {
 			has_country_flag = FIN_reapproach_soviet_union_flag
 			NOT = {
 				has_country_flag = FIN_foreign_anti_sovietism_flag
-				has_government = valkist
+				has_government = revivalist
 				has_government = national_populist
 				has_government = paternal_autocrat
 				has_government = social_conservative
@@ -381,7 +381,7 @@ FIN_foreign_policy = {
 				has_government = vanguardist
 				has_government = collectivist
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 				is_in_faction = yes
 			}
 			ENG = {
@@ -438,7 +438,7 @@ FIN_foreign_policy = {
 				has_government = vanguardist
 				has_government = collectivist
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 				is_in_faction = yes
 			}
 			FRA = {

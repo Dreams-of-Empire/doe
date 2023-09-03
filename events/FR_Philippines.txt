@@ -228,7 +228,7 @@ country_event = { # Sakdalista Popularity Growing
   option = { # Let's hope that their popularity stops rising
     name = philippines.11.a
     add_popularity = {
-      ideology = valkist
+      ideology = revivalist
       popularity = 0.05
     }
     hidden_effect = {
@@ -395,7 +395,7 @@ country_event = { # Protests in Manila
   option = { # Let them protest
     name = philippines.20.a
     add_popularity = {
-      ideology = valkist
+      ideology = revivalist
       popularity = 0.05
     }
     add_popularity = {
@@ -411,7 +411,7 @@ country_event = { # Protests in Manila
     name = philippines.20.b
     add_political_power = -100
     add_popularity = {
-      ideology = valkist
+      ideology = revivalist
       popularity = 0.05
     }
     add_popularity = {
@@ -476,7 +476,7 @@ country_event = { # Protests Losing Momentum
   option = { # Excellent
     name = philippines.22.a
     add_popularity = {
-      ideology = valkist
+      ideology = revivalist
       popularity = -0.05
     }
     add_popularity = {
@@ -500,7 +500,7 @@ country_event = { # Protests Expands to Other Areas
       popularity = 0.05
     }
     add_popularity = {
-      ideology = valkist
+      ideology = revivalist
       popularity = 0.05
     }
     hidden_effect = {
@@ -583,7 +583,7 @@ country_event = { # Ramos and Aguinaldo Slams the Government
       popularity = 0.05
     }
     add_popularity = {
-      ideology = valkist
+      ideology = revivalist
       popularity = 0.05
     }
     hidden_effect = {
@@ -822,7 +822,7 @@ country_event = { # Elections of 1937
       }
     }
     set_politics = {
-      ruling_party = valkist
+      ruling_party = revivalist
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_20 = yes
@@ -2840,7 +2840,7 @@ country_event = { # Pope Arrives in the Philippines
           controls_state = 2
           is_subject = yes
           OR = {
-            has_government = valkist
+            has_government = revivalist
             has_socialist_government = yes
           }
         }

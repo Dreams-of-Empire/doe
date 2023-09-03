@@ -31,7 +31,7 @@ set_popularities = {
   authoritarian_democrat = 4
   paternal_autocrat = 2
   national_populist = 0
-  valkist = 4
+  revivalist = 4
 }
 
 recruit_character = ITP_Pio_Filippani_Ronconi

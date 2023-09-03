@@ -34,9 +34,9 @@ TUR_paternal_autocrat_DEF: "The Ottoman Empire"
 TUR_national_populist: "Ottoman Empire"
 TUR_national_populist_ADJ: "Ottoman"
 TUR_national_populist_DEF: "The Ottoman Empire"
-TUR_valkist: "Osmanlı İmparatorluğu"
-TUR_valkist_ADJ: "Osmanlı"
-TUR_valkist_DEF: "Osmanlı İmparatorluğu"
+TUR_revivalist: "Osmanlı İmparatorluğu"
+TUR_revivalist_ADJ: "Osmanlı"
+TUR_revivalist_DEF: "Osmanlı İmparatorluğu"
 
 ### Parties
 TUR_vanguardist_party: "İÇSF"
@@ -59,8 +59,8 @@ TUR_paternal_autocrat_party: "Selamet-i Osmaniye"
 TUR_paternal_autocrat_party_long: "Selamet-i Osmaniye Fırkası"
 TUR_national_populist_party: "Turancılar"
 TUR_national_populist_party_long: "Turancı Fırkası"
-TUR_valkist_party: "VF"
-TUR_valkist_party_long: "Valkist Fırkası"
+TUR_revivalist_party: "VF"
+TUR_revivalist_party_long: "revivalist Fırkası"
 
 #### Focus ####
 TUR_emergency_session: "Emergency Session"

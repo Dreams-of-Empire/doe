@@ -484,7 +484,7 @@ country_event = {
 			add_popularity = { ideology = fasci popularity = -0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
 			add_popularity = { ideology = national_populist popularity = -0.04 }
-			add_popularity = { ideology = valkist popularity = -0.03 }
+			add_popularity = { ideology = revivalist popularity = -0.03 }
 		}
     }
 	
@@ -536,7 +536,7 @@ country_event = {
 			add_popularity = { ideology = fasci popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.01 }
-			add_popularity = { ideology = valkist popularity = -0.01 }
+			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
     }
 }
@@ -2338,7 +2338,7 @@ country_event = {
 				authoritarian_democrat = 0
 				paternal_autocrat = 2
 				national_populist = 0
-				valkist = 0
+				revivalist = 0
 			}
 			country_event = { id = finland.112 days = 5 }
 		}
@@ -2361,7 +2361,7 @@ country_event = {
 				authoritarian_democrat = 0
 				paternal_autocrat = 3
 				national_populist = 0
-				valkist = 0
+				revivalist = 0
 			}
 			set_country_flag = FIN_strong_leftwing_showing_flag
 			country_event = { id = finland.113 days = 5 }
@@ -2385,7 +2385,7 @@ country_event = {
 				authoritarian_democrat = 0
 				paternal_autocrat = 4
 				national_populist = 0
-				valkist = 0
+				revivalist = 0
 			}
 			country_event = { id = finland.114 days = 5 }
 		}
@@ -2428,7 +2428,7 @@ country_event = {
 				authoritarian_democrat = 0
 				paternal_autocrat = 2
 				national_populist = 0
-				valkist = 0
+				revivalist = 0
 			}
 			country_event = { id = finland.112 days = 5 }
 		}
@@ -2450,7 +2450,7 @@ country_event = {
 				authoritarian_democrat = 0
 				paternal_autocrat = 3
 				national_populist = 0
-				valkist = 0
+				revivalist = 0
 			}
 			set_country_flag = FIN_strong_leftwing_showing_flag
 			country_event = { id = finland.113 days = 5 }
@@ -2473,7 +2473,7 @@ country_event = {
 				authoritarian_democrat = 0
 				paternal_autocrat = 4
 				national_populist = 0
-				valkist = 0
+				revivalist = 0
 			}
 			country_event = { id = finland.114 days = 5 }
 		}

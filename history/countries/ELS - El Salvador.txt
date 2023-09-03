@@ -50,7 +50,7 @@ set_popularities = {
   authoritarian_democrat = 0
   paternal_autocrat = 0
   national_populist = 6
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = ELS_Jose_Castellanos_Contreras

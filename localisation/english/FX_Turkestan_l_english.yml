@@ -31,9 +31,9 @@ TRK_paternal_autocrat_DEF: "The State of Turkestan"
 TRK_national_populist: "Turkestani Empire"
 TRK_national_populist_ADJ: "Turkestan"
 TRK_national_populist_DEF: "The Empire of Turkestan"
-TRK_valkist: "Türkstan Mamlekettik"
-TRK_valkist_ADJ: "Türkstan"
-TRK_valkist_DEF: "Türkstan Mamlekettik"
+TRK_revivalist: "Türkstan Mamlekettik"
+TRK_revivalist_ADJ: "Türkstan"
+TRK_revivalist_DEF: "Türkstan Mamlekettik"
 
 ### Parties
 TRK_authoritarian_democrat_party: "Shura-i-Ulema"

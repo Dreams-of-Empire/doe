@@ -131,7 +131,7 @@ country_event = {
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.01 }
-		add_popularity = { ideology = valkist popularity = 0.01 }
+		add_popularity = { ideology = revivalist popularity = 0.01 }
 		set_country_flag = NOR_rebellious_samfundsvern
 		
 	}
@@ -283,7 +283,7 @@ country_event = {
 		name = nor.11.a
 		ai_chance = { base = 50 }
 		add_stability = 0.01
-		add_popularity = { ideology = valkist popularity = 0.02 }
+		add_popularity = { ideology = revivalist popularity = 0.02 }
 		add_popularity = { ideology = fasci popularity = -0.01 }
 		set_country_flag = NOR_angry_samfundsvern
 	}
@@ -292,7 +292,7 @@ country_event = {
 		name = nor.11.b
 		ai_chance = { base = 50 }
 		add_stability = -0.04
-		add_popularity = { ideology = valkist popularity = 0.01 }
+		add_popularity = { ideology = revivalist popularity = 0.01 }
 		set_country_flag = NOR_angry_radicals
 	}
 }
@@ -341,7 +341,7 @@ country_event = {
 		name = nor.13.a
 		add_political_power = -20
 		add_stability = -0.01
-		add_popularity = { ideology = valkist popularity = 0.01 }
+		add_popularity = { ideology = revivalist popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.01 }
 		add_popularity = { ideology = fasci popularity = -0.01 }
 	}
@@ -497,7 +497,7 @@ add_popularity = {
 	ideology = national_populist popularity = 0.02
 }
 add_popularity = {
-	ideology = valkist popularity = 0.05
+	ideology = revivalist popularity = 0.05
 }
 add_political_power = -10
 add_manpower = 15000
@@ -577,7 +577,7 @@ country_event = {
 		add_popularity = { ideology = fasci popularity = -0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 		add_popularity = { ideology = national_populist popularity = 0.03 }
-		add_popularity = { ideology = valkist popularity = 0.03 }
+		add_popularity = { ideology = revivalist popularity = 0.03 }
 		set_country_flag = NOR_mass_protest_far_right_flag
 	}
 }
@@ -604,7 +604,7 @@ country_event = {
 		add_popularity = { ideology = fasci popularity = -0.04 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
 		add_popularity = { ideology = national_populist popularity = 0.02 }
-		add_popularity = { ideology = valkist popularity = 0.02 }
+		add_popularity = { ideology = revivalist popularity = 0.02 }
 		add_ideas = NOR_military_deserters_idea
 	}
 }
@@ -631,7 +631,7 @@ country_event = {
 		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.01 }
-		add_popularity = { ideology = valkist popularity = 0.01 }
+		add_popularity = { ideology = revivalist popularity = 0.01 }
 		add_ideas = NOR_naval_deserters_idea
 	}
 }
@@ -719,7 +719,7 @@ country_event = {
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 		add_popularity = { ideology = national_populist popularity = 0.05 }
-		add_popularity = { ideology = valkist popularity = 0.05 }
+		add_popularity = { ideology = revivalist popularity = 0.05 }
 		remove_every_minister = yes
 		add_ideas = {
 			NOR_Karl_Marthinsen_hog_npo
@@ -737,7 +737,7 @@ country_event = {
 		
 		remove_coalition_collectivist = yes 
 		add_coalition_social_conservative = yes 
-		add_coalition_valkist = yes 
+		add_coalition_revivalist = yes 
 		add_coalition_paternal_autocrat = yes 
 		
 		custom_effect_tooltip  = NOR_allow_nationalist_generals_tooltip
@@ -798,7 +798,7 @@ country_event = {
 		set_country_flag = NOR_hoyre_victory_flag
 		
 		remove_coalition_paternal_autocrat = yes 
-		remove_coalition_valkist = yes
+		remove_coalition_revivalist = yes
 		hidden_effect = {
 			set_country_flag = NOR_democracy_survives_flag
 		}
@@ -843,7 +843,7 @@ country_event = {
 		ai_chance = { base = 35 }
 		add_ideas = one_party_dictatorship
 		add_popularity = { ideology = national_populist popularity = 0.15 }
-		add_popularity = { ideology = valkist popularity = 0.15 }
+		add_popularity = { ideology = revivalist popularity = 0.15 }
 		remove_ideas_with_trait = head_of_government
 		remove_ideas_with_trait = foreign_minister
 		remove_ideas_with_trait = economy_minister
@@ -855,7 +855,7 @@ country_event = {
 		set_country_flag = NOR_ns_victory_flag
 		
 		end_coalition = yes 
-		add_coalition_valkist = yes 
+		add_coalition_revivalist = yes 
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_Vidkun_Quisling
@@ -952,7 +952,7 @@ country_event = {
 		add_popularity = { ideology = fasci popularity = 0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
 		add_popularity = { ideology = national_populist popularity = -0.04 }
-		add_popularity = { ideology = valkist popularity = -0.04 }
+		add_popularity = { ideology = revivalist popularity = -0.04 }
 		set_country_flag = NOR_victory_against_samfundsvernet_flag
 	}
 }
@@ -983,7 +983,7 @@ country_event = {
 		add_political_power = 50
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		add_popularity = { ideology = national_populist popularity = -0.02 }
-		add_popularity = { ideology = valkist popularity = -0.02 }
+		add_popularity = { ideology = revivalist popularity = -0.02 }
 		remove_ideas = NOR_military_deserters_idea
 		remove_ideas = NOR_naval_deserters_idea
 		set_country_flag = NOR_ap_victory_flag
@@ -1154,7 +1154,7 @@ country_event = {
 		name = nor.35.a
 		add_political_power = 10
 		add_popularity = { ideology = national_populist popularity = 0.08 }
-		add_popularity = { ideology = valkist popularity = -0.04 }
+		add_popularity = { ideology = revivalist popularity = -0.04 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
 		remove_ideas_with_trait = foreign_minister
 		remove_ideas_with_trait = security_minister
@@ -1190,16 +1190,16 @@ country_event = {
 		ai_chance = { base = 45 }
 		add_political_power = 10
 		add_popularity = { ideology = national_populist popularity = 0.10 }
-		add_popularity = { ideology = valkist popularity = -0.10 }
+		add_popularity = { ideology = revivalist popularity = -0.10 }
 		set_party_name = {
 			ideology = national_populist
 			long_name = NOR_ns_national_populist_party_long
 			name = NOR_ns_national_populist_party
 		}
 		set_party_name = {
-			ideology = valkist
-			long_name = NOR_not_ns_valkist_party_long
-			name = NOR_not_ns_valkist_party
+			ideology = revivalist
+			long_name = NOR_not_ns_revivalist_party_long
+			name = NOR_not_ns_revivalist_party
 		}
 		set_country_flag = NOR_st_olavs_spirit_flag
 	}
@@ -1209,14 +1209,14 @@ country_event = {
 		ai_chance = { base = 55 }
 		add_political_power = 10
 		set_politics = {
-			ruling_party = valkist elections_allowed = no
+			ruling_party = revivalist elections_allowed = no
 		}
-		add_popularity = { ideology = valkist popularity = 0.10 }
+		add_popularity = { ideology = revivalist popularity = 0.10 }
 		add_popularity = { ideology = national_populist popularity = -0.10 }
 		set_party_name = {
-			ideology = valkist
-			long_name = NOR_ns_valkist_party_long
-			name = NOR_ns_valkist_party
+			ideology = revivalist
+			long_name = NOR_ns_revivalist_party_long
+			name = NOR_ns_revivalist_party
 		}
 		set_party_name = {
 			ideology = national_populist

@@ -431,7 +431,7 @@ ROM_become_republic = {
 			character = ROM_Corneliu_Zelea_Codreanu
 			promote_leader = yes
 			country_leader = {
-				ideology = valkist_subtype
+				ideology = revivalist_subtype
 				traits = { }
 			}
 		}
@@ -441,7 +441,7 @@ ROM_become_republic = {
 			character = ROM_Ion_Mota
 			promote_leader = yes
 			country_leader = {
-				ideology = valkist_subtype
+				ideology = revivalist_subtype
 				traits = { }
 			}
 		}

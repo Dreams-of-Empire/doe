@@ -34,9 +34,9 @@ FRA_paternal_autocrat_DEF: "The French Republic"
 FRA_national_populist: "National France"
 FRA_national_populist_ADJ: "French"
 FRA_national_populist_DEF: "The National State of France"
-FRA_valkist: "État Français"
-FRA_valkist_ADJ: "Française"
-FRA_valkist_DEF: "L'État Français"
+FRA_revivalist: "État Français"
+FRA_revivalist_ADJ: "Française"
+FRA_revivalist_DEF: "L'État Français"
 
 ### Research Groups
 continental_entente_research_name: "Entente Institute of Research"
@@ -49,7 +49,7 @@ FRA_vanguardist_party_long: "Parti Français National Communiste                
 FRA_collectivist_party: "PCF"
 FRA_collectivist_party_long: "Parti Communiste Français                                   §gThe Parti Communiste Français is the mainline Communist party presently active in France. Originally formed as a more radical offshoot of the SFIO in late 1920, the PCF quickly became the primary communist organization in France during the 20s and 30s, gaining great influence within the working class and having the power to call strikes at will, even if said strikes were few and far between. The PCF has affirmed itself as a revolutionary party and even included people such as Nguyen Sinh Cung, who was in fact one of its founding members. The party has steadily gained popularity throughout the early 19th Century, and polls show that support for the PCF is higher than ever due to the resurgent German power in the East and expanding Soviet influence across Europe. Maurice Thorez, the parties leader, is an outspoken communist with ties to the government and much political experience.Many believe that if leftism were to come to France, the PCF would be the vanguard and the one's taking charge of the political situation.§!"
 FRA_fasci_party: "Anarchistes"
-FRA_fasci_party_long: "Mouvement Anarchiste Français                             §gA collection of Anarchists and libertarian socialist movements led by Sébastien Faure under a common banner, the Anarchistes wish to see a great degree of decentralization come to France and a peaceful, democratic transition to revolution. While the Anarchiste movement may be small in number and low in popularity, they may prove invaluable in the case of a leftist government coming to power in France, democratically or otherwise.§!"
+FRA_fasci_party_long: "Mouvement Anarchiste Français                             §gA collection of Anarchists and Fasci movements led by Sébastien Faure under a common banner, the Anarchistes wish to see a great degree of decentralization come to France and a peaceful, democratic transition to revolution. While the Anarchiste movement may be small in number and low in popularity, they may prove invaluable in the case of a leftist government coming to power in France, democratically or otherwise.§!"
 FRA_social_democrat_party: "SFIO"
 FRA_social_democrat_party_long: "Section Française de l'Internationale Ouvrière         §gThe SFIO was born out of a merger between the Socialist Party of France and the French Socialist party in 1905 under pressure of the Second Internationale, and quickly found themselves sandwiched between the radical working-class syndicalists and middle-class liberals under the banner of the Radical Party. The SFIO was weakened not long after their creation when members of the Confédération générale du travail refused to cooperate with the party due to them being seen as radicals. These members of the CGT would form the Parti républicain-socialiste in the years leading up to the Great War, but would find themselves unable to stay afloat whilst trying to uphold both socialist and reformist policies, and the party would be be destroyed in 1934 with many of its members rejoining the SFIO. The outbreak of the Great War saw futher divide in the party as members argued between pacifism and patriotism. The post-war domination of French politics by the Fédération Républicaine kept the SFIO out of the spotlight, but the upcoming elections may prove to be their greatest chance yet of achieving success.§!"
 FRA_social_liberal_party: "PR"
@@ -64,8 +64,8 @@ FRA_paternal_autocrat_party: "Gouvernement militaire"
 FRA_paternal_autocrat_party_long: "Gouvernement militaire                                           §gSupport for a military junta is limited to radicals within the military, and the only possibility of a military junta taking power would be in the event of total government collapse and the need for a powerful force to fill the power vacuum.§!"
 FRA_national_populist_party: "PPF"
 FRA_national_populist_party_long: "Parti Populaire Français                                          §gEasily the most radical of France's right-leaning parties, the PPF upholds extreme nationalism, racist rhetoric, and privatization of industries. The PPF was created mainly from members of the PCF who found a disdain for the PFNC's policies and were generally dissatisfied with the left's failure in recent decades. The PPF is outspokenly anti-communist and uses iconography and symbolism to gather support, most of which is based just North of Paris. The PPF has little support in the French political sphere, and not even the equally radial PFNC are willing to cooperate with the party. As such, it will take nothing more than a total collapse of not only the French government but the state itself for the PPF to assert their dominance at the top of the political food chain.§!"
-FRA_valkist_party: "SF"
-FRA_valkist_party_long: "Solidarité Française                                          §gFrance's only Valkist movement, the Solidarité Française have virtually no internal support outside of some Germans living in Alsace-Lorraine and the Sarre. Many in French politics believe that the SF are openly working against the French state in order to bring about a collaberationist regime which is submissive to Germany. The SF has no real centralized leadership and is only united in their unique ideology which differs greatly from all others on the spectrum.§!"
+FRA_revivalist_party: "SF"
+FRA_revivalist_party_long: "Solidarité Française                                          §gFrance's only revivalist movement, the Solidarité Française have virtually no internal support outside of some Germans living in Alsace-Lorraine and the Sarre. Many in French politics believe that the SF are openly working against the French state in order to bring about a collaberationist regime which is submissive to Germany. The SF has no real centralized leadership and is only united in their unique ideology which differs greatly from all others on the spectrum.§!"
 
 ### Leader Descriptions
 POLITICS_PAUL_REYNAUD_DESC: "Paul Reynaud made his first major appearance in French politics in 1919, Reynaud was elected as part of the Conservative 'Blue Horizon' Bloc. Quickly developing a reputation for being a Savvy politician, Reynaud soon clarified his allegiance as a member of the Fédération Républicaine. Quickly climbing ranks within the party due to his Militant nature in foreign policy, Reynaud rose to the position of the Vice-President of the FR. In 1925, Auguste Isaac resigned his position as President of the Fédération Républicaine and sought to appoint a Militant successor in order to strengthen the platform of the party. Reynaud was a natural candidate due to his popularity within the party and firm stance on foreign affiars. Under Reynaud's leadership, the Fédération Républicaine managed gathering the most votes and seats in both the 1928 & 1932 Elections. An extremely pragmatic man, Reynaud follows one doctrine in foreign policy; France has no Friends, only Interests."
@@ -316,7 +316,7 @@ fra_watch_rhine: "Watch on the Rhine"
 fra_watch_rhine_desc: "The Rhine river has been under French control since the end of the Great War in 1919, and we have left the area vastly under-protected due to the friendly republican regime in Germany. With the rise of Dresslers nationalistic and militaristic regime, we need to bolster our defenses on the river Rhine in case of a pre-emptive German attack, and ensure that not a single German boot steps onto French soil."
 ###
 fra_rhine_martial_law: "Declare Rhenish Martial Law"
-fra_rhine_martial_law_desc: "The Rhenish state is in chaos with fighting taking place both on the front line and around the countryside as German nationalists who are loyal to the Valkist regime attempt to disrupt supply lines and make life hard for our troops. We must take military control of the country in order to better organize our army and fight what soon may become a repeat of the first Great War."
+fra_rhine_martial_law_desc: "The Rhenish state is in chaos with fighting taking place both on the front line and around the countryside as German nationalists who are loyal to the revivalist regime attempt to disrupt supply lines and make life hard for our troops. We must take military control of the country in order to better organize our army and fight what soon may become a repeat of the first Great War."
 ###
 fra_no_german: "Not a single Stahlhelm on French soil!"
 fra_no_german_desc: "The French people enduring an unbelievable amount of suffering during the first Great War, North-East France was permenantly scarred from the battles that took place. We must ensure that the barbaric Germans lay not a single step on our soil, lest they tarnish what unmolested territory we have left."
@@ -693,8 +693,8 @@ fra_attack_commies_desc: "The left in France has been ascendant for the past sev
 fra_mil_propaganda: "Militarist Propaganda"
 fra_mil_propaganda_desc: "The Army is the centerpiece of our nation, and we need to make sure that the people know that as well. Promoting our military over the radio and in the newspapers will gather popular support as well as attract more citizens to join the army and bolster our forces."
 ###
-fra_valkist_saar: "Deal with the Sarre Valkists"
-fra_valkist_saar_desc: "The Sarre department is almost entirely homogeneous with German culture, and the influence of Dressler's regime across the Rhine has attracted the ideas of Valkism to the region. We must make sure that we stamp out the Valkist movement in the region before it becomes a full-blown revolt."
+fra_revivalist_saar: "Deal with the Sarre revivalists"
+fra_revivalist_saar_desc: "The Sarre department is almost entirely homogeneous with German culture, and the influence of Dressler's regime across the Rhine has attracted the ideas of Revivalism to the region. We must make sure that we stamp out the revivalist movement in the region before it becomes a full-blown revolt."
 ###
 fra_education_reform: "Education Reform"
 fra_education_reform_desc: "Teaching the next generation of French soldiers and officers the importance of a strong military and a strong state is imparitive to ensuring our regime will stand the test of time."
@@ -1130,7 +1130,7 @@ fra.95.c: "The AD wins!"
 fra.95.e: "The FR wins!"
 ###
 fra.96.t: "Outlawing the Solidarité Française"
-fra.96.d: "France's only Valkist movement, the Solidarité Française, have been rumoured to be working in conjunction with the German government for quite some time now. If this movement is freely allowed to use subterfuge to undermine the French state, what does that say about other radical parties that may wish to overthrow the current government? [ROOT.GetLeader] has expressed his disdain for the movement on multiple occasions, and now many in the party are calling for the complete outlaw and the disbandment of the party."
+fra.96.d: "France's only revivalist movement, the Solidarité Française, have been rumoured to be working in conjunction with the German government for quite some time now. If this movement is freely allowed to use subterfuge to undermine the French state, what does that say about other radical parties that may wish to overthrow the current government? [ROOT.GetLeader] has expressed his disdain for the movement on multiple occasions, and now many in the party are calling for the complete outlaw and the disbandment of the party."
 fra.96.a: "They are enemies of the state and must be treated as such"
 fra.96.b: "This movement will die on its own, no need for government intervention."
 ###
@@ -1145,7 +1145,7 @@ fra.98.b: "A devolved constitution with a strong government"
 ###
 fra.99.t: "The Saar Issue"
 fra.99.d: ""
-fra.99.a: "Crush the Saarland Valkists!"
+fra.99.a: "Crush the Saarland revivalists!"
 fra.99.b: "Perhaps we can come to an agreement"
 ###
 fra.100.t: "Petain assumes control of the Free French Army"

@@ -564,7 +564,7 @@ CAN_parliamentary_affairs = {
 			collectivist_drift = -0.05
 			vanguardist_drift = -0.05
 			authoritarian_democrat_drift = -0.05
-			valkist_drift = -0.05
+			revivalist_drift = -0.05
 			political_power_gain = -0.1
 			stability_weekly = 0.002
 		}

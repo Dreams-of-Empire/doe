@@ -35,8 +35,8 @@ UOB_paternal_autocrat_party: "Windsor"
 UOB_paternal_autocrat_party_long: "House of Windsor"
 UOB_national_populist_party: "IFL"
 UOB_national_populist_party_long: "Imperial Federation League"
-UOB_valkist_party: "PSPB"
-UOB_valkist_party_long: "People's Socialist Party of Britannia"
+UOB_revivalist_party: "PSPB"
+UOB_revivalist_party_long: "People's Socialist Party of Britannia"
 
 #####Ideas#####
 UOB_revo_recov: "Recovering from Revolution"
@@ -99,7 +99,7 @@ UOB_bring_france: "Bring the Revolution to France"
 UOB_strike_beneleux: "Strike the Low Countries"
 UOB_socialist_ireland: "Socialism in Ireland"
 UOB_seize_nat: "Seize the North Atlantic"
-UOB_crush_valkism: "Crush the Valkists!"
+UOB_crush_revivalism: "Crush the revivalists!"
 UOB_secure_nsea: "Securing the North Sea"
 
 ## - Military

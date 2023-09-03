@@ -30,9 +30,9 @@ ICE_paternal_autocrat_DEF: "Iceland"
 ICE_national_populist: "Iceland"
 ICE_national_populist_ADJ: "Icelandic"
 ICE_national_populist_DEF: "Iceland"
-ICE_valkist: "Íslands"
-ICE_valkist_ADJ: "Íslensku"
-ICE_valkist_DEF: "Íslands"
+ICE_revivalist: "Íslands"
+ICE_revivalist_ADJ: "Íslensku"
+ICE_revivalist_DEF: "Íslands"
 
 ### Parties
 ICE_totalist_party: "People's Alliance"

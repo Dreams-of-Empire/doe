@@ -35,7 +35,7 @@ set_popularities = {
   authoritarian_democrat = 0
   paternal_autocrat = 2
   national_populist = 8
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = PAN_Juan_Demostenes_Arosemena

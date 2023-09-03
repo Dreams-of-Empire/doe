@@ -22,7 +22,7 @@ CZE_the_oo = {
 		original_tag = CZE
 		OR = { 
 			has_government = national_populist
-			has_government = valkist
+			has_government = revivalist
 		}
 		has_country_flag = CZE_oo_implemented
 	}

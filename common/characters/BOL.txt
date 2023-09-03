@@ -302,7 +302,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Gualberto_Villarroel_Lopez_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_revanchist_conspirator
 			}
 		}
@@ -1090,7 +1090,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}

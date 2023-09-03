@@ -250,7 +250,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWI_radical_suppression_german"}
 			picture = generic_oppression
 			modifier = {
-        valkist_drift = -0.05
+        revivalist_drift = -0.05
         drift_defence_factor = 0.20
         political_power_factor = 0.1
         }
@@ -270,7 +270,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWI_radical_suppression_german_and_french"}
 			picture = generic_oppression
 			modifier = {
-        valkist_drift = -0.05
+        revivalist_drift = -0.05
         paternal_autocrat_drift = -0.05
         drift_defence_factor = 0.40
         political_power_factor = 0.15
@@ -442,7 +442,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWI_DNDAP_gains_momentum"}
       picture = HUN_treaty_of_triannon
       modifier = {
-        valkist_drift = 0.03
+        revivalist_drift = 0.03
         political_power_factor = -0.10
         }
 		}
@@ -451,7 +451,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWI_VWF_gains_momentum"}
       picture = HUN_treaty_of_triannon
       modifier = {
-        valkist_drift = 0.03
+        revivalist_drift = 0.03
         political_power_factor = -0.10
         }
 		}

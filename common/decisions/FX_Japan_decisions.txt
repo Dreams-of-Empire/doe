@@ -573,7 +573,7 @@ JAP_expansionism_decision = {
 			if = {
 				limit = {
 					JAP = {
-						has_government = valkist
+						has_government = revivalist
 					}
 				}
 				every_state = {

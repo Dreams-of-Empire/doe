@@ -31,9 +31,9 @@ SHX_paternal_autocrat_DEF: "The Shanxi Clique"
 SHX_national_populist: "Shanxi Clique"
 SHX_national_populist_ADJ: "Shanxi"
 SHX_national_populist_DEF: "The Shanxi Clique"
-SHX_valkist: "Shanxi Clique"
-SHX_valkist_ADJ: "Shanxi"
-SHX_valkist_DEF: "The Shanxi Clique"
+SHX_revivalist: "Shanxi Clique"
+SHX_revivalist_ADJ: "Shanxi"
+SHX_revivalist_DEF: "The Shanxi Clique"
 
 ### Parties
 SHX_vanguardist_party_long: "Chinese Syndicalist Party"

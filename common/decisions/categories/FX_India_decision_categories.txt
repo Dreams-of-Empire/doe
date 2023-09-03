@@ -26,13 +26,13 @@ IND_unification = {
 	}	
 }
 
-IND_valkist_conquest = {
+IND_revivalist_conquest = {
 	priority = {
         base = 100	
     }
 	allowed = {
 		tag = IND
-		has_government = valkist
+		has_government = revivalist
 		has_country_flag = IND_Greater_India
 	}	
 }

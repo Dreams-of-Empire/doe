@@ -95,7 +95,7 @@ country_event = { #Party Merger - March 14 1936
 				authoritarian_democrat = 0
 				paternal_autocrat = 12
 				national_populist = 14
-				valkist = 4
+				revivalist = 4
 			}
 			country_event = {
 				id = southafrica.4
@@ -496,7 +496,7 @@ country_event = { #GG Patrick Duncan
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = valkist_subtype
+					ideology = revivalist_subtype
 					traits = {}
 				}
 			}
@@ -604,7 +604,7 @@ country_event = { #GG Hertzog
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = valkist_subtype
+            ideology = revivalist_subtype
             traits = {}
           }
         }
@@ -948,7 +948,7 @@ country_event = { #1937 Election - ANC Victory
 				authoritarian_democrat = 0
 				paternal_autocrat = 5
 				national_populist = 13
-				valkist = 5
+				revivalist = 5
 			}
 			country_event = { days = 14 id = southafrica.81 }
 			activate_advisor = SAF_Alex_Hepple_hog_sde
@@ -989,7 +989,7 @@ country_event = { #1937 Election - United Victory
 				authoritarian_democrat = 0
 				paternal_autocrat = 12
 				national_populist = 15
-				valkist = 7
+				revivalist = 7
 			}
 		}
 		trigger = {
@@ -1039,7 +1039,7 @@ country_event = { #1937 Election - PNP Victory
 				authoritarian_democrat = 0
 				paternal_autocrat = 15
 				national_populist = 40
-				valkist = 10
+				revivalist = 10
 			}	
 			country_event = { days = 14 id = southafrica.83 }
 			activate_advisor = SAF_J_F_van_Rensburg_hog_npo
@@ -1150,7 +1150,7 @@ country_event = { #3-way tie (idk if this is even possible)
     			authoritarian_democrat = 0
     			paternal_autocrat = 10
     			national_populist = 20
-    			valkist = 3
+    			revivalist = 3
 			}
 			country_event = { days = 14 id = southafrica.81 }
 			activate_advisor = SAF_Alex_Hepple_hog_sde
@@ -1181,7 +1181,7 @@ country_event = { #3-way tie (idk if this is even possible)
     			authoritarian_democrat = 0
     			paternal_autocrat = 10
     			national_populist = 20
-    			valkist = 3
+    			revivalist = 3
 			}
 		}
 		trigger = {
@@ -1218,7 +1218,7 @@ country_event = { #3-way tie (idk if this is even possible)
     			authoritarian_democrat = 0
     			paternal_autocrat = 10
     			national_populist = 21
-    			valkist = 3
+    			revivalist = 3
 			}
 			country_event = { days = 14 id = southafrica.83 }
 			activate_advisor = SAF_J_F_van_Rensburg_hog_npo
@@ -1260,7 +1260,7 @@ country_event = { #ANC-PNP tie
 				authoritarian_democrat = 0
 				paternal_autocrat = 10
 				national_populist = 20
-				valkist = 6
+				revivalist = 6
 			}
 			country_event = { days = 14 id = southafrica.81 }
 			activate_advisor = SAF_Alex_Hepple_hog_sde
@@ -1291,7 +1291,7 @@ country_event = { #ANC-PNP tie
 				authoritarian_democrat = 0
 				paternal_autocrat = 10
 				national_populist = 21
-				valkist = 6
+				revivalist = 6
 			}
 			country_event = { days = 14 id = southafrica.83 }
 			activate_advisor = SAF_J_F_van_Rensburg_hog_npo
@@ -1333,7 +1333,7 @@ country_event = { #ANC-United tie
 				authoritarian_democrat = 0
 				paternal_autocrat = 5
 				national_populist = 19
-				valkist = 3
+				revivalist = 3
 			}
 			country_event = { days = 14 id = southafrica.81 }
 			activate_advisor = SAF_Bram_Fischer_for_lib
@@ -1364,7 +1364,7 @@ country_event = { #ANC-United tie
 				authoritarian_democrat = 0
 				paternal_autocrat = 5
 				national_populist = 19
-				valkist = 3
+				revivalist = 3
 			}
 		}
 		trigger = {
@@ -1412,7 +1412,7 @@ country_event = { #United-PNP tie
 				authoritarian_democrat = 0
 				paternal_autocrat = 10
 				national_populist = 20
-				valkist = 6
+				revivalist = 6
 			}
 		}
 		trigger = {
@@ -1449,7 +1449,7 @@ country_event = { #United-PNP tie
 				authoritarian_democrat = 0
 				paternal_autocrat = 10
 				national_populist = 21
-				valkist = 6
+				revivalist = 6
 			}
 			country_event = { days = 14 id = southafrica.83 }
 			activate_advisor = SAF_Alex_Hepple_hog_sde
@@ -2294,7 +2294,7 @@ country_event = { #A storm is coming
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist 
-			has_government = valkist
+			has_government = revivalist
 		}
 	}		
 
@@ -2548,7 +2548,7 @@ country_event = { #ANC Boer War
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist 
-			has_government = valkist
+			has_government = revivalist
 		}
 	}
 	
@@ -2569,7 +2569,7 @@ country_event = { #ANC Boer War
 			load_oob = ZAF_boerwar
 			set_capital = { state = 275 }
 			set_stability = 0.5
-			set_politics = { ruling_party = valkist elections_allowed = no }
+			set_politics = { ruling_party = revivalist elections_allowed = no }
 			add_ideas = ZAF_Disorganized_Rebels
 		}
 		if = {
@@ -2615,7 +2615,7 @@ country_event = { #ANC Boer War
 				load_oob = ZAF_boerwar
 				set_capital = { state = 275 }
 				set_stability = 0.5
-				set_politics = { ruling_party = valkist elections_allowed = no }
+				set_politics = { ruling_party = revivalist elections_allowed = no }
 				add_ideas = ZAF_Disorganized_Rebels
 				declare_war_on = { target = SAF type = annex_everything }
 				change_tag_from = SAF
@@ -2676,7 +2676,7 @@ country_event = { #Union & Federation Boer War
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist 
-			has_government = valkist
+			has_government = revivalist
 		}
 	}
 	fire_only_once = yes
@@ -2696,7 +2696,7 @@ country_event = { #Union & Federation Boer War
 			load_oob = ZAF_boerwar
 			set_capital = { state = 275 }
 			set_stability = 0.5
-			set_politics = { ruling_party = valkist elections_allowed = no }
+			set_politics = { ruling_party = revivalist elections_allowed = no }
 			add_ideas = ZAF_Disorganized_Rebels
 		}
 		if = {
@@ -2739,7 +2739,7 @@ country_event = { #Union & Federation Boer War
 				load_oob = ZAF_boerwar
 				set_capital = { state = 275 }
 				set_stability = 0.5
-				set_politics = { ruling_party = valkist elections_allowed = no }
+				set_politics = { ruling_party = revivalist elections_allowed = no }
 				add_ideas = ZAF_Disorganized_Rebels
 				declare_war_on = { target = SAF type = annex_everything }
 				change_tag_from = SAF
@@ -3346,12 +3346,12 @@ country_event = { #ZAF Victory
 				set_cosmetic_tag = ZAF
 				remove_ideas = SAF_Boer_Revolt
 				add_ideas = one_party_dictatorship
-				set_politics = { ruling_party = valkist elections_allowed = no }
+				set_politics = { ruling_party = revivalist elections_allowed = no }
         add_country_leader_role = {
           character = SAF_D_F_Malan
           promote_leader = yes
           country_leader = {
-            ideology = valkist_subtype
+            ideology = revivalist_subtype
             traits = {}
           }
         }
@@ -3366,7 +3366,7 @@ country_event = { #ZAF Victory
           authoritarian_democrat = 20
           paternal_autocrat = 25
           national_populist = 25
-          valkist = 30
+          revivalist = 30
 				}
 				change_tag_from = ZAF
 				set_country_flag = SAF_Boer_Victory

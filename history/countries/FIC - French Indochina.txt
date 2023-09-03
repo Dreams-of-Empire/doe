@@ -32,7 +32,7 @@ set_popularities = {
 	authoritarian_democrat = 13
 	paternal_autocrat = 24
 	national_populist = 0
-	valkist = 0
+	revivalist = 0
 }
 
 recruit_character = FIC_Eugene_Louis_Rene_Robin

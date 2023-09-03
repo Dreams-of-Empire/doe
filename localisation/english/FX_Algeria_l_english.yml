@@ -31,9 +31,9 @@ ALG_paternal_autocrat_DEF: "The military State of Algeria"
 ALG_national_populist: "North African Empire"
 ALG_national_populist_ADJ: "North African"
 ALG_national_populist_DEF: "The Empire of North Africa"
-ALG_valkist: "Berber Empire"
-ALG_valkist_ADJ: "Berber"
-ALG_valkist_DEF: "The Berber Empire"
+ALG_revivalist: "Berber Empire"
+ALG_revivalist_ADJ: "Berber"
+ALG_revivalist_DEF: "The Berber Empire"
 
 ### Cosmetic
 ALG_ENG_subject: "British North Africa"

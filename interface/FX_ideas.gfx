@@ -247,20 +247,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/generic_collectivism_rising.png"
 	}
 	spriteType = {
-		name = "GFX_idea_valkist_nut"
-		texturefile = "gfx/interface/ideas/ideas/idea_valkist_nut.png"
+		name = "GFX_idea_revivalist_nut"
+		texturefile = "gfx/interface/ideas/ideas/idea_revivalist_nut.png"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_valkist_support"
-		texturefile = "gfx/interface/ideas/ideas/generic_valkist_support.png"
+		name = "GFX_idea_generic_revivalist_support"
+		texturefile = "gfx/interface/ideas/ideas/generic_revivalist_support.png"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_valkist_funding"
-		texturefile = "gfx/interface/ideas/ideas/generic_valkist_funding.png"
+		name = "GFX_idea_generic_revivalist_funding"
+		texturefile = "gfx/interface/ideas/ideas/generic_revivalist_funding.png"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_valkist_repression"
-		texturefile = "gfx/interface/ideas/ideas/generic_valkist_repression.png"
+		name = "GFX_idea_generic_revivalist_repression"
+		texturefile = "gfx/interface/ideas/ideas/generic_revivalist_repression.png"
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_secret_rearmament"
@@ -1012,20 +1012,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/generic_collectivism_rising.png"
 	}
 	spriteType = {
-		name = "GFX_idea_valkist_nut"
-		texturefile = "gfx/interface/ideas/ideas/idea_valkist_nut.png"
+		name = "GFX_idea_revivalist_nut"
+		texturefile = "gfx/interface/ideas/ideas/idea_revivalist_nut.png"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_valkist_support"
-		texturefile = "gfx/interface/ideas/ideas/generic_valkist_support.png"
+		name = "GFX_idea_generic_revivalist_support"
+		texturefile = "gfx/interface/ideas/ideas/generic_revivalist_support.png"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_valkist_funding"
-		texturefile = "gfx/interface/ideas/ideas/generic_valkist_funding.png"
+		name = "GFX_idea_generic_revivalist_funding"
+		texturefile = "gfx/interface/ideas/ideas/generic_revivalist_funding.png"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_valkist_repression"
-		texturefile = "gfx/interface/ideas/ideas/generic_valkist_repression.png"
+		name = "GFX_idea_generic_revivalist_repression"
+		texturefile = "gfx/interface/ideas/ideas/generic_revivalist_repression.png"
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_secret_rearmament"

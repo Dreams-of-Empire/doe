@@ -113,8 +113,8 @@ ENG_paternal_autocrat_party: "Windsor"
 ENG_paternal_autocrat_party_long: "House of Windsor"
 ENG_national_populist_party: "IFL"
 ENG_national_populist_party_long: "Imperial Federation League"
-ENG_valkist_party: "PSPB"
-ENG_valkist_party_long: "People's Socialist Party of Britannia"
+ENG_revivalist_party: "PSPB"
+ENG_revivalist_party_long: "People's Socialist Party of Britannia"
 
 ### Puppet Parties
 ENG_ITP_authoritarian_democrat: "Military Administration"
@@ -755,7 +755,7 @@ ENG_five_eyes_programme_desc: "Each member of our Empire has its own espionage p
 ENG_royal_charter_companies: "Royal Charter Companies"
 ENG_royal_charter_companies_desc: "The British nobility has some cash reserves we can use for the economy. It's time to put that money to good use, and start a series of high-profile corporations - which, while still technically part of the private sector, would be regulated heavily by the government as Royal Charters. This should boost the economy considerably"
 ENG_tory_nation: "Conservative Nation"
-ENG_tory_nation_desc: "Our values, our traditions, our time-honoured way of life have become an inspiration to British people across the Empire. In the midst of turmoil from the crash and the Valkist Threat on the continent our people look up to the flag; and keep calm and carry on."
+ENG_tory_nation_desc: "Our values, our traditions, our time-honoured way of life have become an inspiration to British people across the Empire. In the midst of turmoil from the crash and the revivalist Threat on the continent our people look up to the flag; and keep calm and carry on."
 
 ENG_court_corp: "Court the Corporations"
 ENG_court_corp_desc: "With our new Government in place it is time to reach out to the numerous important businessmen across our nation. The Government is open for business, and now so is Britain."

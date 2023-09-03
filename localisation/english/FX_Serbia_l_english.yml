@@ -31,9 +31,9 @@ SER_paternal_autocrat_DEF: "The Kingdom of Serbia"
 SER_national_populist: "Kingdom of Serbia"
 SER_national_populist_ADJ: "Serbian"
 SER_national_populist_DEF: "Dictate of Serbia"
-SER_valkist: "Srpsko Carstvo"
-SER_valkist_ADJ: "Srpski"
-SER_valkist_DEF: "Srpsko Carstvo"
+SER_revivalist: "Srpsko Carstvo"
+SER_revivalist_ADJ: "Srpski"
+SER_revivalist_DEF: "Srpsko Carstvo"
 
 ### Parties
 SER_vanguardist_party: "Istinski Komunisti"
@@ -56,8 +56,8 @@ SER_paternal_autocrat_party: "House of Karađorđević"
 SER_paternal_autocrat_party_long: "House of Karađorđević"
 SER_national_populist_party: "Ultra-Karađorđevićites"
 SER_national_populist_party_long: "Ultra-Karađorđevićites"
-SER_valkist_party: "Reklamacija"
-SER_valkist_party_long: "Reklamacija"
+SER_revivalist_party: "Reklamacija"
+SER_revivalist_party_long: "Reklamacija"
 
 ### EVENTS ###
 

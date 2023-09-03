@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -26,7 +26,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Grigol_Robakidze_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_underground_figurehead
 			}
 		}

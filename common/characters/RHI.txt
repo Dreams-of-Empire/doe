@@ -158,7 +158,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -176,7 +176,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Heinrich_Himmler_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_military_entrepreneur
 			}
 		}
@@ -534,7 +534,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Albert_Leo_Schlageter_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_naive_optimist
 			}
 		}
@@ -669,7 +669,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Walter_Stennes_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -926,7 +926,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Franz_Pfeffer_von_Salomon_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_preserver_of_culture
 			}
 		}

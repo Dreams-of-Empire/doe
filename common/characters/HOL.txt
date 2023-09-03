@@ -533,7 +533,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_PRINCE_BERNHARD_DESC"
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = {
 				prince_of_the_people
 			}

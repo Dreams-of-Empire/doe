@@ -31,9 +31,9 @@ COS_paternal_autocrat_DEF: "Costa Rican Junta"
 COS_national_populist: "Costa Rican People's Junta"
 COS_national_populist_ADJ: "Costa Rican"
 COS_national_populist_DEF: "Costa Rican People's Junta"
-COS_valkist: "Glorous Republic of the Coast"
-COS_valkist_ADJ: "Costa Rican"
-COS_valkist_DEF: "Glorous Republic of the Coast"
+COS_revivalist: "Glorous Republic of the Coast"
+COS_revivalist_ADJ: "Costa Rican"
+COS_revivalist_DEF: "Glorous Republic of the Coast"
 
 ### Parties
 COS_vanguardist_party_long: "Partido Vanguardia Popular"

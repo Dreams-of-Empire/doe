@@ -107,7 +107,7 @@ set_popularities = {
 	social_conservative = 40
 	authoritarian_democrat = 10
 	national_populist = 4
-	valkist = 12
+	revivalist = 12
 }
 
 add_coalition_social_liberal = yes

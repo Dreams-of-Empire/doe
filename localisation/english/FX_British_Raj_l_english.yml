@@ -31,9 +31,9 @@ RAJ_paternal_autocrat_DEF: "The Indian Transitional Government"
 RAJ_national_populist: "Indian State"
 RAJ_national_populist_ADJ: "Indian"
 RAJ_national_populist_DEF: "The Indian State"
-RAJ_valkist: "Valkist India"
-RAJ_valkist_ADJ: "Indian"
-RAJ_valkist_DEF: "Valkist India"
+RAJ_revivalist: "revivalist India"
+RAJ_revivalist_ADJ: "Indian"
+RAJ_revivalist_DEF: "revivalist India"
 
 ### Parties
 RAJ_vanguardist_party: "Communist Party of India"
@@ -56,8 +56,8 @@ RAJ_paternal_autocrat_party: "Council of Princes"
 RAJ_paternal_autocrat_party_long: "Council of Princes"
 RAJ_national_populist_party: "Rashtriya Swayamsevak Sangh"
 RAJ_national_populist_party_long: "Rashtriya Swayamsevak Sangh"
-RAJ_valkist_party: "Hindu Mahasabha"
-RAJ_valkist_party_long: "Akhil Bharatiya Hindu Mahasabha"
+RAJ_revivalist_party: "Hindu Mahasabha"
+RAJ_revivalist_party_long: "Akhil Bharatiya Hindu Mahasabha"
 
 #################
 #####THE RAJ#####
@@ -628,7 +628,7 @@ raj.102.d: "No one in our government expected London to grant us a path to Domin
 raj.102.a: "Typical."
 
 raj.103.t: "A Commission for the Raj's Transition"
-raj.103.d: "The transition of the British Raj from a colony to a Dominion is guaranteed to be a long and arduous process. Our Ministries will have to set up numerous criteria for the country to meet before it can hope to become self-governing. We will need to maintain some semblence of control over trade of the country's resources, and some way to step in if they install an anti-British valkist. However, even these minimal requirements may be difficult to achieve. The Indian delegation has come to us and proposed that a Commission be established to guide the Raj through the criteria of Dominionhood. While this in itself was something we were going to do regardless of their request, they went further by insisting that they be represented on the commission by one of their leaders - a man by the name of Sitaramayya. Those further to the right in our government have dismissed the request as out of hand, and say that only a fully British Commission can decide the terms of Dominionhood. Yet there may be something to be said about having Indian representation present..."
+raj.103.d: "The transition of the British Raj from a colony to a Dominion is guaranteed to be a long and arduous process. Our Ministries will have to set up numerous criteria for the country to meet before it can hope to become self-governing. We will need to maintain some semblence of control over trade of the country's resources, and some way to step in if they install an anti-British revivalist. However, even these minimal requirements may be difficult to achieve. The Indian delegation has come to us and proposed that a Commission be established to guide the Raj through the criteria of Dominionhood. While this in itself was something we were going to do regardless of their request, they went further by insisting that they be represented on the commission by one of their leaders - a man by the name of Sitaramayya. Those further to the right in our government have dismissed the request as out of hand, and say that only a fully British Commission can decide the terms of Dominionhood. Yet there may be something to be said about having Indian representation present..."
 raj.103.a: "Set up an all-British commission."
 raj.103.b: "Allow the Indians representation in the commission."
 
@@ -743,8 +743,8 @@ HYD_paternal_autocrat_party: "Princely Dominion"
 HYD_paternal_autocrat_party_long: "Princely Dominion"
 HYD_national_populist_party: "Rashtriya Swayamsevak Sangh"
 HYD_national_populist_party_long: "Rashtriya Swayamsevak Sangh"
-HYD_valkist_party: "Hindu Mahasabha"
-HYD_valkist_party_long: "Akhil Bharatiya Hindu Mahasabha"
+HYD_revivalist_party: "Hindu Mahasabha"
+HYD_revivalist_party_long: "Akhil Bharatiya Hindu Mahasabha"
 
 #Events
 hyd.1.t: "The Dawn of an Old Nation"

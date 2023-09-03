@@ -33,9 +33,9 @@ DEN_paternal_autocrat_DEF: "The Kingdom of Denmark"
 DEN_national_populist: "North Sea Empire"
 DEN_national_populist_ADJ: "North Sea"
 DEN_national_populist_DEF: "The New Empire of The North Sea"
-DEN_valkist: "Deense Staat"
-DEN_valkist_ADJ: "Deens"
-DEN_valkist_DEF: "Deense Staat"
+DEN_revivalist: "Deense Staat"
+DEN_revivalist_ADJ: "Deens"
+DEN_revivalist_DEF: "Deense Staat"
 
 #### Political Parties ####
 
@@ -63,10 +63,10 @@ DEN_paternal_autocrat_party: "Lyksborg"
 DEN_paternal_autocrat_party_long: "Lyksborg-Gruppen"
 DEN_national_populist_party: "Nationale"
 DEN_national_populist_party_long: "Danmarks Nationale Parti"
-DEN_valkist_party: "Slesvig-Tyskerne (V)"
-DEN_valkist_party_long: "Schleswigsche Valkistische Partei"
-DEN_valkist_natpop_party: "Nationale"
-DEN_valkist_natpop_party_long: "Danmarks Nationale Parti (German Collaborationists)"
+DEN_revivalist_party: "Slesvig-Tyskerne (V)"
+DEN_revivalist_party_long: "Schleswigsche revivalistische Partei"
+DEN_revivalist_natpop_party: "Nationale"
+DEN_revivalist_natpop_party_long: "Danmarks Nationale Parti (German Collaborationists)"
 
 #### Description ####
 DEN_FUHRERREDUX_DESC: "The Danish Realm survived the Great War relatively unscathed, but it was the interwar period in which political strife took its toll on the Kingdom. The 1920s saw the Easter Crisis and the Abdication Crisis, two events which culminated in King Christian X breaking with constitutional norms in order to assert the sovreignity of Denmark and weaken the power and influence of the left-wing elements in the nation. After these political crises, the democracy and republicanism were established and after the first election the Social Democrats led the nation into the new decade. It remains to be seen where Denmark will go and how it will act in future crises."
@@ -77,9 +77,9 @@ DEN_danish_republicanism_idea_desc: "The Easter Crisis showcased the weakness of
 DEN_danish_republicanism1_idea: "Danish Republicanism"
 DEN_danish_republicanism1_idea_desc: "The Easter Crisis showcased the weakness of the Monarchy and the need for Denmark to develop itself into a democratic nation where decisions are made by government and Folktinget. This has left a strengthened Republicanism in Denmark, mostly represented by the left-wing Republikanerne. While the Republican forces in the country are too weak to take power, this can change if future crises occur."
 DEN_unrest_in_flensburg_idea: "Unrest in Flensburg"
-DEN_unrest_in_flensburg_idea_desc: "The rise of the Valkists in Germany have encouraged protests and demonstrations by many Germans in and around Flensburg, with it developing into violence against police and military forces in certain places. The Danish military have seen it difficult to contain the unrest, with even reports of armed Germans crossing from Germany into the region. This presents a danger for the Danish people living in the area, with many of them afraid of expressing pro-Denmark views."
+DEN_unrest_in_flensburg_idea_desc: "The rise of the revivalists in Germany have encouraged protests and demonstrations by many Germans in and around Flensburg, with it developing into violence against police and military forces in certain places. The Danish military have seen it difficult to contain the unrest, with even reports of armed Germans crossing from Germany into the region. This presents a danger for the Danish people living in the area, with many of them afraid of expressing pro-Denmark views."
 DEN_unrest_in_flensburg1_idea: "Unrest in Flensburg"
-DEN_unrest_in_flensburg1_idea_desc: "The rise of the Valkists in Germany have encouraged protests and demonstrations by many Germans in and around Flensburg, with it developing into violence against police and military forces in certain places. The Danish military have seen it difficult to contain the unrest, with even reports of armed Germans crossing from Germany into the region. This presents a danger for the Danish people living in the area, with many of them afraid of expressing pro-Denmark views."
+DEN_unrest_in_flensburg1_idea_desc: "The rise of the revivalists in Germany have encouraged protests and demonstrations by many Germans in and around Flensburg, with it developing into violence against police and military forces in certain places. The Danish military have seen it difficult to contain the unrest, with even reports of armed Germans crossing from Germany into the region. This presents a danger for the Danish people living in the area, with many of them afraid of expressing pro-Denmark views."
 
 DEN_danish_monarchism_idea: "Danish Monarchism"
 DEN_trial_against_lyksborg_idea: "Danish Monarchism"
@@ -125,7 +125,7 @@ DEN_harass_the_tradelines_idea: "Harass the Trade lines"
 DEN_weaken_monarchs_power_idea: "Danish Republicanism"
 DEN_weaken_monarchs_power_idea_desc: "With Denmark developing itself into a democratic nation, where decisions are made by governments and Folktinget, the Easter Crisis and the Abdication Crisis showed times when King Christian X broke with this. This has left a strengthened Republicanism in Denmark, mostly represented by the left-wing Republikanerne. While the Republican forces in the country are too weak to take power, this can change if future crises occur."
 DEN_and_against_extremism_idea: "Unrest in Flensburg"
-DEN_and_against_extremism_idea_desc: "The rise of the Valkists in Germany have encouraged protests and demonstrations by many Germans in and around Flensburg, with it developing into violence against police and military forces in certain places. The Danish military have seen it difficult to contain the unrest, with even reports of armed Germans crossing from Germany into the region. This presents a danger for the Danish people living in the area, with many of them afraid of expressing pro-Denmark views."
+DEN_and_against_extremism_idea_desc: "The rise of the revivalists in Germany have encouraged protests and demonstrations by many Germans in and around Flensburg, with it developing into violence against police and military forces in certain places. The Danish military have seen it difficult to contain the unrest, with even reports of armed Germans crossing from Germany into the region. This presents a danger for the Danish people living in the area, with many of them afraid of expressing pro-Denmark views."
 DEN_social_justice_idea: "Social Justice"
 
 DEN_steinckes_reforms_idea: "Steincke's Reforms"
@@ -528,15 +528,15 @@ DEN_domestic_affairs_decisions: "Danish Domestic Affairs"
 DEN_domestic_affairs_decisions_desc: "Denmark has many issues to face domesticly. From how to approach the rising Republicanism in the country to the unrest found in the city of Flensburg from the German inhabitants. These, along with other issues, will have to be dealt with one way or another."
 
 DEN_anti_republican_propaganda: "Anti-Republican Propaganda"
-DEN_clamp_down_valkist_gangs: "Clamp Down on Valkist Gangs"
+DEN_clamp_down_revivalist_gangs: "Clamp Down on revivalist Gangs"
 DEN_invite_rheinlander_politicians_flensburg: "Invite Rheinlander Politicians to Flensburg"
-DEN_invite_rheinlander_politicians_flensburg_desc: "Rheinland is a German country far more moderate than those ruling in Berlin. If we invite these to Flensburg, we can perhaps help a rise of more moderate German parties, since we show that German politics does not need to be Valkist."
+DEN_invite_rheinlander_politicians_flensburg_desc: "Rheinland is a German country far more moderate than those ruling in Berlin. If we invite these to Flensburg, we can perhaps help a rise of more moderate German parties, since we show that German politics does not need to be revivalist."
 DEN_end_army_rule_flensburg: "End Army Rule in Flensburg"
 DEN_ready_for_plebiscite: "Ready For a Plebiscite"
 
 DEN_pro_denmark_propaganda: "Pro-Denmark Propaganda"
-DEN_discredit_german_valkism: "Discredit German Valkism"
-DEN_fund_anti_valkist_german_groups: "Fund Anti-Valkist German Groups"
+DEN_discredit_german_revivalism: "Discredit German Revivalism"
+DEN_fund_anti_revivalist_german_groups: "Fund Anti-revivalist German Groups"
 DEN_promise_dano_german_bilingualism: "Promise Dano-German Bilingualism"
 DEN_flensburg_plebiscite_mission: "Flensburg Plebiscite Countdown"
 DEN_flensburg_plebiscite_mission_desc: "Support for §YRemain§! is currently at [ROOT.GetRemainSupport] ([?DEN_remain_var|Y0])\n\nSupport for §YLeave§! is currently at [ROOT.GetLeaveSupport] ([?DEN_leave_var|Y0])"
@@ -561,7 +561,7 @@ DEN_join_internationale: "Join the Internationale"
 
 ###EVENTS###
 denmark.1.t: "The Kingdom of Denmark"
-denmark.1.d: "At the dawn of the 20th century, Denmark was entering an era of change, becoming a modern country. The power of the monarchy was questioned, and extended suffrage ensured the transition into a true democracy.\n\nWhen the dusk settled after the Great War, an opportunity to regain land was presented to the Danish nation. But the two plebiscites held in the northern parts of Schleswig, would also be the source for a crisis in Danish politics, when king Christian X dismissed the government when the government refused to declare new elections. With the support of the Armed Forces and the political right-wing, the king did not bow to this pressure. In the end, the crisis concluded with the Danish invasion of Flensburg and new elections.\n\nWhile the crisis ended with a win for the right-wing, it quickly developed in the other direction. Republican sentiments grew in the left-wing Social Democrats and Communists, as well as the popularity of these parties. After the establishment of the Norwegian Republic in 1927, the Social Democrats presented a proposal for a similar referendum on the monarchy. This was, however, voted down. But with the 1929 election, the socialist parties would gain a majority. This set off a second major crisis in modern Danish politics. The crisis would see the end of the reign of king Christian X, along with the establishment of a Republican party in Denmark and the start of the first Social Democratic government.\n\nWhile Denmark has mostly recovered from the crises of the 1920s, there does still harbor republican sentiments in the country. The rise of the Valkists in Germany has also triggered increased riots and protests in Flensburg and a radicalization of the politics of Southern Jylland. It is to see if Denmark will be able to come through future crises, despite these issues."
+denmark.1.d: "At the dawn of the 20th century, Denmark was entering an era of change, becoming a modern country. The power of the monarchy was questioned, and extended suffrage ensured the transition into a true democracy.\n\nWhen the dusk settled after the Great War, an opportunity to regain land was presented to the Danish nation. But the two plebiscites held in the northern parts of Schleswig, would also be the source for a crisis in Danish politics, when king Christian X dismissed the government when the government refused to declare new elections. With the support of the Armed Forces and the political right-wing, the king did not bow to this pressure. In the end, the crisis concluded with the Danish invasion of Flensburg and new elections.\n\nWhile the crisis ended with a win for the right-wing, it quickly developed in the other direction. Republican sentiments grew in the left-wing Social Democrats and Communists, as well as the popularity of these parties. After the establishment of the Norwegian Republic in 1927, the Social Democrats presented a proposal for a similar referendum on the monarchy. This was, however, voted down. But with the 1929 election, the socialist parties would gain a majority. This set off a second major crisis in modern Danish politics. The crisis would see the end of the reign of king Christian X, along with the establishment of a Republican party in Denmark and the start of the first Social Democratic government.\n\nWhile Denmark has mostly recovered from the crises of the 1920s, there does still harbor republican sentiments in the country. The rise of the revivalists in Germany has also triggered increased riots and protests in Flensburg and a radicalization of the politics of Southern Jylland. It is to see if Denmark will be able to come through future crises, despite these issues."
 denmark.1.a: "Der er et yndigt land!"
 
 denmark.2.t: "Grundlovsdagen"
@@ -573,7 +573,7 @@ denmark.4.d: "With the celebration of the birthday of king Frederick IX, it has 
 denmark.4.a: "A Bunch of Norwegian Puppets!"
 
 denmark.5.t: "Anti-Danish Protests in Flensburg"
-denmark.5.d: "Following the Constitution Day, a rise in protests against Denmark has intensified in Flensburg. Even in places where the German Valkists is a minority, there have been some reports of anti-Denmark activities. While the events are not of good news, the police and military has a secured position in the city."
+denmark.5.d: "Following the Constitution Day, a rise in protests against Denmark has intensified in Flensburg. Even in places where the German revivalists is a minority, there have been some reports of anti-Denmark activities. While the events are not of good news, the police and military has a secured position in the city."
 denmark.5.a: "Germans Being Germans, I Guess"
 
 denmark.6.t: "The London Stock Market Crash"
@@ -593,7 +593,7 @@ denmark.9.d: "The Republican sentiments in Denmark has grown weaker, being less 
 denmark.9.a: "That Will Show Them"
 
 denmark.10.t: "Flensburg in Riot"
-denmark.10.d: "Following the economic crisis in Denmark, all regions of our country has been left tattered. This includes Southern Jylland, along with the city of Flensburg. With the city experiencing more unemployment and a harsher day to day life, along with a strong German nationalism, many people have made the decision to commit crime and join valkist terror cells. With increased looting, assassination attempts and theft, the city is more dangerous than ever before."
+denmark.10.d: "Following the economic crisis in Denmark, all regions of our country has been left tattered. This includes Southern Jylland, along with the city of Flensburg. With the city experiencing more unemployment and a harsher day to day life, along with a strong German nationalism, many people have made the decision to commit crime and join revivalist terror cells. With increased looting, assassination attempts and theft, the city is more dangerous than ever before."
 denmark.10.a: "Flensburg is Burning.."
 
 denmark.11.t: "The Army Takes Power in Flensburg"
@@ -692,11 +692,11 @@ denmark.33.d: "With weeks, even months of protests in the street, it has eventua
 denmark.33.a: "Workers of Denmark, Unite!"
 
 denmark.34.t: "Reactionary Opposition is Forming"
-denmark.34.d: "The Republican Revolution has not been welcomed by all portion of Danish society. Still, there are many supporters of the Lyksborg Group and the reactionary monarchy. There are still these loyalties present through bourgeoisie structures like the army and the big farmers.\n\nThe fastest growing opposition however, is the one faced by the Danish National Party and other nationalist groups in Denmark. There are also a suspected connection between these far-right groups and the Valkist leadership in Germany. We need to stand at guard."
+denmark.34.d: "The Republican Revolution has not been welcomed by all portion of Danish society. Still, there are many supporters of the Lyksborg Group and the reactionary monarchy. There are still these loyalties present through bourgeoisie structures like the army and the big farmers.\n\nThe fastest growing opposition however, is the one faced by the Danish National Party and other nationalist groups in Denmark. There are also a suspected connection between these far-right groups and the revivalist leadership in Germany. We need to stand at guard."
 denmark.34.a: "Damned Reactionary Scum!"
 
 denmark.35.t: "An Opportunity in Denmark"
-denmark.35.d: "The Republican Revolution in Denmark might prove a danger for the advance of Valkism. These forces are seemingly hostile, or at least uncooperative, to our government and to Germany.\n\nHowever, there are still hope for Denmark. The Revolution have itself caused a Reaction from the Danish people, in the form of opposition groups. Among these are the Danish National Party one that is seemingly open to cooperate with the German people. While they are a bit too weak to cause any counter-revolution, we could help them with funding and support."
+denmark.35.d: "The Republican Revolution in Denmark might prove a danger for the advance of Revivalism. These forces are seemingly hostile, or at least uncooperative, to our government and to Germany.\n\nHowever, there are still hope for Denmark. The Revolution have itself caused a Reaction from the Danish people, in the form of opposition groups. Among these are the Danish National Party one that is seemingly open to cooperate with the German people. While they are a bit too weak to cause any counter-revolution, we could help them with funding and support."
 denmark.35.a: "We Need to Help Them"
 denmark.35.b: "No, It Will Cause Further Tentions"
 
@@ -809,11 +809,11 @@ denmark.62.d: "Today, the Army rule in Flensburg has finally come to an end. Wit
 denmark.62.a: "A Cheer to Democracy!"
 
 denmark.63.t: "A Plebiscite in Flensburg"
-denmark.63.d: "With democracy and stability returning to Flensburg, it is time to have a truly democratic Plebiscite in the territory to see if they want to stay part of Denmark or join Germany. While this might be a chance for an increased power to the Valkists in Germany, it will resolve the issues with Flensburg once and for all."
+denmark.63.d: "With democracy and stability returning to Flensburg, it is time to have a truly democratic Plebiscite in the territory to see if they want to stay part of Denmark or join Germany. While this might be a chance for an increased power to the revivalists in Germany, it will resolve the issues with Flensburg once and for all."
 denmark.63.a: "Let This Process Begin!"
 
 denmark.64.t: "German Victory in Flensburg Plebiscite"
-denmark.64.d: "The Flensburg Plebiscite has become one with quite a clear winner in the end. After months with campaigning, the Pro-German side has managed to hold on to their lead. With a solid margin, the Pro-German camp can claim victory. With the news of this reaching Flensburg, the city was colored in the colors of German flags, both Imperial and Republican, as well as Valkist ones."
+denmark.64.d: "The Flensburg Plebiscite has become one with quite a clear winner in the end. After months with campaigning, the Pro-German side has managed to hold on to their lead. With a solid margin, the Pro-German camp can claim victory. With the news of this reaching Flensburg, the city was colored in the colors of German flags, both Imperial and Republican, as well as revivalist ones."
 denmark.64.a: "How Could This Happen!"
 
 denmark.65.t: "Flensburg Votes to Reunify With Germany"
@@ -831,7 +831,7 @@ denmark.67.a: "Bad Move, Danes!"
 denmark.67.b: "We Will Take Revenge Later"
 
 denmark.68.t: "Danish Victory in Flensburg Plebiscite"
-denmark.68.d: "The Flensburg Plebiscite was in the beginning a plebiscite where the Pro-German side had an early lead. But during the campaign season, the Pro-Danish side managed to strike their message to the German population in Flensburg, making many rethink their vote. At the end, it was now the Pro-Danish side that had the lead. The winning side has been efficient in painting the plebiscite more as a Dano-German vs Valkist plebiscites than a Danish vs German one."
+denmark.68.d: "The Flensburg Plebiscite was in the beginning a plebiscite where the Pro-German side had an early lead. But during the campaign season, the Pro-Danish side managed to strike their message to the German population in Flensburg, making many rethink their vote. At the end, it was now the Pro-Danish side that had the lead. The winning side has been efficient in painting the plebiscite more as a Dano-German vs revivalist plebiscites than a Danish vs German one."
 denmark.68.a: "Out With the Champagne!"
 
 denmark.69.t: "Denmark Won the Flensburg Plebiscite"
@@ -897,11 +897,11 @@ denmark.303.d: "With riots largely being calmed by us relenting and liberalizing
 denmark.304.d: "All we've done is feed the flames. Rioting has only got worse in the recent days, and has reached further than simply the urban regions of our nation, and has even spread as far as Flensburg!\n\nOur Garrisons have largely been overwhelmed by rioters, some conscripts have even joined them. The little influence we have left here is in remote countryside locations, and given that the National-Collectivists have seized various Armouries, it's likely that this revolt may soon be armed."
 denmark.305.d: "The Danish Transitional Government has collapsed! National-Collectivist forces and other Socialist revolutionaries have joined forces and organized a handful of combat units using seized weaponry. Shortly after, they were able to drive Danish Garrisons out of the country with little resistance.\n\nAs the National-Collectivists and other Socialists are assembling a 'Second Hamburg Commune', it seems that the Transitional Government has entirely disappeared in place of the Hamburg Commune."
 denmark.306.d: "The damned Collectivists in the Kiel Zone have thrown our occupying forces out and have proclaimed the Second Hamburg Commune! Shall we crush this upstart again? Or shall we let them go?"
-denmark.307.d: "Otto Stasser, a popular politician in Das Deutches Reich, has arrived a few days ago. He has expressed a large passion for the ideology of National-Collectivism, however he is a former Valkist.\n\nNonetheless, he seems to be very fiscally adept and is very administratively experienced. How shall we go about this?"
-denmark.308.d: "The Danish oppressors lie defeated before us, our Militias are marching through our conquered territories bearing the flag of the Commune.\n\nA monumental day, now that we've successfully secured our independence, we can turn our gazes to other locations. We could even perhaps claim to be the legitimate German nation, but that would undoubtedly ruin relations with the Valkists."
+denmark.307.d: "Otto Stasser, a popular politician in Das Deutches Reich, has arrived a few days ago. He has expressed a large passion for the ideology of National-Collectivism, however he is a former revivalist.\n\nNonetheless, he seems to be very fiscally adept and is very administratively experienced. How shall we go about this?"
+denmark.308.d: "The Danish oppressors lie defeated before us, our Militias are marching through our conquered territories bearing the flag of the Commune.\n\nA monumental day, now that we've successfully secured our independence, we can turn our gazes to other locations. We could even perhaps claim to be the legitimate German nation, but that would undoubtedly ruin relations with the revivalists."
 denmark.309.d: "The German Commune has sent a formal request to join the Third Internationale, likely due to a lack of any allies in their region. They seem to be a future target for Germany, which may bring us into war with them in the future. Shall we accept?"
 denmark.310.d: "The Soviets have rejected our offer to join the Third Internationale!"
-denmark.311.d: "Otto Strasser, a former German Valkist, has arrived in our Nation. He wasted no time in pledging his allegiance to the National-Collectivist cause, and quickly denounced Valkism in support of National-Collectivism. As unfortunate as it may be, he seems to be doing a good job at attracting supporters."
+denmark.311.d: "Otto Strasser, a former German revivalist, has arrived in our Nation. He wasted no time in pledging his allegiance to the National-Collectivist cause, and quickly denounced Revivalism in support of National-Collectivism. As unfortunate as it may be, he seems to be doing a good job at attracting supporters."
 denmark.312.d: "The Danish oppressors lie defeated before us, our Militias are marching through our liberated territories bearing the flag of the Commune.\n\nA monumental day, now that we've successfully secured our independence, we can turn our gazes to other locations! The First Hamburg Commune has been avenged!"
 denmark.313.d: "The Hamburg Commune has offered a 'peace with honour' of sorts, they demand that we recognize their independence and they will grant us peace in return, without any territorial concessions from Denmark herself."
 denmark.314.d: "The Hamburg Commune has put forward a 'peace with vengeance' demand. If we install a collaborationist regime, they are willing to cease military campaigns in our nation."
@@ -932,4 +932,4 @@ POLITICS_FREDERICK_IX_DESC: "King Frederick IX is the current King of Denmark. B
 POLITICS_CHRISTIAN_X_DESC: "King Christian X is the current King of Denmark. Born in 1870, Christian is the grandson to the long-reigning Christian IX, the "father-in-law of Europe". Growing up in the 19th century, King Christian became king in an era of modern social change in Danish society, with the ideas of constitutionalism and democracy. This became a counter to Christian, who is described as an authoritarian and one who stressed the importance of the monarch's power. His use of power, would however lead to his fall from it during the Abdication Crisis. Since then, Christian X have lived his life as an ex-monarch in Denmark, with his son taking his role.\n\nWhile Christian was officially no longer a monarch, he still had support among conservatives and monarchists in Denmark, many of whom saw the abdication as a coup from the Social Democrats. With an alliance of military figures and conservatives, they finally managed to seize power, bringing the de-throned Christian X into power yet again."
 POLITICS_AKSEL_LARSEN_DESC: "Aksel Larsen is the current President of Denmark. Born in 1897, Larsen was in early life a Social Democrats before becoming a member of the Communist Party following the Russian revolution. Since 1932, Larsen have led the Communist Party of Denmark, and has now finally become the leader of a socialist republic in Denmark. Considered to be on the moderate end of the party, Larsen, while supportive of the Soviet Union and Socialism, is not afraid to make a stand against authoritarian and anti-working class actions.\n\nAfter the revolution, Aksel Larsen managed to gain influence and power, disempowering the Republican Party. With him now at the head of the country, it is to remain what direction he will steer the country towards.\n\n§RSocialist§!"
 POLITICS_MOGENS_FOG_DESC: "Mogens Fog is the current President of Denmark. Born in 1904, Fog studied in Metropolitanskolen with other known left-wingers. Some of whom joined the Communist Party, while Fog became involved in the socialist wing of the Social Democrats. In 1929, Fog was among those who left the Social Democrats in opposition to the party's support of King Frederick IX, and joined the Republican Party.\n\nIncreasingly becoming a leading member of the Republicans, Fog was central in the overthrow of the Lyksborg group and the monarchy. While having to contain the influence of the Communists, it is to see if Fog is able to lead Denmark towards a new democratic society.\n\n§RRepublican§!"
-POLITICS_CAY_LEMBCKE_DESC: "Cay Lembcke is the current Leader, Fører, of Denmark. Born in 1885, Lembcke is the son of a military family, and served as a Ritmester in the Royal Danish Army. In 1909 to 1910, Lembcke became one of the founders of the Danish Boy Scouts Organization, an organization he was a member of for 13 years. Following the rise of Valkism in Germany, Lembecke co-founded the National Party of Denmark, based on Danish nationalism and semi-valkist tendencies.\n\nWith the political unrest following the London Stock Market Crash, the National Party managed to gain power in a counter-revolution against the socialist and republican forces. With the support of Germany at his back, Lembcke hopes to lead Denmark to a greater glory.\n\n§WNationalist§!"
+POLITICS_CAY_LEMBCKE_DESC: "Cay Lembcke is the current Leader, Fører, of Denmark. Born in 1885, Lembcke is the son of a military family, and served as a Ritmester in the Royal Danish Army. In 1909 to 1910, Lembcke became one of the founders of the Danish Boy Scouts Organization, an organization he was a member of for 13 years. Following the rise of Revivalism in Germany, Lembecke co-founded the National Party of Denmark, based on Danish nationalism and semi-revivalist tendencies.\n\nWith the political unrest following the London Stock Market Crash, the National Party managed to gain power in a counter-revolution against the socialist and republican forces. With the support of Germany at his back, Lembcke hopes to lead Denmark to a greater glory.\n\n§WNationalist§!"

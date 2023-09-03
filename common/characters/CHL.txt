@@ -531,7 +531,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Francisco_Javier_Diaz_Valderrama_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_determined_populist
 			}
 		}
@@ -2169,7 +2169,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}

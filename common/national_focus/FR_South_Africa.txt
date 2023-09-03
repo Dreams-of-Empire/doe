@@ -1221,7 +1221,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Prioritize_Transvaal"
 			add_popularity = { ideology = national_populist popularity = 0.025 }
-			add_popularity = { ideology = valkist popularity = 0.025 }
+			add_popularity = { ideology = revivalist popularity = 0.025 }
 			hidden_effect = {
 				add_to_variable = {	var = saf_pnp value = 1 }
 			}
@@ -1535,7 +1535,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1572,7 +1572,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1604,7 +1604,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1636,7 +1636,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1686,7 +1686,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1739,7 +1739,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1771,7 +1771,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1803,7 +1803,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1835,7 +1835,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1869,7 +1869,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1901,7 +1901,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1911,7 +1911,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Work_Without_Nationalists"
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
-			add_popularity = { ideology = valkist popularity = -0.02 }
+			add_popularity = { ideology = revivalist popularity = -0.02 }
 		}
 	}
 
@@ -1937,7 +1937,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -1971,7 +1971,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2006,7 +2006,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2040,7 +2040,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2493,7 +2493,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2527,7 +2527,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2557,7 +2557,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2586,7 +2586,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2615,7 +2615,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2646,7 +2646,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2675,7 +2675,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2719,7 +2719,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2749,7 +2749,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2778,7 +2778,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2812,7 +2812,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2841,7 +2841,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2850,7 +2850,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Government_Police"
 			add_popularity = { ideology = paternal_autocrat popularity = 0.05}
-			add_popularity = { ideology = valkist popularity = 0.05}
+			add_popularity = { ideology = revivalist popularity = 0.05}
 		}
 	}
 
@@ -2875,7 +2875,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2909,7 +2909,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -2940,7 +2940,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist 
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -3093,7 +3093,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Our_Place_Empire"
 			add_political_power = 50
 			add_popularity = { ideology = national_populist popularity = -0.05 }
-			add_popularity = { ideology = valkist popularity = -0.05 }
+			add_popularity = { ideology = revivalist popularity = -0.05 }
 		}
 	}
 
@@ -3593,7 +3593,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Summon_House"
 			add_popularity = { ideology = national_populist popularity = 0.05 }
-			add_popularity = { ideology = valkist popularity = 0.05 }
+			add_popularity = { ideology = revivalist popularity = 0.05 }
 		}
 	}
 

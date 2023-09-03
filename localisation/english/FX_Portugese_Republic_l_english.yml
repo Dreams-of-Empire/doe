@@ -31,9 +31,9 @@ PRR_paternal_autocrat_DEF: "The Portuguese Military Republic"
 PRR_national_populist: "Popular Portuguese State"
 PRR_national_populist_ADJ: "Portuguese"
 PRR_national_populist_DEF: "The Greater State of Portugal"
-PRR_valkist: "Império Português"
-PRR_valkist_ADJ: "Português"
-PRR_valkist_DEF: "O Império Português"
+PRR_revivalist: "Império Português"
+PRR_revivalist_ADJ: "Português"
+PRR_revivalist_DEF: "O Império Português"
 
 ### Parties (still from KR)
 PRR_vanguardist_party: "PCP (Rates)"

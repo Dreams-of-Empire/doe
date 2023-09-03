@@ -1643,7 +1643,7 @@ country_event = { # Support the Philippines
 				factor = 8
 			}
 			modifier = {
-				has_country_flag = PHI_valkist_behavior
+				has_country_flag = PHI_revivalist_behavior
 				factor = 8
 			}
 		}

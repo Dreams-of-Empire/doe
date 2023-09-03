@@ -1365,7 +1365,7 @@ focus_tree = {
 					OR = {
 						has_country_flag = ROM_democratic_romania
 						has_country_flag = ROM_socialist_romania
-						has_country_flag = ROM_valkist_romania
+						has_country_flag = ROM_revivalist_romania
 						has_country_flag = ROM_direct_rule_from_bucharest
 						has_country_flag = ROM_natpop_romania
 					}
@@ -1644,7 +1644,7 @@ focus_tree = {
 					OR = {
 						has_country_flag = ROM_democratic_romania
 						has_country_flag = ROM_socialist_romania
-						has_country_flag = ROM_valkist_romania
+						has_country_flag = ROM_revivalist_romania
 						has_country_flag = ROM_direct_rule_from_bucharest
 						has_country_flag = ROM_natpop_romania
 					}
@@ -1850,7 +1850,7 @@ focus_tree = {
 		}
 		allow_branch = {
 			has_country_flag = ROM_democratic_romania
-			NOT = { has_country_flag = ROM_valkist_romania }
+			NOT = { has_country_flag = ROM_revivalist_romania }
 			NOT = { has_country_flag = ROM_natpop_romania }
 			NOT = { has_country_flag = ROM_direct_rule_from_bucharest }
 			NOT = { has_country_flag = ROM_socialist_romania }
@@ -2094,7 +2094,7 @@ focus_tree = {
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = -0.15
 			}
 			custom_effect_tooltip = ROM_ban_the_radical_far_right_tt
@@ -2494,7 +2494,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = ROM_disarm_the_extremists_tt
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = -0.25
 			}
 		}
@@ -2948,7 +2948,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = ROM_hunt_down_the_iron_guard_tt
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = -0.25
 			}
 		}
@@ -3956,7 +3956,7 @@ focus_tree = {
 	# The Iron Guard in Power
 	focus = {
 		id = ROM_the_iron_guard_in_power
-		icon = GFX_goal_ideology_valkist
+		icon = GFX_goal_ideology_revivalist
 		x = 22
 		y = 0
 		cost = 6
@@ -3966,7 +3966,7 @@ focus_tree = {
 			}
 		}
 		allow_branch = {
-			has_country_flag = ROM_valkist_romania
+			has_country_flag = ROM_revivalist_romania
 			NOT = { has_country_flag = ROM_direct_rule_from_bucharest }
 			NOT = { has_country_flag = ROM_socialist_romania }
 			NOT = { has_country_flag = ROM_natpop_romania }
@@ -3989,12 +3989,12 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_the_iron_guard_in_power }
 		relative_position_id = ROM_the_iron_guard_in_power
 		completion_reward = {
-			activate_mission_tooltip = ROM_eliminate_opposition_valkist
+			activate_mission_tooltip = ROM_eliminate_opposition_revivalist
 		}
 	}
 
@@ -4066,7 +4066,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_loyalty_to_the_conducator }
 		relative_position_id = ROM_loyalty_to_the_conducator
@@ -4091,7 +4091,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		mutually_exclusive = { focus = ROM_the_legion_as_a_separate_force }
 		prerequisite = { focus = ROM_legionary_secret_police }
@@ -4110,7 +4110,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		mutually_exclusive = { focus = ROM_merge_the_legion_to_the_army }
 		prerequisite = { focus = ROM_legionary_secret_police }
@@ -4129,7 +4129,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_criminalise_socialism }
 		prerequisite = { 
@@ -4151,7 +4151,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_the_iron_guard_in_power }
 		relative_position_id = ROM_the_iron_guard_in_power
@@ -4169,7 +4169,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_guide_the_nation }
 		prerequisite = { focus = ROM_seize_royal_wealth }
@@ -4199,7 +4199,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_the_iron_guard_in_power }
 		relative_position_id = ROM_the_iron_guard_in_power
@@ -4221,7 +4221,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_legionary_industrialization }
 		relative_position_id = ROM_legionary_industrialization
@@ -4239,7 +4239,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_legionary_education }
 		prerequisite = { focus = ROM_obligatory_camp_service }
@@ -4260,7 +4260,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_legionary_industrialization }
 		relative_position_id = ROM_legionary_industrialization
@@ -4331,7 +4331,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_seize_royal_wealth }
 		prerequisite = { focus = ROM_green_welfare }
@@ -4351,7 +4351,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_seize_royal_wealth }
 		prerequisite = { focus = ROM_legionary_industrialization }
@@ -4370,7 +4370,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_legionary_industrialization }
 		relative_position_id = ROM_legionary_industrialization
@@ -4388,7 +4388,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = { focus = ROM_green_agriarian_roots }
 		prerequisite = { focus = ROM_alliance_with_the_church }

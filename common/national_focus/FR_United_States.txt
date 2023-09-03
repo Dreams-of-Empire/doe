@@ -4113,9 +4113,9 @@ focus_tree = {
     }
   }
 
-  # Stop the Valkist Menace
+  # Stop the revivalist Menace
   focus = {
-    id = USA_stop_the_valkist_menace
+    id = USA_stop_the_revivalist_menace
     icon = GFX_goal_generic_attack_german_reich
     x = 1
     y = 1
@@ -4127,7 +4127,7 @@ focus_tree = {
     bypass = {
       has_war_with = GER
       custom_trigger_tooltip = {
-        tooltip = USA_defeated_valkist_ger_tt
+        tooltip = USA_defeated_revivalist_ger_tt
         country_exists = GRP
         GER = { exists = no }
       }
@@ -4156,41 +4156,41 @@ focus_tree = {
     available = {
       has_war = no
       custom_trigger_tooltip = {
-        tooltip = USA_defeated_valkist_ger_tt
+        tooltip = USA_defeated_revivalist_ger_tt
         country_exists = GRP
         GER = { exists = no }
       }
     }
-    prerequisite = { focus = USA_stop_the_valkist_menace }
-    relative_position_id = USA_stop_the_valkist_menace
+    prerequisite = { focus = USA_stop_the_revivalist_menace }
+    relative_position_id = USA_stop_the_revivalist_menace
     completion_reward = {
       custom_effect_tooltip = USA_the_marshall_plan_tt
     }
   }
 
-  # Villainify German Valkism
+  # Villainify German Revivalism
   focus = {
-    id = USA_villainify_german_valkism
-    icon = GFX_goal_USA_no_valkist
+    id = USA_villainify_german_revivalism
+    icon = GFX_goal_USA_no_revivalist
     x = 1
     y = 1
     cost = 6
     available = {
       has_war = no
       custom_trigger_tooltip = {
-        tooltip = USA_defeated_valkist_ger_tt
+        tooltip = USA_defeated_revivalist_ger_tt
         country_exists = GRP
         GER = { exists = no }
       }
     }
-    prerequisite = { focus = USA_stop_the_valkist_menace }
-    relative_position_id = USA_stop_the_valkist_menace
+    prerequisite = { focus = USA_stop_the_revivalist_menace }
+    relative_position_id = USA_stop_the_revivalist_menace
     completion_reward = {
       add_political_power = 100
       if = {
         limit = { country_exists = GRP }
         GRP = {
-          add_ideas = USA_clamp_down_on_valkism
+          add_ideas = USA_clamp_down_on_revivalism
         }
       }
     }
@@ -4214,8 +4214,8 @@ focus_tree = {
       }
     }
     prerequisite = { focus = USA_the_marshall_plan }
-    prerequisite = { focus = USA_villainify_german_valkism }
-    relative_position_id = USA_villainify_german_valkism
+    prerequisite = { focus = USA_villainify_german_revivalism }
+    relative_position_id = USA_villainify_german_revivalism
     completion_reward = {
       create_wargoal = {
         target = SOV
@@ -4259,8 +4259,8 @@ focus_tree = {
         NOT = { country_exists = IND }
       }
     }
-    prerequisite = { focus = USA_villainify_german_valkism }
-    relative_position_id = USA_villainify_german_valkism
+    prerequisite = { focus = USA_villainify_german_revivalism }
+    relative_position_id = USA_villainify_german_revivalism
     completion_reward = {
       army_experience = 15
       send_equipment = { 

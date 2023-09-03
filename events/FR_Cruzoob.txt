@@ -36,7 +36,7 @@ country_event = { # Question of the Church
 	option = { # Secular State
 		name = cruzoob.1.b
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.05
 		}
 		add_political_power = 150
@@ -62,7 +62,7 @@ country_event = { # Education Curriculum
 	option = { # Prioritize a curriculum based on our roots!
 		name = cruzoob.2.b
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.05
 		}
 		add_research_slot = 1
@@ -331,7 +331,7 @@ country_event = { # Ask for German Advisors
 		ai_chance = {
 			base = 80
 			modifier = {
-				MEX = { has_government = valkist }
+				MEX = { has_government = revivalist }
 				factor = 0.05
 			}
 		}

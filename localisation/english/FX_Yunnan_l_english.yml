@@ -30,9 +30,9 @@ YUN_paternal_autocrat_DEF: "The Yunnan Clique"
 YUN_national_populist: "Yunnan Clique"
 YUN_national_populist_ADJ: "Yunnanese"
 YUN_national_populist_DEF: "The Yunnan Clique"
-YUN_valkist: "Yunnan Clique"
-YUN_valkist_ADJ: "Yunnanese"
-YUN_valkist_DEF: "The Yunnan Clique"
+YUN_revivalist: "Yunnan Clique"
+YUN_revivalist_ADJ: "Yunnanese"
+YUN_revivalist_DEF: "The Yunnan Clique"
 
 ### Parties
 YUN_paternal_autocrat_party: "Long Yun's Clique"

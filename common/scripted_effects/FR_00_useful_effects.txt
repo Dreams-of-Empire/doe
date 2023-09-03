@@ -136,8 +136,8 @@ copy_government_of_ROOT = {
 		set_politics = { ruling_party = national_populist elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = valkist } }
-		set_politics = { ruling_party = valkist elections_allowed = no }
+		limit = { ROOT = { has_government = revivalist } }
+		set_politics = { ruling_party = revivalist elections_allowed = no }
 	}
 }
 
@@ -294,7 +294,7 @@ get_current_government_type = {
 	clr_country_flag = was_authoritarian_democrat
 	clr_country_flag = was_paternal_autocrat
 	clr_country_flag = was_national_populist
-	clr_country_flag = was_valkist
+	clr_country_flag = was_revivalist
 
 	set_variable = { var = fasci value = party_popularity@fasci }
 	set_variable = { var = collie value = party_popularity@collectivist }
@@ -306,7 +306,7 @@ get_current_government_type = {
 	set_variable = { var = authdem value = party_popularity@authoritarian_democrat }
 	set_variable = { var = pataut value = party_popularity@paternal_autocrat }
 	set_variable = { var = natpop value = party_popularity@national_populist }
-	set_variable = { var = valk value = party_popularity@valkist }
+	set_variable = { var = valk value = party_popularity@revivalist }
 
 	if = {
 		limit = { has_government = fasci }
@@ -349,8 +349,8 @@ get_current_government_type = {
 		set_country_flag = was_national_populist
 	}
 	if = {
-		limit = { has_government = valkist }
-		set_country_flag = was_valkist
+		limit = { has_government = revivalist }
+		set_country_flag = was_revivalist
 	}
 }
 
@@ -397,8 +397,8 @@ restore_previous_government_type = {
 			set_politics = { ruling_party = national_populist }
 		}
 		if = {
-			limit = { has_country_flag = was_valkist }
-			set_politics = { ruling_party = valkist }
+			limit = { has_country_flag = was_revivalist }
+			set_politics = { ruling_party = revivalist }
 		}
 		add_popularity = { ideology = fasci popularity = -1.0 }
 		add_popularity = { ideology = fasci popularity = fasci }
@@ -420,8 +420,8 @@ restore_previous_government_type = {
 		add_popularity = { ideology = paternal_autocrat popularity = pataut }
 		add_popularity = { ideology = national_populist popularity = -1.0 }
 		add_popularity = { ideology = national_populist popularity = natpop }
-		add_popularity = { ideology = valkist popularity = -1.0 }
-		add_popularity = { ideology = valkist popularity = valk }
+		add_popularity = { ideology = revivalist popularity = -1.0 }
+		add_popularity = { ideology = revivalist popularity = valk }
 
 		clear_variable = fasci
 		clear_variable = collie
@@ -623,7 +623,7 @@ copy_popularities_of_ROOT = {
 			authoritarian_democrat = ROOT.party_popularity_100@authoritarian_democrat
 			paternal_autocrat = ROOT.party_popularity_100@paternal_autocrat
 			national_populist = ROOT.party_popularity_100@national_populist
-			valkist = ROOT.party_popularity_100@valkist
+			revivalist = ROOT.party_popularity_100@revivalist
 		}
 	}
 }

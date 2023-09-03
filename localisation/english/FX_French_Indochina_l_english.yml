@@ -24,8 +24,8 @@ FIC_paternal_autocrat_party: "Governor-Generalship"
 FIC_paternal_autocrat_party_long: "Governor-Generalship"
 FIC_national_populist_party: "Viet Minh"
 FIC_national_populist_party_long: "Viet Minh"
-FIC_valkist_party: "Viet Minh"
-FIC_valkist_party_long: "Viet Minh"
+FIC_revivalist_party: "Viet Minh"
+FIC_revivalist_party_long: "Viet Minh"
 
 #### Ideas ####
 FIC_colonial_exploitation: "Colonial Exploitation"

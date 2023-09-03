@@ -6,7 +6,7 @@
  party_popularity_delayed_tooltip: "Party popularity represents your current government's control over the nation and their support with the people. Political parties with high popularity are more able to push their political agenda and stabilise the nation."
 
  party_popularity_tooltip: "§HParty Popularity§![GetPopularityPPGain]"
- party_popularity_tooltip_long: "§H\n\nEffects from our current Party Popularity:§!\nDaily Political Power Gain: [GetPopularityPPGainValue][GetHasCoalition][GetCoalitionVanguardist][GetCoalitionCollectivist][GetCoalitionLibertarianSocialist][GetCoalitionSocialDemocrat][GetCoalitionSocialLiberal][GetCoalitionMarketLiberal][GetCoalitionSocialConservative][GetCoalitionAuthoritarianDemocrat][GetCoalitionPaternalAutocrat][GetCoalitionNationalPopulist][GetCoalitionValkist]"
+ party_popularity_tooltip_long: "§H\n\nEffects from our current Party Popularity:§!\nDaily Political Power Gain: [GetPopularityPPGainValue][GetHasCoalition][GetCoalitionVanguardist][GetCoalitionCollectivist][GetCoalitionLibertarianSocialist][GetCoalitionSocialDemocrat][GetCoalitionSocialLiberal][GetCoalitionMarketLiberal][GetCoalitionSocialConservative][GetCoalitionAuthoritarianDemocrat][GetCoalitionPaternalAutocrat][GetCoalitionNationalPopulist][GetCoalitionrevivalist]"
 
  party_popularity_dynamic_modifier: "Party Popularity"
  party_popularity_dynamic_modifier_ideology_mapped: "Party Popularity"
@@ -23,7 +23,7 @@
  party_pop_coalition_authoritarian_democrat: "- [?token:authoritarian_democrat.GetTokenLocalizedKey]\n"
  party_pop_coalition_paternal_autocrat: "- [?token:paternal_autocrat.GetTokenLocalizedKey]\n"
  party_pop_coalition_national_populist: "- [?token:national_populist.GetTokenLocalizedKey]\n"
- party_pop_coalition_valkist: "- [?token:valkist.GetTokenLocalizedKey]\n"
+ party_pop_coalition_revivalist: "- [?token:revivalist.GetTokenLocalizedKey]\n"
 
  add_to_coalition: "The §[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]s§! will join the coalition."
  remove_from_coalition: "The §[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]s§! will leave the coalition."

@@ -798,7 +798,7 @@ focus_tree = {
 	}
 	
 	focus = {	
-		id = UOB_crush_valkism
+		id = UOB_crush_revivalism
 		icon = GFX_goal_generic_attack_german_reich
 		prerequisite = { 
 			focus = UOB_spread_revo
@@ -814,7 +814,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UOB_crush_valkism"
+			log = "[GetDateText]: [Root.GetName]: Focus UOB_crush_revivalism"
 			create_wargoal = { type = annex_everything target = GER }
 		}
 	}

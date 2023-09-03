@@ -225,7 +225,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -243,7 +243,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Vilho_Helanen_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_secret_police_chief
 			}
 		}

@@ -799,7 +799,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_marine_regiment"
 			add_stability = 0.03
-			add_popularity = { ideology = valkist popularity = -0.03 }
+			add_popularity = { ideology = revivalist popularity = -0.03 }
 			create_intelligence_agency = yes
 		}
 
@@ -2996,7 +2996,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DEN_friends_in_south
-		icon = GFX_Valkist_Germany
+		icon = GFX_revivalist_Germany
 		cost = 8.00
 		prerequisite = {
 			focus = DEN_march_on_kobenhavn
@@ -3013,7 +3013,7 @@ focus_tree = {
 			add_stability = 0.06
 			add_war_support = 0.02
 			add_popularity = { ideology = national_populist popularity = 0.02 }
-			add_popularity = { ideology = valkist popularity = 0.02 }
+			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
 
 	}
@@ -3214,7 +3214,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			increase_ruling_party_popularity_by_5 = yes
-			add_popularity = { ideology = valkist popularity = 0.03 }
+			add_popularity = { ideology = revivalist popularity = 0.03 }
 			swap_ideas = {
 				remove_idea = DEN_rally_youth_idea
 				add_idea = DEN_march_with_our_brothers_idea
@@ -3338,7 +3338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DEN_trade_food_for_cash
-		icon = GFX_Valkist_Funding
+		icon = GFX_revivalist_Funding
 		cost = 8.00
 		prerequisite = {
 			focus = DEN_national_arbejdespligt

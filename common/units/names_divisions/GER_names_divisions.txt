@@ -503,7 +503,7 @@ GER_MOT_02 =
 
 	for_countries = { GER }
 
-	can_use = { has_government = valkist}
+	can_use = { has_government = revivalist}
 
 	division_types = { "motorized"  }
 
@@ -909,7 +909,7 @@ name = "Freikorps Units"
 	for_countries = { GER }
 
 	can_use = { 
-		has_government = valkist
+		has_government = revivalist
 	}
 
 	division_types = { "infantry" "motorized" "medium_armor" "mechanized" }
@@ -989,7 +989,7 @@ GER_TST_01 =
 	for_countries = { GER }
 
 	can_use = { 
-		has_government = valkist
+		has_government = revivalist
 	}
 
 	division_types = { "infantry" "motorized" "medium_armor" "mechanized" }

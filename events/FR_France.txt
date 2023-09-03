@@ -2421,7 +2421,7 @@ country_event = { #French event in response to english backing of belgium in whi
 			factor = 10
 			modifier = {
 				factor = 0.1
-				GER = { has_government = valkist }
+				GER = { has_government = revivalist }
 			}
 		}
 	}
@@ -3644,7 +3644,7 @@ country_event = { #making the SF illegal
 	option = {
 		name = fra.96.a
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = -0.05
 		}
 		add_political_power = -5
@@ -3703,7 +3703,7 @@ country_event = { #petains constitution
 	}
 }
 
-country_event = { #negotiate or crush the Saar Valkists
+country_event = { #negotiate or crush the Saar revivalists
 	id = fra.99
 	title = fra.99.t
 	desc = fra.99.d
@@ -4194,7 +4194,7 @@ country_event = { #event after the 2GW between FRA and GER is over
 		}
 		GER = {
 			NOT = {
-				has_government = valkist
+				has_government = revivalist
 				has_war_with = ENG
 			}
 		}

@@ -125,7 +125,7 @@ set_popularities = {
   authoritarian_democrat = 0
   paternal_autocrat = 0
   national_populist = 0
-  valkist = 0
+  revivalist = 0
 }
 
 create_faction = 3rd_international

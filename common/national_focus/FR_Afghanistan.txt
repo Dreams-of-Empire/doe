@@ -654,7 +654,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_recieve_german_aid"
-			add_popularity = { ideology = valkist popularity = 0.02 }
+			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
 
 	}
@@ -875,7 +875,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_collaborate_with_germany"
-			add_popularity = { ideology = valkist popularity = 0.02 }
+			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
 
 	}

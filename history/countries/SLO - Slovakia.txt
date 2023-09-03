@@ -79,7 +79,7 @@ set_popularities = {
   authoritarian_democrat = 2
   paternal_autocrat = 0
   national_populist = 3
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = SLO_Andrej_Hlinka

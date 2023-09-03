@@ -269,7 +269,7 @@ SAF = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -371,7 +371,7 @@ ZAF = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -473,7 +473,7 @@ ZIM = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"

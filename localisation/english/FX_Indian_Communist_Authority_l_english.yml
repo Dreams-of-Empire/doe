@@ -31,9 +31,9 @@ INC_paternal_autocrat_DEF: "Indian People's Front"
 INC_national_populist: "Indian People's Front"
 INC_national_populist_ADJ: "Indian"
 INC_national_populist_DEF: "Indian People's Front"
-INC_valkist: "Indian People's Front"
-INC_valkist_ADJ: "Indian"
-INC_valkist_DEF: "Indian People's Front"
+INC_revivalist: "Indian People's Front"
+INC_revivalist_ADJ: "Indian"
+INC_revivalist_DEF: "Indian People's Front"
 
 
 #Parties
@@ -57,8 +57,8 @@ INC_paternal_autocrat_party: "Princely Dominion"
 INC_paternal_autocrat_party_long: "Princely Dominion"
 INC_national_populist_party: "Rashtriya Swayamsevak Sangh"
 INC_national_populist_party_long: "Rashtriya Swayamsevak Sangh"
-INC_valkist_party: "Hindu Mahasabha"
-INC_valkist_party_long: "Akhil Bharatiya Hindu Mahasabha"
+INC_revivalist_party: "Hindu Mahasabha"
+INC_revivalist_party_long: "Akhil Bharatiya Hindu Mahasabha"
 
 #Events
 inc.01.t: "The People's Front"

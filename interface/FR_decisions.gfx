@@ -61,15 +61,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_socialist_march.dds"
 	}	
 	spriteType = {
-		name = "GFX_decision_valkist_march"
-		texturefile = "gfx/interface/decisions/decision_valkist_march.dds"
+		name = "GFX_decision_revivalist_march"
+		texturefile = "gfx/interface/decisions/decision_revivalist_march.dds"
 	}
 	spriteType = {
 		name = "GFX_decision_socialist_boot"
 		texturefile = "gfx/interface/decisions/decision_socialist_boot.dds"
 	}	
 	spriteType = {
-		name = "GFX_decision_valkist_boot"
-		texturefile = "gfx/interface/decisions/decision_valkist_boot.dds"
+		name = "GFX_decision_revivalist_boot"
+		texturefile = "gfx/interface/decisions/decision_revivalist_boot.dds"
 	}	
 }

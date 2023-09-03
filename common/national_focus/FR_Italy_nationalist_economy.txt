@@ -234,11 +234,11 @@ focus_tree = {
 		}
 	}
 
-# Valkist	
+# revivalist	
 	
 	focus = {
 		id = ITA_reforming_the_charter
-		icon = GFX_goal_ideology_valkist
+		icon = GFX_goal_ideology_revivalist
 		x = 37
 		y = 0
 		cost = 5
@@ -280,7 +280,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -313,7 +313,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -347,7 +347,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -381,7 +381,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -415,7 +415,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -449,7 +449,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -483,7 +483,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -520,7 +520,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -553,7 +553,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {

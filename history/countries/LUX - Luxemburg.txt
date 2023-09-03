@@ -54,7 +54,7 @@ set_popularities = {
   authoritarian_democrat = 21
   paternal_autocrat = 0
   national_populist = 5
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = LUX_Pierre_Dupong

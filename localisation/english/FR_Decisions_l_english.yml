@@ -31,7 +31,7 @@ war_propaganda_against_warmonger_neighbor_desc: "Tomorrow [From.GetName] could b
 increase_popularity_vang: "Have [Root.GetLeader] hold a speech" #Might and Strength.
 increase_popularity_vang_desc: "Some may criticize us for advocating a strong state... Let them criticize! A strong state is the only way to achieve Karl Marx's envisionment of Socialism; we will go as far as necessary; and we will be sure the People are aware of that."
 increase_popularity_collie: "Popularize Marxist Literature" #Revolutionary and Orthodox.
-increase_popularity_collie_desc: "The way forward is together. The Vanguardists will argue that a strong state is necessary to guide the people to true Socialism, Libertarian Socialists will argue for the opposite. Neither of these parties are correct; mutual co-dependence and ensuring Unity of the collective will be required to truly achieve Socialism."
+increase_popularity_collie_desc: "The way forward is together. The Vanguardists will argue that a strong state is necessary to guide the people to true Socialism, Fasci will argue for the opposite. Neither of these parties are correct; mutual co-dependence and ensuring Unity of the collective will be required to truly achieve Socialism."
 increase_popularity_fasci: "Have [Root.GetLeader] make Factory visits" #Equal and United.
 increase_popularity_fasci_desc: "Putting large amounts of power in the hands of few is a one-way trip to a Dictatorship. A partially Socialist system must be applied to our nation; to steadily and moderately work towards the Marxist dream of Socialism. Making Factory visits to our workers to inform them of this will ensure our popularity and discredit the radical regimes proposed by some."
 increase_popularity_socdem: "Expansive welfare distribution" #Fair and Moderate.
@@ -48,8 +48,8 @@ increase_popularity_pataut: "Ensure Paternal Popularity" #Strong and Righteous.
 increase_popularity_pataut_desc: "A nation under a Strong ruler is the only way to ensure our Righteous struggle will be met with success. Stability must be maintained by ensuring the popularity of our government; be it by words or force."
 increase_popularity_natpop: "Hold a Nationalist Rally" #Fierce and Proud.
 increase_popularity_natpop_desc: "In order to reinforce our Party's core values and principles, we'll hold a rally which will draw out our various supporters from across the Nation. Sometimes, a simple reminder accompanied by a mob will have more impact than one-thousand reminders when alone."
-increase_popularity_valkist: "Indoctrinate the Populace" #Revived and Radical.
-increase_popularity_valkist_desc: "The core principles of [Root.GetAdjective] Valkism must be instilled in the Population. Starting with the Youth and then moving onto the Old, we'll ensure their loyalty to [Root.GetName]."
+increase_popularity_revivalist: "Indoctrinate the Populace" #Revived and Radical.
+increase_popularity_revivalist_desc: "The core principles of [Root.GetAdjective] Revivalism must be instilled in the Population. Starting with the Youth and then moving onto the Old, we'll ensure their loyalty to [Root.GetName]."
 
 centralized_economic_planning: "Centralized Economic Planning"
 #centralized_economic_planning_desc: "In order to better coordinate our economy; we'll undertake initiate Centralized Economic planning."

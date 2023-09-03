@@ -318,19 +318,19 @@ political_actions_right = {
 			factor = 0 
 		}
 	}
-	increase_popularity_valkist = {
+	increase_popularity_revivalist = {
 		icon = generic_political_discourse
 		cost = 100
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		visible = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_valkist"
+			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_revivalist"
 			increase_ruling_party_popularity_by_5 = yes
 		}
 		ai_will_do = {
@@ -347,14 +347,14 @@ political_actions_right = {
 			OR = {
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		visible = {
 			OR = {
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		modifier = {
@@ -424,7 +424,7 @@ political_actions = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 			NOT = {
 				has_country_flag = NO_GENERIC_STABILITY_DECISIONS
@@ -1380,7 +1380,7 @@ war_measures = {
 					has_war_support > 0.79
 				}
 				AND = {
-					has_government = valkist
+					has_government = revivalist
 					has_war_support > 0.85
 				}
 			}

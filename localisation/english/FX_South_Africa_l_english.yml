@@ -29,8 +29,8 @@ SAF_paternal_autocrat_party: "Sentrale"
 SAF_paternal_autocrat_party_long: "Sentrale Party"
 SAF_national_populist_party: "PNP"
 SAF_national_populist_party_long: "Purified National Party"
-SAF_valkist_party: "OB"
-SAF_valkist_party_long: "Ossewabrandwag"
+SAF_revivalist_party: "OB"
+SAF_revivalist_party_long: "Ossewabrandwag"
 
 #### Threats ####
 SAF_Beginning: "South African Pacifism"
@@ -650,7 +650,7 @@ southafrica.60.b: "Sponsor British and French rebels!"
 southafrica.60.c: "Maybe sponsoring rebels isn't such a good idea..."
 
 southafrica.61.t: "South Africa Wants to Join the Stahlpakt"
-southafrica.61.d: "Our government has received today a petition from the nationalist government of South Africa requesting a spot in our Pact of Steel. South Africa, should we allow them in, would grant us a location of strategic significance against British colonies in Africa. Many in our government are supportive of accepting the nation, while some are more hesitant, preferring to keep the alliance European-based. It must also be noted that the current South African governing coalition includes 'Valkists,' though they are Valkist in name only. They seek to separate and segregate, and allowing them into our coalition could tarnish our image among the rest of the non-aligned world."
+southafrica.61.d: "Our government has received today a petition from the nationalist government of South Africa requesting a spot in our Pact of Steel. South Africa, should we allow them in, would grant us a location of strategic significance against British colonies in Africa. Many in our government are supportive of accepting the nation, while some are more hesitant, preferring to keep the alliance European-based. It must also be noted that the current South African governing coalition includes 'revivalists,' though they are revivalist in name only. They seek to separate and segregate, and allowing them into our coalition could tarnish our image among the rest of the non-aligned world."
 southafrica.61.a: "They will make a useful ally against the British!"
 southafrica.61.b: "We don't need them."
 
@@ -704,7 +704,7 @@ southafrica.91.d: "Today, the United government of South Africa passed a package
 southafrica.91.a: "Let us have peace."
 
 southafrica.92.t: "Our New Constitution"
-southafrica.92.d: "The nationalist government of South Africa has today passed a new constitution to govern the nation. It was passed by the House of Assembly without a single non-coalition vote, and while the United Kingdom will refuse to recognize its legitimacy, it will become the de facto law of the land for the Union. In writing this new constitution, however, some internal debate within the coalition has threatened its proper implementation and recognition. Some in the coalition - largely the Valkists - are pushing for clauses to be included which would solidify our stability and strive to create a stable and lasting system. Others from the Purified National Party, by contrast, are pushing for clauses which would ensure continued nationalist rule for the foreseeable future. No matter which clauses are adopted, the coalition risks fracturing, though that remains highly unlikely."
+southafrica.92.d: "The nationalist government of South Africa has today passed a new constitution to govern the nation. It was passed by the House of Assembly without a single non-coalition vote, and while the United Kingdom will refuse to recognize its legitimacy, it will become the de facto law of the land for the Union. In writing this new constitution, however, some internal debate within the coalition has threatened its proper implementation and recognition. Some in the coalition - largely the revivalists - are pushing for clauses to be included which would solidify our stability and strive to create a stable and lasting system. Others from the Purified National Party, by contrast, are pushing for clauses which would ensure continued nationalist rule for the foreseeable future. No matter which clauses are adopted, the coalition risks fracturing, though that remains highly unlikely."
 southafrica.92.a: "We shall focus on building our own power."
 southafrica.92.b: "We shall focus on building a lasting society."
 

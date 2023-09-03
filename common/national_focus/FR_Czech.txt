@@ -218,7 +218,7 @@ focus_tree = {
 		} 
 	}
 	focus = { 
-		id = CZE_crush_valkist_groups
+		id = CZE_crush_revivalist_groups
 		icon = GFX_goal_CZE_crush_volksfront
 		
 		ai_will_do = { factor = 50 } 
@@ -229,7 +229,7 @@ focus_tree = {
 		prerequisite = { focus = CZE_work_with_german_politicians }
 		available_if_capitulated = yes  
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CZE_crush_valkist_groups"
+			log = "[GetDateText]: [Root.GetName]: Focus CZE_crush_revivalist_groups"
 			add_stability = 0.025
 			add_war_support = 0.025
 		} 
@@ -338,7 +338,7 @@ focus_tree = {
 		x =4
 		y =8
 		cost = 5
-		prerequisite = { focus = CZE_send_our_men_in focus = CZE_crush_valkist_groups }
+		prerequisite = { focus = CZE_send_our_men_in focus = CZE_crush_revivalist_groups }
 		available_if_capitulated = yes  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_the_language_status"
@@ -375,7 +375,7 @@ focus_tree = {
 		y =9
 		cost = 5
 		prerequisite = { focus = CZE_the_language_status }
-		prerequisite = { focus = CZE_crush_valkist_groups }
+		prerequisite = { focus = CZE_crush_revivalist_groups }
 		available_if_capitulated = yes  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_multinational_policies"
@@ -3125,10 +3125,10 @@ focus_tree = {
 			}
 			if = { 
 				limit = { 
-					has_government = valkist
+					has_government = revivalist
 				}
 				add_popularity = {
-					ideology = valkist
+					ideology = revivalist
 					popularity = 0.05
 				}
 			}

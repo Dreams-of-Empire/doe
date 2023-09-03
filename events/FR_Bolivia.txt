@@ -104,7 +104,7 @@ country_event = { #coup fails
 		set_cosmetic_tag = BOL_indigenist
 		set_province_name = { id = 5230 name = "Chuqi Yapu"}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.3
 		}
 		hidden_effect = {
@@ -157,7 +157,7 @@ country_event = { #coup fails
         logistics_skill = 3
       }
       add_ideas = one_party_dictatorship
-      set_politics = { ruling_party = valkist elections_allowed = no }
+      set_politics = { ruling_party = revivalist elections_allowed = no }
       remove_every_minister = yes
 			activate_advisor = BOL_Gualberto_Villarroel_Lopez_hog_val
 			activate_advisor = BOL_Gonzalo_Romero_Alvarez_Garcia_for_npo
@@ -341,7 +341,7 @@ country_event = { #death of general
 		tag = BOL
 		has_country_flag = BOL_indigenist_takeover
 		date > 1940.1.1
-		has_government = valkist
+		has_government = revivalist
 	}
 	mean_time_to_happen = { months = 5 }
 	option = {
@@ -353,7 +353,7 @@ country_event = { #death of general
 			BOL_Eduardo_Nina_Quispe = {
 				add_country_leader_role = {
 					country_leader = {
-						ideology = valkist_subtype
+						ideology = revivalist_subtype
 					}
 					promote_leader = yes #if not wanted remove please
 				}
@@ -686,7 +686,7 @@ country_event = { # Fate of Chile (ind)#
 			remove_ideas_with_trait = country
 			hidden_effect = {
 				add_ideas = one_party_dictatorship
-				set_politics = { ruling_party = valkist }
+				set_politics = { ruling_party = revivalist }
 			}
 		}
 		puppet = CHL

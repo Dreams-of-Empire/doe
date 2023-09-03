@@ -196,7 +196,7 @@ save_current_party_popularities = {
 		array = saved_popularities
 		subtract_from_temp_variable = { sum = v }
 	}
-	add_to_temp_array = { saved_popularities = sum } #last value (valkist), calculated directly to avoid rounding errors
+	add_to_temp_array = { saved_popularities = sum } #last value (revivalist), calculated directly to avoid rounding errors
 }
 set_coalition_government_popularity = {
 	if = {
@@ -320,12 +320,12 @@ set_coalition_government_popularity = {
 	if = {
 		limit = {
 			NOT = {
-				has_government = valkist
-				check_variable = { political_power_ideology = token:valkist }
+				has_government = revivalist
+				check_variable = { political_power_ideology = token:revivalist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:valkist }
+			is_in_array = { ROOT.coalition_partners = token:revivalist }
 		}
-		set_temp_variable = { coali_val = THIS.party_popularity@valkist }
+		set_temp_variable = { coali_val = THIS.party_popularity@revivalist }
 		add_to_variable = { coalition_ruling_combined_pop = coali_val  }
 	}
 }
@@ -369,8 +369,8 @@ add_coalition_national_populist = {
 	set_temp_variable = { coalition_partner_var = token:national_populist }
 	add_to_coalition = yes 
 }
-add_coalition_valkist = {
-	set_temp_variable = { coalition_partner_var = token:valkist }
+add_coalition_revivalist = {
+	set_temp_variable = { coalition_partner_var = token:revivalist }
 	add_to_coalition = yes 
 }
 
@@ -414,8 +414,8 @@ remove_coalition_national_populist = {
 	set_temp_variable = { coalition_partner_var = token:national_populist }
 	remove_from_coalition = yes 
 }
-remove_coalition_valkist = {
-	set_temp_variable = { coalition_partner_var = token:valkist }
+remove_coalition_revivalist = {
+	set_temp_variable = { coalition_partner_var = token:revivalist }
 	remove_from_coalition = yes 
 }
 

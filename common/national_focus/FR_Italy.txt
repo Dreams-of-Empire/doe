@@ -408,7 +408,7 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_compromise_with_fascists"
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = -0.1
 			}
 			add_popularity = {
@@ -1623,7 +1623,7 @@
 			factor = 80
 			modifier = {
 				factor = 3
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -1635,7 +1635,7 @@
 	
 	shared_focus = {
 		id = ITA_proclaim_republic
-		icon = GFX_goal_valkist_star
+		icon = GFX_goal_revivalist_star
 		x = 16
 		y = 9
 		cost = 5
@@ -1652,7 +1652,7 @@
 			factor = 400
 			modifier = {
 				factor = 3
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -1660,11 +1660,11 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_proclaim_republic"
 			drop_cosmetic_tag = yes
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = 0.1
 			}
 			set_politics = {
-				ruling_party = valkist
+				ruling_party = revivalist
 				elections_allowed = no
 			}
 			if = {
@@ -1678,7 +1678,7 @@
           character = ITA_Gabrielle_D_Annunzio
           promote_leader = yes
           country_leader = {
-            ideology = valkist_subtype
+            ideology = revivalist_subtype
             traits = {}
           }
         }
@@ -1708,7 +1708,7 @@
 			factor = 80
 			modifier = {
 				factor = 3
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -2458,7 +2458,7 @@
 					has_government = vanguardist
 					has_government = collectivist
 					has_government = fasci
-					has_government = valkist
+					has_government = revivalist
 					has_government = national_populist
 				}
 			}			
@@ -2530,7 +2530,7 @@
 				threat > 0.25
 			}
 			OR = {
-				has_government = valkist
+				has_government = revivalist
 				has_government = national_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
@@ -2623,7 +2623,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}			
 		}
@@ -2705,7 +2705,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}			
 		}		
@@ -2748,7 +2748,7 @@
 		
 		available = {
 			OR = {
-				has_government = valkist
+				has_government = revivalist
 				has_government = national_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
@@ -2794,7 +2794,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}			
 		}		
@@ -2852,7 +2852,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			modifier = {
@@ -2960,7 +2960,7 @@
 
 		available = {
 			OR = {
-				has_government = valkist
+				has_government = revivalist
 				has_government = national_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
@@ -2995,7 +2995,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}		
 		}			
@@ -3062,7 +3062,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			modifier = {
@@ -3127,7 +3127,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			modifier = {
@@ -3190,7 +3190,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			modifier = {
@@ -3313,7 +3313,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}		
 		}		
@@ -3367,7 +3367,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			modifier = {
@@ -3465,7 +3465,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			modifier = {
@@ -3535,7 +3535,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			modifier = {
@@ -3632,7 +3632,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 					has_government = vanguardist
 				}
 			}
@@ -3923,11 +3923,11 @@
 		}
 	}	
 
-# Valkist
+# revivalist
 	
 	shared_focus = {
 		id = ITA_pan_mediterranean
-		icon = GFX_goal_valkist_star
+		icon = GFX_goal_revivalist_star
 		x = 47
 		y = 9
 		cost = 5	
@@ -3977,7 +3977,7 @@
 						has_government = authoritarian_democrat
 						has_government = paternal_autocrat
 						has_government = national_populist
-						has_government = valkist
+						has_government = revivalist
 					}
 				}
 			}
@@ -4092,7 +4092,7 @@
 		cost = 5
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 			is_puppet = no
 			OR = {
 				threat > 0.5
@@ -4631,7 +4631,7 @@
 				factor = 0.25
 				ITA = {
 					OR = {
-						has_government = valkist
+						has_government = revivalist
 						has_government = paternal_autocrat
 						has_government = national_populist
 						has_government = authoritarian_democrat
@@ -5064,7 +5064,7 @@
               add_country_leader_role = {
                 promote_leader = yes
                 country_leader = {
-                  ideology = valkist_subtype
+                  ideology = revivalist_subtype
                 }
               }
             }
@@ -5297,7 +5297,7 @@
 				factor = 2
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}

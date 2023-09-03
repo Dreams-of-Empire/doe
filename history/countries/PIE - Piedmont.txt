@@ -32,7 +32,7 @@ set_popularities = {
   authoritarian_democrat = 4
   paternal_autocrat = 2
   national_populist = 0
-  valkist = 4
+  revivalist = 4
 }
 
 recruit_character = PIE_Palmiro_Togliatti

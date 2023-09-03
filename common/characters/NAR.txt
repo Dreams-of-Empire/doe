@@ -405,7 +405,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Richard_Girnt_Butler_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_ruthless_warlord
 			}
 		}
@@ -602,7 +602,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_AN_Dugger_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_radical_among_moderates
 			}
 		}
@@ -1261,7 +1261,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Theodore_G_Bilbo_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_efficient_sociopath
 			}
 		}
@@ -1288,7 +1288,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_William_Shephard_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_great_soul
 			}
 		}

@@ -102,7 +102,7 @@ set_popularities = {
     authoritarian_democrat = 1
     paternal_autocrat = 2
     national_populist = 0
-    valkist = 0
+    revivalist = 0
 }
 
 if = {

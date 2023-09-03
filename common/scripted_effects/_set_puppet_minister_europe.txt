@@ -88,7 +88,7 @@ set_puppet_minister_europe = {
 		else_if = {
 			limit = {
 				OR = {
-					has_government = valkist
+					has_government = revivalist
 					has_government = national_populist
 				}
 			}
@@ -124,7 +124,7 @@ set_puppet_minister_europe = {
 			limit = { 
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 

@@ -321,13 +321,13 @@ country_event = {
 			factor = 10
 		}
 		set_country_leader_portrait = {
-			portrait = GFX_Portrait_Macedonia_Alexander_Valkist
+			portrait = GFX_Portrait_Macedonia_Alexander_revivalist
 		}
 		set_country_leader_name = {
 			name = "F[umlaut]hrer Aléxandros"
 		}
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 		}
 		add_popularity = {
@@ -335,7 +335,7 @@ country_event = {
 			popularity = -100
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 100
 		}
 	}

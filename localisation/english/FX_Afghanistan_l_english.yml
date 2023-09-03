@@ -31,9 +31,9 @@ AFG_paternal_autocrat_DEF: "The Kingdom of Afghanistan"
 AFG_national_populist: "Kingdom of Afghanistan"
 AFG_national_populist_ADJ: "Afghan"
 AFG_national_populist_DEF: "The Kingdom of Afghanistan"
-AFG_valkist: "Valkist Empire of Afghanistan"
-AFG_valkist_ADJ: "Afghan"
-AFG_valkist_DEF: "The Valkist Empire of Afghanistan"
+AFG_revivalist: "revivalist Empire of Afghanistan"
+AFG_revivalist_ADJ: "Afghan"
+AFG_revivalist_DEF: "The revivalist Empire of Afghanistan"
 
 ### Parties
 AFG_vanguardist_party: "Weekh Zalmian"
@@ -70,8 +70,8 @@ AFG_amanullah_gov_party: "Amanullah Khan Government"
 AFG_amanullah_gov_party_long: "Amanullah Khan Government"
 AFG_national_populist_party: "Saqqawists"
 AFG_national_populist_party_long: "Saqqawists"
-AFG_valkist_party: "Valkists"
-AFG_valkist_party_long: "Afghan Valkists"
+AFG_revivalist_party: "revivalists"
+AFG_revivalist_party_long: "Afghan revivalists"
 
 #### Focus Tree ####
 
@@ -218,7 +218,7 @@ AFG_learn_from_west_desc: "Our goals of modernization and industrialization take
 AFG_learn_railway_construction: "Learn Railway Construction"
 AFG_learn_railway_construction_desc: "Railway construction is something that Afghanistan has been lacking for decades. There is no better way to traverse the country than by railroad; something that we must now address in our modernization drive."
 AFG_collaborate_with_germany: "Collaborate With Germany"
-AFG_collaborate_with_germany_desc: "Collaboration with the Valkists in Germany will net us valuable tools and ideas that we can use to further industrialize our nation and surpass our neighbors."
+AFG_collaborate_with_germany_desc: "Collaboration with the revivalists in Germany will net us valuable tools and ideas that we can use to further industrialize our nation and surpass our neighbors."
 AFG_friend_of_empire: "A Friend of the Empire"
 AFG_friend_of_empire_desc: "Collaboration with the British Empire will net us valuable tools and ideas that we can use to further industrialize our nation and surpass our neighbors."
 AFG_soviet_collaboration: "Soviet Collaboration"

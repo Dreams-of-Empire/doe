@@ -393,9 +393,9 @@ ideologies = {
 		#can_be_boosted = no
 	}
 
-	valkist = {
+	revivalist = {
 		types = {
-			valkist_subtype = {}
+			revivalist_subtype = {}
 			panasian_nichirenist_subtype = { can_be_randomly_selected = no }
 			occultism_subtype = { can_be_randomly_selected = no }
 			val_legionarism_subtype = { can_be_randomly_selected = no }
@@ -403,12 +403,12 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_VALKIST_1"
-			"FACTION_NAME_VALKIST_2"
-			"FACTION_NAME_VALKIST_3"
-			"FACTION_NAME_VALKIST_4"
-			"FACTION_NAME_VALKIST_5"
-			"FACTION_NAME_VALKIST_6"
+			"FACTION_NAME_revivalist_1"
+			"FACTION_NAME_revivalist_2"
+			"FACTION_NAME_revivalist_3"
+			"FACTION_NAME_revivalist_4"
+			"FACTION_NAME_revivalist_5"
+			"FACTION_NAME_revivalist_6"
 		}
 		color = { 11 46 29 }
 		rules = {

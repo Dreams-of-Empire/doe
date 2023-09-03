@@ -44,13 +44,13 @@ country_event = { #critical point
 	}
 
 	option = {
-		name = chl.2.b # Valkists
+		name = chl.2.b # revivalists
 
 		ai_chance = {
 			factor = 40
 		}
-		set_cosmetic_tag = CHL_valkism
-		set_global_flag = CHILEAN_VALKISM
+		set_cosmetic_tag = CHL_revivalism
+		set_global_flag = CHILEAN_REVIVALISM
 		remove_every_minister = yes
 
 		activate_advisor = CHL_Francisco_Javier_Diaz_Valderrama_hog_val
@@ -58,11 +58,11 @@ country_event = { #critical point
 		activate_advisor = CHL_Evaldo_Klein_Doener_eco_npo
 		activate_advisor = CHL_Francisco_Javier_Diaz_Valderrama_sec_npo
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.2
 		}
 		add_ideas = one_party_dictatorship
-		set_politics = { ruling_party = valkist elections_allowed = no }
+		set_politics = { ruling_party = revivalist elections_allowed = no }
 	}
 }
 
@@ -705,10 +705,10 @@ country_event = { #new indigenist government
 		name = chl.100.a
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 		}
 		add_popularity = {
-			ideology = valkist popularity = 0.2
+			ideology = revivalist popularity = 0.2
 		}
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
@@ -718,7 +718,7 @@ country_event = { #new indigenist government
 				character = CHL_Rayen_Quitral
 				promote_leader = yes
 				country_leader = {
-					ideology = valkist_subtype
+					ideology = revivalist_subtype
 					traits = { }
 				}
 			}
@@ -763,7 +763,7 @@ country_event = { #Flavor1
 	trigger = {
 		tag = CHL
 		NOT = {
-		has_global_flag = CHILEAN_VALKISM
+		has_global_flag = CHILEAN_REVIVALISM
 		has_global_flag = CARLOS_COUP
 		}
 	}
@@ -776,7 +776,7 @@ country_event = { #Flavor1
 		name = chl.1000.a
 		add_political_power = 25
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.025
 		}
 	}
@@ -800,7 +800,7 @@ country_event = { #Flavor2
 	trigger = {
 		tag = CHL
 		NOT = {
-		has_global_flag = CHILEAN_VALKISM
+		has_global_flag = CHILEAN_REVIVALISM
 		has_global_flag = CARLOS_COUP
 		}
 	}
@@ -837,7 +837,7 @@ country_event = { #Flavor3
 	trigger = {
 		tag = CHL
 		NOT = {
-		has_global_flag = CHILEAN_VALKISM
+		has_global_flag = CHILEAN_REVIVALISM
 		has_global_flag = CARLOS_COUP
 		}
 	}
@@ -858,7 +858,7 @@ country_event = { #Flavor3
 		name = chl.1002.b
 		add_political_power = -25
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.025
 		}
 	}
@@ -891,7 +891,7 @@ country_event = { #Flavor4 economic plan
 		name = chl.1003.b
 		add_political_power = 25
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.025
 		}
 	}
@@ -937,7 +937,7 @@ country_event = { #Flavor6
 		name = chl.1005.a
 		add_political_power = 25
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.025
 		}
 	}

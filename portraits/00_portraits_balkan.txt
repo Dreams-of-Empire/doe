@@ -150,7 +150,7 @@ ARM = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -271,7 +271,7 @@ AZR = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"

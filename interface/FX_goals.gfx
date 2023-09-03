@@ -701,8 +701,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/USA_american_panama.png"
   }
 	spriteType = {
-    name = "GFX_goal_USA_no_valkist"
-    texturefile = "gfx/interface/goals/USA_no_valkist.png"
+    name = "GFX_goal_USA_no_revivalist"
+    texturefile = "gfx/interface/goals/USA_no_revivalist.png"
   }
 	spriteType = {
     name = "GFX_goal_USA_eastern_dominance"
@@ -2633,8 +2633,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/goal_pangermanist.png"
   }
 	spriteType = {
-    name = "GFX_goal_valkist_thing"
-    texturefile = "gfx/interface/goals/goal_valkist_thing.png"
+    name = "GFX_goal_revivalist_thing"
+    texturefile = "gfx/interface/goals/goal_revivalist_thing.png"
   }
 	spriteType = {
     name = "GFX_goal_awya"
@@ -2821,24 +2821,24 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/JAP_kohoda.png"
   }
 	spriteType = {
-    name = "GFX_Valkist_Germany_Wolf"
-    texturefile = "gfx/interface/goals/Valkist_Germany_Wolf.png"
+    name = "GFX_revivalist_Germany_Wolf"
+    texturefile = "gfx/interface/goals/revivalist_Germany_Wolf.png"
   }
 	spriteType = {
-    name = "GFX_Valkist_Germany"
-    texturefile = "gfx/interface/goals/Valkist_Germany.png"
+    name = "GFX_revivalist_Germany"
+    texturefile = "gfx/interface/goals/revivalist_Germany.png"
   }
 	spriteType = {
-    name = "GFX_Valkist_Army"
-    texturefile = "gfx/interface/goals/Valkist_Army.png"
+    name = "GFX_revivalist_Army"
+    texturefile = "gfx/interface/goals/revivalist_Army.png"
   }
 	spriteType = {
     name = "GFX_State_Controlled_Unions"
     texturefile = "gfx/interface/goals/State_Controlled_Unions.png"
   }
 	spriteType = {
-    name = "GFX_Valkist_Funding"
-    texturefile = "gfx/interface/goals/Valkist_Funding.png"
+    name = "GFX_revivalist_Funding"
+    texturefile = "gfx/interface/goals/revivalist_Funding.png"
   }
 	spriteType = {
     name = "GFX_Target_Switzerland"
@@ -3073,8 +3073,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/goal_ideology_vanguardist.png"
   }
 	spriteType = {
-    name = "GFX_goal_ideology_valkist"
-    texturefile = "gfx/interface/goals/goal_ideology_valkist.png"
+    name = "GFX_goal_ideology_revivalist"
+    texturefile = "gfx/interface/goals/goal_ideology_revivalist.png"
   }
 	spriteType = {
     name = "GFX_goal_ideology_nazbolgang"
@@ -3093,8 +3093,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/focus_generic_support_the_left.png"
   }
 	spriteType = {
-    name = "GFX_goal_valkist_support"
-    texturefile = "gfx/interface/goals/Valkist_Support.png"
+    name = "GFX_goal_revivalist_support"
+    texturefile = "gfx/interface/goals/revivalist_Support.png"
   }
 	spriteType = {
     name = "GFX_goal_goering_dead"
@@ -4361,12 +4361,12 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/goal_indigenist_takeover.png"
   }
 	spriteType = {
-    name = "GFX_goal_valkist_star"
-    texturefile = "gfx/interface/goals/goal_valkist_star.png"
+    name = "GFX_goal_revivalist_star"
+    texturefile = "gfx/interface/goals/goal_revivalist_star.png"
   }
 	spriteType = {
-    name = "GFX_goal_valkist_supreme"
-    texturefile = "gfx/interface/goals/valkist_supreme.png"
+    name = "GFX_goal_revivalist_supreme"
+    texturefile = "gfx/interface/goals/revivalist_supreme.png"
   }
 	spriteType = {
     name = "GFX_trial_of_11"

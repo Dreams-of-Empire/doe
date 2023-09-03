@@ -31,9 +31,9 @@ GXC_paternal_autocrat_DEF: "The Guangxi Clique"
 GXC_national_populist: "Guangxi Clique"
 GXC_national_populist_ADJ: "Guangxi"
 GXC_national_populist_DEF: "The Guangxi Clique"
-GXC_valkist: "Guangxi Clique"
-GXC_valkist_ADJ: "Guangxi"
-GXC_valkist_DEF: "The Guangxi Clique"
+GXC_revivalist: "Guangxi Clique"
+GXC_revivalist_ADJ: "Guangxi"
+GXC_revivalist_DEF: "The Guangxi Clique"
 
 ### DECISIONS ###
 GXC_war_decisions: "War decisions"

@@ -472,7 +472,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Benigno_Ramos_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_determined_populist
 			}
 		}
@@ -1317,7 +1317,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Jorge_Vargas_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_apologetic_clerk
 			}
 		}
@@ -1676,7 +1676,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Rafael_Alunan_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_reformer
 			}
 		}
@@ -1992,7 +1992,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Jose_G_Lukban_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_secret_police_chief
 			}
 		}

@@ -1396,7 +1396,7 @@ shared_focus = {
         if = {
             limit = {
                  OR = {
-                    has_government = valkist
+                    has_government = revivalist
                     has_government = social_conservative
                     has_government = national_populist
                     has_government = authoritarian_democrat
@@ -1830,7 +1830,7 @@ shared_focus = {
         if = {
             limit = {
                  OR = {
-                    has_government = valkist
+                    has_government = revivalist
                     has_government = national_populist
                 }
             }

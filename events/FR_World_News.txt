@@ -196,7 +196,7 @@ news_event = {
 			OR = {
 				tag = GER
 				is_in_faction_with = GER
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		name = worldnews.5.d

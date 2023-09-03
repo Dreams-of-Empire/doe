@@ -34,9 +34,9 @@ NFL_paternal_autocrat_DEF: "The Commonwealth of Newfoundland"
 NFL_national_populist: "State of Newfoundland"
 NFL_national_populist_ADJ: "Newfoundlander"
 NFL_national_populist_DEF: "The Newfoundlander's State"
-NFL_valkist: "Vinland"
-NFL_valkist_ADJ: "Vinlander"
-NFL_valkist_DEF: "Vinland"
+NFL_revivalist: "Vinland"
+NFL_revivalist_ADJ: "Vinlander"
+NFL_revivalist_DEF: "Vinland"
 
 #### Political Parties ####
 
@@ -60,8 +60,8 @@ NFL_paternal_autocrat_party: "Commission Gov't (UK)"
 NFL_paternal_autocrat_party_long: "Commission of Government (United Kingdom)"
 NFL_national_populist_party: "SCPN"
 NFL_national_populist_party_long: "Social Credit Party of Newfoundland"
-NFL_valkist_party: "NAUL"
-NFL_valkist_party_long: "North America Unity League"
+NFL_revivalist_party: "NAUL"
+NFL_revivalist_party_long: "North America Unity League"
 
 NFL_fun_long: "Federated Unions of Newfoundland"
 NFL_fun_short: "FUN"

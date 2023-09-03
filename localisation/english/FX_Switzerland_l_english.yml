@@ -34,9 +34,9 @@ SWI_paternal_autocrat_DEF: "The Alpine Empire"
 SWI_national_populist: "Alpine Empire"
 SWI_national_populist_ADJ: "Alpine"
 SWI_national_populist_DEF: "The Alpine Empire"
-SWI_valkist: "Schweizer Staat"
-SWI_valkist_ADJ: "Schweizer"
-SWI_valkist_DEF: "Schweizer Staat"
+SWI_revivalist: "Schweizer Staat"
+SWI_revivalist_ADJ: "Schweizer"
+SWI_revivalist_DEF: "Schweizer Staat"
 
 ### Parties
 SWI_vanguardist_party: "KUL-S"
@@ -59,8 +59,8 @@ SWI_paternal_autocrat_party: "FVP"
 SWI_paternal_autocrat_party_long: "Französische Volkspartei"
 SWI_national_populist_party: "DNDAP"
 SWI_national_populist_party_long: "Deutsche Nationaldemokratische Arbeiterpartei"
-SWI_valkist_party: "VWF"
-SWI_valkist_party_long: "Vaterland und Wiedervereinigungsfront"
+SWI_revivalist_party: "VWF"
+SWI_revivalist_party_long: "Vaterland und Wiedervereinigungsfront"
 
 #### Decisions ####
 #>categories below
@@ -166,7 +166,7 @@ SWI_swiss_mediation_desc: "The Swiss, who continue to swear neutrality, are reac
 SWI_empty_southern_industry_rosters: "Empty Southern Industry Rosters"
 SWI_empty_southern_industry_rosters_desc: "The Germans who departed for Switzerland recently have left an industrial hole, especially in the Southeast Rhine region. Our factories are suffering as a result."
 SWI_newfound_political_hegemony: "Newfound Political Hegemony"
-SWI_newfound_political_hegemony_desc: "The Germans who departed for Switzerland recently have left a political hole, one which we can easily fill. The power of the Valkists no longer wanes as much as it once did..."
+SWI_newfound_political_hegemony_desc: "The Germans who departed for Switzerland recently have left a political hole, one which we can easily fill. The power of the revivalists no longer wanes as much as it once did..."
 SWI_integrating_german_malcontents: "Integrating German Malcontents"
 SWI_integrating_german_malcontents_desc: "Disaffected Germans have recently arrived in the northern cantons to start life anew in this country. The Reich seems oddly unreticent to see them go, but it no doubt makes the government there happier..."
 SWI_railway_strikes: "Socialist-Led Railway Strikes"

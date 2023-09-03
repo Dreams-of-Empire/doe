@@ -104,7 +104,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Corneliu_Zelea_Codreanu_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_determined_populist
 			}
 		}
@@ -672,7 +672,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Ion_Mota_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_local_tyrant
 			}
 		}
@@ -691,7 +691,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Ion_Mota_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_iron_fisted_brute
 			}
 		}
@@ -1177,7 +1177,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Gheorghe_Clime_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_resource_industrialist
 			}
 		}
@@ -1366,7 +1366,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Ion_Belgea_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_preserver_of_culture
 			}
 		}

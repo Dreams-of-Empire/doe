@@ -40,7 +40,7 @@ country_event = {
 
 	option = {
 		name = "We must purge any opposition."
-		set_country_flag = GER_valkist_path
+		set_country_flag = GER_revivalist_path
 	}
 }
 
@@ -201,7 +201,7 @@ country_event = { # Germany wants to renegotiate Navy
 			}
 			modifier = {
 				factor = 2
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -248,7 +248,7 @@ country_event = { # Germany wants to renegotiate Navy
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -426,7 +426,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -485,7 +485,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -540,7 +540,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -609,7 +609,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -1159,7 +1159,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -1213,7 +1213,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -1443,7 +1443,7 @@ country_event = {
 		ai_chance = {
 			factor = 40
 		}
-		name = "Valkism is just another face of Collectivism"
+		name = "Revivalism is just another face of Collectivism"
 			GER = {
 				country_event = ger.1036
 			}
@@ -1513,7 +1513,7 @@ country_event = { # German alliance - Poland
 			}
 			modifier = {
 				factor = 2
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -1558,7 +1558,7 @@ country_event = { # German alliance - Poland
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -2192,7 +2192,7 @@ country_event = {
 	ai_chance = {
 		factor = 160
 	}
-		name = "We must destroy the Valkist war machine at any cost"
+		name = "We must destroy the revivalist war machine at any cost"
 			GER = {
 				set_country_flag = GER_operation_punir
 				country_event = ger.1068
@@ -2621,14 +2621,14 @@ country_event = {
 
 	trigger = {
 		original_tag = GER
-		has_government = valkist
+		has_government = revivalist
 		date > 1937.3.4
 	}
 
 	fire_only_once = yes
 
 	option = {
-		name = "We should show the superiority of Valkist engineering om the wFRPd stage"
+		name = "We should show the superiority of revivalist engineering om the wFRPd stage"
 			country_event = { id = ger.175 months = 3 }
 		}
 
@@ -2747,7 +2747,7 @@ country_event = {
 		name = "Best of luck to our great scientist"
 		add_political_power = 50
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.10
 		}
 	}
@@ -3771,11 +3771,11 @@ country_event = { # WIP Austria coup
 		ai_chance = {
 			factor = 160
 		}
-		name = "Valkist coup is successful!"
+		name = "revivalist coup is successful!"
 		copy_government_idea_of_ROOT = yes
-		set_politics = { ruling_party = Valkist elections_allowed = no }
+		set_politics = { ruling_party = revivalist elections_allowed = no }
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.25
 		}
 		# GER = { # Germany buff will probably undo
@@ -3794,7 +3794,7 @@ country_event = { # WIP Austria coup
 	ai_chance = {
 		factor = 40
 	}
-	name = "The Bundesheer fends the valkists off!"
+	name = "The Bundesheer fends the revivalists off!"
 		clr_country_flag = GER_aus_coup
 		GER = {
 			set_country_flag = GER_aus_lives
@@ -3837,7 +3837,7 @@ country_event = { # Austrian event - puppeted
 		name = "Ernst Kaltenbrunner"
 		desc = ""
 		picture = "AUS_Portrait_Ernst_Kaltenbrunner.png"
-		ideology = valkist_subtype
+		ideology = revivalist_subtype
 		traits = { }
 		}
 	}
@@ -3917,13 +3917,13 @@ country_event = {
 		load_focus_tree = generic_focus
 		copy_government_idea_of_ROOT = yes
 		set_politics = {
-			ruling_party = valkist elections_allowed = no
+			ruling_party = revivalist elections_allowed = no
 		}
 		create_country_leader = {
 		name = "Ernst Kaltenbrunner"
 		desc = ""
 		picture = "AUS_Portrait_Ernst_Kaltenbrunner.png"
-		ideology = valkist_subtype
+		ideology = revivalist_subtype
 		traits = { }
 		}
 		custom_effect_tooltip = FRA_council_sub5
@@ -5245,14 +5245,14 @@ country_event = { # Fate of Denmark
 				set_cosmetic_tag = GER_DEN_rk
 				copy_government_idea_of_ROOT = yes
 				set_politics = {
-					ruling_party = valkist elections_allowed = no
+					ruling_party = revivalist elections_allowed = no
 				}
 				create_country_leader = {
 				name = "Frits Clausen"
 				desc = "POLITICS_FRITS_CLAUSEN_DESC"
 				picture = "gfx/leaders/DEN/Portrait_Denmark_Frits_Clausen.png"
 				expire = "1965.1.1"
-				ideology = valkist_subtype
+				ideology = revivalist_subtype
 				traits = { }
 				}
 			}
@@ -5285,14 +5285,14 @@ country_event = { # Fate of Player Denmark
 				set_cosmetic_tag = GER_DEN_rk
 				copy_government_idea_of_ROOT = yes
 				set_politics = {
-					ruling_party = valkist elections_allowed = no
+					ruling_party = revivalist elections_allowed = no
 				}
 				create_country_leader = {
 				name = "Frits Clausen"
 				desc = "POLITICS_FRITS_CLAUSEN_DESC"
 				picture = "gfx/leaders/DEN/Portrait_Denmark_Frits_Clausen.png"
 				expire = "1965.1.1"
-				ideology = valkist_subtype
+				ideology = revivalist_subtype
 				traits = { }
 				}
 			}
@@ -5515,7 +5515,7 @@ country_event = { # Germany supports Indian rebels
 	}
 }
 
-country_event = { # Germany pushes Valkism in Norway
+country_event = { # Germany pushes Revivalism in Norway
 	id = ger.123
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.123"}
 	title = ger.123.t
@@ -5524,7 +5524,7 @@ country_event = { # Germany pushes Valkism in Norway
 
 	trigger = {
 		original_tag = NOR
-		has_country_flag = NOR_valkist_threat
+		has_country_flag = NOR_revivalist_threat
 	}
 
 	fire_only_once = yes
@@ -5532,7 +5532,7 @@ country_event = { # Germany pushes Valkism in Norway
 	option = {
 	name = ger.123.a
 		add_timed_idea = {
-			idea = GER_valkist_scandinavia
+			idea = GER_revivalist_scandinavia
 			days = 180
 		}
 	}
@@ -5802,14 +5802,14 @@ country_event = { # Poland gives Lithuania
 				load_focus_tree = generic_focus
 				copy_government_idea_of_ROOT = yes
 				set_politics = {
-					ruling_party = valkist elections_allowed = no
+					ruling_party = revivalist elections_allowed = no
 				}
 				create_country_leader = {
 				name = "Augustinas Voldemaras"
 				desc = ""
 				picture = "gfx/leaders/LIT/Portrait_LIT_Augustinas_Voldemaras.png"
 				expire = "1965.1.1"
-				ideology = valkist_subtype
+				ideology = revivalist_subtype
 				traits = { }
 				}
 				set_cosmetic_tag = GER_LIT_rk
@@ -6107,14 +6107,14 @@ country_event = { # Poland ignored ultimatum
 			# LIT = {
 				# load_focus_tree = generic_focus
 				# set_politics = {
-					# ruling_party = valkist elections_allowed = no
+					# ruling_party = revivalist elections_allowed = no
 				# }
 				# create_country_leader = {
 				# name = "Augustinas Voldemaras"
 				# desc = ""
 				# picture = "gfx/leaders/LIT/Portrait_LIT_Augustinas_Voldemaras.png"
 				# expire = "1965.1.1"
-				# ideology = valkist_subtype
+				# ideology = revivalist_subtype
 				# traits = { }
 				# }
 				# set_cosmetic_tag = LIT_puppet
@@ -6188,7 +6188,7 @@ country_event = { # Remove military limitations
 	trigger = {
 		tag = GER
 		date > 1936.9.15
-		has_government = valkist
+		has_government = revivalist
 	}
 
 	mean_time_to_happen = {
@@ -6660,7 +6660,7 @@ country_event = {
 	trigger = {
 		tag = GER
 		GER = {
-			has_government = valkist
+			has_government = revivalist
 			has_war_with = FRA
 			surrender_progress > 0.50
 		}
@@ -6675,7 +6675,7 @@ country_event = {
 	name = "The church can't be trusted"
 		add_political_power = 100
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.05
 		}
 		add_stability = -0.05
@@ -6690,7 +6690,7 @@ country_event = {
 country_event = { #
 	id = ger.172
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.172"}
-	title = "Valkists petition to have Notre Dame hosts there ceremonies"
+	title = "revivalists petition to have Notre Dame hosts there ceremonies"
 	desc = ger.172.d
 	picture = GFX_report_event_communists_cheer
 
@@ -6711,7 +6711,7 @@ country_event = { #
 	ai_chance = {
 		factor = 80
 	}
-	name = "Of course we support our fellow Valkists"
+	name = "Of course we support our fellow revivalists"
 		add_political_power = 50
 		FRP = {
 			country_event = ger.173
@@ -6725,7 +6725,7 @@ country_event = { #
 	name = "We shouldn't try to upset our new French ally"
 		add_political_power = -50
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = -0.02
 		}
 		add_stability = -0.05
@@ -6743,10 +6743,10 @@ country_event = { #
 	is_triggered_only = yes
 
 	option = {
-	name = "The French will learn to love the Valkist traditions"
+	name = "The French will learn to love the revivalist traditions"
 		add_political_power = -50
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.03
 		}
 	}
@@ -6801,7 +6801,7 @@ country_event = { #
 		}
 	name = "Quite the modern marvel"
 		ENG = {
-			add_popularity = { ideology = valkist popularity = 0.03 }
+			add_popularity = { ideology = revivalist popularity = 0.03 }
 		}
 	}
 }
@@ -6836,7 +6836,7 @@ country_event = {
 		}
 	name = "Zeppelins are old news anyways"
 		FRA = {
-			add_popularity = { ideology = valkist popularity = 0.03 }
+			add_popularity = { ideology = revivalist popularity = 0.03 }
 		}
 	}
 }
@@ -6871,7 +6871,7 @@ country_event = { #
 		}
 	name = "This is the future of Trans-Atlantic travel"
 		USA = {
-			add_popularity = { ideology = valkist popularity = 0.03 }
+			add_popularity = { ideology = revivalist popularity = 0.03 }
 		}
 	}
 }
@@ -6906,7 +6906,7 @@ country_event = { #
 		}
 	name = "Our engineers can learn much from Germany"
 		JAP = {
-			add_popularity = { ideology = valkist popularity = 0.03 }
+			add_popularity = { ideology = revivalist popularity = 0.03 }
 		}
 	}
 }
@@ -6935,7 +6935,7 @@ country_event = { #
 		}
 	name = "Germany seems to be showing much favor towards us"
 		TUR = {
-			add_popularity = { ideology = valkist popularity = 0.03 }
+			add_popularity = { ideology = revivalist popularity = 0.03 }
 		}
 	}
 }
@@ -7964,7 +7964,7 @@ country_event = { # Slovakia - German alliance
 			}
 			modifier = {
 				factor = 2
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -8011,7 +8011,7 @@ country_event = { # Slovakia - German alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -8635,7 +8635,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 2
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -8682,7 +8682,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -9263,14 +9263,14 @@ country_event = { # Poland - Germany demands submission
 			load_focus_tree = generic_focus
 			copy_government_idea_of_ROOT = yes
 			set_politics = {
-				ruling_party = valkist elections_allowed = no
+				ruling_party = revivalist elections_allowed = no
 			}
 			create_country_leader = {
 			name = "Wacław Krzeptowski"
 			desc = ""
 			picture = "gfx/leaders/POL/Portrait_Poland_Waclaw_Krzeptowski.png"
 			expire = "1965.1.1"
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 			}
 			set_cosmetic_tag = GER_POL_rk
@@ -9374,7 +9374,7 @@ country_event = { # Finland - Germany offers alliance
 			}
 			modifier = {
 				factor = 2
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -9421,7 +9421,7 @@ country_event = { # Finland - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -9507,7 +9507,7 @@ country_event = { # Turkey - Germany offers alliance
 			}
 			modifier = {
 				factor = 2
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -9586,7 +9586,7 @@ country_event = { # Turkey - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -9773,7 +9773,7 @@ country_event = { # Lithuania - German support?
 			}
 			modifier = {
 				factor = 2
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 0.25
@@ -9818,7 +9818,7 @@ country_event = { # Lithuania - German support?
 			}
 			modifier = {
 				factor = 0.25
-				has_government = valkist
+				has_government = revivalist
 			}
 			modifier = {
 				factor = 4
@@ -10641,12 +10641,12 @@ country_event = { # Germany - RK Moscow?
 		VRS = {
 			set_cosmetic_tag = RUS_puppet
 			copy_government_idea_of_ROOT = yes
-			set_politics = { ruling_party = valkist }
+			set_politics = { ruling_party = revivalist }
 			create_country_leader = {
 				name = "Konstantin Rodzaevsky"
 				picture = "gfx/leaders/RUS/Portrait_Russia_Konstantin_Rodzaevsky.png"
 				expire = "1953.3.1"
-				ideology = valkist_subtype
+				ideology = revivalist_subtype
 				traits = {	
 				}
 			}
@@ -11250,7 +11250,7 @@ country_event = { # Germany - The fate for occupied France
 				}
 			}
 			else_if = {
-				limit = { has_government = valkist }
+				limit = { has_government = revivalist }
 				FRP = {
 					set_cosmetic_tag = GER_FRA_rk
 					copy_government_idea_of_ROOT = yes
@@ -11307,7 +11307,7 @@ country_event = { # Germany - The fate for occupied France
 	}
 }
 
-country_event = { # Valkist France - Establish administration
+country_event = { # revivalist France - Establish administration
 	id = ger.404
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.404"}
     title = ger.404.t
@@ -11347,7 +11347,7 @@ country_event = { # Valkist France - Establish administration
 	}
 }
 
-country_event = { # Valkist France - partisan problem
+country_event = { # revivalist France - partisan problem
 	id = ger.4041
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.4041"}
 	title = ger.4041.t
@@ -11375,7 +11375,7 @@ country_event = { # Valkist France - partisan problem
 	}
 }
 
-country_event = { # Valkist France - partisans damage industry
+country_event = { # revivalist France - partisans damage industry
 	id = ger.405
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.405"}
 	title = ger.405.t
@@ -11405,7 +11405,7 @@ country_event = { # Valkist France - partisans damage industry
 	}
 }
 
-country_event = { # Valkist France - At peace
+country_event = { # revivalist France - At peace
 	id = ger.406
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.406"}
 	title = ger.406.t
@@ -11636,7 +11636,7 @@ country_event = { # Italy Capitulates to North Africa
 							has_government = collectivist
 							has_government = fasci
 							has_government = vanguardist
-							has_government = valkist
+							has_government = revivalist
 							has_government = paternal_autocrat
 							has_government = national_populist
 						}
@@ -12237,7 +12237,7 @@ country_event = { # Germany - The fate for occupied Italy
 			}
 			ITP = {
 				set_political_party = {
-					ideology = valkist
+					ideology = revivalist
 					popularity = 60
 				}
 				add_ideas = {
@@ -12303,7 +12303,7 @@ option = { # Germany shall conquer all
     }
 }
 
-country_event = { # Valkist Italy - Establish administration
+country_event = { # revivalist Italy - Establish administration
 	id = ger.414
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.414"}
 	title = ger.414.t
@@ -12340,7 +12340,7 @@ country_event = { # Valkist Italy - Establish administration
 	}
 }
 
-country_event = { # Valkist Italy - partisans damage industry
+country_event = { # revivalist Italy - partisans damage industry
 	id = ger.415
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.415"}
     title = ger.415.t
@@ -12371,7 +12371,7 @@ country_event = { # Valkist Italy - partisans damage industry
 	}
 }
 
-country_event = { # Valkist Italy - partisans damage industry
+country_event = { # revivalist Italy - partisans damage industry
 	id = ger.4152
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.4152"}
     title = ger.415.t
@@ -12397,7 +12397,7 @@ country_event = { # Valkist Italy - partisans damage industry
 	}
 }
 
-country_event = { # Valkist Italy - At peace
+country_event = { # revivalist Italy - At peace
 	id = ger.416
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.416"}
     title = ger.416.t
@@ -13495,7 +13495,7 @@ country_event = { # Switzerland War- We've Found the old Kaiser
     name = ger.428.c
 		add_political_power = -100
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.10
 		}
 		add_popularity = {

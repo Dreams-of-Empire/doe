@@ -31,9 +31,9 @@ TRA_paternal_autocrat_DEF: "The Nationalist Republic of Transylvania"
 TRA_national_populist: "Transylvania"
 TRA_national_populist_ADJ: "Transylvanian"
 TRA_national_populist_DEF: "The Transitional Government of Transylvania"
-TRA_valkist: "Transylvania"
-TRA_valkist_ADJ: "Transylvanian"
-TRA_valkist_DEF: "Transylvania"
+TRA_revivalist: "Transylvania"
+TRA_revivalist_ADJ: "Transylvanian"
+TRA_revivalist_DEF: "Transylvania"
 
 #### Ideas ####
 

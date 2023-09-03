@@ -986,7 +986,7 @@ country_event = { #the republics revolt!
 		add_popularity = { ideology = fasci popularity = -0.25 }
 		add_popularity = { ideology = collectivist popularity = -0.25 }
 		add_popularity = { ideology = vanguardist popularity = -0.25 }
-		add_popularity = { ideology = valkist popularity = -0.25 }
+		add_popularity = { ideology = revivalist popularity = -0.25 }
 		add_popularity = { ideology = social_conservative popularity = -0.3 }
 		add_popularity = { ideology = social_liberal popularity = -0.1 }
 		add_stability = 0.25

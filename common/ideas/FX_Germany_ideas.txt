@@ -47,11 +47,11 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 		}
-		GER_valkist_scandinavia = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_valkist_scandinavia"}
+		GER_revivalist_scandinavia = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_revivalist_scandinavia"}
 			picture = generic_fascism_drift_bonus
 			modifier = {
-				valkist_drift = 0.1
+				revivalist_drift = 0.1
 			}
 		}
 		FRA_german_sanctions = {
@@ -554,7 +554,7 @@ ideas = {
 			picture = generic_secret_police
 			modifier = {
 				consumer_goods_factor = 0.1
-				valkist_drift = 0.10
+				revivalist_drift = 0.10
 				stability_weekly = 0.001
 			}
 		}

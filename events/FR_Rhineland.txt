@@ -148,7 +148,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = RHI
-		has_global_flag = RHI_F_valkist
+		has_global_flag = RHI_F_revivalist
 	}
 	mean_time_to_happen = { days = 0 }
 	option = {
@@ -232,7 +232,7 @@ country_event = {
 	option = {
 		name = "Damn them!"
 		add_stability = -0.10
-		add_popularity = { ideology = valkist popularity = 0.1 }
+		add_popularity = { ideology = revivalist popularity = 0.1 }
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.10 }
 		hidden_effect = {
 			country_event = { id = rhi.crisis.2 days = 14 }
@@ -281,7 +281,7 @@ country_event = {
 	option = {
 		name = "The government is paralized!"
 		add_stability = -0.20
-		add_popularity = { ideology = valkist popularity = 0.30 }
+		add_popularity = { ideology = revivalist popularity = 0.30 }
 		hidden_effect = {
 			FRA = { country_event = rhi.france.3 }
 		}
@@ -418,7 +418,7 @@ country_event = {
 	}
 	option = {
 		name = "No agreement is found"
-		add_popularity = { ideology = valkist popularity = 0.03 }
+		add_popularity = { ideology = revivalist popularity = 0.03 }
 		hidden_effect = {
 			set_country_flag = rhi_conference_end
 		}
@@ -488,7 +488,7 @@ country_event = {
 country_event = {
 	id = rhi.crisis.10
 	immediate = {log = "[GetDateText]: [Root.GetName]: event rhi.crisis.10"}
-	title = "Valkist Putsche!"
+	title = "revivalist Putsche!"
 	desc = rhi.20.d
 	picture = GFX_report_event_german_troops
 	
@@ -510,7 +510,7 @@ country_event = {
 	
 	option = {
 		name = "Ask France to intervene!"
-		add_popularity = { ideology = valkist popularity = 0.10 }
+		add_popularity = { ideology = revivalist popularity = 0.10 }
 		add_stability = -0.10
 		hidden_effect = {
 			if = {
@@ -529,7 +529,7 @@ country_event = {
 	}
 	option = {
 		name = "Embrace the German revolution!"
-		add_popularity = { ideology = valkist popularity = 0.10 }
+		add_popularity = { ideology = revivalist popularity = 0.10 }
 		add_stability = -0.10
 		hidden_effect = {
 			if = {
@@ -629,7 +629,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		add_stability = -0.2
-		add_popularity = { ideology = valkist popularity = 0.20 }
+		add_popularity = { ideology = revivalist popularity = 0.20 }
 		name = "Damn this blood soaked river!"
 		hidden_effect = {
 			FRA = { country_event = rhi.crisis.5 }
@@ -652,7 +652,7 @@ country_event = {
 	option = {
 		name = "The chains tighten."
 		remove_ideas =  RHI_S_political_powderkeg
-		add_popularity = { ideology = valkist popularity = -0.15 }
+		add_popularity = { ideology = revivalist popularity = -0.15 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.25 }
 		add_ideas = colonial_government
 		set_politics = {
@@ -686,12 +686,12 @@ country_event = {
 		name = "The path to unification opens."
 		add_ideas = revolutionary_movement
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 		}
 		hidden_effect = {
 			set_global_flag = RHI_F_crisis_end
-			set_global_flag = RHI_F_valkist
+			set_global_flag = RHI_F_revivalist
       add_ideas = {
         RHI_Albert_Leo_Schlageter_hog_val
         RHI_Walter_Stennes_for_val
@@ -1567,7 +1567,7 @@ country_event = {
 country_event = {
 	id = rhi.305
 	immediate = {log = "[GetDateText]: [Root.GetName]: event rhi.305"}
-	title = "Status: Valkist"
+	title = "Status: revivalist"
 	desc = rhi.0.d
 	picture = Ausgleich_dip_agree2
 
@@ -1583,7 +1583,7 @@ country_event = {
 
 # RHINELAND WILL LIVVVEEEEEE - Drowse
 
-country_event = { # Valkists Defect to Germany 
+country_event = { # revivalists Defect to Germany 
 	id = rhi.400
 	immediate = {log = "[GetDateText]: [Root.GetName]: event rhi.400"}
 	title = rhi.400.t
@@ -1610,7 +1610,7 @@ country_event = { # Valkists Defect to Germany
 		name = rhi.400.a
 		add_manpower = -20000
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = -0.15	
 		}
 		hidden_effect = {
@@ -1621,7 +1621,7 @@ country_event = { # Valkists Defect to Germany
 	}
 }
 
-country_event = { # Valkists Defect to Germany - Response
+country_event = { # revivalists Defect to Germany - Response
 	id = rhi.401
 	immediate = {log = "[GetDateText]: [Root.GetName]: event rhi.401"}
 	title = rhi.401.t
@@ -1636,7 +1636,7 @@ country_event = { # Valkists Defect to Germany - Response
 		name = rhi.401.a
 		add_manpower = 20000
 		hidden_effect = {
-			load_oob = GER_valkist_rhinemen
+			load_oob = GER_revivalist_rhinemen
 			GER = {
 				country_event = { id = rhi.402 days = 14 }
 			}			
@@ -1644,7 +1644,7 @@ country_event = { # Valkists Defect to Germany - Response
 	}
 }
 
-country_event = { # Valkists rise up in Rhine to assist Germany
+country_event = { # revivalists rise up in Rhine to assist Germany
 	id = rhi.402
 	immediate = {log = "[GetDateText]: [Root.GetName]: event rhi.402"}
 	title = rhi.402.t
@@ -1671,7 +1671,7 @@ country_event = { # Valkists rise up in Rhine to assist Germany
 			load_oob = GER_rhine_revolt
 			RHI = {
 				add_popularity = {
-					ideology = valkist
+					ideology = revivalist
 					popularity = -0.1	
 				}
 			}

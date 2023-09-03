@@ -465,12 +465,12 @@ ideas = {
 				production_speed_arms_factory_factor = 0.1
 			}
 		}
-		USA_clamp_down_on_valkism = {
+		USA_clamp_down_on_revivalism = {
 			picture = generic_oppression
 			modifier = {
 				paternal_autocrat_drift = -0.1
 				national_populist_drift = -0.1
-				valkist_drift = -0.1
+				revivalist_drift = -0.1
 			}
 		}
 		USA_equipment_support_idea = {

@@ -7,7 +7,7 @@ ideas = {
     ROM_the_iron_guard = {
       allowed = { original_tag = ROM }
       available = {
-        NOT = { has_government = valkist }
+        NOT = { has_government = revivalist }
       }
       picture = ROM_iron_guard
       modifier = {
@@ -274,7 +274,7 @@ ideas = {
     }
     ROM_legion_army = {
       allowed = { original_tag = ROM }
-      available = { has_government = valkist }
+      available = { has_government = revivalist }
       picture = generic_manpower_bonus
       modifier = {
         conscription_factor = 0.05
@@ -285,7 +285,7 @@ ideas = {
     }
     ROM_legion_support = {
       allowed = { original_tag = ROM }
-      available = { has_government = valkist }
+      available = { has_government = revivalist }
       picture = generic_reserve_divisions
       modifier = {
         army_org_factor = 0.05
@@ -296,7 +296,7 @@ ideas = {
     }
     ROM_legion_secret_police_idea = {
       allowed = { original_tag = ROM }
-      available = { has_government = valkist }
+      available = { has_government = revivalist }
       picture = generic_secret_police
       modifier = {
         required_garrison_factor = -0.05
@@ -305,7 +305,7 @@ ideas = {
     }
     ROM_legion_secret_police_idea_lar = {
       allowed = { original_tag = ROM }
-      available = { has_government = valkist }
+      available = { has_government = revivalist }
       picture = generic_secret_police
       modifier = {
         encryption_factor = 0.1
@@ -316,7 +316,7 @@ ideas = {
     }
     ROM_legionary_agriculture = {
       allowed = { original_tag = ROM }
-      available = { has_government = valkist }
+      available = { has_government = revivalist }
       picture = generic_agrarian_society
       modifier = {
         global_building_slots_factor = 0.25
@@ -325,7 +325,7 @@ ideas = {
     }
     ROM_legionary_welfare = {
       allowed = { original_tag = ROM }
-      available = { has_government = valkist }
+      available = { has_government = revivalist }
       picture = raj_risk_of_famine
       modifier = {
         production_factory_max_efficiency_factor = 0.05
@@ -335,7 +335,7 @@ ideas = {
     }
     ROM_camp_service = {
       allowed = { original_tag = ROM }
-      available = { has_government = valkist }
+      available = { has_government = revivalist }
       picture = ast_all_in
       modifier = {
         production_speed_buildings_factor = 0.15
@@ -345,7 +345,7 @@ ideas = {
     }
     ROM_culture_centres = {
       allowed = { original_tag = ROM }
-      available = { has_government = valkist }
+      available = { has_government = revivalist }
       picture = FRA_national_mobilization_focus
       modifier = {
         political_power_gain = 0.15
@@ -354,7 +354,7 @@ ideas = {
     }
     ROM_legionary_brotherhood = {
       allowed = { original_tag = ROM }
-      available = { has_government = valkist }
+      available = { has_government = revivalist }
       picture = tfv_can_conscription_crisis
       modifier = {
         war_support_factor = 0.1

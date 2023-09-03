@@ -32,9 +32,9 @@ EST_paternal_autocrat_DEF: "The Estonian Republic"
 EST_national_populist: "Estonian Republic"
 EST_national_populist_ADJ: "Estonian"
 EST_national_populist_DEF: "The Estonian Republic"
-EST_valkist: "Eesti Vabariik"
-EST_valkist_ADJ: "Eesti"
-EST_valkist_DEF: "Eesti Vabariik"
+EST_revivalist: "Eesti Vabariik"
+EST_revivalist_ADJ: "Eesti"
+EST_revivalist_DEF: "Eesti Vabariik"
 
 ### Political Parties ###
 
@@ -70,8 +70,8 @@ EST_paternal_autocrat_party: "Sõjaline Valitsus"
 EST_paternal_autocrat_party_long: "Johan Laidoneri Sõjaväevalitsus"
 EST_national_populist_party: "Vabadussõjalased"
 EST_national_populist_party_long: "Eesti Vabadussõjalaste Liit"
-EST_valkist_party: "Taarausk"
-EST_valkist_party_long: "Taarausk"
+EST_revivalist_party: "Taarausk"
+EST_revivalist_party_long: "Taarausk"
 
 ### National Spirits ###
 
@@ -351,7 +351,7 @@ estonia.105.d: "With the new constitution now going into effect, it is time for 
 estonia.105.a: "A New Future Ahead!"
 
 estonia.106.t: "What About the Military Government?"
-estonia.106.d: "With the military now in control over the country, we are now able to steer the nation as we wishes. These steps, while autocratic, has been necessary to secure the independence and safety of Estonia. With the Red Bear of the Soviet Union in the East. With the Eagle of Valkist Germany in the West. Estonia needs firm and stable governance to prevail."
+estonia.106.d: "With the military now in control over the country, we are now able to steer the nation as we wishes. These steps, while autocratic, has been necessary to secure the independence and safety of Estonia. With the Red Bear of the Soviet Union in the East. With the Eagle of revivalist Germany in the West. Estonia needs firm and stable governance to prevail."
 estonia.106.a: "Long Live Estonia!"
 
 estonia.107.t: "Democracy Clothed by the Movement"

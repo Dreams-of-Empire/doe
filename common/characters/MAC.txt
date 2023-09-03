@@ -29,7 +29,7 @@ characters = {
 			ideology = social_democrat_subtype
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 		}
 		country_leader = {
 			ideology = national_populist_subtype

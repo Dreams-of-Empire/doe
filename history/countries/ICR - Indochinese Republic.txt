@@ -52,7 +52,7 @@ set_popularities = {
 	authoritarian_democrat = 12
 	paternal_autocrat = 2
 	national_populist = 1
-	valkist = 1
+	revivalist = 1
 }
 
 recruit_character = ICR_Ho_Chi_Minh

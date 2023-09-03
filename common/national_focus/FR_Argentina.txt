@@ -2834,7 +2834,7 @@ focus_tree = {
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
-						has_government = valkist
+						has_government = revivalist
 						has_government = national_populist
 						has_government = paternal_autocrat						
 
@@ -2884,7 +2884,7 @@ focus_tree = {
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
-						has_government = valkist
+						has_government = revivalist
 						has_government = national_populist
 						has_government = paternal_autocrat						
 
@@ -3563,7 +3563,7 @@ focus_tree = {
 						has_government = collectivist
 						has_government = paternal_autocrat
 						has_government = authoritarian_democrat
-						has_government = valkist
+						has_government = revivalist
 						has_government = national_populist
 					}
 				}
@@ -3766,7 +3766,7 @@ focus_tree = {
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
-						has_government = valkist
+						has_government = revivalist
 						has_government = national_populist
 						has_government = paternal_autocrat
 					}

@@ -31,9 +31,9 @@ SCH_paternal_autocrat_DEF: "The Sichuan Clique"
 SCH_national_populist: "Sichuan Clique"
 SCH_national_populist_ADJ: "Sichuanese"
 SCH_national_populist_DEF: "The Sichuan Clique"
-SCH_valkist: "Sichuan Clique"
-SCH_valkist_ADJ: "Sichuanese"
-SCH_valkist_DEF: "The Sichuan Clique"
+SCH_revivalist: "Sichuan Clique"
+SCH_revivalist_ADJ: "Sichuanese"
+SCH_revivalist_DEF: "The Sichuan Clique"
 
 ### Parties
 SCH_vanguardist_party: "KMT"

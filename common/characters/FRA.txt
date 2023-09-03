@@ -249,7 +249,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}
@@ -1007,7 +1007,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Jacques_Doriot_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_underground_figurehead
 			}
 		}

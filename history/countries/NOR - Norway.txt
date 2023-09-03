@@ -92,7 +92,7 @@ set_popularities = {
   authoritarian_democrat = 4
   paternal_autocrat = 3
   national_populist = 2
-  valkist = 2
+  revivalist = 2
 }
 
 recruit_character = NOR_Olav_V

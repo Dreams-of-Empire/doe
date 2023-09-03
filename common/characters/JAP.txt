@@ -187,7 +187,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Inoue_Nissho_sec_val_hired }
 			on_remove = { clr_character_flag = JAP_Inoue_Nissho_sec_val_hired }
 			traits = {
-				valkist
+				revivalist
 				sec_prince_of_terror
 			}
 		}
@@ -206,7 +206,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Inoue_Nissho_hog_val_hired }
 			on_remove = { clr_character_flag = JAP_Inoue_Nissho_hog_val_hired }
 			traits = {
-				valkist
+				revivalist
 				hog_holy_vice_marshal
 			}
 		}
@@ -470,7 +470,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Kanji_Ishiwara_sec_val_hired }
 			on_remove = { clr_character_flag = JAP_Kanji_Ishiwara_sec_val_hired }
 			traits = {
-				valkist
+				revivalist
 				sec_prince_of_terror
 			}
 		}
@@ -2047,7 +2047,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Hayashi_Fusao_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_biased_intellectual
 			}
 		}
@@ -2593,7 +2593,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Kimura_Takeo_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_reformer
 			}
 		}

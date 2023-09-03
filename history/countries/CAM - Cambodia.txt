@@ -72,7 +72,7 @@ set_popularities = {
     authoritarian_democrat = 0
     paternal_autocrat = 0
     national_populist = 0
-    valkist = 0
+    revivalist = 0
 }
 
 recruit_character = CAM_Pol_Pot

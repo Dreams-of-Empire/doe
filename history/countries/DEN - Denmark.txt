@@ -91,7 +91,7 @@ set_popularities = {
 	authoritarian_democrat = 3
 	paternal_autocrat = 0
 	national_populist = 2
-	valkist = 1
+	revivalist = 1
 }
 
 add_coalition_social_liberal = yes 

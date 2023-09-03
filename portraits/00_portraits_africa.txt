@@ -337,7 +337,7 @@ NFA = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -465,7 +465,7 @@ NFQ = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -597,7 +597,7 @@ ETH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -729,7 +729,7 @@ IVO = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -861,7 +861,7 @@ DAH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -993,7 +993,7 @@ TOG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -1125,7 +1125,7 @@ VOL = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -1257,7 +1257,7 @@ COG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		valkist = {
+		revivalist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"

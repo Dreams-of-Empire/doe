@@ -34,7 +34,7 @@ set_popularities = {
 	authoritarian_democrat = 64
 	paternal_autocrat = 4
 	national_populist = 4
-	valkist = 0
+	revivalist = 0
 }
 
 recruit_character = BHU_Jigme_Wangchuck

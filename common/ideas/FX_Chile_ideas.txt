@@ -209,13 +209,13 @@ ideas = {
 			}
 		}
 
-		CHL_chilean_valkism_idea = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_chilean_valkism_idea"}
+		CHL_chilean_revivalism_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_chilean_revivalism_idea"}
 			allowed = {
 			original_tag = "CHL"
 			}
 
-			picture = generic_valkist_support
+			picture = generic_revivalist_support
 
 
 			modifier = {
@@ -263,13 +263,13 @@ ideas = {
 			}
 		}
 
-		CHL_roto_valkism = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_roto_valkism"}
+		CHL_roto_revivalism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_roto_revivalism"}
 			allowed = {
 			original_tag = "CHL"
 			}
 
-			picture = generic_valkist_support
+			picture = generic_revivalist_support
 			modifier = {
 				political_power_gain = 0.1	
 				war_support_factor = 0.15	

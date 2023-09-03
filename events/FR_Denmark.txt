@@ -115,7 +115,7 @@ country_event = {
 	option = {
 		name = denmark.5.a
 		add_political_power = -10
-		add_popularity = { ideology = valkist popularity = 0.01 }
+		add_popularity = { ideology = revivalist popularity = 0.01 }
 		hidden_effect = {
 		}
 	}
@@ -1131,7 +1131,7 @@ country_event = {
 		add_popularity = { ideology = social_liberal popularity = -0.03 }
 		add_popularity = { ideology = market_liberal popularity = -0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.05 }
-		add_popularity = { ideology = valkist popularity = -0.02 }
+		add_popularity = { ideology = revivalist popularity = -0.02 }
 		set_country_flag = DEN_lyksborg_coup_flag
 		custom_effect_tooltip = DEN_monarchist_coup_tooltip
 		hidden_effect = {
@@ -1473,14 +1473,14 @@ country_event = {
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:vanguardist }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:valkist }
+			set_temp_variable = { coalition_partner_var = token:revivalist }
 			add_to_coalition = yes 
-			add_popularity = { ideology = valkist popularity = -0.03 }
+			add_popularity = { ideology = revivalist popularity = -0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
 			set_party_name = { 
-				ideology = valkist 
-				long_name = DEN_valkist_natpop_party_long 
-				name = DEN_valkist_natpop_party 
+				ideology = revivalist 
+				long_name = DEN_revivalist_natpop_party_long 
+				name = DEN_revivalist_natpop_party 
 			}
 			GER = {
 				transfer_state = 784
@@ -1511,13 +1511,13 @@ country_event = {
 		tag = DEN
 		OR = {
 			has_government = national_populist
-			has_government = valkist
+			has_government = revivalist
 		}
 	}
 
     option = {
         name = denmark.38.a
-		add_popularity = { ideology = valkist popularity = 0.02 }
+		add_popularity = { ideology = revivalist popularity = 0.02 }
 		add_popularity = { ideology = national_populist popularity = -0.02 }
 		hidden_effect = {
 			GER = {
@@ -1962,7 +1962,7 @@ country_event = {
 	option = {
 		name = denmark.51.a
 		add_popularity = { ideology = national_populist popularity = 0.02 }
-		add_popularity = { ideology = valkist popularity = 0.01 }
+		add_popularity = { ideology = revivalist popularity = 0.01 }
 		add_opinion_modifier = { target = GER modifier = in_faction }
 	}
 }
@@ -2811,7 +2811,7 @@ country_event = {
           authoritarian_democrat = 51
           paternal_autocrat = 9
           national_populist = 0
-          valkist = 0
+          revivalist = 0
         }
 				set_politics = {
 					ruling_party = authoritarian_democrat
@@ -3140,7 +3140,7 @@ country_event = {
 		ai_chance = { factor = 90 }
 	}
 	option = {
-		name = "A former valkist? Get rid of him!"
+		name = "A former revivalist? Get rid of him!"
 		add_stability = 0.05
 		ai_chance = { factor = 10 }
 	}
@@ -3254,7 +3254,7 @@ country_event = {
 	option = {
 		name = "We didn't need anymore Reds!"
 		add_political_power = -50
-		add_popularity = { ideology = valkist popularity = -0.03 }
+		add_popularity = { ideology = revivalist popularity = -0.03 }
 		add_popularity = { ideology = vanguardist popularity = 0.03 }
 		set_country_flag = SHO_strasser_is_here
 		GER_Otto_Strasser = {
@@ -3373,7 +3373,7 @@ country_event = {
           authoritarian_democrat = 0
           paternal_autocrat = 10
           national_populist = 0
-          valkist = 0
+          revivalist = 0
         }
 				set_politics = {
 					ruling_party = vanguardist

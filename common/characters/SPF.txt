@@ -47,7 +47,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
     advisor = {
@@ -65,7 +65,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Ramiro_Ledesma_Ramos_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_reformist_soldier
 			}
 		}
@@ -425,7 +425,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Pedro_Lain_Entralgo_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_silent_workhorse
 			}
 		}
@@ -444,7 +444,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Pedro_Lain_Entralgo_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_industrialiser
 			}
 		}
@@ -471,7 +471,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Eugenio_d_Ors_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_local_tyrant
 			}
 		}
@@ -490,7 +490,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Eugenio_d_Ors_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_secret_police_chief
 			}
 		}
@@ -509,7 +509,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Eugenio_d_Ors_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_administrative_genius
 			}
 		}
@@ -644,7 +644,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Pedro_Sainz_Rodriguez_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_balanced_budget_economy
 			}
 		}

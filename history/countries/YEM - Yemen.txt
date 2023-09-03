@@ -33,7 +33,7 @@ set_popularities = {
   authoritarian_democrat = 52
   paternal_autocrat = 6
   national_populist = 24
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = YEM_Imam_Yahya

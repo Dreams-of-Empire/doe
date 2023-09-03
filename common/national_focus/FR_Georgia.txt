@@ -3697,7 +3697,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_alliance_with_germany
-		icon = GFX_Valkist_Germany
+		icon = GFX_revivalist_Germany
 		cost = 5.00
 		prerequisite = {
 			focus = GEO_our_ancient_claims

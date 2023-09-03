@@ -62,7 +62,7 @@ scripted_gui = {
 					}
 					add_to_temp_variable = {
 						var = fascism_X
-						value = party_popularity@valkist
+						value = party_popularity@revivalist
 					}					
 					multiply_temp_variable = {
 						fascism_X = 210
@@ -72,7 +72,7 @@ scripted_gui = {
 					}
 					add_to_temp_variable = {
 						var = fascism_Y
-						value = party_popularity@valkist
+						value = party_popularity@revivalist
 					}					
 					multiply_temp_variable = {
 						fascism_Y = 112
@@ -210,7 +210,7 @@ scripted_gui = {
 							has_government = national_populist
 							has_government = paternal_autocrat
 							has_government = authoritarian_democrat
-							has_government = valkist
+							has_government = revivalist
 						}
 						all_of_scopes = {
 							array = global.majors

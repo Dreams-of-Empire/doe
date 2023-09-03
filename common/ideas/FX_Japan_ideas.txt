@@ -518,7 +518,7 @@ ideas = {
 					has_democratic_government = yes
 					has_government = paternal_autocrat
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 				country_exists = JAP
 			}
@@ -828,7 +828,7 @@ ideas = {
 			picture = JAP_holy_worker
 			allowed = { original_tag = JAP }
 			modifier = {
-				valkist_drift = 0.03
+				revivalist_drift = 0.03
 				production_lack_of_resource_penalty_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.15
 				political_power_cost = 0.1
@@ -840,7 +840,7 @@ ideas = {
 			picture = JAP_holy_radio
 			allowed = { original_tag = JAP }
 			modifier = {
-				valkist_drift = 0.05
+				revivalist_drift = 0.05
 				stability_weekly = 0.02
 				war_support_factor = 0.1
 				political_power_factor = -0.05

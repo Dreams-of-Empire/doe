@@ -684,7 +684,7 @@ country_event = {
                     authoritarian_democrat = 36
                     paternal_autocrat = 15
                     national_populist = 20
-                    valkist = 0
+                    revivalist = 0
                 }
 			}
 			ENG = {
@@ -927,7 +927,7 @@ country_event = {
                     authoritarian_democrat = 19
                     paternal_autocrat = 13
                     national_populist = 38
-                    valkist = 0
+                    revivalist = 0
                 }
 			}
 			BEA = {
@@ -1038,7 +1038,7 @@ country_event = {
                     authoritarian_democrat = 19
                     paternal_autocrat = 40
                     national_populist = 10
-                    valkist = 0
+                    revivalist = 0
                 }
 			}
 		}

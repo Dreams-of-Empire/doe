@@ -43,6 +43,6 @@ leader_traits = {
 	authoritarian_democrat = {}
 	paternal_autocrat = {}
 	national_populist = {}
-	valkist = {}
+	revivalist = {}
 
 }

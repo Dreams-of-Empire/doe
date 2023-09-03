@@ -38,7 +38,7 @@ country_event = { # Otaman Assassinated!
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = valkist_subtype
+					ideology = revivalist_subtype
 				}
 			}
 			add_country_leader_role = {
@@ -365,14 +365,14 @@ country_event = { # BNSP Secures Control
 	option = { # That was close...
 		name = belarus.13.a
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 		}
 		add_country_leader_role = {
 			character = BLR_Radasłaŭ_Astroŭski
 			promote_leader = yes
 			country_leader = {
-				ideology = valkist_subtype
+				ideology = revivalist_subtype
 				traits = { }
 			}
 		}
@@ -438,13 +438,13 @@ country_event = { # The Belarusian Home Guard
 	desc = {
 		text = belarus.44.d
 		trigger = {
-			NOT = { has_government = valkist }
+			NOT = { has_government = revivalist }
 		}
 	}
 	desc = {
 		text = belarus.44.d.1
 		trigger = {
-			has_government = valkist
+			has_government = revivalist
 		}
 	}
 	picture = GFX_report_event_BLR_officers
@@ -461,7 +461,7 @@ country_event = { # The Belarusian Home Guard
 	option = { # Disband them!
 		name = belarus.44.c
 		trigger = { 
-			has_government = valkist
+			has_government = revivalist
 		}
 
 		increase_ruling_party_popularity_by_10 = yes

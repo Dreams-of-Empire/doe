@@ -31,9 +31,9 @@ CRO_paternal_autocrat_DEF: "The Kingdom of Croatia"
 CRO_national_populist: "Independent State of Croatia"
 CRO_national_populist_ADJ: "Croatia"
 CRO_national_populist_DEF: "The Independent State of Croatia"
-CRO_valkist: "Hrvatska Država"
-CRO_valkist_ADJ: "Hrvatski"
-CRO_valkist_DEF: "Hrvatska Država"
+CRO_revivalist: "Hrvatska Država"
+CRO_revivalist_ADJ: "Hrvatski"
+CRO_revivalist_DEF: "Hrvatska Država"
 
 ### Parties
 CRO_vanguardist_party: "KPH"
@@ -56,8 +56,8 @@ CRO_paternal_autocrat_party: "VH"
 CRO_paternal_autocrat_party_long: "Vojna Hunta"
 CRO_national_populist_party: "UHRO"
 CRO_national_populist_party_long: "Ustaše-Hrvatska Revolucionarna Organizacija-Ustaše"
-CRO_valkist_party: "HRO"
-CRO_valkist_party_long: "Hrvatska Revolucionarna Organizacija"
+CRO_revivalist_party: "HRO"
+CRO_revivalist_party_long: "Hrvatska Revolucionarna Organizacija"
 
 
 ###Events###

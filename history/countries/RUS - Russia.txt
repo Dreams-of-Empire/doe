@@ -136,7 +136,7 @@ set_popularities = {
     authoritarian_democrat = 30
     paternal_autocrat = 5
     national_populist = 6
-    valkist = 15
+    revivalist = 15
 }
 
 recruit_character = RUS_Grigory_Semyonov

@@ -31,9 +31,9 @@ AZR_paternal_autocrat_DEF: "Azeri"
 AZR_national_populist: "Azeri State"
 AZR_national_populist_ADJ: "Azeri"
 AZR_national_populist_DEF: "Azeri"
-AZR_valkist: "Azerbaijan National State"
-AZR_valkist_ADJ: "Azeri"
-AZR_valkist_DEF: "The Azerbaijan National State"
+AZR_revivalist: "Azerbaijan National State"
+AZR_revivalist_ADJ: "Azeri"
+AZR_revivalist_DEF: "The Azerbaijan National State"
 
 ### Parties (from KR)
 AZR_vanguardist_party: "Bolshevik"

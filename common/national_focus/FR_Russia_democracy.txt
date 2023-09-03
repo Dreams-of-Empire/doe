@@ -267,14 +267,14 @@ focus_tree = {
 }
 	focus = {	
 		id = RUS_NUS_OKTOBERIST
-		icon = GFX_goal_ideology_valkist
+		icon = GFX_goal_ideology_revivalist
 		available = {
-			has_government = valkist
+			has_government = revivalist
 			has_country_flag = RUS_Elections_hold
 		}
 		bypass = {
 			has_country_flag = RUS_Elections_hold
-			has_government = valkist
+			has_government = revivalist
 		}	
 		x = 7
 		y = 0
@@ -293,7 +293,7 @@ focus_tree = {
 		id = RUS_militarise_education
 		icon = GFX_focus_generic_tank_production
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = {
 		    focus = RUS_NUS_OKTOBERIST
@@ -318,7 +318,7 @@ focus_tree = {
 		id = RUS_create_all_russian_labor_organization
 		icon = GFX_focus_ger_bulwark_against_bolshevism
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = {
 		    focus = RUS_militarise_education
@@ -343,7 +343,7 @@ focus_tree = {
 		id = RUS_National_Business_State
 		icon = GFX_goal_imperial_legacy
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = {
 		    focus = RUS_create_all_russian_labor_organization
@@ -368,7 +368,7 @@ focus_tree = {
 		id = RUS_mechanize_electrify
 		icon = GFX_goal_civil_service
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		prerequisite = {
 		    focus = RUS_National_Business_State
@@ -492,7 +492,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = valkist_subtype
+              ideology = revivalist_subtype
               traits = {}
             }
           }
@@ -695,7 +695,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_liberal
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
       
@@ -725,7 +725,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_liberal
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
       
@@ -754,7 +754,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_liberal
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		prerequisite = {
@@ -783,7 +783,7 @@ focus_tree = {
 			available = {
 			OR = {
 				has_government = social_liberal
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 
@@ -812,7 +812,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_liberal
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		prerequisite = {
@@ -841,7 +841,7 @@ focus_tree = {
 			available = {
 			OR = {
 				has_government = social_liberal
-				has_government = valkist
+				has_government = revivalist
 			}
 		}      
 		prerequisite = {
@@ -869,7 +869,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_liberal
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		prerequisite = {
@@ -897,7 +897,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
       
@@ -927,7 +927,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		prerequisite = { 
@@ -955,7 +955,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		prerequisite = { 
@@ -983,7 +983,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		prerequisite = { 
@@ -1012,7 +1012,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		prerequisite = { 
@@ -1057,7 +1057,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		prerequisite = { 
@@ -1189,7 +1189,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = valkist
+				has_government = revivalist
 				has_government = social_liberal
 			}
 		}
@@ -1220,7 +1220,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = valkist
+				has_government = revivalist
 				has_government = social_liberal
 			}
 		}

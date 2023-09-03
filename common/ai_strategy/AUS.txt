@@ -4,7 +4,7 @@ AUS_antagonize_centroslavia = {
 		tag = AUS
 		country_exists = CEN
 		OR = {
-			has_government = valkist
+			has_government = revivalist
 			has_government = national_populist
 			has_government = authoritarian_democrat
 			has_government = collectivist
@@ -30,7 +30,7 @@ AUS_invasion_of_centroslavia = {
 		has_war = no
 		date > "1939.12.12"
 		OR = {
-			has_government = valkist
+			has_government = revivalist
 			has_government = national_populist
 			has_government = authoritarian_democrat
 		}

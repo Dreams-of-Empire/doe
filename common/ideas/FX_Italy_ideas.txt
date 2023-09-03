@@ -33,7 +33,7 @@ ideas = {
 					has_government = collectivist
 					has_government = fasci
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 					has_completed_focus = ITA_italian_election
 				}
 			}
@@ -296,7 +296,7 @@ ideas = {
 		ITA_corporate_allies_idea = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ITA_corporate_allies_idea"}
 			allowed = { original_tag = ITA }
-			picture = generic_valkist_funding
+			picture = generic_revivalist_funding
 			modifier = {
 				conversion_cost_civ_to_mil_factor = -0.2
 				production_speed_buildings_factor = 0.2
@@ -318,10 +318,10 @@ ideas = {
 			allowed = { original_tag = ITA }
 			cancel = {
 				NOT = {
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
-			picture = valkist_nut
+			picture = revivalist_nut
 			modifier = {
 				political_power_factor = 0.05
 				stability_factor = 0.05
@@ -335,10 +335,10 @@ ideas = {
 			allowed = { original_tag = ITA }
 			cancel = {
 				NOT = {
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
-			picture = valkist_nut
+			picture = revivalist_nut
 			modifier = {
 				political_power_factor = 0.1
 				stability_factor = 0.1
@@ -788,7 +788,7 @@ ideas = {
 			allowed = { original_tag = ITA }
 			cancel = {
 				NOT = {
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			picture = generic_intel_bonus
@@ -803,7 +803,7 @@ ideas = {
 			allowed = { original_tag = ITA }
 			cancel = {
 				NOT = {
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			picture = democratic_drift_bonus
@@ -821,7 +821,7 @@ ideas = {
 			allowed = { original_tag = ITA }
 			cancel = {
 				NOT = {
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			picture = UK_military_loyal_idea
@@ -839,7 +839,7 @@ ideas = {
 			allowed = { original_tag = ITA }
 			cancel = {
 				NOT = {
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			picture = UK_military_loyal_idea
@@ -857,7 +857,7 @@ ideas = {
 			allowed = { original_tag = ITA }
 			cancel = {
 				NOT = {
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			picture = backward_industry
@@ -884,7 +884,7 @@ ideas = {
 			allowed = { original_tag = ITA }
 			cancel = {
 				NOT = {
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			removal_cost = 1
@@ -901,7 +901,7 @@ ideas = {
 			allowed = { original_tag = ITA }
 			cancel = {
 				NOT = {
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 			picture = generic_political_support

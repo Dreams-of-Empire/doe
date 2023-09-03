@@ -47,7 +47,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}

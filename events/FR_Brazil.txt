@@ -69,7 +69,7 @@ country_event = { #LEC rally
 	}
 }
 
-country_event = { #valkist rally
+country_event = { #revivalist rally
 	id = bra.4
 	immediate = {log = "[GetDateText]: [Root.GetName]: event bra.4"}
 	title = bra.4.t
@@ -86,7 +86,7 @@ country_event = { #valkist rally
 	option = {
 		name = bra.4.b
 		add_popularity = {
-			ideology = valkist popularity = 0.05
+			ideology = revivalist popularity = 0.05
 			}
 		hidden_effect = {
 			country_event = { days = 21 id = bra.5}
@@ -256,7 +256,7 @@ country_event = { #Populist movements unite against government
 			ideology = paternal_autocrat popularity = 0.025
 			}
 		add_popularity = {
-			ideology = valkist popularity = 0.025
+			ideology = revivalist popularity = 0.025
 			}
 		set_country_flag = BRA_righties
 	}

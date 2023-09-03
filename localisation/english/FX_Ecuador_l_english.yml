@@ -31,9 +31,9 @@ ECU_paternal_autocrat_DEF: "The Federal State of Ecuador"
 ECU_national_populist: "Ecuador"
 ECU_national_populist_ADJ: "Ecuadorian"
 ECU_national_populist_DEF: "The Federal State of Ecuador"
-ECU_valkist: "Estado de Ecuador"
-ECU_valkist_ADJ: "Ecuadorian"
-ECU_valkist_DEF: "Ecuador"
+ECU_revivalist: "Estado de Ecuador"
+ECU_revivalist_ADJ: "Ecuadorian"
+ECU_revivalist_DEF: "Ecuador"
 
 
 ### Political Parties ###
@@ -58,6 +58,6 @@ ECU_paternal_autocrat_party: "UPN"
 ECU_paternal_autocrat_party_long: "Unión Patriótica Nacional"
 ECU_national_populist_party: "UPN - CON"
 ECU_national_populist_party_long: "UPN - Compactación Obrera Nacional"
-ECU_valkist_party: "FADN"
-ECU_valkist_party_long: "Frente Anti-Colectivista de Defensa Nacional"
+ECU_revivalist_party: "FADN"
+ECU_revivalist_party_long: "Frente Anti-Colectivista de Defensa Nacional"
 

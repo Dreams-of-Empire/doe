@@ -40,8 +40,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/national_populist_small.png"
   	}
 	spriteType = {
-		name = "GFX_valkist_small"
-		texturefile = "gfx/interface/ideologies/valkist_small.png"
+		name = "GFX_revivalist_small"
+		texturefile = "gfx/interface/ideologies/revivalist_small.png"
 	}
 
 }

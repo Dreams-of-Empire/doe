@@ -30,7 +30,7 @@ set_popularities = {
   authoritarian_democrat = 0
   paternal_autocrat = 0
   national_populist = 10
-  valkist = 45
+  revivalist = 45
 }
 
 recruit_character = STD_Rudolf_Lodgman_von_Auen

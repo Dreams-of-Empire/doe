@@ -31,9 +31,9 @@ SNE_paternal_autocrat_DEF: "The Conferedation of Shoshone"
 SNE_national_populist: "Shoshone Conferedation"
 SNE_national_populist_ADJ: "Shoshoni"
 SNE_national_populist_DEF: "The Conferedation of Shoshone"
-SNE_valkist: "Shoshone Conferedation"
-SNE_valkist_ADJ: "Shoshoni"
-SNE_valkist_DEF: "The Conferedation of Shoshone"
+SNE_revivalist: "Shoshone Conferedation"
+SNE_revivalist_ADJ: "Shoshoni"
+SNE_revivalist_DEF: "The Conferedation of Shoshone"
 
 ### Events
 shoshone.1.t: "Shoshone Tribe Declares Independence!"

@@ -1388,7 +1388,7 @@
 				has_country_flag = SPF_spanish_nationalist_rule_flag
 			}
 			OR = {
-				has_government = valkist
+				has_government = revivalist
 				has_government = national_populist
 			}
 		}

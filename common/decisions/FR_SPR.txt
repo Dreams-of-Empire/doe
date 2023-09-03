@@ -1125,7 +1125,7 @@ SPF_foreign_policy = {
 					threat > 0.40
 				}
 				AND = {
-					has_government = valkist
+					has_government = revivalist
 					threat > 0.30
 				}
 				AND = {
@@ -1139,7 +1139,7 @@ SPF_foreign_policy = {
 					threat > 0.20
 				}
 				AND = {
-					has_government = valkist
+					has_government = revivalist
 					is_neighbor_of = SOV
 				}
 			}

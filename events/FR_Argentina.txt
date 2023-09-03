@@ -650,7 +650,7 @@ country_event = { #subsidized
 			popularity = 0.0125
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.0125
 		}
 	}
@@ -1207,8 +1207,8 @@ country_event = { #winning to chile
 			remove_ideas = CHL_popular_economy
 				}
 		if = {
-			limit = { has_idea = CHL_chilean_valkism_idea }
-			remove_ideas = CHL_chilean_valkism_idea
+			limit = { has_idea = CHL_chilean_revivalism_idea }
+			remove_ideas = CHL_chilean_revivalism_idea
 				}
 		if = {
 			limit = { has_idea = CHL_classes_united }
@@ -1223,8 +1223,8 @@ country_event = { #winning to chile
 			remove_ideas = CHL_warrior_legacy
 				}
 		if = {
-			limit = { has_idea = CHL_roto_valkism }
-			remove_ideas = CHL_roto_valkism
+			limit = { has_idea = CHL_roto_revivalism }
+			remove_ideas = CHL_roto_revivalism
 				}
 		if = {
 			limit = { has_idea = CHL_chilean_nation }

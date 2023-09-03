@@ -264,8 +264,8 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = national_populist }
 		}
 		AND = {
-			has_government = valkist
-			ROOT = { has_government = valkist }
+			has_government = revivalist
+			ROOT = { has_government = revivalist }
 		}
 	}
 }
@@ -337,7 +337,7 @@ has_authoritarian_government = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			has_government = national_populist
-			has_government = valkist
+			has_government = revivalist
 		}
 	}
 }
@@ -349,7 +349,7 @@ has_dictatorship_government = {
 		OR = {
 			has_government = paternal_autocrat
 			has_government = national_populist
-			has_government = valkist
+			has_government = revivalist
 		}
 	}
 }

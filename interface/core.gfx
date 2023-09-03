@@ -772,8 +772,8 @@ bitmapfonts = {
 		c = { 11 54 172 }	# Conservative Blue (Savoy blue, for dark backgrounds) 75 97 209 previously
 		P = { 40 40 40 }	# PatAut Dark Grey 112 110 125 previously
 		N = { 94 50 11 }	# NatPop Brown 167 89 37 previously
-		n = { 65 125 85 }	# Alternate paler Green (valkist lol)
-		V = { 11 46 29 }    # Valkist Green
+		n = { 65 125 85 }	# Alternate paler Green (revivalist lol)
+		V = { 11 46 29 }    # revivalist Green
 
 	}
 

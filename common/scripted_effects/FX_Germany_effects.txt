@@ -39,8 +39,8 @@ GER_add_wilhelm_iii = {
   }
 }
 
-# Transfer some non-valkist characters to the new puppet
-# As of now, the criteria of non-valkists are those
+# Transfer some non-revivalist characters to the new puppet
+# As of now, the criteria of non-revivalists are those
 # who are OTL opposition to funny mustache man
 GER_transfer_characters_to_puppet = {
   GER = {

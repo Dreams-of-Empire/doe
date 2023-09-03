@@ -53,7 +53,7 @@ set_popularities = {
     authoritarian_democrat = 2
     paternal_autocrat = 19
     national_populist = 23
-    valkist = 0
+    revivalist = 0
 }
 
 set_convoys = 5

@@ -35,7 +35,7 @@ set_popularities = {
   authoritarian_democrat = 14
   paternal_autocrat = 60
   national_populist = 8
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = XSM_Ma_Bufang

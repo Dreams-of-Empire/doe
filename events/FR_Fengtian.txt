@@ -1407,7 +1407,7 @@ country_event = {
  		}
 
 		add_popularity = { ideology = national_populist popularity = 0.10 }
-		add_popularity = { ideology = valkist popularity = 0.05 }
+		add_popularity = { ideology = revivalist popularity = 0.05 }
 
 	add_ideas = military_junta
 
@@ -1449,7 +1449,7 @@ country_event = {
 
     add_political_power = 100
 
-		add_popularity = { ideology = valkist popularity = 0.10 }
+		add_popularity = { ideology = revivalist popularity = 0.10 }
 
     hidden_effect = {
 
@@ -2064,7 +2064,7 @@ country_event = {
 		custom_effect_tooltip = 12_MAN_tt
 
     add_popularity = { ideology = national_populist popularity = 0.10 }
-		add_popularity = { ideology = valkist popularity = 0.05 }
+		add_popularity = { ideology = revivalist popularity = 0.05 }
 		add_ideas = MAN_culture_manchu_revival
 	}
 
@@ -3327,7 +3327,7 @@ country_event = {
 			name = "Great to hear."
 			custom_effect_tooltip = 12_MAN_tt
 			add_timed_idea = { idea = MAN_japan_subsidized_economy  days = 200 }
-			add_popularity = { ideology = valkist popularity = 0.05 }
+			add_popularity = { ideology = revivalist popularity = 0.05 }
 			}
 }
 
@@ -3398,7 +3398,7 @@ country_event = {
 			name = "A gun in every hand!"
 			custom_effect_tooltip = 12_MAN_tt
 			add_timed_idea = { idea = MAN_japan_subsidized_military  days = 200 }
-			add_popularity = { ideology = valkist popularity = 0.05 }
+			add_popularity = { ideology = revivalist popularity = 0.05 }
 			}
 
 }

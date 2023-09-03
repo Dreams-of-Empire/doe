@@ -1170,7 +1170,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -2457,7 +2457,7 @@ focus_tree = {
 				add_idea = NOR_war_on_samfundsvernet_idea1
 			}
 			add_popularity = { ideology = national_populist popularity = -0.02 }
-			add_popularity = { ideology = valkist popularity = -0.02 }
+			add_popularity = { ideology = revivalist popularity = -0.02 }
 			add_political_power = -40
 			add_manpower = -2000
 		}
@@ -2481,7 +2481,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_trial_ns_leaders"
 			remove_ideas = NOR_war_on_samfundsvernet_idea1
 			add_popularity = { ideology = national_populist popularity = -0.02 }
-			add_popularity = { ideology = valkist popularity = -0.02 }
+			add_popularity = { ideology = revivalist popularity = -0.02 }
 			add_political_power = -40
 			add_manpower = -2000
 		}
@@ -2514,7 +2514,7 @@ focus_tree = {
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
-			add_popularity = { ideology = valkist popularity = -0.02 }
+			add_popularity = { ideology = revivalist popularity = -0.02 }
 		}
 
 	}
@@ -2834,7 +2834,7 @@ focus_tree = {
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
-			add_popularity = { ideology = valkist popularity = -0.02 }
+			add_popularity = { ideology = revivalist popularity = -0.02 }
 			if = {
 				limit = {
 					has_idea = NOR_war_on_samfundsvernet_idea
@@ -3256,7 +3256,7 @@ focus_tree = {
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = collectivist popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
-			add_popularity = { ideology = valkist popularity = -0.02 }
+			add_popularity = { ideology = revivalist popularity = -0.02 }
 			if = {
 				limit = {
 					has_idea = NOR_war_on_samfundsvernet_idea
@@ -4201,7 +4201,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_one_legal_labour_union"
 			add_political_power = 10
 			add_popularity = { ideology = national_populist popularity = 0.02 }
-			add_popularity = { ideology = valkist popularity = 0.02 }
+			add_popularity = { ideology = revivalist popularity = 0.02 }
 			add_popularity = { ideology = collectivist popularity = -0.03 }
 			add_popularity = { ideology = fasci popularity = -0.03 }
 		}
@@ -4396,7 +4396,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_approach_party_strifes
-		icon = GFX_goal_ideology_valkist
+		icon = GFX_goal_ideology_revivalist
 		cost = 5.00
 		prerequisite = {
 			focus = NOR_ns_victory
@@ -4460,7 +4460,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_loyal_priestes"
 			swap_ideas = {
 				remove_idea = NOR_st_olavs_spirit_idea
-				add_idea = NOR_promote_christian_valkism_idea
+				add_idea = NOR_promote_christian_revivalism_idea
 			}
 		}
 
@@ -4482,7 +4482,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_promote_our_christianity"
 			swap_ideas = {
-				remove_idea = NOR_promote_christian_valkism_idea
+				remove_idea = NOR_promote_christian_revivalism_idea
 				add_idea = NOR_loyal_priestes_idea
 			}
 		}
@@ -4565,7 +4565,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_pagan_reformation
-		icon = GFX_goal_valkist_supreme
+		icon = GFX_goal_revivalist_supreme
 		cost = 8.00
 		prerequisite = {
 			focus = NOR_rading_sea
@@ -4585,7 +4585,7 @@ focus_tree = {
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
-			add_popularity = { ideology = valkist popularity = 0.04 }
+			add_popularity = { ideology = revivalist popularity = 0.04 }
 		}
 
 	}
@@ -4643,7 +4643,7 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = NOR_purify_society_idea
-					add_idea = NOR_long_live_nation_valkist_idea
+					add_idea = NOR_long_live_nation_revivalist_idea
 				}
 			}
 			else = {
@@ -4989,7 +4989,7 @@ focus_tree = {
 				add_idea = NOR_war_on_samfundsvernet_idea1
 			}
 			add_popularity = { ideology = national_populist popularity = -0.03 }
-			add_popularity = { ideology = valkist popularity = -0.03 }
+			add_popularity = { ideology = revivalist popularity = -0.03 }
 			add_political_power = -60
 			add_manpower = -3500
 		}
@@ -5013,7 +5013,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_crush_ns"
 			remove_ideas = NOR_war_on_samfundsvernet_idea1
 			add_popularity = { ideology = national_populist popularity = -0.03 }
-			add_popularity = { ideology = valkist popularity = -0.03 }
+			add_popularity = { ideology = revivalist popularity = -0.03 }
 			add_political_power = -60
 			add_manpower = -3500
 		}

@@ -487,9 +487,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = valkist_subtype
+			has_country_leader_ideology = revivalist_subtype
 		}
-		localization_key = valkist
+		localization_key = revivalist
 	}
 
 	text = {
@@ -1381,9 +1381,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = valkist_subtype
+			has_country_leader_ideology = revivalist_subtype
 		}
-		localization_key = valkist_subtype_desc
+		localization_key = revivalist_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1948,14 +1948,14 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = valkist_subtype
+				has_country_leader_ideology = revivalist_subtype
 				has_country_leader_ideology = panasian_nichirenist_subtype
 				has_country_leader_ideology = occultism_subtype
 				has_country_leader_ideology = val_legionarism_subtype
 				has_country_leader_ideology = val_filipino_nationalism_subtype
 			}
 		}
-		localization_key = valkist_color
+		localization_key = revivalist_color
 	}
 	text = {
 		trigger = {
@@ -2036,8 +2036,8 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = valkist_subtype
+			has_country_leader_ideology = revivalist_subtype
 		}
-		localization_key = valkist_subtype_desc
+		localization_key = revivalist_subtype_desc
 	}
 }

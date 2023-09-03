@@ -34,7 +34,7 @@ set_popularities = {
   authoritarian_democrat = 32
   paternal_autocrat = 35
   national_populist = 4
-  valkist = 2
+  revivalist = 2
 }
 
 recruit_character = NEP_Tribhuvana

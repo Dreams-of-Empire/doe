@@ -322,7 +322,7 @@ opinion_modifiers = {
 	UKR_german_economy = { value = 10 }
 	UKR_black_sea = { value = 10 }
 	UKR_promote_ukrainian = { value = -15 }
-	UKR_demote_valkism = { value = -30 }
+	UKR_demote_revivalism = { value = -30 }
 
 	### SWITZERLAND ###
 	SWI_port_access_allowed = { value = 40 }

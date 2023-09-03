@@ -33,7 +33,7 @@ set_popularities = {
   authoritarian_democrat = 50
   paternal_autocrat = 0
   national_populist = 20
-  valkist = 0
+  revivalist = 0
 }
 
 recruit_character = JOR_Hashim_Kheir

@@ -2324,7 +2324,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus JAP_absorb_the_heretics"
 		add_popularity = {
-			ideology = valkist 
+			ideology = revivalist 
 			popularity = 0.1
 		}
 		add_stability = -0.1

@@ -140,7 +140,7 @@ BLR_power_struggle_category = {
     remove_effect = {
       BLR_increase_home_guard = yes
       add_popularity = {
-        ideology = valkist
+        ideology = revivalist
         popularity = -0.05
       }
     }
@@ -223,22 +223,22 @@ BLR_power_struggle_category = {
     remove_effect = {
 			BLR_increase_home_guard = yes
 			if = {
-				limit = { valkist > 0.5 }
+				limit = { revivalist > 0.5 }
 				add_popularity = {
-					ideology = valkist
+					ideology = revivalist
 					popularity = -0.05
 				}
 			}
 			if = {
-				limit = { valkist > 0.25 }
+				limit = { revivalist > 0.25 }
 				add_popularity = {
-					ideology = valkist
+					ideology = revivalist
 					popularity = -0.025
 				}
 			}
 			else = {
 				add_popularity = {
-					ideology = valkist
+					ideology = revivalist
 					popularity = -0.01
 				}
 			}
@@ -286,7 +286,7 @@ BLR_power_struggle_category = {
       base = 0
       modifier = {
         add = 200
-        has_country_flag = BLR_valkist_behavior
+        has_country_flag = BLR_revivalist_behavior
       }
     }
     complete_effect = {
@@ -307,7 +307,7 @@ BLR_power_struggle_category = {
       base = 0
       modifier = {
         add = 200
-        has_country_flag = BLR_valkist_behavior
+        has_country_flag = BLR_revivalist_behavior
       }
     }
     modifier = {
@@ -330,7 +330,7 @@ BLR_power_struggle_category = {
       base = 0
       modifier = {
         add = 200
-        has_country_flag = BLR_valkist_behavior
+        has_country_flag = BLR_revivalist_behavior
       }
     }
     complete_effect = {
@@ -352,7 +352,7 @@ BLR_power_struggle_category = {
       base = 0
       modifier = {
         add = 200
-        has_country_flag = BLR_valkist_behavior
+        has_country_flag = BLR_revivalist_behavior
       }
     }
     remove_effect = {
@@ -369,13 +369,13 @@ BLR_power_struggle_category = {
       base = 0
       modifier = {
         add = 200
-        has_country_flag = BLR_valkist_behavior
+        has_country_flag = BLR_revivalist_behavior
       }
     }
     remove_effect = {
       BLR_increase_nat_soc = yes
       add_popularity = {
-        ideology = valkist
+        ideology = revivalist
         popularity = 0.05
       }
       hidden_effect = {

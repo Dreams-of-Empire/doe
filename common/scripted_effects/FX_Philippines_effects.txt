@@ -684,7 +684,7 @@ PHI_create_albert_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
         traits = { }
       }
     }
@@ -767,7 +767,7 @@ PHI_create_henry_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
         traits = { }
       }
     }
@@ -850,7 +850,7 @@ PHI_create_george_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
         traits = { }
       }
     }
@@ -981,12 +981,12 @@ PHI_remove_governor_general = {
   }
   PHI_Benigno_Ramos = {
     if = {
-      limit = { has_ideology = valkist_subtype }
-      promote_character = { ideology = valkist_subtype }
+      limit = { has_ideology = revivalist_subtype }
+      promote_character = { ideology = revivalist_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = valkist_subtype }
+        country_leader = { ideology = revivalist_subtype }
         promote_leader = yes
       }
     }

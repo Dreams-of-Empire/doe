@@ -31,9 +31,9 @@ NKR_paternal_autocrat_DEF: "The Korean Republic"
 NKR_national_populist: "Korean Republic"
 NKR_national_populist_ADJ: "Korean"
 NKR_national_populist_DEF: "The Korean Republic"
-NKR_valkist: "Joseon"
-NKR_valkist_ADJ: "Korean"
-NKR_valkist_DEF: "The Kingdom of Korea"
+NKR_revivalist: "Joseon"
+NKR_revivalist_ADJ: "Korean"
+NKR_revivalist_DEF: "The Kingdom of Korea"
 
 ### POLITICAL PARTIES ###
 NKR_vanguardist_party: "Socialist Party"
@@ -56,8 +56,8 @@ NKR_paternal_autocrat_party: "Korean National Party"
 NKR_paternal_autocrat_party_long: "The Korean National Party"
 NKR_national_populist_party: "Unify Korea Party"
 NKR_national_populist_party_long: "The Unify Korea Party"
-NKR_valkist_party: "Joseon revivalists"
-NKR_valkist_party_long: "Joseon revivalists"
+NKR_revivalist_party: "Joseon revivalists"
+NKR_revivalist_party_long: "Joseon revivalists"
 
 ### DESCRIPTION ###
 NKR_FUHRERREDUX_DESC: "An independent Korean state hasn't existed since the Japanese protectorate was established in 1905. In 1936 Korea still looms under the Japanese thumb, but increasing feelings of nationalism and anti-Japanese sentiment threatens to upset the delicate balance in the region. Whether the Koreans will liberate themselves or simply have overlordship transfered from one power to another remains to be seen, but the Korean peninsula is sure to see devestation in the years to come no matter what."

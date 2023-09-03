@@ -2544,7 +2544,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 			is_in_faction = no
 			GER = {
@@ -2594,7 +2594,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 			GER = {
 				exists = yes
@@ -2642,7 +2642,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 			GER = {
 				exists = yes
@@ -2699,7 +2699,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 			GER = {
 				exists = yes
@@ -2757,7 +2757,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -2856,7 +2856,7 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 			GER = {
 				is_puppet = no

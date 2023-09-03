@@ -31,9 +31,9 @@ SLO_paternal_autocrat_DEF: "The State of Slovakia"
 SLO_national_populist: "Slovak State"
 SLO_national_populist_ADJ: "Slovak"
 SLO_national_populist_DEF: "The State of Slovakia"
-SLO_valkist: "Slovenský štát"
-SLO_valkist_ADJ: "Slovenský"
-SLO_valkist_DEF: "Slovenský štát"
+SLO_revivalist: "Slovenský štát"
+SLO_revivalist_ADJ: "Slovenský"
+SLO_revivalist_DEF: "Slovenský štát"
 
 ### Parties
 SLO_social_conservative_party: "SND" # from Czechia

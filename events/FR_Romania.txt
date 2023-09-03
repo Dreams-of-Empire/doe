@@ -108,7 +108,7 @@ country_event = { # Michael's Coronation
 			OR = {
 				has_country_flag = ROM_michael_assassinated
 				has_completed_focus = ROM_abolish_the_monarchy
-        has_government = valkist
+        has_government = revivalist
 			}
 		}
 	}
@@ -575,7 +575,7 @@ country_event = { # 1937 General Elections
 			OR = {
 				has_country_flag = ROM_had_1937_elections
 				has_country_flag = ROM_direct_rule_from_bucharest
-				has_country_flag = ROM_valkist_romania
+				has_country_flag = ROM_revivalist_romania
 			}
 		}
 	}
@@ -759,7 +759,7 @@ country_event = { # 1937 General Elections
 			factor = 10
 			modifier = {
 				factor = 200
-				has_country_flag = ROM_valkist_behavior
+				has_country_flag = ROM_revivalist_behavior
 			}
 		}
 		trigger = {
@@ -771,7 +771,7 @@ country_event = { # 1937 General Elections
 			remove_ideas = ROM_the_iron_guard
 		}
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 		}
 		increase_ruling_party_popularity_by_15 = yes
@@ -784,7 +784,7 @@ country_event = { # 1937 General Elections
 			ROM_Ion_Belgea_sec_val
 		}
 		hidden_effect = {
-      set_country_flag = ROM_valkist_romania
+      set_country_flag = ROM_revivalist_romania
 			mark_focus_tree_layout_dirty = yes
 			swap_ideas = {
 				remove_idea = constitutional_monarchy
@@ -846,10 +846,10 @@ country_event = { # North Railway Station Fire
 	option = { # Blame the Iron Guard
 		name = romania.18.c
 		trigger = {
-			NOT = { has_government = valkist }
+			NOT = { has_government = revivalist }
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = -0.05
 		}
 	}
@@ -964,7 +964,7 @@ country_event = { # Iron Guard Behind Assassination
 
 	trigger = {
 		tag = ROM
-		NOT = { has_government = valkist }
+		NOT = { has_government = revivalist }
 	}
 
 	option = { # Ban the Iron Guard
@@ -976,7 +976,7 @@ country_event = { # Iron Guard Behind Assassination
 			remove_ideas = ROM_the_iron_guard
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = -0.25
 		}
 		hidden_effect = {
@@ -992,7 +992,7 @@ country_event = { # Iron Guard Behind Assassination
       character = ROM_Ion_Mota
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
         traits = {}
       }
     }
@@ -1014,7 +1014,7 @@ country_event = { # The King's and Romania's Safety
 
 	trigger = {
 		tag = ROM
-		NOT = { has_government = valkist }
+		NOT = { has_government = revivalist }
 	}
 
 	option = { # The King orders the abolishment of Parliament
@@ -1072,7 +1072,7 @@ country_event = { # The King's and Romania's Safety
 			popularity = -0.15
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = -0.15
 		}
 	}
@@ -1134,7 +1134,7 @@ country_event = { # Prime Minister Assassinated!
 		}
 		name = romania.24.b
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 		}
 		increase_ruling_party_popularity_by_10 = yes
@@ -1146,7 +1146,7 @@ country_event = { # Prime Minister Assassinated!
 			ROM_Ion_Belgea_sec_val
 		}
 		hidden_effect = {
-      set_country_flag = ROM_valkist_romania
+      set_country_flag = ROM_revivalist_romania
       clr_country_flag = ROM_democratic_romania
 			mark_focus_tree_layout_dirty = yes
 			add_ideas = one_party_dictatorship
@@ -1174,7 +1174,7 @@ country_event = { # Iron Guard Coups the Government!
 		}
 	}
 
-	option = { # Loyal Units Suppressed Valkist Militias
+	option = { # Loyal Units Suppressed revivalist Militias
 		name = romania.25.a
 		add_political_power = 100
 		ai_chance = {
@@ -1271,7 +1271,7 @@ country_event = { # Iron Guard Coups the Government!
 		remove_coalition_social_conservative = yes 
 		remove_coalition_social_liberal = yes 
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 		}
 		increase_ruling_party_popularity_by_10 = yes
@@ -1287,7 +1287,7 @@ country_event = { # Iron Guard Coups the Government!
 			random_other_country = {
 				news_event = { id = fxnews.31 hours = 8 }
 			}
-			set_country_flag = ROM_valkist_romania
+			set_country_flag = ROM_revivalist_romania
 			clr_country_flag = ROM_democratic_romania
       mark_focus_tree_layout_dirty = yes
 		}
@@ -1309,7 +1309,7 @@ country_event = { # The Monarch
 				has_government = vanguardist
 				has_government = collectivist
 				has_government = fasci
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
     ROM_Regency_Council = {
@@ -1476,7 +1476,7 @@ country_event = { # Status of the Iron Guard
 
 	trigger = {
 		tag = ROM
-		NOT = { has_government = valkist }
+		NOT = { has_government = revivalist }
 	}
 
 	option = { # Ban them
@@ -1488,14 +1488,14 @@ country_event = { # Status of the Iron Guard
 			remove_ideas = ROM_the_iron_guard
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = -0.25
 		}
 	}
 	option = { # Exile the prominent leaders
 		name = romania.30.b
 		trigger = {
-			GER = { has_government = valkist }
+			GER = { has_government = revivalist }
 		}
 		add_political_power = 30
 		GER = {
@@ -1513,7 +1513,7 @@ country_event = { # Codreanu Arrives in Berlin
 
 	trigger = {
 		tag = GER
-		has_government = valkist
+		has_government = revivalist
 	}
 
 	option = {
@@ -1573,7 +1573,7 @@ country_event = { # Iron Guard Suppressed
 			remove_ideas = ROM_the_iron_guard
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = -0.2
 		}
 	}
@@ -1638,7 +1638,7 @@ country_event = { # Royalists Launches Revolt
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = valkist
+					ideology = revivalist
 					popularity = -0.5
 				}
 				add_popularity = {
@@ -1681,7 +1681,7 @@ country_event = { # Civil War Over
 	desc = {
 		text = romania.37.d1
 		trigger = {
-			ROR = { has_government = valkist }
+			ROR = { has_government = revivalist }
 		}
 	}
 	desc = {
@@ -1707,7 +1707,7 @@ country_event = { # Civil War Over
 				country_event = { id = romania.57 days = 3 }
 			}
 			else_if = {
-				limit = { has_government = valkist }
+				limit = { has_government = revivalist }
 				country_event = { id = romania.58 days = 3 }
 			}
 		}
@@ -2483,7 +2483,7 @@ country_event = { # King Meets with the New Governemnt
 		NOT = {
 			OR = {
 				has_government = fasci
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 	}
@@ -2529,7 +2529,7 @@ country_event = { # Codreanu Criticises the Government
 		NOT = {
 			OR = {
 				has_government = fasci
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 	}
@@ -2557,7 +2557,7 @@ country_event = { # Michael Tours Romania
 		NOT = {
 			OR = {
 				has_government = fasci
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 	}
@@ -2705,7 +2705,7 @@ country_event = { # Civil War - Iron Guard Victory
 
 	trigger = {
 		tag = ROM
-		has_government = valkist
+		has_government = revivalist
 	}
 
 	option = { # Send them to work camps!

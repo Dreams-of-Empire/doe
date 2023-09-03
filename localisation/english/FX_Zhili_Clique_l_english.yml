@@ -31,9 +31,9 @@ ZHI_paternal_autocrat_DEF: "The Zhili Clique"
 ZHI_national_populist: "Zhili Clique"
 ZHI_national_populist_ADJ: "Zhili"
 ZHI_national_populist_DEF: "The Zhili Clique"
-ZHI_valkist: "Zhili Clique"
-ZHI_valkist_ADJ: "Zhili"
-ZHI_valkist_DEF: "The Zhili Clique"
+ZHI_revivalist: "Zhili Clique"
+ZHI_revivalist_ADJ: "Zhili"
+ZHI_revivalist_DEF: "The Zhili Clique"
 
 # China
 ZHI_CHI: "Republic of China"
@@ -61,8 +61,8 @@ ZHI_paternal_autocrat_party: "Zhili Clique"
 ZHI_paternal_autocrat_party_long: "The Zhili Clique"
 ZHI_national_populist_party: "Collaborators"
 ZHI_national_populist_party_long: "Japanese Collaborators"
-ZHI_valkist_party: "SRS"
-ZHI_valkist_party_long: "Spiritual Revolution Society"
+ZHI_revivalist_party: "SRS"
+ZHI_revivalist_party_long: "Spiritual Revolution Society"
 
 ### DESCRIPTION ###
 ZHI_FUHRERREDUX_DESC: "The Zhili Clique is one of China’s finest warlord states and is led by, perhaps the greatest strategist in China at this time, Wu Peifu. Wu Peifu is a Chinese nationalist who, although he doesn't like his alliance with the Japanese, sees the alliance with Japan as a necessity for the survival of his Clique. It has, like many other states in China, been in many wars and has a veteran force of many soldiers and generals, but lacks good industry.\n\nFengtian, rival of the Zhili Clique, lies to the north, taunting them at every step. A war is brewing... And the Zhili Clique will be its victor."

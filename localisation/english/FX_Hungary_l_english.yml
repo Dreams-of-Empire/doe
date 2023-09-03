@@ -34,9 +34,9 @@ HUN_paternal_autocrat_DEF: "The Republic of Hungary"
 HUN_national_populist: "Hungarian Republic"
 HUN_national_populist_ADJ: "Hungarian"
 HUN_national_populist_DEF: "Republic of Hungary"
-HUN_valkist: "Magyar Birodalom"
-HUN_valkist_ADJ: "Magyar"
-HUN_valkist_DEF: "Magyar Birodalom"
+HUN_revivalist: "Magyar Birodalom"
+HUN_revivalist_ADJ: "Magyar"
+HUN_revivalist_DEF: "Magyar Birodalom"
 
 ### Parties
 HUN_vanguardist_party: "KMP"
@@ -59,8 +59,8 @@ HUN_paternal_autocrat_party: "-"
 HUN_paternal_autocrat_party_long: "-"
 HUN_national_populist_party: "EP"
 HUN_national_populist_party_long: "Egységes Párt"
-HUN_valkist_party: "NEP"
-HUN_valkist_party_long: "Nemzet Akaratának Pártja"
+HUN_revivalist_party: "NEP"
+HUN_revivalist_party_long: "Nemzet Akaratának Pártja"
 
 POLITICS_FERENC_SZALASI_DESC: "Ferenc Szálasi, the founder of the Hungarist movement and Nemzetvezető of Hungary, was born in 1897 in Košice to a soldier's family with Armenian origins. From his mother, whom he lived with until his ascension to power, he inherited her devout Greek catholic belief. From his father, he inherited the family tradition of serving in the army. As soon as Ferenc completed his elementary education he attended the military academy in Kőszeg, Târgu Mureș, Eisenstadt, and Wiener Neustadt, after which he was promoted to Lieutenant in 1915. During the Great War Szálasi served in the Austro-Hungarian army on both the Italian and French fronts. After the war, he remained largely apolitical. In 1925 he became a well-respected member of the General Staff. During his time there, his political views matured into Hungarism and began to see himself as the sole man capable of leading his mutilated country to its former glory. In 1930 he wrote his book, The Plan for the Building of the Hungarian State as a summary of his ideology and sent it to many prominent figures, causing him to be expelled from the General Staff. In 1931 he left the army altogether and focused on founding the Hungarist movement. Although being considered a green bolshevik by the upper-class, a madman by other politicians, and having no international reputation, Szálasi managed to sway the hearts of the common people. His party won the 1932 general elections and has been ruling the nation for 4 years."
 

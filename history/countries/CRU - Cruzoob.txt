@@ -31,7 +31,7 @@ set_stability = 0.37
 set_war_support = 0.45
 
 set_politics = {	
-	ruling_party = valkist
+	ruling_party = revivalist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -48,7 +48,7 @@ set_popularities = {
 	authoritarian_democrat = 16
 	paternal_autocrat = 10
 	national_populist = 18
-	valkist = 48
+	revivalist = 48
 }
 
 country_event = { id = cruzoob.0 days = 2 }

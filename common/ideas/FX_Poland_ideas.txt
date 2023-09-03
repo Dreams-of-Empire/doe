@@ -414,8 +414,8 @@ ideas = {
 				war_support_weekly = 0.01
 			}
 		}
-		POL_valkist_resistance = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POL_valkist_resistance"}
+		POL_revivalist_resistance = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POL_revivalist_resistance"}
 			picture = FRA_scw_intervention_republicans_focus
 			modifier = {
 				stability_weekly = -0.005

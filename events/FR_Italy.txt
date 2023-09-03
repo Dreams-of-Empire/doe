@@ -125,7 +125,7 @@ country_event = { # Farming Syndicates
 	option = {
 		name = ita.3.a
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.05
 		}
 	}
@@ -133,7 +133,7 @@ country_event = { # Farming Syndicates
 	option = {
 		name = ita.3.b
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = -0.02
 		}
 		add_stability = -0.05
@@ -314,7 +314,7 @@ country_event = { # Socialists attack ppi
 	}
 }
 
-country_event = { # Valkists attack the PPI
+country_event = { # revivalists attack the PPI
 	id = ita.9
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ita.9"}
 	title = ita.9.t
@@ -327,7 +327,7 @@ country_event = { # Valkists attack the PPI
 		name = ita.8.a
 		add_political_power = -50
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -555,7 +555,7 @@ country_event = { # election events
 			factor = 20
 			modifier = {
 				factor = 100
-				has_country_flag = ITA_rule_picked_valkist
+				has_country_flag = ITA_rule_picked_revivalist
 			}
 			modifier = {
 				factor = 0
@@ -565,7 +565,7 @@ country_event = { # election events
 		set_country_flag = ITA_fpick_nat # Foreign minister candidate
 		add_to_variable = {	var = ita_nationalist value = 1 }
 		add_popularity = { ideology = national_populist popularity = 0.03 }
-		add_popularity = { ideology = valkist popularity = 0.03 }
+		add_popularity = { ideology = revivalist popularity = 0.03 }
 		every_country = {
 			limit = {
 				is_neighbor_of = ITA
@@ -651,7 +651,7 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 100
-				has_country_flag = ITA_rule_picked_valkist
+				has_country_flag = ITA_rule_picked_revivalist
 			}
 			modifier = {
 				factor = 0
@@ -660,7 +660,7 @@ country_event = {
 		}
 		add_to_variable = {	var = ita_nationalist value = 1 }
 		add_popularity = { ideology = national_populist popularity = 0.03 }
-		add_popularity = { ideology = valkist popularity = 0.03 }
+		add_popularity = { ideology = revivalist popularity = 0.03 }
 		add_political_power = 30
 		country_event = {
 			id = ita.16
@@ -754,7 +754,7 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 100
-				has_country_flag = ITA_rule_picked_valkist
+				has_country_flag = ITA_rule_picked_revivalist
 			}
 			modifier = {
 				factor = 0
@@ -764,7 +764,7 @@ country_event = {
 		set_country_flag = ITA_spick_nat # security minister candidate
 		add_to_variable = {	var = ita_nationalist value = 1 }
 		add_popularity = { ideology = national_populist popularity = 0.03 }
-		add_popularity = { ideology = valkist popularity = 0.03 }
+		add_popularity = { ideology = revivalist popularity = 0.03 }
 		ITA = {
 			add_opinion_modifier = { target = USA modifier = ITA_elecanti_usa }
 		}
@@ -860,7 +860,7 @@ country_event = { # Economic reforms
 			factor = 20
 			modifier = {
 				factor = 100
-				has_country_flag = ITA_rule_picked_valkist
+				has_country_flag = ITA_rule_picked_revivalist
 			}
 			modifier = {
 				factor = 0
@@ -870,7 +870,7 @@ country_event = { # Economic reforms
 		set_country_flag = ITA_epick_nat # economic minister candidate
 		add_to_variable = {	var = ita_nationalist value = 1 }
 		add_popularity = { ideology = national_populist popularity = 0.03 }
-		add_popularity = { ideology = valkist popularity = 0.03 }
+		add_popularity = { ideology = revivalist popularity = 0.03 }
 		158 = {
 			add_resource = {  
 				type = chromium  
@@ -970,7 +970,7 @@ country_event = { # Role of the Monarchy
 			factor = 20
 			modifier = {
 				factor = 100
-				has_country_flag = ITA_rule_picked_valkist
+				has_country_flag = ITA_rule_picked_revivalist
 			}
 			modifier = {
 				factor = 0
@@ -979,7 +979,7 @@ country_event = { # Role of the Monarchy
 		}
 		add_to_variable = {	var = ita_nationalist value = 1 }
 		add_popularity = { ideology = national_populist popularity = 0.03 }
-		add_popularity = { ideology = valkist popularity = 0.03 }
+		add_popularity = { ideology = revivalist popularity = 0.03 }
 		add_political_power = -30
 		country_event = {
 			id = ita.19
@@ -1074,12 +1074,12 @@ country_event = { # Colonial policy
 			}
 			modifier = {
 				factor = 0
-				has_country_flag = ITA_rule_picked_valkist
+				has_country_flag = ITA_rule_picked_revivalist
 			}
 		}
 		add_to_variable = {	var = ita_nationalist value = 1 }
 		add_popularity = { ideology = national_populist popularity = 0.03 }
-		add_popularity = { ideology = valkist popularity = 0.03 }
+		add_popularity = { ideology = revivalist popularity = 0.03 }
 		add_war_support = 0.05
 		set_country_flag = ITA_election_done
 	}
@@ -1264,7 +1264,7 @@ country_event = { # Soc Dem win
 		}
 		add_political_power = 50
 		remove_coalition_social_democrat = yes 
-		remove_coalition_valkist = yes
+		remove_coalition_revivalist = yes
 		remove_coalition_national_populist = yes 
 		every_country = {
 			limit = {
@@ -1407,7 +1407,7 @@ country_event = { # conservative win
 			limit = {
 				has_country_flag = ITA_right_coalition
 			}
-			add_coalition_valkist = yes 
+			add_coalition_revivalist = yes 
 			add_coalition_national_populist = yes 
 		}
 		if = {
@@ -1477,13 +1477,13 @@ country_event = { # nationalist win
 	option = {
 		trigger = {
 			check_variable = { 
-				ROOT.party_popularity@valkist > ROOT.party_popularity@national_populist 
+				ROOT.party_popularity@revivalist > ROOT.party_popularity@national_populist 
 			}
 		}
 		name = ita.24.a 
 		set_country_flag = ITA_nat_win
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 		}
 		end_coalition = yes 
 		add_coalition_national_populist = yes 
@@ -1514,7 +1514,7 @@ country_event = { # nationalist win
 	option = {
 		trigger = {
 			check_variable = { 
-				ROOT.party_popularity@national_populist > ROOT.party_popularity@valkist 
+				ROOT.party_popularity@national_populist > ROOT.party_popularity@revivalist 
 			}
 		}
 		name = ita.20.a 
@@ -1524,7 +1524,7 @@ country_event = { # nationalist win
 		}
 		add_political_power = 50
 		end_coalition = yes 
-		add_coalition_valkist = yes 
+		add_coalition_revivalist = yes 
 		if = {
 			limit = {
 				has_country_flag = ITA_right_coalition
@@ -1747,11 +1747,11 @@ country_event = { # Italian Civil War - Nationalists
 					}
 				}
 				add_popularity = {
-					ideology = valkist
+					ideology = revivalist
 					popularity = 0.4
 				}
 				set_politics = {
-					ruling_party = valkist
+					ruling_party = revivalist
 					elections_allowed = no
 				}
 			}
@@ -1769,7 +1769,7 @@ country_event = { # Italian Civil War - Nationalists
 		ITA = {
       retire_character = ITA_Gabrielle_D_Annunzio
 			add_popularity = {
-				ideology = valkist
+				ideology = revivalist
 				popularity = -0.05
 			}
 			add_popularity = {
@@ -2422,7 +2422,7 @@ country_event = { # Nat Italy - abandon France
 		SIC = {
 			owns_state = 2
 			has_cosmetic_tag = SCI_nationalist
-			has_government = valkist
+			has_government = revivalist
 		}
 		ITA = {
 			exists = no
@@ -2479,7 +2479,7 @@ country_event = { # Nat Italy - Join Stahlpakt?
 		SIC = {
 			owns_state = 2
 			has_cosmetic_tag = SCI_nationalist
-			has_government = valkist
+			has_government = revivalist
 		}
 		ITA = {
 			exists = no
@@ -2610,7 +2610,7 @@ country_event = { # Christian democrats join nationalists
 			popularity = 0.01
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.01
 		}
 		set_country_flag = ITA_right_coalition
@@ -2671,7 +2671,7 @@ country_event = { # Forming government - foreign minister
 			}
 			AND = {
 				OR = {
-					has_government = valkist
+					has_government = revivalist
 					has_government = national_populist
 				}
 				OR = {
@@ -2772,7 +2772,7 @@ country_event = { # Forming government - foreign minister
 			NOT = {
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}	
@@ -2783,13 +2783,13 @@ country_event = { # Forming government - foreign minister
 		add_stability = 0.05
 	}
 	
-	option = { # Valkist Foreign minister
+	option = { # revivalist Foreign minister
 		trigger = {
 			has_country_flag = ITA_fpick_nat
 			NOT = {
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}	
@@ -2861,7 +2861,7 @@ country_event = { # Forming government - economic minister
 			}
 			AND = {
 				OR = {
-					has_government = valkist
+					has_government = revivalist
 					has_government = national_populist
 				}
 				OR = {
@@ -2962,7 +2962,7 @@ country_event = { # Forming government - economic minister
 			NOT = {
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}	
@@ -2973,13 +2973,13 @@ country_event = { # Forming government - economic minister
 		add_stability = 0.05
 	}
 	
-	option = { # Valkist Foreign minister
+	option = { # revivalist Foreign minister
 		trigger = {
 			has_country_flag = ITA_epick_nat
 			NOT = {
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}	
@@ -3051,7 +3051,7 @@ country_event = { # Forming government - economic minister
 			}
 			AND = {
 				OR = {
-					has_government = valkist
+					has_government = revivalist
 					has_government = national_populist
 				}
 				OR = {
@@ -3145,7 +3145,7 @@ country_event = { # Forming government - economic minister
 			NOT = {
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}	
@@ -3156,13 +3156,13 @@ country_event = { # Forming government - economic minister
 		add_stability = 0.05
 	}
 	
-	option = { # Valkist Foreign minister
+	option = { # revivalist Foreign minister
 		trigger = {
 			has_country_flag = ITA_spick_nat
 			NOT = {
 				OR = {
 					has_government = national_populist
-					has_government = valkist
+					has_government = revivalist
 				}
 			}
 		}	
@@ -3246,7 +3246,7 @@ country_event = { # Italy - What should we do about French states?
 			modifier = {
 				factor = 4
 				OR = {
-					has_government = valkist
+					has_government = revivalist
 					has_government = national_populist
 					has_government = collectivist
 					has_government = vanguardist
@@ -14322,7 +14322,7 @@ country_event = { # French/Italy - border war
 		threat > 0.25
 		ITA = {
 			has_government = national_populist
-			has_government = valkist
+			has_government = revivalist
 			controls_state = 158
 		}
 		FRA = {
@@ -14614,10 +14614,10 @@ country_event = {
 	option = {
 		trigger = {
 			OR = {
-				has_government = valkist
+				has_government = revivalist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
-				has_government = valkist
+				has_government = revivalist
 				has_government = market_liberal
 				has_government = social_conservative
 				has_government = national_populist
@@ -14856,7 +14856,7 @@ country_event = {
 	option = {
 		name = itafla.1.a
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.02
 		}	
 	}
@@ -15590,7 +15590,7 @@ country_event = { # Italy - Balbo Libya leaves us
 # Nationalist events #
 ######################
 
-country_event = { #Italy - Pick Nat Pops or Valkists
+country_event = { #Italy - Pick Nat Pops or revivalists
 	id = itasyn.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event itasyn.1"}
 	title = itasyn.1.t
@@ -15605,10 +15605,10 @@ country_event = { #Italy - Pick Nat Pops or Valkists
 		if = {
 			limit = {
 				NOT = {
-					is_in_array = { ROOT.coalition_partners = token:valkist }
+					is_in_array = { ROOT.coalition_partners = token:revivalist }
 				}
 			}
-			add_coalition_valkist = yes 
+			add_coalition_revivalist = yes 
 		}
 		add_popularity = {
 			ideology = national_populist
@@ -15640,11 +15640,11 @@ country_event = { #Italy - Pick Nat Pops or Valkists
 			add_coalition_national_populist = yes 
 		}		
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.15
 		}
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -15716,7 +15716,7 @@ country_event = { #Italy - D'Annunzio fuckin dies
       character = ITA_Arengo_del_Italia
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
         traits = {}
       }
     }
@@ -15748,7 +15748,7 @@ country_event = { #Italy - D'Annunzio's successor
       character = ITA_Alceste_De_Ambris
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
         traits = {}
       }
     }
@@ -15770,7 +15770,7 @@ country_event = { #Italy - D'Annunzio's successor
       character = ITA_Edmondo_Rossoni
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
         traits = {}
       }
     }
@@ -15784,7 +15784,7 @@ country_event = { #Italy - D'Annunzio's successor
       character = ITA_Tullio_Cianetti
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
         traits = {}
       }
     }
@@ -15975,7 +15975,7 @@ country_event = { #Italy - Soviets accept Friendship Pact
 
 	option = { # nice
 		name = itasyn.7.a
-		set_country_flag = ITA_valkist_sov_pact
+		set_country_flag = ITA_revivalist_sov_pact
 		add_opinion_modifier = { target = SOV modifier = ITA_sov_friend }	
 		random_owned_controlled_state = {
 			add_extra_state_shared_building_slots = 1
@@ -16016,7 +16016,7 @@ country_event = { #Italy - form alliance with soviets?
 
 	trigger = {
 		original_tag = ITA
-		has_country_flag = ITA_valkist_sov_pact
+		has_country_flag = ITA_revivalist_sov_pact
 		ITA = {
 			OR = {
 				is_in_faction = no
@@ -16361,7 +16361,7 @@ country_event = { #Italy - Germany accepts labor agreement
 
 	option = { # nice
 		name = itasyn.15.a
-		set_country_flag = ITA_valkist_ger_pact
+		set_country_flag = ITA_revivalist_ger_pact
 		add_opinion_modifier = { target = GER modifier = ITA_ger_friend }
 		add_tech_bonus = {
 			bonus = 0.5
@@ -16395,7 +16395,7 @@ country_event = { #Italy - form alliance with Germany?
 
 	trigger = {
 		original_tag = ITA
-		has_country_flag = ITA_valkist_ger_pact
+		has_country_flag = ITA_revivalist_ger_pact
 		ITA = {
 			OR = {
 				is_in_faction = no

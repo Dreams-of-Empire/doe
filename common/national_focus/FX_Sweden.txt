@@ -2355,7 +2355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWE_ban_pan_germanic_parties
-		icon = GFX_goal_valkist_star
+		icon = GFX_goal_revivalist_star
 		cost = 8.00
 		prerequisite = {
 			focus = SWE_denounce_foreign_influence
@@ -2379,7 +2379,7 @@ focus_tree = {
 			add_political_power = -25
 			add_stability = -0.03
 			add_popularity = { ideology = national_populist popularity = -0.09 }
-			add_popularity = { ideology = valkist popularity = -0.02 }
+			add_popularity = { ideology = revivalist popularity = -0.02 }
 		}
 
 	}
@@ -3014,7 +3014,7 @@ focus_tree = {
 			add_political_power = -30
 			add_stability = -0.01
 			add_popularity = { ideology = national_populist popularity = -0.05 }
-			add_popularity = { ideology = valkist popularity = -0.01 }
+			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
 
 	}
@@ -3199,7 +3199,7 @@ focus_tree = {
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
-			add_popularity = { ideology = valkist popularity = -0.02 }
+			add_popularity = { ideology = revivalist popularity = -0.02 }
 			country_event = { days = 1 id = sweden.62 }
 		}
 

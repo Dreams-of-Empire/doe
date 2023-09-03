@@ -47,8 +47,8 @@ RAS_paternal_autocrat_party: "al-Rashidi"
 RAS_paternal_autocrat_party_long: "al-Rashidi"
 RAS_national_populist_party: "HFW"
 RAS_national_populist_party_long: "Hizb al-Fida' al-Watani (Party of National Sacrifice)"
-RAS_valkist_party: "-"
-RAS_valkist_party_long: "-"
+RAS_revivalist_party: "-"
+RAS_revivalist_party_long: "-"
 
 ### Tooltips
 RAS_not_raising_division_tt: "Currently §tnot§! raising divisions"

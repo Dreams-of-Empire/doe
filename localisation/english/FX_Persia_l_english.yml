@@ -35,9 +35,9 @@ PER_paternal_autocrat_DEF: "The State of Iran"
 PER_national_populist: "Neo-Iranian Empire"
 PER_national_populist_ADJ: "Iranian"
 PER_national_populist_DEF: "The Neo-Iranian Empire"
-PER_valkist: "Eranshahr"
-PER_valkist_ADJ: "Iranian"
-PER_valkist_DEF: "Ērānshahr"
+PER_revivalist: "Eranshahr"
+PER_revivalist_ADJ: "Iranian"
+PER_revivalist_DEF: "Ērānshahr"
 
 #### Political Parties ####
 
@@ -63,8 +63,8 @@ PER_national_populist_party: "Kabud"
 PER_national_populist_party_long: "Hezb-e Kabud"
 PER_shiite_islam_party: "Jomhuri-e Eslami"
 PER_shiite_islam_party_long: "Hezb-e Jomhuri-e Eslami"
-PER_valkist_party: "Pan Iranist"
-PER_valkist_party_long: "Hezb-e Pan Iranist"
+PER_revivalist_party: "Pan Iranist"
+PER_revivalist_party_long: "Hezb-e Pan Iranist"
 
 #### IDEAS ####
 
@@ -401,7 +401,7 @@ iran.125.a: "The Tudeh Party Wins!"
 iran.125.b: "Mossadegh's Coalition Wins!"
 
 iran.126.t: "What Doctrine of Rule to Follow?"
-iran.126.d: "With the old military regime finally gone, we need to figure out what doctrine of rule we should follow. Some have requested a ultra-conservative Islamic state, while others find inspiration in Germany and argue for a valkist regime instead."
+iran.126.d: "With the old military regime finally gone, we need to figure out what doctrine of rule we should follow. Some have requested a ultra-conservative Islamic state, while others find inspiration in Germany and argue for a revivalist regime instead."
 iran.126.a: "A Conservative Shia State is Best"
 iran.126.b: "A New Iran Will Rise!"
 
@@ -747,8 +747,8 @@ PER_NAT_nationalize_foreign_industries_desc: ""
 PER_NAT_nationalize_arms_industries: "Nationalize the Arms Industries"
 PER_NAT_nationalize_arms_industries_desc: ""
 
-PER_NAT_valkist_state: "A Valkist State"
-PER_NAT_valkist_state_desc: ""
+PER_NAT_revivalist_state: "A revivalist State"
+PER_NAT_revivalist_state_desc: ""
 PER_NAT_mobilize_youth: "Mobilize the Youth"
 PER_NAT_mobilize_youth_desc: ""
 PER_NAT_nations_inequality: "Nations Inequality"

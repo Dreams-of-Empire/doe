@@ -141,7 +141,7 @@ BLR_create_monarchy = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
         traits = {}
       }
     }
@@ -209,7 +209,7 @@ BLR_remove_monarchy = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = valkist_subtype
+        ideology = revivalist_subtype
       }
     }
   }

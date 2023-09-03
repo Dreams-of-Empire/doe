@@ -46,7 +46,7 @@ JAP_HISASHI_Reformed = {
 	color = rgb { 165 15 15 }
 	color_ui = rgb { 170 17 59 }
 }
-JAP_valkist = {
+JAP_revivalist = {
 	color = rgb { 18 75 10 }
 	color_ui = rgb { 17 111 3 }
 }

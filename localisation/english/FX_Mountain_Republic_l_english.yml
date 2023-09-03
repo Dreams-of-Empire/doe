@@ -31,9 +31,9 @@ GOR_paternal_autocrat_DEF: "The Mountain Republic"
 GOR_national_populist: "Ciscaucasian State"
 GOR_national_populist_ADJ: "Ciscaucasian"
 GOR_national_populist_DEF: "The Ciscaucasian State"
-GOR_valkist: "Ciscaucasian Empire"
-GOR_valkist_ADJ: "Ciscaucasian"
-GOR_valkist_DEF: "The Empire of Ciscaucasia"
+GOR_revivalist: "Ciscaucasian Empire"
+GOR_revivalist_ADJ: "Ciscaucasian"
+GOR_revivalist_DEF: "The Empire of Ciscaucasia"
 
 ### Parties
 GOR_vanguardist_party: "OKSP"

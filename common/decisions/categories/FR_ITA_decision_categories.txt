@@ -57,7 +57,7 @@ ITA_syndie_march = {
 	
 	visible = {
 		OR = {
-			has_government = valkist
+			has_government = revivalist
 		}
 	}
 }
@@ -144,7 +144,7 @@ ITA_syndie_march_rome = {
 	}
 
 	visible = {
-		has_government = valkist
+		has_government = revivalist
 		NOT = {
 			has_completed_focus = ITA_proclaim_republic
 		}
@@ -278,7 +278,7 @@ ITA_expand_latin_category = {
 	
 	available = {
 		ITA = {
-			has_government = valkist
+			has_government = revivalist
 		}
 	}
 

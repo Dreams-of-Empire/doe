@@ -50,7 +50,7 @@ country_event = { # Disunity in the Pink-Orange Coalition
         OR = {
           has_country_flag = UKR_populist_behavior
           has_country_flag = UKR_monarchist_behavior
-          has_country_flag = UKR_valkist_behavior
+          has_country_flag = UKR_revivalist_behavior
         }
       }
     }
@@ -107,7 +107,7 @@ country_event = { # Clashes Between the OUN and PNIU
       base = 100
       modifier = {
         factor = 0
-        has_country_flag = UKR_valkist_behavior
+        has_country_flag = UKR_revivalist_behavior
       }
     }
     add_popularity = {
@@ -145,7 +145,7 @@ country_event = { # Dontsov Accusses Government of Wide-Scale Corruption
       base = 100
       modifier = {
         factor = 0
-        has_country_flag = UKR_valkist_behavior
+        has_country_flag = UKR_revivalist_behavior
       }
     }
     add_popularity = {
@@ -185,7 +185,7 @@ country_event = { # Rumours of President Hankevych's Death
       modifier = {
         factor = 0
         OR = {
-          has_country_flag = UKR_valkist_behavior
+          has_country_flag = UKR_revivalist_behavior
           has_country_flag = UKR_populist_behavior
         }
       }
@@ -228,7 +228,7 @@ country_event = { # Deploying the Police?
       base = 200
       modifier = {
         factor = 0
-        NOT = { has_country_flag = UKR_valkist_behavior }
+        NOT = { has_country_flag = UKR_revivalist_behavior }
       }
     }
     add_political_power = -10
@@ -463,7 +463,7 @@ country_event = { # 1936 Elections
       base = 200
       modifier = {
         factor = 10
-        has_country_flag = UKR_valkist_behavior
+        has_country_flag = UKR_revivalist_behavior
       }
     }
     trigger = {
@@ -1844,7 +1844,7 @@ country_event = { # 1946 Elections
       base = 200
       modifier = {
         factor = 10
-        has_country_flag = UKR_valkist_behavior
+        has_country_flag = UKR_revivalist_behavior
       }
     }
     trigger = {
@@ -2020,7 +2020,7 @@ country_event = { # 1951 Elections
       base = 200
       modifier = {
         factor = 10
-        has_country_flag = UKR_valkist_behavior
+        has_country_flag = UKR_revivalist_behavior
       }
     }
     trigger = {

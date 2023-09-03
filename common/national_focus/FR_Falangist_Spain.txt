@@ -567,7 +567,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 			has_country_flag = SPF_phalanx_secures_power_flag
 		}
@@ -580,13 +580,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPF_phalanx_secures_power"
 			add_political_power = 25
 			add_popularity = { ideology = national_populist popularity = 0.02 }
-			add_popularity = { ideology = valkist popularity = 0.02 }
+			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
 
 	}
 	focus = {
 		id = SPF_national_syndicalist_dominance
-		icon = GFX_goal_ideology_valkist
+		icon = GFX_goal_ideology_revivalist
 		cost = 5.00
 		prerequisite = {
 			focus = SPF_phalanx_secures_power
@@ -598,7 +598,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -608,7 +608,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPF_national_syndicalist_dominance"
 			add_political_power = 25
-			add_popularity = { ideology = valkist popularity = 0.02 }
+			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
 
 	}
@@ -623,7 +623,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -678,7 +678,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -706,7 +706,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -722,7 +722,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPF_forging_new_state
-		icon = GFX_goal_valkist_star
+		icon = GFX_goal_revivalist_star
 		cost = 8.00
 		prerequisite = {
 			focus = SPF_national_syndicalist_dominance
@@ -734,7 +734,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -768,7 +768,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -795,7 +795,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -835,7 +835,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPF_ledesmas_cult
-		icon = GFX_Valkist_Germany_Wolf
+		icon = GFX_revivalist_Germany_Wolf
 		cost = 8.00
 		prerequisite = {
 			focus = SPF_strengthen_our_unions
@@ -853,7 +853,7 @@ focus_tree = {
 		y = 8
 		
 		available = {
-			has_government = valkist
+			has_government = revivalist
 		}
 		
 		ai_will_do = {
@@ -888,7 +888,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		
@@ -912,9 +912,9 @@ focus_tree = {
 				name = SPF_natpop_one_party
 			}
 			set_party_name = {
-				ideology = valkist
-				long_name = SPF_valkist_one_party_long
-				name = SPF_valkist_one_party
+				ideology = revivalist
+				long_name = SPF_revivalist_one_party_long
+				name = SPF_revivalist_one_party
 			}
 		}
 
@@ -972,7 +972,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = national_populist
-				has_government = valkist
+				has_government = revivalist
 			}
 		}
 		

@@ -369,7 +369,7 @@ create_ambition_areas = {
 			}
 			set_variable = { ambition_area_@ELS = 1 }
 		}
-		# EGL = England (Valkist Britain)
+		# EGL = England (revivalist Britain)
 		if = {
 			limit = {
 				OR = {
@@ -468,7 +468,7 @@ create_ambition_areas = {
 				OR = {
 					is_core_of = GER
 					is_claimed_by = GER
-					is_on_continent = europe # Valkist Germany is done with traditional colonies
+					is_on_continent = europe # revivalist Germany is done with traditional colonies
 				}
 			}
 			set_variable = { ambition_area_@GER = 1 }
@@ -1278,7 +1278,7 @@ create_ambition_areas = {
 			}
 			set_variable = { ambition_area_@SOV = 1 }
 		}
-		# SRV - Serene Republic of Venice (Valkist Italy)
+		# SRV - Serene Republic of Venice (revivalist Italy)
 		if = {
 			limit = {
 				OR = {

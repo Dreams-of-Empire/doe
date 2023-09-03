@@ -185,13 +185,13 @@ country_event = {
 	option = {
 		name = mex.5.c
 
-		custom_effect_tooltip = MEX_valkist_tt
+		custom_effect_tooltip = MEX_revivalist_tt
 		set_politics = {
-			ruling_party = valkist
+			ruling_party = revivalist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = valkist
+			ideology = revivalist
 			popularity = 0.25
 		}
 		remove_every_minister = yes
@@ -201,7 +201,7 @@ country_event = {
 			MEX_Pedro_Zuloaga_Irigoiti_eco_npo
 			MEX_Victoriano_Ramirez_sec_val
 		}
-		set_global_flag = MEX_VALKISTS
+		set_global_flag = MEX_revivalistS
 		ai_chance = { factor = 30 }
 	}
 }

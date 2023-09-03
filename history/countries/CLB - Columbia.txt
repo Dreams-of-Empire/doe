@@ -51,7 +51,7 @@ set_popularities = {
 	authoritarian_democrat = 24
 	paternal_autocrat = 14
 	national_populist = 7
-	valkist = 10
+	revivalist = 10
 }
 
 add_ideas = {

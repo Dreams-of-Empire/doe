@@ -31,9 +31,9 @@ CHI_paternal_autocrat_DEF: "The Nanjing Government"
 CHI_national_populist: "Nanjing Government"
 CHI_national_populist_ADJ: "Chinese"
 CHI_national_populist_DEF: "The Nanjing Government"
-CHI_valkist: "Nanjing Government"
-CHI_valkist_ADJ: "Chinese"
-CHI_valkist_DEF: "The Nanjing Government"
+CHI_revivalist: "Nanjing Government"
+CHI_revivalist_ADJ: "Chinese"
+CHI_revivalist_DEF: "The Nanjing Government"
 
 ##### Parties #####
 CHI_vanguardist_party: "CCP"
@@ -56,8 +56,8 @@ CHI_paternal_autocrat_party: "KMT"
 CHI_paternal_autocrat_party_long: "Kuomintang"
 CHI_national_populist_party: "BSB"
 CHI_national_populist_party_long: "The Practical Society of Three Principles of the People"
-CHI_valkist_party: "BSB"
-CHI_valkist_party_long: "The Practical Society of Three Principles of the People"
+CHI_revivalist_party: "BSB"
+CHI_revivalist_party_long: "The Practical Society of Three Principles of the People"
 
 ##### Ideas #####
 CHI_backwards_economy1: "Backwards Economy"

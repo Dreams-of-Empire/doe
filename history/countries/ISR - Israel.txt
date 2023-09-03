@@ -56,7 +56,7 @@ set_popularities = {
   authoritarian_democrat = 7
   paternal_autocrat = 5
   national_populist = 3
-  valkist = 2
+  revivalist = 2
 }
 
 recruit_character = ISR_Chaim_Weizmann

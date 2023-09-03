@@ -31,9 +31,9 @@ CLB_paternal_autocrat_DEF: "The Commonwealth of Columbia"
 CLB_national_populist: "Commonwealth of Columbia"
 CLB_national_populist_ADJ: "Columbian"
 CLB_national_populist_DEF: "The Commonwealth of Columbia"
-CLB_valkist: "Commonwealth of Columbia"
-CLB_valkist_ADJ: "Columbian"
-CLB_valkist_DEF: "The State of Columbia"
+CLB_revivalist: "Commonwealth of Columbia"
+CLB_revivalist_ADJ: "Columbian"
+CLB_revivalist_DEF: "The State of Columbia"
 
 ### Cosmetic
 # Balkanized
@@ -67,9 +67,9 @@ CLB_midwest_paternal_autocrat_DEF: "The Midwest Union"
 CLB_midwest_national_populist: "Midwest Union"
 CLB_midwest_national_populist_ADJ: "Midwestern"
 CLB_midwest_national_populist_DEF: "The Midwest Union"
-CLB_midwest_valkist: "Midwest Union"
-CLB_midwest_valkist_ADJ: "Midwestern"
-CLB_midwest_valkist_DEF: "The Midwest Union"
+CLB_midwest_revivalist: "Midwest Union"
+CLB_midwest_revivalist_ADJ: "Midwestern"
+CLB_midwest_revivalist_DEF: "The Midwest Union"
 
 ### Parties
 CLB_vanguardist_party: "CPUSA"
@@ -92,8 +92,8 @@ CLB_paternal_autocrat_party: "AFP(Moderates)"
 CLB_paternal_autocrat_party_long: "America First Party(Moderate Faction)"
 CLB_national_populist_party: "AFP(Hardliners)"
 CLB_national_populist_party_long: "America First Party(Hardliner Faction)"
-CLB_valkist_party: "CP(Allenites)"
-CLB_valkist_party_long: "Christian Party(Allenite Faction)"
+CLB_revivalist_party: "CP(Allenites)"
+CLB_revivalist_party_long: "Christian Party(Allenite Faction)"
 
 ### Decisions
 CLB_whitepeace_nid: "Propose Peace to @SNR §Y[SNR.GetNameDef]§!"

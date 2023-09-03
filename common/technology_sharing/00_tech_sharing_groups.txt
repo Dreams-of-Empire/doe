@@ -48,7 +48,7 @@ technology_sharing_group = { #Entente Institute of Research (EIR)
 			is_subject_of = FRA
 		}
 		NOT = {
-			has_government = valkist
+			has_government = revivalist
 		}
 	}
 }

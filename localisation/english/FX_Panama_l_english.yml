@@ -31,9 +31,9 @@ PAN_paternal_autocrat_DEF: "The Kingdom of Panama"
 PAN_national_populist: "Unitary Panama"
 PAN_national_populist_ADJ: "Panamanian"
 PAN_national_populist_DEF: "The Unitary State of Panama"
-PAN_valkist: "Holy State of Panama"
-PAN_valkist_ADJ: "Panamanian"
-PAN_valkist_DEF: "The Holy State of Panama"
+PAN_revivalist: "Holy State of Panama"
+PAN_revivalist_ADJ: "Panamanian"
+PAN_revivalist_DEF: "The Holy State of Panama"
 
 ### Parties
 PAN_vanguardist_party_long: "Partido Marxista de Panamá"

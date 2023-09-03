@@ -31,9 +31,9 @@ CEN_paternal_autocrat_DEF: "The Republic of Zapadoslavia"
 CEN_national_populist: "Zapadoslav State"
 CEN_national_populist_ADJ: "Zapadoslav"
 CEN_national_populist_DEF: "The Zapadoslav State"
-CEN_valkist: "Slavic Empire"
-CEN_valkist_ADJ: "Slavic"
-CEN_valkist_DEF: "The Slavic Empire"
+CEN_revivalist: "Slavic Empire"
+CEN_revivalist_ADJ: "Slavic"
+CEN_revivalist_DEF: "The Slavic Empire"
 
 ### Ideas
 CEN_black_wednesday: "London Stock Market Collapse"

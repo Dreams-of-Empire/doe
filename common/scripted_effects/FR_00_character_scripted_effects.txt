@@ -12,7 +12,7 @@ remove_all_country_leader_roles = {
 	remove_country_leader_role_authoritarian_democrat = yes
 	remove_country_leader_role_paternal_autocrat = yes
 	remove_country_leader_role_national_populist = yes
-	remove_country_leader_role_valkist = yes
+	remove_country_leader_role_revivalist = yes
 }
 
 remove_country_leader_role_vanguardist = {
@@ -361,13 +361,13 @@ remove_country_leader_role_national_populist = {
 	}
 }
 
-remove_country_leader_role_valkist = {
+remove_country_leader_role_revivalist = {
 	if = {
-		limit = { has_ideology_group = valkist }
+		limit = { has_ideology_group = revivalist }
 		
 		if = {
-			limit = { has_ideology = valkist_subtype }
-			remove_country_leader_role = { ideology = valkist_subtype }
+			limit = { has_ideology = revivalist_subtype }
+			remove_country_leader_role = { ideology = revivalist_subtype }
 		}
 		else_if = {
 			limit = { has_ideology = panasian_nichirenist_subtype }

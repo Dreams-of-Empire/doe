@@ -4,12 +4,12 @@ CRU_default_plan = {
 
     enable = {
         original_tag = CRU
-        CRU = { has_government = valkist }
+        CRU = { has_government = revivalist }
     }
 
     abort = {
         CRU = {
-            NOT = { has_government = valkist }
+            NOT = { has_government = revivalist }
         }
     }
 

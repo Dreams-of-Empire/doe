@@ -85,7 +85,7 @@ ideas = {
 				fasci_drift = -0.01
 				collectivist_drift = -0.01
 				vanguardist_drift = -0.01
-				valkist_drift = -0.01
+				revivalist_drift = -0.01
 
 			}
 			picture = generic_spy_political

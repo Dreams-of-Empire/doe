@@ -31,9 +31,9 @@ NIC_paternal_autocrat_DEF: "Nicaraguan Kingdom"
 NIC_national_populist: "Eternal Nicaraguan State"
 NIC_national_populist_ADJ: "Nicaraguan"
 NIC_national_populist_DEF: "Eternal Nicaraguan State"
-NIC_valkist: "True Nicaraguan Republic"
-NIC_valkist_ADJ: "Nicaraguan"
-NIC_valkist_DEF: "True Nicaraguan Republic"
+NIC_revivalist: "True Nicaraguan Republic"
+NIC_revivalist_ADJ: "Nicaraguan"
+NIC_revivalist_DEF: "True Nicaraguan Republic"
 
 ### Parties
 NIC_vanguardist_party_long: "Partido Nacional Revolucionario"

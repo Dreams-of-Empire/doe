@@ -166,7 +166,7 @@ country_event = {
 country_event = {
 	id = austria.5
 	immediate = {log = "[GetDateText]: [Root.GetName]: event austria.5"}
-	title = "The Crackdown on Valkists & German agitators"
+	title = "The Crackdown on revivalists & German agitators"
 	desc = austria.5.d
 	picture = report_event_generic_conference
 
@@ -459,7 +459,7 @@ country_event = {
 country_event = {
 	id = austria.26
 	immediate = {log = "[GetDateText]: [Root.GetName]: event austria.26"}
-	title = "Negotiating with the Valkists"
+	title = "Negotiating with the revivalists"
 	desc = austria.26.d
 	picture = report_event_generic_conference
 
@@ -469,7 +469,7 @@ country_event = {
 
 	option = {
 		name = "Only through understanding can differences be settled."
-		add_popularity = { ideology = valkist popularity = 0.1 }
+		add_popularity = { ideology = revivalist popularity = 0.1 }
 		add_political_power = 100
 		add_stability = 0.1
 		hidden_effect = { 
@@ -545,7 +545,7 @@ country_event = {
 country_event = {
 	id = austria.29
 	immediate = {log = "[GetDateText]: [Root.GetName]: event austria.29"}
-	title = "Failed Valkist Coup"
+	title = "Failed revivalist Coup"
 	desc = austria.29.d
 	picture = report_event_generic_conference
 
@@ -556,7 +556,7 @@ country_event = {
 	option = {
 		name = "We tried to be understanding with you..."
 		add_political_power = -50
-		add_popularity = { ideology = valkist popularity = -0.20 }
+		add_popularity = { ideology = revivalist popularity = -0.20 }
 		ai_chance = { factor = 100 }
 	}
 }

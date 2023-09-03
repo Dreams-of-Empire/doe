@@ -156,7 +156,7 @@ country_event = { # Fate of Austria
         limit = {
           ROOT = {
             tag = GER
-            has_government = valkist
+            has_government = revivalist
           }
         }
         set_cosmetic_tag = GER_AUS_rk
@@ -506,7 +506,7 @@ country_event = { # Fate of Belarus
         limit = {
           ROOT = {
             tag = GER
-            has_government = valkist
+            has_government = revivalist
           }
         }
         set_cosmetic_tag = GER_BLR_rk
@@ -693,7 +693,7 @@ country_event = { # Fate of Czechoslovakia
     trigger = {
       NOT = {
         tag = GER
-        has_government = valkist
+        has_government = revivalist
       }
     }
     set_temp_variable = { tag_to_release = CZE }
@@ -707,7 +707,7 @@ country_event = { # Fate of Czechoslovakia
     }
     trigger = {
       tag = GER
-      has_government = valkist
+      has_government = revivalist
     }
     set_country_flag = CZE_CONQ
   }
@@ -755,7 +755,7 @@ country_event = { # Fate of Denmark
         limit = {
           ROOT = {
             tag = GER
-            has_government = valkist
+            has_government = revivalist
           }
         }
         set_cosmetic_tag = GER_DEN_rk
@@ -813,7 +813,7 @@ country_event = { # Fate of England
         limit = {
           ROOT = {
             tag = GER
-            has_government = valkist
+            has_government = revivalist
           }
         }
         set_cosmetic_tag = GER_ENG_rk
@@ -837,7 +837,7 @@ country_event = { # Fate of England
         limit = {
           ROOT = {
             tag = GER
-            has_government = valkist
+            has_government = revivalist
           }
         }
         set_cosmetic_tag = GER_ENG_rk
@@ -1201,7 +1201,7 @@ country_event = { # Fate of France
         limit = {
           ROOT = {
             tag = GER
-            has_government = valkist
+            has_government = revivalist
           }
         }
         set_cosmetic_tag = GER_FRA_rk
@@ -1297,7 +1297,7 @@ country_event = { # Fate of Great Britain
         limit = {
           ROOT = {
             tag = GER
-            has_government = valkist
+            has_government = revivalist
           }
         }
         set_cosmetic_tag = GER_ENG_rk
@@ -1702,7 +1702,7 @@ country_event = { # Fate of Netherlands
           tag = GER
           OR = {
             has_government = national_populist
-            has_government = valkist
+            has_government = revivalist
           }
         }
       }
@@ -1847,7 +1847,7 @@ country_event = { # Fate of Hungary
     if = {
       limit = {
         tag = GER
-        has_government = valkist
+        has_government = revivalist
       }
       HUN = { set_cosmetic_tag = GER_HUN_rk }
     }
@@ -1941,7 +1941,7 @@ country_event = { # Fate of Ireland
         limit = {
           ROOT = {
             tag = GER
-            has_government = valkist
+            has_government = revivalist
           }
         }
         set_cosmetic_tag = GER_IRE_rk
@@ -1974,7 +1974,7 @@ country_event = { # Fate of Italy
       if = {
         limit = {
           tag = GER
-          has_government = valkist
+          has_government = revivalist
         }
         ITP = { save_global_event_target_as = italy_tag }
       }
@@ -2017,7 +2017,7 @@ country_event = { # Fate of Italy
     trigger = {
       AND = {
         tag = GER
-        has_government = valkist
+        has_government = revivalist
       }
     }
 
@@ -2026,7 +2026,7 @@ country_event = { # Fate of Italy
     if = {
       limit = {
         tag = GER
-        has_government = valkist
+        has_government = revivalist
       }
       ITP = { set_cosmetic_tag = GER_ITA_rk }
     }
@@ -2038,7 +2038,7 @@ country_event = { # Fate of Italy
       NOT = {
         AND = {
           tag = GER
-          has_government = valkist
+          has_government = revivalist
         }
       }
     }
@@ -2052,7 +2052,7 @@ country_event = { # Fate of Italy
     name = annex.125.b
     trigger = {
       has_socialist_government = no
-      NOT = { has_government = valkist }
+      NOT = { has_government = revivalist }
     }
 
     set_temp_variable = { tag_to_release = ITA }
@@ -2695,7 +2695,7 @@ country_event = { # Fate of Poland
     if = {
       limit = {
         tag = GER
-        has_government = valkist
+        has_government = revivalist
       }
       POL = { set_cosmetic_tag = GER_POL_rk }
     }
@@ -3176,7 +3176,7 @@ country_event = { # Fate of Russia
     name = annex.integrate
     trigger = {
       tag = UKR
-      has_government = valkist
+      has_government = revivalist
     }
     
     set_country_flag = RUS_CONQ
@@ -3320,7 +3320,7 @@ country_event = { # Fate of Scotland
         limit = {
           ROOT = {
             tag = GER
-            has_government = valkist
+            has_government = revivalist
           }
         }
         set_cosmetic_tag = GER_SCO_rk
@@ -3774,7 +3774,7 @@ country_event = { # Fate of Slovakia
     if = {
       limit = {
         tag = GER
-        has_government = valkist
+        has_government = revivalist
       }
       
       SLO = { set_cosmetic_tag = GER_SLO_rk }
@@ -4053,7 +4053,7 @@ country_event = { # Fate of Ukraine
     if = {
       limit = {
         tag = GER
-        has_government = valkist
+        has_government = revivalist
       }
       UKR = { set_cosmetic_tag = GER_UKR_rk }
     }
@@ -4141,7 +4141,7 @@ country_event = { # Fate of Wales
         limit = {
           ROOT = {
             tag = GER
-            has_government = valkist
+            has_government = revivalist
           }
         }
         set_cosmetic_tag = GER_WLS_rk
@@ -6005,12 +6005,12 @@ country_event = { # Fate of European Russia
       limit = {
         ROOT = {
           tag = GER
-          has_government = valkist
+          has_government = revivalist
         }
       }
       VRS = {
         set_party_name = { 
-          ideology = valkist 
+          ideology = revivalist 
           long_name = VRS_rk_party 
           name = VRS_rk_party_long 
         }
@@ -6019,9 +6019,9 @@ country_event = { # Fate of European Russia
     else = {
       VRS = {
         set_party_name = { 
-          ideology = valkist 
-          long_name = VRS_valkist_party 
-          name = VRS_valkist_party_long 
+          ideology = revivalist 
+          long_name = VRS_revivalist_party 
+          name = VRS_revivalist_party_long 
         }
       }
     }

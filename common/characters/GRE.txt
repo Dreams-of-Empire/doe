@@ -489,7 +489,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -507,7 +507,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Georgios_Spyridon_Merkouris_hog_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				hog_determined_populist
 			}
 		}
@@ -535,7 +535,7 @@ characters = {
 	# 			ROOT = { clr_country_flag = GRE_Manolis_Manoleas_hog_val_hired }
 	# 		}
 	# 		traits = {
-	# 			valkist
+	# 			revivalist
 	# 			hog_backroom_backstabber
 	# 		}
 	# 	}
@@ -768,7 +768,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}
@@ -780,7 +780,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}
@@ -792,7 +792,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}
@@ -804,7 +804,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = revivalist_subtype
 			traits = { }
 		}
 	}
@@ -1007,7 +1007,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Dimitrios_Delivanis_for_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				for_biased_intellectual
 			}
 		}
@@ -1343,7 +1343,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Georgios_Simitis_eco_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				eco_military_entrepreneur
 			}
 		}
@@ -1724,7 +1724,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Nikolaos_Kalyvas_sec_val_hired }
 			}
 			traits = {
-				valkist
+				revivalist
 				sec_health_and_safety
 			}
 		}

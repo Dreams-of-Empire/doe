@@ -426,7 +426,7 @@ ITA_socialist_control = {
 
 ITA_syndie_control = {
 	ITA_syndie_control_campania = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 117
@@ -447,7 +447,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_pulgia = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 156
@@ -468,7 +468,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_molise = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 849
@@ -490,7 +490,7 @@ ITA_syndie_control = {
 	
 	ITA_syndie_control_calabria = {
 
-		icon = valkist_march
+		icon = revivalist_march
 
 		highlight_states = { state = 850 }
 
@@ -513,7 +513,7 @@ ITA_syndie_control = {
 	}
 
 	ITA_syndie_control_emilia_romagna = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 161
@@ -534,7 +534,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_piedmont = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 158
@@ -555,7 +555,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_lombardy = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = { 
 			highlight_state_targets = {
 				state = 159 
@@ -576,7 +576,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_tuscany = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 162 
@@ -597,7 +597,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_marche = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = { 
 			highlight_state_targets = {
 				state = 851
@@ -618,7 +618,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_umbria = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 852
@@ -639,7 +639,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_latium = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 2
@@ -660,7 +660,7 @@ ITA_syndie_control = {
 	}
 
 	ITA_syndie_control_abruzzo = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 157
@@ -681,7 +681,7 @@ ITA_syndie_control = {
 	}
 
 	ITA_syndie_control_sicily = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 115
@@ -702,7 +702,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_sardinia = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 114
@@ -723,7 +723,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_trentino = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 774 
@@ -744,7 +744,7 @@ ITA_syndie_control = {
 	}
 
 	ITA_syndie_control_veneto = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = { 
 			highlight_state_targets = {
 				state = 160 
@@ -765,7 +765,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_trieste = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 770
@@ -786,7 +786,7 @@ ITA_syndie_control = {
 	}
 
 	ITA_syndie_control_istria = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 736 
@@ -807,7 +807,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_fiume = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = {
 			highlight_state_targets = {
 				state = 917
@@ -828,7 +828,7 @@ ITA_syndie_control = {
 	}
 	
 	ITA_syndie_control_zara = {
-		icon = valkist_march
+		icon = revivalist_march
 		highlight_states = { 
 			highlight_state_targets = {
 				state = 163
@@ -3590,7 +3590,7 @@ ITA_socialist_march = {
 ITA_syndie_march = { #DROWSE
 	ITA_syndie_march_campania = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 117 }
 
@@ -3722,7 +3722,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_pulgia = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 156 }
 
@@ -3854,7 +3854,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_molise = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 849 }
 
@@ -3986,7 +3986,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_calabria = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 850 }
 
@@ -4118,7 +4118,7 @@ ITA_syndie_march = { #DROWSE
 
 	ITA_syndie_march_emilia_romagna = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 161 }
 
@@ -4250,7 +4250,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_piedmont = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 158 }
 
@@ -4382,7 +4382,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_lombardy = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 159 }
 
@@ -4514,7 +4514,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_tuscany = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 162 }
 
@@ -4646,7 +4646,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_marche = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 851 }
 
@@ -4778,7 +4778,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_umbria = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 852 }
 
@@ -4910,7 +4910,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_latium = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 2 }
 
@@ -5042,7 +5042,7 @@ ITA_syndie_march = { #DROWSE
 
 	ITA_syndie_march_abruzzo = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 157 }
 
@@ -5174,7 +5174,7 @@ ITA_syndie_march = { #DROWSE
 
 	ITA_syndie_march_sicily = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 115 }
 
@@ -5306,7 +5306,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_sardinia = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 114 }
 
@@ -5438,7 +5438,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_trentino = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 774 }
 
@@ -5570,7 +5570,7 @@ ITA_syndie_march = { #DROWSE
 
 	ITA_syndie_march_veneto = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 160 }
 
@@ -5702,7 +5702,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_trieste = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 770 }
 
@@ -5834,7 +5834,7 @@ ITA_syndie_march = { #DROWSE
 
 	ITA_syndie_march_istria = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 736 }
 
@@ -5966,7 +5966,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_fiume = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 917 }
 
@@ -6098,7 +6098,7 @@ ITA_syndie_march = { #DROWSE
 	
 	ITA_syndie_march_zara = {
 
-		icon = valkist_boot
+		icon = revivalist_boot
 
 		highlight_states = { state = 163 }
 
@@ -9279,7 +9279,7 @@ ITA_socialist_march_rome = {
 ITA_syndie_march_rome = {
 	ITA_syndie_rome = {
 	
-		icon = valkist_march
+		icon = revivalist_march
 
 		highlight_states = { state = 2 }
 
@@ -9328,7 +9328,7 @@ ITA_divorce_france = {
 			modifier = {
 				factor = 10
 				OR = {
-					has_government = valkist
+					has_government = revivalist
 					has_government = national_populist
 				}
 			}		

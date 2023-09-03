@@ -72,7 +72,7 @@ focus_tree = {
 
 	focus = {
 		id = ZAF_German_Separatists
-		icon = GFX_goal_valkist_star
+		icon = GFX_goal_revivalist_star
 		prerequisite = { focus = ZAF_Chaos_Ladder }
 		x = 9
 		y = 2
