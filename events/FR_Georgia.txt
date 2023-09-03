@@ -521,7 +521,7 @@ option = {
 	add_ideas = parliamentary_republic
 	set_politics = { ruling_party = social_democrat elections_allowed = no }
 	add_popularity = { ideology = social_democrat popularity = 0.1 }
-	add_popularity = { ideology = social_liberal popularity = 0.05 }
+	add_popularity = { ideology = liberal popularity = 0.05 }
 	add_popularity = { ideology = social_conservative popularity = 0.05 }
 	add_popularity = { ideology = fasci popularity = -0.05 }
 	complete_national_focus = GEO_1936_elections
@@ -569,8 +569,8 @@ option = {
 		factor = 40
 	}
 	add_ideas = parliamentary_republic
-	set_politics = { ruling_party = social_liberal elections_allowed = no }
-	add_popularity = { ideology = social_liberal popularity = 0.15 }
+	set_politics = { ruling_party = liberal elections_allowed = no }
+	add_popularity = { ideology = liberal popularity = 0.15 }
 	set_country_flag = SF_won
 	add_ideas = {
 		GEO_Ioseb_Baratashvili_hog_sli
@@ -622,7 +622,7 @@ country_event = {
 			character = GEO_Giorgi_Bagration_Mukhraneli
 			promote_leader = yes
 			country_leader = {
-				ideology = social_liberal_subtype
+				ideology = liberal_subtype
 				traits = {}
 			}
 		}
@@ -666,7 +666,7 @@ country_event = {
 		name = ge.10.b
 		add_stability = 0.05
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
-		add_popularity = { ideology = social_liberal popularity = 0.05 }
+		add_popularity = { ideology = liberal popularity = 0.05 }
 	}
 }
 
@@ -1639,12 +1639,12 @@ country_event = {
 						character = GEO_Hamo_Ohanjanyan
 						promote_leader = yes
 						country_leader = {
-							ideology = social_liberal_subtype
+							ideology = liberal_subtype
 							traits = {}
 						}
 					}
 					set_politics = {
-						ruling_party = social_liberal
+						ruling_party = liberal
 					}
 				}
 			}
@@ -1679,12 +1679,12 @@ country_event = {
 						character = AZR_Javad_Malik_Yeganov
 						promote_leader = yes
 						country_leader = {
-							ideology = social_liberal_subtype
+							ideology = liberal_subtype
 							traits = {}
 						}
 					}
 					set_politics = {
-						ruling_party = social_liberal
+						ruling_party = liberal
 					}
 				}
 			}
@@ -1714,12 +1714,12 @@ country_event = {
 						character = GEO_Peri_Khan_Sofieva
 						promote_leader = yes
 						country_leader = {
-							ideology = social_liberal_subtype
+							ideology = liberal_subtype
 							traits = {}
 						}
 					}
 					set_politics = {
-						ruling_party = social_liberal
+						ruling_party = liberal
 					}
 				}
 			}
@@ -2144,7 +2144,7 @@ country_event = {
 						has_government = collectivist 
 						has_government = fasci 
 						has_government = social_democrat 
-						has_government = social_liberal 
+						has_government = liberal 
 						has_government = market_liberal 
 						has_government = authoritarian_democrat 
 					}

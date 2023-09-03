@@ -1785,7 +1785,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = social_liberal
+				ideology = liberal
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -2150,7 +2150,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_recreate_the_petka"
 			add_popularity = {
-				ideology = social_liberal
+				ideology = liberal
 				popularity = 0.1
 			}
 		} 
@@ -2301,7 +2301,7 @@ focus_tree = {
 				popularity = -0.025
 			}
 			add_popularity = {
-				ideology = social_liberal
+				ideology = liberal
 				popularity = -0.025
 			}
 			add_popularity = {
@@ -2985,7 +2985,7 @@ focus_tree = {
 				popularity = -0.025
 			}
 			add_popularity = { 
-				ideology = social_liberal 
+				ideology = liberal 
 				popularity = -0.025
 			}
 			add_popularity = { 
@@ -3473,7 +3473,7 @@ focus_tree = {
 				popularity = -0.025
 			}
 			add_popularity = { 
-				ideology = social_liberal
+				ideology = liberal
 				popularity = -0.025
 			}
 			add_popularity = { 

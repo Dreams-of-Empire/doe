@@ -131,7 +131,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -437,7 +437,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Hassan_Pirnia_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_political_protege
 			}
 		}
@@ -761,7 +761,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Karim_Sanjabi_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_biased_intellectual
 			}
 		}
@@ -1050,7 +1050,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Ali_Amini_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1331,7 +1331,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Allameh_Ali_Akbar_Dehkhodā_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_secret_police_chief
 			}
 		}

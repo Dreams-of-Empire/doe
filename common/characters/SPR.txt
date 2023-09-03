@@ -48,7 +48,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
     advisor = {
@@ -195,7 +195,7 @@ characters = {
 				ROOT = { clr_country_flag = SPR_Manuel_Azana_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -240,7 +240,7 @@ characters = {
 				ROOT = { clr_country_flag = SPR_Diego_Martines_Barrio_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -259,7 +259,7 @@ characters = {
 				ROOT = { clr_country_flag = SPR_Diego_Martines_Barrio_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_apologetic_clerk
 			}
 		}
@@ -278,7 +278,7 @@ characters = {
 				ROOT = { clr_country_flag = SPR_Diego_Martines_Barrio_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_driven_recruiter
 			}
 		}
@@ -447,7 +447,7 @@ characters = {
 				ROOT = { clr_country_flag = SPR_Diego_Hidalgo_Duran_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_ideological_crusader
 			}
 		}

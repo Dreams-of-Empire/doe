@@ -109,7 +109,7 @@ set_technology = {
   basic_train = 1
 }
 
-add_coalition_social_liberal = yes 
+add_coalition_liberal = yes 
 
 set_politics = {
 	ruling_party = social_conservative
@@ -123,7 +123,7 @@ set_popularities = {
 	collectivist = 6
 	fasci = 1
 	social_democrat = 16
-	social_liberal = 15
+	liberal = 15
 	market_liberal = 21
 	social_conservative = 28
 	authoritarian_democrat = 7

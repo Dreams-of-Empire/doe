@@ -288,7 +288,7 @@ country_event = { # Proclamation of the Liberal Party
         long_name = PHI_new_liberal_party_long
       }
       set_party_name = {
-        ideology = social_liberal
+        ideology = liberal
         name = PHI_new_liberal_party
         long_name = PHI_new_liberal_party_long
       }
@@ -1512,7 +1512,7 @@ country_event = { # 1945 Presidential Elections
   option = { # Elpidio Quirino
     name = philippines.57.b
     set_politics = {
-      ruling_party = social_liberal
+      ruling_party = liberal
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -1596,7 +1596,7 @@ country_event = { # 1949 Presidential Elections
   option = { # Elpidio Quirino
     name = philippines.58.b
     set_politics = {
-      ruling_party = social_liberal
+      ruling_party = liberal
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes

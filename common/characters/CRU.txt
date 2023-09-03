@@ -202,7 +202,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -220,7 +220,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Alfredo_Barrera_Vasquez_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_pragmatic_statesman
 			}
 		}
@@ -247,7 +247,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Arturo_Campillo_Seyde_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -722,7 +722,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Miguel_Alonzo_Romero_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_moderate_among_radicals
 			}
 		}
@@ -741,7 +741,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Miguel_Alonzo_Romero_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_industrialiser
 			}
 		}
@@ -760,7 +760,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Miguel_Alonzo_Romero_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_prince_of_terror
 			}
 		}
@@ -787,7 +787,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Roberto_Reyes_Barreiro_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1014,7 +1014,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Mauro_Graciano_Ricalde_Gamboa_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_laissez_faire_capitalist
 			}
 		}
@@ -1041,7 +1041,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Ricardo_Lopez_Mendez_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_keynesian_economy
 			}
 		}
@@ -1060,7 +1060,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Ricardo_Lopez_Mendez_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_crime_fighter
 			}
 		}

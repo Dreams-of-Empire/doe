@@ -494,7 +494,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -512,7 +512,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Andrey_Livytskyi_hog_sde_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -1117,7 +1117,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Stepan_Vytvytskyi_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_political_protege
 			}
 		}
@@ -1144,7 +1144,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Mykola_Liubynskyi_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_general_staffer
 			}
 		}
@@ -1171,7 +1171,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Mykola_Tvorydlo_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1198,7 +1198,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Oleksandr_Zhukivskyi_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1333,7 +1333,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Nikolai_Shrag_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1576,7 +1576,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Ivan_Feshenko_Chopovsky_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}

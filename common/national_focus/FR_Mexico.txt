@@ -315,7 +315,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_crackdown_on_democratic_elements"
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
 			add_popularity = { ideology = market_liberal popularity = -0.05 }
-			add_popularity = { ideology = social_liberal popularity = -0.05 }
+			add_popularity = { ideology = liberal popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_political_power = 25
 		}

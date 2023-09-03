@@ -529,7 +529,7 @@ focus_tree = {
 			OR = {
 				has_government = fasci
 				has_government = social_democrat
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		x = 27
@@ -572,7 +572,7 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = social_conservative
 			}
 		}
@@ -2855,7 +2855,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_wide_coalition"
 			add_stability = 0.1
 			add_political_power = -100
-			set_temp_variable = { coalition_partner_var = token:social_liberal }
+			set_temp_variable = { coalition_partner_var = token:liberal }
 			add_to_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:market_liberal }
 			add_to_coalition = yes 
@@ -2885,7 +2885,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_painful_compromises"
 			remove_ideas = GEO_menshevik_schism
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
-			add_popularity = { ideology = social_liberal popularity = 0.1 }
+			add_popularity = { ideology = liberal popularity = 0.1 }
 			add_popularity = { ideology = social_conservative popularity = 0.1 }
 			add_popularity = { ideology = market_liberal popularity = 0.03 }
 		}
@@ -2981,7 +2981,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_historic_compromise"
 			add_popularity = { ideology = social_democrat popularity = 0.15 }
 			add_popularity = { ideology = social_conservative popularity = -0.1 }
-			add_popularity = { ideology = social_liberal popularity = -0.05 }
+			add_popularity = { ideology = liberal popularity = -0.05 }
 		}
 		ai_will_do = {
 			factor = 160
@@ -3086,7 +3086,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_socfed_plurality
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
 		cost = 5.00
 		prerequisite = {
 			focus = GEO_snap_elections
@@ -3101,7 +3101,7 @@ focus_tree = {
 		y = 7
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_socfed_plurality"
-			add_popularity = { ideology = social_liberal popularity = 0.05 }
+			add_popularity = { ideology = liberal popularity = 0.05 }
 		}
 		ai_will_do = {
 			factor = 160
@@ -3288,7 +3288,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_democrat
-				has_government = social_liberal
+				has_government = liberal
 			}
 			is_puppet = no
 		}
@@ -3436,7 +3436,7 @@ focus_tree = {
 				}
 			}
 			add_popularity = { ideology = social_conservative popularity = 0.15 }
-			add_popularity = { ideology = social_liberal popularity = 0.15 }
+			add_popularity = { ideology = liberal popularity = 0.15 }
 			if = {
 				limit = {
 					NOT = { has_country_flag = GEO_monarchy }

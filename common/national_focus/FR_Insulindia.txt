@@ -2403,7 +2403,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_promote_mahaenism"
 			add_stability = 0.03
-			add_popularity = { ideology = social_liberal popularity = -0.02 }
+			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
@@ -2437,7 +2437,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_centralization_of_power"
 			add_political_power = 35
 			increase_ruling_party_popularity_by_5 = yes
-			add_popularity = { ideology = social_liberal popularity = -0.02 }
+			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 		}
 
@@ -2854,7 +2854,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_new_democracy"
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
-			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_popularity = { ideology = market_liberal popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 		}

@@ -13,7 +13,7 @@ set_politics = {
 
 set_popularities = {
 	social_democrat = 18
-	social_liberal = 3
+	liberal = 3
 	market_liberal = 6
 	social_conservative = 13
 	authoritarian_democrat = 8

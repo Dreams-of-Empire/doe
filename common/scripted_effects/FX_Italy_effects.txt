@@ -40,7 +40,7 @@ ITA_create_east_africa = {
       add_country_leader_role = {
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = { }
         }
       }
@@ -672,7 +672,7 @@ ITA_become_kingdom = {
         promote_character = collectivist_subtype
         promote_character = fasci_subtype
         promote_character = social_democrat_subtype
-        promote_character = social_liberal_subtype
+        promote_character = liberal_subtype
         promote_character = market_liberal_subtype
         promote_character = social_conservative_subtype
         promote_character = authoritarian_democrat_subtype

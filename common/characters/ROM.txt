@@ -29,7 +29,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_REGENCY_COUNCIL_ROMANIA_DESC
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -478,7 +478,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Iuliu_Maniu_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_naive_optimist
 			}
 		}
@@ -745,7 +745,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Grigore_Gafencu_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_biased_intellectual
 			}
 		}

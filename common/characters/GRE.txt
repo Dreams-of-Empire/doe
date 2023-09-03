@@ -22,7 +22,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_pragmatic_statesman
 			}
 		}
@@ -50,7 +50,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Themistoklis_Sofoulis_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -78,7 +78,7 @@ characters = {
 	# 			ROOT = { clr_country_flag = GRE_Sofoklis_Venizelos_hog_sli_hired }
 	# 		}
 	# 		traits = {
-	# 			social_liberal
+	# 			liberal
 	# 			hog_political_protege
 	# 		}
 	# 	}
@@ -660,7 +660,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -672,7 +672,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -684,7 +684,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -696,7 +696,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -708,7 +708,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -720,7 +720,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -732,7 +732,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -744,7 +744,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -756,7 +756,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -867,7 +867,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Andreas_Michalakopoulos_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -1119,7 +1119,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Alexandros_Diomidis_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_laissez_faire_capitalist
 			}
 		}
@@ -1147,7 +1147,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Kyriakos_Varvaresos_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1455,7 +1455,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Georgios_Maris_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_crime_fighter
 			}
 		}
@@ -1483,7 +1483,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Ioannis_Tsirimokos_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}

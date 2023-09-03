@@ -47,7 +47,7 @@ characters = {
 			ideology = market_liberal_subtype
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 		}
 		# field_marshal = {
 		# 	skill = 5

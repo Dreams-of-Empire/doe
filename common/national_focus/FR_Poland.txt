@@ -113,7 +113,7 @@ focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus POL_centrolew_coalition"
 		custom_effect_tooltip = POL_kalmoire_silly
 		add_ideas = parliamentary_republic
-		set_politics = { ruling_party = social_liberal elections_allowed = no }
+		set_politics = { ruling_party = liberal elections_allowed = no }
 		add_political_power = 125
 	}
 }
@@ -230,7 +230,7 @@ focus = {
 #	available = { NOT = { has_idea = POL_ukrainian_unrest } }
 ##	
 #	completion_reward = {
-#		set_politics = { ruling_party = social_liberal elections_allowed = no }
+#		set_politics = { ruling_party = liberal elections_allowed = no }
 #		add_political_power = 100
 #	}
 #}
@@ -767,7 +767,7 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_party_meeting"
 		add_political_power = 100
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.1
 		}
 		add_ideas = POL_Aleksander_Prystor_hog_sde
@@ -794,7 +794,7 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_centrism"
 		add_political_power = 25
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.2
 		}
 		custom_effect_tooltip = POL_party_member_tooltip
@@ -913,7 +913,7 @@ focus = {
 			popularity = 0.3
 		} 
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = -0.3
 		} 
 		custom_effect_tooltip = POL_party_member_tooltip
@@ -3005,7 +3005,7 @@ focus = {
 		NOT = {
 			OR = {
 				has_government = market_liberal
-				has_government = social_liberal
+				has_government = liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 			}
@@ -3346,7 +3346,7 @@ focus = {
 				has_government = fasci
 				has_government = social_democrat
 				has_government = market_liberal
-				has_government = social_liberal
+				has_government = liberal
 				is_in_faction_with = SOV
 				is_in_faction_with = FRA
 				is_in_faction_with = ENG

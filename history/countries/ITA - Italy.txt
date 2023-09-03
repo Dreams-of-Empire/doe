@@ -16,7 +16,7 @@ add_ideas = {
 	constitutional_monarchy
 }
 
-add_coalition_social_liberal = yes 
+add_coalition_liberal = yes 
 add_coalition_market_liberal = yes 
 
 # Starting tech
@@ -147,7 +147,7 @@ set_popularities = {
 	collectivist = 10
 	fasci = 14
 	social_democrat = 40
-	social_liberal = 4
+	liberal = 4
 	market_liberal = 7
 	social_conservative = 5
 	authoritarian_democrat = 2

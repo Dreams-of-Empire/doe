@@ -451,9 +451,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = social_liberal_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = social_liberal
+		localization_key = liberal
 	}
 	text = {
 		trigger = {
@@ -1351,9 +1351,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = social_liberal_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = social_liberal_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1869,13 +1869,13 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = social_liberal_subtype
+				has_country_leader_ideology = liberal_subtype
 				has_country_leader_ideology = centrist_subtype
 				has_country_leader_ideology = radical_liberalism_subtype
 				has_country_leader_ideology = venizelism_subtype
 			}
 		}
-		localization_key = social_liberal_color
+		localization_key = liberal_color
 	}
 	text = {
 		trigger = {
@@ -2000,9 +2000,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = social_liberal_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = social_liberal_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {

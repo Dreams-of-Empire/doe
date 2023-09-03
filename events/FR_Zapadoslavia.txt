@@ -988,7 +988,7 @@ country_event = { #the republics revolt!
 		add_popularity = { ideology = vanguardist popularity = -0.25 }
 		add_popularity = { ideology = revivalist popularity = -0.25 }
 		add_popularity = { ideology = social_conservative popularity = -0.3 }
-		add_popularity = { ideology = social_liberal popularity = -0.1 }
+		add_popularity = { ideology = liberal popularity = -0.1 }
 		add_stability = 0.25
 		add_political_power = 100
 		delete_unit_template_and_units = { division_template = "Pesi Divize" } 

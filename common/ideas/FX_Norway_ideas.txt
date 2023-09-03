@@ -903,7 +903,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -914,7 +914,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -927,7 +927,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -944,7 +944,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -959,7 +959,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -974,7 +974,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -988,7 +988,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -1005,7 +1005,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -1021,7 +1021,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -1037,7 +1037,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -1050,7 +1050,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -1067,7 +1067,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
@@ -1081,7 +1081,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = UK_economy_syn_idea
 			modifier = {
-				social_liberal_acceptance = -70
+				liberal_acceptance = -70
 				market_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70

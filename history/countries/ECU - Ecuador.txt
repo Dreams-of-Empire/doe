@@ -50,7 +50,7 @@ set_popularities = {
   fasci = 5
   collectivist = 15
   social_conservative = 10
-  social_liberal = 10
+  liberal = 10
   paternal_autocrat = 20
   national_populist = 30
 }

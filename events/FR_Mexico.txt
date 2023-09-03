@@ -355,8 +355,8 @@ country_event = {
         name = mex.15.b
         add_political_power = -10
 		add_ideas = presidential_republic
-		set_politics = {ruling_party = social_liberal elections_allowed = no }
-		add_popularity = { ideology = social_liberal popularity = 0.40 }
+		set_politics = {ruling_party = liberal elections_allowed = no }
+		add_popularity = { ideology = liberal popularity = 0.40 }
     }
 
 	option = {

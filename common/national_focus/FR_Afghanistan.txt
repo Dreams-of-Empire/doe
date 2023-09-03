@@ -2622,9 +2622,9 @@ focus_tree = {
 				long_name = AFG_socdem_party_long
 				name = AFG_socdem_party
 			}
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			set_party_name = {
-				ideology = social_liberal
+				ideology = liberal
 				long_name = AFG_soclib_party_long
 				name = AFG_soclib_party
 			}
@@ -3054,9 +3054,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_establish_parliament"
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			set_party_name = {
-				ideology = social_liberal
+				ideology = liberal
 				long_name = AFG_soclib_party_long
 				name = AFG_soclib_party
 			}
@@ -3139,7 +3139,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_rapid_literacy_campaign"
 			add_popularity = { ideology = social_democrat popularity = 0.04 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_stability = 0.03
 		}
@@ -3186,7 +3186,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_encourage_progressive_voices"
 			add_popularity = { ideology = social_democrat popularity = 0.05 }
-			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_popularity = { ideology = fasci popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
@@ -3217,7 +3217,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_war_support = 0.03
 			add_popularity = { ideology = social_democrat popularity = 0.04 }
-			add_popularity = { ideology = social_liberal popularity = 0.01 }
+			add_popularity = { ideology = liberal popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 			if = {
 				limit = {

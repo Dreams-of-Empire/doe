@@ -191,7 +191,7 @@ RUS_support_Conciliation = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_support_Conciliation"
 		add_popularity = { 
-		    ideology = social_liberal 
+		    ideology = liberal 
 		    popularity = 0.03
 		    }
    		}
@@ -216,7 +216,7 @@ RUS_national_labor_relations_act = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_national_labor_relations_act"
 		add_popularity = { 
-		    ideology = social_liberal 
+		    ideology = liberal 
 		    popularity = 0.03
 		    }
 		add_stability = 0.02
@@ -242,7 +242,7 @@ RUS_prohibit_child_work_ur = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_prohibit_child_work_ur"
 		add_popularity = { 
-		    ideology = social_liberal 
+		    ideology = liberal 
 		    popularity = 0.03
 		    }
 		}
@@ -292,7 +292,7 @@ RUS_housing_cooperatives = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_housing_cooperatives"
 			add_popularity = { 
-		        ideology = social_liberal 
+		        ideology = liberal 
 		        popularity = 0.02
 		    }
 		add_stability = 0.03

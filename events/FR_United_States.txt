@@ -58,11 +58,11 @@ country_event = { # 1936 Elections
 	option = { # Roosevelt
 		name = usa.1.b
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.1
 		}
 		remove_every_minister = yes
@@ -855,11 +855,11 @@ country_event = { # 1940 Elections
 	option = { # Roosevelt
 		name = usa.28.b
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.1
 		}
 		remove_every_minister = yes
@@ -1183,7 +1183,7 @@ country_event = { # Demand Return of Free Government
 					set_politics = { ruling_party = social_democrat }
 				}
 				25 = {
-					set_politics = { ruling_party = social_liberal }
+					set_politics = { ruling_party = liberal }
 				}
 				25 = {
 					set_politics = { ruling_party = market_liberal }
@@ -1289,11 +1289,11 @@ country_event = { # 1944 Elections
 	option = { # Dewey
 		name = usa.44.b
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.1
 		}
 		remove_every_minister = yes
@@ -1309,7 +1309,7 @@ country_event = { # 1944 Elections
 				character = USA_Thomas_Dewey
 				promote_leader = yes
 				country_leader = {
-					ideology = social_liberal_subtype
+					ideology = liberal_subtype
 					traits = { }
 				}
 			}
@@ -1421,11 +1421,11 @@ country_event = { # 1948 Elections
 	option = { # Bricker
 		name = usa.45.b
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.1
 		}
 		remove_every_minister = yes
@@ -1441,7 +1441,7 @@ country_event = { # 1948 Elections
 				character = USA_John_W_Bricker
 				promote_leader = yes
 				country_leader = {
-					ideology = social_liberal_subtype
+					ideology = liberal_subtype
 					traits = {}
 				}
 			}
@@ -1581,7 +1581,7 @@ country_event = { # Concerns in Share our Wealth
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.05
 		}
 	}
@@ -2936,7 +2936,7 @@ country_event = { # Oregon Question
 		}
 		set_popularities = {
 		  social_democrat = 18
-		  social_liberal = 3
+		  liberal = 3
 		  market_liberal = 6
 		  social_conservative = 13
 		  authoritarian_democrat = 8
@@ -3095,7 +3095,7 @@ country_event = { # New Elections!
 	option = { # SocLib - Warren
 		name = usa.114.b
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = yes
 			last_election = "1940.11.15"
 		}
@@ -3112,7 +3112,7 @@ country_event = { # New Elections!
 								character = USA_Earl_Warren
 								promote_leader = yes
 								country_leader = {
-										ideology = social_liberal_subtype
+										ideology = liberal_subtype
 										traits = {}
 								}
 						}

@@ -34,11 +34,11 @@ focus_tree = {
 		id = RUS_UR
 		icon = GFX_goal_ideology_social_democrat
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 			has_country_flag = RUS_Elections_hold
 		}
 		bypass = {
-			has_government = social_liberal
+			has_government = liberal
 			has_country_flag = RUS_Elections_hold
 		}	
 		x = 0
@@ -58,7 +58,7 @@ focus_tree = {
 		id = RUS_allow_strikes
 		icon = GFX_goal_KTG_Colonial_Trinity2
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = {
 		    focus = RUS_UR
@@ -83,7 +83,7 @@ focus_tree = {
 		id = RUS_minimum_wage
 		icon = GFX_goal_socialist_infrastructure
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = {
 		    focus = RUS_allow_strikes
@@ -112,7 +112,7 @@ focus_tree = {
 		id = RUS_free_thought
 		icon = GFX_goal_brain
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = {
 		    focus = RUS_UR
@@ -137,7 +137,7 @@ focus_tree = {
 		id = RUS_end_discrimanation_minorities
 		icon = GFX_goal_DOM_End_Judicial_Corruption
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = {
 		    focus = RUS_free_thought
@@ -155,7 +155,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_end_discrimanation_minorities"
 		add_popularity = { 
-		    ideology = social_liberal popularity = 0.1
+		    ideology = liberal popularity = 0.1
 		}
 	}
 }
@@ -164,7 +164,7 @@ focus_tree = {
 		id = RUS_nationalize_land
 		icon = GFX_goal_RAJ_Autonomous_Industry
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = {
 		    focus = RUS_end_discrimanation_minorities
@@ -192,7 +192,7 @@ focus_tree = {
 		id = RUS_cheap_credits
 		icon = GFX_goal_production
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = {
 		    focus = RUS_nationalize_land
@@ -217,7 +217,7 @@ focus_tree = {
 		id = RUS_support_middle_class
 		icon = GFX_goal_collaborate_local_elites
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = {
 		    focus = RUS_nationalize_land
@@ -450,7 +450,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = social_liberal_subtype
+              ideology = liberal_subtype
               traits = {}
             }
           }
@@ -694,7 +694,7 @@ focus_tree = {
 		icon = GFX_goal_state_economy
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = revivalist
 			}
 		}
@@ -724,7 +724,7 @@ focus_tree = {
 		icon = GFX_focus_empty_coffers
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = revivalist
 			}
 		}
@@ -753,7 +753,7 @@ focus_tree = {
 		icon = GFX_IRE_women_industry
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = revivalist
 			}
 		}
@@ -782,7 +782,7 @@ focus_tree = {
 		icon = GFX_goal_economic_control
 			available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = revivalist
 			}
 		}
@@ -811,7 +811,7 @@ focus_tree = {
 		icon = GFX_goal_socialist_infrastructure
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = revivalist
 			}
 		}
@@ -840,7 +840,7 @@ focus_tree = {
 		icon = GFX_goal_bag_of_money
 			available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = revivalist
 			}
 		}      
@@ -868,7 +868,7 @@ focus_tree = {
 		icon = GFX_goal_RAJ_Decentralized_Land_Reform
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = revivalist
 			}
 		}
@@ -1190,7 +1190,7 @@ focus_tree = {
 			OR = {
 				has_government = social_conservative
 				has_government = revivalist
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		prerequisite = { 
@@ -1221,7 +1221,7 @@ focus_tree = {
 			OR = {
 				has_government = social_conservative
 				has_government = revivalist
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		prerequisite = { 

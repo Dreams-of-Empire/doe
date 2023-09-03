@@ -166,7 +166,7 @@ focus_tree = {
 		id = RUS_welfare
 		icon = GFX_goal_RAJ_India_Worker_Rights
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { 
 		    focus = RUS_free_elections 
@@ -191,7 +191,7 @@ focus_tree = {
 		id = RUS_land_redistribution_savinkov
 		icon = GFX_goal_RAJ_Decentralized_Land_Reform
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { 
 		    focus = RUS_welfare 
@@ -217,7 +217,7 @@ focus_tree = {
 		icon = GFX_goal_new_treaty
 		available = {
 		    OR = {
-			    has_government = social_liberal
+			    has_government = liberal
 			    has_government = social_conservative
 		}
 	}
@@ -506,7 +506,7 @@ focus_tree = {
 				popularity = -0.3
 			}
 			add_popularity = {
-				ideology = social_liberal
+				ideology = liberal
 				popularity = -0.3
 			}
 		add_stability = -0.05

@@ -1872,7 +1872,7 @@ focus_tree = {
 				limit = {
 					OR = {
 						has_government = social_democrat
-						has_government = social_liberal
+						has_government = liberal
 						has_government = market_liberal
 						has_government = social_conservative
 					}
@@ -2734,7 +2734,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_MIL_progressive_regime
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
 		cost = 5
 		prerequisite = {
 			focus = PER_MIL_consilidate_regime
@@ -2755,7 +2755,7 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
-			add_popularity = { ideology = social_liberal popularity = -0.01 }
+			add_popularity = { ideology = liberal popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 		}
 
@@ -3200,7 +3200,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_limit_progressive_ideals"
 			add_political_power = -10
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
-			add_popularity = { ideology = social_liberal popularity = -0.01 }
+			add_popularity = { ideology = liberal popularity = -0.01 }
 			country_event = {
 				id = iran.120 days = 1
 			}
@@ -3561,7 +3561,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = 0.02 }
 			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
-			add_popularity = { ideology = social_liberal popularity = 0.01 }
+			add_popularity = { ideology = liberal popularity = 0.01 }
 		}
 
 	}
@@ -3968,7 +3968,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = fasci popularity = 0.01 }
-			add_popularity = { ideology = social_liberal popularity = 0.01 }
+			add_popularity = { ideology = liberal popularity = 0.01 }
 			add_popularity = { ideology = market_liberal popularity = 0.01 }
 		}
 
@@ -4911,7 +4911,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_purge_leftists"
 			add_political_power = -15
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
-			add_popularity = { ideology = social_liberal popularity = -0.02 }
+			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = market_liberal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		}

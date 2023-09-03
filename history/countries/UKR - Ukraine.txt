@@ -100,7 +100,7 @@ add_ideas = {
 }
 
 set_country_flag = coalition_fasci
-set_country_flag = coalition_social_liberal
+set_country_flag = coalition_liberal
 
 set_politics = {	
 	ruling_party = social_democrat
@@ -114,7 +114,7 @@ set_popularities = {
   collectivist = 6
   fasci = 3
   social_democrat = 20
-  social_liberal = 22
+  liberal = 22
   market_liberal = 11
   social_conservative = 10
   authoritarian_democrat = 2

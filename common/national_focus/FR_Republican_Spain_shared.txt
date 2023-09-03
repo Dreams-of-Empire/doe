@@ -1379,7 +1379,7 @@
 		y = 4
 		
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 			has_completed_focus = SPR_first_republican_election
 		}
 		

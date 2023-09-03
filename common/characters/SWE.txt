@@ -114,7 +114,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1067,7 +1067,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Axel_Pehrsson_Bramstorp_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_backroom_backstabber
 			}
 		}
@@ -1416,7 +1416,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Karl_Gustaf_Westman_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_ideological_crusader
 			}
 		}
@@ -1740,7 +1740,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Arthur_Heiding_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_steel_magnate
 			}
 		}

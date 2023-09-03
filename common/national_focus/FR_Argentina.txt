@@ -73,7 +73,7 @@ focus_tree = {
 			popularity = 0.0125
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.0125
 		}
 		add_popularity = {
@@ -521,7 +521,7 @@ focus_tree = {
 
 		focus = {
 		id = ARG_radicalism_alone
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
  		ai_will_do = { factor = 10 } 
 		prerequisite = { focus = ARG_stand_for_the_federation }
 		mutually_exclusive = { focus = ARG_pact_with_the_lpa }
@@ -967,7 +967,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_government = social_liberal
+					has_government = liberal
 				}
 			country_event = { days = 7 id = arg.255 }
 			}
@@ -2829,7 +2829,7 @@ focus_tree = {
 						is_in_faction_with = ARG
 						is_subject_of = ARG
 						has_war_with = ARG
-						has_government = social_liberal
+						has_government = liberal
 						has_government = market_liberal
 						has_government = authoritarian_democrat
 						has_government = social_democrat
@@ -2879,7 +2879,7 @@ focus_tree = {
 						is_in_faction_with = ARG
 						is_subject_of = ARG
 						has_war_with = ARG
-						has_government = social_liberal
+						has_government = liberal
 						has_government = market_liberal
 						has_government = authoritarian_democrat
 						has_government = social_democrat
@@ -3615,7 +3615,7 @@ focus_tree = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 				has_government = social_democrat
@@ -3641,7 +3641,7 @@ focus_tree = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 				has_government = social_democrat
@@ -3669,7 +3669,7 @@ focus_tree = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 				has_government = social_democrat
@@ -3719,7 +3719,7 @@ focus_tree = {
 				is_in_faction = no
 				has_global_flag = PRU_DEMPATH
 				OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 				has_government = social_democrat
@@ -3761,7 +3761,7 @@ focus_tree = {
 						is_in_faction_with = ARG
 						is_subject_of = ARG
 						has_war_with = ARG
-						has_government = social_liberal
+						has_government = liberal
 						has_government = market_liberal
 						has_government = authoritarian_democrat
 						has_government = social_democrat
@@ -4642,7 +4642,7 @@ focus_tree = {
 			ideology = national_populist popularity = 0.05
 			}		
 			add_popularity = {
-			ideology = social_liberal popularity = -0.025
+			ideology = liberal popularity = -0.025
 			}
 			add_popularity = {
 			ideology = market_liberal popularity = -0.025
@@ -4878,7 +4878,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_measures_against_personalism"
 			add_popularity = {
-			ideology = social_liberal popularity = -0.05
+			ideology = liberal popularity = -0.05
 			}
 			add_political_power = 25
 		} 

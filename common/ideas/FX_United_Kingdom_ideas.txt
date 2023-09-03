@@ -1187,7 +1187,7 @@ ideas = {
 				fasci_drift = -0.1
 				social_democrat_drift = -0.02
 				market_liberal_drift = -0.02
-				social_liberal_drift = -0.02
+				liberal_drift = -0.02
 			}
 		}
 		ENG_lords_reform = {
@@ -1399,7 +1399,7 @@ ideas = {
 			picture = generic_intel_bonus
 			removal_cost = -1
 			modifier = {
-				social_liberal_drift = 0.1
+				liberal_drift = 0.1
 			}
 		}
 		ENG_agit_3 = {

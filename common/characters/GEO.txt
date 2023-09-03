@@ -143,7 +143,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -161,7 +161,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Ioseb_Baratashvili_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_reformist_soldier
 			}
 		}
@@ -692,7 +692,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Simon_Mdivani_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -962,7 +962,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Mammad_Yusif_Jafarov_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_construction_magnate
 			}
 		}
@@ -989,7 +989,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Grigol_Natadze_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_national_liberal
 			}
 		}
@@ -1151,7 +1151,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Ioseb_Gedevanishvili_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}

@@ -72,13 +72,13 @@ set_puppet_minister_middle_east = {}
 #			}
 #		}
 #		else_if = {
-#			limit = { has_elected_government = yes }	# social_liberal, market_liberal, social_conservative ( social_democrat for some )
+#			limit = { has_elected_government = yes }	# liberal, market_liberal, social_conservative ( social_democrat for some )
 #			add_ideas = {
 #				# Insert Ministers here
 #			}
 #		}
 #		else_if = {
-#			limit = { has_democratic_government = yes }	# social_liberal, market_liberal, social_conservative, authotharian_democrat ( social_democrat for some )
+#			limit = { has_democratic_government = yes }	# liberal, market_liberal, social_conservative, authotharian_democrat ( social_democrat for some )
 #			add_ideas = {
 #				# Insert Ministers here
 #			}

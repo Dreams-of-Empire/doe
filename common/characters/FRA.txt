@@ -752,7 +752,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Edouard_Daladier_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -1142,7 +1142,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_George_Bonnet_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_moderate_among_radicals
 			}
 		}
@@ -1714,7 +1714,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Albert_Sarraut_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_prince_of_terror
 			}
 		}
@@ -1741,7 +1741,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Jean_Fabry_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}

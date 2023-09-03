@@ -97,7 +97,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -271,7 +271,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_10.png"
@@ -447,7 +447,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_9.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_2.png"
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_4.png"
@@ -617,7 +617,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -758,7 +758,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -888,7 +888,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_5.png"
@@ -1019,7 +1019,7 @@ continent = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
@@ -1152,7 +1152,7 @@ HAI = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -1276,7 +1276,7 @@ JAM = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -1411,7 +1411,7 @@ SUR = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -1563,7 +1563,7 @@ TRI = {
 				"gfx/leaders/Generic/Portrait_Mixed_Generic_2.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -1695,7 +1695,7 @@ TUR = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"

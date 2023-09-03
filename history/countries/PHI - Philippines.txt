@@ -102,7 +102,7 @@ set_politics = {
 set_popularities = {
 	fasci = 0
 	social_democrat = 10
-	social_liberal = 4
+	liberal = 4
 	market_liberal = 20
 	social_conservative = 40
 	authoritarian_democrat = 10
@@ -110,7 +110,7 @@ set_popularities = {
 	revivalist = 12
 }
 
-add_coalition_social_liberal = yes
+add_coalition_liberal = yes
 add_coalition_market_liberal = yes 
 
 recruit_character = PHI_Armed_Forces_Command

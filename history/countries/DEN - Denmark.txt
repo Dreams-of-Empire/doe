@@ -85,7 +85,7 @@ set_popularities = {
 	collectivist = 3
 	fasci = 8
 	social_democrat = 40
-	social_liberal = 9
+	liberal = 9
 	market_liberal = 17
 	social_conservative = 17
 	authoritarian_democrat = 3
@@ -94,7 +94,7 @@ set_popularities = {
 	revivalist = 1
 }
 
-add_coalition_social_liberal = yes 
+add_coalition_liberal = yes 
 
 set_country_flag = DEN_economic_recovery_flag
 

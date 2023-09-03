@@ -129,7 +129,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Jose_Tejada_Sorzano_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -156,7 +156,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Waldo_Belmonte_Pool_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_accomplished_diplomat
 			}
 		}
@@ -196,7 +196,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -391,7 +391,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Eduardo_Anze_Matienzo_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -861,7 +861,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Jose_Santos_Quinteros_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_prince_of_terror
 			}
 		}
@@ -888,7 +888,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Tomas_Monje_Gutierrez_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}

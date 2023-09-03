@@ -130,7 +130,7 @@ add_ideas = {
 give_military_access = SPA
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -141,7 +141,7 @@ set_popularities = {
   collectivist = 4
   fasci = 0
   social_democrat = 10
-  social_liberal = 37
+  liberal = 37
   market_liberal = 30
   social_conservative = 10
   authoritarian_democrat = 4

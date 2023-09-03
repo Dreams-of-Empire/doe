@@ -185,7 +185,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_deal_with_oligarchs"
 			add_popularity = { 
-				ideology = social_liberal popularity = 0.10
+				ideology = liberal popularity = 0.10
 			}	
 			add_ideas = CHL_political_instability
 			if = {
@@ -404,7 +404,7 @@ focus_tree = {
 						is_in_faction_with = BOL
 						is_subject_of = BOL
 						has_war_with = BOL
-						has_government = social_liberal
+						has_government = liberal
 						has_government = market_liberal
 						has_government = authoritarian_democrat
 						has_government = social_democrat
@@ -431,7 +431,7 @@ focus_tree = {
 				ideology = social_democrat popularity = -0.05
 			}
 			add_popularity = { 
-				ideology = social_liberal popularity = -0.05
+				ideology = liberal popularity = -0.05
 			}
 			add_popularity = { 
 				ideology = revivalist popularity = -0.10
@@ -1852,7 +1852,7 @@ focus = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 				has_government = social_democrat
@@ -1879,7 +1879,7 @@ focus = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 				has_government = social_democrat
@@ -1922,7 +1922,7 @@ focus = {
 						has_government = vanguardist
 						has_government = fasci
 						has_government = collectivist
-						has_government = social_liberal
+						has_government = liberal
 						has_government = market_liberal
 						has_government = social_democrat
 						has_government = social_conservative
@@ -2298,7 +2298,7 @@ focus = {
 
 focus = {
 		id = CHL_president_rios
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
 		available = { 
 			has_global_flag = JARWON
 		}
@@ -2536,7 +2536,7 @@ focus = {
 						is_in_faction_with = CHL
 						is_subject_of = CHL
 						has_war_with = CHL
-						has_government = social_liberal
+						has_government = liberal
 						has_government = market_liberal
 						has_government = authoritarian_democrat
 						has_government = social_democrat

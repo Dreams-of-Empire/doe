@@ -25,12 +25,12 @@ CAN_remove_republic = {
         }
       }
       if = {
-        limit = { has_ideology = social_liberal_subtype }
-        promote_character = { ideology = social_liberal_subtype }
+        limit = { has_ideology = liberal_subtype }
+        promote_character = { ideology = liberal_subtype }
       }
       else = {
         add_country_leader_role = {
-          country_leader = { ideology = social_liberal_subtype }
+          country_leader = { ideology = liberal_subtype }
           promote_leader = yes
         }
       }

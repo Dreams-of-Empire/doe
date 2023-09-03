@@ -93,7 +93,7 @@ country_event = {
 		name = socspain.3.a
 		add_political_power = 40
 		hidden_effect = {
-			add_popularity = { ideology = social_liberal popularity = 0.06 }
+			add_popularity = { ideology = liberal popularity = 0.06 }
 			add_popularity = { ideology = market_liberal popularity = 0.06 }
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 		}

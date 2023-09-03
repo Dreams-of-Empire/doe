@@ -75,7 +75,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -552,7 +552,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Dimitur_Gichev_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -903,7 +903,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Georgi_Iordanov_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1119,7 +1119,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Vergil_Dimov_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}

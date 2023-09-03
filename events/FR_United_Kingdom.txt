@@ -2073,7 +2073,7 @@ country_event = { # Ireland and the United Kingdom
         character = IRE_James_Matthew_Dillon
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
       }
@@ -2168,7 +2168,7 @@ country_event = { # Ireland and the United Kingdom
         character = IRE_James_Matthew_Dillon
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
       }
@@ -11508,10 +11508,10 @@ country_event = { # Successful Policies
 		}
 		if = {
 			limit = {
-				has_government = social_liberal
-				social_liberal < 50
+				has_government = liberal
+				liberal < 50
 			}
-			add_popularity = { ideology = social_liberal popularity = 0.05 }
+			add_popularity = { ideology = liberal popularity = 0.05 }
 		}
 		if = {
 			limit = {

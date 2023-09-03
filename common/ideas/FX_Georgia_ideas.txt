@@ -392,7 +392,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				stability_factor = 0.1
-				social_liberal_drift = 0.1
+				liberal_drift = 0.1
 			}
 		}
 		GEO_fair_georgia_idea = {

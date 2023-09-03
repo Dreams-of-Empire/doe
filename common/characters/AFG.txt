@@ -66,7 +66,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -186,7 +186,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Abdul_Majid_Zabuli_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_charismatic_charmer
 			}
 		}

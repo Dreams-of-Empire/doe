@@ -1725,7 +1725,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
-			add_popularity = { ideology = social_liberal popularity = 0.01 }
+			add_popularity = { ideology = liberal popularity = 0.01 }
 			add_popularity = { ideology = market_liberal popularity = 0.01 }
 			add_popularity = { ideology = national_populist popularity = 0.02 }
 			country_event = { days = 1 id = sweden.81 }
@@ -1826,10 +1826,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_cooperate_with_agrarians"
 			add_stability = 0.04
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
-			add_popularity = { ideology = social_liberal popularity = -0.01 }
+			add_popularity = { ideology = liberal popularity = -0.01 }
 			custom_effect_tooltip  = SWE_cooperate_with_agrarians_tooltip
 			hidden_effect = {
-				set_temp_variable = { coalition_partner_var = token:social_liberal }
+				set_temp_variable = { coalition_partner_var = token:liberal }
 				add_to_coalition = yes
 			}
 		}
@@ -2989,7 +2989,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_borgarliga_blocket"
 			add_political_power = 50
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 }
 			custom_effect_tooltip  = SWE_borgarliga_blocket_tooltip
 		}
@@ -3179,7 +3179,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWE_enshrine_individual_freedom
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
 		cost = 8.00
 		prerequisite = {
 			focus = SWE_moderate_conservatism
@@ -3622,7 +3622,7 @@ focus_tree = {
 			add_political_power = -15
 			add_popularity = { ideology = collectivist popularity = 0.03 }
 			add_popularity = { ideology = fasci popularity = 0.03 }
-			add_popularity = { ideology = social_liberal popularity = -0.01 }
+			add_popularity = { ideology = liberal popularity = -0.01 }
 		}
 
 	}
@@ -4769,7 +4769,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_false_song_liberalism"
 			add_political_power = -30
-			add_popularity = { ideology = social_liberal popularity = -0.03 }
+			add_popularity = { ideology = liberal popularity = -0.03 }
 			add_popularity = { ideology = market_liberal popularity = -0.03 }
 		}
 

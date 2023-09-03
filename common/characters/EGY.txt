@@ -11,7 +11,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -100,7 +100,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Ahmad_Mahir_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_ambitious_union_boss
 			}
 		}
@@ -127,7 +127,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Ibrahim_Abdel_Hady_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_accomplished_diplomat
 			}
 		}
@@ -157,7 +157,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Mohammed_Naguib_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -616,7 +616,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Kamil_Abdul_Rahim_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_radical_among_moderates
 			}
 		}
@@ -635,7 +635,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Kamil_Abdul_Rahim_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_keynesian_economy
 			}
 		}
@@ -662,7 +662,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Abdul_Khalek_Hassouna_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -851,7 +851,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Saba_Habachy_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_bank_president
 			}
 		}
@@ -1013,7 +1013,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Taha_Hussein_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}
@@ -1040,7 +1040,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Muhammad_Husayn_Haykal_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_efficient_sociopath
 			}
 		}

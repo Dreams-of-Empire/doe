@@ -1852,7 +1852,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_voting_rights_for_dutch_british"
 			add_stability = 0.02
 			add_political_power = -50
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }

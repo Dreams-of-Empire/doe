@@ -261,7 +261,7 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = FR_Republican_Spain
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
-			add_popularity = { ideology = social_liberal popularity = -0.07 }
+			add_popularity = { ideology = liberal popularity = -0.07 }
 			add_popularity = { ideology = market_liberal popularity = -0.07 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			every_state = {
@@ -362,7 +362,7 @@ country_event = {
 		add_political_power = -20
 		hidden_effect = {
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
-			add_popularity = { ideology = social_liberal popularity = -0.03 }
+			add_popularity = { ideology = liberal popularity = -0.03 }
 			add_popularity = { ideology = market_liberal popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 		}
@@ -458,7 +458,7 @@ country_event = {
 		set_politics = {
 			ruling_party = authoritarian_democrat elections_allowed = no
 		}
-		add_coalition_social_liberal = yes 
+		add_coalition_liberal = yes 
 		hidden_effect = {
 			set_party_name = { 
 				ideology = authoritarian_democrat 
@@ -552,7 +552,7 @@ country_event = {
 		add_stability = 0.02
 		add_political_power = 15
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
-		add_popularity = { ideology = social_liberal popularity = 0.02 }
+		add_popularity = { ideology = liberal popularity = 0.02 }
 		hidden_effect = {
 			add_country_leader_role = {
         character = SPR_Manuel_Azana
@@ -562,7 +562,7 @@ country_event = {
           traits = {}
         }
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
         country_leader = {
@@ -610,7 +610,7 @@ country_event = {
           traits = {}
         }
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
         country_leader = {
@@ -642,7 +642,7 @@ country_event = {
 		set_politics = {
 			ruling_party = authoritarian_democrat elections_allowed = no
 		}
-		add_coalition_social_liberal = yes 
+		add_coalition_liberal = yes 
 		hidden_effect = {
 			set_party_name = { 
 				ideology = authoritarian_democrat 
@@ -751,9 +751,9 @@ country_event = {
 		name = repspain.103.a
 		ai_chance = { base = 50 }
 		set_politics = {
-			ruling_party = social_liberal elections_allowed = no
+			ruling_party = liberal elections_allowed = no
 		}
-		add_popularity = { ideology = social_liberal popularity = 0.05 }
+		add_popularity = { ideology = liberal popularity = 0.05 }
 		set_country_flag = SPR_election_happened_flag
 		end_coalition = yes 
 		hidden_effect = {

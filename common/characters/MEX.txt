@@ -262,7 +262,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Miguel_Aleman_Valdes_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_local_tyrant
 			}
 		}

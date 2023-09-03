@@ -40,9 +40,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = social_liberal
+			has_government = liberal
 		}
-		localization_key = social_liberal_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -211,12 +211,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = social_liberal
-				check_variable = { political_power_ideology = token:social_liberal }
+				has_government = liberal
+				check_variable = { political_power_ideology = token:liberal }
 			}
-			is_in_array = { ROOT.coalition_partners = token:social_liberal }
+			is_in_array = { ROOT.coalition_partners = token:liberal }
 		}
-		localization_key = party_pop_coalition_social_liberal
+		localization_key = party_pop_coalition_liberal
 	}
 	text = {
 		localization_key = empty
@@ -340,7 +340,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:social_liberal }
+			check_variable = { coalition_partner_var = token:liberal }
 		}
 		localization_key = colour_soclib_orange
 	}

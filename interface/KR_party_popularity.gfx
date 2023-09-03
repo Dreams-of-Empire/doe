@@ -16,8 +16,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/social_democrat_small.png"
 	}
 	spriteType = {
-		name = "GFX_social_liberal_small"
-		texturefile = "gfx/interface/ideologies/social_liberal_small.png"
+		name = "GFX_liberal_small"
+		texturefile = "gfx/interface/ideologies/liberal_small.png"
 	}
 	spriteType = {
 		name = "GFX_market_liberal_small"

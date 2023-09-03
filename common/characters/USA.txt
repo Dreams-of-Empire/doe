@@ -165,7 +165,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Earl_Warren_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -193,7 +193,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Harold_Stassen_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -220,7 +220,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Herbert_Hoover_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_naive_optimist
 			}
 		}
@@ -248,7 +248,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_John_W_Bricker_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -280,7 +280,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Quentin_Roosevelt_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_pragmatic_statesman
 			}
 		}
@@ -307,7 +307,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Quentin_Roosevelt_II_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_political_protege
 			}
 		}
@@ -335,7 +335,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Thomas_Dewey_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_old_compromiser
 			}
 		}
@@ -1041,7 +1041,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Henry_Lewis_Stimson_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_moderate_among_radicals
 			}
 		}
@@ -1068,7 +1068,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_John_Bassett_Moore_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_ideological_crusader
 			}
 		}
@@ -1365,7 +1365,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Charles_Edison_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_mixed_economy
 			}
 		}
@@ -1619,7 +1619,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Charles_Douglas_Jackson_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1646,7 +1646,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Charles_Evans_Hughes_Sr_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}

@@ -308,7 +308,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -326,7 +326,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Juan_Esteban_Montero_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_accomplished_diplomat
 			}
 		}
@@ -353,7 +353,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Arturo_Alessandri_Palma_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -813,7 +813,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_JRGuiterrez_Allende_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_foreign_sympathizer
 			}
 		}
@@ -1191,7 +1191,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Arturo_Maschke_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_resource_industrialist
 			}
 		}
@@ -1520,7 +1520,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Carlos_Valdovinos_Valdovinos_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_crooked_kleptocrat
 			}
 		}

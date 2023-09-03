@@ -198,7 +198,7 @@ bookmarks = {
     }
     "GRE" = {
       history = "GRE_FUHRERREDUX_DESC"
-      ideology = social_liberal
+      ideology = liberal
       minor = yes
       ideas = {
 
@@ -257,7 +257,7 @@ bookmarks = {
     }
     "FIN" = {
       history = "FIN_FUHRERREDUX_DESC"
-      ideology = social_liberal
+      ideology = liberal
       minor = yes
       ideas = {
         FIN_winter_war
@@ -289,7 +289,7 @@ bookmarks = {
     }
     "ARG" = {
       history = "ARG_FUHRERREDUX_DESC"
-      ideology = social_liberal
+      ideology = liberal
       minor = yes
       ideas = {
         ARG_british_companies
@@ -369,7 +369,7 @@ bookmarks = {
     }
     "CHL" = {
       history = "CHL_FUHRERREDUX_DESC"
-      ideology = social_liberal
+      ideology = liberal
       minor = yes
       ideas = {
         CHL_crumbling_government

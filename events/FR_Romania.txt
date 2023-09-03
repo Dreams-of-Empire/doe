@@ -51,7 +51,7 @@ country_event = { # The New Regent
 		set_country_flag = ROM_selected_regent
 		set_country_flag = ROM_liberal_regent
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -318,7 +318,7 @@ country_event = { # Meeting with the Progressives
 			factor = 10
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.05
 		}
 		set_country_flag = ROM_progressive_coalition
@@ -464,7 +464,7 @@ country_event = { # Georgists Leaves the Coalition
 	option = {
 		name = romania.13.a
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.025
 		}
 		clr_country_flag = ROM_conservative_coalition
@@ -641,7 +641,7 @@ country_event = { # 1937 General Elections
 				has_country_flag = ROM_conservative_coalition
 				has_country_flag = ROM_progressive_coalition
 			}
-			add_coalition_social_liberal = yes 
+			add_coalition_liberal = yes 
 			add_coalition_social_conservative = yes 
 			add_ideas = {
 				ROM_Constantin_Bratianu_hog_mli
@@ -650,7 +650,7 @@ country_event = { # 1937 General Elections
 				ROM_Victor_Iamandi_sec_mli
 			}
 			add_popularity = {
-				ideology = social_liberal
+				ideology = liberal
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -674,7 +674,7 @@ country_event = { # 1937 General Elections
 		}
 		else_if = {
 			limit = { has_country_flag = ROM_progressive_coalition }
-			add_coalition_social_liberal = yes 
+			add_coalition_liberal = yes 
 			add_ideas = {
 				ROM_Constantin_Bratianu_hog_mli
 				ROM_Grigore_Gafencu_for_sli
@@ -682,7 +682,7 @@ country_event = { # 1937 General Elections
 				ROM_Richard_Franasovici_sec_mli
 			}
 			add_popularity = {
-				ideology = social_liberal
+				ideology = liberal
 				popularity = 0.1
 			}
 		}
@@ -1027,7 +1027,7 @@ country_event = { # The King's and Romania's Safety
 			}
 		}
 		remove_coalition_social_conservative = yes 
-		remove_coalition_social_liberal = yes 
+		remove_coalition_liberal = yes 
 		remove_coalition_fasci = yes 
 		set_politics = {
 			ruling_party = paternal_autocrat
@@ -1210,7 +1210,7 @@ country_event = { # Iron Guard Coups the Government!
 				has_country_flag = ROM_progressive_coalition
 				check_variable = { rom_conservative_strength > rom_progressive_strength }
 			}
-			remove_coalition_social_liberal = yes 
+			remove_coalition_liberal = yes 
 			set_politics = {
 				ruling_party = social_conservative
 				elections_allowed = yes
@@ -1237,7 +1237,7 @@ country_event = { # Iron Guard Coups the Government!
 			}
 			remove_coalition_social_conservative = yes 
 			set_politics = {
-				ruling_party = social_liberal
+				ruling_party = liberal
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes
@@ -1269,7 +1269,7 @@ country_event = { # Iron Guard Coups the Government!
 			base = 0
 		}
 		remove_coalition_social_conservative = yes 
-		remove_coalition_social_liberal = yes 
+		remove_coalition_liberal = yes 
 		set_politics = {
 			ruling_party = revivalist
 			elections_allowed = no
@@ -1390,7 +1390,7 @@ country_event = { # Coronation of Alexander I
       character = ROM_Alexandru_Cantacuzino
       promote_leader = yes
       country_leader = {
-        ideology = social_liberal_subtype
+        ideology = liberal_subtype
         traits = {}
       }
     }
@@ -1924,7 +1924,7 @@ country_event = { # 1941 Elections
 		hidden_effect = {
 			clr_country_flag = ROM_leftist_coalition
 			remove_coalition_social_conservative = yes 
-			remove_coalition_social_liberal = yes 
+			remove_coalition_liberal = yes 
 			remove_coalition_fasci = yes 
 		}
 	}
@@ -1969,7 +1969,7 @@ country_event = { # 1941 Elections
 		else_if = {
 			limit = { has_country_flag = ROM_progressive_pnl }
 			set_politics = {
-				ruling_party = social_liberal
+				ruling_party = liberal
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes
@@ -1996,7 +1996,7 @@ country_event = { # 1941 Elections
 				ROM_Mihail_Ghelmegeanu_sec_sco
 			}
 			set_country_flag = ROM_had_1941_elections
-			add_coalition_social_liberal = yes 
+			add_coalition_liberal = yes 
 			add_coalition_social_conservative = yes 
 		}
 		hidden_effect = {
@@ -2042,7 +2042,7 @@ country_event = { # 1945 Elections
 		hidden_effect = {
 			clr_country_flag = ROM_leftist_coalition
 			remove_coalition_social_conservative = yes 
-			remove_coalition_social_liberal = yes 
+			remove_coalition_liberal = yes 
 			remove_coalition_fasci = yes 
 		}
 	}
@@ -2084,7 +2084,7 @@ country_event = { # 1945 Elections
 		else_if = {
 			limit = { has_country_flag = ROM_progressive_pnl }
 			set_politics = {
-				ruling_party = social_liberal
+				ruling_party = liberal
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes
@@ -2111,7 +2111,7 @@ country_event = { # 1945 Elections
 				ROM_Mihail_Ghelmegeanu_sec_sco
 			}
 			set_country_flag = ROM_had_1945_elections
-			add_coalition_social_liberal = yes 
+			add_coalition_liberal = yes 
 			add_coalition_social_conservative = yes 
 		}
 		
@@ -2152,7 +2152,7 @@ country_event = { # 1949 Elections
 		hidden_effect = {
 			clr_country_flag = ROM_leftist_coalition
 			remove_coalition_social_conservative = yes 
-			remove_coalition_social_liberal = yes 
+			remove_coalition_liberal = yes 
 			remove_coalition_fasci = yes 
 		}
 	}
@@ -2194,7 +2194,7 @@ country_event = { # 1949 Elections
 		else_if = {
 			limit = { has_country_flag = ROM_progressive_pnl }
 			set_politics = {
-				ruling_party = social_liberal
+				ruling_party = liberal
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes
@@ -2221,7 +2221,7 @@ country_event = { # 1949 Elections
 				ROM_Mihail_Ghelmegeanu_sec_sco
 			}
 			set_country_flag = ROM_had_1949_elections
-			add_coalition_social_liberal = yes 
+			add_coalition_liberal = yes 
 			add_coalition_social_conservative = yes 
 		}
 		
@@ -2263,7 +2263,7 @@ country_event = { # 1953 Elections
 		hidden_effect = {
 			clr_country_flag = ROM_leftist_coalition
 			remove_coalition_social_conservative = yes 
-			remove_coalition_social_liberal = yes 
+			remove_coalition_liberal = yes 
 			remove_coalition_fasci = yes 
 		}
 	}
@@ -2305,7 +2305,7 @@ country_event = { # 1953 Elections
 		else_if = {
 			limit = { has_country_flag = ROM_progressive_pnl }
 			set_politics = {
-				ruling_party = social_liberal
+				ruling_party = liberal
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes
@@ -2332,7 +2332,7 @@ country_event = { # 1953 Elections
 				ROM_Mihail_Ghelmegeanu_sec_sco
 			}
 			set_country_flag = ROM_had_1953_elections
-			add_coalition_social_liberal = yes 
+			add_coalition_liberal = yes 
 			add_coalition_social_conservative = yes 
 		}
 		
@@ -2374,7 +2374,7 @@ country_event = { # 1957 Elections
 		hidden_effect = {
 			clr_country_flag = ROM_leftist_coalition
 			remove_coalition_social_conservative = yes 
-			remove_coalition_social_liberal = yes 
+			remove_coalition_liberal = yes 
 			remove_coalition_fasci = yes 
 		}
 	}
@@ -2416,7 +2416,7 @@ country_event = { # 1957 Elections
 		else_if = {
 			limit = { has_country_flag = ROM_progressive_pnl }
 			set_politics = {
-				ruling_party = social_liberal
+				ruling_party = liberal
 				elections_allowed = yes
 			}
 			increase_ruling_party_popularity_by_15 = yes
@@ -2443,7 +2443,7 @@ country_event = { # 1957 Elections
 				ROM_Mihail_Ghelmegeanu_sec_sco
 			}
 			set_country_flag = ROM_had_1957_elections
-			add_coalition_social_liberal = yes 
+			add_coalition_liberal = yes 
 			add_coalition_social_conservative = yes 
 		}
 		

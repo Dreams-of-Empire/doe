@@ -11,7 +11,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -419,7 +419,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Charles_Oser_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -446,7 +446,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Eduard_von_Steiger_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -465,7 +465,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Eduard_von_Steiger_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_secret_police_chief
 			}
 		}
@@ -492,7 +492,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Giuseppe_Motta_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_political_protege
 			}
 		}
@@ -511,7 +511,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Giuseppe_Motta_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_moderate_among_radicals
 			}
 		}
@@ -538,7 +538,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Max_Petitpierre_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_naive_optimist
 			}
 		}
@@ -557,7 +557,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Max_Petitpierre_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_moderate_among_radicals
 			}
 		}
@@ -584,7 +584,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Philipp_Etter_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_pragmatic_statesman
 			}
 		}
@@ -603,7 +603,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Philipp_Etter_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_preserver_of_culture
 			}
 		}
@@ -1017,7 +1017,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Jakob_I_Huber_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_general_staffer
 			}
 		}
@@ -1036,7 +1036,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Jakob_I_Huber_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_imbedded_unioneer
 			}
 		}
@@ -1063,7 +1063,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Karl_Zeltner_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_relations_expert
 			}
 		}
@@ -1090,7 +1090,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Leo_Niklaus_Lejeune_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_foreign_sympathizer
 			}
 		}
@@ -1117,7 +1117,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Max_Kaufmann_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -1360,7 +1360,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Ernst_Weber_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_construction_magnate
 			}
 		}
@@ -1387,7 +1387,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Jakob_Mosimann_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_national_liberal
 			}
 		}
@@ -1414,7 +1414,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Leonardo_Castelli_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_infantry_proponent
 			}
 		}
@@ -1722,7 +1722,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Edmund_Schulthess_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1749,7 +1749,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Felix_Calonder_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_man_of_the_people
 			}
 		}
@@ -1776,7 +1776,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Gonzague_de_Reynold_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_driven_recruiter
 			}
 		}
@@ -1803,7 +1803,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Hugo_Gschwind_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_crooked_kleptocrat
 			}
 		}
@@ -1830,7 +1830,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Max_Waibel_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_secret_police_chief
 			}
 		}

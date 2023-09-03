@@ -682,7 +682,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_third_constitution"
 			add_political_power = 20
 			add_stability = 0.05
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = national_populist popularity = 0.01 }
@@ -1040,7 +1040,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = -0.03 }
 			add_popularity = { ideology = fasci popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
-			add_popularity = { ideology = social_liberal popularity = -0.03 }
+			add_popularity = { ideology = liberal popularity = -0.03 }
 			add_war_support = 0.05
 			swap_ideas = {
 				remove_idea = EST_memories_communist_uprising_idea
@@ -1069,7 +1069,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = -0.03 }
 			add_popularity = { ideology = fasci popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
-			add_popularity = { ideology = social_liberal popularity = -0.03 }
+			add_popularity = { ideology = liberal popularity = -0.03 }
 			add_war_support = 0.05
 			swap_ideas = {
 				remove_idea = EST_memories_communist_uprising_idea
@@ -1167,7 +1167,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.08
 			add_popularity = { ideology = national_populist popularity = 0.08 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			country_event = { id = estonia.107 days = 1 }

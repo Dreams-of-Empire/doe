@@ -28,7 +28,7 @@ set_popularities = {
   collectivist = 20
   fasci = 40
   social_democrat = 15
-  social_liberal = 5
+  liberal = 5
   social_conservative = 10
 }
 

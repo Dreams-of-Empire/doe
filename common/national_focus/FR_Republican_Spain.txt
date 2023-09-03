@@ -565,7 +565,7 @@ focus_tree = {
 		y = 4
 		
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 			has_country_flag = SPR_election_happened_flag
 		}
 		
@@ -577,7 +577,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_integrate_socialists"
 			country_event = { id = repspain.104 days = 1 }
 			add_political_power = 20
-			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = fasci popularity = 0.02 }
 		}
@@ -594,7 +594,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		
 		ai_will_do = {
@@ -621,7 +621,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		
 		ai_will_do = {
@@ -648,7 +648,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		
 		ai_will_do = {
@@ -678,7 +678,7 @@ focus_tree = {
 		y = 7
 		
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		
 		ai_will_do = {
@@ -688,7 +688,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_uniting_left"
 			add_stability = 0.05
-			add_popularity = { ideology = social_liberal popularity = 0.05 }
+			add_popularity = { ideology = liberal popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			add_popularity = { ideology = collectivist popularity = -0.02 }
 		}
@@ -706,7 +706,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 			}
 			has_country_flag = SPR_election_happened_flag
@@ -735,7 +735,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 			}
 		}
@@ -764,7 +764,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 			}
 		}
@@ -795,7 +795,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 			}
 		}
@@ -823,7 +823,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 			}
 		}
@@ -840,7 +840,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_modern_spanish_state
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
 		cost = 8.00
 		prerequisite = {
 			focus = SPR_assure_loyalty
@@ -853,7 +853,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 			}
 		}
@@ -1027,7 +1027,7 @@ focus_tree = {
 		y = 8
 		
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		
 		ai_will_do = {
@@ -1037,7 +1037,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_legacy_of_manuel_azana"
 			add_political_power = 50
-			add_popularity = { ideology = social_liberal popularity = 0.05 }
+			add_popularity = { ideology = liberal popularity = 0.05 }
 			add_popularity = { ideology = market_liberal popularity = -0.04 }
 		}
 
@@ -1067,7 +1067,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_legacy_of_niceto_alcala_zamora"
 			add_political_power = 50
 			add_popularity = { ideology = market_liberal popularity = 0.05 }
-			add_popularity = { ideology = social_liberal popularity = -0.04 }
+			add_popularity = { ideology = liberal popularity = -0.04 }
 		}
 
 	}
@@ -1084,7 +1084,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 			}
 		}
@@ -1097,7 +1097,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_plus_ultra"
 			add_stability = 0.10
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
-			add_popularity = { ideology = social_liberal popularity = 0.05 }
+			add_popularity = { ideology = liberal popularity = 0.05 }
 			add_popularity = { ideology = market_liberal popularity = 0.05 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 		}

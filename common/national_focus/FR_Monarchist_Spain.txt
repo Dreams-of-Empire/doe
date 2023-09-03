@@ -218,7 +218,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPM_curtail_republicanism"
 			add_stability = 0.02
 			add_political_power = -20
-			add_popularity = { ideology = social_liberal popularity = -0.03 }
+			add_popularity = { ideology = liberal popularity = -0.03 }
 			add_popularity = { ideology = market_liberal popularity = -0.03 }
 			if = {
 				limit = {
@@ -301,7 +301,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power = -20
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
-			add_popularity = { ideology = social_liberal popularity = -0.03 }
+			add_popularity = { ideology = liberal popularity = -0.03 }
 			if = {
 				limit = {
 					has_idea = SPR_civil_war_recovery_idea
@@ -774,7 +774,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = -0.02 }
 			add_popularity = { ideology = fasci popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
-			add_popularity = { ideology = social_liberal popularity = -0.02 }
+			add_popularity = { ideology = liberal popularity = -0.02 }
 		}
 
 	}
@@ -1314,7 +1314,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = social_conservative popularity = 0.04 }
 			add_popularity = { ideology = market_liberal popularity = 0.05 }
-			add_popularity = { ideology = social_liberal popularity = 0.05 }
+			add_popularity = { ideology = liberal popularity = 0.05 }
 		}
 
 	}

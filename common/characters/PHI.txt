@@ -162,7 +162,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Elpidio_Quirino_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_pragmatic_statesman
 			}
 		}
@@ -181,7 +181,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Elpidio_Quirino_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_biased_intellectual
 			}
 		}
@@ -1163,7 +1163,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Joaquin_Elizalde_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_biased_intellectual
 			}
 		}
@@ -1425,7 +1425,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Antonio_de_las_Alas_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_steel_magnate
 			}
 		}
@@ -1830,7 +1830,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Alberto_Ramos_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_crime_fighter
 			}
 		}
@@ -1857,7 +1857,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Leoncio_S_Tan_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}

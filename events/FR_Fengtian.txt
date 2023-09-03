@@ -1184,7 +1184,7 @@ country_event = {
         name = "NRC"
       }
 	    set_party_name = {
-        ideology = social_liberal
+        ideology = liberal
         long_name = "Republican Party 36"
         name = "RP36"
       }
@@ -1194,7 +1194,7 @@ country_event = {
         popularity = -0.10
       }
 		  add_popularity = { 
-        ideology = social_liberal 
+        ideology = liberal 
         popularity = 0.07 
       }
 		  add_popularity = { 
@@ -1228,7 +1228,7 @@ country_event = {
     add_political_power = -50
 
     add_popularity = { ideology = market_liberal popularity = 0.05 }
-    add_popularity = { ideology = social_liberal popularity = 0.03 }
+    add_popularity = { ideology = liberal popularity = 0.03 }
 
     hidden_effect = {
 
@@ -2962,7 +2962,7 @@ country_event = {
 					MAN = { country_event = { id = man.77 days = 5 }}
 					add_popularity = { ideology = social_conservative popularity = -0.10 }
 					add_popularity = { ideology = national_populist popularity = 0.05 }
-					add_popularity = { ideology = social_liberal popularity = 0.05 }
+					add_popularity = { ideology = liberal popularity = 0.05 }
 					}
 			}
 		}
@@ -3004,7 +3004,7 @@ country_event = {
 					name = "If they want to be out of the opposition they can take it from us by force!"
 					add_stability = -0.05
 					hidden_effect = {
-					add_popularity = { ideology = social_liberal popularity = -0.05 }
+					add_popularity = { ideology = liberal popularity = -0.05 }
 					add_popularity = { ideology = national_populist popularity = 0.05 }
 					complete_national_focus = MAN_concordia_association_controls_the_senate
 					}
@@ -3014,7 +3014,7 @@ country_event = {
 				name = "Now what can we do?"
 				hidden_effect = {
 				MAN = { country_event = { id = man.100 days = 5 }}
-				add_popularity = { ideology = social_liberal popularity = 0.10 }
+				add_popularity = { ideology = liberal popularity = 0.10 }
 				}
 		}
 		}
@@ -3079,12 +3079,12 @@ country_event = {
 						MAN_Yang_Yuting_sec_mli
 					}
 				 set_politics = {
-			       ruling_party = social_liberal
+			       ruling_party = liberal
 			       elections_allowed = no
 			     }
 					hidden_effect = {
 					complete_national_focus = MAN_the_republican_party_removes_concordia_supporters
-					add_popularity = { ideology = social_liberal popularity = 0.10 }
+					add_popularity = { ideology = liberal popularity = 0.10 }
 					add_stability = -0.025
 					}
 			}
@@ -3821,7 +3821,7 @@ country_event = {
 		USA = { exists = yes }
 		OR = {
 			USA = { has_government = social_democrat }
-			USA = { has_government = social_liberal }
+			USA = { has_government = liberal }
 			USA = { has_government = market_liberal }
 			USA = { has_government = social_conservative }
 			USA = { has_government = authoritarian_democrat }
@@ -3836,7 +3836,7 @@ country_event = {
 		ENG = { exists = yes }
 		OR = {
 			ENG = { has_government = social_democrat }
-			ENG = { has_government = social_liberal }
+			ENG = { has_government = liberal }
 			ENG = { has_government = market_liberal }
 			ENG = { has_government = social_conservative }
 			ENG = { has_government = authoritarian_democrat }
@@ -3851,7 +3851,7 @@ country_event = {
 		FRA = { exists = yes }
 		OR = {
 			FRA = { has_government = social_democrat }
-			FRA = { has_government = social_liberal }
+			FRA = { has_government = liberal }
 			FRA = { has_government = market_liberal }
 			FRA = { has_government = social_conservative }
 			FRA = { has_government = authoritarian_democrat }
@@ -3866,7 +3866,7 @@ country_event = {
 		POL = { exists = yes }
 			OR = {
 				POL = { has_government = social_democrat }
-				POL = { has_government = social_liberal }
+				POL = { has_government = liberal }
 				POL = { has_government = market_liberal }
 				POL = { has_government = social_conservative }
 				POL = { has_government = authoritarian_democrat }
@@ -3881,7 +3881,7 @@ country_event = {
 			PER = { exists = yes }
 			OR = {
 				PER = { has_government = social_democrat }
-				PER = { has_government = social_liberal }
+				PER = { has_government = liberal }
 				PER = { has_government = market_liberal }
 				PER = { has_government = social_conservative }
 				PER = { has_government = authoritarian_democrat }

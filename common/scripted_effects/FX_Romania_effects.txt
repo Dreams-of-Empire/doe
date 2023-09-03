@@ -55,7 +55,7 @@ ROM_increase_progressive_strength = {
 			value = 1
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.025
 		}
 	}
@@ -83,7 +83,7 @@ ROM_decrease_progressive_strength = {
 			value = -1
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = -0.025
 		}
 	}
@@ -149,7 +149,7 @@ ROM_make_michael_king = {
 			promote_leader = yes
 			country_leader = {
 				desc = POLITICS_MICHAEL_I_DESC
-				ideology = social_liberal_subtype
+				ideology = liberal_subtype
 				traits = {}
 			}
 		}
@@ -260,13 +260,13 @@ ROM_make_nicholas_king = {
 		}
 		if = {
 			limit = {
-				NOT = { has_ideology_group = social_liberal }
+				NOT = { has_ideology_group = liberal }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
 					desc = POLITICS_NICHOLAS_I_DESC
-					ideology = social_liberal_subtype
+					ideology = liberal_subtype
 					traits = {}
 				}
 			}
@@ -389,7 +389,7 @@ ROM_become_republic = {
 		character = ROM_Barbu_Lazareanu
 		promote_leader = yes
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}

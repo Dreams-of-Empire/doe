@@ -183,7 +183,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Carlos_Arango_Velez_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_accomplished_diplomat
 			}
 		}
@@ -210,7 +210,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Carlos_Lozano_y_Lozano_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -556,7 +556,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Alejandro_Galvis_Galvis_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_ideological_crusader
 			}
 		}
@@ -586,7 +586,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Francisco_Cardona_Santa_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -902,7 +902,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Antonio_Jose_Restrepo_Trujillo_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -929,7 +929,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Carlos_Alberto_Lleras_Restrepo_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_reformer
 			}
 		}
@@ -959,7 +959,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Santander_Araujo_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_trade_proponent
 			}
 		}
@@ -1322,7 +1322,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Dario_Echandia_Olaya_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}
@@ -1349,7 +1349,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Tomas_Oziel_Eastman_Lemus_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_secret_police_chief
 			}
 		}
@@ -1376,7 +1376,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Tulio_Enrique_Tascon_Quintero_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_prince_of_terror
 			}
 		}

@@ -85,11 +85,11 @@ country_event = { #military steps in
 
 		add_ideas = presidential_republic
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.05
 		}
 
-		set_politics = { ruling_party = social_liberal elections_allowed = no }
+		set_politics = { ruling_party = liberal elections_allowed = no }
 	}
 
 	option = {
@@ -191,10 +191,10 @@ country_event = { #40 elections
 		}
 		add_ideas = CHL_Juan_Antonio_Rios_hog_sli
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 		}
 		add_popularity = {
-			ideology = social_liberal popularity = 0.1
+			ideology = liberal popularity = 0.1
 		}
 		remove_every_minister = yes
 		activate_advisor = CHL_Arturo_Alessandri_Palma_hog_sli
@@ -208,7 +208,7 @@ country_event = { #40 elections
         character = CHL_Juan_Antonio_Rios
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
       }
@@ -422,10 +422,10 @@ country_event = { #blanche open elections
 		add_ideas = presidential_republic
 
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 		}
 		add_popularity = {
-			ideology = social_liberal popularity = 0.1
+			ideology = liberal popularity = 0.1
 		}
 		set_global_flag = JARWON
 		hidden_effect = {
@@ -433,7 +433,7 @@ country_event = { #blanche open elections
         character = CHL_Juan_Antonio_Rios
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
       }
@@ -494,10 +494,10 @@ country_event = { #blanche no left elections
 		activate_advisor = CHL_Arturo_Alessandri_Palma_hog_sli
 		add_ideas = presidential_republic
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 		}
 		add_popularity = {
-			ideology = social_liberal popularity = 0.1
+			ideology = liberal popularity = 0.1
 		}
 		set_global_flag = JARWON
 		hidden_effect = {
@@ -505,7 +505,7 @@ country_event = { #blanche no left elections
         character = CHL_Juan_Antonio_Rios
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
       }
@@ -784,7 +784,7 @@ country_event = { #Flavor1
 		name = chl.1000.b
 		add_political_power = -25
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.025
 		}
 	}
@@ -821,7 +821,7 @@ country_event = { #Flavor2
 		name = chl.1001.b
 		add_political_power = -25
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.025
 		}
 	}
@@ -945,7 +945,7 @@ country_event = { #Flavor6
 		name = chl.1005.b
 		add_political_power = -25
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.025
 		}
 	}

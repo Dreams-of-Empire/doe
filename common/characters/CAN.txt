@@ -443,7 +443,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -461,7 +461,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Louis_St_Laurent_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_reformist_soldier
 			}
 		}
@@ -480,7 +480,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Louis_St_Laurent_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_general_staffer
 			}
 		}
@@ -984,7 +984,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Mitchell_Hepburn_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -1308,7 +1308,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Alphonse_Fournier_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_construction_magnate
 			}
 		}
@@ -1335,7 +1335,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Gerry_McGeer_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_national_liberal
 			}
 		}
@@ -1659,7 +1659,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Stuart_Garson_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_efficient_sociopath
 			}
 		}
@@ -2142,7 +2142,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {

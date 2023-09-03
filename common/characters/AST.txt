@@ -124,7 +124,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -142,7 +142,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Jack_Lang_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_backroom_backstabber
 			}
 		}
@@ -161,7 +161,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Jack_Lang_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -397,7 +397,7 @@ characters = {
 		}
 		country_leader = {
 			desc = POLITICS_LORD_BIRDWOOD_DESC
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1419,7 +1419,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_John_A_Beasley_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_general_staffer
 			}
 		}
@@ -1743,7 +1743,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Daniel_Mulcahy_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -2013,7 +2013,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Edward_J_Ward_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_man_of_the_people
 			}
 		}

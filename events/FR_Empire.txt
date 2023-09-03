@@ -1111,7 +1111,7 @@ country_event = {			# - Notification on Imperial Foreign Policy
 				add = 25
 			}
 			modifier = {
-				has_government = social_liberal
+				has_government = liberal
 				add = -25
 			}
 			modifier = {
@@ -1174,7 +1174,7 @@ country_event = {			# - Notification on Imperial Foreign Policy
 				add = -25
 			}
 			modifier = {
-				has_government = social_liberal
+				has_government = liberal
 				add = 25
 			}
 			modifier = {
@@ -1255,7 +1255,7 @@ country_event = {			# - Reaction to Irish Issue
 				add = 25
 			}
 			modifier = {
-				has_government = social_liberal
+				has_government = liberal
 				add = -25
 			}
 			modifier = {
@@ -1315,7 +1315,7 @@ country_event = {			# - Reaction to Irish Issue
 				add = -25
 			}
 			modifier = {
-				has_government = social_liberal
+				has_government = liberal
 				add = 25
 			}
 			modifier = {
@@ -1383,7 +1383,7 @@ country_event = {			# - Reaction to Political Change in UK
 				add = -25
 			}
 			modifier = {
-				has_government = social_liberal
+				has_government = liberal
 				add = 25
 			}
 			modifier = {
@@ -1450,7 +1450,7 @@ country_event = {			# - Reaction to Political Change in UK
 				add = 25
 			}
 			modifier = {
-				has_government = social_liberal
+				has_government = liberal
 				add = -25
 			}
 			modifier = {

@@ -15,7 +15,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1932.10.28"
 	election_frequency = 48
 	elections_allowed = no
@@ -26,7 +26,7 @@ set_popularities = {
   collectivist = 0
   fasci = 2
   social_democrat = 16
-  social_liberal = 48
+  liberal = 48
   market_liberal = 12
   social_conservative = 20
   authoritarian_democrat = 2

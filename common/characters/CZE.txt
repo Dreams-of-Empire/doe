@@ -67,14 +67,14 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
 			slot = head_of_government
 			idea_token = CZE_Rudolf_Beran_hog_sli
 			traits = {
-				social_liberal
+				liberal
 			}
 		}
 	}
@@ -357,7 +357,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Jan_Garrigue_Masaryk_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -703,7 +703,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Frantisek_Josef_Kinsky_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_relations_expert
 			}
 		}
@@ -1000,7 +1000,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Emil_Franke_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1292,7 +1292,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Prokop_Drtina_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}

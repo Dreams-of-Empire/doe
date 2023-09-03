@@ -1845,7 +1845,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Solidify_the_Coalition"
 			add_popularity = { ideology = collectivist popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 		}
 	}
 

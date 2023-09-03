@@ -191,7 +191,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -209,7 +209,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Ferruccio_Parri_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -237,7 +237,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Ivanoe_Bonomi_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_naive_optimist
 			}
 		}
@@ -755,7 +755,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1014,7 +1014,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Piero_Calamandrei_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_administrative_genius
 			}
 		}
@@ -1317,7 +1317,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Pietro_Mastino_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_crooked_kleptocrat
 			}
 		}
@@ -1674,7 +1674,7 @@ characters = {
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {

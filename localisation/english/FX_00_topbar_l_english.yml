@@ -17,7 +17,7 @@
  party_pop_coalition_collectivist: "- [?token:collectivist.GetTokenLocalizedKey]\n"
  party_pop_coalition_fasci: "- [?token:fasci.GetTokenLocalizedKey]\n"
  party_pop_coalition_social_democrat: "- [?token:social_democrat.GetTokenLocalizedKey]\n"
- party_pop_coalition_social_liberal: "- [?token:social_liberal.GetTokenLocalizedKey]\n"
+ party_pop_coalition_liberal: "- [?token:liberal.GetTokenLocalizedKey]\n"
  party_pop_coalition_market_liberal: "- [?token:market_liberal.GetTokenLocalizedKey]\n"
  party_pop_coalition_social_conservative: "- [?token:social_conservative.GetTokenLocalizedKey]\n"
  party_pop_coalition_authoritarian_democrat: "- [?token:authoritarian_democrat.GetTokenLocalizedKey]\n"

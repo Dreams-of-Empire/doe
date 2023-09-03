@@ -57,8 +57,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/goal_ideology_social_democrat.png"
   }
 	spriteType = {
-    name = "GFX_goal_ideology_social_liberal"
-    texturefile = "gfx/interface/goals/goal_ideology_social_liberal.png"
+    name = "GFX_goal_ideology_liberal"
+    texturefile = "gfx/interface/goals/goal_ideology_liberal.png"
   }
 	spriteType = {
     name = "GFX_goal_ideology_market_liberal"
@@ -4329,8 +4329,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/SWI_social_democrat.png"
   }
 	spriteType = {
-    name = "GFX_SWI_social_liberal"
-    texturefile = "gfx/interface/goals/SWI_social_liberal.png"
+    name = "GFX_SWI_liberal"
+    texturefile = "gfx/interface/goals/SWI_liberal.png"
   }
 	spriteType = {
     name = "GFX_SWI_social_conservative"

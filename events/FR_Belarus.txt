@@ -1444,7 +1444,7 @@ country_event = { # Second Elections
 	option = {  # People's Party
 		name = belarus.42.c
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = yes
 		}
 		increase_ruling_party_popularity_by_20 = yes
@@ -1508,7 +1508,7 @@ country_event = { # Third Elections
 	option = {  # People's Party
 		name = belarus.43.c
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = yes
 		}
 		increase_ruling_party_popularity_by_20 = yes

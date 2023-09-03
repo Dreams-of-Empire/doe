@@ -227,7 +227,7 @@ SAF = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_9.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.png"
@@ -329,7 +329,7 @@ ZAF = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_9.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.png"
@@ -431,7 +431,7 @@ ZIM = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_9.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_4.png"

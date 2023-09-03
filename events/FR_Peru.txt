@@ -130,9 +130,9 @@ country_event = { #Further Democratization (new parlamentary elections)#
 		activate_advisor = PRU_Romulo_Ferrero_eco_mli
 		activate_advisor = PRU_Manuel_Gallagher_sec_sli	
 
-		set_politics = { ruling_party = social_liberal }
+		set_politics = { ruling_party = liberal }
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.35
 		}
 		hidden_effect = {
@@ -140,7 +140,7 @@ country_event = { #Further Democratization (new parlamentary elections)#
         character = PRU_Luis_Miguel_Sanchez_Cerro
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
       }
@@ -260,7 +260,7 @@ country_event = { #suspending democracy
 			popularity = 0.025
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.025
 		}
 		add_popularity ={
@@ -292,7 +292,7 @@ country_event = { #suspending democracy
 			popularity = -0.025
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = -0.025
 		}
 		add_popularity ={

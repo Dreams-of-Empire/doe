@@ -186,12 +186,12 @@ country_event = {
             set_country_flag = GRP_DDP_VICTORY
         }
         set_politics = {
-            ruling_party = social_liberal
+            ruling_party = liberal
             elections_allowed = no
         }
 
         add_popularity = {
-            ideology = social_liberal
+            ideology = liberal
             popularity = 0.15
         }
     }

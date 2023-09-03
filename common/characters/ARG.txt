@@ -293,7 +293,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Marcelo_T_de_Alvear_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -741,7 +741,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Miguel_Angel_Zabala_Ortiz_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -1149,7 +1149,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Guillermo_Rothe_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_industrial_chemist
 			}
 		}
@@ -1565,7 +1565,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Arturo_Frondizi_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1592,7 +1592,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Enrique_Mosca_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_prince_of_terror
 			}
 		}
@@ -2223,7 +2223,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}

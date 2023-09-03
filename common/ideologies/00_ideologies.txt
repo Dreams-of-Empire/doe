@@ -156,20 +156,20 @@ ideologies = {
 
 	}
 	
-	social_liberal = {
+	liberal = {
 		types = {
-			social_liberal_subtype = {}
+			liberal_subtype = {}
 			centrist_subtype = { can_be_randomly_selected = no }
 			radical_liberalism_subtype = { can_be_randomly_selected = no }
 			venizelism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_LIBERAL_1"
-			"FACTION_NAME_SOCIAL_LIBERAL_2"
-			"FACTION_NAME_SOCIAL_LIBERAL_3"
-			"FACTION_NAME_SOCIAL_LIBERAL_4"
-			"FACTION_NAME_SOCIAL_LIBERAL_5"
-			"FACTION_NAME_SOCIAL_LIBERAL_6"
+			"FACTION_NAME_LIBERAL_1"
+			"FACTION_NAME_LIBERAL_2"
+			"FACTION_NAME_LIBERAL_3"
+			"FACTION_NAME_LIBERAL_4"
+			"FACTION_NAME_LIBERAL_5"
+			"FACTION_NAME_LIBERAL_6"
 		}
 		color = { 245 160 0 } #Originally 255 170 0. Changed the tint so it's now noticeably different from Market Liberal's colour.
 		rules = {

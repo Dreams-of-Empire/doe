@@ -797,7 +797,7 @@ country_event = { #woo poli chain
     }
     add_popularity = { 
       popularity = 0.05
-      ideology = social_liberal
+      ideology = liberal
     }
     add_popularity = { 
       popularity = 0.05
@@ -885,9 +885,9 @@ country_event = { #woo poli chain
     name = cze.97.b
     ai_chance = { factor = 20 }
     add_ideas = parliamentary_republic
-    add_popularity = { ideology = social_liberal popularity = 0.25 }
+    add_popularity = { ideology = liberal popularity = 0.25 }
     set_politics = {
-      ruling_party = social_liberal
+      ruling_party = liberal
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2336,9 +2336,9 @@ country_event = { #woo poli chain
     name = cze.220.b
     ai_chance = { factor = 15 }
     add_ideas = parliamentary_republic
-    add_popularity = { ideology = social_liberal popularity = 0.3 }
+    add_popularity = { ideology = liberal popularity = 0.3 }
     set_politics = {
-      ruling_party = social_liberal
+      ruling_party = liberal
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2403,9 +2403,9 @@ country_event = { #woo poli chain
   option = {
     name = cze.221.b
     ai_chance = { factor = 15 }
-    add_popularity = { ideology = social_liberal popularity = 0.3 }
+    add_popularity = { ideology = liberal popularity = 0.3 }
     set_politics = {
-      ruling_party = social_liberal
+      ruling_party = liberal
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2469,10 +2469,10 @@ country_event = { #woo poli chain
   option = {
     name = cze.222.b
     ai_chance = { factor = 15 }
-    add_popularity = { ideology = social_liberal popularity = 0.3 }
+    add_popularity = { ideology = liberal popularity = 0.3 }
     add_ideas = parliamentary_republic
     set_politics = {
-      ruling_party = social_liberal
+      ruling_party = liberal
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2537,10 +2537,10 @@ country_event = { #woo poli chain
   option = {
     name = cze.223.b
     ai_chance = { factor = 15 }
-    add_popularity = { ideology = social_liberal popularity = 0.5 }
+    add_popularity = { ideology = liberal popularity = 0.5 }
     add_ideas = parliamentary_republic
     set_politics = {
-      ruling_party = social_liberal
+      ruling_party = liberal
       elections_allowed = no
     }
     remove_every_minister = yes

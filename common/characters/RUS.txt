@@ -126,7 +126,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -1308,7 +1308,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Venedikt_Miakotin_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_political_protege
 			}
 		}
@@ -1794,7 +1794,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Ariadna_V_Tyrkova_Williams_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_apologetic_clerk
 			}
 		}
@@ -1821,7 +1821,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Georgiy_V_Vernadsky_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_apologetic_clerk
 			}
 		}
@@ -1848,7 +1848,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Mikhail_I_Tereshchenko_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1875,7 +1875,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Nikolai_V_Nekrasov_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_relations_expert
 			}
 		}
@@ -1902,7 +1902,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Pyotr_B_Struve_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -2280,7 +2280,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Andrei_D_Sakharov_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_bank_president
 			}
 		}
@@ -2307,7 +2307,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vadim_V_Rudnev_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_resource_industrialist
 			}
 		}
@@ -2334,7 +2334,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vladimir_P_Smirnov_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -2361,7 +2361,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Alexey_Peshekhonov_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_industrial_chemist
 			}
 		}

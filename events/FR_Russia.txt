@@ -369,7 +369,7 @@ country_event = {   #Creation of Democracy
     add_coalition_paternal_autocrat = yes 
     add_coalition_revivalist = yes 
     add_coalition_market_liberal = yes 
-    add_coalition_social_liberal = yes 
+    add_coalition_liberal = yes 
     add_coalition_social_democrat = yes 
   } 
 }
@@ -527,7 +527,7 @@ country_event = { #Elections
 		
 		hidden_effect = {
 		add_ideas = parliamentary_republic
-		set_politics = { ruling_party = social_liberal }
+		set_politics = { ruling_party = liberal }
 
     add_ideas = {
       RUS_Venedikt_Miakotin_hog_sli
@@ -535,7 +535,7 @@ country_event = { #Elections
       RUS_Alexey_Peshekhonov_eco_sli
       RUS_Grigory_Gershuni_sec_sde
     }
-		add_popularity = { ideology = social_liberal popularity = 0.1 }
+		add_popularity = { ideology = liberal popularity = 0.1 }
 		add_popularity = { ideology = market_liberal popularity = 0.1 }
 		add_popularity = { ideology = social_democrat popularity = 0.1 }
 		country_event = { id = rusur.1 days = 7 }
@@ -1092,7 +1092,7 @@ country_event = {
 			    popularity = -0.05
 		    }	
 			add_popularity = { 
-			    ideology = social_liberal 
+			    ideology = liberal 
 			    popularity = -0.05
 		    }	
 			add_popularity = { 
@@ -1156,7 +1156,7 @@ country_event = {
               name = RUS_national_maximalist
               }
           set_party_name = { 
-              ideology = social_liberal
+              ideology = liberal
               long_name = RUS_UDDF_long
               name = RUS_UDDF
               }
@@ -1330,7 +1330,7 @@ country_event = {
         character = RUS_Boris_Savinkov
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
       }
@@ -1358,12 +1358,12 @@ country_event = {
 		}
 		name = "The SZOF wins the election"
 		add_popularity = { 
-		    ideology = social_liberal 
+		    ideology = liberal 
 		    popularity = 0.3
 		}
 			add_ideas = parliamentary_republic
 			set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = no
 			last_election = "1937.6.13"
 			election_frequency = 72

@@ -12,7 +12,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -601,7 +601,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Maciej_Rataj_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_biased_intellectual
 			}
 		}
@@ -917,7 +917,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Stanisław_Mikołajczyk_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}

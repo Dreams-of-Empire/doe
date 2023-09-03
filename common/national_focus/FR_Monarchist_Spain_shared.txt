@@ -1418,7 +1418,7 @@
 				has_government = authoritarian_democrat
 				has_government = social_conservative
 				has_government = market_liberal
-				has_government = social_liberal
+				has_government = liberal
 			}
 			has_completed_focus = SPM_pick_government
 		}

@@ -274,7 +274,7 @@ ideas = {
 			picture = generic_populism_banned
 			modifier = {
 				national_populist_drift = -0.02
-				social_liberal_drift = -0.02
+				liberal_drift = -0.02
 			}
 		}
 		ARG_censuring_all = {
@@ -300,7 +300,7 @@ ideas = {
 			picture = generic_fascism_drift_2
 			modifier = {
 				national_populist_drift = 0.02
-				social_liberal_drift = 0.02
+				liberal_drift = 0.02
 			}
 		}
 
@@ -313,7 +313,7 @@ ideas = {
 			picture = generic_fascism_drift_2
 			modifier = {
 				national_populist_drift = 0.02
-				social_liberal_drift = 0.02
+				liberal_drift = 0.02
 				army_morale_factor = 0.05
 				political_power_gain = 0.03
 
@@ -485,7 +485,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			modifier = {
 				market_liberal_drift = 0.02
-				social_liberal_drift = 0.02
+				liberal_drift = 0.02
 			}
 		}
 
@@ -498,7 +498,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			modifier = {
 				market_liberal_drift = 0.02
-				social_liberal_drift = 0.02
+				liberal_drift = 0.02
 				stability_factor = 0.05
 			}
 		}
@@ -512,7 +512,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			modifier = {
 				market_liberal_drift = 0.02
-				social_liberal_drift = 0.02
+				liberal_drift = 0.02
 				stability_factor = 0.06
 				production_speed_industrial_complex_factor = 0.05
 			}

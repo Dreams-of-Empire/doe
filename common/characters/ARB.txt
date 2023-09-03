@@ -14,7 +14,7 @@ characters = {
 		}
     country_leader = {
       desc = POLITICS_ARB_ADB_AL_ILAH_DESC
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
     country_leader = {
@@ -176,7 +176,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Husain_Sirhan_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -451,7 +451,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Tahseen_Qadri_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_moderate_among_radicals
 			}
 		}

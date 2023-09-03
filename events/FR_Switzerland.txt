@@ -754,7 +754,7 @@ country_event = {
 
 	add_popularity = { ideology = social_conservative popularity = 0.01 }
 	add_popularity = { ideology = market_liberal popularity = 0.04 }
-	add_popularity = { ideology = social_liberal popularity = 0.04 }
+	add_popularity = { ideology = liberal popularity = 0.04 }
 
 	add_manpower = -10000
 
@@ -771,7 +771,7 @@ country_event = {
 
 	add_timed_idea = { idea = SWI_newfound_political_hegemony days = 90 }
 
-	add_popularity = { ideology = social_liberal popularity = 0.01 }
+	add_popularity = { ideology = liberal popularity = 0.01 }
 	add_popularity = { ideology = social_democrat popularity = 0.04 }
 	add_popularity = { ideology = fasci popularity = 0.04 }
 
@@ -1051,7 +1051,7 @@ country_event = {
 		trigger = {
 			OR = {
 				has_government = social_democrat
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 			}
@@ -1180,11 +1180,11 @@ country_event = {
 	option = {
 		name = "The SUP's numbers swell!"
     	complete_national_focus = SWI_the_seats_run_in_favor_of
-		add_popularity = { ideology = social_liberal popularity = 0.15 }
+		add_popularity = { ideology = liberal popularity = 0.15 }
 
 		hidden_effect = {
 			set_politics = {
-        		ruling_party = social_liberal
+        		ruling_party = liberal
         		elections_allowed = no
       		}
 			remove_every_minister = yes
@@ -1243,7 +1243,7 @@ country_event = {
   option = {
 		name = "What an interesting proposition."
     	complete_national_focus = SWI_SUP_member_enters_councilship
-		add_popularity = { ideology = social_liberal popularity = 0.15 }
+		add_popularity = { ideology = liberal popularity = 0.15 }
 	}
 }
 

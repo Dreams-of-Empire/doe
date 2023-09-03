@@ -537,7 +537,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Karoly_Rassay_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_naive_optimist
 			}
 		}
@@ -1393,7 +1393,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Bela_Zsedenyi_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_reformer
 			}
 		}
@@ -1798,7 +1798,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Oszkar_Jaszi_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}

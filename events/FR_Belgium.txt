@@ -129,7 +129,7 @@ country_event = { #King Albert dies
         character = BEL_Leopold_van_Belgie
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
       }
@@ -477,7 +477,7 @@ country_event = { #Communist uprising
         character = BEL_Leonie_La_Fontaine
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
       }
@@ -684,7 +684,7 @@ country_event = { #KP-LP-PP Coalition
 	option = { #LP provides PM
 		name = bel.11.a
 		ai_chance = { factor = 70 }
-		set_temp_variable = { coalition_partner_var = token:social_liberal }
+		set_temp_variable = { coalition_partner_var = token:liberal }
 		add_to_coalition = yes 
 		set_temp_variable = { coalition_partner_var = token:social_conservative }
 		add_to_coalition = yes 
@@ -694,7 +694,7 @@ country_event = { #KP-LP-PP Coalition
 		}
 		add_popularity = { ideology = market_liberal popularity = 0.4 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = social_liberal popularity = 0.05 }
+		add_popularity = { ideology = liberal popularity = 0.05 }
 		if = {
 			limit = {
 				BEL = {
@@ -742,10 +742,10 @@ country_event = { #KP-LP-PP Coalition
 		set_temp_variable = { coalition_partner_var = token:market_liberal }
 		add_to_coalition = yes  
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = no
 		}
-		add_popularity = { ideology = social_liberal popularity = 0.4 }
+		add_popularity = { ideology = liberal popularity = 0.4 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		add_popularity = { ideology = market_liberal popularity = 0.05 }
 		if = {

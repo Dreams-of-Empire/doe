@@ -119,7 +119,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Jose_Alcamora_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_democratic_tyrant
 			}
 		}
@@ -1130,7 +1130,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Manuel_Gallagher_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_prince_of_terror
 			}
 		}
@@ -1387,7 +1387,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}

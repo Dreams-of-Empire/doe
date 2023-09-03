@@ -96,7 +96,7 @@ characters = {
 			traits = { }
 		}
     country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
     country_leader = {
@@ -521,7 +521,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Erik_Scavenius_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -548,7 +548,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Peter_Munch_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_naive_optimist
 			}
 		}
@@ -567,7 +567,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Peter_Munch_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_world_patrician
 			}
 		}
@@ -983,7 +983,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Otto_Carl_Mohr_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_relations_expert
 			}
 		}
@@ -1426,7 +1426,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Bertel_Dahlgaard_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_reformer
 			}
 		}
@@ -1669,7 +1669,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Jorgen_Jorgensen_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_secret_police_chief
 			}
 		}

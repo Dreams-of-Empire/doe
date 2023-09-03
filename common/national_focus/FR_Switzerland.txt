@@ -890,7 +890,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_SUP_member_enters_councilship
-		icon = GFX_SWI_social_liberal
+		icon = GFX_SWI_liberal
     prerequisite = { focus = SWI_the_seats_run_in_favor_of }
 		x = 15
 		y = 2
@@ -943,7 +943,7 @@ focus_tree = {
 		add_popularity = { ideology = vanguardist popularity = -0.05 }
 		add_popularity = { ideology = collectivist popularity = -0.05 }
 		add_popularity = { ideology = fasci popularity = -0.05 }
-		add_popularity = { ideology = social_liberal popularity = 0.10 }
+		add_popularity = { ideology = liberal popularity = 0.10 }
 		add_popularity = { ideology = market_liberal popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
@@ -1273,7 +1273,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_bring_progressives_into_the_coalition
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
     prerequisite = { focus = SWI_bring_socialists_into_the_coalition }
 		x = 21
 		y = 5
@@ -1282,7 +1282,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_bring_progressives_into_the_coalition"
 
-		add_popularity = { ideology = social_liberal popularity = 0.03 }
+		add_popularity = { ideology = liberal popularity = 0.03 }
 		add_popularity = { ideology = market_liberal popularity = 0.03 }
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
 		add_political_power = 30

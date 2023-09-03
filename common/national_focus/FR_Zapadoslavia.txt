@@ -257,7 +257,7 @@ focus_tree = {
 		
 		completion_reward = {
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.05
 		}
 		add_offsite_building = { type = industrial_complex level = 2 }
@@ -584,10 +584,10 @@ focus_tree = {
 		completion_reward = {
 		add_political_power = 50
 		add_popularity = {
-		ideology = social_liberal
+		ideology = liberal
 		popularity = 0.2
 			}
-		set_politics = { ruling_party = social_liberal elections_allowed = no }
+		set_politics = { ruling_party = liberal elections_allowed = no }
 		}
 	
 	}
@@ -1879,7 +1879,7 @@ focus = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = social_liberal
+				ideology = liberal
 				popularity = -0.2
 			}
 		}

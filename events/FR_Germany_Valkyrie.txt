@@ -510,7 +510,7 @@ country_event = { #Accession to the throne authdem/conservativism
 			popularity = 0.15
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -565,7 +565,7 @@ country_event = { #First German election
 			popularity = 0.2
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -2005,7 +2005,7 @@ country_event = { #France gets the German demand for referundum
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		
@@ -4315,7 +4315,7 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = valkyrie.243.a # Sure
@@ -4362,7 +4362,7 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = valkyrie.243.b # No
@@ -4455,7 +4455,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = valkyrie.246.a # Sure
@@ -4502,7 +4502,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = valkyrie.246.b # No

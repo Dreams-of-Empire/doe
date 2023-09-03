@@ -1439,14 +1439,14 @@ focus_tree = {
 		y = 1
 		
 		available = {
-			has_country_flag = coalition_social_liberal
+			has_country_flag = coalition_liberal
 		}
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_stauning_munch_government_continues"
 			add_stability = 0.10
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 		}
 
 	}
@@ -1591,7 +1591,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_social_justice"
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = fasci popularity = 0.01 }
-			add_popularity = { ideology = social_liberal popularity = 0.01 }
+			add_popularity = { ideology = liberal popularity = 0.01 }
 			add_ideas = DEN_social_justice_idea
 		}
 
@@ -2606,7 +2606,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_weaken_kobenhagens_power"
 			add_stability = -0.03
 			add_popularity = { ideology = social_democrat popularity = -0.04 }
-			add_popularity = { ideology = social_liberal popularity = -0.02 }
+			add_popularity = { ideology = liberal popularity = -0.02 }
 			remove_ideas = DEN_weaken_monarchs_power_idea
 		}
 
@@ -3582,7 +3582,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DEN_encourage_thermidorianist_groups
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
 		cost = 8.00
 		prerequisite = {
 			focus = DEN_strengthen_republican_sentiments
@@ -3599,7 +3599,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			remove_ideas = DEN_trial_against_lyksborg_idea
@@ -3942,7 +3942,7 @@ focus_tree = {
 			OR = {
 				has_government = fasci
 				has_government = social_democrat
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		
@@ -3955,7 +3955,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_popularity = { ideology = fasci popularity = 0.03 }
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
-			add_popularity = { ideology = social_liberal popularity = 0.01 }
+			add_popularity = { ideology = liberal popularity = 0.01 }
 			remove_ideas = DEN_trash_capitalist_loans_idea
 			set_country_flag = DEN_economic_recovery_flag
 		}
@@ -4044,7 +4044,7 @@ focus_tree = {
 			add_stability = -0.04
 			add_political_power = -50
 			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
-			add_popularity = { ideology = social_liberal popularity = -0.02 }
+			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = market_liberal popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }

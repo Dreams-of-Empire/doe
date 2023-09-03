@@ -32,9 +32,9 @@ l_english:
   MAC_social_democrat_ADJ: "Macedonian"
   MAC_social_democrat_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
-  MAC_social_liberal: "Vasíleio Tis Makedonías"
-  MAC_social_liberal_ADJ: "Macedonian"
-  MAC_social_liberal_DEF: "To Vasíleio tou Alexándrou tou Méga"
+  MAC_liberal: "Vasíleio Tis Makedonías"
+  MAC_liberal_ADJ: "Macedonian"
+  MAC_liberal_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
   MAC_market_liberal: "Vasíleio Tis Makedonías"
   MAC_market_liberal_ADJ: "Macedonian"

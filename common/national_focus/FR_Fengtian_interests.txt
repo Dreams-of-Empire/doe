@@ -124,7 +124,7 @@ focus_tree = {
 
 		focus = {
 			id = MAN_the_republican_party_removes_concordia_supporters
-			icon = GFX_goal_ideology_social_liberal
+			icon = GFX_goal_ideology_liberal
 			prerequisite = { focus = MAN_the_first_fengtian_elections }
 			mutually_exclusive = { focus = MAN_concordia_association_controls_the_senate }
 			mutually_exclusive = { focus = MAN_communications_control_the_senate }

@@ -63,7 +63,7 @@ AFG = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
@@ -193,7 +193,7 @@ BHU = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_5.png"
@@ -315,7 +315,7 @@ NEP = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_5.png"
@@ -437,7 +437,7 @@ SIR = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_5.png"
@@ -559,7 +559,7 @@ SHN = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_5.png"
@@ -681,7 +681,7 @@ MNS = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Asia_Generic_new_5.png"

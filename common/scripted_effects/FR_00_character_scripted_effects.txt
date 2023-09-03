@@ -6,7 +6,7 @@ remove_all_country_leader_roles = {
 	remove_country_leader_role_collectivist = yes
 	remove_country_leader_role_fasci = yes
 	remove_country_leader_role_social_democrat = yes
-	remove_country_leader_role_social_liberal = yes
+	remove_country_leader_role_liberal = yes
 	remove_country_leader_role_market_liberal = yes
 	remove_country_leader_role_social_conservative = yes
 	remove_country_leader_role_authoritarian_democrat = yes
@@ -127,13 +127,13 @@ remove_country_leader_role_social_democrat = {
 	}
 }
 
-remove_country_leader_role_social_liberal = {
+remove_country_leader_role_liberal = {
 	if = {
-		limit = { has_ideology_group = social_liberal }
+		limit = { has_ideology_group = liberal }
 		
 		if = {
-			limit = { has_ideology = social_liberal_subtype }
-			remove_country_leader_role = { ideology = social_liberal_subtype }
+			limit = { has_ideology = liberal_subtype }
+			remove_country_leader_role = { ideology = liberal_subtype }
 		}
 		else_if = {
 			limit = { has_ideology = centrist_subtype }

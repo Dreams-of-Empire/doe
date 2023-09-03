@@ -231,11 +231,11 @@ country_event = { #1936 election
 			set_country_flag = fra_radical_win_election
 		}
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = yes
 		}
 		add_popularity = {
-    		ideology = social_liberal
+    		ideology = liberal
     		popularity = -0.07
 		}
 		remove_every_minister = yes
@@ -280,7 +280,7 @@ country_event = { #1936 election
 	#	set_politics = {
 	#		ruling_party = market_liberal
 	#	}
-	#	add_coalition_social_liberal = yes 
+	#	add_coalition_liberal = yes 
 	#	set_country_flag = fra_triple_win_flag
 	#	trigger = {
 	#		original_tag = FRA
@@ -884,7 +884,7 @@ country_event = {
 	option = {
 		name = fra.23.b
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 		}
 		remove_every_minister = yes
 		add_ideas = {
@@ -3549,11 +3549,11 @@ country_event = { #1940 election
 			set_country_flag = fra_1940_elections
 		}
 		set_politics = {
-			ruling_party = social_liberal
+			ruling_party = liberal
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.05
 		}
 		remove_every_minister = yes

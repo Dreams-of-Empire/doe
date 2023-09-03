@@ -1926,7 +1926,7 @@ focus_tree = {
 	# People's Labour Party
 	focus = {
 		id = UKR_peoples_labour_party
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
 		x = 0
 		y = 1
 		cost = 6
@@ -2402,7 +2402,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = fasci
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		prerequisite = {
@@ -2428,7 +2428,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = fasci
-				has_government = social_liberal
+				has_government = liberal
 			}
 			OR = {
 				owns_state = 259
@@ -2469,7 +2469,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_peoples_labour_party }
 		relative_position_id = UKR_peoples_labour_party
@@ -2489,7 +2489,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_state_taxation_reforms }
 		relative_position_id = UKR_state_taxation_reforms
@@ -2497,7 +2497,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_political_power = 100
 			add_popularity = {
-				ideology = social_liberal
+				ideology = liberal
 				popularity = 0.05
 			}
 		}
@@ -2513,7 +2513,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				UKR_hetmanists_statemen_in_power = yes
 			}
 		}
@@ -2539,7 +2539,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				UKR_hetmanists_statemen_in_power = yes
 			}
 		}
@@ -2563,7 +2563,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_safeguard_press_freedoms }
 		prerequisite = { focus = UKR_develop_the_rural_regions }
@@ -2583,7 +2583,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_free_economy }
 		relative_position_id = UKR_free_economy
@@ -2603,7 +2603,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_bastion_of_eastern_european_democracy }
 		relative_position_id = UKR_bastion_of_eastern_european_democracy
@@ -2668,7 +2668,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_heavy_handed_development }
 		relative_position_id = UKR_heavy_handed_development
@@ -2694,7 +2694,7 @@ focus_tree = {
 		y = 2
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_heavy_handed_development }
 		relative_position_id = UKR_heavy_handed_development
@@ -2732,7 +2732,7 @@ focus_tree = {
 		y = 2
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_farming_grants }
 		prerequisite = { focus = UKR_garner_private_capital }
@@ -2751,7 +2751,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_bastion_of_eastern_european_democracy }
 		relative_position_id = UKR_bastion_of_eastern_european_democracy
@@ -2769,7 +2769,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_flexibilise_work_laws }
 		relative_position_id = UKR_flexibilise_work_laws
@@ -2788,7 +2788,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_flexibilise_work_laws }
 		relative_position_id = UKR_flexibilise_work_laws
@@ -2809,7 +2809,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_support_the_unions }
 		prerequisite = { focus = UKR_guarantee_religious_freedoms }
@@ -2828,7 +2828,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_bastion_of_eastern_european_democracy }
 		relative_position_id = UKR_bastion_of_eastern_european_democracy
@@ -2846,7 +2846,7 @@ focus_tree = {
 		y = 2
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_reignite_ukrainian_nationalism }
 		relative_position_id = UKR_reignite_ukrainian_nationalism
@@ -2864,7 +2864,7 @@ focus_tree = {
 		y = 1
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_reignite_ukrainian_nationalism }
 		relative_position_id = UKR_reignite_ukrainian_nationalism
@@ -2882,7 +2882,7 @@ focus_tree = {
 		y = 2
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_protection_for_minorities }
 		prerequisite = { focus = UKR_promote_the_ukrainian_language }
@@ -2902,7 +2902,7 @@ focus_tree = {
 		y = 2
 		cost = 6
 		available = {
-			has_government = social_liberal
+			has_government = liberal
 		}
 		prerequisite = { focus = UKR_bank_of_ukraine }
 		prerequisite = { focus = UKR_judicial_reforms }
@@ -3996,7 +3996,7 @@ focus_tree = {
 		relative_position_id = UKR_cement_our_control
 		completion_reward = {
 			add_popularity = {
-				ideology = social_liberal
+				ideology = liberal
 				popularity = -0.05
 			}
 			add_popularity = {

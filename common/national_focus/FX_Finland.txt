@@ -497,7 +497,7 @@ focus_tree = {
 			OR = {
 				has_government = fasci
 				has_government = social_democrat
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
@@ -1722,7 +1722,7 @@ focus_tree = {
 			}
 			has_completed_focus = FIN_leviate_indebted_farmers
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 			}
@@ -3001,7 +3001,7 @@ focus_tree = {
 			has_country_flag = FIN_punainen_maapera_flag
 			OR = {
 				has_government = social_democrat
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		
@@ -3014,7 +3014,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_political_power = 25
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
-			add_popularity = { ideology = social_liberal popularity = 0.01 }
+			add_popularity = { ideology = liberal popularity = 0.01 }
 		}
 
 	}
@@ -3095,7 +3095,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
-			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_popularity = { ideology = market_liberal popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 		}
@@ -3259,7 +3259,7 @@ focus_tree = {
 		
 		available = {
 			has_country_flag = FIN_punainen_maapera_flag
-			has_government = social_liberal
+			has_government = liberal
 			controls_state = 148
 		}
 		
@@ -3269,7 +3269,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_rural_investments"
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			148 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -3386,7 +3386,7 @@ focus_tree = {
 		available = {
 			has_country_flag = FIN_porvaristo_ja_viljelijat_flag
 			OR = {
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 			}
@@ -3400,7 +3400,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_porvaristo_ja_viljelijat"
 			add_stability = 0.03
 			add_political_power = 25
-			add_popularity = { ideology = social_liberal popularity = 0.01 }
+			add_popularity = { ideology = liberal popularity = 0.01 }
 			add_popularity = { ideology = market_liberal popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 		}
@@ -3486,7 +3486,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_reimplement_agrarian_subsidies"
-			add_popularity = { ideology = social_liberal popularity = 0.01 }
+			add_popularity = { ideology = liberal popularity = 0.01 }
 			add_ideas = FIN_reimplement_agrarian_subsidies_idea
 		}
 
@@ -3573,7 +3573,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_war_support = 0.02
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
-			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_popularity = { ideology = market_liberal popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 		}
@@ -3611,7 +3611,7 @@ focus_tree = {
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
-			add_popularity = { ideology = social_liberal popularity = -0.02 }
+			add_popularity = { ideology = liberal popularity = -0.02 }
 			set_party_name = { 
 				ideology = authoritarian_democrat 
 				long_name = FIN_strong_president_party_long 
@@ -3623,7 +3623,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_democratic_values
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
 		cost = 8.00
 		prerequisite = {
 			focus = FIN_stenghten_parliament
@@ -3645,7 +3645,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
-			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_popularity = { ideology = market_liberal popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 		}
@@ -3700,7 +3700,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_gain_church_support"
 			add_stability = 0.05
-			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
@@ -4182,7 +4182,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
-			add_popularity = { ideology = social_liberal popularity = -0.03 }
+			add_popularity = { ideology = liberal popularity = -0.03 }
 			add_popularity = { ideology = market_liberal popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 		}
@@ -4495,7 +4495,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_crack_down_bourgeois_establishment"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = social_liberal popularity = -0.04 }
+			add_popularity = { ideology = liberal popularity = -0.04 }
 			add_popularity = { ideology = market_liberal popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.04 }
 		}

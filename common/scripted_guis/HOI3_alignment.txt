@@ -83,7 +83,7 @@ scripted_gui = {
 					}
 					add_to_temp_variable = {
 						var = democratic_Y
-						value = party_popularity@social_liberal
+						value = party_popularity@liberal
 					}
 					add_to_temp_variable = {
 						var = democratic_Y
@@ -143,7 +143,7 @@ scripted_gui = {
 						is_faction_leader = yes
 						OR = {
 							has_government = social_democrat
-							has_government = social_liberal
+							has_government = liberal
 							has_government = market_liberal
 							has_government = social_conservative
 						}

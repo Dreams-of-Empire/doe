@@ -221,7 +221,7 @@ country_event = { # Germany wants to renegotiate Navy
 			}
 			modifier = {
 				factor = 0.25
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = "Being on good terms with Germany could be beneficial"
@@ -268,7 +268,7 @@ country_event = { # Germany wants to renegotiate Navy
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = "We can't risk any threat to the Royal Navy"
@@ -446,7 +446,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = "This agreement would benefit us"
@@ -505,7 +505,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = "We can't support Dressler's war mongering"
@@ -560,7 +560,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		trigger = {
@@ -629,7 +629,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = "We can't support Dressler's war mongering"
@@ -1179,7 +1179,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = "We must push back the Polish slavers"
@@ -1233,7 +1233,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = "We must not overreact to rumors"
@@ -1533,7 +1533,7 @@ country_event = { # German alliance - Poland
 			}
 			modifier = {
 				factor = 0.5
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = "German and Polish arms will keep Europe safe"
@@ -1578,7 +1578,7 @@ country_event = { # German alliance - Poland
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = "Both Germany and the Russians are the mortal enemy of Poland"
@@ -7984,7 +7984,7 @@ country_event = { # Slovakia - German alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = ger.224.a # Sure
@@ -8031,7 +8031,7 @@ country_event = { # Slovakia - German alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = ger.224.b # No
@@ -8655,7 +8655,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = ger.246.a # Sure
@@ -8702,7 +8702,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = ger.246.b # No
@@ -9394,7 +9394,7 @@ country_event = { # Finland - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = ger.257.a # Sure
@@ -9441,7 +9441,7 @@ country_event = { # Finland - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = ger.257.b # No
@@ -9527,7 +9527,7 @@ country_event = { # Turkey - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = ger.260.a # Sure
@@ -9606,7 +9606,7 @@ country_event = { # Turkey - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = ger.260.b # No
@@ -9793,7 +9793,7 @@ country_event = { # Lithuania - German support?
 			}
 			modifier = {
 				factor = 0.25
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		GER = {
@@ -9838,7 +9838,7 @@ country_event = { # Lithuania - German support?
 			}
 			modifier = {
 				factor = 4
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		name = ger.266.b

@@ -1074,9 +1074,9 @@ operation_coup_government = { ### 7 1/70
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = social_liberal }
+					PREV.ROOT = { has_government = liberal }
 				}
-				social_liberal > 0.2
+				liberal > 0.2
 			}
 			if = {
 				limit = {

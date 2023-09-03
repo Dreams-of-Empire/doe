@@ -209,7 +209,7 @@ country_event = {
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -949,14 +949,14 @@ country_event = {
 			}
 			add_ideas = parliamentary_republic
 			remove_ideas = POL_advisors_council
-			set_politics = { ruling_party = social_liberal elections_allowed = no }
+			set_politics = { ruling_party = liberal elections_allowed = no }
 			hidden_effect = {
         POL_Franciszek_I_Radziwiłł = {
           remove_country_leader_role = {
             ideology = social_democrat_subtype
           }
           remove_country_leader_role = {
-            ideology = social_liberal_subtype
+            ideology = liberal_subtype
           }
           remove_country_leader_role = {
             ideology = market_liberal_subtype
@@ -973,7 +973,7 @@ country_event = {
         character = POL_Wincenty_Witos
         promote_leader = yes
         country_leader = {
-          ideology = social_liberal_subtype
+          ideology = liberal_subtype
           traits = {}
         }
       }
@@ -1148,7 +1148,7 @@ country_event = {
         ideology = social_democrat_subtype
       }
       remove_country_leader_role = {
-        ideology = social_liberal_subtype
+        ideology = liberal_subtype
       }
       remove_country_leader_role = {
         ideology = market_liberal_subtype
@@ -1176,7 +1176,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = social_liberal_subtype
+					ideology = liberal_subtype
 					traits = { }
 				}
 			}
@@ -1254,17 +1254,17 @@ country_event = {
 			popularity = -0.2
 			}
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.15
 			}
 			
 		add_ideas = parliamentary_republic
-		set_politics = { ruling_party = social_liberal elections_allowed = no }
+		set_politics = { ruling_party = liberal elections_allowed = no }
 		create_country_leader = {
 			name = "Wincenty Witos"
 			picture = "Portrait_Poland_Wincenty_Witos.png"
 			expire = "1970.1.1"
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = {}
 		}
 		hidden_effect = { set_cosmetic_tag = POL_REP }
@@ -1578,7 +1578,7 @@ country_event = {
 			
 		hidden_effect = {
 			add_popularity = {
-				ideology = social_liberal
+				ideology = liberal
 				popularity = 0.1
 			}
 			add_popularity = {
@@ -1608,7 +1608,7 @@ country_event = {
 		
 		set_country_flag = POL_bypass_the_elections_republic_noND
 		add_popularity = {
-			ideology = social_liberal
+			ideology = liberal
 			popularity = 0.1
 		}
 	}

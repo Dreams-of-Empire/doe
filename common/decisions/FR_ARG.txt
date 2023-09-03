@@ -275,7 +275,7 @@ SAM_SCW_matters = {
  	 		has_equipment = { infantry_equipment > 1000 } 
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -296,7 +296,7 @@ SAM_SCW_matters = {
  			}
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -446,7 +446,7 @@ SAM_SCW_matters = {
 			}
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -467,7 +467,7 @@ SAM_SCW_matters = {
  			}
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -628,7 +628,7 @@ SAM_SCW_matters = {
  	 		has_manpower > 4999
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -649,7 +649,7 @@ SAM_SCW_matters = {
  			}
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -815,7 +815,7 @@ SAM_BCW_matters = {
  	 		has_equipment = { infantry_equipment > 1000 } 
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -832,7 +832,7 @@ SAM_BCW_matters = {
 				}
  			} 	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -967,7 +967,7 @@ SAM_BCW_matters = {
 			}
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -985,7 +985,7 @@ SAM_BCW_matters = {
  			}
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -1131,7 +1131,7 @@ SAM_BCW_matters = {
  	 		has_manpower > 4999
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat
@@ -1149,7 +1149,7 @@ SAM_BCW_matters = {
  			}
  	 		OR = {
  	 			has_government = social_democrat
- 	 			has_government = social_liberal
+ 	 			has_government = liberal
  	 			has_government = market_liberal
  	 			has_government = social_conservative
  	 			has_government = authoritarian_democrat

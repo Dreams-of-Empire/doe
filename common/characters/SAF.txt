@@ -627,7 +627,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Alan_Paton_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -655,7 +655,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Jan_Hendrik_Hofmeyr_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_construction_magnate
 			}
 		}
@@ -1218,7 +1218,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {

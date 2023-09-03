@@ -70,10 +70,10 @@ country_event = { # Disunity in the Pink-Orange Coalition
       }
     }
     custom_effect_tooltip = end_the_pink_orange_coalition_tt
-    clr_country_flag = coalition_social_liberal
+    clr_country_flag = coalition_liberal
 
     add_popularity = {
-      ideology = social_liberal
+      ideology = liberal
       popularity = 0.03
     }
   }
@@ -375,7 +375,7 @@ country_event = { # 1936 Elections
       }
     }
     set_politics = {
-      ruling_party = social_liberal
+      ruling_party = liberal
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -1751,7 +1751,7 @@ country_event = { # 1946 Elections
       }
     }
     set_politics = {
-      ruling_party = social_liberal
+      ruling_party = liberal
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -1927,7 +1927,7 @@ country_event = { # 1951 Elections
       }
     }
     set_politics = {
-      ruling_party = social_liberal
+      ruling_party = liberal
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes

@@ -2334,7 +2334,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Indian_System"
-			add_popularity = { ideology = social_liberal popularity = 0.1 }
+			add_popularity = { ideology = liberal popularity = 0.1 }
 		}
 	}
 

@@ -112,8 +112,8 @@ copy_government_of_ROOT = {
 		set_politics = { ruling_party = social_democrat elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = social_liberal } }
-		set_politics = { ruling_party = social_liberal elections_allowed = no }
+		limit = { ROOT = { has_government = liberal } }
+		set_politics = { ruling_party = liberal elections_allowed = no }
 	}
 	if = {
 		limit = { ROOT = { has_government = market_liberal } }
@@ -288,7 +288,7 @@ get_current_government_type = {
 	clr_country_flag = was_collectivist
 	clr_country_flag = was_vanguardist
 	clr_country_flag = was_social_democrat
-	clr_country_flag = was_social_liberal
+	clr_country_flag = was_liberal
 	clr_country_flag = was_market_liberal
 	clr_country_flag = was_social_conservative
 	clr_country_flag = was_authoritarian_democrat
@@ -300,7 +300,7 @@ get_current_government_type = {
 	set_variable = { var = collie value = party_popularity@collectivist }
 	set_variable = { var = vang value = party_popularity@vanguardist }
 	set_variable = { var = socdem value = party_popularity@social_democrat }
-	set_variable = { var = soclib value = party_popularity@social_liberal }
+	set_variable = { var = soclib value = party_popularity@liberal }
 	set_variable = { var = marklib value = party_popularity@market_liberal }
 	set_variable = { var = soccon value = party_popularity@social_conservative }
 	set_variable = { var = authdem value = party_popularity@authoritarian_democrat }
@@ -325,8 +325,8 @@ get_current_government_type = {
 		set_country_flag = was_social_democrat
 	}
 	if = {
-		limit = { has_government = social_liberal }
-		set_country_flag = was_social_liberal
+		limit = { has_government = liberal }
+		set_country_flag = was_liberal
 	}
 	if = {
 		limit = { has_government = market_liberal }
@@ -373,8 +373,8 @@ restore_previous_government_type = {
 			set_politics = { ruling_party = social_democrat }
 		}
 		if = {
-			limit = { has_country_flag = was_social_liberal }
-			set_politics = { ruling_party = social_liberal }
+			limit = { has_country_flag = was_liberal }
+			set_politics = { ruling_party = liberal }
 		}
 		if = {
 			limit = { has_country_flag = was_market_liberal }
@@ -408,8 +408,8 @@ restore_previous_government_type = {
 		add_popularity = { ideology = vanguardist popularity = vang }
 		add_popularity = { ideology = social_democrat popularity = -1.0 }
 		add_popularity = { ideology = social_democrat popularity = socdem }
-		add_popularity = { ideology = social_liberal popularity = -1.0 }
-		add_popularity = { ideology = social_liberal popularity = soclib }
+		add_popularity = { ideology = liberal popularity = -1.0 }
+		add_popularity = { ideology = liberal popularity = soclib }
 		add_popularity = { ideology = market_liberal popularity = -1.0 }
 		add_popularity = { ideology = market_liberal popularity = marklib }
 		add_popularity = { ideology = social_conservative popularity = -1.0 }
@@ -617,7 +617,7 @@ copy_popularities_of_ROOT = {
 			collectivist = ROOT.party_popularity_100@collectivist
 			fasci = ROOT.party_popularity_100@fasci
 			social_democrat = ROOT.party_popularity_100@social_democrat
-			social_liberal = ROOT.party_popularity_100@social_liberal
+			liberal = ROOT.party_popularity_100@liberal
 			market_liberal = ROOT.party_popularity_100@market_liberal
 			social_conservative = ROOT.party_popularity_100@social_conservative
 			authoritarian_democrat = ROOT.party_popularity_100@authoritarian_democrat

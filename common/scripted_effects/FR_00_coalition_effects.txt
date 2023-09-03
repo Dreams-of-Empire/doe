@@ -184,7 +184,7 @@ save_current_party_popularities = {
 	add_to_temp_array = { saved_popularities = party_popularity_100@collectivist }
 	add_to_temp_array = { saved_popularities = party_popularity_100@fasci }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_democrat }
-	add_to_temp_array = { saved_popularities = party_popularity_100@social_liberal }
+	add_to_temp_array = { saved_popularities = party_popularity_100@liberal }
 	add_to_temp_array = { saved_popularities = party_popularity_100@market_liberal }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_conservative }
 	add_to_temp_array = { saved_popularities = party_popularity_100@authoritarian_democrat }
@@ -254,12 +254,12 @@ set_coalition_government_popularity = {
 	if = {
 		limit = {
 			NOT = {
-				has_government = social_liberal
-				check_variable = { political_power_ideology = token:social_liberal }
+				has_government = liberal
+				check_variable = { political_power_ideology = token:liberal }
 			}
-			is_in_array = { ROOT.coalition_partners = token:social_liberal }
+			is_in_array = { ROOT.coalition_partners = token:liberal }
 		}
-		set_temp_variable = { coali_sol = THIS.party_popularity@social_liberal }
+		set_temp_variable = { coali_sol = THIS.party_popularity@liberal }
 		add_to_variable = { coalition_ruling_combined_pop = coali_sol  }
 	}
 	if = {
@@ -345,8 +345,8 @@ add_coalition_social_democrat = {
 	set_temp_variable = { coalition_partner_var = token:social_democrat }
 	add_to_coalition = yes 
 }
-add_coalition_social_liberal = {
-	set_temp_variable = { coalition_partner_var = token:social_liberal }
+add_coalition_liberal = {
+	set_temp_variable = { coalition_partner_var = token:liberal }
 	add_to_coalition = yes 
 }
 add_coalition_social_conservative = {
@@ -390,8 +390,8 @@ remove_coalition_social_democrat = {
 	set_temp_variable = { coalition_partner_var = token:social_democrat }
 	remove_from_coalition = yes 
 }
-remove_coalition_social_liberal = {
-	set_temp_variable = { coalition_partner_var = token:social_liberal }
+remove_coalition_liberal = {
+	set_temp_variable = { coalition_partner_var = token:liberal }
 	remove_from_coalition = yes 
 }
 remove_coalition_social_conservative = {

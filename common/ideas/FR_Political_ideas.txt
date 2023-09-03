@@ -86,15 +86,15 @@ ideas = {
 			}
 		}
 
-		social_liberal_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea social_liberal_influence"}
+		liberal_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea liberal_influence"}
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = social_liberal
+				has_government = liberal
 			}
 
 			removal_cost = -1
@@ -102,8 +102,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				social_liberal_drift = 0.1
-				social_liberal_acceptance = 85
+				liberal_drift = 0.1
+				liberal_acceptance = 85
 			}
 		}
 

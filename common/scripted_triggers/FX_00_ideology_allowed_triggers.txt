@@ -22,7 +22,7 @@ fasci_allowed = {
 		has_government = collectivist
 		has_government = fasci
 		has_government = social_democrat
-		has_government = social_liberal
+		has_government = liberal
 	}
 }
 
@@ -31,18 +31,18 @@ social_democrat_allowed = {
 		has_government = collectivist
 		has_government = fasci
 		has_government = social_democrat
-		has_government = social_liberal
+		has_government = liberal
 		has_government = market_liberal
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 	}
 }
 
-social_liberal_allowed = {
+liberal_allowed = {
 	OR = {
 		has_government = fasci
 		has_government = social_democrat
-		has_government = social_liberal
+		has_government = liberal
 		has_government = market_liberal
 		has_government = social_conservative
 		has_government = authoritarian_democrat
@@ -53,7 +53,7 @@ social_liberal_allowed = {
 market_liberal_allowed = {
 	OR = {
 		has_government = social_democrat
-		has_government = social_liberal
+		has_government = liberal
 		has_government = market_liberal
 		has_government = social_conservative
 		has_government = authoritarian_democrat
@@ -64,7 +64,7 @@ market_liberal_allowed = {
 social_conservative_allowed = {
 	OR = {
 		has_government = social_democrat
-		has_government = social_liberal
+		has_government = liberal
 		has_government = market_liberal
 		has_government = social_conservative
 		has_government = authoritarian_democrat

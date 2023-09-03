@@ -76,7 +76,7 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -87,7 +87,7 @@ set_popularities = {
   collectivist = 3
   fasci = 0
   social_democrat = 3
-  social_liberal = 42
+  liberal = 42
   market_liberal = 1
   social_conservative = 12
   authoritarian_democrat = 22

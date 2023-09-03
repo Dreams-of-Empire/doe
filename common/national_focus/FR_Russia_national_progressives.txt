@@ -205,7 +205,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = social_liberal_subtype
+              ideology = liberal_subtype
               traits = {}
             }
           }
@@ -406,7 +406,7 @@ focus_tree = {
 		        popularity = -0.1
 		}
 			add_popularity = { 
-		        ideology = social_liberal 
+		        ideology = liberal 
 		        popularity = -0.1
 			}
 		}

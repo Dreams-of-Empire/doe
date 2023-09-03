@@ -1067,7 +1067,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_democrat
-				has_government = social_liberal
+				has_government = liberal
 				has_government = market_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
@@ -1133,7 +1133,7 @@ focus_tree = {
 				has_government = collectivist
 				has_government = fasci
 				has_government = social_democrat
-				has_government = social_liberal
+				has_government = liberal
 			}
 		}
 		
@@ -2429,7 +2429,7 @@ focus_tree = {
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_political_power = -40
 			add_manpower = -2000
 		}
@@ -2700,7 +2700,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_venstre_victory
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_ideology_liberal
 		cost = 5.00
 		prerequisite = {
 			focus = NOR_1936_election
@@ -2718,7 +2718,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_venstre_victory"
-			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_political_power = 30
 		}
 
@@ -2742,7 +2742,7 @@ focus_tree = {
 			add_political_power = 20
 			add_popularity = { ideology = fasci popularity = 0.01 }
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 		}
 
 	}
@@ -2809,7 +2809,7 @@ focus_tree = {
 			add_stability = 0.04
 			add_popularity = { ideology = fasci popularity = 0.01 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
-			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 		}
 
@@ -2962,7 +2962,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_right_wing_cooperation"
 			add_political_power = -75
-			add_popularity = { ideology = social_liberal popularity = 0.03 }
+			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_popularity = { ideology = market_liberal popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			custom_effect_tooltip  = NOR_right_wing_cooperation_tooltip
@@ -2971,7 +2971,7 @@ focus_tree = {
 				set_country_flag = coalition_social_conservative
 				if = {
 					limit = {
-						has_government = social_liberal
+						has_government = liberal
 					}
 					set_country_flag = coalition_market_liberal
 					remove_ideas_with_trait = foreign_minister
@@ -2980,7 +2980,7 @@ focus_tree = {
 					activate_advisor = NOR_Jon_Sundby_eco_sco
 				}
 				else = {
-					set_country_flag = coalition_social_liberal
+					set_country_flag = coalition_liberal
 					remove_ideas_with_trait = foreign_minister
 					activate_advisor = NOR_Johan_Ludwig_Mowinckel_hog_sli
 				}
@@ -3503,7 +3503,7 @@ focus_tree = {
 			add_political_power = -15
 			add_stability = 0.01
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
@@ -3554,7 +3554,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_reestablish_parliament"
 			add_political_power = 40
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
-			add_popularity = { ideology = social_liberal popularity = 0.02 }
+			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
@@ -3781,7 +3781,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_gain_support_lower_christianity"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = social_liberal popularity = 0.01 }
+			add_popularity = { ideology = liberal popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_ideas = NOR_gain_support_lower_christianity_idea
 		}
@@ -3937,7 +3937,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = -0.02 }
 			add_popularity = { ideology = fasci popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
-			add_popularity = { ideology = social_liberal popularity = -0.01 }
+			add_popularity = { ideology = liberal popularity = -0.01 }
 		}
 
 	}
@@ -4734,7 +4734,7 @@ focus_tree = {
 				remove_ideas = NOR_anti_socialist_protests_idea2
 			}
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
-			add_popularity = { ideology = social_liberal popularity = -0.04 }
+			add_popularity = { ideology = liberal popularity = -0.04 }
 			add_popularity = { ideology = market_liberal popularity = -0.04 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_stability = 0.03
@@ -4962,7 +4962,7 @@ focus_tree = {
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			add_popularity = { ideology = market_liberal popularity = -0.03 }
-			add_popularity = { ideology = social_liberal popularity = -0.03 }
+			add_popularity = { ideology = liberal popularity = -0.03 }
 			add_political_power = -60
 			add_manpower = -3500
 		}

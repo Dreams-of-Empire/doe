@@ -279,7 +279,7 @@ NFA = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -407,7 +407,7 @@ NFQ = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -539,7 +539,7 @@ ETH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -671,7 +671,7 @@ IVO = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -803,7 +803,7 @@ DAH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -935,7 +935,7 @@ TOG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -1067,7 +1067,7 @@ VOL = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -1199,7 +1199,7 @@ COG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"

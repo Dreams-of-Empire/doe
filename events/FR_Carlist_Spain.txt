@@ -96,7 +96,7 @@ country_event = {
 		add_political_power = 40
 		hidden_effect = {
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
-			add_popularity = { ideology = social_liberal popularity = 0.05 }
+			add_popularity = { ideology = liberal popularity = 0.05 }
 			add_popularity = { ideology = market_liberal popularity = 0.04 }
 		}
 	}
@@ -851,7 +851,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = social_liberal_subtype
+						ideology = liberal_subtype
 						traits = {}
 					}
 				}
@@ -917,7 +917,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = social_liberal_subtype
+						ideology = liberal_subtype
 						traits = {}
 					}
 				}

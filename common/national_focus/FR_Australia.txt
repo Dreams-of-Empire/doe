@@ -2582,8 +2582,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_work_with_anti_socialist_labor"
 			add_popularity = { ideology = social_democrat popularity = 0.05 }
-			add_popularity = { ideology = social_liberal popularity = 0.05 }
-			hidden_effect = { add_coalition_social_liberal = yes }
+			add_popularity = { ideology = liberal popularity = 0.05 }
+			hidden_effect = { add_coalition_liberal = yes }
 			custom_effect_tooltip = AST_work_with_anti_socialist_labor_tt
 			activate_advisor = AST_Jack_Lang_for_sli
 			custom_effect_tooltip = separator_tt
@@ -3831,7 +3831,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_purge_monarchist_parties"
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
-			add_popularity = { ideology = social_liberal popularity = -0.03 }
+			add_popularity = { ideology = liberal popularity = -0.03 }
 			add_popularity = { ideology = market_liberal popularity = -0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.07 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.1 }

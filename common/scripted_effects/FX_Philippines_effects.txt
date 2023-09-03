@@ -642,7 +642,7 @@ PHI_create_albert_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = social_liberal_subtype
+        ideology = liberal_subtype
         traits = { }
       }
     }
@@ -725,7 +725,7 @@ PHI_create_henry_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = social_liberal_subtype
+        ideology = liberal_subtype
         traits = { }
       }
     }
@@ -808,7 +808,7 @@ PHI_create_george_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = social_liberal_subtype
+        ideology = liberal_subtype
         traits = { }
       }
     }
@@ -909,12 +909,12 @@ PHI_remove_governor_general = {
   }
   PHI_Elpidio_Quirino = {
     if = {
-      limit = { has_ideology = social_liberal_subtype }
-      promote_character = { ideology = social_liberal_subtype }
+      limit = { has_ideology = liberal_subtype }
+      promote_character = { ideology = liberal_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = social_liberal_subtype }
+        country_leader = { ideology = liberal_subtype }
         promote_leader = yes
       }
     }
