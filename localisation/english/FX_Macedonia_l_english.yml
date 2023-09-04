@@ -4,9 +4,9 @@ l_english:
   MAC_paternal_ADJ: "Macedonian"
   MAC_paternal_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
-  MAC_paternal_autocrat: "Vasíleio Tis Makedonías"
-  MAC_paternal_autocrat_ADJ: "Macedonian"
-  MAC_paternal_autocrat_DEF: "To Vasíleio tou Alexándrou tou Méga"
+  MAC_futurist: "Vasíleio Tis Makedonías"
+  MAC_futurist_ADJ: "Macedonian"
+  MAC_futurist_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
   MAC_despotist: "Vasíleio Tis Makedonías"
   MAC_despotist_ADJ: "Macedonian"

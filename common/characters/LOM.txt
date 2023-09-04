@@ -31,7 +31,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 	}

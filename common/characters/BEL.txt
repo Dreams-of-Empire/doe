@@ -27,7 +27,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -648,7 +648,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Joris_Van_Severen_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_happy_amateur
 			}
 		}
@@ -891,7 +891,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Ward_Hermans_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_general_staffer
 			}
 		}
@@ -1296,7 +1296,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Rene_Lambrichts_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_resource_industrialist
 			}
 		}
@@ -1620,7 +1620,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Emiel_Thiers_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_health_and_safety
 			}
 		}

@@ -795,7 +795,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Konstantin_Batolov_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_biased_intellectual
 			}
 		}
@@ -1011,7 +1011,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Petur_Todorov_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_trade_proponent
 			}
 		}
@@ -1227,7 +1227,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Damyan_Velchev_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_compassionate_gentleman
 			}
 		}

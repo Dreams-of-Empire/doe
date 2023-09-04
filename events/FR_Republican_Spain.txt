@@ -101,7 +101,7 @@ country_event = {
 		add_political_power = 15
 		hidden_effect = {
 			add_popularity = { ideology = paternal popularity = 0.04 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 			add_stability = -0.05
 			169 = {
 				add_resistance = 20
@@ -128,7 +128,7 @@ country_event = {
 		name = repspain.4.a
 		add_political_power = 15
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = 0.04 }
+			add_popularity = { ideology = futurist popularity = 0.04 }
 			add_popularity = { ideology = despotist popularity = 0.03 }
 			add_stability = -0.05
 			171 = {
@@ -870,7 +870,7 @@ country_event = {
 		add_ideas = SPR_deal_with_religious_education_idea
 		add_stability = -0.04
 		add_political_power = 10
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		add_popularity = { ideology = paternal popularity = -0.02 }
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
 	}

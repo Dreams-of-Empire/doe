@@ -97,7 +97,7 @@ country_event = { #Chaos in the Country
 			popularity = 0.4
 		}
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.2
 		}
 		add_popularity = {
@@ -166,7 +166,7 @@ country_event = { #Chaos in the Country
 			popularity = 0.4
 		}
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.15
 		}
 		add_popularity = {
@@ -432,7 +432,7 @@ country_event = { #Absolutist vs Parlementarian decision
       add_ideas = absolute_monarchy
     }
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.10
 		}
 		add_popularity = {
@@ -446,7 +446,7 @@ country_event = { #Absolutist vs Parlementarian decision
       add_ideas = constitutional_monarchy
     }
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -468,7 +468,7 @@ country_event = { #Absolutist vs Parlementarian decision
 			popularity = 0.10
 		}
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = -0.10
 		}
 		add_popularity = {
@@ -493,7 +493,7 @@ country_event = { #Accession to the throne pat/conservativism
 			popularity = 0.15
 		}
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.05
 		}
     GER_add_wilhelm_iii = yes
@@ -608,7 +608,7 @@ country_event = { #Break the army Vs reconciliation
 	option = {
 		name = valkyrie.15.b
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -1973,7 +1973,7 @@ country_event = { #France gets the German demand for referundum
 			
 			modifier = {
 				factor = 0.25
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 4
@@ -3481,7 +3481,7 @@ country_event = { # WIP Austria coup
 			popularity = 0.15
 		}
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.25
 		}
 		add_popularity = {
@@ -4283,7 +4283,7 @@ country_event = { # Belarus - Germany offers alliance
 			factor = 40
 			modifier = {
 				factor = 2
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 2
@@ -4330,7 +4330,7 @@ country_event = { # Belarus - Germany offers alliance
 			factor = 40
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.5
@@ -4423,7 +4423,7 @@ country_event = { # Ukriane - Germany offers alliance
 			factor = 40
 			modifier = {
 				factor = 2
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 2
@@ -4470,7 +4470,7 @@ country_event = { # Ukriane - Germany offers alliance
 			factor = 40
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.5

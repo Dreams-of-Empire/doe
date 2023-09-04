@@ -69,7 +69,7 @@ set_war_support = 0.63
 set_cosmetic_tag = NFA_FRA
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = futurist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -84,7 +84,7 @@ set_popularities = {
 	illuminist = 2
 	social_conservative = 12
 	paternal = 8
-	paternal_autocrat = 42
+	futurist = 42
 	despotist = 11
 	revivalist = 0
 }

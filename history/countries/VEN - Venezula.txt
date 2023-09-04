@@ -62,7 +62,7 @@ set_popularities = {
   illuminist = 37
   social_conservative = 14
   paternal = 3
-  paternal_autocrat = 12
+  futurist = 12
 }
 
 recruit_character = VEN_Santos_Dominici

@@ -670,7 +670,7 @@ PHI_create_albert_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = { }
       }
     }
@@ -753,7 +753,7 @@ PHI_create_henry_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = { }
       }
     }
@@ -836,7 +836,7 @@ PHI_create_george_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = { }
       }
     }
@@ -957,12 +957,12 @@ PHI_remove_governor_general = {
   }
   PHI_Basilio_J_Valdez = {
     if = {
-      limit = { has_ideology = paternal_autocrat_subtype }
-      promote_character = { ideology = paternal_autocrat_subtype }
+      limit = { has_ideology = futurist_subtype }
+      promote_character = { ideology = futurist_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = paternal_autocrat_subtype }
+        country_leader = { ideology = futurist_subtype }
         promote_leader = yes
       }
     }

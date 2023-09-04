@@ -28,7 +28,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -189,7 +189,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Edward_Rydz_Śmigły_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_old_general
 			}
 		}
@@ -466,7 +466,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Ignacy_Mościcki_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_backroom_backstabber
 			}
 		}
@@ -628,7 +628,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Kazimierz_Sosnkowski_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -836,7 +836,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Adam_Koc_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_construction_magnate
 			}
 		}

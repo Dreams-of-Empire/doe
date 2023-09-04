@@ -143,7 +143,7 @@ country_event = {
 				desc = "POLITICS_GEORGE_VI_DESC" 
 				picture = "gfx/leaders/ENG/Portrait_Britain_George_VI.png" 
 				expire = "1965.1.1" 
-				ideology = paternal_autocrat_subtype
+				ideology = futurist_subtype
 				traits = {  } 
 			}
 		}
@@ -212,7 +212,7 @@ country_event = {
 				desc = "POLITICS_EDWARD_VIII_DESC" 
 				picture = "gfx/leaders/ENG/Portrait_Britain_Edward_VIII_fx.png.png" 
 				expire = "1965.1.1" 
-				ideology = paternal_autocrat_subtype
+				ideology = futurist_subtype
 				traits = {  } 
 			}
 		}
@@ -2851,7 +2851,7 @@ country_event = {
 			CAN_adrien_arcand_sec
 		}
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
 		set_party_name = { 
@@ -2859,7 +2859,7 @@ country_event = {
 			long_name = CAN_mil_junta_long 
 			name = CAN_mil_junta_short 
 		}
-		add_popularity = { ideology = paternal_autocrat popularity = 0.25 }
+		add_popularity = { ideology = futurist popularity = 0.25 }
 		add_popularity = { ideology = paternal popularity = 0.2 }
 		set_country_flag = CAN_JUNTA_REPLACED_NATIONALISTS
 		set_country_flag = CAN_AUTOCRACY
@@ -2928,10 +2928,10 @@ country_event = {
 			CAN_Andrew_McNaughton_sec_pau
 		}
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
-		add_popularity = { ideology = paternal_autocrat popularity = 0.30 }
+		add_popularity = { ideology = futurist popularity = 0.30 }
 		ai_chance = {
 			base = 100
 			modifier = {

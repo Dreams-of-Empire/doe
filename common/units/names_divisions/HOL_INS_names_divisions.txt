@@ -42,7 +42,7 @@ HOL_INF_01 =
 				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 			}
 		}
@@ -140,7 +140,7 @@ HOL_INF_03 =
 	can_use = {
 		OR = {
 			has_government = despotist
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 	}
 	division_types = { "infantry" }
@@ -189,7 +189,7 @@ HOL_CAV_01 =
 				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 			}
 		}
@@ -340,7 +340,7 @@ HOL_MEC_01 =
 				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 			}
 		}
@@ -651,7 +651,7 @@ HOL_FIETS_01 =
 				has_government = fasci
 				has_government = collectivist
 				has_government = vanguardist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 			}
 		}
@@ -727,7 +727,7 @@ HOL_FIETS_03 =
 
 	can_use = {
 		OR = {
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}

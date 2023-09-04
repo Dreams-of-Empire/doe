@@ -243,10 +243,10 @@ focus_tree = {
 			add_popularity = { ideology = despotist popularity = 0.10 }
 			add_popularity = { ideology = social_democrat popularity = 0.10 }
 			add_popularity = { ideology = social_conservative popularity = 0.10 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.33 }
+			add_popularity = { ideology = futurist popularity = 0.33 }
 			add_popularity = { ideology = fasci popularity = 0.05 }
 			set_politics = {
-				ruling_party = paternal_autocrat
+				ruling_party = futurist
 				elections_allowed = no
 			}
 		}
@@ -457,7 +457,7 @@ focus = {
 		}
 		modifier = {
 			factor = 0.1
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		modifier = {
 			factor = 10
@@ -497,7 +497,7 @@ focus = {
 	}
 	modifier = {
 		factor = 10
-		has_government = paternal_autocrat
+		has_government = futurist
 	}
 	modifier = {
 		factor = 0.1
@@ -553,7 +553,7 @@ focus = {
 	}
 	modifier = {
 		factor = 0.1
-		has_government = paternal_autocrat
+		has_government = futurist
 	}
 	modifier = {
 		factor = 1
@@ -592,7 +592,7 @@ focus = {
 	}
 	modifier = {
 		factor = 10
-		has_government = paternal_autocrat
+		has_government = futurist
 	}
 	modifier = {
 		factor = 1
@@ -647,7 +647,7 @@ focus = {
 	}
 	modifier = {
 		factor = 0.1
-		has_government = paternal_autocrat
+		has_government = futurist
 	}
 	modifier = {
 		factor = 0.1
@@ -687,7 +687,7 @@ focus = {
 	}
 	modifier = {
 		factor = 10
-		has_government = paternal_autocrat
+		has_government = futurist
 	}
 	modifier = {
 		factor = 10
@@ -921,7 +921,7 @@ focus = {
 	icon = GFX_RHI_Mangin
 	mutually_exclusive = {focus = RHI_konrad_economy}
 	prerequisite = {focus = RHI_mandate_economy}
-	available = {has_government = paternal_autocrat}
+	available = {has_government = futurist}
 	available_if_capitulated = yes
 	cost = 5
 	completion_reward = {
@@ -1615,7 +1615,7 @@ focus = {
 	mutually_exclusive = { focus = RHI_rhenish_armed_forces} 
 	mutually_exclusive = { focus =RHI_rhenish_french_cooperation} 
 	prerequisite = { focus = RHI_militarize_rhineland } 
-	available = {has_government = paternal_autocrat} 
+	available = {has_government = futurist} 
 	available_if_capitulated = yes
 	cost = 5	
 	completion_reward = {

@@ -365,7 +365,7 @@ leader_traits = {
 	}
 	hog_kingsmaker = {
 		random = no 
-		paternal_autocrat_drift = 0.01
+		futurist_drift = 0.01
 		political_power_gain = -0.07
 	}
 	hog_nationalist_patriot = {

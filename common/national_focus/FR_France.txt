@@ -5069,7 +5069,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity = {
-				ideology = paternal_autocrat
+				ideology = futurist
 				popularity = 0.05
 			}
 		}
@@ -5083,7 +5083,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = fra_strong_petain
@@ -5102,7 +5102,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = fra_strong_petain
@@ -5121,7 +5121,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = fra_martial_law
@@ -5155,7 +5155,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = fra_petain_constitution
@@ -5174,7 +5174,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = fra_martial_law
@@ -5193,7 +5193,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = fra_revivalist_saar
@@ -5215,7 +5215,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = fra_mil_propaganda
@@ -5239,7 +5239,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 			date > 1940.1.1
 		}
 		prerequisite = {
@@ -5274,7 +5274,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity = {
-    			ideology = paternal_autocrat
+    			ideology = futurist
    				popularity = 0.10
 			}
 			clr_country_flag = fra_bad_poli
@@ -5294,7 +5294,7 @@ focus_tree = {
 		relative_position_id = fra_af_control
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_ideas = FRA_papal_good
@@ -5314,7 +5314,7 @@ focus_tree = {
 		relative_position_id = fra_af_control
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_political_power = -15
@@ -5333,12 +5333,12 @@ focus_tree = {
 		relative_position_id = fra_af_control
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_ideas = FRA_state_news
 			add_popularity = {
-    			ideology = paternal_autocrat
+    			ideology = futurist
    				popularity = 0.05
 			}
 		}
@@ -5362,7 +5362,7 @@ focus_tree = {
 		relative_position_id = fra_army_loyalty
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			country_event = fra.14
@@ -5389,7 +5389,7 @@ focus_tree = {
 		relative_position_id = fra_restore_chin
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_popularity = {
@@ -5423,7 +5423,7 @@ focus_tree = {
 		relative_position_id = fra_restore_chin
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_ideas = FRA_german_bad
@@ -5442,11 +5442,11 @@ focus_tree = {
 		relative_position_id = fra_restore_chin
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_popularity = {
-    			ideology = paternal_autocrat
+    			ideology = futurist
    				popularity = 0.05
 			}
 		}
@@ -5464,7 +5464,7 @@ focus_tree = {
 		relative_position_id = fra_restore_chin
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_popularity = {
@@ -5486,11 +5486,11 @@ focus_tree = {
 		relative_position_id = fra_restore_chin
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_popularity = {
-    			ideology = paternal_autocrat
+    			ideology = futurist
    				popularity = 0.02
 			}
 			add_ideas = FRA_royal_glory
@@ -5509,7 +5509,7 @@ focus_tree = {
 		}
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_popularity = {
@@ -5547,7 +5547,7 @@ focus_tree = {
 		relative_position_id = fra_german_menace
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_ideas = FRA_recruit_time
@@ -5569,7 +5569,7 @@ focus_tree = {
 		relative_position_id = fra_royal_nation
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_political_power = 150
@@ -5588,7 +5588,7 @@ focus_tree = {
 		relative_position_id = fra_royal_glory_focus
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_manpower = 5000
@@ -5611,7 +5611,7 @@ focus_tree = {
 		relative_position_id = fra_recruit_posters
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 			date > 1941.4.1
 		}
 		bypass = {
@@ -5641,7 +5641,7 @@ focus_tree = {
 		relative_position_id = fra_juan_party
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -5663,7 +5663,7 @@ focus_tree = {
 		relative_position_id = fra_german_war
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 			OR = {
 			GRP = { is_subject_of = FRA }
 			BRW = { is_subject_of = FRA }
@@ -5688,7 +5688,7 @@ focus_tree = {
 		relative_position_id = fra_fight_socialism
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_ideas = FRA_christ
@@ -5707,7 +5707,7 @@ focus_tree = {
 		relative_position_id = fra_royal_education
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		completion_reward = {
 			add_political_power = 100

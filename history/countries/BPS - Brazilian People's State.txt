@@ -7,7 +7,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = paternal_autocrat
+	ruling_party = futurist
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
@@ -18,7 +18,7 @@ set_popularities = {
     illuminist = 7
     despotist = 10
     revivalist = 19
-    paternal_autocrat = 42
+    futurist = 42
     collectivist = 6
     fasci = 6
     paternal = 5

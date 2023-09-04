@@ -2532,7 +2532,7 @@
 			OR = {
 				has_government = revivalist
 				has_government = despotist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = paternal
 				has_government = vanguardist
 			}
@@ -2750,7 +2750,7 @@
 			OR = {
 				has_government = revivalist
 				has_government = despotist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = paternal
 				#has_government = vanguardist
 			}		
@@ -2962,7 +2962,7 @@
 			OR = {
 				has_government = revivalist
 				has_government = despotist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = paternal
 			}
 		}
@@ -3975,7 +3975,7 @@
 					has_war = no
 					OR = {
 						has_government = paternal
-						has_government = paternal_autocrat
+						has_government = futurist
 						has_government = despotist
 						has_government = revivalist
 					}
@@ -4632,7 +4632,7 @@
 				ITA = {
 					OR = {
 						has_government = revivalist
-						has_government = paternal_autocrat
+						has_government = futurist
 						has_government = despotist
 						has_government = paternal
 						has_government = social_conservative
@@ -4658,7 +4658,7 @@
 	
 	shared_focus = {
 		id = ITA_install_local_leader
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		x = 21
 		y = 3
 		cost = 5
@@ -5052,7 +5052,7 @@
               add_country_leader_role = {
                 promote_leader = yes
                 country_leader = {
-                  ideology = paternal_autocrat_subtype
+                  ideology = futurist_subtype
                 }
               }
               add_country_leader_role = {

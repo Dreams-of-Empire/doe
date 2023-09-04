@@ -23,7 +23,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 	}
@@ -165,7 +165,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Nimio_de_Anquin_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -184,7 +184,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Nimio_de_Anquin_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_administrative_genius
 			}
 		}
@@ -203,7 +203,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Nimio_de_Anquin_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_driven_recruiter
 			}
 		}
@@ -230,7 +230,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Alvaro_Cunqueiro_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_respected_war_hero
 			}
 		}
@@ -249,7 +249,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Alvaro_Cunqueiro_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_military_entrepreneur
 			}
 		}
@@ -268,7 +268,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Alvaro_Cunqueiro_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_crooked_kleptocrat
 			}
 		}
@@ -536,7 +536,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Leopoldo_Panero_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_ideological_crusader
 			}
 		}
@@ -671,7 +671,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Rafael_Sanchez_Mazas_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_health_and_safety
 			}
 		}

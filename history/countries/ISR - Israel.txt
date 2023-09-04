@@ -17,7 +17,7 @@ set_stability = 0.50
 set_war_support = 0.50
 
 add_coalition_liberal = yes 
-add_coalition_paternal_autocrat = yes 
+add_coalition_futurist = yes 
 
 add_ideas = {
 	party_pop_0_50
@@ -54,7 +54,7 @@ set_popularities = {
   illuminist = 23
   social_conservative = 15
   paternal = 7
-  paternal_autocrat = 5
+  futurist = 5
   despotist = 3
   revivalist = 2
 }

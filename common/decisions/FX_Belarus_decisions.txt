@@ -316,7 +316,7 @@ BLR_power_struggle_category = {
     remove_effect = {
       BLR_increase_nat_soc = yes
       add_popularity = {
-        ideology = paternal_autocrat
+        ideology = futurist
         popularity = -0.05
       }
     }

@@ -1533,7 +1533,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1570,7 +1570,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1602,7 +1602,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1634,7 +1634,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1684,7 +1684,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1737,7 +1737,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1769,7 +1769,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1801,7 +1801,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1833,7 +1833,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1867,7 +1867,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1899,7 +1899,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1909,7 +1909,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Work_Without_Nationalists"
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 		}
@@ -1935,7 +1935,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -1969,7 +1969,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2004,7 +2004,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2038,7 +2038,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2491,7 +2491,7 @@ focus_tree = {
 			has_country_flag = SAF_PNP
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2525,7 +2525,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2555,7 +2555,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2584,7 +2584,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2613,7 +2613,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2644,7 +2644,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2673,7 +2673,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2717,7 +2717,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2747,7 +2747,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2776,7 +2776,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2810,7 +2810,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2839,7 +2839,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2849,7 +2849,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Government_Police"
-			add_popularity = { ideology = paternal_autocrat popularity = 0.05}
+			add_popularity = { ideology = futurist popularity = 0.05}
 			add_popularity = { ideology = revivalist popularity = 0.05}
 		}
 	}
@@ -2873,7 +2873,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2907,7 +2907,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}
@@ -2938,7 +2938,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist 
 				has_government = revivalist
 			}

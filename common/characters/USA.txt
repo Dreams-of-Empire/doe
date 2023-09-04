@@ -1230,7 +1230,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_John_Davison_Rockefeller_Jr_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_general_staffer
 			}
 		}
@@ -1257,7 +1257,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_John_William_Davis_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_hawkish_intervener
 			}
 		}
@@ -1473,7 +1473,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Robert_Abercrombie_Lovett_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_corrupt_kleptocrat
 			}
 		}
@@ -1503,7 +1503,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_William_Harrison_Standley_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_resource_industrialist
 			}
 		}
@@ -1727,7 +1727,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Joel_Bennett_Clark_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_crooked_kleptocrat
 			}
 		}
@@ -1754,7 +1754,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_William_Randolph_Hearst_Sr_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_efficient_sociopath
 			}
 		}

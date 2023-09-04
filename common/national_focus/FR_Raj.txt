@@ -2553,9 +2553,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Reconquer"
 			add_political_power = 60
 			set_politics = {
-				ruling_party = paternal_autocrat elections_allowed = no
+				ruling_party = futurist elections_allowed = no
 			}
-			add_popularity = { ideology = paternal_autocrat popularity = 0.5 }
+			add_popularity = { ideology = futurist popularity = 0.5 }
 		}
 	}
 

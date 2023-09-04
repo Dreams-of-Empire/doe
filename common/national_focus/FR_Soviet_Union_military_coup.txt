@@ -1286,7 +1286,7 @@ focus_tree = {
 
 	focus = {	
 		id = SOV_free_karelia
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		available = {
 			custom_trigger_tooltip = {
 			tooltip = "Our Government Stability is greater than 30"

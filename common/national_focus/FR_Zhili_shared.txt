@@ -2485,7 +2485,7 @@ shared_focus = {
 # A Well-led Army
 	shared_focus = {
 		id = ZHI_MIL_well_led
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		cost = 7
 		prerequisite = {
 			focus = ZHI_MIL_plan_scenarios

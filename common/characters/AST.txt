@@ -360,7 +360,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -378,7 +378,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Eric_Campbell_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_respected_war_hero
 			}
 		}
@@ -417,7 +417,7 @@ characters = {
 		}
 		country_leader = {
 			desc = POLITICS_LORD_BIRDWOOD_DESC
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -465,7 +465,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Thomas_Blamey_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_efficient_sociopath
 			}
 		}
@@ -1257,7 +1257,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Adela_Pankhurst_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_silent_workhorse
 			}
 		}
@@ -1284,7 +1284,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_William_Scott_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_old_general
 			}
 		}
@@ -1527,7 +1527,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Charles_D_Hardy_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_ideological_crusader
 			}
 		}
@@ -1554,7 +1554,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_John_F_Dynon_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_iron_fisted_brute
 			}
 		}
@@ -1878,7 +1878,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_William_J_Miles_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_resource_industrialist
 			}
 		}

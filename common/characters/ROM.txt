@@ -49,7 +49,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_REGENCY_COUNCIL_ROMANIA_DESC
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -72,7 +72,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Regency_Council_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_happy_amateur
 			}
 		}
@@ -617,7 +617,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Alexandru_Cantacuzino_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -1096,7 +1096,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Gheorghe_Potopeanu_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_industrialiser
 			}
 		}

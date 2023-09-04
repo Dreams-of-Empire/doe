@@ -1429,7 +1429,7 @@
 			}
 			OR = {
 				has_government = despotist
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 		}
 		

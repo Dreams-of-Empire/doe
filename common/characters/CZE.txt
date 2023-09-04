@@ -533,7 +533,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Alois_Elias_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_backroom_backstabber
 			}
 		}
@@ -838,7 +838,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Josef_Svagrovsky_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_ideological_crusader
 			}
 		}
@@ -1111,7 +1111,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Vladimir_Kajdos_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_steel_magnate
 			}
 		}
@@ -1427,7 +1427,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Josef_Jezek_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_silent_lawyer
 			}
 		}

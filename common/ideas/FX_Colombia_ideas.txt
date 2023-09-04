@@ -92,7 +92,7 @@ ideas = {
 
 			picture = generic_victors_of_ww1
 			modifier = {
-				paternal_autocrat_drift = 0.02
+				futurist_drift = 0.02
 			}
 		}
 		COL_nationalist_regime = {

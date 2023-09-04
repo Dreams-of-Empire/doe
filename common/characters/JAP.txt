@@ -27,7 +27,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -244,7 +244,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Tokugawa_Kuniyuki_hog_pau_hired }
 			on_remove = { clr_character_flag = JAP_Tokugawa_Kuniyuki_hog_pau_hired }
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_kingsmaker
 			}
 		}
@@ -1635,7 +1635,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Hayashi_Senjuro_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_backroom_backstabber
 			}
 		}
@@ -1661,7 +1661,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Hiranuma_Kiichiro_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -1687,7 +1687,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Nagata_Tetsuzan_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_local_tyrant
 			}
 		}
@@ -1713,7 +1713,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Tojo_Hideki_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_old_general
 			}
 		}
@@ -2073,7 +2073,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Mushanokoji_Kintomo_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_relations_expert
 			}
 		}
@@ -2125,7 +2125,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Honda_Kumataro_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -2151,7 +2151,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Tatekawa_Yoshitsugu_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_iron_fisted_brute
 			}
 		}
@@ -2489,7 +2489,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Godo_Takuo_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_battle_fleet_proponent
 			}
 		}
@@ -2515,7 +2515,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Shoda_Kazue_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_resource_industrialist
 			}
 		}
@@ -2619,7 +2619,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Nagayuki_Asano_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_bank_president
 			}
 		}
@@ -2671,7 +2671,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Yoshikawa_Takeo_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_compassionate_gentleman
 			}
 		}
@@ -3009,7 +3009,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Fujie_Keisuke_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_compassionate_gentleman
 			}
 		}
@@ -3035,7 +3035,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Shiono_Suehiko_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_secret_police_chief
 			}
 		}

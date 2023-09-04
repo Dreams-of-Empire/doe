@@ -507,7 +507,7 @@ ideas = {
       available = {
         OR = {
           has_elected_government = yes
-          has_government = paternal_autocrat
+          has_government = futurist
         }
       }
       picture = generic_secret_police
@@ -521,7 +521,7 @@ ideas = {
       available = {
         OR = {
           has_elected_government = yes
-          has_government = paternal_autocrat
+          has_government = futurist
         }
       }
       picture = generic_secret_police
@@ -534,7 +534,7 @@ ideas = {
     }
     ROM_royal_philantrophy = {
       allowed = { original_tag = ROM }
-      available = { has_government = paternal_autocrat }
+      available = { has_government = futurist }
       picture = ROM_king_carol_ii_hedonist
       modifier = {
         political_power_gain = -0.05
@@ -543,7 +543,7 @@ ideas = {
     }
     ROM_corporatism_idea = {
       allowed = { original_tag = ROM }
-      available = { has_government = paternal_autocrat }
+      available = { has_government = futurist }
       picture = generic_foreign_capital
       modifier = {
         production_lack_of_resource_penalty_factor = -0.05
@@ -552,7 +552,7 @@ ideas = {
     }
     ROM_corporatism_1_idea = {
       allowed = { original_tag = ROM }
-      available = { has_government = paternal_autocrat }
+      available = { has_government = futurist }
       picture = generic_foreign_capital
       modifier = {
         production_lack_of_resource_penalty_factor = -0.15
@@ -561,7 +561,7 @@ ideas = {
     }
     ROM_compromised_with_unions = {
       allowed = { original_tag = ROM }
-      available = { has_government = paternal_autocrat }
+      available = { has_government = futurist }
       picture = FRA_factory_strikes
       modifier = {
         political_power_gain = -0.15

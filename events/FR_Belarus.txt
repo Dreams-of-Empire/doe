@@ -25,7 +25,7 @@ country_event = { # Otaman Assassinated!
 		remove_ideas = BLR_diarchy_stable
 		set_country_flag = BLR_otaman_assassinated
 		set_country_flag = BLR_start_power_struggle
-		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+		set_temp_variable = { coalition_partner_var = token:futurist }
 		remove_from_coalition = yes 
 		set_power_balance = {
 			id = BLR_power_balance
@@ -44,7 +44,7 @@ country_event = { # Otaman Assassinated!
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = paternal_autocrat_subtype
+					ideology = futurist_subtype
 				}
 			}
 		}
@@ -330,11 +330,11 @@ country_event = { # The Coup
 			character = BLR_Home_Guard_Command
 			promote_leader = yes
 			country_leader = {
-				ideology = paternal_autocrat_subtype
+				ideology = futurist_subtype
 			}
 		}
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
 		remove_every_minister = yes

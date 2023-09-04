@@ -451,7 +451,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -477,7 +477,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Carlos_Ibanez_del_Campo_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_local_tyrant
 			}
 		}
@@ -948,7 +948,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Luis_Altamirano_Talavera_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_general_staffer
 			}
 		}
@@ -1331,7 +1331,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Ramon_Callis_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_the_minister_for_everything
 			}
 		}
@@ -1601,7 +1601,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Carlos_Keller_Rueff_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_silent_lawyer
 			}
 		}

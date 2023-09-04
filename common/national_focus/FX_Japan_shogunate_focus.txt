@@ -574,7 +574,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus JAP_deconfuciusization"
 		add_political_power = -100
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.1
 		}
 		add_timed_idea = {
@@ -682,10 +682,10 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: JAP_oniwahan_faction"
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
    			elections_allowed = no
 		}
-		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+		set_temp_variable = { coalition_partner_var = token:futurist }
 		remove_from_coalition = yes 
 		remove_every_for_trait = yes  
 		activate_advisor = JAP_Matsudaira_Tsuneo_for_ade
@@ -1221,7 +1221,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus JAP_send_parliament_to_hell"
 		add_popularity = {
-			ideology = paternal_autocrat 
+			ideology = futurist 
 			popularity = 0.1
 		} 
 	}

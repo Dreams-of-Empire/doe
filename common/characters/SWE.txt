@@ -98,7 +98,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -284,7 +284,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Archibald_Douglas_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -437,7 +437,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Carl_August_Ehrensvard_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_old_general
 			}
 		}
@@ -1551,7 +1551,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Gunnar_Berggren_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_biased_intellectual
 			}
 		}
@@ -1842,7 +1842,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Marcus_Wallenberg_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_construction_magnate
 			}
 		}
@@ -2142,7 +2142,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Axel_Rappe_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_man_of_the_people
 			}
 		}

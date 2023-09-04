@@ -119,7 +119,7 @@ shared_focus = {
 	}
 	available = {
 		hidden_trigger = {
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_country_leader = {
 				name = "Tokugawa Kuniyuki"
 				ruling_only = yes 
@@ -197,7 +197,7 @@ shared_focus = {
 		}
 		if = {
 			limit = {
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			JAP = {
 				create_faction = "Mikawa Accord"

@@ -94,7 +94,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -615,7 +615,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Andre_Francois_Poncet_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_moderate_among_radicals
 			}
 		}

@@ -300,7 +300,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_gaining_militarys_support"
 			add_political_power = -50
 			add_popularity = { 
-				ideology = paternal_autocrat popularity = -0.10
+				ideology = futurist popularity = -0.10
 			
 			}
 		}
@@ -360,7 +360,7 @@ focus_tree = {
 
 	 	focus = {
 		id = CHL_military_guard
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		available = {
 			has_global_flag = CARLOS_COUP
 		}
@@ -1791,7 +1791,7 @@ focus = {
 						has_government = vanguardist
 						has_government = fasci
 						has_government = collectivist
-						has_government = paternal_autocrat
+						has_government = futurist
 						has_government = paternal
 						has_government = revivalist
 						has_government = despotist
@@ -1968,7 +1968,7 @@ focus = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = paternal
 				}
 				NOT = { has_war_with = CHL }
@@ -1996,7 +1996,7 @@ focus = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = paternal
 				}
 				NOT = { has_war_with = CHL }
@@ -2543,7 +2543,7 @@ focus = {
 						has_government = social_conservative
 						has_government = revivalist
 						has_government = despotist
-						has_government = paternal_autocrat
+						has_government = futurist
 					}
 				}
 				add_opinion_modifier = { target = CHL modifier = CHL_denounced_socialism }

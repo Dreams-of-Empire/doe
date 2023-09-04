@@ -418,7 +418,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -436,7 +436,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Edelmiro_Farrel_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_backroom_backstabber
 			}
 		}
@@ -471,7 +471,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Juan_Domingo_Peron_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_pragmatic_statesman
 			}
 		}
@@ -860,7 +860,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Luis_Podesta_Costa_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_apologetic_clerk
 			}
 		}
@@ -1284,7 +1284,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Jorge_Alejandro_Santamaria_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_trade_proponent
 			}
 		}
@@ -1720,7 +1720,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_J_Honorio_Silveiro_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_efficient_sociopath
 			}
 		}

@@ -45,7 +45,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.10
 				political_power_gain = -0.05
-				paternal_autocrat_drift = -0.02
+				futurist_drift = -0.02
 			}
 		}
 		
@@ -654,7 +654,7 @@ ideas = {
 			modifier = {
 				political_power_gain = -0.10
 				stability_weekly = 0.001
-				paternal_autocrat_drift = 0.01
+				futurist_drift = 0.01
 			}
 		}
 		
@@ -756,7 +756,7 @@ ideas = {
 				political_power_gain = -0.10
 				stability_weekly = 0.001
 				social_conservative_drift = 0.01
-				paternal_autocrat_drift = 0.01
+				futurist_drift = 0.01
 			}
 		}
 		

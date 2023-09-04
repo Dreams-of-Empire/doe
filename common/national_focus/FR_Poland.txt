@@ -66,7 +66,7 @@ focus = {
 	has_country_flag = POL_bypass_the_elections_republic_noND has_country_flag = POL_bypass_the_elections_republic } }
 	prerequisite = { focus = POL_great_sitting }
 	mutually_exclusive = { focus = POL_auth_dem }
-	mutually_exclusive = { focus = POL_pataut_mon }
+	mutually_exclusive = { focus = POL_fut_mon }
 	mutually_exclusive = { focus = POL_nationalism }
 	mutually_exclusive = { focus = POL_military_junta }
 	
@@ -159,7 +159,7 @@ focus = {
 	
 	available = { has_country_flag = POL_bypass_the_elections_monarchy }
 	prerequisite = { focus = POL_great_sitting }
-	mutually_exclusive = { focus = POL_pataut_mon } 
+	mutually_exclusive = { focus = POL_fut_mon } 
 	mutually_exclusive = { focus = POL_military_junta } 
 	mutually_exclusive = { focus = POL_new_elections } 
 	mutually_exclusive = { focus = POL_nationalism }
@@ -236,7 +236,7 @@ focus = {
 #}
 #PATAUT MONARCHY
 focus = {
-	id = POL_pataut_mon
+	id = POL_fut_mon
 	icon = GFX_goal_POL_king
 	
 	ai_will_do = { factor = 200 }
@@ -256,9 +256,9 @@ focus = {
 	available_if_capitulated = no
 	
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus POL_pataut_mon"
+			log = "[GetDateText]: [Root.GetName]: Focus POL_fut_mon"
 			add_ideas = absolute_monarchy
-			set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
+			set_politics = { ruling_party = futurist elections_allowed = no }
 			add_political_power = 50
 			clr_country_flag = POL_autocratic_monarchy
 	}
@@ -273,14 +273,14 @@ focus = {
 	y = 2
 	cost = 5
 	
-	prerequisite = { focus = POL_pataut_mon }
+	prerequisite = { focus = POL_fut_mon }
 
 	available_if_capitulated = no
 	
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_imprison_opposition"
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.1
 		}
 		add_political_power = 50
@@ -297,14 +297,14 @@ focus = {
 	y = 2
 	cost = 3
 	
-	prerequisite = { focus = POL_pataut_mon }
+	prerequisite = { focus = POL_fut_mon }
 
 	available_if_capitulated = no
 	
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_arrest_conspirators"
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.1
 		}
 		add_political_power = 50
@@ -368,7 +368,7 @@ focus = {
 	bypass = { has_country_flag = POL_military_junta_flag }
 	prerequisite = { focus = POL_great_sitting }
 	mutually_exclusive = { focus = POL_auth_dem }
-	mutually_exclusive = { focus = POL_pataut_mon }
+	mutually_exclusive = { focus = POL_fut_mon }
 	mutually_exclusive = { focus = POL_nationalism }
 	mutually_exclusive = { focus = POL_new_elections }
 	
@@ -378,7 +378,7 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_military_junta"
 			add_ideas = military_junta
 			clr_country_flag = POL_military_junta_flag
-			set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
+			set_politics = { ruling_party = futurist elections_allowed = no }
 	}
 }
 ###the hell is wrong with fr devs? who names a focus this? -Wick
@@ -467,7 +467,7 @@ focus = {
 	bypass = { has_country_flag = POL_REAL_PATRIOT }
 	prerequisite = { focus = POL_great_sitting }
 	mutually_exclusive = { focus = POL_auth_dem }
-	mutually_exclusive = { focus = POL_pataut_mon }
+	mutually_exclusive = { focus = POL_fut_mon }
 	mutually_exclusive = { focus = POL_new_elections }
 	mutually_exclusive = { focus = POL_military_junta }
 	
@@ -1767,7 +1767,7 @@ focus = {
 		swap_ideas = { remove_idea = POL_ukrainian_police_revolt add_idea = POL_border_defence }
 	}
 }
-#patautmonarchy economy
+#futmonarchy economy
 focus = {
 	id = POL_lessen_wide_gap
 	icon = GFX_goal_generic_position_armies
@@ -3049,7 +3049,7 @@ focus = {
 		OR = {
 			has_government = revivalist
 			has_government = despotist
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 	}
 
@@ -3090,7 +3090,7 @@ focus = {
 
 	available = {
 		OR = { has_government = despotist
-		has_government = paternal_autocrat }
+		has_government = futurist }
 			is_in_faction = no
 	}
 	bypass = {

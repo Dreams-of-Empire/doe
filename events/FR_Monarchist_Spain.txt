@@ -212,7 +212,7 @@ country_event = {
 		name = monspain.8.a
 		add_political_power = 15
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			add_popularity = { ideology = despotist popularity = 0.04 }
 			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
@@ -240,7 +240,7 @@ country_event = {
 			load_focus_tree = FR_Monarchist_Spain
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			add_popularity = { ideology = paternal popularity = -0.08 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.08 }
+			add_popularity = { ideology = futurist popularity = -0.08 }
 			set_capital = { state = 41 }
 			every_state = {
 				limit = {
@@ -338,7 +338,7 @@ country_event = {
 		hidden_effect = {
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.04 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 		}
 	}
 }
@@ -420,7 +420,7 @@ country_event = {
 		add_political_power = -70
 		add_stability = 0.03
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			country_event = { id = monspain.14 days = 5 }
 		}
 	}
@@ -539,7 +539,7 @@ country_event = {
         character = SPM_Jaime_III
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -659,7 +659,7 @@ country_event = {
         character = SPM_Juan_III
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -743,7 +743,7 @@ country_event = {
 		}
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		add_popularity = { ideology = paternal popularity = -0.02 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		set_country_flag = SPM_government_picked_flag
 		end_coalition = yes 
 		hidden_effect = {
@@ -774,7 +774,7 @@ country_event = {
 		}
 		add_popularity = { ideology = paternal popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		set_country_flag = SPM_government_picked_flag
 		end_coalition = yes 
 		hidden_effect = {
@@ -801,9 +801,9 @@ country_event = {
 			}
 		}
 		set_politics = {
-			ruling_party = paternal_autocrat elections_allowed = no
+			ruling_party = futurist elections_allowed = no
 		}
-		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+		add_popularity = { ideology = futurist popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
 		add_popularity = { ideology = paternal popularity = -0.02 }
 		set_country_flag = SPM_government_picked_flag
@@ -862,7 +862,7 @@ country_event = {
 	
 	option = {
 		name = monspain.105.a
-		add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+		add_popularity = { ideology = futurist popularity = -0.04 }
 	}
 }
 

@@ -30,7 +30,7 @@ focus_tree = {
 				OR = {
 					has_country_flag = NAR_path_desp
 					has_country_flag = NAR_path_corporate
-					has_country_flag = NAR_path_pataut
+					has_country_flag = NAR_path_fut
 				}
 			}
 		}
@@ -193,14 +193,14 @@ focus_tree = {
 	# The Iron Hand
 	focus = {
 		id = NAR_the_iron_hand
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		x = 0
 		y = 1
 		cost = 6
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = unlocked_later
-				has_country_flag = NAR_path_pataut
+				has_country_flag = NAR_path_fut
 			}
 		}
 		prerequisite = { focus = NAR_political_stabilization }

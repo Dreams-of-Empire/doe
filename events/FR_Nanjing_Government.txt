@@ -31,13 +31,13 @@ country_event = {
 				character = CHI_Chiang_Kai_Shek
 				promote_leader = yes
 				country_leader = {
-					ideology = paternal_autocrat_subtype
+					ideology = futurist_subtype
 					traits = {}
 				}
 			}
 		}
         set_politics = {
-            ruling_party = paternal_autocrat
+            ruling_party = futurist
             elections_allowed = no
         }
         hidden_effect = {
@@ -47,7 +47,7 @@ country_event = {
             }
 
             add_popularity = {
-                ideology = paternal_autocrat
+                ideology = futurist
                 popularity = 0.15
             }
         }
@@ -243,7 +243,7 @@ country_event = { ###Black Wednesday Mission of China###
 	}
 	option = {
 		name = "Protect our economy with all costs"
-		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+		add_popularity = { ideology = futurist popularity = 0.02 }
 		modify_country_flag = {
 			flag = CHI_LFP
 			value = 1
@@ -266,7 +266,7 @@ country_event = { ###Port Labour Strike the Factory
 	option = {
 		name = "Get rip of them, nobody alives"
 		add_popularity = { ideology = paternal popularity = 0.07 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.07 }
+		add_popularity = { ideology = futurist popularity = 0.07 }
 		add_stability = -0.1
 		modify_country_flag = {
 			flag = CHI_KMT
@@ -282,7 +282,7 @@ country_event = { ###Port Labour Strike the Factory
 	option = {
 		name = "Invite to our table"
 		add_popularity = { ideology = paternal popularity = 0.03 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+		add_popularity = { ideology = futurist popularity = 0.02 }
 		modify_country_flag = {
 			flag = CHI_LFP
 			value = 1
@@ -297,7 +297,7 @@ country_event = { ###Port Labour Strike the Factory
 	option = {
 		name = "Do Nothing"
 		add_popularity = { ideology = paternal popularity = 0.05 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.04 }
+		add_popularity = { ideology = futurist popularity = 0.04 }
 		add_stability = -0.15
 		add_political_power = -100
 		modify_country_flag = {
@@ -334,7 +334,7 @@ country_event = { ###Anqing Governor has been found corruption
 	}
 	option = {
 		name = "Judicial Yuan will take care of this"
-		add_popularity = { ideology = paternal_autocrat popularity = 0.04 }
+		add_popularity = { ideology = futurist popularity = 0.04 }
 		add_political_power = 20
 		modify_country_flag = {
 			flag = CHI_LFP
@@ -372,7 +372,7 @@ country_event = { ###Judicial Yuan Declare the Government must be dissolved and 
 					value > 1
 				}
 			}
-			add_popularity = { ideology = paternal_autocrat popularity = 0.1 }
+			add_popularity = { ideology = futurist popularity = 0.1 }
 			set_country_flag = CHI_zhili_faction_selected
 		}
 		clr_country_flag = CHI_KMT

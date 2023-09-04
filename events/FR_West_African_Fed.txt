@@ -175,7 +175,7 @@ country_event = { #NFA collapses when they become independent
 					transfer_state = 272
 					set_cosmetic_tag = SEN_native
 					set_politics = {
-						ruling_party = paternal_autocrat
+						ruling_party = futurist
 						elections_allowed = no
 					}
 				}
@@ -191,7 +191,7 @@ country_event = { #NFA collapses when they become independent
 					transfer_state = 974
 					set_cosmetic_tag = IVO_native
 					set_politics = {
-						ruling_party = paternal_autocrat
+						ruling_party = futurist
 						elections_allowed = no
 					}
 				}
@@ -207,7 +207,7 @@ country_event = { #NFA collapses when they become independent
 					transfer_state = 980
 					set_cosmetic_tag = VOL_native
 					set_politics = {
-						ruling_party = paternal_autocrat
+						ruling_party = futurist
 						elections_allowed = no
 					}
 				}
@@ -222,7 +222,7 @@ country_event = { #NFA collapses when they become independent
 				MRT = {
 					transfer_state = 881
 					set_politics = {
-						ruling_party = paternal_autocrat
+						ruling_party = futurist
 						elections_allowed = no
 					}
 				}
@@ -247,7 +247,7 @@ country_event = { #NFA collapses when they become independent
 				GNA = {
 					transfer_state = 973
 					set_politics = {
-						ruling_party = paternal_autocrat
+						ruling_party = futurist
 						elections_allowed = no
 					}
 				}

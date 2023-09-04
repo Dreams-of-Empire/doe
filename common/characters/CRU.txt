@@ -389,7 +389,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		corps_commander = {
@@ -415,7 +415,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Salvador_Alvarado_Rubio_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_reformist_soldier
 			}
 		}
@@ -462,7 +462,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Tomas_Garrido_Canabal_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_respected_war_hero
 			}
 		}

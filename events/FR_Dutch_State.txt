@@ -1457,17 +1457,17 @@ country_event = { # Germany Requests that We Join the Stahlpakt
     name = dutchstate.64.a
     custom_effect_tooltip = HOL_join_stahlpakt_tt
     set_party_name = {
-      ideology = paternal_autocrat
+      ideology = futurist
       name = KNE_junta_party
       long_name = KNE_junta_party_long
     }
     set_politics = {
-      ruling_party = paternal_autocrat
+      ruling_party = futurist
       elections_allowed = no
     }
     hidden_effect = {
       add_popularity = {
-        ideology = paternal_autocrat
+        ideology = futurist
         popularity = 0.35
       }
       add_popularity = {
@@ -1808,11 +1808,11 @@ country_event = { # The Prince Assumes Complete Control
   option = { # God Save the Prince!
     name = dutchstate.109.a
     set_politics = {
-      ruling_party = paternal_autocrat
+      ruling_party = futurist
       elections_allowed = no
     }
     add_popularity = {
-      ideology = paternal_autocrat
+      ideology = futurist
       popularity = 0.15
     }
     remove_every_minister = yes
@@ -1857,7 +1857,7 @@ country_event = { # Prince Bernhard Assassinated!
       character = HOL_Izaak_Reynders
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }
@@ -1928,11 +1928,11 @@ country_event = { # Army Coup
     name = dutchstate.112.a
     retire_character = HOL_Cornelis_van_Geelkerken
     set_politics = {
-      ruling_party = paternal_autocrat
+      ruling_party = futurist
       elections_allowed = no
     }
     add_popularity = {
-      ideology = paternal_autocrat
+      ideology = futurist
       popularity = 0.15
     }
     add_popularity = {
@@ -2112,7 +2112,7 @@ country_event = { # Fall of the Nationalist Government
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = paternal_autocrat_subtype
+            ideology = futurist_subtype
             traits = {}
           }
         }

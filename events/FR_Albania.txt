@@ -99,7 +99,7 @@ country_event = { # Military parade in Tirana
 
 	trigger = {
 		original_tag = ALB
-		has_government = paternal_autocrat
+		has_government = futurist
 		date > 1936.7.1
 	}
 	
@@ -113,7 +113,7 @@ country_event = { # Military parade in Tirana
 		name = alb.4.a
 		add_political_power = 30
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.03
 		}
 		hidden_effect = {
@@ -125,7 +125,7 @@ country_event = { # Military parade in Tirana
 		name = alb.4.b
 		add_political_power = -20
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = -0.02
 		}
 		hidden_effect = {
@@ -151,7 +151,7 @@ country_event = { # Parade, Ferdinand does attend
       character = ALB_Provisional_Government_of_Albania
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }
@@ -715,7 +715,7 @@ country_event = { # Italy takes direct control of Albania
       character = ALB_Provisional_Government_of_Albania
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }

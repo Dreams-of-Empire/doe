@@ -188,7 +188,7 @@ save_current_party_popularities = {
 	add_to_temp_array = { saved_popularities = party_popularity_100@illuminist }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_conservative }
 	add_to_temp_array = { saved_popularities = party_popularity_100@paternal }
-	add_to_temp_array = { saved_popularities = party_popularity_100@paternal_autocrat }
+	add_to_temp_array = { saved_popularities = party_popularity_100@futurist }
 	add_to_temp_array = { saved_popularities = party_popularity_100@despotist }
 
 	set_temp_variable = { sum = 100 }
@@ -298,12 +298,12 @@ set_coalition_government_popularity = {
 	if = {
 		limit = {
 			NOT = {
-				has_government = paternal_autocrat
-				check_variable = { political_power_ideology = token:paternal_autocrat }
+				has_government = futurist
+				check_variable = { political_power_ideology = token:futurist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:paternal_autocrat }
+			is_in_array = { ROOT.coalition_partners = token:futurist }
 		}
-		set_temp_variable = { coali_pat = THIS.party_popularity@paternal_autocrat }
+		set_temp_variable = { coali_pat = THIS.party_popularity@futurist }
 		add_to_variable = { coalition_ruling_combined_pop = coali_pat  }
 	}
 	if = {
@@ -361,8 +361,8 @@ add_coalition_illuminist = {
 	set_temp_variable = { coalition_partner_var = token:illuminist }
 	add_to_coalition = yes 
 }
-add_coalition_paternal_autocrat = {
-	set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+add_coalition_futurist = {
+	set_temp_variable = { coalition_partner_var = token:futurist }
 	add_to_coalition = yes 
 }
 add_coalition_despotist = {
@@ -406,8 +406,8 @@ remove_coalition_illuminist = {
 	set_temp_variable = { coalition_partner_var = token:illuminist }
 	remove_from_coalition = yes 
 }
-remove_coalition_paternal_autocrat = {
-	set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+remove_coalition_futurist = {
+	set_temp_variable = { coalition_partner_var = token:futurist }
 	remove_from_coalition = yes 
 }
 remove_coalition_despotist = {

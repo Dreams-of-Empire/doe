@@ -6,4 +6,4 @@
 # - The SFIO (socdem) will seek to expand the Continential Entente across Europe, and will favour nations that are in direct threat of German agression (Poland, Austria, Denmark, Italy) as well as cooperating with the Soviets when it comes to defeating/partitioning Germany.
 # - The RS (libs) will seek reproachment with Britain above all else, and will bend over backwards in order to secure British involvement in the 2GW against Germany.
 # - The DRA (soccon) will seek to strengthen the Continential Entente rather than expand it, and will only ally other nations if France stands to gain from the alliance OR if German aggression reaches a breaking point that the government deems unacceptable(declaring war on Poland).
-#  - The PSF (pataut) will ally nations that are willing to take an offensive stance against Germany( UK, Italy, Poland), and will likely be the one to declare war upon Germany before the Germans have the chance to strike first.
+#  - The PSF (fut) will ally nations that are willing to take an offensive stance against Germany( UK, Italy, Poland), and will likely be the one to declare war upon Germany before the Germans have the chance to strike first.

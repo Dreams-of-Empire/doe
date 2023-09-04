@@ -181,7 +181,7 @@ ROM_make_michael_king = {
 			promote_leader = yes
 			country_leader = {
 				desc = POLITICS_MICHAEL_I_DESC
-				ideology = paternal_autocrat_subtype
+				ideology = futurist_subtype
 				traits = {}
 			}
 		}
@@ -312,7 +312,7 @@ ROM_make_nicholas_king = {
 		}
 		if = {
 			limit = {
-				NOT = { has_ideology_group = paternal_autocrat }
+				NOT = { has_ideology_group = futurist }
 			}
 			add_country_leader_role = {
 				promote_leader = yes

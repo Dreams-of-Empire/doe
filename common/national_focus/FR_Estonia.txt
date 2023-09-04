@@ -10,14 +10,14 @@ focus_tree = {
 	default = no
 	focus = {
 		id = EST_military_rule
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		cost = 4.30
 		x = 2
 		y = 0
 		
 		available = {
 			has_country_flag = EST_military_rule_flag
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -28,7 +28,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_military_rule"
 			add_political_power = 25
 			add_stability = 0.02
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 		}
 
 	}
@@ -118,7 +118,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_strengthen_estonian_army"
-			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+			add_popularity = { ideology = futurist popularity = 0.05 }
 			swap_ideas = {
 				remove_idea = EST_military_with_state_idea
 				add_idea = EST_strengthen_estonian_army_idea
@@ -202,7 +202,7 @@ focus_tree = {
 			add_political_power = -40
 			add_stability = 0.02
 			add_war_support = 0.01
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 			country_event = { id = estonia.100 days = 1 }
 		}
 
@@ -329,7 +329,7 @@ focus_tree = {
 				remove_idea = EST_dominance_patriotic_league_idea
 				add_idea = EST_secure_army_loyalty_idea
 			}
-			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+			add_popularity = { ideology = futurist popularity = -0.01 }
 			add_popularity = { ideology = paternal popularity = 0.01 }
 		}
 
@@ -1102,7 +1102,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_national_readiness"
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			13 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -1136,7 +1136,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_future_military_government"
 			add_political_power = -20
 			add_stability = 0.05
-			add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
+			add_popularity = { ideology = futurist popularity = 0.10 }
 			country_event = { id = estonia.106 days = 1 }
 		}
 

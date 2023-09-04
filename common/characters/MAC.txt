@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pataut_legionarism_subtype
+			ideology = fut_legionarism_subtype
 			traits = {
 				popular_figurehead
 				MAC_Alexander_The_Great

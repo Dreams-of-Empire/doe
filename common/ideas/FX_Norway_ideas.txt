@@ -17,7 +17,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.10
 				political_power_gain = -0.20
-				paternal_autocrat_drift = 0.01
+				futurist_drift = 0.01
 			}
 		}
 		NOR_war_on_samfundsvernet_idea = {
@@ -360,7 +360,7 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.10
 				political_power_gain = 0.10
-				paternal_autocrat_drift = -0.02
+				futurist_drift = -0.02
 				despotist_drift = -0.02
 				revivalist_drift = -0.02
 			}
@@ -373,7 +373,7 @@ ideas = {
 				conscription_factor = 0.15
 				political_power_gain = 0.10
 				vanguardist_drift = -0.01
-				paternal_autocrat_drift = -0.03
+				futurist_drift = -0.03
 				despotist_drift = -0.03
 				revivalist_drift = -0.03
 			}
@@ -387,7 +387,7 @@ ideas = {
 				political_power_gain = 0.15
 				social_conservative_drift = -0.01
 				paternal_drift = -0.01
-				paternal_autocrat_drift = -0.03
+				futurist_drift = -0.03
 				despotist_drift = -0.03
 				revivalist_drift = -0.03
 			}
@@ -399,7 +399,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				political_power_gain = -0.10
-				paternal_autocrat_drift = 0.01
+				futurist_drift = 0.01
 			}
 		}
 		NOR_war_on_samfundsvernet_idea1 = {
@@ -524,7 +524,7 @@ ideas = {
 				political_power_gain = -0.05
 				vanguardist_drift = -0.01
 				collectivist_drift = -0.01
-				paternal_autocrat_drift = -0.01
+				futurist_drift = -0.01
 				despotist_drift = -0.01
 				revivalist_drift = -0.01
 			}
@@ -537,7 +537,7 @@ ideas = {
 				conscription_factor = 0.10
 				army_morale_factor = 0.05
 				paternal_drift = 0.01
-				paternal_autocrat_drift = 0.01
+				futurist_drift = 0.01
 			}
 		}
 		NOR_assure_loyalty_police_idea = {
@@ -562,7 +562,7 @@ ideas = {
 				encryption_factor = 0.1
 				conscription_factor = 0.10
 				army_morale_factor = 0.05
-				paternal_autocrat_drift = 0.02
+				futurist_drift = 0.02
 			}
 		}
 		NOR_long_live_king_idea = {
@@ -578,7 +578,7 @@ ideas = {
 				conscription_factor = 0.15
 				army_morale_factor = 0.05
 				monthly_population = 0.25
-				paternal_autocrat_drift = 0.02
+				futurist_drift = 0.02
 			}
 		}
 		NOR_loyal_police_idea = {

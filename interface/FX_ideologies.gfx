@@ -22,7 +22,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_absolute_mon_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/pataut_absolute_monarchy_group.png"
+		texturefile = "gfx/interface/ideologies/subideologies/fut_absolute_monarchy_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_statist_showaist_subtype"
@@ -42,7 +42,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_samurai_dictatorship_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/pataut_samurai_militarism.png"
+		texturefile = "gfx/interface/ideologies/subideologies/fut_samurai_militarism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_monsoc_subtype"
@@ -85,8 +85,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/junta_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_warlordism_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/pataut_warlordism_group.png"
+		name = "GFX_ideology_fut_warlordism_subtype"
+		texturefile = "gfx/interface/ideologies/subideologies/fut_warlordism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_pat_junta_subtype"
@@ -185,8 +185,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/autocratic_socialist_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_legionarism_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/pataut_legionarism_group.png"
+		name = "GFX_ideology_fut_legionarism_subtype"
+		texturefile = "gfx/interface/ideologies/subideologies/fut_legionarism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_val_legionarism_subtype"

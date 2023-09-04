@@ -33,7 +33,7 @@ scripted_gui = {
 					has_country_leader_ideology = illuminist_subtype
 					has_country_leader_ideology = social_conservative_subtype
 					has_country_leader_ideology = paternal_subtype
-					has_country_leader_ideology = paternal_autocrat_subtype
+					has_country_leader_ideology = futurist_subtype
 					has_country_leader_ideology = revivalist_subtype
 					has_country_leader_ideology = despotist_subtype
 				}

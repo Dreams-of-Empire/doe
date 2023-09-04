@@ -112,7 +112,7 @@ ARB_remove_abd_al_ilah = {
       ideology = paternal_subtype
     }
     remove_country_leader_role = {
-      ideology = paternal_autocrat_subtype
+      ideology = futurist_subtype
     }
   }
 }
@@ -135,7 +135,7 @@ ARB_remove_ghazi = {
       ideology = paternal_subtype
     }
     remove_country_leader_role = {
-      ideology = paternal_autocrat_subtype
+      ideology = futurist_subtype
     }
   }
 }
@@ -186,7 +186,7 @@ ARB_add_adb_al_ilah = {
       promote_leader = yes
       country_leader = {
         desc = POLITICS_ARB_ADB_AL_ILAH_DESC
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = { }
       }
     }
@@ -234,7 +234,7 @@ ARB_add_ghazi = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = { }
       }
     }

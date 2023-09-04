@@ -2470,7 +2470,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_parliament_dissolved
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		prerequisite = { focus = CAN_elections_1938 }
 		mutually_exclusive = { focus = CAN_liberal_victory }
 		mutually_exclusive = { focus = CAN_ccf_victory }

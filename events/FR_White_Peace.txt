@@ -6686,7 +6686,7 @@ country_event = { # Sweden losing - Peace with Moderate Norway?
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = authoritarian_democrat
-				has_government = paternal_autocrat
+				has_government = futurist
 			}	
 			is_puppet = no # Can't be a subject
 			OR = {

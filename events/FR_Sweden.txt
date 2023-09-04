@@ -304,7 +304,7 @@ country_event = {
 		name = sweden.10.c
 		ai_chance = { factor = 70 }
 		add_political_power = 10
-		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+		add_popularity = { ideology = futurist popularity = 0.01 }
 		add_popularity = { ideology = despotist popularity = 0.07 }
 		add_popularity = { ideology = revivalist popularity = 0.01 }
 		country_event = { days = 8 id = sweden.34 }
@@ -700,7 +700,7 @@ country_event = {
         character = SWE_Gustaf_VI_Adolf
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -1187,7 +1187,7 @@ country_event = {
 		name = sweden.33.c
 		ai_chance = { factor = 65 }
 		add_political_power = 10
-		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+		add_popularity = { ideology = futurist popularity = 0.01 }
 		add_popularity = { ideology = despotist popularity = 0.07 }
 		add_popularity = { ideology = revivalist popularity = 0.01 }
 		country_event = { days = 8 id = sweden.34 }
@@ -1247,7 +1247,7 @@ country_event = {
 		remove_coalition_social_conservative = yes 
 		remove_coalition_illuminist = yes 
 		remove_coalition_liberal = yes 
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		add_coalition_revivalist = yes 
 		hidden_effect = {
 			set_variable = {
@@ -1363,15 +1363,15 @@ country_event = {
 	option = {
 		name = sweden.38.a
 		set_politics = {
-			ruling_party = paternal_autocrat elections_allowed = no
+			ruling_party = futurist elections_allowed = no
 		}
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = 0.06 }
+			add_popularity = { ideology = futurist popularity = 0.06 }
 			add_popularity = { ideology = paternal popularity = -0.04 }
 			set_party_name = {
-				ideology = paternal_autocrat
-				long_name = SWE_pataut_army_long
-				name = SWE_pataut_army
+				ideology = futurist
+				long_name = SWE_fut_army_long
+				name = SWE_fut_army
 			}
 			remove_coalition_social_conservative = yes 
 			country_event = { days = 6 id = sweden.39 }
@@ -1439,7 +1439,7 @@ country_event = {
 		add_manpower = -500
 		add_popularity = { ideology = despotist popularity = 0.03 }
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = -0.08 }
+			add_popularity = { ideology = futurist popularity = -0.08 }
 			country_event = { days = 3 id = sweden.43 }
 		}
 	}
@@ -1451,7 +1451,7 @@ country_event = {
 		add_manpower = -500
 		add_popularity = { ideology = collectivist popularity = 0.03 }
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = -0.08 }
+			add_popularity = { ideology = futurist popularity = -0.08 }
 			country_event = { days = 3 id = sweden.19 }
 		}
 	}
@@ -1564,7 +1564,7 @@ country_event = {
         character = SWE_Gustaf_VI_Adolf
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -2900,15 +2900,15 @@ country_event = {
 		name = sweden.78.a
 		add_ideas = absolute_monarchy
 		set_politics = {
-			ruling_party = paternal_autocrat elections_allowed = no
+			ruling_party = futurist elections_allowed = no
 		}
 		add_popularity = { ideology = paternal popularity = 0.04 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
+		add_popularity = { ideology = futurist popularity = 0.15 }
 		add_popularity = { ideology = despotist popularity = 0.04 }
 		set_party_name = {
-			ideology = paternal_autocrat
-			long_name = SWE_pataut_monarchy_long
-			name = SWE_pataut_monarchy
+			ideology = futurist
+			long_name = SWE_fut_monarchy_long
+			name = SWE_fut_monarchy
 		}
 		remove_every_minister = yes
 		add_ideas = {

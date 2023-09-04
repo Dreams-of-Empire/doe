@@ -84,7 +84,7 @@ set_stability = 0.1
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = futurist
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
@@ -99,7 +99,7 @@ set_popularities = {
   illuminist = 0
   social_conservative = 5
   paternal = 0
-  paternal_autocrat = 49
+  futurist = 49
   despotist = 18
   revivalist = 0
 }

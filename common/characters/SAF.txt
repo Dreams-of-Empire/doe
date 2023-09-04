@@ -709,7 +709,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_J_G_Strijdom_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_bank_president
 			}
 		}
@@ -964,7 +964,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_F_C_Erasmus_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_man_of_the_people
 			}
 		}
@@ -1234,7 +1234,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		country_leader = {

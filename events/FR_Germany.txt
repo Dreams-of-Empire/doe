@@ -189,7 +189,7 @@ country_event = { # Germany wants to renegotiate Navy
 			factor = 40
 			modifier = {
 				factor = 1.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 1.5
@@ -236,7 +236,7 @@ country_event = { # Germany wants to renegotiate Navy
 			factor = 40
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.5
@@ -418,7 +418,7 @@ country_event = {
 			factor = 40
 			modifier = {
 				factor = 1.25
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 1.25
@@ -473,7 +473,7 @@ country_event = {
 			factor = 40
 			modifier = {
 				factor = 0.75
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.75
@@ -481,7 +481,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.25
@@ -532,7 +532,7 @@ country_event = {
 			factor = 40
 			modifier = {
 				factor = 1.25
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 1.25
@@ -601,7 +601,7 @@ country_event = {
 			factor = 40
 			modifier = {
 				factor = 0.75
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.75
@@ -1147,7 +1147,7 @@ country_event = {
 			factor = 160
 			modifier = {
 				factor = 1.75
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 1.5
@@ -1201,7 +1201,7 @@ country_event = {
 			factor = 40
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.5
@@ -1501,7 +1501,7 @@ country_event = { # German alliance - Poland
 			factor = 40
 			modifier = {
 				factor = 1.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 1.5
@@ -1546,7 +1546,7 @@ country_event = { # German alliance - Poland
 			factor = 40
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.5
@@ -7952,7 +7952,7 @@ country_event = { # Slovakia - German alliance
 			factor = 40
 			modifier = {
 				factor = 1.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 1.5
@@ -7999,7 +7999,7 @@ country_event = { # Slovakia - German alliance
 			factor = 40
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.5
@@ -8623,7 +8623,7 @@ country_event = { # Ukriane - Germany offers alliance
 			factor = 40
 			modifier = {
 				factor = 1.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 1.5
@@ -8670,7 +8670,7 @@ country_event = { # Ukriane - Germany offers alliance
 			factor = 40
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.5
@@ -9362,7 +9362,7 @@ country_event = { # Finland - Germany offers alliance
 			factor = 40
 			modifier = {
 				factor = 1.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 1.5
@@ -9409,7 +9409,7 @@ country_event = { # Finland - Germany offers alliance
 			factor = 40
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.5
@@ -9495,7 +9495,7 @@ country_event = { # Turkey - Germany offers alliance
 			factor = 40
 			modifier = {
 				factor = 1.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 1.5
@@ -9574,7 +9574,7 @@ country_event = { # Turkey - Germany offers alliance
 			factor = 40
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.5
@@ -9761,7 +9761,7 @@ country_event = { # Lithuania - German support?
 			factor = 40
 			modifier = {
 				factor = 1.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 1.5
@@ -9806,7 +9806,7 @@ country_event = { # Lithuania - German support?
 			factor = 40
 			modifier = {
 				factor = 0.5
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			modifier = {
 				factor = 0.5
@@ -11637,7 +11637,7 @@ country_event = { # Italy Capitulates to North Africa
 							has_government = fasci
 							has_government = vanguardist
 							has_government = revivalist
-							has_government = paternal_autocrat
+							has_government = futurist
 							has_government = despotist
 						}
 					}

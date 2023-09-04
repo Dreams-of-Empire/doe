@@ -32,7 +32,7 @@ focus_tree = {
 			add_war_support = 0.01
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 			add_popularity = { ideology = paternal popularity = 0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 		}
 
 	}
@@ -151,7 +151,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPM_government_generals"
 			add_political_power = -20
 			add_war_support = 0.03
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = SPR_pass_civil_war_emergency_idea
 				add_idea = SPR_pass_civil_war_emergency1_idea
@@ -325,7 +325,7 @@ focus_tree = {
 							has_government = collectivist
 							has_government = fasci
 							has_government = paternal
-							has_government = paternal_autocrat
+							has_government = futurist
 							has_government = despotist
 							has_government = revivalist
 						}
@@ -346,7 +346,7 @@ focus_tree = {
 							has_government = collectivist
 							has_government = fasci
 							has_government = paternal
-							has_government = paternal_autocrat
+							has_government = futurist
 							has_government = despotist
 							has_government = revivalist
 						}
@@ -370,7 +370,7 @@ focus_tree = {
 							has_government = collectivist
 							has_government = fasci
 							has_government = paternal
-							has_government = paternal_autocrat
+							has_government = futurist
 							has_government = despotist
 							has_government = revivalist
 						}

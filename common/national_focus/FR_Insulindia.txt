@@ -1691,7 +1691,7 @@ focus_tree = {
 				has_government = social_democrat
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 			}
 		}
@@ -2405,7 +2405,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_ideas = INS_promote_mahaenism_idea
 		}
@@ -3197,7 +3197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = INS_monarchist_counter_coup
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		cost = 5.00
 		prerequisite = {
 			focus = INS_islamic_coup
@@ -3206,7 +3206,7 @@ focus_tree = {
 		y = 3
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -3216,7 +3216,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_monarchist_counter_coup"
 			add_political_power = 20
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 		}
 
 	}
@@ -3231,7 +3231,7 @@ focus_tree = {
 		y = 4
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -3241,7 +3241,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_ensure_sultans_loyalty"
 			add_stability = 0.02
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			add_ideas = INS_ensure_sultans_loyalty_idea
 		}
 
@@ -3257,7 +3257,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -3285,7 +3285,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = despotist
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 		}
 		
@@ -3310,7 +3310,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -3333,9 +3333,9 @@ focus_tree = {
 					name = INS_MAJ_paternal_party 
 				}
 				set_party_name = { 
-					ideology = paternal_autocrat 
-					long_name = INS_MAJ_paternal_autocrat_party_long 
-					name = INS_MAJ_paternal_autocrat_party 
+					ideology = futurist 
+					long_name = INS_MAJ_futurist_party_long 
+					name = INS_MAJ_futurist_party 
 				}
 				set_party_name = { 
 					ideology = despotist 
@@ -3360,7 +3360,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 			controls_state = 335
 		}
 		
@@ -3394,7 +3394,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -3423,7 +3423,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -3450,7 +3450,7 @@ focus_tree = {
 		y = 7
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -3478,7 +3478,7 @@ focus_tree = {
 		y = 8
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -3489,7 +3489,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_majapahit"
 			add_stability = 0.05
 			add_political_power = 25
-			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+			add_popularity = { ideology = futurist popularity = 0.05 }
 			remove_ideas = INS_political_instability_idea
 		}
 

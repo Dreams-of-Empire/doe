@@ -87,7 +87,7 @@ characters = {
 			ideology = paternal_subtype
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 		}
 	}
 	EGL_Charles_III = {

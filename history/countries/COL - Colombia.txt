@@ -68,7 +68,7 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = paternal_autocrat
+	ruling_party = futurist
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = no
@@ -79,7 +79,7 @@ set_popularities = {
   liberal = 7
   social_conservative = 16
   paternal = 2
-  paternal_autocrat = 28
+  futurist = 28
   social_democrat = 6
   fasci = 4
   despotist = 10

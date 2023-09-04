@@ -260,7 +260,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWI_radical_suppression_french"}
 			picture = generic_oppression
 			modifier = {
-        paternal_autocrat_drift = -0.05
+        futurist_drift = -0.05
         drift_defence_factor = 0.20
         political_power_factor = 0.1
         }
@@ -271,7 +271,7 @@ ideas = {
 			picture = generic_oppression
 			modifier = {
         revivalist_drift = -0.05
-        paternal_autocrat_drift = -0.05
+        futurist_drift = -0.05
         drift_defence_factor = 0.40
         political_power_factor = 0.15
         stability_factor = 0.05
@@ -433,7 +433,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWI_FVP_gains_momentum"}
       picture = HUN_treaty_of_triannon
       modifier = {
-        paternal_autocrat_drift = 0.05
+        futurist_drift = 0.05
         political_power_factor = -0.10
         }
 		}

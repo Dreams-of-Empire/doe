@@ -158,7 +158,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Yevhen_Konovalets_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_happy_amateur
 			}
 		}
@@ -677,7 +677,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Pavlo_Skoropadsky_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_happy_amateur
 			}
 		}
@@ -901,7 +901,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Konstantin_Prisovsky_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_general_staffer
 			}
 		}
@@ -928,7 +928,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Yuri_Lipa_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_apologetic_clerk
 			}
 		}
@@ -1225,7 +1225,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Mikola_Lebid_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_silent_lawyer
 			}
 		}
@@ -1441,7 +1441,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Mikola_Stsiborsky_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_imbedded_unioneer
 			}
 		}
@@ -1711,7 +1711,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Sergei_Kubiyovich_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_secret_police_chief
 			}
 		}
@@ -2157,7 +2157,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Andrii_Melnyk_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_determined_populist
 			}
 		}
@@ -2184,7 +2184,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Richard_Yaryi_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_pragmatic_statesman
 			}
 		}
@@ -2211,7 +2211,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Dmytro_Andriievskyi_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_ideological_crusader
 			}
 		}
@@ -2238,7 +2238,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Mykola_Stsiborskyi_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_mixed_economy
 			}
 		}

@@ -1465,7 +1465,7 @@ focus_tree = {
 			add_popularity = { ideology = vanguardist popularity = -0.01 }
 			add_popularity = { ideology = collectivist popularity = -0.01 }
 			add_popularity = { ideology = fasci popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 		}
 
 	}
@@ -1492,7 +1492,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_war_support = 0.05
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 		}
 
 	}
@@ -1619,7 +1619,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_integrate_dutch_into_british"
 			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 			swap_ideas = {
 				remove_idea = BEA_ban_dutch_as_official_language_idea
 				add_idea = BEA_integrate_dutch_into_british_idea
@@ -1737,7 +1737,7 @@ focus_tree = {
 			add_political_power = 20
 			add_stability = 0.02
 			add_war_support = 0.02
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 		}
 
 	}
@@ -1825,7 +1825,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power = -25
 			add_popularity = { ideology = paternal popularity = 0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+			add_popularity = { ideology = futurist popularity = -0.01 }
 			add_popularity = { ideology = despotist popularity = -0.01 }
 		}
 
@@ -1886,7 +1886,7 @@ focus_tree = {
 			add_political_power = 25
 			add_popularity = { ideology = social_conservative popularity = -0.01 }
 			add_popularity = { ideology = paternal popularity = 0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 			add_popularity = { ideology = despotist popularity = -0.01 }
 		}
 
@@ -1914,7 +1914,7 @@ focus_tree = {
 			add_stability = -0.02
 			add_political_power = 50
 			add_popularity = { ideology = paternal popularity = 0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 		}
 
@@ -1967,7 +1967,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_compromice_with_british"
 			add_political_power = 20
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = BEA_disputes_between_british_and_dutch_idea
 				add_idea = BEA_compromice_with_british_idea
@@ -2026,7 +2026,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_stop_britishification"
 			add_stability = 0.02
 			add_political_power = -25
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 		}
 
 	}
@@ -2054,7 +2054,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_tolerate_british_language"
 			add_political_power = 20
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = BEA_compromice_with_british_idea
 				add_idea = BEA_tolerate_british_language_idea
@@ -2174,7 +2174,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_no_compromice_with_british"
 			add_political_power = -20
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = BEA_disputes_between_british_and_dutch_idea
 				add_idea = BEA_no_compromice_with_british_idea
@@ -2206,7 +2206,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_ban_british_language"
 			add_political_power = -20
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = BEA_no_compromice_with_british_idea
 				add_idea = BEA_ban_british_language_idea
@@ -2239,7 +2239,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = -0.02 }
 			add_popularity = { ideology = fasci popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = BEA_ban_british_language_idea
 				add_idea = BEA_campaign_against_dissident_idea
@@ -2271,7 +2271,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = -0.01 }
 			add_popularity = { ideology = fasci popularity = -0.01 }
 			add_popularity = { ideology = paternal popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+			add_popularity = { ideology = futurist popularity = -0.01 }
 			add_popularity = { ideology = despotist popularity = 0.02 }
 		}
 
@@ -2428,7 +2428,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BEA_rise_new_dutch_nation
-		icon = GFX_goal_HOL_pataut_success
+		icon = GFX_goal_HOL_fut_success
 		cost = 8
 		prerequisite = {
 			focus = BEA_outbreeding_tactics

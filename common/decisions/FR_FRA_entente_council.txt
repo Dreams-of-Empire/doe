@@ -363,7 +363,7 @@ FRA_entente_council = {
 					has_government = revivalist
 					has_government = despotist
 					has_government = paternal
-					has_government = paternal_autocrat
+					has_government = futurist
 				}
 				NOT = {
 					is_in_faction_with = FRA

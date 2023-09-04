@@ -1378,7 +1378,7 @@
 		
 		available = {
 			OR = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = paternal
 			}
 			has_completed_focus = SPM_pick_government

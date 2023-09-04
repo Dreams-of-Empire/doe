@@ -72,7 +72,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-add_coalition_paternal_autocrat = yes 
+add_coalition_futurist = yes 
 
 country_event = { id = belarus.0 days = 2 }
 country_event = { id = belarus.1 days = 14 }
@@ -86,7 +86,7 @@ set_popularities = {
   illuminist = 5
   social_conservative = 5
   paternal = 3
-  paternal_autocrat = 15
+  futurist = 15
   despotist = 4
   revivalist = 19
 }

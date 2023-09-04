@@ -69,29 +69,29 @@ SIK_JAP_revivalist: "Ansei Shinsei Daitogo-ryo" #安西神圣大都護领
 SIK_JAP_revivalist_DEF: "The Greater Divine Protectorate of Anxi"
 SIK_JAP_ADJ: "Anxi"
 #### Indochina
-ICR_JAP_paternal_autocrat: "Indoshina Bakufudaikan-tochiku" #印度支那幕府代官統治区
-ICR_JAP_paternal_autocrat_DEF: "The Grand Governing Office of Indochina"
+ICR_JAP_futurist: "Indoshina Bakufudaikan-tochiku" #印度支那幕府代官統治区
+ICR_JAP_futurist_DEF: "The Grand Governing Office of Indochina"
 ICR_JAP_despotist: "Indoshina Sanryoho" #印度支那三領法
 ICR_JAP_despotist_DEF: "The Tri-Domains of Indochina"
 ICR_JAP_revivalist: "Indoshina Jichiryo"
 ICR_JAP_revivalist_DEF: "The Dominion of Indochina"
 #### Laos
-LAO_JAP_paternal_autocrat: "Shichidan Shirokasa Seisho"
-LAO_JAP_paternal_autocrat_DEF: "The Governing Office of White Umbrella State" #七段白傘政所
+LAO_JAP_futurist: "Shichidan Shirokasa Seisho"
+LAO_JAP_futurist_DEF: "The Governing Office of White Umbrella State" #七段白傘政所
 LAO_JAP_despotist: "Raosu Jichikuni"
 LAO_JAP_despotist_DEF: "The Lao Autonomous State" 
 LAO_JAP_revivalist: "Shichidan Shirokasa-shu"
 LAO_JAP_revivalist_DEF: "The Realm of Seven-Tiered White Umbrella" #七段白傘州
 #### Cambodia
-CAM_JAP_paternal_autocrat: "Kanbojia Seisho"
-CAM_JAP_paternal_autocrat_DEF: "The Governing Office of Kampuchea" #七段白傘政所
+CAM_JAP_futurist: "Kanbojia Seisho"
+CAM_JAP_futurist_DEF: "The Governing Office of Kampuchea" #七段白傘政所
 CAM_JAP_despotist: "Kanbojia Jichikuni"
 CAM_JAP_despotist_DEF: "The Kampuchean Autonomous State" 
 CAM_JAP_revivalist: "Sangaku Ōshu Seifu"
 CAM_JAP_revivalist_DEF: "The Funan Royal Authority" #山岳王州政府
 #### Vietnam
-VIN_JAP_paternal_autocrat: "Shizumi-gun Setsudo-shi"
-VIN_JAP_paternal_autocrat_DEF: "The Military Prefecture of Jinghai Army" #静海军节度使
+VIN_JAP_futurist: "Shizumi-gun Setsudo-shi"
+VIN_JAP_futurist_DEF: "The Military Prefecture of Jinghai Army" #静海军节度使
 VIN_JAP_despotist: "Koshi Jichikuni"
 VIN_JAP_despotist_DEF: "The Jiaozhi Autonomous State" 
 VIN_JAP_revivalist: "O-Raku Shu"
@@ -99,8 +99,8 @@ VIN_JAP_revivalist_DEF: "The Realm of Au-Lac"
 #### Mongolia
 MON_JAP: "Mengjiang"
 MON_JAP_DEF: "The Mengjiang United Autonomous Government"
-MON_JAP_paternal_autocrat: "Mongol United Banners"
-MON_JAP_paternal_autocrat_DEF: "The Mongol United Banners"
+MON_JAP_futurist: "Mongol United Banners"
+MON_JAP_futurist_DEF: "The Mongol United Banners"
 MON_JAP_revivalist: "Reihoku-jichisho"
 MON_JAP_revivalist_DEF: "The Lingbei Autonomous Province" 
 #### India

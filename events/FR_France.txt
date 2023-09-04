@@ -300,7 +300,7 @@ country_event = { #1936 election
 		name = fra.8.g
     set_country_flag = FRA_1936_elections
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
 		set_country_flag = fra_mil_dic
@@ -412,7 +412,7 @@ country_event = { #death of the third republic
 		name = fra.12.a
 		increase_ruling_party_popularity_by_10 = yes
 		set_party_name = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			long_name = "Government of National Unity"
 			name = "National Committee"
 		}
@@ -452,7 +452,7 @@ country_event = { #Petain's power is questioned
       character = FRA_Charles_Maurras
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }
@@ -499,7 +499,7 @@ country_event = { #restoration of the monarchy
 	option = {
 		name = fra.14.a
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.15
 		}
 		remove_every_minister = yes
@@ -514,7 +514,7 @@ country_event = { #restoration of the monarchy
       character = FRA_Jean_III
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }
@@ -813,7 +813,7 @@ country_event = {
 			NOT = {
 				controls_state = 747
 				controls_state = 28
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			has_capitulated = no
 		}
@@ -829,7 +829,7 @@ country_event = {
 		name = fra.22.a
 		add_political_power = -100
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 		}
 		remove_every_minister = yes
 		add_ideas = {
@@ -857,7 +857,7 @@ country_event = {
 		FRA = {
 			has_capitulated = no
 		}
-		has_government = paternal_autocrat
+		has_government = futurist
 		has_country_flag = fra_junta_incoming
 	}
 
@@ -2190,7 +2190,7 @@ country_event = {
 	option = {
 		name = fra.61.a
 		set_party_name = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			long_name = "Action Française"
 			name = "AF"
 		}
@@ -4189,7 +4189,7 @@ country_event = { #event after the 2GW between FRA and GER is over
 			has_war = no
 			is_puppet = no
 			NOT = {
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 		}
 		GER = {

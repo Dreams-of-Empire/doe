@@ -93,7 +93,7 @@ country_event = { #Party Merger - March 14 1936
 				illuminist = 0
 				social_conservative = 47
 				paternal = 0
-				paternal_autocrat = 12
+				futurist = 12
 				despotist = 14
 				revivalist = 4
 			}
@@ -482,7 +482,7 @@ country_event = { #GG Patrick Duncan
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = paternal_autocrat_subtype
+					ideology = futurist_subtype
 					traits = {}
 				}
 			}
@@ -502,7 +502,7 @@ country_event = { #GG Patrick Duncan
 			}
 		}
 		add_popularity = {
-			ideology = paternal_autocrat popularity = 0.05
+			ideology = futurist popularity = 0.05
 		}			
 		add_stability = -0.1
 		hidden_effect = {
@@ -590,7 +590,7 @@ country_event = { #GG Hertzog
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = paternal_autocrat_subtype
+            ideology = futurist_subtype
             traits = {}
           }
         }
@@ -946,7 +946,7 @@ country_event = { #1937 Election - ANC Victory
 				illuminist = 0
 				social_conservative = 21
 				paternal = 0
-				paternal_autocrat = 5
+				futurist = 5
 				despotist = 13
 				revivalist = 5
 			}
@@ -987,7 +987,7 @@ country_event = { #1937 Election - United Victory
 				illuminist = 0
 				social_conservative = 51
 				paternal = 0
-				paternal_autocrat = 12
+				futurist = 12
 				despotist = 15
 				revivalist = 7
 			}
@@ -1037,7 +1037,7 @@ country_event = { #1937 Election - PNP Victory
 				illuminist = 0
 				social_conservative = 20
 				paternal = 0
-				paternal_autocrat = 15
+				futurist = 15
 				despotist = 40
 				revivalist = 10
 			}	
@@ -1148,7 +1148,7 @@ country_event = { #3-way tie (idk if this is even possible)
     			illuminist = 0
     			social_conservative = 33
     			paternal = 0
-    			paternal_autocrat = 10
+    			futurist = 10
     			despotist = 20
     			revivalist = 3
 			}
@@ -1179,7 +1179,7 @@ country_event = { #3-way tie (idk if this is even possible)
     			illuminist = 0
     			social_conservative = 34
     			paternal = 0
-    			paternal_autocrat = 10
+    			futurist = 10
     			despotist = 20
     			revivalist = 3
 			}
@@ -1216,7 +1216,7 @@ country_event = { #3-way tie (idk if this is even possible)
     			illuminist = 0
     			social_conservative = 33
     			paternal = 0
-    			paternal_autocrat = 10
+    			futurist = 10
     			despotist = 21
     			revivalist = 3
 			}
@@ -1258,7 +1258,7 @@ country_event = { #ANC-PNP tie
 				illuminist = 0
 				social_conservative = 27
 				paternal = 0
-				paternal_autocrat = 10
+				futurist = 10
 				despotist = 20
 				revivalist = 6
 			}
@@ -1289,7 +1289,7 @@ country_event = { #ANC-PNP tie
 				illuminist = 0
 				social_conservative = 27
 				paternal = 0
-				paternal_autocrat = 10
+				futurist = 10
 				despotist = 21
 				revivalist = 6
 			}
@@ -1331,7 +1331,7 @@ country_event = { #ANC-United tie
 				illuminist = 0
 				social_conservative = 36
 				paternal = 0
-				paternal_autocrat = 5
+				futurist = 5
 				despotist = 19
 				revivalist = 3
 			}
@@ -1362,7 +1362,7 @@ country_event = { #ANC-United tie
 				illuminist = 0
 				social_conservative = 37
 				paternal = 0
-				paternal_autocrat = 5
+				futurist = 5
 				despotist = 19
 				revivalist = 3
 			}
@@ -1410,7 +1410,7 @@ country_event = { #United-PNP tie
 				illuminist = 0
 				social_conservative = 37
 				paternal = 0
-				paternal_autocrat = 10
+				futurist = 10
 				despotist = 20
 				revivalist = 6
 			}
@@ -1447,7 +1447,7 @@ country_event = { #United-PNP tie
 				illuminist = 0
 				social_conservative = 36
 				paternal = 0
-				paternal_autocrat = 10
+				futurist = 10
 				despotist = 21
 				revivalist = 6
 			}
@@ -2292,7 +2292,7 @@ country_event = { #A storm is coming
 		NOT = { 
 			has_country_flag = boer_rising
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist 
 			has_government = revivalist
 		}
@@ -2546,7 +2546,7 @@ country_event = { #ANC Boer War
 		NOT = { 
 			has_country_flag = boer_rising
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist 
 			has_government = revivalist
 		}
@@ -2674,7 +2674,7 @@ country_event = { #Union & Federation Boer War
 			has_country_flag = boer_rising
 			has_country_flag = transvaal_autonomy
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist 
 			has_government = revivalist
 		}
@@ -3364,7 +3364,7 @@ country_event = { #ZAF Victory
           illuminist = 0
           social_conservative = 0
           paternal = 20
-          paternal_autocrat = 25
+          futurist = 25
           despotist = 25
           revivalist = 30
 				}

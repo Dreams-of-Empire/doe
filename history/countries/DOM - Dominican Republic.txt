@@ -16,7 +16,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = futurist
 	last_election = "1934.5.16"
 	election_frequency = 48
 	elections_allowed = no
@@ -31,7 +31,7 @@ set_popularities = {
   illuminist = 10
   social_conservative = 22
   paternal = 0
-  paternal_autocrat = 56
+  futurist = 56
   despotist = 0
   revivalist = 10
 }

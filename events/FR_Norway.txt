@@ -230,7 +230,7 @@ country_event = {
 		ai_chance = { base = 55 }
 		add_political_power = -20
 		add_stability = -0.02
-		add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+		add_popularity = { ideology = futurist popularity = 0.03 }
 	}
 	
 	option = {
@@ -238,7 +238,7 @@ country_event = {
 		ai_chance = { base = 45 }
 		add_political_power = -40
 		add_stability = -0.04
-		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+		add_popularity = { ideology = futurist popularity = 0.01 }
 		add_popularity = { ideology = fasci popularity = -0.01 }
 	}
 }
@@ -491,7 +491,7 @@ add_popularity = {
 	ideology = collectivist popularity = 0.01
 }
 add_popularity = {
-	ideology = paternal_autocrat popularity = 0.02
+	ideology = futurist popularity = 0.02
 }
 add_popularity = {
 	ideology = despotist popularity = 0.02
@@ -575,7 +575,7 @@ country_event = {
 		add_political_power = -100
 		add_popularity = { ideology = collectivist popularity = -0.02 }
 		add_popularity = { ideology = fasci popularity = -0.05 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+		add_popularity = { ideology = futurist popularity = 0.03 }
 		add_popularity = { ideology = despotist popularity = 0.03 }
 		add_popularity = { ideology = revivalist popularity = 0.03 }
 		set_country_flag = NOR_mass_protest_far_right_flag
@@ -602,7 +602,7 @@ country_event = {
 		name = nor.17.a
 		add_political_power = -50
 		add_popularity = { ideology = fasci popularity = -0.04 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+		add_popularity = { ideology = futurist popularity = 0.02 }
 		add_popularity = { ideology = despotist popularity = 0.02 }
 		add_popularity = { ideology = revivalist popularity = 0.02 }
 		add_ideas = NOR_military_deserters_idea
@@ -629,7 +629,7 @@ country_event = {
 		name = nor.18.a
 		add_political_power = -20
 		add_popularity = { ideology = fasci popularity = -0.02 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+		add_popularity = { ideology = futurist popularity = 0.01 }
 		add_popularity = { ideology = despotist popularity = 0.01 }
 		add_popularity = { ideology = revivalist popularity = 0.01 }
 		add_ideas = NOR_naval_deserters_idea
@@ -717,7 +717,7 @@ country_event = {
 		set_politics = {
 			ruling_party = despotist elections_allowed = no
 		}
-		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+		add_popularity = { ideology = futurist popularity = 0.05 }
 		add_popularity = { ideology = despotist popularity = 0.05 }
 		add_popularity = { ideology = revivalist popularity = 0.05 }
 		remove_every_minister = yes
@@ -738,7 +738,7 @@ country_event = {
 		remove_coalition_collectivist = yes 
 		add_coalition_social_conservative = yes 
 		add_coalition_revivalist = yes 
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		
 		custom_effect_tooltip  = NOR_allow_nationalist_generals_tooltip
 		hidden_effect = {
@@ -797,7 +797,7 @@ country_event = {
 		}
 		set_country_flag = NOR_hoyre_victory_flag
 		
-		remove_coalition_paternal_autocrat = yes 
+		remove_coalition_futurist = yes 
 		remove_coalition_revivalist = yes
 		hidden_effect = {
 			set_country_flag = NOR_democracy_survives_flag
@@ -810,9 +810,9 @@ country_event = {
 		ai_chance = { base = 35 }
 		add_ideas = absolute_monarchy
 		set_politics = {
-			ruling_party = paternal_autocrat elections_allowed = no
+			ruling_party = futurist elections_allowed = no
 		}
-		add_popularity = { ideology = paternal_autocrat popularity = 0.20 }
+		add_popularity = { ideology = futurist popularity = 0.20 }
 		remove_every_minister = yes
 		add_ideas = {
 			NOR_Gulbrand_Lunde_hog_pau:
@@ -830,7 +830,7 @@ country_event = {
 				character = NOR_Ragnvald_Hvoslef
 				promote_leader = yes
 				country_leader = {
-					ideology = paternal_autocrat_subtype
+					ideology = futurist_subtype
 					traits = {}
 				}
 			}
@@ -950,7 +950,7 @@ country_event = {
 		name = nor.25.a
 		add_political_power = 50
 		add_popularity = { ideology = fasci popularity = 0.05 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+		add_popularity = { ideology = futurist popularity = -0.04 }
 		add_popularity = { ideology = despotist popularity = -0.04 }
 		add_popularity = { ideology = revivalist popularity = -0.04 }
 		set_country_flag = NOR_victory_against_samfundsvernet_flag
@@ -981,7 +981,7 @@ country_event = {
 	option = {
 		name = nor.26.a
 		add_political_power = 50
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		add_popularity = { ideology = despotist popularity = -0.02 }
 		add_popularity = { ideology = revivalist popularity = -0.02 }
 		remove_ideas = NOR_military_deserters_idea
@@ -1103,7 +1103,7 @@ country_event = {
 			character = NOR_Olav_V
 			promote_leader = yes
 			country_leader = {
-				ideology = paternal_autocrat_subtype
+				ideology = futurist_subtype
 				traits = {}
 			}
 		}
@@ -1131,7 +1131,7 @@ country_event = {
 				character = NOR_HM_King_Haakon_VII
 				promote_leader = yes
 				country_leader = {
-					ideology = paternal_autocrat_subtype
+					ideology = futurist_subtype
 					traits = {}
 				}
 			}
@@ -1155,7 +1155,7 @@ country_event = {
 		add_political_power = 10
 		add_popularity = { ideology = despotist popularity = 0.08 }
 		add_popularity = { ideology = revivalist popularity = -0.04 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+		add_popularity = { ideology = futurist popularity = -0.04 }
 		remove_ideas_with_trait = foreign_minister
 		remove_ideas_with_trait = security_minister
 		add_ideas = NOR_Albert_Viljam_Hagelin_for_pau
@@ -1254,7 +1254,7 @@ country_event = {
 		}
 		add_popularity = { ideology = illuminist popularity = 0.10 }
 		add_popularity = { ideology = paternal popularity = 0.20 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
+		add_popularity = { ideology = futurist popularity = -0.20 }
 		remove_every_minister = yes
 		add_ideas = {
 			NOR_Carl_Joachim_Hambro_hog_mli
@@ -1262,7 +1262,7 @@ country_event = {
 			NOR_Axel_Aubert_eco_ade
 			NOR_Per_von_Hirsch_sec_pau
 		}
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		add_coalition_illuminist = yes 
 		hidden_effect = {
 			add_country_leader_role = {
@@ -1285,7 +1285,7 @@ country_event = {
 			ruling_party = paternal elections_allowed = no
 		}
 		add_popularity = { ideology = paternal popularity = 0.20 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
+		add_popularity = { ideology = futurist popularity = -0.20 }
 		remove_every_minister = yes
 		add_ideas = {
 			NOR_Johan_Bernhard_Hjort_hog_ade
@@ -1293,7 +1293,7 @@ country_event = {
 			NOR_Eivind_Blehr_eco_pau
 			NOR_Ragnar_Skancke_sec_ade
 		}
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_Olav_V
@@ -1311,7 +1311,7 @@ country_event = {
 		ai_chance = { base = 50 }
 		add_ideas = absolute_monarchy
 		add_political_power = -10
-		add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+		add_popularity = { ideology = futurist popularity = 0.03 }
 	}
 }
 
@@ -5158,7 +5158,7 @@ country_event = {
 		}
 		add_popularity = { ideology = illuminist popularity = 0.10 }
 		add_popularity = { ideology = paternal popularity = 0.20 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
+		add_popularity = { ideology = futurist popularity = -0.20 }
 		remove_every_minister = yes
 		add_ideas = {
 			NOR_Carl_Joachim_Hambro_hog_mli
@@ -5167,7 +5167,7 @@ country_event = {
 			NOR_Per_von_Hirsch_sec_pau
 		}
 		remove_coalition_social_conservative = yes 
-		add_coalition_paternal_autocrat = yes
+		add_coalition_futurist = yes
 		add_coalition_illuminist = yes 
 		hidden_effect = {
 			add_country_leader_role = {
@@ -5191,7 +5191,7 @@ country_event = {
 		}
 		add_popularity = { ideology = social_conservative popularity = 0.10 }
 		add_popularity = { ideology = paternal popularity = 0.20 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
+		add_popularity = { ideology = futurist popularity = -0.20 }
 		remove_every_minister = yes
 		add_ideas = {
 			NOR_Jens_Hundseid_hog_sco
@@ -5200,7 +5200,7 @@ country_event = {
 			NOR_Ivar_Kirkeby_Garstad_sec_sco
 		}
 		remove_coalition_illuminist = yes 
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		add_coalition_social_conservative = yes 
 		hidden_effect = {
 			add_country_leader_role = {
@@ -5223,7 +5223,7 @@ country_event = {
 			ruling_party = paternal elections_allowed = no
 		}
 		add_popularity = { ideology = paternal popularity = 0.20 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
+		add_popularity = { ideology = futurist popularity = -0.20 }
 		remove_every_minister = yes 
 		add_ideas = {
 			NOR_Carl_Gulbranson_hog_ade
@@ -5233,7 +5233,7 @@ country_event = {
 		}
 		remove_coalition_illuminist = yes 
 		remove_coalition_social_conservative = yes 
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_Olav_V
@@ -5251,9 +5251,9 @@ country_event = {
 		ai_chance = { base = 45 }
 		add_political_power = -10
 		set_politics = {
-			ruling_party = paternal_autocrat elections_allowed = no
+			ruling_party = futurist elections_allowed = no
 		}
-		add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
+		add_popularity = { ideology = futurist popularity = 0.10 }
 		add_popularity = { ideology = paternal popularity = -0.10 }
 		remove_every_minister = yes
 		add_ideas = {
@@ -5262,7 +5262,7 @@ country_event = {
 			NOR_Axel_Aubert_eco_ade
 			NOR_Arnvid_Vasbotten_sec_npo
 		}
-		remove_coalition_paternal_autocrat = yes 
+		remove_coalition_futurist = yes 
 		add_coalition_paternal = yes
 		hidden_effect = {
 			add_country_leader_role = {

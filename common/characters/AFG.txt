@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -132,7 +132,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Mohammed_Daoud_Khan_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_mixed_economy
 			}
 		}
@@ -386,7 +386,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Inayatullah_Khan_Seraj_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_pragmatic_statesman
 			}
 		}
@@ -494,7 +494,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Haji_Faiz_Muhammed_Zikeria_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_iron_fisted_brute
 			}
 		}
@@ -751,7 +751,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Ghulam_Faruq_Usman_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_man_of_the_people
 			}
 		}

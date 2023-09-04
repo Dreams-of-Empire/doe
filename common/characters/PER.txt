@@ -287,7 +287,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Hasan_Arfa_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_secret_police_chief
 			}
 		}
@@ -599,7 +599,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Ahmad_Matin_Daftari_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_naive_optimist
 			}
 		}
@@ -896,7 +896,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Ali_Soheili_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_relations_expert
 			}
 		}
@@ -923,7 +923,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Nasrollah_Entezam_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_general_staffer
 			}
 		}
@@ -942,7 +942,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Nasrollah_Entezam_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_back_stabber
 			}
 		}
@@ -1158,7 +1158,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Mahmoud_Modir_al_Molk_Djam_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_mixed_economy
 			}
 		}
@@ -1188,7 +1188,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Sepahbod_Ahmad_Amir_Ahmadi_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_resource_industrialist
 			}
 		}

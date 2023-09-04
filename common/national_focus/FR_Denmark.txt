@@ -1492,7 +1492,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_weaken_monarchs_power"
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 			swap_ideas = {
 				remove_idea = DEN_danish_republicanism_idea
 				add_idea = DEN_weaken_monarchs_power_idea
@@ -2384,7 +2384,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = paternal popularity = 0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 		}
 
 	}
@@ -2452,7 +2452,7 @@ focus_tree = {
 	# Monarchist, ported from FR_Denmark_Monarchist
 		focus = {
 		id = DEN_lyksborg_coup
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		cost = 5.00
 		x = 32
 		y = 0
@@ -2503,7 +2503,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_return_of_king"
 			add_stability = 0.10
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 		}
 
 	}
@@ -2559,7 +2559,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_alliance_with_church"
 			add_stability = 0.03
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 		}
 
@@ -3549,7 +3549,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_trial_against_lyksborg"
 			add_stability = -0.02
 			add_political_power = -30
-			add_popularity = { ideology = paternal_autocrat popularity = -0.06 }
+			add_popularity = { ideology = futurist popularity = -0.06 }
 			swap_ideas = {
 				remove_idea = DEN_danish_monarchism_idea
 				add_idea = DEN_trial_against_lyksborg_idea
@@ -3650,7 +3650,7 @@ focus_tree = {
 			add_political_power = 25
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			add_popularity = { ideology = paternal popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+			add_popularity = { ideology = futurist popularity = -0.01 }
 			swap_ideas = {
 				remove_idea = DEN_strengthen_republican_sentiments_idea
 				add_idea = DEN_liberties_for_danish_people_idea
@@ -4043,7 +4043,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_trial_against_lyksborg"
 			add_stability = -0.04
 			add_political_power = -50
-			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+			add_popularity = { ideology = futurist popularity = -0.04 }
 			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = illuminist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }

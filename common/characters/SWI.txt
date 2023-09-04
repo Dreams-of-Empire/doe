@@ -38,7 +38,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		corps_commander = {
@@ -895,7 +895,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Franz_Burri_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_local_tyrant
 			}
 		}
@@ -1171,7 +1171,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Jacob_Lorenz_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_ideological_crusader
 			}
 		}
@@ -1495,7 +1495,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Hans_Oehler_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_devoted_monopoly_buster
 			}
 		}

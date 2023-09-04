@@ -146,9 +146,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = pataut_warlordism_subtype
+			has_country_leader_ideology = fut_warlordism_subtype
 		}
-		localization_key = pataut_warlordism_subtype
+		localization_key = fut_warlordism_subtype
 	}
 	text = {
 		trigger = {
@@ -272,9 +272,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = pataut_legionarism_subtype
+			has_country_leader_ideology = fut_legionarism_subtype
 		}
-		localization_key = pataut_legionarism_subtype
+		localization_key = fut_legionarism_subtype
 	}
 	text = {
 		trigger = {
@@ -475,9 +475,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = paternal_autocrat_subtype
+			has_country_leader_ideology = futurist_subtype
 		}
-		localization_key = paternal_autocrat
+		localization_key = futurist
 	}
 	text = {
 		trigger = {
@@ -626,9 +626,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = pataut_warlordism_subtype
+			has_country_leader_ideology = fut_warlordism_subtype
 		}
-		localization_key = pataut_warlordism_subtype
+		localization_key = fut_warlordism_subtype
 	}
 	text = {
 		trigger = {
@@ -752,9 +752,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = pataut_legionarism_subtype
+			has_country_leader_ideology = fut_legionarism_subtype
 		}
-		localization_key = pataut_legionarism_subtype
+		localization_key = fut_legionarism_subtype
 	}
 	text = {
 		trigger = {
@@ -1039,9 +1039,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = pataut_warlordism_subtype
+			has_country_leader_ideology = fut_warlordism_subtype
 		}
-		localization_key = pataut_warlordism_subtype_desc
+		localization_key = fut_warlordism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1171,9 +1171,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = pataut_legionarism_subtype
+			has_country_leader_ideology = fut_legionarism_subtype
 		}
-		localization_key = pataut_legionarism_subtype_desc
+		localization_key = fut_legionarism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1375,9 +1375,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = paternal_autocrat_subtype
+			has_country_leader_ideology = futurist_subtype
 		}
-		localization_key = paternal_autocrat_subtype_desc
+		localization_key = futurist_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1525,9 +1525,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = pataut_warlordism_subtype
+			has_country_leader_ideology = fut_warlordism_subtype
 		}
-		localization_key = pataut_warlordism_subtype_desc
+		localization_key = fut_warlordism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1657,9 +1657,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = pataut_legionarism_subtype
+			has_country_leader_ideology = fut_legionarism_subtype
 		}
-		localization_key = pataut_legionarism_subtype_desc
+		localization_key = fut_legionarism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1928,22 +1928,22 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = paternal_autocrat_subtype
+				has_country_leader_ideology = futurist_subtype
 				has_country_leader_ideology = absolute_mon_subtype
 				has_country_leader_ideology = pat_duumvirism_subtype
 				has_country_leader_ideology = samurai_dictatorship_subtype	
 				has_country_leader_ideology = junta_subtype
 				has_country_leader_ideology = autocratic_colonial_govt_subtype
-				has_country_leader_ideology = pataut_warlordism_subtype
+				has_country_leader_ideology = fut_warlordism_subtype
 				has_country_leader_ideology = caudillo_populism_subtype
 				has_country_leader_ideology = corporatocracy_subtype
-				has_country_leader_ideology = pataut_legionarism_subtype
+				has_country_leader_ideology = fut_legionarism_subtype
 				has_country_leader_ideology = ukrainian_nationalism_subtype
 				has_country_leader_ideology = revolution_nationale_subtype
 				has_country_leader_ideology = theocracy_subtype
 				}
 			}
-			localization_key = paternal_autocrat_color
+			localization_key = futurist_color
 		}
 	text = {
 		trigger = {
@@ -2024,9 +2024,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = paternal_autocrat_subtype
+			has_country_leader_ideology = futurist_subtype
 		}
-		localization_key = paternal_autocrat_subtype_desc
+		localization_key = futurist_subtype_desc
 	}
 	text = {
 		trigger = {

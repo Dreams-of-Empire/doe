@@ -1059,7 +1059,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Panteleimon_Rozhnovsky_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_backroom_backstabber
 			}
 		}
@@ -1086,7 +1086,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Ivan_Jermachenka_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_respected_war_hero
 			}
 		}
@@ -1105,7 +1105,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Ivan_Jermachenka_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_great_compromiser
 			}
 		}
@@ -1132,7 +1132,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Anton_Adamovic_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_infantry_proponent
 			}
 		}
@@ -1149,7 +1149,7 @@ characters = {
 		}
 		country_leader = {
 			desc = LEADER_STANISLAW_BULAK_BALACHOWICZ_DESC
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = {
 				the_otaman
 			}
@@ -1473,7 +1473,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Francisak_Kusal_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_efficient_sociopath
 			}
 		}

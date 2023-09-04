@@ -378,7 +378,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Ruben_Piedrahita_Arango_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_old_compromiser
 			}
 		}
@@ -767,7 +767,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Julio_Cesar_Turbay_Ayala_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1141,7 +1141,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Gabriel_Paris_Gordillo_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1549,7 +1549,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Alfredo_Vazquez_Carrizosa_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_compassionate_gentleman
 			}
 		}
@@ -1647,7 +1647,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 	}

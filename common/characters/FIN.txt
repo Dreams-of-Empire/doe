@@ -161,7 +161,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -179,7 +179,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Vihtori_Kosola_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_efficient_sociopath
 			}
 		}
@@ -1044,7 +1044,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Rafael_Erich_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_corporate_suit
 			}
 		}
@@ -1314,7 +1314,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Kaarle_Nestor_Rantakari_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_great_compromiser
 			}
 		}
@@ -1341,7 +1341,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Paavo_Hynninen_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_relations_expert
 			}
 		}
@@ -1784,7 +1784,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Karl_Alfred_Paloheimo_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_steel_magnate
 			}
 		}
@@ -2081,7 +2081,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Hjalmar_Procope_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_man_of_the_people
 			}
 		}

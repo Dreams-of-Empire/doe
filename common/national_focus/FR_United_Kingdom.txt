@@ -594,7 +594,7 @@ focus_tree = {
 		icon = GFX_goal_GBR_fate_of_unions
 		available = {
       has_capitulated = no
-      has_government = paternal_autocrat
+      has_government = futurist
 		}
 		prerequisite = { focus = ENG_absolutism }
     relative_position_id = ENG_absolutism
@@ -615,7 +615,7 @@ focus_tree = {
 		icon = GFX_goal_collaborate_local_elites
 		available = {
       has_capitulated = no
-      has_government = paternal_autocrat
+      has_government = futurist
 		}
 		prerequisite = { focus = ENG_absolutism }
     relative_position_id = ENG_absolutism
@@ -637,7 +637,7 @@ focus_tree = {
 		icon = GFX_focus_eng_imperial_federation
 		available = {
       has_capitulated = no
-      has_government = paternal_autocrat
+      has_government = futurist
 		}
 		prerequisite = { focus = ENG_fate_unions }
     relative_position_id = ENG_fate_unions
@@ -659,7 +659,7 @@ focus_tree = {
 		icon = GFX_goal_conscription
 		available = {
       has_capitulated = no
-      has_government = paternal_autocrat
+      has_government = futurist
 		}
 		prerequisite = { 
 			focus = ENG_fate_unions
@@ -684,7 +684,7 @@ focus_tree = {
 		icon = GFX_focus_eng_the_kings_party
 		available = {
       has_capitulated = no
-      has_government = paternal_autocrat
+      has_government = futurist
 		}
 		prerequisite = { focus = ENG_aristocracy }
     relative_position_id = ENG_aristocracy
@@ -706,7 +706,7 @@ focus_tree = {
 		icon = GFX_goal_british_monarchy
 		available = {
       has_capitulated = no
-      has_government = paternal_autocrat
+      has_government = futurist
 		}
 		prerequisite = { focus = ENG_faith_nation }
 		prerequisite = { focus = ENG_household_guard }
@@ -2186,7 +2186,7 @@ focus_tree = {
       custom_trigger_tooltip = { 
         tooltip = ENG_has_austerity_politics 
         OR = {
-          has_government = paternal_autocrat
+          has_government = futurist
           has_government = paternal
           AND = {
             has_government = social_conservative
@@ -2437,7 +2437,7 @@ focus_tree = {
       custom_trigger_tooltip = { 
         tooltip = ENG_has_lfaire_politics
         OR = {
-          has_government = paternal_autocrat
+          has_government = futurist
           has_government = paternal
           AND = {
             has_government = social_conservative

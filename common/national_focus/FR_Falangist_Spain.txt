@@ -383,7 +383,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power = -20
 			add_popularity = { ideology = paternal popularity = -0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 			if = {
 				limit = {
 					has_idea = SPR_civil_war_recovery_idea
@@ -689,7 +689,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPF_pasify_traditionalists"
 			add_manpower = -2000
-			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+			add_popularity = { ideology = futurist popularity = -0.04 }
 		}
 
 	}
@@ -902,9 +902,9 @@ focus_tree = {
 			add_war_support = 0.02
 			increase_ruling_party_popularity_by_5 = yes
 			set_party_name = {
-				ideology = paternal_autocrat
-				long_name = SPF_pataut_one_party_long
-				name = SPF_pataut_one_party
+				ideology = futurist
+				long_name = SPF_fut_one_party_long
+				name = SPF_fut_one_party
 			}
 			set_party_name = {
 				ideology = despotist
@@ -993,7 +993,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPF_spanish_nationalist_rule
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		cost = 5.00
 		prerequisite = {
 			focus = SPF_internal_struggle
@@ -1002,7 +1002,7 @@ focus_tree = {
 		y = 4
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_country_flag = SPF_spanish_nationalist_rule_flag
 		}
 		
@@ -1013,7 +1013,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPF_spanish_nationalist_rule"
 			add_political_power = 25
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 		}
 
 	}
@@ -1028,7 +1028,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -1052,7 +1052,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -1063,7 +1063,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPF_nationalist_kingdom"
 			add_stability = 0.03
 			add_war_support = 0.03
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 		}
 
 	}
@@ -1081,7 +1081,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -1116,7 +1116,7 @@ focus_tree = {
 		y = 7
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -1147,7 +1147,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -1180,7 +1180,7 @@ focus_tree = {
 		y = 7
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -1190,7 +1190,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPF_settle_line_succession"
 			add_stability = 0.05
-			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+			add_popularity = { ideology = futurist popularity = 0.05 }
 		}
 
 	}
@@ -1205,7 +1205,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -1232,7 +1232,7 @@ focus_tree = {
 		y = 7
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -1264,7 +1264,7 @@ focus_tree = {
 		y = 8
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -1276,7 +1276,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_war_support = 0.02
 			add_research_slot = 1
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
@@ -1298,7 +1298,7 @@ focus_tree = {
 		y = 8
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {
@@ -1313,7 +1313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPF_religion_patria_y_monarquia
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		cost = 5.00
 		prerequisite = {
 			focus = SPF_defender_faith
@@ -1325,7 +1325,7 @@ focus_tree = {
 		y = 9
 		
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		
 		ai_will_do = {

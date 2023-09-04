@@ -615,7 +615,7 @@ SPM_foreign_policy = {
 		available = {
 			has_country_flag = SPM_government_picked_flag
 			OR = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = paternal
 			}
 			has_army_manpower = {
@@ -1117,7 +1117,7 @@ SPF_foreign_policy = {
 			}
 			OR = {
 				AND = {
-					has_government = paternal_autocrat
+					has_government = futurist
 					threat > 0.80
 				}
 				AND = {
@@ -1129,7 +1129,7 @@ SPF_foreign_policy = {
 					threat > 0.30
 				}
 				AND = {
-					has_government = paternal_autocrat
+					has_government = futurist
 					is_neighbor_of = SOV
 					threat > 0.40
 				}

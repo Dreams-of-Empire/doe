@@ -41,7 +41,7 @@ leader_traits = {
 	illuminist = {}
 	social_conservative = {}
 	paternal = {}
-	paternal_autocrat = {}
+	futurist = {}
 	despotist = {}
 	revivalist = {}
 

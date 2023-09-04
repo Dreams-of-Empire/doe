@@ -542,7 +542,7 @@ country_event = { # Scouts Expel Protesters in Mendiola
       set_country_flag = PHI_farmers_expelled
       if = {
         limit = {
-          NOT = { has_government = paternal_autocrat }
+          NOT = { has_government = futurist }
         }
         country_event = { id = philippines.25 days = 12 }
       }
@@ -681,7 +681,7 @@ country_event = { # Opening of the Campaign Season
 
   trigger = {
     NOT = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
   }
 
@@ -2787,7 +2787,7 @@ country_event = { # President Quezon Assassinated
     set_country_flag = PHI_junta_in_control
     mark_focus_tree_layout_dirty = yes
     set_politics = {
-      ruling_party = paternal_autocrat
+      ruling_party = futurist
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_20 = yes

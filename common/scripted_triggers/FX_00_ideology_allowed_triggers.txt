@@ -46,7 +46,7 @@ liberal_allowed = {
 		has_government = illuminist
 		has_government = social_conservative
 		has_government = paternal
-		has_government = paternal_autocrat
+		has_government = futurist
 	}
 }
 
@@ -57,7 +57,7 @@ illuminist_allowed = {
 		has_government = illuminist
 		has_government = social_conservative
 		has_government = paternal
-		has_government = paternal_autocrat
+		has_government = futurist
 	}
 }
 
@@ -68,7 +68,7 @@ social_conservative_allowed = {
 		has_government = illuminist
 		has_government = social_conservative
 		has_government = paternal
-		has_government = paternal_autocrat
+		has_government = futurist
 		has_government = despotist
 		has_government = revivalist
 	}
@@ -79,17 +79,17 @@ paternal_allowed = {
 		has_government = illuminist
 		has_government = social_conservative
 		has_government = paternal
-		has_government = paternal_autocrat
+		has_government = futurist
 		has_government = despotist
 		has_government = revivalist
 	}
 }
 
-paternal_autocrat_allowed = {
+futurist_allowed = {
 	OR = {
 		has_government = social_conservative
 		has_government = paternal
-		has_government = paternal_autocrat
+		has_government = futurist
 		has_government = despotist
 		has_government = revivalist
 	}
@@ -98,7 +98,7 @@ paternal_autocrat_allowed = {
 despotist_allowed = {
 	OR = {
 		has_government = paternal
-		has_government = paternal_autocrat
+		has_government = futurist
 		has_government = despotist
 		has_government = revivalist
 	}
@@ -107,7 +107,7 @@ despotist_allowed = {
 revivalist_allowed = {
 	OR = {
 		has_government = paternal
-		has_government = paternal_autocrat
+		has_government = futurist
 		has_government = despotist
 		has_government = revivalist
 	}

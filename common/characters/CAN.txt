@@ -748,7 +748,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Henry_Crerar_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_old_general
 			}
 		}
@@ -1146,7 +1146,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Howard_Charles_Green_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_relations_expert
 			}
 		}
@@ -1470,7 +1470,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Lloyd_Samuel_Breadner_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_steel_magnate
 			}
 		}

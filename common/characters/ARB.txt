@@ -52,7 +52,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Abd_al_Ilah_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_charismatic_charmer
 			}
 		}
@@ -543,7 +543,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Sheikh_Salih_al_Rajihi_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_resource_industrialist
 			}
 		}

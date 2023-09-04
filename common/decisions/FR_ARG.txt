@@ -222,7 +222,7 @@ SAM_SCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
  		visible = { 
@@ -241,7 +241,7 @@ SAM_SCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
 		fire_only_once = yes
@@ -390,7 +390,7 @@ SAM_SCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
  		visible = { 
@@ -409,7 +409,7 @@ SAM_SCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
 		fire_only_once = yes
@@ -561,7 +561,7 @@ SAM_SCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
  		visible = { 
@@ -580,7 +580,7 @@ SAM_SCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
 		fire_only_once = yes
@@ -768,7 +768,7 @@ SAM_BCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
  		visible = { 
@@ -784,7 +784,7 @@ SAM_BCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
 		fire_only_once = yes
@@ -917,7 +917,7 @@ SAM_BCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
  		visible = { 
@@ -933,7 +933,7 @@ SAM_BCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
 		fire_only_once = yes
@@ -1070,7 +1070,7 @@ SAM_BCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
  		visible = { 
@@ -1086,7 +1086,7 @@ SAM_BCW_matters = {
  	 		OR = {
  	 			has_government = revivalist
  	 			has_government = despotist
- 	 			has_government = paternal_autocrat
+ 	 			has_government = futurist
  	 		}
  		}
 		fire_only_once = yes

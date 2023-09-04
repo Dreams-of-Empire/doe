@@ -54,7 +54,7 @@ country_event = { #LEC rally
 	option = {
 		name = bra.3.a
 		add_popularity = {
-			ideology = paternal_autocrat popularity = 0.05
+			ideology = futurist popularity = 0.05
 			}
 		hidden_effect = {
 			country_event = { days = 28 id = bra.4}
@@ -253,7 +253,7 @@ country_event = { #Populist movements unite against government
 		name = bra.12.a
 		add_political_power = -60
 		add_popularity = {
-			ideology = paternal_autocrat popularity = 0.025
+			ideology = futurist popularity = 0.025
 			}
 		add_popularity = {
 			ideology = revivalist popularity = 0.025

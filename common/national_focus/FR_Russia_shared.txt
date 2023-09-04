@@ -1401,7 +1401,7 @@ shared_focus = {
                     has_government = despotist
                     has_government = paternal
                     has_government = social_democrat
-                    has_government = paternal_autocrat
+                    has_government = futurist
                 }
             }
             country_event = rusfor.1

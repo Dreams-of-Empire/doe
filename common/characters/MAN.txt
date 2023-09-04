@@ -156,7 +156,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -826,7 +826,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Sun_Qichang_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_great_compromiser
 			}
 		}
@@ -844,7 +844,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Sun_Qichang_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_bank_president
 			}
 		}
@@ -878,7 +878,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Wang_Yintai_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_general_staffer
 			}
 		}
@@ -1000,7 +1000,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Tang_Yulin_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_infantry_proponent
 			}
 		}
@@ -1018,7 +1018,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Tang_Yulin_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_prince_of_terror
 			}
 		}
@@ -1044,7 +1044,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Yuan_Jinkai_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_administrative_genius
 			}
 		}
@@ -1062,7 +1062,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Yuan_Jinkai_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_crooked_kleptocrat
 			}
 		}

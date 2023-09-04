@@ -318,7 +318,7 @@ NFA = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		paternal_autocrat = {
+		futurist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_4.png"
@@ -446,7 +446,7 @@ NFQ = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		paternal_autocrat = {
+		futurist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_4.png"
@@ -578,7 +578,7 @@ ETH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		paternal_autocrat = {
+		futurist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_4.png"
@@ -710,7 +710,7 @@ IVO = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		paternal_autocrat = {
+		futurist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_4.png"
@@ -842,7 +842,7 @@ DAH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		paternal_autocrat = {
+		futurist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_4.png"
@@ -974,7 +974,7 @@ TOG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		paternal_autocrat = {
+		futurist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_4.png"
@@ -1106,7 +1106,7 @@ VOL = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		paternal_autocrat = {
+		futurist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_4.png"
@@ -1238,7 +1238,7 @@ COG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		paternal_autocrat = {
+		futurist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_1.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_4.png"

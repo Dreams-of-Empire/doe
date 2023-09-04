@@ -148,7 +148,7 @@ FIN_foreign_policy = {
 				has_country_flag = FIN_foreign_anti_sovietism_flag
 				has_government = revivalist
 				has_government = despotist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = social_conservative
 			}
 		}
@@ -208,7 +208,7 @@ FIN_foreign_policy = {
 				has_country_flag = FIN_foreign_anti_sovietism_flag
 				has_government = revivalist
 				has_government = despotist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = social_conservative
 			}
 		}

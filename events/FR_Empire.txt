@@ -1103,7 +1103,7 @@ country_event = {			# - Notification on Imperial Foreign Policy
 				add = 50
 			}
 			modifier = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				add = 50
 			}
 			modifier = {
@@ -1166,7 +1166,7 @@ country_event = {			# - Notification on Imperial Foreign Policy
 				add = -50
 			}
 			modifier = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				add = -50
 			}
 			modifier = {
@@ -1247,7 +1247,7 @@ country_event = {			# - Reaction to Irish Issue
 				add = 50
 			}
 			modifier = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				add = 50
 			}
 			modifier = {
@@ -1307,7 +1307,7 @@ country_event = {			# - Reaction to Irish Issue
 				add = -50
 			}
 			modifier = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				add = -50
 			}
 			modifier = {
@@ -1331,7 +1331,7 @@ country_event = {			# - Reaction to Political Change in UK
 	immediate = {log = "[GetDateText]: [Root.GetName]: event empire.3"}
 	title = {
 		trigger = {
-			ENG = { has_government = paternal_autocrat }
+			ENG = { has_government = futurist }
 		}
 		text = "King Edward VIII dissolves Parliament"
 	}
@@ -1343,7 +1343,7 @@ country_event = {			# - Reaction to Political Change in UK
 	}
 	desc = {
 		trigger = {
-			ENG = { has_government = paternal_autocrat }
+			ENG = { has_government = futurist }
 		}
 		text = empire.3a.d
 	}
@@ -1375,7 +1375,7 @@ country_event = {			# - Reaction to Political Change in UK
 				add = -50
 			}
 			modifier = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				add = -50
 			}
 			modifier = {
@@ -1442,7 +1442,7 @@ country_event = {			# - Reaction to Political Change in UK
 				add = 50
 			}
 			modifier = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				add = 50
 			}
 			modifier = {

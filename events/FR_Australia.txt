@@ -43,7 +43,7 @@ country_event = { # King George is Dead
 		name = australia.1.a
 		add_stability = -0.02
 		add_popularity = { ideology = collectivist popularity = 0.01 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+		add_popularity = { ideology = futurist popularity = 0.01 }
 		add_popularity = { ideology = despotist popularity = 0.01 }
 	}
 }
@@ -891,13 +891,13 @@ country_event = { # New Guard Coup
 
 		add_political_power = -200
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
 		add_country_leader_role = {
 			character = AST_Thomas_Blamey
 			promote_leader = yes
-			country_leader = { ideology = paternal_autocrat_subtype }
+			country_leader = { ideology = futurist_subtype }
 		}
 		
 		activate_advisor = AST_Eric_Campbell_hog_pau
@@ -1300,13 +1300,13 @@ country_event = { # New Guard Coup
 
 		add_political_power = -200
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
 		add_country_leader_role = {
 			character = AST_Thomas_Blamey
 			promote_leader = yes
-			country_leader = { ideology = paternal_autocrat_subtype }
+			country_leader = { ideology = futurist_subtype }
 		}
 		
 		activate_advisor = AST_Eric_Campbell_hog_pau
@@ -1647,7 +1647,7 @@ country_event = { # The Dissolution Of The New Guard
 			retire_character = AST_Thomas_Blamey
 		}
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = -0.05
 		}
 	}

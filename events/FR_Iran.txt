@@ -114,7 +114,7 @@ country_event = {
         character = PER_Haj_Ali_Razmara
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -170,7 +170,7 @@ country_event = {
     option = {
         name = iran.5.a
 		add_stability = -0.05
-		add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
+		add_popularity = { ideology = futurist popularity = -0.05 }
 		hidden_effect = {
 			country_event = {
 				id = iran.6 days = 5
@@ -234,7 +234,7 @@ country_event = {
         name = iran.7.a
 		ai_chance = { base = 50 }
 		add_stability = -0.05
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		hidden_effect = {
 			country_event = {
 				id = iran.8 days = 10
@@ -248,7 +248,7 @@ country_event = {
         name = iran.7.b
 		ai_chance = { base = 50 }
 		add_stability = -0.03
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		hidden_effect = {
 			country_event = {
 				id = iran.11 days = 5
@@ -286,7 +286,7 @@ country_event = {
         name = iran.8.b
 		ai_chance = { base = 40 }
 		add_stability = -0.03
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		hidden_effect = {
 			country_event = {
 				id = iran.14 days = 15
@@ -332,7 +332,7 @@ country_event = {
     option = {
         name = iran.10.a
 		add_stability = -0.05
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		hidden_effect = {
 			country_event = {
 				id = iran.11 days = 5
@@ -387,7 +387,7 @@ country_event = {
 		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = social_democrat popularity = 0.03 }
 		add_popularity = { ideology = liberal popularity = 0.02 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.10 }
+		add_popularity = { ideology = futurist popularity = -0.10 }
 		set_country_flag = PER_republic_flag
 		
 		add_coalition_collectivist = yes 
@@ -411,7 +411,7 @@ country_event = {
         name = iran.12.b
 		ai_chance = { base = 50 }
 		add_stability = 0.05
-		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+		add_popularity = { ideology = futurist popularity = 0.05 }
 		add_popularity = { ideology = social_democrat popularity = -0.02 }
 		add_popularity = { ideology = liberal popularity = -0.02 }
 		set_country_flag = PER_military_flag
@@ -425,7 +425,7 @@ country_event = {
         character = PER_Mohammad_Reza
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -495,7 +495,7 @@ country_event = {
         name = iran.16.a
 		ai_chance = { base = 50 }
 		add_stability = 0.05
-		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+		add_popularity = { ideology = futurist popularity = 0.05 }
 		add_popularity = { ideology = social_democrat popularity = -0.02 }
 		add_popularity = { ideology = liberal popularity = -0.02 }
 		set_country_flag = PER_military_flag
@@ -506,7 +506,7 @@ country_event = {
         character = PER_Mohammad_Reza
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -517,7 +517,7 @@ country_event = {
     name = iran.16.b
 		ai_chance = { base = 50 }
 		add_stability = 0.05
-		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+		add_popularity = { ideology = futurist popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
 		add_popularity = { ideology = despotist popularity = -0.02 }
 		set_country_flag = PER_military_flag
@@ -528,7 +528,7 @@ country_event = {
         character = PER_Hasan_Arfa
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -609,7 +609,7 @@ country_event = {
         name = iran.19.a
 		ai_chance = { base = 50 }
 		add_stability = 0.05
-		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+		add_popularity = { ideology = futurist popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
 		add_popularity = { ideology = despotist popularity = -0.02 }
 		set_country_flag = PER_military_flag
@@ -621,7 +621,7 @@ country_event = {
         character = PER_Hasan_Arfa
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -638,7 +638,7 @@ country_event = {
 		add_popularity = { ideology = social_conservative popularity = 0.02 }
 		add_popularity = { ideology = despotist popularity = 0.08 }
 		add_popularity = { ideology = revivalist popularity = 0.08 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.15 }
+		add_popularity = { ideology = futurist popularity = -0.15 }
 		set_country_flag = PER_nationalist_flag
 		
 		add_coalition_revivalist = yes 
@@ -746,7 +746,7 @@ country_event = {
         name = iran.23.b
 		ai_chance = { base = 50 }
 		add_stability = -0.04
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		hidden_effect = {
 			country_event = {
 				id = iran.25 days = 5
@@ -1265,7 +1265,7 @@ country_event = {
 	option = {
 		name = iran.117.a
 		add_popularity = { ideology = social_democrat popularity = -0.01 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+		add_popularity = { ideology = futurist popularity = 0.01 }
 	}
 }
 
@@ -1326,7 +1326,7 @@ country_event = {
 	option = {
 		name = iran.120.a
 		add_popularity = { ideology = social_conservative popularity = -0.01 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+		add_popularity = { ideology = futurist popularity = 0.01 }
 	}
 }
 
@@ -1393,10 +1393,10 @@ country_event = {
 		}
 		add_popularity = { ideology = fasci popularity = 0.04 }
 		add_popularity = { ideology = social_democrat popularity = 0.06 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.25 }
+		add_popularity = { ideology = futurist popularity = -0.25 }
 		
 		add_coalition_fasci = yes
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		
 		hidden_effect = {
       add_country_leader_role = {
@@ -1418,10 +1418,10 @@ country_event = {
 			ruling_party = liberal elections_allowed = no
 		}
 		add_popularity = { ideology = liberal popularity = 0.10 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.25 }
+		add_popularity = { ideology = futurist popularity = -0.25 }
 		
 		add_coalition_social_democrat = yes 
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		
 		hidden_effect = {
 			add_country_leader_role = {
@@ -1455,10 +1455,10 @@ country_event = {
 			ruling_party = illuminist elections_allowed = no
 		}
 		add_popularity = { ideology = illuminist popularity = 0.10 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.25 }
+		add_popularity = { ideology = futurist popularity = -0.25 }
 		
 		add_coalition_social_conservative = yes 
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		
 		hidden_effect = {
 			add_country_leader_role = {
@@ -1481,10 +1481,10 @@ country_event = {
 		}
 		add_popularity = { ideology = social_conservative popularity = 0.06 }
 		add_popularity = { ideology = paternal popularity = 0.04 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.25 }
+		add_popularity = { ideology = futurist popularity = -0.25 }
 		
 		add_coalition_paternal = yes 
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		
 		hidden_effect = {
 			add_country_leader_role = {

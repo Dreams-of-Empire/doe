@@ -52,7 +52,7 @@ country_event = { #Resignation of Prince Fumimaro
 		name = jap_shogun.2.b
 		custom_effect_tooltip = "Prince Kuniyuki's been appointed the presidency"
 		add_popularity = {
-			ideology = paternal_autocrat 
+			ideology = futurist 
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -210,14 +210,14 @@ country_event = { #Political Turmoil
 			popularity = 0.1
 		}
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.1
 		}
 		set_temp_variable = { coalition_partner_var = token:despotist }
 		add_to_coalition = yes 
 		set_temp_variable = { coalition_partner_var = token:revivalist }
 		add_to_coalition = yes 
-		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+		set_temp_variable = { coalition_partner_var = token:futurist }
 		add_to_coalition = yes 
 		set_party_name = {
 			ideology = authoritarian_democrat
@@ -307,9 +307,9 @@ country_event = { #Political Turmoil
 				name = JAP_despotist_party_shogun
 			}
 			set_party_name = {
-				ideology = paternal_autocrat
-				long_name = JAP_paternal_autocrat_party_shogun_long
-				name = JAP_paternal_autocrat_party_shogun
+				ideology = futurist
+				long_name = JAP_futurist_party_shogun_long
+				name = JAP_futurist_party_shogun
 			}
 		}
 	}
@@ -602,14 +602,14 @@ country_event = { #Unbelievable Situation - Fate of Daijo-Kan
 	name = jap_shogun.16.a
 		clr_country_flag = JAP_Tri_Edo_Commissioner
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.37
 		}
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
-			long_name = JAP_Shogun_New_paternal_autocrat_party_long
-			name = JAP_Shogun_New_paternal_autocrat_party
+			long_name = JAP_Shogun_New_futurist_party_long
+			name = JAP_Shogun_New_futurist_party
 		}
 		set_cosmetic_tag = JAP_Shogunate_Kuniyuki
 		set_country_flag = JAP_sgrp_foreign_unlock
@@ -701,7 +701,7 @@ country_event = { #Unbelievable Situation - Southern Emperor Proclamation / No D
 	option = {
 		name = "Everything under chaotic situation, only monk stills alive"
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.2
 		}
 		clr_country_flag = JAP_Shogun_Regime
@@ -709,10 +709,10 @@ country_event = { #Unbelievable Situation - Southern Emperor Proclamation / No D
 		clr_country_flag = LEADER_GUI_VISIBLE
 		clr_country_flag = JAP_Tri_Edo_Commissioner
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
-			long_name = JAP_Southern_Court_paternal_autocrat_party_long
-			name = JAP_Southern_Court_paternal_autocrat_party
+			long_name = JAP_Southern_Court_futurist_party_long
+			name = JAP_Southern_Court_futurist_party
 		}
 		set_country_flag = JAP_southern_court_stepped_in
 		set_cosmetic_tag = JAP_Kumazawa_cosmetic

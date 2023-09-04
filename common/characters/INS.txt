@@ -356,7 +356,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Abdul_Kahar_Muzakkar_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -378,7 +378,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -396,7 +396,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Hamengkubuwono_IX_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_silent_workhorse
 			}
 		}
@@ -423,7 +423,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Sekarmadji_Kartosoewirjo_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_local_tyrant
 			}
 		}
@@ -720,7 +720,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Albertus_Sugiyapranata_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_apologetic_clerk
 			}
 		}
@@ -747,7 +747,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Ipik_Gandamana_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_great_compromiser
 			}
 		}
@@ -774,7 +774,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Isa_Anshari_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_great_compromiser
 			}
 		}
@@ -1125,7 +1125,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Ibnu_Hadjar_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_imbedded_unioneer
 			}
 		}
@@ -1152,7 +1152,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Ignatius_J_Kasimo_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_the_minister_for_everything
 			}
 		}
@@ -1179,7 +1179,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Mangkunegara_VIII_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_corrupt_kleptocrat
 			}
 		}
@@ -1206,7 +1206,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Prawoto_Mangkusasmito_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_construction_magnate
 			}
 		}
@@ -1427,7 +1427,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Ki_Bagus_Hadikusumo_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_great_soul
 			}
 		}
@@ -1454,7 +1454,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Paku_Alam_VIII_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_driven_recruiter
 			}
 		}
@@ -1481,7 +1481,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Tirto_Adhi_Suryo_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_crime_fighter
 			}
 		}

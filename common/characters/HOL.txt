@@ -99,7 +99,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Jan_Baars_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_relations_expert
 			}
 		}
@@ -118,7 +118,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Jan_Baars_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_infantry_proponent
 			}
 		}
@@ -172,7 +172,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Henri_Johannes_ter_Hal_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_administrative_genius
 			}
 		}
@@ -253,7 +253,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Frederik_Carel_Gerretson_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_man_of_the_people
 			}
 		}
@@ -280,7 +280,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Johannes_Linthorst_Homan_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_prince_of_terror
 			}
 		}
@@ -519,7 +519,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_PRINCE_BERNHARD_DESC"
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = {
 				prince_of_the_people
 			}

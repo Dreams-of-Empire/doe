@@ -2335,18 +2335,18 @@ country_event = { # Nat Italy - France ultimatum
 		#opinion_modifier
 		add_ideas = constitutional_monarchy
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.4
 		}
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
 		add_country_leader_role = {
       character = ITA_Amadeo_di_Savoia_Aosta
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }
@@ -14615,7 +14615,7 @@ country_event = {
 		trigger = {
 			OR = {
 				has_government = revivalist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = paternal
 				has_government = revivalist
 				has_government = illuminist

@@ -146,7 +146,7 @@ focus_tree = {
 
 	focus = {	
 		id = SOV_purge_opposition 
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		available = {
 		}
 		prerequisite = { 

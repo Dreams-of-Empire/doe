@@ -89,7 +89,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_propaganda_campaigns"
 			add_popularity = {
 				popularity = 0.05
-				ideology = paternal_autocrat
+				ideology = futurist
 			}
 		} 
 	}
@@ -2514,7 +2514,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_push_against_reactionaries"
 			add_popularity = { 
-				ideology = paternal_autocrat
+				ideology = futurist
 				popularity = -0.05
 			}
 			add_popularity = { 
@@ -3001,7 +3001,7 @@ focus_tree = {
 				popularity = -0.025
 			}
 			add_popularity = { 
-				ideology = paternal_autocrat
+				ideology = futurist
 				popularity = -0.025
 			}
 		} 
@@ -3380,7 +3380,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = CZE_junta_persists
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		
 		ai_will_do = { factor = 50 } 
 		

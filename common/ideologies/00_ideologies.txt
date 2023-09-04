@@ -200,12 +200,12 @@ ideologies = {
 			marlib_venizelism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_MARKET_LIBERAL_1"
-			"FACTION_NAME_MARKET_LIBERAL_2"
-			"FACTION_NAME_MARKET_LIBERAL_3"
-			"FACTION_NAME_MARKET_LIBERAL_4"
-			"FACTION_NAME_MARKET_LIBERAL_5"
-			"FACTION_NAME_MARKET_LIBERAL_6"
+			"FACTION_NAME_ILLUMINIST_1"
+			"FACTION_NAME_ILLUMINIST_2"
+			"FACTION_NAME_ILLUMINIST_3"
+			"FACTION_NAME_ILLUMINIST_4"
+			"FACTION_NAME_ILLUMINIST_5"
+			"FACTION_NAME_ILLUMINIST_6"
 		}
 		color = { 255 216 0 }
 		rules = {
@@ -284,12 +284,12 @@ ideologies = {
 			pat_christian_democracy_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+			"FACTION_NAME_PATERNAL_1"
+			"FACTION_NAME_PATERNAL_2"
+			"FACTION_NAME_PATERNAL_3"
+			"FACTION_NAME_PATERNAL_4"
+			"FACTION_NAME_PATERNAL_5"
+			"FACTION_NAME_PATERNAL_6"
 		}
 		color = { 95 95 95 } #110 110 110 is original
 		rules = {
@@ -311,29 +311,29 @@ ideologies = {
 		#can_be_boosted = no
 	}
 	
-	paternal_autocrat = {
+	futurist = {
 		types = {
-			paternal_autocrat_subtype = {}
+			futurist_subtype = {}
 			absolute_mon_subtype = { can_be_randomly_selected = no }
 			pat_duumvirism_subtype = { can_be_randomly_selected = no }
 			samurai_dictatorship_subtype = { can_be_randomly_selected = no }
 			junta_subtype = { can_be_randomly_selected = no }
 			autocratic_colonial_govt_subtype = { can_be_randomly_selected = no }
-			pataut_warlordism_subtype = { can_be_randomly_selected = no }
+			fut_warlordism_subtype = { can_be_randomly_selected = no }
 			caudillo_populism_subtype = { can_be_randomly_selected = no }
 			corporatocracy_subtype = { can_be_randomly_selected = no }
-			pataut_legionarism_subtype = { can_be_randomly_selected = no }
+			fut_legionarism_subtype = { can_be_randomly_selected = no }
 			ukrainian_nationalism_subtype = { can_be_randomly_selected = no }
 			revolution_nationale_subtype = { can_be_randomly_selected = no }
 			theocracy_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_PATERNAL_AUTOCRAT_1"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_2"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_3"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_4"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_5"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_6"
+			"FACTION_NAME_FUTURIST_1"
+			"FACTION_NAME_FUTURIST_2"
+			"FACTION_NAME_FUTURIST_3"
+			"FACTION_NAME_FUTURIST_4"
+			"FACTION_NAME_FUTURIST_5"
+			"FACTION_NAME_FUTURIST_6"
 		}
 		color = { 40 40 40 } #45 45 45
 		rules = {
@@ -366,12 +366,12 @@ ideologies = {
 			falangism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_NATIONAL_POPULIST_1"
-			"FACTION_NAME_NATIONAL_POPULIST_2"
-			"FACTION_NAME_NATIONAL_POPULIST_3"
-			"FACTION_NAME_NATIONAL_POPULIST_4"
-			"FACTION_NAME_NATIONAL_POPULIST_5"
-			"FACTION_NAME_NATIONAL_POPULIST_6"
+			"FACTION_NAME_DESPOTIST_1"
+			"FACTION_NAME_DESPOTIST_2"
+			"FACTION_NAME_DESPOTIST_3"
+			"FACTION_NAME_DESPOTIST_4"
+			"FACTION_NAME_DESPOTIST_5"
+			"FACTION_NAME_DESPOTIST_6"
 		}
 		color = { 94 50 11 } #142 57 0 is original
 		rules = {

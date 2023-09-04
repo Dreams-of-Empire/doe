@@ -154,13 +154,13 @@ country_event = {
 	option = {
 		name = mex.5.a
 
-		custom_effect_tooltip = MEX_pataut_tt
+		custom_effect_tooltip = MEX_fut_tt
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.25
 		}
 		remove_every_minister = yes
@@ -219,7 +219,7 @@ country_event = {
 		name = mex.6.a
 		hidden_effect = {
 			add_popularity = { 
-				ideology = paternal_autocrat 
+				ideology = futurist 
 				popularity = 0.15
 			}
 		}

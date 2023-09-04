@@ -47,7 +47,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 	}
@@ -525,7 +525,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Georges_Vasili_Matchabelli_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_naive_optimist
 			}
 		}

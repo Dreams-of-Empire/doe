@@ -10,7 +10,7 @@ remove_all_country_leader_roles = {
 	remove_country_leader_role_illuminist = yes
 	remove_country_leader_role_social_conservative = yes
 	remove_country_leader_role_paternal = yes
-	remove_country_leader_role_paternal_autocrat = yes
+	remove_country_leader_role_futurist = yes
 	remove_country_leader_role_despotist = yes
 	remove_country_leader_role_revivalist = yes
 }
@@ -271,13 +271,13 @@ remove_country_leader_role_paternal = {
 	}
 }
 
-remove_country_leader_role_paternal_autocrat = {
+remove_country_leader_role_futurist = {
 	if = {
-		limit = { has_ideology_group = paternal_autocrat }
+		limit = { has_ideology_group = futurist }
 		
 		if = {
-			limit = { has_ideology = paternal_autocrat_subtype }
-			remove_country_leader_role = { ideology = paternal_autocrat_subtype }
+			limit = { has_ideology = futurist_subtype }
+			remove_country_leader_role = { ideology = futurist_subtype }
 		}
 		else_if = {
 			limit = { has_ideology = absolute_mon_subtype }
@@ -300,8 +300,8 @@ remove_country_leader_role_paternal_autocrat = {
 			remove_country_leader_role = { ideology = autocratic_colonial_govt_subtype }
 		}
 		else_if = {
-			limit = { has_ideology = pataut_warlordism_subtype }
-			remove_country_leader_role = { ideology = pataut_warlordism_subtype }
+			limit = { has_ideology = fut_warlordism_subtype }
+			remove_country_leader_role = { ideology = fut_warlordism_subtype }
 		}
 		else_if = {
 			limit = { has_ideology = caudillo_populism_subtype }
@@ -312,8 +312,8 @@ remove_country_leader_role_paternal_autocrat = {
 			remove_country_leader_role = { ideology = corporatocracy_subtype }
 		}
 		else_if = {
-			limit = { has_ideology = pataut_legionarism_subtype }
-			remove_country_leader_role = { ideology = pataut_legionarism_subtype }
+			limit = { has_ideology = fut_legionarism_subtype }
+			remove_country_leader_role = { ideology = fut_legionarism_subtype }
 		}
 		else_if = {
 			limit = { has_ideology = ukrainian_nationalism_subtype }

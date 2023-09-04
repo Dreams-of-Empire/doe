@@ -1571,7 +1571,7 @@ FRA_foreign_policy = {
 		available = {
 			original_tag = FRA
 			FRA = {
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			BEL = {
 				exists = yes
@@ -1662,7 +1662,7 @@ FRA_foreign_policy = {
 			TUR = {
 				is_in_faction_with = GER
 				OR = {
-					has_government = paternal_autocrat
+					has_government = futurist
 					has_government = despotist
 					has_government = paternal
 				}
@@ -1724,7 +1724,7 @@ FRA_foreign_policy = {
 				FRA = {
 					OR = {
 						has_government = paternal
-						has_government = paternal_autocrat
+						has_government = futurist
 					}
 				}
 				factor = 10
@@ -1808,7 +1808,7 @@ FRA_foreign_policy = {
 				exists = yes
 				is_puppet = no
 				has_capitulated = no
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 			LUX = {
 				exists = yes

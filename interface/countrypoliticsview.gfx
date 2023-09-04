@@ -521,8 +521,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/paternal_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_paternal_autocrat_group"
-		texturefile = "gfx/interface/ideologies/paternal_autocrat_group.png"
+		name = "GFX_ideology_futurist_group"
+		texturefile = "gfx/interface/ideologies/futurist_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_despotist_group"

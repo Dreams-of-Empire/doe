@@ -362,7 +362,7 @@ ideas = {
 			picture = JAP_Shogun_Loyalty
 			allowed = { original_tag = JAP }
 			modifier = {
-				paternal_autocrat_drift = 0.02
+				futurist_drift = 0.02
 				send_volunteer_size = 2
 				non_core_manpower = 0.1
 				operative_death_on_capture_chance = 0.2
@@ -516,7 +516,7 @@ ideas = {
 			available = {
 				OR = {
 					has_democratic_government = yes
-					has_government = paternal_autocrat
+					has_government = futurist
 					has_government = despotist
 					has_government = revivalist
 				}

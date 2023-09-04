@@ -154,7 +154,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -186,7 +186,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Pyotr_Wrangel_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -1551,7 +1551,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Lev_N_Gumilov_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_corporate_suit
 			}
 		}
@@ -1578,7 +1578,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Regency_Council_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_silent_workhorse
 			}
 		}
@@ -2091,7 +2091,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Alexei_A_Ignatiev_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_general_staffer
 			}
 		}
@@ -2118,7 +2118,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Boris_V_Sturmer_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_iron_fisted_brute
 			}
 		}
@@ -2631,7 +2631,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Nikanor_V_Savic_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_industrial_chemist
 			}
 		}
@@ -2658,7 +2658,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Nikolai_A_Maklakov_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_construction_magnate
 			}
 		}
@@ -3063,7 +3063,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Aleksandr_P_Balk_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_man_of_the_people
 			}
 		}
@@ -3090,7 +3090,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Nikolai_P_Vladimir_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_efficient_sociopath
 			}
 		}
@@ -3117,7 +3117,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Pyotr_Krasnov_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_crooked_kleptocrat
 			}
 		}
@@ -3144,7 +3144,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vladimir_Malyshkin_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_secret_police_chief
 			}
 		}

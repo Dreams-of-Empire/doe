@@ -221,7 +221,7 @@ foreign_politics = {
               illuminist = 3
               social_conservative = 0
               paternal = 0
-              paternal_autocrat = 10
+              futurist = 10
               despotist = 0
               revivalist = 0
           }

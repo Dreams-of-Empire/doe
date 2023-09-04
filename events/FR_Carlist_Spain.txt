@@ -214,7 +214,7 @@ country_event = {
 		hidden_effect = {
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			add_popularity = { ideology = paternal popularity = 0.04 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 		}
 	}
 }
@@ -238,7 +238,7 @@ country_event = {
 		add_ideas = SPR_civil_war_recovery_idea
 		hidden_effect = {
 			load_focus_tree = FR_Falangist_Spain
-			add_popularity = { ideology = paternal_autocrat popularity = -0.06 }
+			add_popularity = { ideology = futurist popularity = -0.06 }
 			add_popularity = { ideology = despotist popularity = -0.08 }
 			add_popularity = { ideology = revivalist popularity = -0.04 }
     set_capital = { state = 41 }
@@ -336,7 +336,7 @@ country_event = {
 		add_stability = -0.03
 		add_political_power = -20
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+			add_popularity = { ideology = futurist popularity = -0.04 }
 			add_popularity = { ideology = despotist popularity = -0.04 }
 			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
@@ -579,7 +579,7 @@ country_event = {
 		name = carspain.105.a
 		add_political_power = -50
 		add_stability = -0.08
-		add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+		add_popularity = { ideology = futurist popularity = -0.03 }
 		hidden_effect = {
 			country_event = { id = carspain.106 days = 5 }
 		}
@@ -603,7 +603,7 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = SPF_internal_struggle_over_flag
 			set_country_flag = SPF_phalanx_secures_power_flag
-			set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+			set_temp_variable = { coalition_partner_var = token:futurist }
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:revivalist }
 			remove_from_coalition = yes 
@@ -626,7 +626,7 @@ country_event = {
 	option = {
 		name = carspain.107.a
 		add_stability = -0.04
-		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+		add_popularity = { ideology = futurist popularity = 0.02 }
 		hidden_effect = {
 			country_event = { id = carspain.108 days = 5 }
 		}
@@ -707,17 +707,17 @@ country_event = {
 		name = carspain.109.a
 		add_stability = 0.05
 		set_politics = {
-			ruling_party = paternal_autocrat elections_allowed = no
+			ruling_party = futurist elections_allowed = no
 		}
 		hidden_effect = {
 			set_country_flag = SPF_internal_struggle_over_flag
 			set_country_flag = SPF_spanish_nationalist_rule_flag
-			set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+			set_temp_variable = { coalition_partner_var = token:futurist }
 			remove_from_coalition = yes  
 			set_temp_variable = { coalition_partner_var = token:revivalist }
 			remove_from_coalition = yes 
 			add_popularity = { ideology = despotist popularity = -0.05 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+			add_popularity = { ideology = futurist popularity = 0.05 }
 		}
 	}
 }
@@ -814,7 +814,7 @@ country_event = {
 			set_country_flag = SPF_phalanx_secures_power_flag
 			set_temp_variable = { coalition_partner_var = token:revivalist }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+			set_temp_variable = { coalition_partner_var = token:futurist }
 			remove_from_coalition = yes 
 			add_popularity = { ideology = despotist popularity = -0.05 }
 			add_popularity = { ideology = revivalist popularity = 0.05 }
@@ -879,7 +879,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = paternal_autocrat_subtype
+						ideology = futurist_subtype
 						traits = {}
 					}
 				}
@@ -945,7 +945,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = paternal_autocrat_subtype
+						ideology = futurist_subtype
 						traits = {}
 					}
 				}

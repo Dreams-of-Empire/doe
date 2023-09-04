@@ -330,7 +330,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -375,7 +375,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -418,7 +418,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -473,7 +473,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -505,7 +505,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -535,7 +535,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -585,7 +585,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -631,7 +631,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -676,7 +676,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -719,7 +719,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -774,7 +774,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -808,7 +808,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -851,7 +851,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -906,7 +906,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -973,7 +973,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -1014,7 +1014,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -1058,7 +1058,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -1122,9 +1122,9 @@ country_event = {
         name = denmark.30.a
 		add_stability = 0.10
 		set_politics = {
-			ruling_party = paternal_autocrat elections_allowed = no
+			ruling_party = futurist elections_allowed = no
 		}
-		add_popularity = { ideology = paternal_autocrat popularity = 0.30 }
+		add_popularity = { ideology = futurist popularity = 0.30 }
 		add_popularity = { ideology = collectivist popularity = -0.01 }
 		add_popularity = { ideology = fasci popularity = -0.04 }
 		add_popularity = { ideology = social_democrat popularity = -0.12 }
@@ -1188,7 +1188,7 @@ country_event = {
 	trigger = {
 		tag = DEN
 		OR = {
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = paternal
 		}
 	}
@@ -1196,7 +1196,7 @@ country_event = {
 	option = {
 		name = denmark.31.a
 		add_stability = -0.02
-		add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+		add_popularity = { ideology = futurist popularity = -0.03 }
 		add_ideas = DEN_naval_desertion_idea
 		hidden_effect = {
 		}
@@ -1215,7 +1215,7 @@ country_event = {
 	trigger = {
 		tag = DEN
 		OR = {
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = paternal
 		}
 	}
@@ -1244,7 +1244,7 @@ country_event = {
 	trigger = {
 		tag = DEN
 		OR = {
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = paternal
 		}
 		NOT = {
@@ -1261,7 +1261,7 @@ country_event = {
 		add_popularity = { ideology = collectivist popularity = 0.10 }
 		add_popularity = { ideology = fasci popularity = 0.10 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.15 }
+		add_popularity = { ideology = futurist popularity = -0.15 }
 		set_country_flag = DEN_danish_revolution_flag
 		custom_effect_tooltip = DEN_danish_revolution_tooltip
 		hidden_effect = {
@@ -1323,7 +1323,7 @@ country_event = {
 	option = {
 		name = denmark.34.a
 		add_stability = -0.03
-		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+		add_popularity = { ideology = futurist popularity = 0.02 }
 		add_popularity = { ideology = despotist popularity = 0.03 }
 		custom_effect_tooltip = DEN_nationalist_march_warning_tooltip
 		add_ideas = DEN_danish_monarchism_idea
@@ -1403,7 +1403,7 @@ country_event = {
 		add_popularity = { ideology = despotist popularity = 0.05 }
 		add_popularity = { ideology = collectivist popularity = -0.02 }
 		add_popularity = { ideology = fasci popularity = -0.02 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		hidden_effect = {
 			country_event = { id = denmark.37 days = 3 }
 		}
@@ -1476,7 +1476,7 @@ country_event = {
 			set_temp_variable = { coalition_partner_var = token:revivalist }
 			add_to_coalition = yes 
 			add_popularity = { ideology = revivalist popularity = -0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 			set_party_name = { 
 				ideology = revivalist 
 				long_name = DEN_revivalist_desp_party_long 
@@ -1701,7 +1701,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 		NOT = {
@@ -1751,7 +1751,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -1796,7 +1796,7 @@ country_event = {
 			has_government = collectivist
 			has_government = fasci
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_government = despotist
 		}
 	}
@@ -2465,14 +2465,14 @@ country_event = {
 		add_popularity = { ideology = liberal popularity = 0.03 }
 		add_popularity = { ideology = illuminist popularity = 0.03 }
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
-		add_popularity = { ideology = paternal_autocrat popularity = -0.25 }
+		add_popularity = { ideology = futurist popularity = -0.25 }
 		hidden_effect = {
 			add_ideas = constitutional_monarchy
 			set_temp_variable = { coalition_partner_var = token:illuminist }
 			add_to_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:social_conservative }
 			add_to_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+			set_temp_variable = { coalition_partner_var = token:futurist }
 			add_to_coalition = yes 
 			add_country_leader_role = {
         character = DEN_Christian_X
@@ -2809,7 +2809,7 @@ country_event = {
           illuminist = 7
           social_conservative = 0
           paternal = 51
-          paternal_autocrat = 9
+          futurist = 9
           despotist = 0
           revivalist = 0
         }
@@ -3371,7 +3371,7 @@ country_event = {
           illuminist = 3
           social_conservative = 0
           paternal = 0
-          paternal_autocrat = 10
+          futurist = 10
           despotist = 0
           revivalist = 0
         }

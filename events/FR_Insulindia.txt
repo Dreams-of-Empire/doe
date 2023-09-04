@@ -779,9 +779,9 @@ country_event = {
 		add_stability = 0.05
 		add_ideas = absolute_monarchy
 		set_politics = {
-			ruling_party = paternal_autocrat elections_allowed = no
+			ruling_party = futurist elections_allowed = no
 		}
-		add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
+		add_popularity = { ideology = futurist popularity = 0.10 }
 		set_country_flag = INS_monarchist_counter_coup_flag
 		hidden_effect = {
 			set_country_flag = INS_AUTOCRACY

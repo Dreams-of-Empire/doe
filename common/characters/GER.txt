@@ -108,7 +108,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		corps_commander = {
@@ -138,7 +138,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Ritter_von_Leeb_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_old_general
 			}
 		}
@@ -806,7 +806,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Ferdinand_Schoerner_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_old_general
 			}
 		}
@@ -2067,7 +2067,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Franz_von_Papen_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -2445,7 +2445,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Paul_Lejune_Jung_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_reformer
 			}
 		}
@@ -2472,7 +2472,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Alfred_Hugenberg_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_resource_industrialist
 			}
 		}
@@ -2851,7 +2851,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Roland_Freisler_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_silent_lawyer
 			}
 		}
@@ -2878,7 +2878,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Wilhelm_von_Gayl_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_crime_fighter
 			}
 		}

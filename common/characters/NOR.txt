@@ -149,7 +149,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 	}
@@ -786,7 +786,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Gulbrand_Lunde_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_charismatic_charmer
 			}
 		}
@@ -1275,7 +1275,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Albert_Viljam_Hagelin_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_iron_fisted_brute
 			}
 		}
@@ -1302,7 +1302,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Finn_Storen_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_ideological_crusader
 			}
 		}
@@ -1816,7 +1816,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Eivind_Blehr_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_reformer
 			}
 		}
@@ -1843,7 +1843,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Frederik_Prytz_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_resource_industrialist
 			}
 		}
@@ -2357,7 +2357,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Per_von_Hirsch_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_compassionate_gentleman
 			}
 		}
@@ -2384,7 +2384,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Rolf_Jorgen_Fuglesang_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_back_stabber
 			}
 		}

@@ -323,7 +323,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -341,7 +341,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Ioannis_Michail_Metaxas_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_corporate_suit
 			}
 		}
@@ -360,7 +360,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Ioannis_Michail_Metaxas_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -374,7 +374,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -392,7 +392,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Alexandros_Koryzis_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_silent_workhorse
 			}
 		}
@@ -411,7 +411,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Alexandros_Koryzis_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_bank_president
 			}
 		}
@@ -1287,7 +1287,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Georgios_Mantzavinos_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_keynesian_economy
 			}
 		}
@@ -1668,7 +1668,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Konstantinos_Maniadakis_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_secret_police_chief
 			}
 		}

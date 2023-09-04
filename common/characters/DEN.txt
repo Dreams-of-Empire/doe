@@ -123,7 +123,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -794,7 +794,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Arne_Sorensen_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_political_protege
 			}
 		}
@@ -1118,7 +1118,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Vilhelm_la_Cour_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_iron_fisted_brute
 			}
 		}
@@ -1561,7 +1561,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Jorgen_Sehested_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_balanced_budget_economy
 			}
 		}
@@ -1777,7 +1777,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Eigil_Thune_Jacobsen_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_silent_lawyer
 			}
 		}
@@ -1804,7 +1804,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Kaj_Munk_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_great_soul
 			}
 		}
@@ -2038,7 +2038,7 @@ characters = {
 			slot = economy_minister
 			idea_token = DEN_Frederik_Brockenhuus_Schack_eco_pau_hired
 			traits = {
-				paternal_autocrat
+				futurist
 			}
 			allowed = {
 				hidden_trigger = {

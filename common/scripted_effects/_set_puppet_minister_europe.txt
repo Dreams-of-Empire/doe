@@ -77,7 +77,7 @@ set_puppet_minister_europe = {
 			}
 		}
 		else_if = {
-			limit = { has_government = paternal_autocrat }
+			limit = { has_government = futurist }
 			add_ideas = {
 				EST_Kaarel_Eenpalu_hog_ade
 				EST_Ants_Piip_for_ade
@@ -112,7 +112,7 @@ set_puppet_minister_europe = {
 			}
 		}
 		else_if = {
-			limit = { has_government = paternal_autocrat }
+			limit = { has_government = futurist }
 			add_ideas = {
 				HOL_Izaak_Reynders_hog_ade
 				HOL_Jan_Baars_for_pau

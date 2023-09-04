@@ -76,7 +76,7 @@ country_event = {
     option = {
         name = bei.2.a
 		add_political_power = -30
-		add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+		add_popularity = { ideology = futurist popularity = -0.01 }
 		set_country_flag = BEA_indian_revolt_won_flag
 		hidden_effect = {
 		}
@@ -108,7 +108,7 @@ country_event = {
 		add_political_power = 10
 		army_experience = 5
 		add_manpower = 500
-		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+		add_popularity = { ideology = futurist popularity = 0.01 }
 		set_country_flag = BEA_indian_revolt_lost_flag
 		hidden_effect = {
 		}
@@ -165,7 +165,7 @@ country_event = {
 		name = bei.5.a
 		add_political_power = -20
 		add_stability = -0.02
-		add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+		add_popularity = { ideology = futurist popularity = -0.03 }
 	}
 }
 
@@ -211,7 +211,7 @@ country_event = {
         name = bei.7.a
 		add_political_power = -25
 		add_stability = -0.02
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		hidden_effect = {
 			country_event = {
 				id = bei.9 days = 2
@@ -239,7 +239,7 @@ country_event = {
         name = bei.8.a
 		add_political_power = -15
 		add_stability = -0.01
-		add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+		add_popularity = { ideology = futurist popularity = -0.01 }
 		hidden_effect = {
 			country_event = {
 				id = bei.9 days = 2
@@ -386,7 +386,7 @@ country_event = {
         name = bei.32.a
 		ai_chance = { base = 60 }
 		add_political_power = 35
-		add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+		add_popularity = { ideology = futurist popularity = -0.01 }
 		add_timed_idea = {
 			idea = BEA_siezing_dutch_assets_idea
 			days = 200
@@ -400,7 +400,7 @@ country_event = {
         name = bei.32.b
 		ai_chance = { base = 40 }
 		add_political_power = -35
-		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+		add_popularity = { ideology = futurist popularity = 0.01 }
 		hidden_effect = {
 		}
     }
@@ -550,7 +550,7 @@ country_event = {
 
     option = {
         name = bei.15.a
-		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+		add_popularity = { ideology = futurist popularity = -0.02 }
 		set_country_flag = BEA_political_troubles_flag
 		hidden_effect = {
 			country_event = {
@@ -682,7 +682,7 @@ country_event = {
                     illuminist = 3
                     social_conservative = 4
                     paternal = 36
-                    paternal_autocrat = 15
+                    futurist = 15
                     despotist = 20
                     revivalist = 0
                 }
@@ -925,7 +925,7 @@ country_event = {
                     illuminist = 3
                     social_conservative = 4
                     paternal = 19
-                    paternal_autocrat = 13
+                    futurist = 13
                     despotist = 38
                     revivalist = 0
                 }
@@ -1024,7 +1024,7 @@ country_event = {
 			}
 			BEA = {
 				set_politics = {
-					ruling_party = paternal_autocrat
+					ruling_party = futurist
             }
 
                 set_popularities = {
@@ -1036,7 +1036,7 @@ country_event = {
                     illuminist = 3
                     social_conservative = 4
                     paternal = 19
-                    paternal_autocrat = 40
+                    futurist = 40
                     despotist = 10
                     revivalist = 0
                 }

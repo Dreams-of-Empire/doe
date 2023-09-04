@@ -161,7 +161,7 @@ country_event = { #King Albert dies
         character = BEL_Leopold_van_Belgie
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -509,7 +509,7 @@ country_event = { #Communist uprising
         character = BEL_Joris_Van_Severen
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -798,7 +798,7 @@ country_event = { #Far-right Coalition
 	option = { #VNV provides PM
 		name = bel.12.a
 		ai_chance = { factor = 15 }
-		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+		set_temp_variable = { coalition_partner_var = token:futurist }
 		add_to_coalition = yes 
 		set_temp_variable = { coalition_partner_var = token:revivalist }
 		add_to_coalition = yes 
@@ -807,7 +807,7 @@ country_event = { #Far-right Coalition
 			elections_allowed = no
 		}
 		add_popularity = { ideology = despotist popularity = 0.4 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+		add_popularity = { ideology = futurist popularity = 0.05 }
 		add_popularity = { ideology = revivalist popularity = 0.05 }
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
@@ -830,10 +830,10 @@ country_event = { #Far-right Coalition
 		set_temp_variable = { coalition_partner_var = token:revivalist }
 		add_to_coalition = yes 
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
-		add_popularity = { ideology = paternal_autocrat popularity = 0.4 }
+		add_popularity = { ideology = futurist popularity = 0.4 }
 		add_popularity = { ideology = despotist popularity = 0.05 }
 		add_popularity = { ideology = revivalist popularity = 0.05 }
 		hidden_effect = {
@@ -852,7 +852,7 @@ country_event = { #Far-right Coalition
 	option = { #PB provides PM
 		name = bel.12.c
 		ai_chance = { factor = 70 }
-		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+		set_temp_variable = { coalition_partner_var = token:futurist }
 		add_to_coalition = yes 
 		set_temp_variable = { coalition_partner_var = token:despotist }
 		add_to_coalition = yes 
@@ -861,7 +861,7 @@ country_event = { #Far-right Coalition
 			elections_allowed = no
 		}
 		add_popularity = { ideology = revivalist popularity = 0.4 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+		add_popularity = { ideology = futurist popularity = 0.05 }
 		add_popularity = { ideology = despotist popularity = 0.05 }
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government

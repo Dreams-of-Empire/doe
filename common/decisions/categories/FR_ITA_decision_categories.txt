@@ -84,7 +84,7 @@ ITA_liberal_march = {
 			has_government = illuminist
 			has_government = social_conservative
 			has_government = paternal
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 	}
 }

@@ -80,7 +80,7 @@ country_event = {
 		name = "The CSP-Heimwehr Coalition"
 		add_stability = -0.05
 		add_popularity = { ideology = social_conservative popularity = 0.2 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
+		add_popularity = { ideology = futurist popularity = 0.15 }
 		set_politics = {
 			ruling_party = social_conservative
 			elections_allowed = no
@@ -524,10 +524,10 @@ country_event = {
 
 	option = {
 		name = "The Heimatblock gains a majority in the Coalition."
-		add_popularity = { ideology = paternal_autocrat popularity = 0.3 }
+		add_popularity = { ideology = futurist popularity = 0.3 }
 		add_ideas = military_junta
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
 		ai_chance = { factor = 50 }

@@ -208,7 +208,7 @@ scripted_gui = {
 						is_faction_leader = yes
 						OR = {
 							has_government = despotist
-							has_government = paternal_autocrat
+							has_government = futurist
 							has_government = paternal
 							has_government = revivalist
 						}

@@ -52,12 +52,12 @@ set_popularities = {
   illuminist = 0
   social_conservative = 4
   paternal = 38
-  paternal_autocrat = 7
+  futurist = 7
   despotist = 10
   revivalist = 0
 }
 
-add_coalition_paternal_autocrat = yes 
+add_coalition_futurist = yes 
 
 recruit_character = AFG_Mohammed_Nadir_Khan
 recruit_character = AFG_Nur_Muhammad_Taraki

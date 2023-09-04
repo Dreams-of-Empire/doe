@@ -248,7 +248,7 @@ country_event = {
         name = finland.8.a
 		add_stability = -0.03
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			add_popularity = { ideology = despotist popularity = 0.03 }
 			country_event = {
 				id = finland.9 days = 3
@@ -274,7 +274,7 @@ country_event = {
 		hidden_effect = {
 			add_popularity = { ideology = vanguardist popularity = 0.01 }
 			add_popularity = { ideology = collectivist popularity = 0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 			add_popularity = { ideology = despotist popularity = 0.01 }
 			country_event = {
 				id = finland.10 days = 1
@@ -321,7 +321,7 @@ country_event = {
 		ai_chance = { base = 70 }
 		hidden_effect = {
 			add_popularity = { ideology = paternal popularity = 0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 			country_event = {
 				id = finland.12 days = 1
@@ -333,7 +333,7 @@ country_event = {
 		name = finland.11.b
 		ai_chance = { base = 30 }
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = 0.04 }
+			add_popularity = { ideology = futurist popularity = 0.04 }
 			add_popularity = { ideology = despotist popularity = 0.04 }
 			country_event = {
 				id = finland.15 days = 1
@@ -444,7 +444,7 @@ country_event = {
 			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 			add_popularity = { ideology = despotist popularity = -0.03 }
 			clr_country_flag = coalition_illuminist
 			clr_country_flag = coalition_social_conservative
@@ -482,7 +482,7 @@ country_event = {
 			add_popularity = { ideology = vanguardist popularity = -0.03 }
 			add_popularity = { ideology = collectivist popularity = -0.03 }
 			add_popularity = { ideology = fasci popularity = -0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+			add_popularity = { ideology = futurist popularity = -0.04 }
 			add_popularity = { ideology = despotist popularity = -0.04 }
 			add_popularity = { ideology = revivalist popularity = -0.03 }
 		}
@@ -534,7 +534,7 @@ country_event = {
 			add_popularity = { ideology = vanguardist popularity = -0.01 }
 			add_popularity = { ideology = collectivist popularity = -0.01 }
 			add_popularity = { ideology = fasci popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.01 }
 			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
@@ -557,13 +557,13 @@ country_event = {
 		add_stability = 0.05
 		add_ideas = FIN_Bruno_Salmiala_hog_npo
 		set_politics = {
-			ruling_party = paternal_autocrat elections_allowed = no
+			ruling_party = futurist elections_allowed = no
 		}
 		hidden_effect = {
 			add_ideas = FIN_Arne_Somersalo_for_npo
 			add_ideas = FIN_Rafael_Haarla_eco_npo
 			add_ideas = FIN_Elias_Simojoki_sec_npo
-			add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
+			add_popularity = { ideology = futurist popularity = 0.10 }
 			add_popularity = { ideology = despotist popularity = 0.10 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_popularity = { ideology = liberal popularity = -0.05 }
@@ -613,7 +613,7 @@ country_event = {
 			set_country_flag = FIN_ready_take_army_focuses_flag
 			set_country_flag = FIN_rural_support_flag
 			set_country_flag = FIN_allow_foreclousures_flag
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 			add_popularity = { ideology = despotist popularity = 0.03 }
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = collectivist popularity = -0.02 }
@@ -660,7 +660,7 @@ country_event = {
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
+			add_popularity = { ideology = futurist popularity = -0.05 }
 			add_popularity = { ideology = despotist popularity = -0.05 }
 			clr_country_flag = coalition_despotist
 			set_country_flag = coalition_vanguardist
@@ -1761,7 +1761,7 @@ country_event = {
 			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 			add_popularity = { ideology = despotist popularity = -0.03 }
 			create_country_leader = {
 				name = "Oskari Tokoi"
@@ -2178,7 +2178,7 @@ country_event = {
 		name = finland.102.a
 		ai_chance = { base = 30 }
 		add_ideas = FIN_Herman_Gummerus_hog_pau
-		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+		add_popularity = { ideology = futurist popularity = 0.05 }
 		hidden_effect = {
 			add_popularity = { ideology = despotist popularity = -0.10 }
 		}
@@ -2192,9 +2192,9 @@ country_event = {
 		}
 		add_popularity = { ideology = despotist popularity = 0.05 }
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = -0.10 }
+			add_popularity = { ideology = futurist popularity = -0.10 }
 			clr_country_flag = coalition_despotist
-			set_country_flag = coalition_paternal_autocrat
+			set_country_flag = coalition_futurist
 		}
 	}
 }
@@ -2336,7 +2336,7 @@ country_event = {
 				illuminist = 12
 				social_conservative = 20
 				paternal = 0
-				paternal_autocrat = 2
+				futurist = 2
 				despotist = 0
 				revivalist = 0
 			}
@@ -2359,7 +2359,7 @@ country_event = {
 				illuminist = 7
 				social_conservative = 20
 				paternal = 0
-				paternal_autocrat = 3
+				futurist = 3
 				despotist = 0
 				revivalist = 0
 			}
@@ -2383,7 +2383,7 @@ country_event = {
 				illuminist = 7
 				social_conservative = 32
 				paternal = 0
-				paternal_autocrat = 4
+				futurist = 4
 				despotist = 0
 				revivalist = 0
 			}
@@ -2426,7 +2426,7 @@ country_event = {
 				illuminist = 12
 				social_conservative = 19
 				paternal = 0
-				paternal_autocrat = 2
+				futurist = 2
 				despotist = 0
 				revivalist = 0
 			}
@@ -2448,7 +2448,7 @@ country_event = {
 				illuminist = 7
 				social_conservative = 20
 				paternal = 0
-				paternal_autocrat = 3
+				futurist = 3
 				despotist = 0
 				revivalist = 0
 			}
@@ -2471,7 +2471,7 @@ country_event = {
 				illuminist = 7
 				social_conservative = 34
 				paternal = 0
-				paternal_autocrat = 4
+				futurist = 4
 				despotist = 0
 				revivalist = 0
 			}
@@ -2921,7 +2921,7 @@ country_event = {
 		add_war_support = 0.07
 		hidden_effect = {
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 			add_popularity = { ideology = despotist popularity = 0.01 }
 		}
 	}
@@ -3471,7 +3471,7 @@ country_event = {
 				has_government = social_democrat
 			}
 			add_popularity = { ideology = paternal popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+			add_popularity = { ideology = futurist popularity = -0.01 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.04 }
 		}
@@ -3480,7 +3480,7 @@ country_event = {
 				has_government = social_conservative
 			}
 			add_popularity = { ideology = paternal popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+			add_popularity = { ideology = futurist popularity = -0.01 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.04 }
 		}
@@ -3488,7 +3488,7 @@ country_event = {
 			limit = {
 				OR = {
 					has_government = paternal
-					has_government = paternal_autocrat
+					has_government = futurist
 					has_government = despotist
 				}
 			}
@@ -3505,7 +3505,7 @@ country_event = {
 			}
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+			add_popularity = { ideology = futurist popularity = -0.01 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 		}
 		hidden_effect = {
@@ -3597,7 +3597,7 @@ country_event = {
 				has_government = social_democrat
 			}
 			add_popularity = { ideology = paternal popularity = 0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 			add_popularity = { ideology = despotist popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.04 }
 		}
@@ -3606,7 +3606,7 @@ country_event = {
 				has_government = social_conservative
 			}
 			add_popularity = { ideology = paternal popularity = 0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 			add_popularity = { ideology = despotist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.04 }
 		}
@@ -3614,7 +3614,7 @@ country_event = {
 			limit = {
 				OR = {
 					has_government = paternal
-					has_government = paternal_autocrat
+					has_government = futurist
 					has_government = despotist
 				}
 			}
@@ -3631,7 +3631,7 @@ country_event = {
 			}
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = paternal popularity = 0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 			add_popularity = { ideology = despotist popularity = 0.02 }
 		}
 		hidden_effect = {

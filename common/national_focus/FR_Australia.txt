@@ -3274,7 +3274,7 @@ focus_tree = {
 			has_capitulated = no
 			NOT = {
 				is_in_faction_with = ENG 
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 		}
 		mutually_exclusive = {
@@ -3299,7 +3299,7 @@ focus_tree = {
 		available = {
 			has_capitulated = no
 			is_in_faction_with = ENG
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		mutually_exclusive = {
 			focus = AST_burn_union_jack
@@ -3834,7 +3834,7 @@ focus_tree = {
 			add_popularity = { ideology = liberal popularity = -0.03 }
 			add_popularity = { ideology = illuminist popularity = -0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.07 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.1 }
+			add_popularity = { ideology = futurist popularity = -0.1 }
 
 			if = {
 				limit = { has_character = AST_Thomas_Blamey }
@@ -4040,7 +4040,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			OR = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 			}
 		}
@@ -4062,7 +4062,7 @@ focus_tree = {
 		icon = GFX_goal_generic_grim_reaper
 		cost = 6
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = AST_guard_the_empire
@@ -4090,7 +4090,7 @@ focus_tree = {
 		icon = GFX_focus_chi_british_cooperation
 		cost = 6
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = AST_australian_corporatism
@@ -4104,7 +4104,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_facilitate_pan_imperial_ties"
 			add_political_power = 100
-			add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
+			add_popularity = { ideology = futurist popularity = 0.15 }
 			add_opinion_modifier = {
 				target = ENG
 				modifier = BHC_approves_government
@@ -4124,7 +4124,7 @@ focus_tree = {
 		icon = GFX_goal_GBR_five_eyes
 		cost = 6
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = AST_purge_traitors
@@ -4172,7 +4172,7 @@ focus_tree = {
 		icon = GFX_goal_army_guy_2
 		cost = 6
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = AST_facilitate_pan_imperial_ties
@@ -4195,7 +4195,7 @@ focus_tree = {
 		icon = GFX_goal_HOL_crackdown_radsoc
 		cost = 6
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = AST_young_guardists
@@ -4215,7 +4215,7 @@ focus_tree = {
 		icon = GFX_goal_collaborate_local_elites
 		cost = 6
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = AST_young_guardists
@@ -4226,7 +4226,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_integrate_nationalist_party"
 			add_political_power = 100
-			add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
+			add_popularity = { ideology = futurist popularity = 0.15 }
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -4236,7 +4236,7 @@ focus_tree = {
 		icon = GFX_goal_Centralised_Government
 		cost = 6
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = AST_fight_socialists
@@ -4259,7 +4259,7 @@ focus_tree = {
 		icon = GFX_focus_eng_imperial_federation
 		cost = 6
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = {
 			focus = AST_australian_nationalism

@@ -2869,8 +2869,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/HOL_overthrow_the_system.png"
   }
 	spriteType = {
-    name = "GFX_goal_HOL_pataut_success"
-    texturefile = "gfx/interface/goals/HOL_pataut_success.png"
+    name = "GFX_goal_HOL_fut_success"
+    texturefile = "gfx/interface/goals/HOL_fut_success.png"
   }
 	spriteType = {
     name = "GFX_goal_NAM_statthalter"

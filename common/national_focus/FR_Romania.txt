@@ -3483,7 +3483,7 @@ focus_tree = {
 	# Direct Rule from Bucharest
 	focus = {
 		id = ROM_direct_rule_from_bucharest_focus
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		x = 20
 		y = 0
 		cost = 6
@@ -3516,7 +3516,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_direct_rule_from_bucharest_focus }
 		relative_position_id = ROM_direct_rule_from_bucharest_focus
@@ -3540,7 +3540,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_the_siguranta }
 		relative_position_id = ROM_the_siguranta
@@ -3558,7 +3558,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_the_siguranta }
 		relative_position_id = ROM_the_siguranta
@@ -3587,7 +3587,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_eradicate_the_remaining_legionnaires }
 		prerequisite = { focus = ROM_arrest_socialist_leaders }
@@ -3606,7 +3606,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_direct_rule_from_bucharest_focus }
 		relative_position_id = ROM_direct_rule_from_bucharest_focus
@@ -3624,7 +3624,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_corporatism }
 		relative_position_id = ROM_corporatism
@@ -3667,7 +3667,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_corporatism }
 		relative_position_id = ROM_corporatism
@@ -3689,7 +3689,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_reshaping_the_country }
 		relative_position_id = ROM_reshaping_the_country
@@ -3710,7 +3710,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_reshaping_the_country }
 		relative_position_id = ROM_reshaping_the_country
@@ -3731,7 +3731,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_reshaping_the_country }
 		relative_position_id = ROM_reshaping_the_country
@@ -3749,7 +3749,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_country_leader = {
 				character = ROM_Nicholas_von_Hohenzollern_Sigmaringen
 				ruling_only = yes
@@ -3771,7 +3771,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_country_leader = {
 				character = ROM_Nicholas_von_Hohenzollern_Sigmaringen
 				ruling_only = yes
@@ -3796,7 +3796,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_country_leader = {
 				character = ROM_Nicholas_von_Hohenzollern_Sigmaringen
 				ruling_only = yes
@@ -3818,7 +3818,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 			has_country_leader = {
 				character = ROM_Nicholas_von_Hohenzollern_Sigmaringen
 				ruling_only = yes
@@ -3842,7 +3842,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		prerequisite = { focus = ROM_direct_rule_from_bucharest_focus }
 		relative_position_id = ROM_direct_rule_from_bucharest_focus
@@ -3860,7 +3860,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 			is_in_faction = yes
 		}
 		prerequisite = { focus = ROM_foreign_alignment }
@@ -3927,7 +3927,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = paternal_autocrat
+			has_government = futurist
 			is_in_faction = yes
 		}
 		prerequisite = { focus = ROM_foreign_alignment }

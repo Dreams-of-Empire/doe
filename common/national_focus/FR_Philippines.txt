@@ -1044,7 +1044,7 @@ focus_tree = {
   # The Army in Control
   focus = {
     id = PHI_the_army_in_control
-    icon = GFX_goal_ideology_paternal_autocrat
+    icon = GFX_goal_ideology_futurist
     x = -1
     y = 2
     cost = 6
@@ -1076,7 +1076,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_the_army_in_control }
     relative_position_id = PHI_the_army_in_control
@@ -1095,7 +1095,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     mutually_exclusive = {
       focus = PHI_populist_junta
@@ -1115,7 +1115,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     mutually_exclusive = {
       focus = PHI_support_from_capitalists
@@ -1136,7 +1136,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = {
       focus = PHI_populist_junta
@@ -1156,7 +1156,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_support_from_capitalists }
     relative_position_id = PHI_support_from_capitalists
@@ -1177,7 +1177,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_corporatist_model }
     relative_position_id = PHI_corporatist_model
@@ -1196,7 +1196,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_corporatist_model }
     relative_position_id = PHI_corporatist_model
@@ -1213,7 +1213,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_tax_breaks }
     prerequisite = { focus = PHI_mining_grants }
@@ -1231,7 +1231,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_the_army_in_control }
     relative_position_id = PHI_the_army_in_control
@@ -1279,7 +1279,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_strengthen_the_constabulary }
     relative_position_id = PHI_strengthen_the_constabulary
@@ -1309,7 +1309,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_the_army_in_control }
     relative_position_id = PHI_the_army_in_control
@@ -1338,7 +1338,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_handle_the_threats }
     relative_position_id = PHI_handle_the_threats
@@ -1355,7 +1355,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_handle_the_threats }
     relative_position_id = PHI_handle_the_threats
@@ -1422,7 +1422,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_populist_junta }
     relative_position_id = PHI_populist_junta
@@ -1439,7 +1439,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_education_for_the_masses }
     relative_position_id = PHI_education_for_the_masses
@@ -1459,7 +1459,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_education_for_the_masses }
     prerequisite = { focus = PHI_military_industrial_complex }
@@ -1477,7 +1477,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_national_bank_act }
     relative_position_id = PHI_national_bank_act
@@ -1517,7 +1517,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_military_industrial_complex }
     relative_position_id = PHI_military_industrial_complex
@@ -1562,7 +1562,7 @@ focus_tree = {
     y = 2
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = PHI_national_youth_commission }
     relative_position_id = PHI_national_youth_commission

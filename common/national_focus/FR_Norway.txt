@@ -1071,7 +1071,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 		}
 		
@@ -1168,7 +1168,7 @@ focus_tree = {
 				has_government = illuminist
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 				has_government = revivalist
 			}
@@ -2402,7 +2402,7 @@ focus_tree = {
 				remove_idea = NOR_monarchist_right_idea
 				add_idea = NOR_monarchist_right_idea1
 			}
-			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+			add_popularity = { ideology = futurist popularity = -0.04 }
 			add_political_power = -40
 			add_manpower = -2000
 		}
@@ -2426,7 +2426,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_republicanize_right"
 			remove_ideas = NOR_monarchist_right_idea1
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
@@ -2512,7 +2512,7 @@ focus_tree = {
 				add_idea = NOR_internal_control_idea1
 			}
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 		}
@@ -2832,7 +2832,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_allow_conservative_generals"
 			add_political_power = -35
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 			if = {
@@ -3108,7 +3108,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_new_monarchy_referendum"
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 			country_event = {
 				id = nor.31 days = 1
 			}
@@ -3404,7 +3404,7 @@ focus_tree = {
 	## Authoritarian ##
 	focus = {
 		id = NOR_samfundsvernets_coup
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		cost = 5.00
 		x = 46
 		y = 0
@@ -3507,7 +3507,7 @@ focus_tree = {
 			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = paternal popularity = 0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+			add_popularity = { ideology = futurist popularity = 0.05 }
 		}
 
 	}
@@ -3529,7 +3529,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_gain_bipartisan_support"
 			add_political_power = -15
 			add_stability = 0.01
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 		}
 
 	}
@@ -3586,7 +3586,7 @@ focus_tree = {
 			add_ideas = NOR_peoples_king_idea
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			add_popularity = { ideology = paternal popularity = 0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 			custom_effect_tooltip  = NOR_kings_party_for_all_tooltip
 			hidden_effect = {
 				set_party_name = {
@@ -3600,9 +3600,9 @@ focus_tree = {
 					name = NOR_autdem_king_party
 				}
 				set_party_name = {
-					ideology = paternal_autocrat
-					long_name = NOR_pataut_king_party_long
-					name = NOR_pataut_king_party
+					ideology = futurist
+					long_name = NOR_fut_king_party_long
+					name = NOR_fut_king_party
 				}
 				set_temp_variable = { coalition_partner_var = token:social_conservative }
 				add_to_coalition = yes
@@ -3610,12 +3610,12 @@ focus_tree = {
 					limit = {
 						has_government = paternal
 					}
-					set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+					set_temp_variable = { coalition_partner_var = token:futurist }
 					add_to_coalition = yes
 				}
 				else_if = {
 					limit = {
-						has_government = paternal_autocrat
+						has_government = futurist
 					}
 					set_temp_variable = { coalition_partner_var = token:paternal }
 					add_to_coalition = yes
@@ -3663,9 +3663,9 @@ focus_tree = {
 					name = NOR_autdem_afk_party
 				}
 				set_party_name = {
-					ideology = paternal_autocrat
-					long_name = NOR_pataut_afk_party_long
-					name = NOR_pataut_afk_party
+					ideology = futurist
+					long_name = NOR_fut_afk_party_long
+					name = NOR_fut_afk_party
 				}
 			}
 		}
@@ -3702,7 +3702,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = paternal popularity = 0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 		}
 
 	}
@@ -3735,7 +3735,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_loyalist_propaganda"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 		}
 
 	}
@@ -3856,7 +3856,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_assure_loyalty_police"
 			add_political_power = -40
 			add_stability = 0.05
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			add_ideas = NOR_assure_loyalty_police_idea
 		}
 
@@ -3959,7 +3959,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_ally_ns_politicans"
 			add_political_power = 10
 			add_popularity = { ideology = despotist popularity = 0.05 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
+			add_popularity = { ideology = futurist popularity = 0.05 }
 			country_event = { id = nor.35 }
 		}
 
@@ -4008,7 +4008,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_absolute_rule"
 			add_political_power = 25
 			add_stability = -0.04
-			add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
+			add_popularity = { ideology = futurist popularity = 0.10 }
 			custom_effect_tooltip  = NOR_absolute_rule_tooltip
 			hidden_effect = {
 				remove_ideas_with_trait = foreign_minister
@@ -4052,7 +4052,7 @@ focus_tree = {
 				add_ideas = NOR_Vidkun_Quisling_hog_pau
 				set_temp_variable = { coalition_partner_var = token:despotist }
 				remove_from_coalition = yes
-				set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+				set_temp_variable = { coalition_partner_var = token:futurist }
 				add_to_coalition = yes
 			}
 		}
@@ -4583,7 +4583,7 @@ focus_tree = {
 			add_war_support = 0.08
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = 0.04 }
 		}
@@ -4936,7 +4936,7 @@ focus_tree = {
 				remove_idea = NOR_monarchist_right_idea
 				add_idea = NOR_monarchist_right_idea1
 			}
-			add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
+			add_popularity = { ideology = futurist popularity = -0.05 }
 			add_political_power = -60
 			add_manpower = -3500
 		}

@@ -219,7 +219,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power = -20
 			add_popularity = { ideology = paternal popularity = -0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 			if = {
 				limit = {
 					has_idea = SPR_civil_war_recovery_idea
@@ -463,7 +463,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_ban_carlists"
 			add_stability = 0.02
 			add_political_power = -20
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 			if = {
@@ -924,7 +924,7 @@ focus_tree = {
 			country_event = { id = repspain.110 days = 1 }
 			add_political_power = -25
 			add_popularity = { ideology = paternal popularity = -0.06 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+			add_popularity = { ideology = futurist popularity = -0.04 }
 		}
 
 	}
@@ -952,7 +952,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_political_power = -40
 			add_popularity = { ideology = illuminist popularity = 0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 		}
 
 	}

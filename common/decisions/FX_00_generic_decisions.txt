@@ -280,19 +280,19 @@ political_actions_dem = {
 }
 
 political_actions_right = {
-	increase_popularity_pataut = {
+	increase_popularity_fut = {
 		icon = generic_political_discourse
 		cost = 100
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		visible = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_pataut"
+			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_fut"
 			increase_ruling_party_popularity_by_5 = yes
 		}
 		ai_will_do = {
@@ -345,14 +345,14 @@ political_actions_right = {
 		days_remove = 30
 		available = {
 			OR = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 				has_government = revivalist
 			}
 		}
 		visible = {
 			OR = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 				has_government = revivalist
 			}
@@ -422,7 +422,7 @@ political_actions = {
 		visible = {
 			OR = {
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 				has_government = revivalist
 			}
@@ -1372,7 +1372,7 @@ war_measures = {
 					has_war_support > 0.70
 				}
 				AND = {
-					has_government = paternal_autocrat
+					has_government = futurist
 					has_war_support > 0.79
 				}
 				AND = {

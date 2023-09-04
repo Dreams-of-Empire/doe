@@ -379,9 +379,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
-			set_country_flag = opinion_set_paternal_autocrat
+			set_country_flag = opinion_set_futurist
 		}
 		if = {
 			limit = {
@@ -447,8 +447,8 @@ country_event = {
 				has_country_flag = opinion_set_paternal
 			}
 			AND = {
-				NOT = { has_government = paternal_autocrat }
-				has_country_flag = opinion_set_paternal_autocrat
+				NOT = { has_government = futurist }
+				has_country_flag = opinion_set_futurist
 			}
 			AND = {
 				NOT = { has_government = despotist }
@@ -467,7 +467,7 @@ country_event = {
 				NOT = { has_country_flag = opinion_set_illuminist }
 				NOT = { has_country_flag = opinion_set_social_conservative }
 				NOT = { has_country_flag = opinion_set_paternal }
-				NOT = { has_country_flag = opinion_set_paternal_autocrat }
+				NOT = { has_country_flag = opinion_set_futurist }
 				NOT = { has_country_flag = opinion_set_despotist }
 				NOT = { has_country_flag = opinion_set_revivalist }
 			}
@@ -487,7 +487,7 @@ country_event = {
 		clr_country_flag = opinion_set_illuminist
 		clr_country_flag = opinion_set_social_conservative
 		clr_country_flag = opinion_set_paternal
-		clr_country_flag = opinion_set_paternal_autocrat
+		clr_country_flag = opinion_set_futurist
 		clr_country_flag = opinion_set_despotist
 		clr_country_flag = opinion_set_revivalist
 		every_country = {
@@ -690,9 +690,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
-			set_country_flag = opinion_set_paternal_autocrat
+			set_country_flag = opinion_set_futurist
 		}
 		if = {
 			limit = {

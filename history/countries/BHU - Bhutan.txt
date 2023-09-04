@@ -32,7 +32,7 @@ set_popularities = {
 	illuminist = 4
 	social_conservative = 10
 	paternal = 64
-	paternal_autocrat = 4
+	futurist = 4
 	despotist = 4
 	revivalist = 0
 }

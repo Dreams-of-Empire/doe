@@ -45,7 +45,7 @@ defined_text = {
 # 	# text = {
 # 	# 	trigger = {
 # 	# 		tag = LIB
-# 	# 		has_government = paternal_autocrat
+# 	# 		has_government = futurist
 # 	# 	}
 # 	# 	localization_key = FIRESTONE_TRAIT
 # 	# }
@@ -87,7 +87,7 @@ defined_text = {
 			AND = {
 				OR = {
 					has_government = paternal
-					has_government = paternal_autocrat
+					has_government = futurist
 				}
 				has_idea = JAP_great_council_of_state_idea
 			}

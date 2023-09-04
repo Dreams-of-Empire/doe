@@ -115,12 +115,12 @@ set_popularities = {
   illuminist = 3
   social_conservative = 9
   paternal = 17
-  paternal_autocrat = 15
+  futurist = 15
   despotist = 45
   revivalist = 0
 }
 add_coalition_paternal = yes 
-add_coalition_paternal_autocrat = yes 
+add_coalition_futurist = yes 
 
 country_event = { id = dutchstate.0 days = 2 }
 country_event = { id = dutchstate.18 days = 167 }

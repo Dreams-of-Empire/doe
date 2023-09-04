@@ -346,7 +346,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Ernesto_Montagne_Sanchez_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_happy_amateur
 			}
 		}
@@ -373,7 +373,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Manuel_Odria_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_backroom_backstabber
 			}
 		}
@@ -709,7 +709,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Felipe_Tudela_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_apologetic_clerk
 			}
 		}
@@ -1272,7 +1272,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Nicolas_Lindley_Lopez_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_administrative_genius
 			}
 		}

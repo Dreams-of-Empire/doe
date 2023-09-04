@@ -668,7 +668,7 @@ continuation_war_ger2 = {
 			FRA = { has_country_flag = GER_french_escapes }
 		}
 		GER = { has_war_with = SOV }
-		NOT = { has_government = paternal_autocrat }
+		NOT = { has_government = futurist }
 		NOT = { has_war_with = SOV }
 	}
 	
@@ -694,7 +694,7 @@ continuation_war_ger3 = {
 			FRA = { has_country_flag = GER_french_escapes }
 		}
 		GER = { has_war_with = SOV }
-		has_government = paternal_autocrat
+		has_government = futurist
 		NOT = { has_war_with = SOV }
 	}
 	

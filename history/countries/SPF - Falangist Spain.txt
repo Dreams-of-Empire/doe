@@ -143,12 +143,12 @@ set_popularities = {
 	illuminist = 0
 	social_conservative = 3
 	paternal = 5
-	paternal_autocrat = 28
+	futurist = 28
 	despotist = 30
 	revivalist = 22
 }
 
-add_coalition_paternal_autocrat = yes 
+add_coalition_futurist = yes 
 add_coalition_revivalist = yes 
 
 set_convoys = 150

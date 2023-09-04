@@ -1887,7 +1887,7 @@ focus_tree = {
 				limit = {
 					OR = {
 						has_government = paternal
-						has_government = paternal_autocrat
+						has_government = futurist
 						has_government = despotist
 						has_government = revivalist
 					}
@@ -2097,7 +2097,7 @@ focus_tree = {
 			OR = {
 				has_government = revivalist
 				has_government = despotist
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 		}
 		
@@ -2135,7 +2135,7 @@ focus_tree = {
 			OR = {
 				has_government = revivalist
 				has_government = despotist
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 		}
 		
@@ -2177,7 +2177,7 @@ focus_tree = {
 				has_war_with = ENG
 			}
 			OR = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = social_conservative
 				has_government = social_democrat
 			}
@@ -2215,7 +2215,7 @@ focus_tree = {
 				has_war_with = ENG
 			}
 			OR = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = social_conservative
 				has_government = social_democrat
 			}
@@ -2349,7 +2349,7 @@ focus_tree = {
 			OR = {
 				has_government = vanguardist
 				has_government = collectivist
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 				has_government = revivalist
 			}
@@ -2756,7 +2756,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
 			add_popularity = { ideology = liberal popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 		}
 
 	}
@@ -3094,7 +3094,7 @@ focus_tree = {
 			add_political_power = 50
 			add_popularity = { ideology = paternal popularity = -0.01 }
 			add_popularity = { ideology = despotist popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 		}
 
 	}
@@ -3115,7 +3115,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_prohobition_child_labour"
 			add_political_power = -25
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			add_timed_idea = { idea = PER_MIL_prohobition_child_labour_idea days = 50 }
 		}
 
@@ -3178,7 +3178,7 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.02
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 		}
 
 	}
@@ -3351,7 +3351,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_invite_religious_advisors"
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			add_popularity = { ideology = despotist popularity = 0.01 }
 			add_timed_idea = { idea = PER_MIL_invite_religious_advisors_idea days = 50 }
 		}
@@ -3376,7 +3376,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_political_power = 35
 			add_popularity = { ideology = paternal popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 		}
 
 	}
@@ -3432,7 +3432,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_MIL_continued_military_control
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		cost = 3
 		prerequisite = {
 			focus = PER_MIL_reorganize_mosque_laws
@@ -3461,7 +3461,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_continued_military_control"
 			add_political_power = -35
 			add_stability = 0.02
-			add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
+			add_popularity = { ideology = futurist popularity = 0.10 }
 		}
 
 	}
@@ -3513,7 +3513,7 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.02
 			add_popularity = { ideology = paternal popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 		}
 
 	}
@@ -3536,7 +3536,7 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.02
 			add_popularity = { ideology = paternal popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 		}
 
 	}
@@ -4045,7 +4045,7 @@ focus_tree = {
 			add_political_power = -15
 			add_ideas = PER_REP_reform_administration_idea
 			add_popularity = { ideology = collectivist popularity = -0.01 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
+			add_popularity = { ideology = futurist popularity = -0.01 }
 			add_popularity = { ideology = despotist popularity = -0.01 }
 			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
@@ -4343,7 +4343,7 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.02
 			add_popularity = { ideology = paternal popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = 0.03 }
 			add_popularity = { ideology = revivalist popularity = 0.03 }
 		}
@@ -4438,7 +4438,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_NAT_a_religious_leader
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		cost = 10
 		prerequisite = {
 			focus = PER_NAT_shia_state
@@ -4456,7 +4456,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_a_religious_leader"
 			add_political_power = -20
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 			add_popularity = { ideology = despotist popularity = 0.01 }
 			hidden_effect = {
         add_country_leader_role = {
@@ -4558,7 +4558,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_purge_secularists"
 			add_political_power = -20
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 			add_popularity = { ideology = revivalist popularity = -0.03 }
 		}
 
@@ -4913,7 +4913,7 @@ focus_tree = {
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = illuminist popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 		}
 
 	}

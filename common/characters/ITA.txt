@@ -367,7 +367,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Pietro_Badoglio_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_respected_war_hero
 			}
 		}
@@ -771,7 +771,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -797,7 +797,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Amedeo_di_Savoia_Aosta_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1127,7 +1127,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Alfredo_Covelli_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_corrupt_kleptocrat
 			}
 		}
@@ -1398,7 +1398,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Luigi_Arborio_Mella_di_Sant_Elia_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_efficient_sociopath
 			}
 		}
@@ -1690,7 +1690,7 @@ characters = {
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {

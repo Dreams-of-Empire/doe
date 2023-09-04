@@ -64,9 +64,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = paternal_autocrat
+			has_government = futurist
 		}
-		localization_key = paternal_autocrat_subtype_desc
+		localization_key = futurist_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -275,12 +275,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = paternal_autocrat
-				check_variable = { political_power_ideology = token:paternal_autocrat }
+				has_government = futurist
+				check_variable = { political_power_ideology = token:futurist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:paternal_autocrat }
+			is_in_array = { ROOT.coalition_partners = token:futurist }
 		}
-		localization_key = party_pop_coalition_paternal_autocrat
+		localization_key = party_pop_coalition_futurist
 	}
 	text = {
 		localization_key = empty
@@ -364,9 +364,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:paternal_autocrat }
+			check_variable = { coalition_partner_var = token:futurist }
 		}
-		localization_key = colour_pataut_grey
+		localization_key = colour_fut_grey
 	}
 	text = {
 		trigger = {

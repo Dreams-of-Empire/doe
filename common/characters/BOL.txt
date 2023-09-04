@@ -252,7 +252,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Hugo_Ballivian_Rojas_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_political_protege
 			}
 		}
@@ -499,7 +499,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Enrique_Baldivieso_Aparicio_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_biased_intellectual
 			}
 		}
@@ -780,7 +780,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Jose_David_Toro_Ruilova_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_the_minister_for_everything
 			}
 		}

@@ -41,7 +41,7 @@ ideas = {
 				revivalist_drift = 0.2
 				despotist_drift = 0.1
 				vanguardist_drift = 0.05
-				paternal_autocrat_drift = -0.05
+				futurist_drift = -0.05
 			}
 		}
 	}

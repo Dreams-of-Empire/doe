@@ -65,7 +65,7 @@ focus_tree = {
   # Ensure Military Loyalty
   focus = {
     id = HOL_ensure_military_loyalty
-    icon = GFX_goal_HOL_pataut_success
+    icon = GFX_goal_HOL_fut_success
     x = 0
     y = 1
     cost = 6
@@ -590,7 +590,7 @@ focus_tree = {
   # Empower the Landwacht
   focus = {
     id = HOL_empower_the_landwacht
-    icon = GFX_goal_HOL_pataut_success
+    icon = GFX_goal_HOL_fut_success
     x = -1
     y = 1
     cost = 6
@@ -871,7 +871,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -895,7 +895,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -918,7 +918,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -939,7 +939,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -961,7 +961,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -998,7 +998,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -1020,7 +1020,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -1043,7 +1043,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -1064,7 +1064,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -1096,7 +1096,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -1119,7 +1119,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       HOL_Bernhard_of_the_Netherlands = {
         is_country_leader = yes
       }
@@ -1161,7 +1161,7 @@ focus_tree = {
   # The Army's Coup
   focus = {
     id = HOL_the_armys_coup
-    icon = GFX_goal_ideology_paternal_autocrat
+    icon = GFX_goal_ideology_futurist
     x = 3
     y = 0
     cost = 6
@@ -1188,7 +1188,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = HOL_the_armys_coup }
     relative_position_id = HOL_the_armys_coup
@@ -1209,7 +1209,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = HOL_the_armys_coup }
     relative_position_id = HOL_the_armys_coup
@@ -1240,7 +1240,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = {
       focus = HOL_dissolve_the_landwacht
@@ -1260,7 +1260,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = HOL_mandatory_military_training }
     relative_position_id = HOL_mandatory_military_training
@@ -1324,7 +1324,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = HOL_mandatory_military_training }
     relative_position_id = HOL_mandatory_military_training
@@ -1341,7 +1341,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = HOL_mandatory_military_training }
     relative_position_id = HOL_mandatory_military_training
@@ -1358,7 +1358,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = HOL_hire_german_scientists }
     prerequisite = { focus = HOL_expand_kms }
@@ -1377,7 +1377,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
     }
     prerequisite = { focus = HOL_hire_german_scientists }
     prerequisite = { focus = HOL_expand_kms }
@@ -1424,7 +1424,7 @@ focus_tree = {
     y = 1
     cost = 6
     available = {
-      has_government = paternal_autocrat
+      has_government = futurist
       country_exists = BEL
       BEL = { is_subject = no }
       date > 1939.1.1

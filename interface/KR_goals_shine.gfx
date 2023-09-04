@@ -22945,11 +22945,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_HOL_pataut_success_shine"
-    texturefile = "gfx/interface/goals/HOL_pataut_success.png"
+    name = "GFX_goal_HOL_fut_success_shine"
+    texturefile = "gfx/interface/goals/HOL_fut_success.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/HOL_pataut_success.png"
+      animationmaskfile = "gfx/interface/goals/HOL_fut_success.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -22962,7 +22962,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/HOL_pataut_success.png"
+      animationmaskfile = "gfx/interface/goals/HOL_fut_success.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no

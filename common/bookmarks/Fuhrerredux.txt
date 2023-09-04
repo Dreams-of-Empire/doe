@@ -273,7 +273,7 @@ bookmarks = {
     }
     "PER" = {
       history = "PER_FUHRERREDUX_DESC"
-      ideology = paternal_autocrat
+      ideology = futurist
       minor = yes
       ideas = {
         PER_british_influence_iran_idea
@@ -337,7 +337,7 @@ bookmarks = {
     }
     "ARB" = {
       history = "ARB_FUHRERREDUX_DESC"
-      ideology = paternal_autocrat
+      ideology = futurist
       minor = yes
       ideas = {
         ARB_ikhwan_raids
@@ -401,7 +401,7 @@ bookmarks = {
     }
     "CZE" = {
       history = "CZE_FUHRERREDUX_DESC"
-      ideology = paternal_autocrat
+      ideology = futurist
       minor = yes
       ideas = {
         CZE_suspended_democracy

@@ -2314,7 +2314,7 @@ focus_tree = {
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = paternal_autocrat
+				ideology = futurist
 				popularity = -0.1
 			}
 			add_popularity = {
@@ -3500,7 +3500,7 @@ focus_tree = {
 	# Menlyk's Government
 	focus = {
 		id = UKR_menlyk_government
-		icon = GFX_goal_ideology_paternal_autocrat
+		icon = GFX_goal_ideology_futurist
 		x = 1
 		y = 1
 		cost = 6

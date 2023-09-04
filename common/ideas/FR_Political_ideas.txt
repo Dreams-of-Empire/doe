@@ -170,15 +170,15 @@ ideas = {
 			}
 		}
 
-		paternal_autocrat_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea paternal_autocrat_influence"}
+		futurist_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea futurist_influence"}
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 
 			removal_cost = -1
@@ -186,8 +186,8 @@ ideas = {
 			picture = generic_fascist_drift_bonus
 			
 			modifier = {
-				paternal_autocrat_drift = 0.1
-				paternal_autocrat_acceptance = 85
+				futurist_drift = 0.1
+				futurist_acceptance = 85
 			}
 		}
 

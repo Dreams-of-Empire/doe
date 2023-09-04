@@ -441,12 +441,12 @@ country_event = {
 		MAN_Yuan_Jinkai_sec_pau
 	}
 
-   add_popularity = { ideology = paternal_autocrat popularity = 0.20 }
+   add_popularity = { ideology = futurist popularity = 0.20 }
 
    hidden_effect = {
 	add_ideas = military_junta
    set_politics = {
-       ruling_party = paternal_autocrat
+       ruling_party = futurist
        elections_allowed = no
      }
 
@@ -499,7 +499,7 @@ country_event = {
 
     add_political_power = -50
 
-    add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
+    add_popularity = { ideology = futurist popularity = 0.10 }
 
     hidden_effect = {
 
@@ -791,7 +791,7 @@ country_event = {
       option = {
         name = "Finally they accept us."
 
-        add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
+        add_popularity = { ideology = futurist popularity = 0.15 }
 
         hidden_effect = {
 
@@ -969,14 +969,14 @@ country_event = {
       character = MAN_Local_Warlords
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }
    
     remove_every_minister = yes
 	  set_party_name = {
- 			ideology = paternal_autocrat
+ 			ideology = futurist
  			long_name = "Local Warlords"
  			name = "Local Warlords"
  		}
@@ -985,11 +985,11 @@ country_event = {
     hidden_effect = {
 		  add_ideas = military_junta
 		  add_popularity = { 
-        ideology = paternal_autocrat 
+        ideology = futurist 
         popularity = 0.25 
       }
 		  set_politics = {
-        ruling_party = paternal_autocrat
+        ruling_party = futurist
         elections_allowed = no
       }
 
@@ -1044,7 +1044,7 @@ country_event = {
 
 		add_popularity = { ideology = paternal popularity = -0.05 }
 
-		add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
+		add_popularity = { ideology = futurist popularity = -0.05 }
 
 		add_manpower = -4306
 
@@ -1243,7 +1243,7 @@ country_event = {
     add_political_power = 50
 
     add_popularity = { ideology = paternal popularity = 0.05 }
-    add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
+    add_popularity = { ideology = futurist popularity = 0.10 }
 
     custom_effect_tooltip = 2_MAN_tt
 

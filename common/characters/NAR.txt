@@ -78,7 +78,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Walter_C_Teagle_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -324,7 +324,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_John_Elliott_Rankin_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_smiling_oilman
 			}
 		}
@@ -432,7 +432,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Arthur_Cherep_Spiridovich_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_biased_intellectual
 			}
 		}
@@ -459,7 +459,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_William_Bell_Riley_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_general_staffer
 			}
 		}
@@ -656,7 +656,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Ellison_Smith_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_mixed_economy
 			}
 		}
@@ -683,7 +683,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Charles_Emil_Sorensen_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_oil_baron
 			}
 		}
@@ -710,7 +710,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Louis_Thomas_McFadden_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_railway_magnate
 			}
 		}
@@ -737,7 +737,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_William_H_Murray_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_laissez_faire_capitalist
 			}
 		}
@@ -910,7 +910,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Clare_E_Hoffman_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_efficient_sociopath
 			}
 		}
@@ -937,7 +937,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_DW_Griffith_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_compassionate_gentleman
 			}
 		}
@@ -964,7 +964,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Eugene_Talmadge_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_silent_lawyer
 			}
 		}
@@ -991,7 +991,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Theophilus_Eugene_Connor_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_prince_of_terror
 			}
 		}
@@ -1018,7 +1018,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_William_David_Upshaw_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_man_of_the_people
 			}
 		}

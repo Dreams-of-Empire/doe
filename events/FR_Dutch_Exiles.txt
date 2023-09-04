@@ -74,7 +74,7 @@ country_event = { # Reclaimed the Birthright
     remove_ideas = KNE_military_refugees
     hidden_effect = {
       add_popularity = {
-        ideology = paternal_autocrat
+        ideology = futurist
         popularity = 0.15
       }
       add_popularity = {

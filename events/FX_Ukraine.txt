@@ -111,7 +111,7 @@ country_event = { # Clashes Between the OUN and PNIU
       }
     }
     add_popularity = {
-      ideology = paternal_autocrat
+      ideology = futurist
       popularity = 0.05
     }
   }
@@ -122,7 +122,7 @@ country_event = { # Clashes Between the OUN and PNIU
       base = 100
     }
     add_popularity = {
-      ideology = paternal_autocrat
+      ideology = futurist
       popularity = 0.03
     }
     add_popularity = {
@@ -195,7 +195,7 @@ country_event = { # Rumours of President Hankevych's Death
       popularity = 0.05
     }
     add_popularity = {
-      ideology = paternal_autocrat
+      ideology = futurist
       popularity = 0.05
     }
   }
@@ -274,7 +274,7 @@ country_event = { # OUN Supporters flock to NIPU
 
     set_country_flag = UKR_oun_dead
     add_popularity = {
-      ideology = paternal_autocrat
+      ideology = futurist
       popularity = -0.15
     }
     add_popularity = {
@@ -438,7 +438,7 @@ country_event = { # 1936 Elections
       NOT = { has_country_flag = UKR_oun_dead }
     }
     set_politics = {
-      ruling_party = paternal_autocrat
+      ruling_party = futurist
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -1814,7 +1814,7 @@ country_event = { # 1946 Elections
       NOT = { has_country_flag = UKR_oun_dead }
     }
     set_politics = {
-      ruling_party = paternal_autocrat
+      ruling_party = futurist
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -1990,7 +1990,7 @@ country_event = { # 1951 Elections
       NOT = { has_country_flag = UKR_oun_dead }
     }
     set_politics = {
-      ruling_party = paternal_autocrat
+      ruling_party = futurist
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_10 = yes

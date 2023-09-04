@@ -93,7 +93,7 @@ CHI_national_assembly_calculation_in_China = {
 	set_variable = { KMTMemberAssembly = GovPop }
 	round_variable = KMTMemberAssembly
 	###Zhili 
-	set_temp_variable = { ZhiliPop = ROOT.party_popularity@paternal_autocrat }
+	set_temp_variable = { ZhiliPop = ROOT.party_popularity@futurist }
 	multiply_temp_variable = { ZhiliPop = 100 }
 	multiply_temp_variable = { ZhiliPop = CHIPop }
 	set_variable = { JGDMemberAssembly = ZhiliPop }

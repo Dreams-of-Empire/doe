@@ -1626,7 +1626,7 @@ country_event = { # Support the Philippines
 				factor = 8
 			}
 			modifier = {
-				has_country_flag = PHI_pataut_behavior
+				has_country_flag = PHI_fut_behavior
 				factor = 8
 			}
 		}
@@ -2749,7 +2749,7 @@ country_event = { # Emergency Congress Session
 					character = USA_Douglas_MacArthur
 					promote_leader = yes
 					country_leader = {
-						ideology = paternal_autocrat_subtype
+						ideology = futurist_subtype
 						traits = {}
 					}
 				}
@@ -2759,7 +2759,7 @@ country_event = { # Emergency Congress Session
 					character = USA_Dwight_D_Eisenhower
 					promote_leader = yes
 					country_leader = {
-						ideology = paternal_autocrat_subtype
+						ideology = futurist_subtype
 						traits = {}
 					}
 				}
@@ -2767,7 +2767,7 @@ country_event = { # Emergency Congress Session
 			
 			set_country_flag = USA_military_junta
 			set_party_name = {
-				ideology = paternal_autocrat
+				ideology = futurist
 				name = USA_emergency_government_party
 				long_name = USA_emergency_government_party_long
 			}
@@ -2791,11 +2791,11 @@ country_event = { # Emergency Congress Session
 			}
 		}
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = futurist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.35
 		}
 		remove_every_minister = yes
@@ -2923,13 +2923,13 @@ country_event = { # Oregon Question
 		  add_country_leader_role = {
 			promote_leader = yes
 			country_leader = {
-			  ideology = paternal_autocrat_subtype
+			  ideology = futurist_subtype
 			  traits = { }
 			}
 		  }
 		}
 		set_politics = {
-		  ruling_party = paternal_autocrat
+		  ruling_party = futurist
 		  last_election = "1932.11.15"
 		  election_frequency = 48
 		  elections_allowed = no
@@ -2940,7 +2940,7 @@ country_event = { # Oregon Question
 		  illuminist = 6
 		  social_conservative = 13
 		  authoritarian_democrat = 8
-		  paternal_autocrat = 44
+		  futurist = 44
 		  despotist = 8
 		}
 	  }

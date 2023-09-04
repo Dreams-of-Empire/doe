@@ -53,7 +53,7 @@ liberal = 1
 illuminist = 0
 social_conservative = 0
 paternal = 0
-paternal_autocrat = 0
+futurist = 0
 despotist = 0
 revivalist = 0
 }

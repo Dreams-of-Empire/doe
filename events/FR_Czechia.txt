@@ -1804,10 +1804,10 @@ country_event = { #waitfrontforwhat
   option = {
     name = cze.148.a
     add_popularity = {
-      ideology = paternal_autocrat
+      ideology = futurist
       popularity = 0.05
     }
-    set_party_name = { ideology = paternal_autocrat long_name = CZE_longfront name = CZE_frontfront }
+    set_party_name = { ideology = futurist long_name = CZE_longfront name = CZE_frontfront }
   }
 }
 country_event = { #waityo

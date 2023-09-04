@@ -366,7 +366,7 @@ country_event = {   #Creation of Democracy
         elections_allowed = no
       }
     country_event = { id = rus.17 days = 20 }
-    add_coalition_paternal_autocrat = yes 
+    add_coalition_futurist = yes 
     add_coalition_revivalist = yes 
     add_coalition_illuminist = yes 
     add_coalition_liberal = yes 
@@ -500,7 +500,7 @@ country_event = { #Elections
 		add_ideas = parliamentary_republic
 		set_politics = { ruling_party = revivalist }
 		add_popularity = { ideology = revivalist popularity = 0.2 }
-		add_popularity = { ideology = paternal_autocrat popularity = 0.1 }
+		add_popularity = { ideology = futurist popularity = 0.1 }
 
 		remove_ideas_with_trait = head_of_government
     add_ideas = {
@@ -514,7 +514,7 @@ country_event = { #Elections
 		complete_national_focus = RUS_control_economy
 		set_country_flag = NUS_Oktoberists_Victorious
 		set_country_flag = RUS_ready_militarise
-		add_coalition_paternal_autocrat = yes 
+		add_coalition_futurist = yes 
 		news_event = {
 			id = worldnews.112
 		}

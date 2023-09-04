@@ -79,7 +79,7 @@ country_event = { # Cristero Exiles
 
 	trigger = {
 		original_tag = CRU
-		MEX = { has_government = paternal_autocrat }
+		MEX = { has_government = futurist }
 	}
 
 	mean_time_to_happen = {

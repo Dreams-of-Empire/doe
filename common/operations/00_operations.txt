@@ -1098,9 +1098,9 @@ operation_coup_government = { ### 7 1/70
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = paternal_autocrat }
+					PREV.ROOT = { has_government = futurist }
 				}
-				paternal_autocrat > 0.2
+				futurist > 0.2
 			}
 			if = {
 				limit = {

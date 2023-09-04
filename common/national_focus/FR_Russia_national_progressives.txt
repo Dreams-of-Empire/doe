@@ -233,7 +233,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = paternal_autocrat_subtype
+              ideology = futurist_subtype
               traits = {}
             }
           }

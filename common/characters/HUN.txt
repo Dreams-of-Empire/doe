@@ -422,7 +422,7 @@ characters = {
 			coordination_skill = 4
 		}
     country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -826,7 +826,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Dezső_Pattantyus_Abraham_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_political_protege
 			}
 		}
@@ -853,7 +853,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Gyula_Gombos_de_Jakfa_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_underground_figurehead
 			}
 		}
@@ -880,7 +880,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Kalman_Daranyi_de_Pusztaszentgyorgyi_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_reformist_soldier
 			}
 		}
@@ -907,7 +907,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Laszlo_Bardossy_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_silent_workhorse
 			}
 		}
@@ -1150,7 +1150,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Gustav_Hennyey_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_biased_intellectual
 			}
 		}
@@ -1177,7 +1177,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Istvan_Csaky_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_moderate_among_radicals
 			}
 		}
@@ -1204,7 +1204,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Jenő_Ghyczy_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_iron_fisted_brute
 			}
 		}
@@ -1231,7 +1231,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Kalman_Kanya_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_general_staffer
 			}
 		}
@@ -1258,7 +1258,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Miklos_Kallay_de_Nagykallo_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_hawkish_intervener
 			}
 		}
@@ -1528,7 +1528,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Bela_Imredy_de_Omoravia_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_trade_proponent
 			}
 		}
@@ -1555,7 +1555,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Laszlo_Endre_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_railway_magnate
 			}
 		}
@@ -1582,7 +1582,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Lajos_Remenyi_Schneller_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_balanced_budget_economy
 			}
 		}
@@ -1609,7 +1609,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Tihamer_Fabinyi_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_construction_magnate
 			}
 		}
@@ -1960,7 +1960,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Kalman_Szell_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_regionalist
 			}
 		}
@@ -1987,7 +1987,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Miklos_Kozma_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_great_soul
 			}
 		}

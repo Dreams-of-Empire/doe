@@ -27,7 +27,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = futurist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -535,7 +535,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Aziz_Ezzat_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_old_general
 			}
 		}
@@ -562,7 +562,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Sherif_Sabri_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_silent_workhorse
 			}
 		}
@@ -770,7 +770,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Ahmed_Hassanein_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -797,7 +797,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Mohammed_Ali_Tewfik_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_apologetic_clerk
 			}
 		}
@@ -959,7 +959,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Youssef_Zulficar_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_steel_magnate
 			}
 		}

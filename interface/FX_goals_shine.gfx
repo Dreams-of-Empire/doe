@@ -544,11 +544,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_ideology_paternal_autocrat_shine"
-    texturefile = "gfx/interface/goals/goal_ideology_paternal_autocrat.png"
+    name = "GFX_goal_ideology_futurist_shine"
+    texturefile = "gfx/interface/goals/goal_ideology_futurist.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_paternal_autocrat.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_futurist.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -561,7 +561,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_paternal_autocrat.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_futurist.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no

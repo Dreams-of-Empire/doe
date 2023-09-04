@@ -41,7 +41,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Saud_bin_Abdulaziz_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_respected_war_hero
 			}
 		}
@@ -153,7 +153,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Khalid_bin_Abdulaziz_Al_Saud_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -292,7 +292,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Prince_Abdul_Aziz_bin_Musaed_Bin_Jalawi_bin_Turki_bin_Abdullah_Al_Saud_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_silent_workhorse
 			}
 		}
@@ -462,7 +462,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Faisal_bin_Abdulaziz_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -543,7 +543,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Muhammad_bin_Abdulaziz_Al_Saud_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_mixed_economy
 			}
 		}
@@ -570,7 +570,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Bandar_bin_Abdulaziz_Al_Saud_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_efficient_sociopath
 			}
 		}

@@ -120,7 +120,7 @@ country_event = {
 		hidden_effect = {
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_popularity = { ideology = paternal popularity = 0.04 }
-			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
+			add_popularity = { ideology = futurist popularity = 0.03 }
 		}
 	}
 }
@@ -143,7 +143,7 @@ country_event = {
 		name = socspain.5.a
 		add_political_power = 15
 		hidden_effect = {
-			add_popularity = { ideology = paternal_autocrat popularity = 0.04 }
+			add_popularity = { ideology = futurist popularity = 0.04 }
 			add_popularity = { ideology = despotist popularity = 0.04 }
 			add_popularity = { ideology = revivalist popularity = 0.01 }
 		}

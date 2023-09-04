@@ -41,7 +41,7 @@ EGL_create_monarchist_britain = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }
@@ -98,7 +98,7 @@ EGL_create_republican_britain = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }

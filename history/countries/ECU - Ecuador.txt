@@ -51,7 +51,7 @@ set_popularities = {
   collectivist = 15
   social_conservative = 10
   liberal = 10
-  paternal_autocrat = 20
+  futurist = 20
   despotist = 30
 }
 

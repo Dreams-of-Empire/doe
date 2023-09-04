@@ -468,7 +468,7 @@ ideas = {
 		USA_clamp_down_on_revivalism = {
 			picture = generic_oppression
 			modifier = {
-				paternal_autocrat_drift = -0.1
+				futurist_drift = -0.1
 				despotist_drift = -0.1
 				revivalist_drift = -0.1
 			}

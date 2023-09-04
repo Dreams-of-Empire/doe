@@ -625,7 +625,7 @@ country_event = {
       character = ZHI_Sun_Chuanfang
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }

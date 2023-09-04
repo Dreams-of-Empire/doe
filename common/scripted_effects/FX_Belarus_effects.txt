@@ -127,7 +127,7 @@ BLR_create_monarchy = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
         traits = {}
       }
     }
@@ -193,7 +193,7 @@ BLR_remove_monarchy = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
       }
     }
   }

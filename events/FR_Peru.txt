@@ -188,9 +188,9 @@ country_event = { #suspending democracy
 		activate_advisor = PRU_Felipe_Tudela_for_pau
 		add_ideas = one_party_dictatorship
 
-		set_politics = { ruling_party = paternal_autocrat }
+		set_politics = { ruling_party = futurist }
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.25
 		}
 		hidden_effect = {
@@ -199,7 +199,7 @@ country_event = { #suspending democracy
         character = PRU_Luis_Miguel_Sanchez_Cerro
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -1047,7 +1047,7 @@ country_event = { #pawar
 	option = {
 		name = pru.1339.a
 		start_civil_war = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			size = 0.4
 			capital = 492
 		}

@@ -1011,7 +1011,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Louis_Mountbatten_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_respected_war_hero
 			}
 		}
@@ -1357,7 +1357,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_John_Hugo_Russell_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_biased_intellectual
 			}
 		}
@@ -1681,7 +1681,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Noel_Pemberton_Billing_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_naval_aviation_proponent
 			}
 		}
@@ -1989,7 +1989,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Jeffrey_Hamm_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_efficient_sociopath
 			}
 		}
@@ -2381,7 +2381,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Edward_Windsor_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_king_emperor
 			}
 		}

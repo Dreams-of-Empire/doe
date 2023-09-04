@@ -429,7 +429,7 @@ focus_tree = {
 			OR = {
 				has_government = social_conservative
 				has_government = paternal
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 				has_government = revivalist
 			}
@@ -3306,7 +3306,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_ban_despotist_movements"
 			add_political_power = -20
-			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+			add_popularity = { ideology = futurist popularity = -0.04 }
 			add_popularity = { ideology = despotist popularity = -0.04 }
 			add_popularity = { ideology = revivalist popularity = -0.03 }
 		}
@@ -3457,7 +3457,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_investigate_lapua_movement"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+			add_popularity = { ideology = futurist popularity = -0.04 }
 			add_popularity = { ideology = despotist popularity = -0.04 }
 			add_popularity = { ideology = revivalist popularity = -0.03 }
 		}
@@ -3703,7 +3703,7 @@ focus_tree = {
 			add_popularity = { ideology = liberal popularity = 0.03 }
 			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 			add_popularity = { ideology = despotist popularity = -0.03 }
 			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
@@ -3816,7 +3816,7 @@ focus_tree = {
 			add_war_support = 0.03
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = collectivist popularity = -0.02 }
-			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
+			add_popularity = { ideology = futurist popularity = -0.02 }
 			add_popularity = { ideology = despotist popularity = -0.02 }
 		}
 
@@ -3990,7 +3990,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_pacify_lapua_movement"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
+			add_popularity = { ideology = futurist popularity = -0.03 }
 			add_popularity = { ideology = despotist popularity = -0.03 }
 			add_popularity = { ideology = revivalist popularity = -0.03 }
 		}
@@ -4072,7 +4072,7 @@ focus_tree = {
 		available = {
 			has_country_flag = FIN_lapua_movement_in_power_flag
 			OR = {
-				has_government = paternal_autocrat
+				has_government = futurist
 				has_government = despotist
 			}
 		}
@@ -4085,7 +4085,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_lapua_movement_in_power"
 			add_stability = 0.03
 			add_political_power = 25
-			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
+			add_popularity = { ideology = futurist popularity = 0.01 }
 			add_popularity = { ideology = despotist popularity = 0.01 }
 		}
 
@@ -4108,7 +4108,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_new_style_governing"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
+			add_popularity = { ideology = futurist popularity = 0.02 }
 			add_popularity = { ideology = despotist popularity = 0.02 }
 			country_event = {
 				id = finland.102 days = 1
@@ -4471,7 +4471,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_crush_anti_socialists"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
+			add_popularity = { ideology = futurist popularity = -0.04 }
 			add_popularity = { ideology = despotist popularity = -0.04 }
 			add_popularity = { ideology = revivalist popularity = -0.03 }
 		}

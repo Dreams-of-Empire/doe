@@ -12,7 +12,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pataut_warlordism_subtype
+			ideology = fut_warlordism_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -40,7 +40,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Sun_Chuanfang_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_ruthless_warlord
 			}
 		}
@@ -492,7 +492,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Wang_Kemin_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_bank_president
 			}
 		}
@@ -573,7 +573,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Wang_Yitang_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_driven_recruiter
 			}
 		}
@@ -627,7 +627,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Pan_Juying_sec_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				sec_preserver_of_culture
 			}
 		}
@@ -734,7 +734,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Hu_Weide_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_relations_expert
 			}
 		}

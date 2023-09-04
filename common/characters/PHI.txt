@@ -353,7 +353,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Basilio_J_Valdez_hog_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				hog_reformist_soldier
 			}
 		}
@@ -516,7 +516,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Vicente_P_Lim_for_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				for_general_staffer
 			}
 		}
@@ -1641,7 +1641,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Ramon_A_Alcaraz_eco_pau_hired }
 			}
 			traits = {
-				paternal_autocrat
+				futurist
 				eco_construction_magnate
 			}
 		}

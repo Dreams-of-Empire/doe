@@ -156,7 +156,7 @@ country_event = { #Staters Rise up
 		set_country_flag = BCW_state_risen
 		BRA = {		
 			add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = -0.1
 			}
 		}

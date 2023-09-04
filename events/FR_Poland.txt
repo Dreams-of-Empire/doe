@@ -91,7 +91,7 @@ country_event = {
 	option = {
 		name = poland.2.c
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.02
 		}
 		
@@ -164,7 +164,7 @@ country_event = {
 			}
 		add_political_power = -40
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.02
 		}
 
@@ -323,7 +323,7 @@ country_event = {
 		set_country_flag = POL_vetoed_army_bill
 		add_political_power = -40
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.02
 		}
 
@@ -391,7 +391,7 @@ country_event = {
 		set_country_flag = POL_vetoed_airforce_bill
 		add_political_power = -40
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.02
 		}
 
@@ -965,7 +965,7 @@ country_event = {
             ideology = social_conservative_subtype
           }
           remove_country_leader_role = {
-            ideology = paternal_autocrat_subtype
+            ideology = futurist_subtype
           }
         }
       }
@@ -1005,7 +1005,7 @@ country_event = {
         character = POL_Edward_Rydz_Śmigły
         promote_leader = yes
         country_leader = {
-          ideology = paternal_autocrat_subtype
+          ideology = futurist_subtype
           traits = {}
         }
       }
@@ -1016,9 +1016,9 @@ country_event = {
 			hidden_effect = { set_cosmetic_tag = POL_REP }
 			hidden_effect = {
 				set_party_name = {
-					ideology = paternal_autocrat
-					name = POL_MIL_paternal_autocrat
-					long_name = POL_MIL_paternal_autocrat_long
+					ideology = futurist
+					name = POL_MIL_futurist
+					long_name = POL_MIL_futurist_long
 				}
 			}
 			hidden_effect = {
@@ -1037,11 +1037,11 @@ country_event = {
 				factor = 90
 			}
 		    add_popularity = {
-				ideology = paternal_autocrat
+				ideology = futurist
 				popularity = 0.10
 			}
 			add_ideas = absolute_monarchy
-			set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
+			set_politics = { ruling_party = futurist elections_allowed = no }
 			hidden_effect = {
 			country_event = { days = 2 id = poland.32} }
 		}
@@ -1128,21 +1128,21 @@ country_event = {
 		name = poland.34.a
 		
 		set_party_name = {
-			ideology = paternal_autocrat
-			name = POL_MIL_paternal_autocrat
-			long_name = POL_MIL_paternal_autocrat_long
+			ideology = futurist
+			name = POL_MIL_futurist
+			long_name = POL_MIL_futurist_long
 		}
 		remove_ideas = POL_advisors_council
 		add_political_power = 50
 		
 		add_popularity = {
-		ideology = paternal_autocrat
+		ideology = futurist
 		popularity = 0.2
 			}
 		
 		add_ideas = military_junta
 		
-		set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
+		set_politics = { ruling_party = futurist elections_allowed = no }
 		POL_Franciszek_I_Radziwiłł = {
       remove_country_leader_role = {
         ideology = social_democrat_subtype
@@ -1160,14 +1160,14 @@ country_event = {
         ideology = paternal_subtype
       }
       remove_country_leader_role = {
-        ideology = paternal_autocrat_subtype
+        ideology = futurist_subtype
       }
     }
 		POL_Edward_Rydz_Śmigły = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = paternal_autocrat_subtype
+					ideology = futurist_subtype
 					traits = { }
 				}
 			}
@@ -1234,7 +1234,7 @@ country_event = {
 		}
 		
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = 0.15
 			}
 		hidden_effect = { set_cosmetic_tag = POL_REP }
@@ -1250,7 +1250,7 @@ country_event = {
 			factor = 25
 		}
 		add_popularity = {
-			ideology = paternal_autocrat
+			ideology = futurist
 			popularity = -0.2
 			}
 		add_popularity = {
@@ -3153,7 +3153,7 @@ country_event = { # Poland - Ukraine wants peace
 			factor = 400
 			modifier = {
 				factor = 0
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 		}
 		white_peace = UKR
@@ -3295,7 +3295,7 @@ country_event = { # Poland - Belarus wants peace
 			factor = 400
 			modifier = {
 				factor = 0
-				has_government = paternal_autocrat
+				has_government = futurist
 			}
 		}
 		white_peace = BLR
