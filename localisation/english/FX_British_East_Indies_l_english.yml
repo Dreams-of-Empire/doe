@@ -34,8 +34,8 @@ BEA_paternal_party: "Nederlandse Regering"
 BEA_paternal_party_long: "Nederlandse Regering van Oost-Indië"
 BEA_paternal_autocrat_party: "Colonial Administration"
 BEA_paternal_autocrat_party_long: "British Colonial Administration"
-BEA_national_populist_party: "NNB van Oost-Indië"
-BEA_national_populist_party_long: "Nieuwe Nederlandse Beweging van Oost-Indië"
+BEA_despotist_party: "NNB van Oost-Indië"
+BEA_despotist_party_long: "Nieuwe Nederlandse Beweging van Oost-Indië"
 
 #### Ideas ####
 BEA_disputes_between_british_and_dutch_idea: "Anglo-Dutch Colonial Disputes"

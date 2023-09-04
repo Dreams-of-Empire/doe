@@ -222,7 +222,7 @@ foreign_politics = {
               social_conservative = 0
               paternal = 0
               paternal_autocrat = 10
-              national_populist = 0
+              despotist = 0
               revivalist = 0
           }
 				}

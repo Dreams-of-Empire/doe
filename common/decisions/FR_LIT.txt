@@ -36,9 +36,9 @@ foreign_politics = {
 #		
 #		complete_effect = {
 #			set_country_flag = A_LIT_WETDREAM
-#			add_popularity = { ideology = national_populist popularity = 0.55 }
+#			add_popularity = { ideology = despotist popularity = 0.55 }
 #			set_politics = {
-#				ruling_party = national_populist
+#				ruling_party = despotist
 #				elections_allowed = no
 #			}
 #			POL = {

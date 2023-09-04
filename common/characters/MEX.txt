@@ -477,7 +477,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Alberto_B_Gutierrez_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_state_secularist
 			}
 		}
@@ -882,7 +882,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Alfonso_Junco_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_moderate_among_radicals
 			}
 		}
@@ -1238,7 +1238,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Pedro_Zuloaga_Irigoiti_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_keynesian_economy
 			}
 		}
@@ -1508,7 +1508,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Daniel_Cosio_Villegas_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_preserver_of_culture
 			}
 		}
@@ -1936,7 +1936,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 	}

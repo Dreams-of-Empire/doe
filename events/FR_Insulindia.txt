@@ -271,7 +271,7 @@ country_event = {
 		name = insulindia.6.a
 		ai_chance = { base = 25 }
 		add_political_power = 15
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		add_popularity = { ideology = social_conservative popularity = 0.02 }
 		set_country_flag = INS_islamist_appeacement
 	}
@@ -289,7 +289,7 @@ country_event = {
 		ai_chance = { base = 25 }
 		add_political_power = -30
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = despotist popularity = -0.02 }
 		set_country_flag = INS_islamist_rejected
 	}
 }
@@ -395,7 +395,7 @@ country_event = {
 		add_political_power = -20
 		add_stability = -0.05
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		hidden_effect = {
 			set_country_flag = INS_appeacement_aftermath
 		}
@@ -759,9 +759,9 @@ country_event = {
 		add_stability = 0.05
 		add_ideas = theocratic_dictatorship
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = despotist elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.10 }
+		add_popularity = { ideology = despotist popularity = 0.10 }
 		set_country_flag = INS_darul_islam_government_flag
 		hidden_effect = {
 			set_country_flag = INS_AUTOCRACY

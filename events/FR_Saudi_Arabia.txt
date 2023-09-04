@@ -51,7 +51,7 @@ country_event = { # Ikhwan Seizes Power
   option = { # 
     name = saudi.3.a
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = despotist
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_25 = yes

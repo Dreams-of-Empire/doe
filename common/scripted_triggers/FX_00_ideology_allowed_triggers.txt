@@ -69,7 +69,7 @@ social_conservative_allowed = {
 		has_government = social_conservative
 		has_government = paternal
 		has_government = paternal_autocrat
-		has_government = national_populist
+		has_government = despotist
 		has_government = revivalist
 	}
 }
@@ -80,7 +80,7 @@ paternal_allowed = {
 		has_government = social_conservative
 		has_government = paternal
 		has_government = paternal_autocrat
-		has_government = national_populist
+		has_government = despotist
 		has_government = revivalist
 	}
 }
@@ -90,16 +90,16 @@ paternal_autocrat_allowed = {
 		has_government = social_conservative
 		has_government = paternal
 		has_government = paternal_autocrat
-		has_government = national_populist
+		has_government = despotist
 		has_government = revivalist
 	}
 }
 
-national_populist_allowed = {
+despotist_allowed = {
 	OR = {
 		has_government = paternal
 		has_government = paternal_autocrat
-		has_government = national_populist
+		has_government = despotist
 		has_government = revivalist
 	}
 }
@@ -108,7 +108,7 @@ revivalist_allowed = {
 	OR = {
 		has_government = paternal
 		has_government = paternal_autocrat
-		has_government = national_populist
+		has_government = despotist
 		has_government = revivalist
 	}
 }

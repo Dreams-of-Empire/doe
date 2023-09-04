@@ -143,7 +143,7 @@ country_event = {
 	option = {
 		name = estonia.6.a
 		add_stability = 0.05
-		add_popularity = { ideology = national_populist popularity = -0.05 }
+		add_popularity = { ideology = despotist popularity = -0.05 }
 		hidden_effect = {
 			swap_ideas = {
 				remove_idea = EST_ineffective_government_and_unrest_idea
@@ -166,7 +166,7 @@ country_event = {
 
 	option = {
 		name = estonia.7.a
-		add_popularity = { ideology = national_populist popularity = -0.05 }
+		add_popularity = { ideology = despotist popularity = -0.05 }
 		hidden_effect = {
 			country_event = { id = estonia.8 days = 6 }
 		}
@@ -227,7 +227,7 @@ country_event = {
 	option = {
 		name = estonia.10.a
 		add_stability = 0.03
-		add_popularity = { ideology = national_populist popularity = -0.05 }
+		add_popularity = { ideology = despotist popularity = -0.05 }
 		hidden_effect = {
 			country_event = { id = estonia.11 days = 1 }
 		}
@@ -253,7 +253,7 @@ country_event = {
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
 		add_popularity = { ideology = paternal popularity = -0.05 }
-		add_popularity = { ideology = national_populist popularity = -0.03 }
+		add_popularity = { ideology = despotist popularity = -0.03 }
 		hidden_effect = {
 			country_event = { id = estonia.12 days = 6 }
 			set_temp_variable = { coalition_partner_var = token:illuminist }
@@ -452,9 +452,9 @@ country_event = {
 		name = estonia.19.a
 		add_stability = 0.03
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = despotist elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 		add_popularity = { ideology = paternal popularity = -0.05 }
 		hidden_effect = {
 			country_event = { id = estonia.12 days = 6 }
@@ -642,7 +642,7 @@ country_event = {
 
 	option = {
 		name = estonia.104.a
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = despotist popularity = -0.02 }
 		hidden_effect = {
 		}
 	}

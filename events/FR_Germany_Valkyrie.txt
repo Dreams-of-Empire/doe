@@ -101,7 +101,7 @@ country_event = { #Chaos in the Country
 			popularity = 0.2
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.1
 		}
 
@@ -162,7 +162,7 @@ country_event = { #Chaos in the Country
 		}
 
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.4
 		}
 		add_popularity = {
@@ -175,7 +175,7 @@ country_event = { #Chaos in the Country
 		}
 
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
     retire_character = GER_revivalist_Council
@@ -306,7 +306,7 @@ country_event = { #Goering's Speech
 		name = valkyrie.6.a
 		add_political_power = 65
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.05
 		}
 	}
@@ -323,7 +323,7 @@ country_event = { #Goering Blue Max Tour
 		name = valkyrie.7.a
 		add_political_power = 65
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.1
 		}
 		   swap_ideas = { remove_idea = ger_political_collapse_3_g add_idea = ger_political_collapse_4_g }
@@ -3485,7 +3485,7 @@ country_event = { # WIP Austria coup
 			popularity = 0.25
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.15
 		}
 		clr_country_flag = GER_aus_coup
@@ -3603,7 +3603,7 @@ country_event = {
       character = AUS_Ernst_Kaltenbrunner
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = despotist_subtype
         traits = {}
       }
     }

@@ -1382,7 +1382,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1400,7 +1400,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Daud_Beureueh_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_secret_police_chief
 			}
 		}

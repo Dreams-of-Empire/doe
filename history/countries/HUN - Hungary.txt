@@ -55,7 +55,7 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = national_populist
+	ruling_party = despotist
 	last_election = "1920.1.25"
 	election_frequency = 48
 	elections_allowed = no
@@ -71,7 +71,7 @@ set_popularities = {
   social_conservative = 10
   paternal = 7
   paternal_autocrat = 1
-  national_populist = 51
+  despotist = 51
   revivalist = 1
 }
 

@@ -346,7 +346,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_D_F_Malan_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_local_tyrant
 			}
 		}
@@ -373,7 +373,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_J_F_van_Rensburg_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_silent_workhorse
 			}
 		}
@@ -1238,7 +1238,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1446,7 +1446,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Tielman_Roos_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_local_tyrant
 			}
 		}

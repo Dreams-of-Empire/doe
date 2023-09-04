@@ -69,7 +69,7 @@ set_war_support = 0.84
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = national_populist
+	ruling_party = despotist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -85,7 +85,7 @@ set_popularities = {
   social_conservative = 8
   paternal = 0
   paternal_autocrat = 16
-  national_populist = 37
+  despotist = 37
   revivalist = 16
 }
 

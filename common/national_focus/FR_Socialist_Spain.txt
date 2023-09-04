@@ -383,7 +383,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_ban_nationalist_militas"
 			add_stability = 0.02
 			add_political_power = -20
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = despotist popularity = -0.03 }
 			add_popularity = { ideology = revivalist popularity = -0.03 }
 			if = {
 				limit = {
@@ -449,7 +449,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPA_ban_carlists
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		cost = 8.00
 		prerequisite = {
 			focus = SPA_ban_nationalist_militas
@@ -466,7 +466,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power = -20
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 			if = {
 				limit = {
@@ -1418,7 +1418,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPA_spain_free_from_revivalism
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		cost = 5.00
 		prerequisite = {
 			focus = SPA_purge_anarchist_syndicalists
@@ -1436,7 +1436,7 @@ focus_tree = {
 			add_political_power = -40
 			add_popularity = { ideology = paternal popularity = -0.05 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = despotist popularity = -0.05 }
 			add_popularity = { ideology = revivalist popularity = -0.05 }
 		}
 

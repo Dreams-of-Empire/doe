@@ -3776,7 +3776,7 @@ focus_tree = {
 			is_subject_of = ENG
 			OR = {
 				has_socialist_government = yes
-				has_government = national_populist
+				has_government = despotist
 			}
 		}
 		bypass = {
@@ -3822,7 +3822,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_socialist_government = yes
-				has_government = national_populist
+				has_government = despotist
 			}
 		}
 		x = 0
@@ -3862,7 +3862,7 @@ focus_tree = {
 		icon = GFX_goal_brain
 		cost = 6
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = {
 			focus = AST_flying_eureka
@@ -3882,7 +3882,7 @@ focus_tree = {
 		icon = GFX_goal_AST_republic_flag
 		cost = 6
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = {
 			focus = AST_intellectual_movement
@@ -3907,7 +3907,7 @@ focus_tree = {
 		icon = GFX_goal_SOV_family
 		cost = 6
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = {
 			focus = AST_putting_australia_first
@@ -3929,7 +3929,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_socialist_government = yes
 			}
 		}
@@ -3952,7 +3952,7 @@ focus_tree = {
 		icon = GFX_goal_generic_paramilitary
 		cost = 6
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = {
 			focus = AST_putting_australia_first
@@ -3972,7 +3972,7 @@ focus_tree = {
 		icon = GFX_goal_AST_cockatoo_island
 		cost = 6
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = {
 			focus = AST_league_young_australians
@@ -3995,7 +3995,7 @@ focus_tree = {
 		icon = GFX_goal_generic_council
 		cost = 6
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = {
 			focus = AST_nationalize_the_economy
@@ -4018,7 +4018,7 @@ focus_tree = {
 		icon = GFX_goal_AST_white_australasia
 		cost = 6
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = {
 			focus = AST_guard_our_peace
@@ -4041,7 +4041,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = despotist
 			}
 		}
 		prerequisite = {
@@ -4077,7 +4077,7 @@ focus_tree = {
 			add_popularity = { ideology = vanguardist popularity = -0.1 }
 			add_popularity = { ideology = collectivist popularity = -0.1 }
 			add_popularity = { ideology = fasci popularity = -0.1 }
-			add_popularity = { ideology = national_populist popularity = -0.1 }
+			add_popularity = { ideology = despotist popularity = -0.1 }
 			hidden_effect = {
 				country_event = { id = australia.41 days = 30 }
 			}

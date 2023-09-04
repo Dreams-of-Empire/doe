@@ -3057,8 +3057,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Europe/Netherlands/HOL_national_jeugdstorm.png"
 	}
 	spriteType = {
-		name = "GFX_report_event_HOL_natpop_funeral"
-		texturefile = "gfx/event_pictures/Europe/Netherlands/HOL_natpop_funeral.png"
+		name = "GFX_report_event_HOL_desp_funeral"
+		texturefile = "gfx/event_pictures/Europe/Netherlands/HOL_desp_funeral.png"
 	}
 	spriteType = {
 		name = "GFX_report_event_HOL_prison_vught"
@@ -6078,8 +6078,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Europe/Switzerland/SWI_event_flag.png"
 	}
 	spriteType = {
-		name = "GFX_report_event_SWI_natpop"
-		texturefile = "gfx/event_pictures/Europe/Switzerland/SWI_event_natpop.png"
+		name = "GFX_report_event_SWI_desp"
+		texturefile = "gfx/event_pictures/Europe/Switzerland/SWI_event_desp.png"
 	}
 	spriteType = {
 		name = "GFX_report_event_SWI_peace"
@@ -6102,7 +6102,7 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Europe/Switzerland/SWI_event_socialist2.png"
 	}
 	spriteType = {
-		name = "GFX_report_event_SWI_flag_natpop"
+		name = "GFX_report_event_SWI_flag_desp"
 		texturefile = "gfx/event_pictures/Europe/Switzerland/SWI_event_nationalist_flag.png"
 	}
 	spriteType = {

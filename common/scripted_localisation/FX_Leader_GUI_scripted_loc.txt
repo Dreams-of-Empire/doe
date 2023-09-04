@@ -62,7 +62,7 @@ defined_text = {
 # 	# text = {
 # 	# 	trigger = {
 # 	# 		tag = LIB
-# 	# 		has_government = national_populist
+# 	# 		has_government = despotist
 # 	# 	}
 # 	# 	localization_key = MASON_TRAIT
 # 	# }
@@ -330,14 +330,14 @@ defined_text = {
 # 	name = SRIGetPMTitle
 # 	text = {
 # 		trigger = {
-# 			has_government = national_populist
+# 			has_government = despotist
 # 		}
 # 		localization_key = "Baron"
 # 	}
 # 	text = {
 # 		trigger = {
 # 			NOT = {
-# 				has_government = national_populist
+# 				has_government = despotist
 # 			}
 # 		}
 # 		localization_key = "Patrizio"

@@ -132,8 +132,8 @@ copy_government_of_ROOT = {
 		set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = national_populist } }
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		limit = { ROOT = { has_government = despotist } }
+		set_politics = { ruling_party = despotist elections_allowed = no }
 	}
 	if = {
 		limit = { ROOT = { has_government = revivalist } }
@@ -293,7 +293,7 @@ get_current_government_type = {
 	clr_country_flag = was_social_conservative
 	clr_country_flag = was_paternal
 	clr_country_flag = was_paternal_autocrat
-	clr_country_flag = was_national_populist
+	clr_country_flag = was_despotist
 	clr_country_flag = was_revivalist
 
 	set_variable = { var = fasci value = party_popularity@fasci }
@@ -305,7 +305,7 @@ get_current_government_type = {
 	set_variable = { var = soccon value = party_popularity@social_conservative }
 	set_variable = { var = pat value = party_popularity@paternal }
 	set_variable = { var = pataut value = party_popularity@paternal_autocrat }
-	set_variable = { var = natpop value = party_popularity@national_populist }
+	set_variable = { var = desp value = party_popularity@despotist }
 	set_variable = { var = valk value = party_popularity@revivalist }
 
 	if = {
@@ -345,8 +345,8 @@ get_current_government_type = {
 		set_country_flag = was_paternal_autocrat
 	}
 	if = {
-		limit = { has_government = national_populist }
-		set_country_flag = was_national_populist
+		limit = { has_government = despotist }
+		set_country_flag = was_despotist
 	}
 	if = {
 		limit = { has_government = revivalist }
@@ -393,8 +393,8 @@ restore_previous_government_type = {
 			set_politics = { ruling_party = paternal_autocrat }
 		}
 		if = {
-			limit = { has_country_flag = was_national_populist }
-			set_politics = { ruling_party = national_populist }
+			limit = { has_country_flag = was_despotist }
+			set_politics = { ruling_party = despotist }
 		}
 		if = {
 			limit = { has_country_flag = was_revivalist }
@@ -418,8 +418,8 @@ restore_previous_government_type = {
 		add_popularity = { ideology = paternal popularity = pat }
 		add_popularity = { ideology = paternal_autocrat popularity = -1.0 }
 		add_popularity = { ideology = paternal_autocrat popularity = pataut }
-		add_popularity = { ideology = national_populist popularity = -1.0 }
-		add_popularity = { ideology = national_populist popularity = natpop }
+		add_popularity = { ideology = despotist popularity = -1.0 }
+		add_popularity = { ideology = despotist popularity = desp }
 		add_popularity = { ideology = revivalist popularity = -1.0 }
 		add_popularity = { ideology = revivalist popularity = valk }
 
@@ -432,7 +432,7 @@ restore_previous_government_type = {
 		clear_variable = soccon
 		clear_variable = pat
 		clear_variable = pataut
-		clear_variable = natpop
+		clear_variable = desp
 		clear_variable = valk
 	}
 }
@@ -622,7 +622,7 @@ copy_popularities_of_ROOT = {
 			social_conservative = ROOT.party_popularity_100@social_conservative
 			paternal = ROOT.party_popularity_100@paternal
 			paternal_autocrat = ROOT.party_popularity_100@paternal_autocrat
-			national_populist = ROOT.party_popularity_100@national_populist
+			despotist = ROOT.party_popularity_100@despotist
 			revivalist = ROOT.party_popularity_100@revivalist
 		}
 	}

@@ -240,7 +240,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = national_populist_subtype
+              ideology = despotist_subtype
               traits = {}
             }
           }
@@ -336,7 +336,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_ban_parties"
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = 0.05
 			}
 		}
@@ -429,7 +429,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_indoctrinate_children"
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = 0.1
 			}
 		}

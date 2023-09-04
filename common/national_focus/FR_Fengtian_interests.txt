@@ -976,7 +976,7 @@ focus_tree = {
 
 			add_stability = -0.05
 			increase_ruling_party_popularity_by_10 = yes
-			add_popularity = { ideology = national_populist popularity = 0.10 }
+			add_popularity = { ideology = despotist popularity = 0.10 }
 
 
 			}
@@ -1083,7 +1083,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_japanese_lobbyists_expelled"
 
-			add_popularity = { ideology = national_populist popularity = -0.10 }
+			add_popularity = { ideology = despotist popularity = -0.10 }
 			increase_ruling_party_popularity_by_10 = yes
 
 			}

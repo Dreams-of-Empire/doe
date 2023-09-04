@@ -191,15 +191,15 @@ ideas = {
 			}
 		}
 
-		national_populist_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea national_populist_influence"}
+		despotist_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea despotist_influence"}
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = national_populist
+				has_government = despotist
 			}
 
 			removal_cost = -1
@@ -207,8 +207,8 @@ ideas = {
 			picture = generic_fascist_drift_bonus
 			
 			modifier = {
-				national_populist_drift = 0.1
-				national_populist_acceptance = 85
+				despotist_drift = 0.1
+				despotist_acceptance = 85
 			}
 		}
 

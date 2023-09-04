@@ -273,7 +273,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 	}
@@ -526,7 +526,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Gonzalo_Romero_Alvarez_Garcia_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_hawkish_intervener
 			}
 		}
@@ -807,7 +807,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Juan_Sanjines_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_military_entrepreneur
 			}
 		}
@@ -996,7 +996,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Julian_V_Montellano_Carrasco_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_efficient_sociopath
 			}
 		}

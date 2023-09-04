@@ -547,19 +547,19 @@ PHI_create_papal_state = {
   ITP = {
     set_cosmetic_tag = ITA_PAP
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = despotist
       elections_allowed = no
       name = ITP_pope_party
       long_name = ITP_pope_party_long
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = 0.45
     }
     ITA_Pope_Julius_IV = {
       promote_character = yes
       remove_trait = {
-        ideology = national_populist_subtype
+        ideology = despotist_subtype
         trait = exiled_pope
       }
     }
@@ -677,7 +677,7 @@ PHI_create_albert_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = despotist_subtype
         traits = { }
       }
     }
@@ -760,7 +760,7 @@ PHI_create_henry_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = despotist_subtype
         traits = { }
       }
     }
@@ -843,7 +843,7 @@ PHI_create_george_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = despotist_subtype
         traits = { }
       }
     }
@@ -969,12 +969,12 @@ PHI_remove_governor_general = {
   }
   PHI_Andres_Soriano = {
     if = {
-      limit = { has_ideology = national_populist_subtype }
-      promote_character = { ideology = national_populist_subtype }
+      limit = { has_ideology = despotist_subtype }
+      promote_character = { ideology = despotist_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = national_populist_subtype }
+        country_leader = { ideology = despotist_subtype }
         promote_leader = yes
       }
     }

@@ -849,8 +849,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/goal_africa.png"
   }
 	spriteType = {
-    name = "GFX_goal_national_populism"
-    texturefile = "gfx/interface/goals/goal_national_populism.png"
+    name = "GFX_goal_despotism"
+    texturefile = "gfx/interface/goals/goal_despotism.png"
   }
 	spriteType = {
     name = "GFX_BAT_aut"
@@ -1085,8 +1085,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/goal_flag_perubolivia.png"
   }
 	spriteType = {
-    name = "GFX_goal_perubolivia_natpop"
-    texturefile = "gfx/interface/goals/goal_flag_perubolivia_natpop.png"
+    name = "GFX_goal_perubolivia_desp"
+    texturefile = "gfx/interface/goals/goal_flag_perubolivia_desp.png"
   }
 	spriteType = {
     name = "GFX_goal_grancolombia"
@@ -1637,8 +1637,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/focus_HOL_monarchy.png"
   }
 	spriteType = {
-    name = "GFX_HOL_crackdown_natpop"
-    texturefile = "gfx/interface/goals/HOL_crackdown_natpop.png"
+    name = "GFX_HOL_crackdown_desp"
+    texturefile = "gfx/interface/goals/HOL_crackdown_desp.png"
   }
 	spriteType = {
     name = "GFX_HOL_crackdown_syndie"
@@ -2861,8 +2861,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/HOL_council_communism.png"
   }
 	spriteType = {
-    name = "GFX_goal_HOL_natpop_success"
-    texturefile = "gfx/interface/goals/HOL_natpop_success.png"
+    name = "GFX_goal_HOL_desp_success"
+    texturefile = "gfx/interface/goals/HOL_desp_success.png"
   }
 	spriteType = {
     name = "GFX_goal_HOL_overthrow_the_system"

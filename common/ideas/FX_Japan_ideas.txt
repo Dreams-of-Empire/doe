@@ -517,7 +517,7 @@ ideas = {
 				OR = {
 					has_democratic_government = yes
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 				country_exists = JAP
@@ -741,7 +741,7 @@ ideas = {
 			picture = generic_education_budget
 			allowed = { original_tag = JAP }
 			modifier = {
-				national_populist_drift = 0.05
+				despotist_drift = 0.05
 				research_speed_factor = 0.05
 			}
 			research_bonus = {
@@ -754,7 +754,7 @@ ideas = {
 			picture = generic_education_budget
 			modifier = {
 				political_power_gain = 0.05
-				national_populist_drift = 0.1
+				despotist_drift = 0.1
 				research_speed_factor = 0.1
 			}
 			research_bonus = {

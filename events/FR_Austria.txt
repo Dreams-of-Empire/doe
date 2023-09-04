@@ -242,10 +242,10 @@ country_event = {
 
 	option = {
 		name = "Our nation must be protected from the godless Leftists!"
-		add_popularity = { ideology = national_populist popularity = 0.3 }
+		add_popularity = { ideology = despotist popularity = 0.3 }
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
 		add_manpower = -30000

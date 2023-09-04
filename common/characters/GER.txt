@@ -160,7 +160,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -178,7 +178,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hermann_Goring_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_old_admiral
 			}
 		}
@@ -1649,7 +1649,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Wilhelm_Frick_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_happy_amateur
 			}
 		}
@@ -1676,7 +1676,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Heinrich_Behrmann_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_local_tyrant
 			}
 		}
@@ -2094,7 +2094,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Konstantin_von_Neurath_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_biased_intellectual
 			}
 		}
@@ -2905,7 +2905,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Rudolf_Hess_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_efficient_sociopath
 			}
 		}
@@ -2932,7 +2932,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Kurt_Deluge_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_silent_lawyer
 			}
 		}
@@ -2959,7 +2959,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Rudolf_Diels_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_secret_police_chief
 			}
 		}

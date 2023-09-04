@@ -42,7 +42,7 @@ leader_traits = {
 	social_conservative = {}
 	paternal = {}
 	paternal_autocrat = {}
-	national_populist = {}
+	despotist = {}
 	revivalist = {}
 
 }

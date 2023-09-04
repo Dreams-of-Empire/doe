@@ -59,7 +59,7 @@ focus_tree = {
 
 	focus = {
 		id = IND_Guerilla_Tactics
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		prerequisite = { focus = IND_rebellion }
 
 		x = 0
@@ -126,7 +126,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			add_stability = 0.05
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = despotist popularity = 0.05 }
 			add_manpower = 10000
 		}
 	}

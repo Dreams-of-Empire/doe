@@ -385,9 +385,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = despotist
 			}
-			set_country_flag = opinion_set_national_populist
+			set_country_flag = opinion_set_despotist
 		}
 		if = {
 			limit = {
@@ -451,8 +451,8 @@ country_event = {
 				has_country_flag = opinion_set_paternal_autocrat
 			}
 			AND = {
-				NOT = { has_government = national_populist }
-				has_country_flag = opinion_set_national_populist
+				NOT = { has_government = despotist }
+				has_country_flag = opinion_set_despotist
 			}
 			AND = {
 				NOT = { has_government = revivalist }
@@ -468,7 +468,7 @@ country_event = {
 				NOT = { has_country_flag = opinion_set_social_conservative }
 				NOT = { has_country_flag = opinion_set_paternal }
 				NOT = { has_country_flag = opinion_set_paternal_autocrat }
-				NOT = { has_country_flag = opinion_set_national_populist }
+				NOT = { has_country_flag = opinion_set_despotist }
 				NOT = { has_country_flag = opinion_set_revivalist }
 			}
 		}
@@ -488,7 +488,7 @@ country_event = {
 		clr_country_flag = opinion_set_social_conservative
 		clr_country_flag = opinion_set_paternal
 		clr_country_flag = opinion_set_paternal_autocrat
-		clr_country_flag = opinion_set_national_populist
+		clr_country_flag = opinion_set_despotist
 		clr_country_flag = opinion_set_revivalist
 		every_country = {
 			remove_opinion_modifier = {
@@ -696,9 +696,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = despotist
 			}
-			set_country_flag = opinion_set_national_populist
+			set_country_flag = opinion_set_despotist
 		}
 		if = {
 			limit = {

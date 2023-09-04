@@ -303,7 +303,7 @@ focus_tree = {
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
-						has_government = national_populist
+						has_government = despotist
 						has_government = paternal_autocrat
 					}
 				}
@@ -679,7 +679,7 @@ focus_tree = {
 
 		focus = { 
 		id = COL_avenging_our_nation
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 
  		ai_will_do = { factor = 10 } 
  		x =25
@@ -713,7 +713,7 @@ focus_tree = {
 	}
 		focus = { 
 		id = COL_ideas_of_nationalism
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
 
  		ai_will_do = { factor = 10 } 
  		x =23
@@ -724,7 +724,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COL_ideas_of_nationalism"
 			add_popularity = { 
-				ideology = national_populist popularity = 0.075
+				ideology = despotist popularity = 0.075
 				}
 			add_stability = 0.05
 		} 
@@ -898,7 +898,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COL_patriotic_propaganda"
 			add_popularity = { 
-				ideology = national_populist popularity = 0.05
+				ideology = despotist popularity = 0.05
 				}
 			add_war_support = 0.025
 			hidden_effect = { country_event = { id = col.16 } }		

@@ -355,9 +355,9 @@ ideologies = {
 		#can_be_boosted = no
 	}
 	
-	national_populist = {
+	despotist = {
 		types = {
-			national_populist_subtype = {}
+			despotist_subtype = {}
 			statist_showaist_subtype = { can_be_randomly_selected = no }
 			legionarism_subtype = { can_be_randomly_selected = no }
 			integralism_subtype = { can_be_randomly_selected = no }

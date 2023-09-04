@@ -230,7 +230,7 @@ country_event = {
 		name = sweden.8.a
 		add_political_power = -10
 		add_stability = -0.03
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 	}
 }
 
@@ -305,7 +305,7 @@ country_event = {
 		ai_chance = { factor = 70 }
 		add_political_power = 10
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.07 }
+		add_popularity = { ideology = despotist popularity = 0.07 }
 		add_popularity = { ideology = revivalist popularity = 0.01 }
 		country_event = { days = 8 id = sweden.34 }
 		set_country_flag = SWE_election_happened_flag
@@ -398,7 +398,7 @@ country_event = {
 	option = {
 		name = sweden.12.b
 		ai_chance = { factor = 35 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		set_politics = {
 			ruling_party = social_conservative
 			elections_allowed = no
@@ -416,7 +416,7 @@ country_event = {
 		remove_coalition_liberal = yes 
 		remove_coalition_illuminist = yes 
 		add_coalition_paternal = yes 
-		add_coalition_national_populist = yes 
+		add_coalition_despotist = yes 
 
 	}
 }
@@ -445,7 +445,7 @@ country_event = {
 		name = sweden.13.a
 		add_political_power = -10
 		add_stability = -0.02
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 	}
 }
 
@@ -899,7 +899,7 @@ country_event = {
 		add_political_power = 10
 		add_timed_idea = { idea = SWE_maternity_leave_child_welfare_idea days = 500 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 	}
 
 	option = {
@@ -1188,7 +1188,7 @@ country_event = {
 		ai_chance = { factor = 65 }
 		add_political_power = 10
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.07 }
+		add_popularity = { ideology = despotist popularity = 0.07 }
 		add_popularity = { ideology = revivalist popularity = 0.01 }
 		country_event = { days = 8 id = sweden.34 }
 		set_country_flag = SWE_election_happened_flag
@@ -1217,7 +1217,7 @@ country_event = {
 	option = {
 		name = sweden.34.a
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
 		remove_every_minister = yes
@@ -1414,7 +1414,7 @@ country_event = {
 	option = {
 		name = sweden.40.a
 		add_stability = -0.04
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		hidden_effect = {
 			country_event = { days = 3 id = sweden.41 }
 		}
@@ -1437,7 +1437,7 @@ country_event = {
 		ai_chance = { factor = 65 }
 		add_stability = -0.03
 		add_manpower = -500
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 		hidden_effect = {
 			add_popularity = { ideology = paternal_autocrat popularity = -0.08 }
 			country_event = { days = 3 id = sweden.43 }
@@ -1494,7 +1494,7 @@ country_event = {
 	option = {
 		name = sweden.43.a
 		add_stability = -0.03
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 		set_capital = { state = 140 }
 		hidden_effect = {
 			country_event = { days = 10 id = sweden.44 }
@@ -1591,9 +1591,9 @@ country_event = {
 		add_political_power = 50
 		add_stability = 0.15
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = despotist elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.06 }
+		add_popularity = { ideology = despotist popularity = 0.06 }
 		remove_ideas = SWE_civil_war_idea
 		set_country_flag = SWE_far_right_victory_flag
 		mark_focus_tree_layout_dirty = yes
@@ -1629,7 +1629,7 @@ country_event = {
         character = SWE_Per_Engdahl
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = despotist_subtype
           traits = {}
         }
       }
@@ -1637,7 +1637,7 @@ country_event = {
 			remove_coalition_illuminist = yes 
 			remove_coalition_social_conservative = yes 
 			remove_coalition_paternal = yes 
-			remove_coalition_national_populist = yes 
+			remove_coalition_despotist = yes 
 			remove_ideas = SWE_steps_toward_new_sweden_balance_idea
 			remove_ideas = SWE_steps_toward_new_sweden_slight_con_idea
 			remove_ideas = SWE_steps_toward_new_sweden_favour_con_idea
@@ -2103,7 +2103,7 @@ country_event = {
 			add_popularity = { ideology = vanguardist popularity = -0.03 }
 			add_popularity = { ideology = collectivist popularity = -0.03 }
 			add_popularity = { ideology = paternal popularity = -0.03 }
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = despotist popularity = -0.03 }
 		}
 	}
 }
@@ -2776,7 +2776,7 @@ country_event = {
         character = SWE_Per_Engdahl
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = despotist_subtype
           traits = {}
         }
       }
@@ -2904,7 +2904,7 @@ country_event = {
 		}
 		add_popularity = { ideology = paternal popularity = 0.04 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
-		add_popularity = { ideology = national_populist popularity = 0.04 }
+		add_popularity = { ideology = despotist popularity = 0.04 }
 		set_party_name = {
 			ideology = paternal_autocrat
 			long_name = SWE_pataut_monarchy_long

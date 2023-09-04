@@ -46,8 +46,8 @@ increase_popularity_pat: "Broadcast our Responsibility" #Popular and Responsible
 increase_popularity_pat_desc: "'Authoritarianism applied to the Democratic system' is how some would describe us. However that is hardly a bad thing. We accept the doctrine of Social Conservatism in the sense that we believe Society is currently in an Optimal state, and we practice centralization to prioritize national stability and popularity above all else."
 increase_popularity_pataut: "Ensure Paternal Popularity" #Strong and Righteous.
 increase_popularity_pataut_desc: "A nation under a Strong ruler is the only way to ensure our Righteous struggle will be met with success. Stability must be maintained by ensuring the popularity of our government; be it by words or force."
-increase_popularity_natpop: "Hold a Nationalist Rally" #Fierce and Proud.
-increase_popularity_natpop_desc: "In order to reinforce our Party's core values and principles, we'll hold a rally which will draw out our various supporters from across the Nation. Sometimes, a simple reminder accompanied by a mob will have more impact than one-thousand reminders when alone."
+increase_popularity_desp: "Hold a Nationalist Rally" #Fierce and Proud.
+increase_popularity_desp_desc: "In order to reinforce our Party's core values and principles, we'll hold a rally which will draw out our various supporters from across the Nation. Sometimes, a simple reminder accompanied by a mob will have more impact than one-thousand reminders when alone."
 increase_popularity_revivalist: "Indoctrinate the Populace" #Revived and Radical.
 increase_popularity_revivalist_desc: "The core principles of [Root.GetAdjective] Revivalism must be instilled in the Population. Starting with the Youth and then moving onto the Old, we'll ensure their loyalty to [Root.GetName]."
 

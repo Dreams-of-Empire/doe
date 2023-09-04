@@ -1389,7 +1389,7 @@
 			}
 			OR = {
 				has_government = revivalist
-				has_government = national_populist
+				has_government = despotist
 			}
 		}
 		
@@ -1428,7 +1428,7 @@
 				has_country_flag = SPF_spanish_nationalist_rule_flag
 			}
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = paternal_autocrat
 			}
 		}
@@ -1727,7 +1727,7 @@
 	}
 	shared_focus = {
 		id = SPF_nationalist_economic_boom
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
 		cost = 8.00
 		prerequisite = {
 			focus = SPF_new_mineral_industries

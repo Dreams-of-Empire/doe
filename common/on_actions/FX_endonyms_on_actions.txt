@@ -91,7 +91,7 @@
 # 						OR = {
 # 							has_government = paternal_autocrat
 # 							has_government = paternal
-# 							has_government = national_populist
+# 							has_government = despotist
 # 						}
 # 					}
 # 				}

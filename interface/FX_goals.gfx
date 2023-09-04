@@ -73,8 +73,8 @@ spriteTypes = {
     texturefile = "gfx/interface/goals/goal_ideology_paternal_autocrat.png"
   }
 	spriteType = {
-    name = "GFX_goal_ideology_national_populist"
-    texturefile = "gfx/interface/goals/goal_ideology_national_populist.png"
+    name = "GFX_goal_ideology_despotist"
+    texturefile = "gfx/interface/goals/goal_ideology_despotist.png"
   }
 	spriteType = {
     name = "GFX_goal_generic_red_guard"

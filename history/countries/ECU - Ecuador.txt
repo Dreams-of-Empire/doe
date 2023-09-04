@@ -39,7 +39,7 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = national_populist
+	ruling_party = despotist
 	last_election = "1933.12.15"
 	election_frequency = 84
 	elections_allowed = yes
@@ -52,7 +52,7 @@ set_popularities = {
   social_conservative = 10
   liberal = 10
   paternal_autocrat = 20
-  national_populist = 30
+  despotist = 30
 }
 
 add_ideas = {

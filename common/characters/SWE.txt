@@ -94,7 +94,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1151,7 +1151,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Axel_Gyllenkrok_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_political_protege
 			}
 		}
@@ -1189,7 +1189,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Martin_Ekstrom_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_pragmatic_statesman
 			}
 		}
@@ -1208,7 +1208,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Martin_Ekstrom_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_compassionate_gentleman
 			}
 		}
@@ -1578,7 +1578,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Erik_von_Rosen_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_biased_intellectual
 			}
 		}
@@ -1869,7 +1869,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Arthur_Linden_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_infantry_proponent
 			}
 		}
@@ -1896,7 +1896,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Elof_Eriksson_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_oil_baron
 			}
 		}

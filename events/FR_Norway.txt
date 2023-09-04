@@ -130,7 +130,7 @@ country_event = {
 		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		add_popularity = { ideology = paternal popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.01 }
+		add_popularity = { ideology = despotist popularity = 0.01 }
 		add_popularity = { ideology = revivalist popularity = 0.01 }
 		set_country_flag = NOR_rebellious_samfundsvern
 		
@@ -342,7 +342,7 @@ country_event = {
 		add_political_power = -20
 		add_stability = -0.01
 		add_popularity = { ideology = revivalist popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.01 }
+		add_popularity = { ideology = despotist popularity = 0.01 }
 		add_popularity = { ideology = fasci popularity = -0.01 }
 	}
 }
@@ -494,7 +494,7 @@ add_popularity = {
 	ideology = paternal_autocrat popularity = 0.02
 }
 add_popularity = {
-	ideology = national_populist popularity = 0.02
+	ideology = despotist popularity = 0.02
 }
 add_popularity = {
 	ideology = revivalist popularity = 0.05
@@ -576,7 +576,7 @@ country_event = {
 		add_popularity = { ideology = collectivist popularity = -0.02 }
 		add_popularity = { ideology = fasci popularity = -0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 		add_popularity = { ideology = revivalist popularity = 0.03 }
 		set_country_flag = NOR_mass_protest_far_right_flag
 	}
@@ -603,7 +603,7 @@ country_event = {
 		add_political_power = -50
 		add_popularity = { ideology = fasci popularity = -0.04 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		add_popularity = { ideology = revivalist popularity = 0.02 }
 		add_ideas = NOR_military_deserters_idea
 	}
@@ -630,7 +630,7 @@ country_event = {
 		add_political_power = -20
 		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.01 }
+		add_popularity = { ideology = despotist popularity = 0.01 }
 		add_popularity = { ideology = revivalist popularity = 0.01 }
 		add_ideas = NOR_naval_deserters_idea
 	}
@@ -715,10 +715,10 @@ country_event = {
 		add_political_power = -50
 		add_ideas = military_junta
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = despotist elections_allowed = no
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 		add_popularity = { ideology = revivalist popularity = 0.05 }
 		remove_every_minister = yes
 		add_ideas = {
@@ -746,7 +746,7 @@ country_event = {
 				character = NOR_Ragnvald_Hvoslef
 				promote_leader = yes
 				country_leader = {
-					ideology = national_populist_subtype
+					ideology = despotist_subtype
 					traits = {}
 				}
 			}
@@ -842,7 +842,7 @@ country_event = {
 		add_political_power = 200
 		ai_chance = { base = 35 }
 		add_ideas = one_party_dictatorship
-		add_popularity = { ideology = national_populist popularity = 0.15 }
+		add_popularity = { ideology = despotist popularity = 0.15 }
 		add_popularity = { ideology = revivalist popularity = 0.15 }
 		remove_ideas_with_trait = head_of_government
 		remove_ideas_with_trait = foreign_minister
@@ -861,7 +861,7 @@ country_event = {
 				character = NOR_Vidkun_Quisling
 				promote_leader = yes
 				country_leader = {
-					ideology = national_populist_subtype
+					ideology = despotist_subtype
 					traits = {}
 				}
 			}
@@ -951,7 +951,7 @@ country_event = {
 		add_political_power = 50
 		add_popularity = { ideology = fasci popularity = 0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
-		add_popularity = { ideology = national_populist popularity = -0.04 }
+		add_popularity = { ideology = despotist popularity = -0.04 }
 		add_popularity = { ideology = revivalist popularity = -0.04 }
 		set_country_flag = NOR_victory_against_samfundsvernet_flag
 	}
@@ -982,7 +982,7 @@ country_event = {
 		name = nor.26.a
 		add_political_power = 50
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = despotist popularity = -0.02 }
 		add_popularity = { ideology = revivalist popularity = -0.02 }
 		remove_ideas = NOR_military_deserters_idea
 		remove_ideas = NOR_naval_deserters_idea
@@ -1153,20 +1153,20 @@ country_event = {
 	option = {
 		name = nor.35.a
 		add_political_power = 10
-		add_popularity = { ideology = national_populist popularity = 0.08 }
+		add_popularity = { ideology = despotist popularity = 0.08 }
 		add_popularity = { ideology = revivalist popularity = -0.04 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
 		remove_ideas_with_trait = foreign_minister
 		remove_ideas_with_trait = security_minister
 		add_ideas = NOR_Albert_Viljam_Hagelin_for_pau
 		add_ideas = NOR_Sverre_Riisnaes_sec_pau
-		add_coalition_national_populist = yes 
+		add_coalition_despotist = yes 
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_HM_King_Haakon_VII
 				promote_leader = yes
 				country_leader = {
-					ideology = national_populist_subtype
+					ideology = despotist_subtype
 					traits = {}
 				}
 			}
@@ -1189,12 +1189,12 @@ country_event = {
 		name = nor.36.a
 		ai_chance = { base = 45 }
 		add_political_power = 10
-		add_popularity = { ideology = national_populist popularity = 0.10 }
+		add_popularity = { ideology = despotist popularity = 0.10 }
 		add_popularity = { ideology = revivalist popularity = -0.10 }
 		set_party_name = {
-			ideology = national_populist
-			long_name = NOR_ns_national_populist_party_long
-			name = NOR_ns_national_populist_party
+			ideology = despotist
+			long_name = NOR_ns_despotist_party_long
+			name = NOR_ns_despotist_party
 		}
 		set_party_name = {
 			ideology = revivalist
@@ -1212,16 +1212,16 @@ country_event = {
 			ruling_party = revivalist elections_allowed = no
 		}
 		add_popularity = { ideology = revivalist popularity = 0.10 }
-		add_popularity = { ideology = national_populist popularity = -0.10 }
+		add_popularity = { ideology = despotist popularity = -0.10 }
 		set_party_name = {
 			ideology = revivalist
 			long_name = NOR_ns_revivalist_party_long
 			name = NOR_ns_revivalist_party
 		}
 		set_party_name = {
-			ideology = national_populist
-			long_name = NOR_not_ns_national_populist_party_long
-			name = NOR_not_ns_national_populist_party
+			ideology = despotist
+			long_name = NOR_not_ns_despotist_party_long
+			name = NOR_not_ns_despotist_party
 		}
 		set_country_flag = NOR_odins_spirit_flag
 	}

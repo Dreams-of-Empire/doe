@@ -1905,7 +1905,7 @@ focus = {
 		y = 2
 		cost = 10
 		available = { 
-		COL = { has_government = national_populist }
+		COL = { has_government = despotist }
 		PRU = {
 			is_subject = no
 			}
@@ -1926,7 +1926,7 @@ focus = {
 		y = 3
 		cost = 10
 		available = { 
-		COL = { has_government = national_populist }
+		COL = { has_government = despotist }
 		PRU = {
 			is_subject = no
 			}
@@ -1947,7 +1947,7 @@ focus = {
 		y = 4
 		cost = 10
 		available = { 
-		COL = { has_government = national_populist }
+		COL = { has_government = despotist }
 		PRU = {
 			is_subject = no
 			has_war = no

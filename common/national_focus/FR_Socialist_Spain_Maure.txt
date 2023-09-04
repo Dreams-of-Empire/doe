@@ -146,7 +146,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPA_MAU_grow_personality_cult
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
 		cost = 8.00
 		prerequisite = {
 			focus = SPA_MAU_molotovist_ideas

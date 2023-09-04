@@ -5002,7 +5002,7 @@ focus_tree = {
 				popularity = -0.02
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = -0.05
 			}
 		}

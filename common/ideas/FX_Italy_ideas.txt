@@ -32,7 +32,7 @@ ideas = {
 				OR = {
 					has_government = collectivist
 					has_government = fasci
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 					has_completed_focus = ITA_italian_election
 				}

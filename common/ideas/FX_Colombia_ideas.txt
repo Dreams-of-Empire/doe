@@ -103,7 +103,7 @@ ideas = {
 
 			picture = generic_fascism_drift_2
 			modifier = {
-				national_populist_drift = 0.02
+				despotist_drift = 0.02
 			}
 		}
 		COL_colon_platform = {
@@ -204,7 +204,7 @@ ideas = {
 
 			picture = generic_fascism_drift_2
 			modifier = {
-				national_populist_drift = 0.02
+				despotist_drift = 0.02
 				conscription = 0.02
 			}
 		}

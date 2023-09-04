@@ -584,7 +584,7 @@ focus = {
 		cost = 7
 		available = {
 			IND = {
-				has_government = national_populist
+				has_government = despotist
 			}
 		}
 

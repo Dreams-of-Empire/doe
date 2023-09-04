@@ -104,7 +104,7 @@ set_popularities = {
   social_conservative = 45
   paternal = 10
   paternal_autocrat = 0
-  national_populist = 1
+  despotist = 1
   revivalist = 0
 }
 recruit_character = PHN_Emile_Edde

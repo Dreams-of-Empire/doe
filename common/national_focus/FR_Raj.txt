@@ -1475,7 +1475,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = { ideology = paternal popularity = 0.1 }
-			add_popularity = { ideology = national_populist popularity = -0.1 }
+			add_popularity = { ideology = despotist popularity = -0.1 }
 		}
 	}
 
@@ -1576,7 +1576,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Root_Out_Remnants"
 			add_political_power = 25
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = despotist popularity = -0.05 }
 		}
 	}
 
@@ -1846,7 +1846,7 @@ focus_tree = {
 			add_political_power = -25
 			add_popularity = { ideology = vanguardist popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.05 }
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = despotist popularity = 0.05 }
 			add_popularity = { ideology = paternal popularity = -0.15 }
 		}
 	}
@@ -1886,7 +1886,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Restrict_Communication"
 			add_popularity = { ideology = vanguardist popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = despotist popularity = -0.05 }
 			add_political_power = 50
 		}
 	}
@@ -2041,7 +2041,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Subdue_Nationalists"
-			add_popularity = { ideology = national_populist popularity = -0.1 }
+			add_popularity = { ideology = despotist popularity = -0.1 }
 		}
 	}
 

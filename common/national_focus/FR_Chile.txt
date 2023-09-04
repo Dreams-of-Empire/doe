@@ -410,7 +410,7 @@ focus_tree = {
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
-						has_government = national_populist
+						has_government = despotist
 						has_government = collectivist
 						has_government = vanguardist
 						has_government = fasci	
@@ -748,7 +748,7 @@ focus_tree = {
 
 		focus = {
 		id = CHL_glory_to_the_rotos
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
 		prerequisite = { focus = CHL_embrace_the_chilean_race }
 		x = 14
 		y = 7
@@ -1794,7 +1794,7 @@ focus = {
 						has_government = paternal_autocrat
 						has_government = paternal
 						has_government = revivalist
-						has_government = national_populist
+						has_government = despotist
 					}
 				}
 				add_opinion_modifier = { target = CHL modifier = CHL_friendly_democracy }
@@ -1927,7 +1927,7 @@ focus = {
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
-						has_government = national_populist
+						has_government = despotist
 					}
 				}
 				add_opinion_modifier = { target = CHL modifier = CHL_friendly_authority }
@@ -2542,7 +2542,7 @@ focus = {
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
-						has_government = national_populist
+						has_government = despotist
 						has_government = paternal_autocrat
 					}
 				}

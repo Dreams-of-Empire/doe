@@ -1618,7 +1618,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_integrate_dutch_into_british"
 			add_popularity = { ideology = paternal popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 			swap_ideas = {
 				remove_idea = BEA_ban_dutch_as_official_language_idea
@@ -1826,7 +1826,7 @@ focus_tree = {
 			add_political_power = -25
 			add_popularity = { ideology = paternal popularity = 0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
-			add_popularity = { ideology = national_populist popularity = -0.01 }
+			add_popularity = { ideology = despotist popularity = -0.01 }
 		}
 
 	}
@@ -1887,7 +1887,7 @@ focus_tree = {
 			add_popularity = { ideology = social_conservative popularity = -0.01 }
 			add_popularity = { ideology = paternal popularity = 0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-			add_popularity = { ideology = national_populist popularity = -0.01 }
+			add_popularity = { ideology = despotist popularity = -0.01 }
 		}
 
 	}
@@ -1915,7 +1915,7 @@ focus_tree = {
 			add_political_power = 50
 			add_popularity = { ideology = paternal popularity = 0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 		}
 
 	}
@@ -1977,7 +1977,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BEA_bernhard_faction
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		cost = 5
 		prerequisite = {
 			focus = BEA_return_dutch_control
@@ -1996,7 +1996,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_bernhard_faction"
 			add_war_support = 0.03
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 		}
 
 	}
@@ -2272,7 +2272,7 @@ focus_tree = {
 			add_popularity = { ideology = fasci popularity = -0.01 }
 			add_popularity = { ideology = paternal popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 		}
 
 	}
@@ -2298,7 +2298,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_a_truly_dutch_colony"
 			add_stability = 0.02
 			add_war_support = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 			add_autonomy_ratio = {
 				value = 0.200
 				localization = BEA_a_truly_dutch_colony_aut
@@ -2328,7 +2328,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_dutch_immigration_to_java"
 			add_political_power = -30
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			add_ideas = BEA_dutch_immigration_to_java_idea
 			335 = {
 				add_manpower = 15000
@@ -2357,7 +2357,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_outbreeding_tactics"
 			add_political_power = -50
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = BEA_dutch_immigration_to_java_idea
 				add_idea = BEA_outbreeding_tactics_idea
@@ -2449,7 +2449,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_rise_new_dutch_nation"
 			add_war_support = 0.02
 			add_political_power = 25
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 		}
 
 	}
@@ -2479,7 +2479,7 @@ focus_tree = {
 			add_political_power = 20
 			add_stability = 0.02
 			add_war_support = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = despotist popularity = 0.03 }
 		}
 
 	}

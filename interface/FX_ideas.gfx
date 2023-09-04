@@ -759,8 +759,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/HOL_labor_camps.png"
   }
   spriteType = {
-		name = "GFX_idea_generic_national_populist_resistance"
-		texturefile = "gfx/interface/ideas/ideas/generic_national_populist_resistance.png"
+		name = "GFX_idea_generic_despotist_resistance"
+		texturefile = "gfx/interface/ideas/ideas/generic_despotist_resistance.png"
   }
   spriteType = {
 		name = "GFX_idea_generic_destruction"
@@ -823,8 +823,8 @@ spriteTypes = {
 	  texturefile = "gfx/interface/ideas/ideas/advisors_germany_democratic.png"
   }
   spriteType = {
-	  name = "GFX_idea_advisors_germany_natpop"
-	  texturefile = "gfx/interface/ideas/ideas/advisors_germany_natpop.png"
+	  name = "GFX_idea_advisors_germany_desp"
+	  texturefile = "gfx/interface/ideas/ideas/advisors_germany_desp.png"
   }
   spriteType = {
 	  name = "GFX_idea_advisors_new_american_republic"

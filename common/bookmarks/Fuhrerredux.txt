@@ -134,7 +134,7 @@ bookmarks = {
     ### Minors
     "HOL" = {
       history = "HOL_FUHRERREDUX_DESC"
-      ideology = national_populist
+      ideology = despotist
       minor = yes
       ideas = {
         HOL_revaunchist_state
@@ -166,7 +166,7 @@ bookmarks = {
     }
     "HUN" = {
       history = "HUN_FUHRERREDUX_DESC"
-      ideology = national_populist
+      ideology = despotist
       minor = yes
       ideas = {
         hun_trianon

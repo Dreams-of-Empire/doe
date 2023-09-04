@@ -53,7 +53,7 @@ spanish_civil_war_volunteers = {
 		AND = {
 			FROM = { tag = SPF }
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 			num_of_military_factories > 8

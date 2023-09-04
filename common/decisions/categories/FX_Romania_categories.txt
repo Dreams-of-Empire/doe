@@ -18,7 +18,7 @@ ROM_cementing_our_power = {
 ROM_reclaimation_of_old_territories = {
     allowed = { original_tag = ROM }
     available = {
-        has_government = national_populist
+        has_government = despotist
         has_country_leader = {
             name = "Alexander I"
             ruling_only = yes

@@ -62,7 +62,7 @@ country_event = { #Banning Extreme Speech
 		custom_effect_tooltip = RAJ_Fracture_Up
 		add_popularity = {
 			ideology = collectivist popularity = 0.05
-			ideology = national_populist popularity = 0.05
+			ideology = despotist popularity = 0.05
 		}
 		hidden_effect = {
 			add_to_variable = { var = raj_fragment value = 1 }
@@ -192,7 +192,7 @@ country_event = { #Clemency for Rebel Leaders
 		custom_effect_tooltip = RAJ_Fracture_Up
 		add_popularity = {
 			ideology = collectivist popularity = 0.1
-			ideology = national_populist popularity = 0.1
+			ideology = despotist popularity = 0.1
 		}
 		hidden_effect = {
 			add_to_variable = { var = raj_fragment value = 1 }
@@ -401,7 +401,7 @@ country_event = { #Revolt Level 2 (Weak Revolt)
 				set_capital = { state = 439 }
 				set_stability = 0.6
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = despotist
 					last_election = "1935.11.14"
 					election_frequency = 48
 					elections_allowed = no
@@ -473,7 +473,7 @@ country_event = { #Revolt Level 2 (Weak Revolt)
 				set_capital = { state = 439 }
 				set_stability = 0.6
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = despotist
 					last_election = "1935.11.14"
 					election_frequency = 48
 					elections_allowed = no
@@ -558,7 +558,7 @@ country_event = { #Revolt Level 3 (Default Revolt)
 				set_capital = { state = 439 }
 				set_stability = 0.6
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = despotist
 					last_election = "1935.11.14"
 					election_frequency = 48
 					elections_allowed = no
@@ -643,7 +643,7 @@ country_event = { #Revolt Level 3 (Default Revolt)
 				set_capital = { state = 439 }
 				set_stability = 0.6
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = despotist
 					last_election = "1935.11.14"
 					election_frequency = 48
 					elections_allowed = no
@@ -733,7 +733,7 @@ country_event = { #Revolt Level 4 (Big Revolt)
 				set_capital = { state = 439 }
 				set_stability = 0.6
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = despotist
 					last_election = "1935.11.14"
 					election_frequency = 48
 					elections_allowed = no
@@ -823,7 +823,7 @@ country_event = { #Revolt Level 4 (Big Revolt)
 				set_capital = { state = 439 }
 				set_stability = 0.6
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = despotist
 					last_election = "1935.11.14"
 					election_frequency = 48
 					elections_allowed = no
@@ -916,7 +916,7 @@ country_event = { #Revolt Level 5 (Massive Revolt)
 				set_capital = { state = 439 }
 				set_stability = 0.6
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = despotist
 					last_election = "1935.11.14"
 					election_frequency = 48
 					elections_allowed = no
@@ -1009,7 +1009,7 @@ country_event = { #Revolt Level 5 (Massive Revolt)
 				set_capital = { state = 439 }
 				set_stability = 0.6
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = despotist
 					last_election = "1935.11.14"
 					election_frequency = 48
 					elections_allowed = no
@@ -1106,7 +1106,7 @@ country_event = { #Revolt Level 6 (State-Collapsing Revolt)
 				set_capital = { state = 439 }
 				set_stability = 0.6
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = despotist
 					last_election = "1935.11.14"
 					election_frequency = 48
 					elections_allowed = no
@@ -1203,7 +1203,7 @@ country_event = { #Revolt Level 6 (State-Collapsing Revolt)
 				set_capital = { state = 439 }
 				set_stability = 0.6
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = despotist
 					last_election = "1935.11.14"
 					election_frequency = 48
 					elections_allowed = no

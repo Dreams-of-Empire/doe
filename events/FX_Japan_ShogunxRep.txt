@@ -213,7 +213,7 @@ country_event = { #Political Turmoil
 			ideology = paternal_autocrat
 			popularity = 0.1
 		}
-		set_temp_variable = { coalition_partner_var = token:national_populist }
+		set_temp_variable = { coalition_partner_var = token:despotist }
 		add_to_coalition = yes 
 		set_temp_variable = { coalition_partner_var = token:revivalist }
 		add_to_coalition = yes 
@@ -302,9 +302,9 @@ country_event = { #Political Turmoil
 				}
 			}
 			set_party_name = {
-				ideology = national_populist
-				long_name = JAP_national_populist_party_shogun_long
-				name = JAP_national_populist_party_shogun
+				ideology = despotist
+				long_name = JAP_despotist_party_shogun_long
+				name = JAP_despotist_party_shogun
 			}
 			set_party_name = {
 				ideology = paternal_autocrat
@@ -631,15 +631,15 @@ country_event = { #Unbelievable Situation - Fate of Daijo-Kan
 	option = { #The Manager Elected
 	name = jap_shogun.16.b
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.37
 		}
 		clr_country_flag = JAP_Tri_Edo_Commissioner
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
-			long_name = JAP_Toho_national_populist_party_long
-			name = JAP_Toho_national_populist_party
+			long_name = JAP_Toho_despotist_party_long
+			name = JAP_Toho_despotist_party
 		}
 		set_cosmetic_tag = JAP_tohokai
 		set_country_flag = JAP_sgrp_foreign_unlock

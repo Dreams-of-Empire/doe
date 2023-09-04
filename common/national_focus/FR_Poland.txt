@@ -477,7 +477,7 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_nationalism"
 			add_ideas = one_party_dictatorship
 			clr_country_flag = POL_REAL_PATRIOT
-			set_politics = { ruling_party = national_populist elections_allowed = no }
+			set_politics = { ruling_party = despotist elections_allowed = no }
 	}
 }
 focus = {
@@ -529,7 +529,7 @@ focus = {
 		add_ideas = POL_three_statements
 		add_ideas = POL_rogue_elements
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.1
 		}
 	}
@@ -557,7 +557,7 @@ focus = {
 		add_political_power = -50
 		add_war_support = -0.05
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.1
 		}
 	}
@@ -589,7 +589,7 @@ focus = {
 		add_stability = 0.02
 		add_political_power = 50
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.5
 		}
 	}
@@ -616,7 +616,7 @@ focus = {
 		add_war_support = 0.05
 		add_political_power = 50
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.05
 		}
 	}
@@ -1683,7 +1683,7 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_kick_radicals"
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = -0.01
 		}
 		add_popularity = {
@@ -2621,7 +2621,7 @@ focus = {
 					is_in_faction_with = ROOT
 				}
 			}
-			NOT = { has_government = national_populist }
+			NOT = { has_government = despotist }
 		}
 	}
 	
@@ -2664,7 +2664,7 @@ focus = {
 					is_in_faction_with = ROOT
 				}
 			}
-			NOT = { has_government = national_populist }
+			NOT = { has_government = despotist }
 		}
 	}
 	
@@ -3048,7 +3048,7 @@ focus = {
 	available = {
 		OR = {
 			has_government = revivalist
-			has_government = national_populist
+			has_government = despotist
 			has_government = paternal_autocrat
 		}
 	}
@@ -3089,7 +3089,7 @@ focus = {
 	}
 
 	available = {
-		OR = { has_government = national_populist
+		OR = { has_government = despotist
 		has_government = paternal_autocrat }
 			is_in_faction = no
 	}

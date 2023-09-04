@@ -1789,7 +1789,7 @@ focus_tree = {
 		}
 	
 	}
-#natpopism
+#despism
 focus = {
 	
 		id = CEN_gajda_succeeds
@@ -2150,10 +2150,10 @@ focus = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = 0.05
 			}
-		add_ideas = CEN_natpop_youth
+		add_ideas = CEN_desp_youth
 	}
 	
 }

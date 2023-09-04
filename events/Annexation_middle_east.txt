@@ -89,7 +89,7 @@ country_event = { # Fate of Iraq
           promote_character = social_conservative_subtype
           promote_character = paternal_subtype
           promote_character = paternal_autocrat_subtype
-          promote_character = national_populist_subtype
+          promote_character = despotist_subtype
         }
       }
     }
@@ -125,7 +125,7 @@ country_event = { # Fate of Iraq
           promote_character = social_conservative_subtype
           promote_character = paternal_subtype
           promote_character = paternal_autocrat_subtype
-          promote_character = national_populist_subtype
+          promote_character = despotist_subtype
         }
       }
     }
@@ -567,7 +567,7 @@ country_event = { # Fate of Armenia
       NOT = {
         AND = {
           tag = UKR
-          has_government = national_populist
+          has_government = despotist
         }
       }
     }
@@ -582,7 +582,7 @@ country_event = { # Fate of Armenia
     }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       NOT = { country_exists = CAU }
     }
     set_temp_variable = { tag_to_release = ARM }
@@ -600,7 +600,7 @@ country_event = { # Fate of Armenia
     ai_chance = { base = 100 }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       country_exists = CAU
       CAU = { is_subject_of = ROOT }
     }
@@ -653,7 +653,7 @@ country_event = { # Fate of Georgia
     trigger = {
       NOT = {
         tag = UKR
-        has_government = national_populist
+        has_government = despotist
       }
     }
     set_temp_variable = { tag_to_release = GEO }
@@ -667,7 +667,7 @@ country_event = { # Fate of Georgia
     }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       NOT = { country_exists = CAU }
     }
     set_temp_variable = { tag_to_release = GEO }
@@ -685,7 +685,7 @@ country_event = { # Fate of Georgia
     ai_chance = { base = 100 }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       country_exists = CAU
       CAU = { is_subject_of = ROOT }
     }
@@ -735,7 +735,7 @@ country_event = { # Fate of Azerbaijan
       NOT = {
         AND = {
           tag = UKR
-          has_government = national_populist
+          has_government = despotist
         }
       }
     }
@@ -750,7 +750,7 @@ country_event = { # Fate of Azerbaijan
     }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       NOT = { country_exists = CAU }
     }
     set_temp_variable = { tag_to_release = AZR }
@@ -768,7 +768,7 @@ country_event = { # Fate of Azerbaijan
     ai_chance = { base = 100 }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       country_exists = CAU
       CAU = { is_subject_of = ROOT }
     }

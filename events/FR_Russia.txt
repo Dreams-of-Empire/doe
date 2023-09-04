@@ -928,7 +928,7 @@ country_event = {
 	option = {
 		name = "Finally someone with a strong will"
 		add_popularity = { 
-		    ideology = national_populist 
+		    ideology = despotist 
 		    popularity = 0.3
 		}
 		set_country_flag = RUS_np_victorious
@@ -936,7 +936,7 @@ country_event = {
 		complete_national_focus = RUS_control_economy
 		add_ideas = military_junta
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 			last_election = "1937.6.13"
 			election_frequency = 72
@@ -945,7 +945,7 @@ country_event = {
         character = RUS_Spiridon_Dionisovich_Merkulov
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = despotist_subtype
           traits = {}
         }
       }
@@ -1054,7 +1054,7 @@ country_event = {
       character = RUS_Mikhail_Diterikhs
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = despotist_subtype
         traits = {}
       }
     }

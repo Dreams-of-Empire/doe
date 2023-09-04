@@ -94,7 +94,7 @@ country_event = { #Party Merger - March 14 1936
 				social_conservative = 47
 				paternal = 0
 				paternal_autocrat = 12
-				national_populist = 14
+				despotist = 14
 				revivalist = 4
 			}
 			country_event = {
@@ -229,7 +229,7 @@ country_event = { #Native Vote Bills Part 2 - July 1936
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -266,7 +266,7 @@ country_event = { #Native Land Bills - August 1936
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -368,7 +368,7 @@ country_event = { #Anti-Indian Legislation - February 1937
 			}
 		}
 		add_popularity = {
-			ideology = national_populist popularity = 0.05
+			ideology = despotist popularity = 0.05
 		}
 		add_stability = 0.05
 		hidden_effect = {
@@ -489,7 +489,7 @@ country_event = { #GG Patrick Duncan
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = national_populist_subtype
+					ideology = despotist_subtype
 					traits = {}
 				}
 			}
@@ -597,7 +597,7 @@ country_event = { #GG Hertzog
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = national_populist_subtype
+            ideology = despotist_subtype
             traits = {}
           }
         }
@@ -660,7 +660,7 @@ country_event = { #Rhodesia Protests - March 1937
 			}
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -840,7 +840,7 @@ country_event = { #Transvaal Indian Party - March 1937
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = national_populist popularity = 0.05
+			ideology = despotist popularity = 0.05
 		}
 		hidden_effect = {
 			add_to_variable = {	var = saf_pnp value = 1 }
@@ -947,7 +947,7 @@ country_event = { #1937 Election - ANC Victory
 				social_conservative = 21
 				paternal = 0
 				paternal_autocrat = 5
-				national_populist = 13
+				despotist = 13
 				revivalist = 5
 			}
 			country_event = { days = 14 id = southafrica.81 }
@@ -988,7 +988,7 @@ country_event = { #1937 Election - United Victory
 				social_conservative = 51
 				paternal = 0
 				paternal_autocrat = 12
-				national_populist = 15
+				despotist = 15
 				revivalist = 7
 			}
 		}
@@ -1024,7 +1024,7 @@ country_event = { #1937 Election - PNP Victory
 		set_country_flag = SAF_ELECTION
 		set_country_flag = SAF_PNP
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -1038,7 +1038,7 @@ country_event = { #1937 Election - PNP Victory
 				social_conservative = 20
 				paternal = 0
 				paternal_autocrat = 15
-				national_populist = 40
+				despotist = 40
 				revivalist = 10
 			}	
 			country_event = { days = 14 id = southafrica.83 }
@@ -1149,7 +1149,7 @@ country_event = { #3-way tie (idk if this is even possible)
     			social_conservative = 33
     			paternal = 0
     			paternal_autocrat = 10
-    			national_populist = 20
+    			despotist = 20
     			revivalist = 3
 			}
 			country_event = { days = 14 id = southafrica.81 }
@@ -1180,7 +1180,7 @@ country_event = { #3-way tie (idk if this is even possible)
     			social_conservative = 34
     			paternal = 0
     			paternal_autocrat = 10
-    			national_populist = 20
+    			despotist = 20
     			revivalist = 3
 			}
 		}
@@ -1203,7 +1203,7 @@ country_event = { #3-way tie (idk if this is even possible)
 		set_country_flag = SAF_ELECTION
 		set_country_flag = SAF_PNP
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -1217,7 +1217,7 @@ country_event = { #3-way tie (idk if this is even possible)
     			social_conservative = 33
     			paternal = 0
     			paternal_autocrat = 10
-    			national_populist = 21
+    			despotist = 21
     			revivalist = 3
 			}
 			country_event = { days = 14 id = southafrica.83 }
@@ -1259,7 +1259,7 @@ country_event = { #ANC-PNP tie
 				social_conservative = 27
 				paternal = 0
 				paternal_autocrat = 10
-				national_populist = 20
+				despotist = 20
 				revivalist = 6
 			}
 			country_event = { days = 14 id = southafrica.81 }
@@ -1276,7 +1276,7 @@ country_event = { #ANC-PNP tie
 		set_country_flag = SAF_ELECTION
 		set_country_flag = SAF_PNP
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -1290,7 +1290,7 @@ country_event = { #ANC-PNP tie
 				social_conservative = 27
 				paternal = 0
 				paternal_autocrat = 10
-				national_populist = 21
+				despotist = 21
 				revivalist = 6
 			}
 			country_event = { days = 14 id = southafrica.83 }
@@ -1332,7 +1332,7 @@ country_event = { #ANC-United tie
 				social_conservative = 36
 				paternal = 0
 				paternal_autocrat = 5
-				national_populist = 19
+				despotist = 19
 				revivalist = 3
 			}
 			country_event = { days = 14 id = southafrica.81 }
@@ -1363,7 +1363,7 @@ country_event = { #ANC-United tie
 				social_conservative = 37
 				paternal = 0
 				paternal_autocrat = 5
-				national_populist = 19
+				despotist = 19
 				revivalist = 3
 			}
 		}
@@ -1411,7 +1411,7 @@ country_event = { #United-PNP tie
 				social_conservative = 37
 				paternal = 0
 				paternal_autocrat = 10
-				national_populist = 20
+				despotist = 20
 				revivalist = 6
 			}
 		}
@@ -1434,7 +1434,7 @@ country_event = { #United-PNP tie
 		set_country_flag = SAF_ELECTION
 		set_country_flag = SAF_PNP
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -1448,7 +1448,7 @@ country_event = { #United-PNP tie
 				social_conservative = 36
 				paternal = 0
 				paternal_autocrat = 10
-				national_populist = 21
+				despotist = 21
 				revivalist = 6
 			}
 			country_event = { days = 14 id = southafrica.83 }
@@ -1584,7 +1584,7 @@ country_event = { #Independence from the Empire
       character = SAF_D_F_Malan
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = despotist_subtype
         traits = {}
       }
     }
@@ -2293,7 +2293,7 @@ country_event = { #A storm is coming
 			has_country_flag = boer_rising
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist 
+			has_government = despotist 
 			has_government = revivalist
 		}
 	}		
@@ -2547,7 +2547,7 @@ country_event = { #ANC Boer War
 			has_country_flag = boer_rising
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist 
+			has_government = despotist 
 			has_government = revivalist
 		}
 	}
@@ -2675,7 +2675,7 @@ country_event = { #Union & Federation Boer War
 			has_country_flag = transvaal_autonomy
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist 
+			has_government = despotist 
 			has_government = revivalist
 		}
 	}
@@ -2893,7 +2893,7 @@ country_event = { # Fate of East Africa
 
 			TZN = {
 				set_political_party = {
-					ideology = national_populist
+					ideology = despotist
 					popularity = 60
 				}
 				add_ideas = {
@@ -3134,7 +3134,7 @@ country_event = { # Fate of Egypt
 
 			EGY = {
 				set_political_party = {
-					ideology = national_populist
+					ideology = despotist
 					popularity = 60
 				}
 				add_ideas = {
@@ -3266,7 +3266,7 @@ country_event = { # Fate of Abyssinia
 
 			ETH = {
 				set_political_party = {
-					ideology = national_populist
+					ideology = despotist
 					popularity = 60
 				}
 				add_ideas = {
@@ -3365,7 +3365,7 @@ country_event = { #ZAF Victory
           social_conservative = 0
           paternal = 20
           paternal_autocrat = 25
-          national_populist = 25
+          despotist = 25
           revivalist = 30
 				}
 				change_tag_from = ZAF

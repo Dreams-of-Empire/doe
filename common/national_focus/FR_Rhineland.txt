@@ -145,7 +145,7 @@ focus_tree = {
 			}
 			hidden_effect = {
 				add_popularity = { ideology = revivalist popularity = 0.20 }
-				add_popularity = { ideology = national_populist popularity = 0.10 }
+				add_popularity = { ideology = despotist popularity = 0.10 }
 				add_popularity = { ideology = social_democrat popularity = 0.20 }
 				add_popularity = { ideology = social_conservative popularity = 0.40 }
 				add_popularity = { ideology = fasci popularity = 0.05 }
@@ -240,7 +240,7 @@ focus_tree = {
 		}
 		hidden_effect = {
 			add_popularity = { ideology = revivalist popularity = 0.25 }
-			add_popularity = { ideology = national_populist popularity = 0.10 }
+			add_popularity = { ideology = despotist popularity = 0.10 }
 			add_popularity = { ideology = social_democrat popularity = 0.10 }
 			add_popularity = { ideology = social_conservative popularity = 0.10 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.33 }
@@ -465,7 +465,7 @@ focus = {
 		}
 		modifier = {
 			factor = 1.0
-			has_government = national_populist
+			has_government = despotist
 		}
 		modifier = {
 			factor = 1
@@ -505,7 +505,7 @@ focus = {
 	}
 	modifier = {
 		factor = 1.0
-		has_government = national_populist
+		has_government = despotist
 	}
 	modifier = {
 		factor = 1
@@ -561,7 +561,7 @@ focus = {
 	}
 	modifier = {
 		factor = 1.0
-		has_government = national_populist
+		has_government = despotist
 	}
 	modifier = {
 		factor = 1
@@ -600,7 +600,7 @@ focus = {
 	}
 	modifier = {
 		factor = 1.0
-		has_government = national_populist
+		has_government = despotist
 	}
 	modifier = {
 		factor = 1
@@ -613,7 +613,7 @@ y =8
 
 focus = { 
 	id = RHI_freikorps
-	icon = GFX_goal_national_populism
+	icon = GFX_goal_despotism
 	bypass = {} 
 	available = {}
 	prerequisite = { focus = RHI_stability } 
@@ -655,7 +655,7 @@ focus = {
 	}
 	modifier = {
 		factor = 10
-		has_government = national_populist
+		has_government = despotist
 	}
 	modifier = {
 		factor = 10
@@ -695,7 +695,7 @@ focus = {
 	}
 	modifier = {
 		factor = 0.1
-		has_government = national_populist
+		has_government = despotist
 	}
 	modifier = {
 		factor = 0.1
@@ -871,7 +871,7 @@ focus = {
 	icon = GFX_RHI_Dorten
 	mutually_exclusive = {focus = RHI_matthes_economy}
 	prerequisite = {focus = RHI_nationalist_economy}
-	available = {has_government = national_populist}
+	available = {has_government = despotist}
 	available_if_capitulated = yes
 	cost = 5
 	completion_reward = {
@@ -1192,7 +1192,7 @@ focus = {
 }
 focus = {
 	id = RHI_corporate_economy
-	icon = GFX_goal_ideology_national_populist
+	icon = GFX_goal_ideology_despotist
 	prerequisite = {focus = RHI_fund_rhenish_industry}
 	mutually_exclusive = {focus = RHI_populist_economy}
 	available_if_capitulated = yes
@@ -1356,7 +1356,7 @@ focus = {
 	prerequisite = { focus = RHI_militarize_rhineland } 
 	available = {
 		or = {	has_government = social_democrat 
-		has_government = national_populist
+		has_government = despotist
 		has_government = revivalist
 	} 
 }

@@ -1176,7 +1176,7 @@ ENG_protect_new_zealand = {
 	enable = {
 		AST = {
 			has_socialist_government = yes
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 

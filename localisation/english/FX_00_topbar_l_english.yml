@@ -22,7 +22,7 @@
  party_pop_coalition_social_conservative: "- [?token:social_conservative.GetTokenLocalizedKey]\n"
  party_pop_coalition_paternal: "- [?token:paternal.GetTokenLocalizedKey]\n"
  party_pop_coalition_paternal_autocrat: "- [?token:paternal_autocrat.GetTokenLocalizedKey]\n"
- party_pop_coalition_national_populist: "- [?token:national_populist.GetTokenLocalizedKey]\n"
+ party_pop_coalition_despotist: "- [?token:despotist.GetTokenLocalizedKey]\n"
  party_pop_coalition_revivalist: "- [?token:revivalist.GetTokenLocalizedKey]\n"
 
  add_to_coalition: "The §[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]s§! will join the coalition."
@@ -40,5 +40,5 @@
  colour_marlib_yellow: "m"
  colour_soccon_blue: "c"
  colour_pataut_grey: "P"
- colour_natpop_brown: "N"
+ colour_desp_brown: "N"
  colour_green: "G"

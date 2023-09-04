@@ -416,7 +416,7 @@
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = 0.05
 			}			
 		}
@@ -1285,7 +1285,7 @@
 				OR = {
 					OR = {
 						has_government = social_conservative
-						has_government = national_populist
+						has_government = despotist
 					}
 					check_variable = { 
 						ita_conservative_vote > 3
@@ -1328,7 +1328,7 @@
 				OR = {
 					OR = {
 						has_government = social_conservative
-						has_government = national_populist
+						has_government = despotist
 					}
 					check_variable = { 
 						ita_conservative_vote > 4
@@ -1541,7 +1541,7 @@
 		
 		available = {
 			has_country_flag = ITA_picked_nat_pops
-			has_government = national_populist
+			has_government = despotist
 			has_country_leader = {
 				character = ITA_Victor_Emmanuel_III
 				ruling_only = yes
@@ -1549,7 +1549,7 @@
 		}		
 		
 		bypass = {
-			has_government = national_populist
+			has_government = despotist
 			NOT = {
 				has_country_leader = {
 					character = ITA_Victor_Emmanuel_III
@@ -1577,13 +1577,13 @@
 	
 	shared_focus = {
 		id = ITA_dio_patria_famiglia
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		x = 14
 		y = 9
 		cost = 5
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		prerequisite = {
@@ -1597,7 +1597,7 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_stregthen_king"
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = 0.1
 			}
 			add_ideas = ITA_dio_patria_famiglia_idea
@@ -2459,7 +2459,7 @@
 					has_government = collectivist
 					has_government = fasci
 					has_government = revivalist
-					has_government = national_populist
+					has_government = despotist
 				}
 			}			
 		}
@@ -2531,7 +2531,7 @@
 			}
 			OR = {
 				has_government = revivalist
-				has_government = national_populist
+				has_government = despotist
 				has_government = paternal_autocrat
 				has_government = paternal
 				has_government = vanguardist
@@ -2622,7 +2622,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}			
@@ -2704,7 +2704,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}			
@@ -2749,7 +2749,7 @@
 		available = {
 			OR = {
 				has_government = revivalist
-				has_government = national_populist
+				has_government = despotist
 				has_government = paternal_autocrat
 				has_government = paternal
 				#has_government = vanguardist
@@ -2793,7 +2793,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}			
@@ -2851,7 +2851,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -2961,7 +2961,7 @@
 		available = {
 			OR = {
 				has_government = revivalist
-				has_government = national_populist
+				has_government = despotist
 				has_government = paternal_autocrat
 				has_government = paternal
 			}
@@ -2994,7 +2994,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}		
@@ -3061,7 +3061,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3126,7 +3126,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3189,7 +3189,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3312,7 +3312,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}		
@@ -3366,7 +3366,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3464,7 +3464,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3534,7 +3534,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3631,7 +3631,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 					has_government = vanguardist
 				}
@@ -3976,7 +3976,7 @@
 					OR = {
 						has_government = paternal
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = despotist
 						has_government = revivalist
 					}
 				}
@@ -4579,7 +4579,7 @@
 			}
 			modifier = {
 				factor = 2
-				has_government = national_populist
+				has_government = despotist
 			}
 		}
 		
@@ -4633,7 +4633,7 @@
 					OR = {
 						has_government = revivalist
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = despotist
 						has_government = paternal
 						has_government = social_conservative
 					}
@@ -5058,7 +5058,7 @@
               add_country_leader_role = {
                 promote_leader = yes
                 country_leader = {
-                  ideology = national_populist_subtype
+                  ideology = despotist_subtype
                 }
               }
               add_country_leader_role = {
@@ -5296,7 +5296,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}

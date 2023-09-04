@@ -18,11 +18,11 @@ ideas = {
 				surrender_limit = 0.2
 			}
 		}
-		national_populist_drifting = {
+		despotist_drifting = {
 			allowed = { always = no }
 			removal_cost = -1
 			modifier = {
-				national_populist_drift = 0.05
+				despotist_drift = 0.05
 			}
 		}
 		military_trainer = {
@@ -39,7 +39,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				revivalist_drift = 0.2
-				national_populist_drift = 0.1
+				despotist_drift = 0.1
 				vanguardist_drift = 0.05
 				paternal_autocrat_drift = -0.05
 			}

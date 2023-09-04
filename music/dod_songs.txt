@@ -17,7 +17,7 @@ music = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -52,7 +52,7 @@ music = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -84,7 +84,7 @@ music = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}

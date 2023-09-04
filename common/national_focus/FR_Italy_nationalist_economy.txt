@@ -31,13 +31,13 @@ focus_tree = {
 	
 	focus = {
 		id = ITA_war_for_italy
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		x = 30
 		y = 0
 		cost = 10
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -62,7 +62,7 @@ focus_tree = {
 		cost = 10
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}		
 
 		prerequisite = {
@@ -103,7 +103,7 @@ focus_tree = {
 		cost = 10	
 
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}		
 		
 		prerequisite = {
@@ -132,7 +132,7 @@ focus_tree = {
 		cost = 10	
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}		
 		
 		prerequisite = {
@@ -172,7 +172,7 @@ focus_tree = {
 		cost = 10	
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}		
 
 		prerequisite = {
@@ -201,7 +201,7 @@ focus_tree = {
 		cost = 10	
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}		
 
 		prerequisite = {

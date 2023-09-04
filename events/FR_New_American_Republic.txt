@@ -48,7 +48,7 @@ country_event = { # Compromise with Simmons?
 			factor = 20
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -261,17 +261,17 @@ country_event = { # Simmons Coup
 		name = newamerica.10.a
 		hidden_effect = {
 			decrease_ruling_party_popularity_by_20 = yes
-			set_country_flag = NAR_path_natpop
+			set_country_flag = NAR_path_desp
 			drop_cosmetic_tag = yes
 			set_cosmetic_tag = NAR_sacred
 			country_event = { id = newamerica.17 months = 1 }
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.25
 		}
 		remove_every_minister = yes
@@ -669,7 +669,7 @@ country_event = { # Fighting Crime
 
 	trigger = {
 		tag = NAR
-		has_country_flag = NAR_path_natpop
+		has_country_flag = NAR_path_desp
 		owns_state = 374
 	}
 
@@ -690,7 +690,7 @@ country_event = { # Black Education Act
 
 	trigger = {
 		tag = NAR
-		has_country_flag = NAR_path_natpop
+		has_country_flag = NAR_path_desp
 	}
 
 	mean_time_to_happen = {
@@ -713,7 +713,7 @@ country_event = { # The Pass Laws
 
 	trigger = {
 		tag = NAR
-		has_country_flag = NAR_path_natpop
+		has_country_flag = NAR_path_desp
 	}
 
 	mean_time_to_happen = {

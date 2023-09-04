@@ -1104,9 +1104,9 @@ operation_coup_government = { ### 7 1/70
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = national_populist }
+					PREV.ROOT = { has_government = despotist }
 				}
-				national_populist > 0.2
+				despotist > 0.2
 			}
 			if = {
 				limit = {

@@ -576,11 +576,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_ideology_national_populist_shine"
-    texturefile = "gfx/interface/goals/goal_ideology_national_populist.png"
+    name = "GFX_goal_ideology_despotist_shine"
+    texturefile = "gfx/interface/goals/goal_ideology_despotist.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_national_populist.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_despotist.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -593,7 +593,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_national_populist.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_despotist.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no

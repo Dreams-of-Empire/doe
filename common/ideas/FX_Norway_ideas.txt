@@ -28,7 +28,7 @@ ideas = {
 				stability_factor = -0.10
 				conscription_factor = -0.05
 				political_power_gain = -0.20
-				national_populist_drift = 0.01
+				despotist_drift = 0.01
 				revivalist_drift = 0.01
 			}
 		}
@@ -39,7 +39,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				political_power_gain = -0.10
-				national_populist_drift = 0.01
+				despotist_drift = 0.01
 				revivalist_drift = 0.01
 			}
 		}
@@ -361,7 +361,7 @@ ideas = {
 				conscription_factor = 0.10
 				political_power_gain = 0.10
 				paternal_autocrat_drift = -0.02
-				national_populist_drift = -0.02
+				despotist_drift = -0.02
 				revivalist_drift = -0.02
 			}
 		}
@@ -374,7 +374,7 @@ ideas = {
 				political_power_gain = 0.10
 				vanguardist_drift = -0.01
 				paternal_autocrat_drift = -0.03
-				national_populist_drift = -0.03
+				despotist_drift = -0.03
 				revivalist_drift = -0.03
 			}
 		}
@@ -388,7 +388,7 @@ ideas = {
 				social_conservative_drift = -0.01
 				paternal_drift = -0.01
 				paternal_autocrat_drift = -0.03
-				national_populist_drift = -0.03
+				despotist_drift = -0.03
 				revivalist_drift = -0.03
 			}
 		}
@@ -410,7 +410,7 @@ ideas = {
 				stability_factor = -0.05
 				conscription_factor = -0.03
 				political_power_gain = -0.10
-				national_populist_drift = 0.01
+				despotist_drift = 0.01
 				revivalist_drift = 0.01
 			}
 		}
@@ -525,7 +525,7 @@ ideas = {
 				vanguardist_drift = -0.01
 				collectivist_drift = -0.01
 				paternal_autocrat_drift = -0.01
-				national_populist_drift = -0.01
+				despotist_drift = -0.01
 				revivalist_drift = -0.01
 			}
 		}
@@ -641,7 +641,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
 				stability_factor = 0.05
-				national_populist_drift = 0.02
+				despotist_drift = 0.02
 			}
 		}
 		NOR_promote_christian_revivalism_idea = {
@@ -650,7 +650,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
 				stability_factor = 0.05
-				national_populist_drift = 0.05
+				despotist_drift = 0.05
 				monthly_population = 0.05
 			}
 		}
@@ -660,7 +660,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
 				stability_factor = 0.10
-				national_populist_drift = 0.05
+				despotist_drift = 0.05
 				monthly_population = 0.05
 				army_morale_factor = 0.05
 			}
@@ -671,19 +671,19 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
 				stability_factor = 0.10
-				national_populist_drift = 0.05
+				despotist_drift = 0.05
 				monthly_population = 0.05
 				army_morale_factor = 0.08
 				conscription_factor = 0.05
 			}
 		}
-		NOR_long_live_nation_natpop_idea = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NOR_long_live_nation_natpop_idea"}
+		NOR_long_live_nation_desp_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NOR_long_live_nation_desp_idea"}
 			allowed = { original_tag = NOR }
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
 				stability_factor = 0.10
-				national_populist_drift = 0.05
+				despotist_drift = 0.05
 				monthly_population = 0.10
 				army_morale_factor = 0.08
 				conscription_factor = 0.10

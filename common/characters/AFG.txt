@@ -78,7 +78,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 	}
@@ -616,7 +616,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Mirza_Ali_Khan_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_industrialiser
 			}
 		}
@@ -778,7 +778,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Khalilullah_Khalili_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_prince_of_terror
 			}
 		}

@@ -2318,7 +2318,7 @@ focus_tree = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = -0.1
 			}
 			add_popularity = {
@@ -3895,7 +3895,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3935,7 +3935,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3960,7 +3960,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3985,7 +3985,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4019,7 +4019,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4046,7 +4046,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4076,7 +4076,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4102,7 +4102,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4127,7 +4127,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4152,7 +4152,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4207,7 +4207,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4232,7 +4232,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4294,7 +4294,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4320,7 +4320,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -4346,7 +4346,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = UKR_integralists_in_power_tt
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}

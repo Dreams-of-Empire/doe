@@ -583,7 +583,7 @@ NAR_state_reintegration = {
             remove_ideas = NAR_illegitimate_government
             drop_cosmetic_tag = yes
             if = {
-                limit = { has_country_flag = NAR_path_natpop }
+                limit = { has_country_flag = NAR_path_desp }
                 set_cosmetic_tag = NAR_sacred_unified
             }
         }

@@ -22,7 +22,7 @@ set_politics = {
 
 set_popularities = {
   social_conservative = 0
-  national_populist = 20
+  despotist = 20
   collectivist = 0
   paternal_autocrat = 80
 }

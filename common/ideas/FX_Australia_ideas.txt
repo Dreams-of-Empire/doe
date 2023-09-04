@@ -13,7 +13,7 @@ ideas = {
 				political_power_gain = -0.10
 				stability_factor = -0.10
 				collectivist_drift = 0.01
-				national_populist_drift = 0.01
+				despotist_drift = 0.01
 			}
 		}
 		AST_strong_auralia_movement_idea = {
@@ -25,7 +25,7 @@ ideas = {
 				stability_factor = -0.10
 				drift_defence_factor = -0.10
 				collectivist_drift = 0.01
-				national_populist_drift = 0.01
+				despotist_drift = 0.01
 			}
 		}
 		AST_internal_divisions_idea = {

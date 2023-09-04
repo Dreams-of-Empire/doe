@@ -126,7 +126,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -144,7 +144,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Hans_Adam_Dorten_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_backroom_backstabber
 			}
 		}
@@ -504,7 +504,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Otto_Lichtschlag_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -642,7 +642,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Theodor_Reismann_Grone_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_general_staffer
 			}
 		}
@@ -777,7 +777,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Emil_Kirdorf_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_reformer
 			}
 		}
@@ -888,7 +888,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Walther_Lichtschlag_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_prince_of_terror
 			}
 		}

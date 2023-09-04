@@ -28,7 +28,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = unlocked_later
 				OR = {
-					has_country_flag = NAR_path_natpop
+					has_country_flag = NAR_path_desp
 					has_country_flag = NAR_path_corporate
 					has_country_flag = NAR_path_pataut
 				}
@@ -393,14 +393,14 @@ focus_tree = {
 	# A Dark Path
 	focus = {
 		id = NAR_a_dark_path
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		x = 2
 		y = 1
 		cost = 6
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = unlocked_later
-				has_country_flag = NAR_path_natpop
+				has_country_flag = NAR_path_desp
 			}
 		}
 		prerequisite = { focus = NAR_political_stabilization }

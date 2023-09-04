@@ -52,7 +52,7 @@ focus_tree = {
 
 	focus = {	
 		id = RUS_purge_np
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		available = {
 		}
 		prerequisite = { 
@@ -71,7 +71,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_purge_np"
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = -0.20
 			}
 		}

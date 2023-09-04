@@ -177,7 +177,7 @@ country_event = {
 	option = {
 		name = mex.5.b
 
-		custom_effect_tooltip = MEX_natpop_tt
+		custom_effect_tooltip = MEX_desp_tt
 		set_global_flag = MEX_SYNARCHISTS
 		ai_chance = { factor = 30 }
 	}

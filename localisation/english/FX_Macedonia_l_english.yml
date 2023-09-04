@@ -8,9 +8,9 @@ l_english:
   MAC_paternal_autocrat_ADJ: "Macedonian"
   MAC_paternal_autocrat_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
-  MAC_national_populist: "Vasíleio Tis Makedonías"
-  MAC_national_populist_ADJ: "Macedonian"
-  MAC_national_populist_DEF: "To Vasíleio tou Alexándrou tou Méga"
+  MAC_despotist: "Vasíleio Tis Makedonías"
+  MAC_despotist_ADJ: "Macedonian"
+  MAC_despotist_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
   MAC_revivalist: "Vasíleio Tis Makedonías"
   MAC_revivalist_ADJ: "Macedonian"

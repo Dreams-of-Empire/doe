@@ -213,7 +213,7 @@ country_event = {
 		add_political_power = 15
 		hidden_effect = {
 			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
-			add_popularity = { ideology = national_populist popularity = 0.04 }
+			add_popularity = { ideology = despotist popularity = 0.04 }
 			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
 	}
@@ -547,7 +547,7 @@ country_event = {
         character = SPM_Jaime_III
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = despotist_subtype
           traits = {}
         }
       }
@@ -667,7 +667,7 @@ country_event = {
         character = SPM_Juan_III
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = despotist_subtype
           traits = {}
         }
       }

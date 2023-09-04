@@ -6785,11 +6785,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_national_populism_shine"
-    texturefile = "gfx/interface/goals/goal_national_populism.png"
+    name = "GFX_goal_despotism_shine"
+    texturefile = "gfx/interface/goals/goal_despotism.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_national_populism.png"
+      animationmaskfile = "gfx/interface/goals/goal_despotism.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -6802,7 +6802,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_national_populism.png"
+      animationmaskfile = "gfx/interface/goals/goal_despotism.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no
@@ -8673,11 +8673,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_perubolivia_natpop_shine"
-    texturefile = "gfx/interface/goals/goal_flag_perubolivia_natpop.png"
+    name = "GFX_goal_perubolivia_desp_shine"
+    texturefile = "gfx/interface/goals/goal_flag_perubolivia_desp.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_flag_perubolivia_natpop.png"
+      animationmaskfile = "gfx/interface/goals/goal_flag_perubolivia_desp.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -8690,7 +8690,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_flag_perubolivia_natpop.png"
+      animationmaskfile = "gfx/interface/goals/goal_flag_perubolivia_desp.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no
@@ -13089,11 +13089,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_HOL_crackdown_natpop_shine"
-    texturefile = "gfx/interface/goals/HOL_crackdown_natpop.png"
+    name = "GFX_HOL_crackdown_desp_shine"
+    texturefile = "gfx/interface/goals/HOL_crackdown_desp.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/HOL_crackdown_natpop.png"
+      animationmaskfile = "gfx/interface/goals/HOL_crackdown_desp.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -13106,7 +13106,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/HOL_crackdown_natpop.png"
+      animationmaskfile = "gfx/interface/goals/HOL_crackdown_desp.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no
@@ -22881,11 +22881,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_HOL_natpop_success_shine"
-    texturefile = "gfx/interface/goals/HOL_natpop_success.png"
+    name = "GFX_goal_HOL_desp_success_shine"
+    texturefile = "gfx/interface/goals/HOL_desp_success.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/HOL_natpop_success.png"
+      animationmaskfile = "gfx/interface/goals/HOL_desp_success.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -22898,7 +22898,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/HOL_natpop_success.png"
+      animationmaskfile = "gfx/interface/goals/HOL_desp_success.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no

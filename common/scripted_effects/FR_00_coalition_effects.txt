@@ -189,7 +189,7 @@ save_current_party_popularities = {
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_conservative }
 	add_to_temp_array = { saved_popularities = party_popularity_100@paternal }
 	add_to_temp_array = { saved_popularities = party_popularity_100@paternal_autocrat }
-	add_to_temp_array = { saved_popularities = party_popularity_100@national_populist }
+	add_to_temp_array = { saved_popularities = party_popularity_100@despotist }
 
 	set_temp_variable = { sum = 100 }
 	for_each_loop = {
@@ -309,12 +309,12 @@ set_coalition_government_popularity = {
 	if = {
 		limit = {
 			NOT = {
-				has_government = national_populist
-				check_variable = { political_power_ideology = token:national_populist }
+				has_government = despotist
+				check_variable = { political_power_ideology = token:despotist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:national_populist }
+			is_in_array = { ROOT.coalition_partners = token:despotist }
 		}
-		set_temp_variable = { coali_nat = THIS.party_popularity@national_populist }
+		set_temp_variable = { coali_nat = THIS.party_popularity@despotist }
 		add_to_variable = { coalition_ruling_combined_pop = coali_nat  }
 	}
 	if = {
@@ -365,8 +365,8 @@ add_coalition_paternal_autocrat = {
 	set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 	add_to_coalition = yes 
 }
-add_coalition_national_populist = {
-	set_temp_variable = { coalition_partner_var = token:national_populist }
+add_coalition_despotist = {
+	set_temp_variable = { coalition_partner_var = token:despotist }
 	add_to_coalition = yes 
 }
 add_coalition_revivalist = {
@@ -410,8 +410,8 @@ remove_coalition_paternal_autocrat = {
 	set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 	remove_from_coalition = yes 
 }
-remove_coalition_national_populist = {
-	set_temp_variable = { coalition_partner_var = token:national_populist }
+remove_coalition_despotist = {
+	set_temp_variable = { coalition_partner_var = token:despotist }
 	remove_from_coalition = yes 
 }
 remove_coalition_revivalist = {

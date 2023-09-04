@@ -62,7 +62,7 @@ set_popularities = {
   social_conservative = 27
   paternal = 32
   paternal_autocrat = 10
-  national_populist = 0
+  despotist = 0
   revivalist = 0
 }
 

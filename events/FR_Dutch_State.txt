@@ -940,7 +940,7 @@ country_event = { # Landwacht Scandal
 
   trigger = {
     tag = HOL
-    has_government = national_populist
+    has_government = despotist
   }
 
   option = { # Punish whose responsible
@@ -1368,8 +1368,8 @@ country_event = { # Monarchist Sympathies in the Bureaucracy
     trigger = { has_socialist_government = yes }
   }
   desc = {
-    text = dutchstate.60.d.natpop
-    trigger = { has_government = national_populist }
+    text = dutchstate.60.d.desp
+    trigger = { has_government = despotist }
   }
   picture = GFX_report_event_HOL_border_incident
   is_triggered_only = yes
@@ -1471,7 +1471,7 @@ country_event = { # Germany Requests that We Join the Stahlpakt
         popularity = 0.35
       }
       add_popularity = {
-        ideology = national_populist
+        ideology = despotist
         popularity = 0.05
       }
       add_popularity = {
@@ -1771,7 +1771,7 @@ country_event = { # Investigation Complete
       }
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = -0.15
     }
     hidden_effect = {
@@ -1826,7 +1826,7 @@ country_event = { # The Prince Assumes Complete Control
     set_country_flag = political_branch_ready
     hidden_effect = {
       clr_country_flag = HOL_junta_path
-      clr_country_flag = HOL_natpop_path
+      clr_country_flag = HOL_desp_path
       clr_country_flag = HOL_socialist_path
       clr_country_flag = HOL_status_quo_path
       mark_focus_tree_layout_dirty = yes
@@ -1865,16 +1865,16 @@ country_event = { # Prince Bernhard Assassinated!
       character = HOL_Cornelis_van_Geelkerken
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = despotist_subtype
         traits = {}
       }
     }
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = despotist
       elections_allowed = no
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = 0.05
     }
     remove_every_minister = yes
@@ -1885,7 +1885,7 @@ country_event = { # Prince Bernhard Assassinated!
       HOL_AJ_van_der_Hoeven_sec_npo
     }
     set_country_flag = HOL_should_secure_the_state
-    set_country_flag = HOL_natpop_path
+    set_country_flag = HOL_desp_path
     set_country_flag = political_branch_ready
     hidden_effect = {
       clr_country_flag = HOL_bernhard_path
@@ -1936,7 +1936,7 @@ country_event = { # Army Coup
       popularity = 0.15
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = -0.15
     }
     remove_every_minister = yes
@@ -1949,7 +1949,7 @@ country_event = { # Army Coup
     set_country_flag = HOL_junta_path
     set_country_flag = political_branch_ready
     hidden_effect = {
-      clr_country_flag = HOL_natpop_path
+      clr_country_flag = HOL_desp_path
       clr_country_flag = HOL_socialist_path
       clr_country_flag = HOL_bernhard_path
       clr_country_flag = HOL_status_quo_path
@@ -2042,7 +2042,7 @@ country_event = { # The Celebration
     add_political_power = 100
     hidden_effect = {
       clr_country_flag = HOL_junta_path
-      clr_country_flag = HOL_natpop_path
+      clr_country_flag = HOL_desp_path
       clr_country_flag = HOL_bernhard_path
       clr_country_flag = HOL_socialist_path
       mark_focus_tree_layout_dirty = yes
@@ -2169,7 +2169,7 @@ country_event = { # Fall of the Nationalist Government
       clr_country_flag = HOL_junta_path
       clr_country_flag = HOL_status_quo_path
       clr_country_flag = HOL_bernhard_path
-      clr_country_flag = HOL_natpop_path
+      clr_country_flag = HOL_desp_path
       mark_focus_tree_layout_dirty = yes
       if = {
         limit = {
@@ -2251,7 +2251,7 @@ country_event = { # GER: Socialism in the Netherlands
       base = 0
       modifier = {
         add = 400
-        has_government = national_populist
+        has_government = despotist
       }
     }
     declare_war_on = {

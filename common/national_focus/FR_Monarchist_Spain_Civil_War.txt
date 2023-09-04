@@ -326,7 +326,7 @@ focus_tree = {
 							has_government = fasci
 							has_government = paternal
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = despotist
 							has_government = revivalist
 						}
 					}
@@ -347,7 +347,7 @@ focus_tree = {
 							has_government = fasci
 							has_government = paternal
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = despotist
 							has_government = revivalist
 						}
 					}
@@ -371,7 +371,7 @@ focus_tree = {
 							has_government = fasci
 							has_government = paternal
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = despotist
 							has_government = revivalist
 						}
 					}
@@ -728,7 +728,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPM_peace_upon_north
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		cost = 5.00
 		prerequisite = {
 			focus = SPM_bring_order_madrid
@@ -753,7 +753,7 @@ focus_tree = {
 			add_manpower = -200
 			add_stability = 0.03
 			add_war_support = 0.03
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			171 = {
 				add_resistance = -10
 			}

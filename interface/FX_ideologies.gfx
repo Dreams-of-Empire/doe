@@ -26,7 +26,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_statist_showaist_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/natpop_organnat_state_showaism.png"
+		texturefile = "gfx/interface/ideologies/subideologies/desp_organnat_state_showaism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_revolutionary_showaist_subtype"

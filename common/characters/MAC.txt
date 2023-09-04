@@ -32,7 +32,7 @@ characters = {
 			ideology = revivalist_subtype
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 		}
 		country_leader = {
 			ideology = collectivist_subtype

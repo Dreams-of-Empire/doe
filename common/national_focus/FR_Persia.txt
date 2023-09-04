@@ -1888,7 +1888,7 @@ focus_tree = {
 					OR = {
 						has_government = paternal
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = despotist
 						has_government = revivalist
 					}
 				}
@@ -2096,7 +2096,7 @@ focus_tree = {
 			}
 			OR = {
 				has_government = revivalist
-				has_government = national_populist
+				has_government = despotist
 				has_government = paternal_autocrat
 			}
 		}
@@ -2134,7 +2134,7 @@ focus_tree = {
 			}
 			OR = {
 				has_government = revivalist
-				has_government = national_populist
+				has_government = despotist
 				has_government = paternal_autocrat
 			}
 		}
@@ -2350,7 +2350,7 @@ focus_tree = {
 				has_government = vanguardist
 				has_government = collectivist
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -2727,7 +2727,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_deal_with_nationalists"
 			add_stability = 0.02
 			add_popularity = { ideology = revivalist popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			remove_ideas = PER_MIL_purge_socialist_elements_idea
 		}
 
@@ -2801,7 +2801,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_limit_shia_influences"
 			add_political_power = -10
 			add_popularity = { ideology = social_conservative popularity = -0.01 }
-			add_popularity = { ideology = national_populist popularity = -0.01 }
+			add_popularity = { ideology = despotist popularity = -0.01 }
 			country_event = {
 				id = iran.118 days = 1
 			}
@@ -2833,7 +2833,7 @@ focus_tree = {
 			add_political_power = -10
 			add_ideas = PER_MIL_women_education_idea
 			add_popularity = { ideology = social_conservative popularity = -0.01 }
-			add_popularity = { ideology = national_populist popularity = -0.01 }
+			add_popularity = { ideology = despotist popularity = -0.01 }
 		}
 
 	}
@@ -2926,7 +2926,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_tackle_aristocratic_influences"
 			add_popularity = { ideology = social_conservative popularity = -0.01 }
 			add_popularity = { ideology = paternal popularity = -0.01 }
-			add_popularity = { ideology = national_populist popularity = -0.01 }
+			add_popularity = { ideology = despotist popularity = -0.01 }
 			add_timed_idea = { idea = PER_MIL_tackle_aristocratic_influences_idea days = 50 }
 		}
 
@@ -3093,7 +3093,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_limit_tribal_influence"
 			add_political_power = 50
 			add_popularity = { ideology = paternal popularity = -0.01 }
-			add_popularity = { ideology = national_populist popularity = -0.01 }
+			add_popularity = { ideology = despotist popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
 		}
 
@@ -3352,7 +3352,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_invite_religious_advisors"
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 			add_timed_idea = { idea = PER_MIL_invite_religious_advisors_idea days = 50 }
 		}
 
@@ -3759,7 +3759,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_REP_women_social_rights"
 			add_political_power = -20
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.01 }
+			add_popularity = { ideology = despotist popularity = -0.01 }
 			add_ideas = PER_REP_women_social_rights_idea
 		}
 
@@ -4046,7 +4046,7 @@ focus_tree = {
 			add_ideas = PER_REP_reform_administration_idea
 			add_popularity = { ideology = collectivist popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
-			add_popularity = { ideology = national_populist popularity = -0.01 }
+			add_popularity = { ideology = despotist popularity = -0.01 }
 			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
 
@@ -4344,7 +4344,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = despotist popularity = 0.03 }
 			add_popularity = { ideology = revivalist popularity = 0.03 }
 		}
 
@@ -4432,7 +4432,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_shia_state"
 			add_political_power = 25
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 		}
 
 	}
@@ -4457,13 +4457,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_a_religious_leader"
 			add_political_power = -20
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 			hidden_effect = {
         add_country_leader_role = {
           character = PER_Ayatollah_Abol_Ghasem_Kashani
           promote_leader = yes
           country_leader = {
-            ideology = national_populist_subtype
+            ideology = despotist_subtype
             traits = {}
           }
         }
@@ -4509,7 +4509,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_head_of_faith"
 			add_stability = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = PER_NAT_centralized_powers_idea
 				add_idea = PER_NAT_head_of_faith_idea
@@ -4536,7 +4536,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_islamic_constitution"
 			add_stability = 0.02
 			add_war_support = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 		}
 
 	}
@@ -4584,13 +4584,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_marja_council"
 			add_political_power = 20
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 			hidden_effect = {
         add_country_leader_role = {
           character = PER_The_Maraji_Council
           promote_leader = yes
           country_leader = {
-            ideology = national_populist_subtype
+            ideology = despotist_subtype
             traits = {}
           }
         }
@@ -4640,7 +4640,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_islamic_democracy"
 			add_stability = 0.05
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = PER_NAT_allow_moderate_marjas_idea
 				add_idea = PER_NAT_islamic_democracy_idea
@@ -4720,7 +4720,7 @@ focus_tree = {
 			add_political_power = 50
 			add_stability = 0.05
 			add_research_slot = 1
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = despotist popularity = 0.03 }
 			add_popularity = { ideology = paternal popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 		}
@@ -5047,7 +5047,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_limit_shia_influences"
 			add_political_power = -20
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = despotist popularity = -0.05 }
 		}
 
 	}

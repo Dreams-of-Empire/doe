@@ -170,7 +170,7 @@ focus_tree = {
 
 	focus = {	
 		id = SOV_personality_cult 
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
 		available = {
 		}
 		prerequisite = { 

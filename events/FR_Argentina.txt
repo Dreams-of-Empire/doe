@@ -230,7 +230,7 @@ country_event = { #lpa
 		set_country_flag = ARG_republic_survives
 		add_political_power = 50
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -279,7 +279,7 @@ country_event = { #lpa
 		set_country_flag = ARG_republic_survives
 		add_political_power = 50
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -436,7 +436,7 @@ country_event = { #LPA factionalism
 		ai_chance = { factor = 50 }
 		add_political_power = -25
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.025
 		}	
 	}
@@ -445,7 +445,7 @@ country_event = { #LPA factionalism
 		ai_chance = { factor = 50 }
 		add_political_power = 25
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = -0.0125
 		}
 	}
@@ -609,7 +609,7 @@ country_event = { #standforthefederation
 		set_global_flag = ARG_LPA_coalition
 		set_country_flag = ARG_republic_survives
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -646,7 +646,7 @@ country_event = { #subsidized
 			popularity = 0.0125
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.0125
 		}
 		add_popularity = {
@@ -1889,10 +1889,10 @@ country_event = { #infamous day
 		name = arg.253.a
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.1
 		}
 		hidden_effect = {
@@ -2022,10 +2022,10 @@ country_event = { #infamous day
 		name = arg.253.a
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 		}
 			add_popularity = {
-				ideology = national_populist popularity = 0.1
+				ideology = despotist popularity = 0.1
 		}
 		hidden_effect = {
 			set_global_flag = ARG_LPA_coup
@@ -2293,7 +2293,7 @@ country_event = { #woo nps
 		ai_chance = { factor = 100 }
 		add_political_power = 50
 		add_popularity = {
-			ideology = national_populist popularity = 0.05
+			ideology = despotist popularity = 0.05
 		}
 		}
 	}

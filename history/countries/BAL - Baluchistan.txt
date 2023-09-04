@@ -47,7 +47,7 @@ illuminist = 15
 social_conservative = 14
 paternal = 0
 paternal_autocrat = 41
-national_populist = 0
+despotist = 0
 revivalist = 0
 }
 

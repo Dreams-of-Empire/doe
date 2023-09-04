@@ -348,7 +348,7 @@ ideas = {
 			allowed = { original_tag = NAR }
 			picture = ENG_the_war_to_end_all_wars
 			modifier = {
-				national_populist_drift = 0.02
+				despotist_drift = 0.02
 				monthly_population = -0.45
 				stability_weekly = 0.05
 				war_support_weekly = 0.05

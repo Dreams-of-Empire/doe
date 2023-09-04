@@ -21,7 +21,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.20
 				political_power_gain = -0.25
-				national_populist_drift = 0.02
+				despotist_drift = 0.02
 			}
 		}
 		

@@ -11,7 +11,7 @@ HUN_alternate_plan_1 = { #why is the word alternate in there? your guess is as g
 		original_tag = HUN
 		has_country_flag = hun_strat_plan
 		HUN = {
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 

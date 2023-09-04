@@ -100,7 +100,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = national_populist
+	ruling_party = despotist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -116,7 +116,7 @@ set_popularities = {
   social_conservative = 9
   paternal = 17
   paternal_autocrat = 15
-  national_populist = 45
+  despotist = 45
   revivalist = 0
 }
 add_coalition_paternal = yes 

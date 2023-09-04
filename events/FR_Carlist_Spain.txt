@@ -71,7 +71,7 @@ country_event = {
 		add_political_power = 10
 		add_manpower = 5000
 		hidden_effect = {
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
 	}
@@ -239,7 +239,7 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = FR_Falangist_Spain
 			add_popularity = { ideology = paternal_autocrat popularity = -0.06 }
-			add_popularity = { ideology = national_populist popularity = -0.08 }
+			add_popularity = { ideology = despotist popularity = -0.08 }
 			add_popularity = { ideology = revivalist popularity = -0.04 }
     set_capital = { state = 41 }
 			every_state = {
@@ -337,7 +337,7 @@ country_event = {
 		add_political_power = -20
 		hidden_effect = {
 			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
-			add_popularity = { ideology = national_populist popularity = -0.04 }
+			add_popularity = { ideology = despotist popularity = -0.04 }
 			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
 	}
@@ -408,7 +408,7 @@ country_event = {
 	#	add_political_power = 10
 	#	add_stability = -0.02
 	#	hidden_effect = {
-	#		add_popularity = { ideology = national_populist popularity = -0.03 }
+	#		add_popularity = { ideology = despotist popularity = -0.03 }
 	#		add_popularity = { ideology = revivalist popularity = 0.05 }
 	#		#country_event = { id = carspain.14 days = 5 }
 	#	}
@@ -607,7 +607,7 @@ country_event = {
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:revivalist }
 			remove_from_coalition = yes 
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = despotist popularity = 0.05 }
 		}
 	}
 }
@@ -684,7 +684,7 @@ country_event = {
 			}
 		}
 		add_stability = 0.01
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = despotist popularity = -0.02 }
 		add_popularity = { ideology = revivalist popularity = 0.03 }
 		hidden_effect = {
 			country_event = { id = carspain.110 days = 5 }
@@ -716,7 +716,7 @@ country_event = {
 			remove_from_coalition = yes  
 			set_temp_variable = { coalition_partner_var = token:revivalist }
 			remove_from_coalition = yes 
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = despotist popularity = -0.05 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 		}
 	}
@@ -816,7 +816,7 @@ country_event = {
 			remove_from_coalition = yes 
 			set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 			remove_from_coalition = yes 
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = despotist popularity = -0.05 }
 			add_popularity = { ideology = revivalist popularity = 0.05 }
 		}
 	}

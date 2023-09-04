@@ -44,7 +44,7 @@ country_event = { # King George is Dead
 		add_stability = -0.02
 		add_popularity = { ideology = collectivist popularity = 0.01 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.01 }
+		add_popularity = { ideology = despotist popularity = 0.01 }
 	}
 }
 
@@ -79,7 +79,7 @@ country_event = {
 		add_stability = -0.01
 		add_political_power = -15
 		add_popularity = { ideology = collectivist popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.01 }
+		add_popularity = { ideology = despotist popularity = 0.01 }
 	}
 }
 
@@ -764,7 +764,7 @@ country_event = { # New Guard Coup
 	desc = {
 		text = australia.25.d.afm
 		trigger = {
-			AST = { has_government = national_populist }
+			AST = { has_government = despotist }
 		}
 	}
 
@@ -774,7 +774,7 @@ country_event = { # New Guard Coup
 			exists = yes
 			OR = {
 				has_socialist_government = yes
-				has_government = national_populist
+				has_government = despotist
 			}
 		}
 	}
@@ -867,14 +867,14 @@ country_event = { # New Guard Coup
 	desc = {
 		text = australia.26.d.afm
 		trigger = {
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 
 	trigger = {
 		OR = {
 			has_socialist_government = yes
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 
@@ -1276,14 +1276,14 @@ country_event = { # New Guard Coup
 	desc = {
 		text = australia.34.d.afm
 		trigger = {
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 
 	trigger = {
 		OR = {
 			has_socialist_government = yes
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 
@@ -1417,7 +1417,7 @@ country_event = { # Rise of the AFM
 		name = australia.36.a
 		log = "[GetLogInfo]: event australia.35 option australia.35.a"
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.05
 		}
 	}
@@ -1570,7 +1570,7 @@ country_event = { # Elections of 1937
 		}
 
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
 		increase_ruling_party_popularity_by_20 = yes

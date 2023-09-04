@@ -80,7 +80,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_FERENC_SZALASI_DESC
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 	}
@@ -1285,7 +1285,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Gabor_Kemeny_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_ideological_crusader
 			}
 		}
@@ -1636,7 +1636,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Jenő_Racz_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_reformer
 			}
 		}
@@ -2014,7 +2014,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Andor_Jaross_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_silent_lawyer
 			}
 		}
@@ -2041,7 +2041,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Gabor_Vajna_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_crime_fighter
 			}
 		}

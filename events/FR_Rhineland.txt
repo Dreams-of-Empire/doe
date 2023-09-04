@@ -116,7 +116,7 @@ country_event = {
 	option = {
 		name = "Send in the Freikorps!"
 		add_stability = -0.01
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 		add_popularity = { ideology = fasci popularity = -0.02 }
 		ai_chance = {
 			factor = 40
@@ -174,12 +174,12 @@ country_event = {
 	option = {
 		name = "Allow the publication."
 		add_stability = -0.05
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 	}
 	option = {
 		name = "Censor the publication."
 		add_stability = -0.08
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 	}
 }
 #########################
@@ -321,7 +321,7 @@ country_event = {
 	}
 	option = {
 		name = "Matthes and Dorten form a pact"
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
 		hidden_effect = {
 			country_event = { id = rhi.crisis.6 days = 7 }
@@ -407,7 +407,7 @@ country_event = {
 	}
 	option = {
 		name = "Dorten's Nationalization"
-		add_popularity = { ideology = national_populist popularity = 0.08 }
+		add_popularity = { ideology = despotist popularity = 0.08 }
 		hidden_effect = {
 			modify_country_flag = { flag = RHI_conf value = 1 }
 			set_country_flag = rhi_conference_end
@@ -448,7 +448,7 @@ country_event = {
 	
 	option = {
 		name = "Freedom at last!"
-		add_popularity = { ideology = national_populist popularity = 0.1 }
+		add_popularity = { ideology = despotist popularity = 0.1 }
 		add_popularity = { ideology = social_democrat popularity = 0.1 }
 		add_stability = 0.1
 		hidden_effect = {
@@ -848,10 +848,10 @@ country_event = {
 	option = {
 		name = "A Grand Future! (Dorten's Nationalists)"
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.25 }
+		add_popularity = { ideology = despotist popularity = 0.25 }
 		hidden_effect = {
       add_ideas = {
         RHI_Otto_Lichtschlag_hog_npo

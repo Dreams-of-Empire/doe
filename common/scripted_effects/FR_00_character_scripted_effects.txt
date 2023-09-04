@@ -11,7 +11,7 @@ remove_all_country_leader_roles = {
 	remove_country_leader_role_social_conservative = yes
 	remove_country_leader_role_paternal = yes
 	remove_country_leader_role_paternal_autocrat = yes
-	remove_country_leader_role_national_populist = yes
+	remove_country_leader_role_despotist = yes
 	remove_country_leader_role_revivalist = yes
 }
 
@@ -330,13 +330,13 @@ remove_country_leader_role_paternal_autocrat = {
 	}
 }
 
-remove_country_leader_role_national_populist = {
+remove_country_leader_role_despotist = {
 	if = {
-		limit = { has_ideology_group = national_populist }
+		limit = { has_ideology_group = despotist }
 		
 		if = {
-			limit = { has_ideology = national_populist_subtype }
-			remove_country_leader_role = { ideology = national_populist_subtype }
+			limit = { has_ideology = despotist_subtype }
+			remove_country_leader_role = { ideology = despotist_subtype }
 		}
 		else_if = {
 			limit = { has_ideology = statist_showaist_subtype }

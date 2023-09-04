@@ -1199,7 +1199,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 		}
 	}
 	BLR_Uladzislau_Kazlouski = {
@@ -1224,7 +1224,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Uladzislau_Kazlouski_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_biased_intellectual
 			}
 		}
@@ -1251,7 +1251,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Janka_Carapuk_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_ideological_crusader
 			}
 		}
@@ -1278,7 +1278,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Mikalaj_Skialionak_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_laissez_faire_capitalist
 			}
 		}
@@ -1305,7 +1305,7 @@ characters = {
 				ROOT = { clr_country_flag = BLR_Juryj_Sabalieuski_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_efficient_sociopath
 			}
 		}

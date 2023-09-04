@@ -169,7 +169,7 @@ country_event = { #King Albert dies
         character = BEL_Staf_de_Clercq
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = despotist_subtype
           traits = {}
         }
       }
@@ -803,10 +803,10 @@ country_event = { #Far-right Coalition
 		set_temp_variable = { coalition_partner_var = token:revivalist }
 		add_to_coalition = yes 
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.4 }
+		add_popularity = { ideology = despotist popularity = 0.4 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 		add_popularity = { ideology = revivalist popularity = 0.05 }
 		hidden_effect = {
@@ -825,7 +825,7 @@ country_event = { #Far-right Coalition
 	option = { #Verdinaso provides PM
 		name = bel.12.b
 		ai_chance = { factor = 15 }
-		set_temp_variable = { coalition_partner_var = token:national_populist }
+		set_temp_variable = { coalition_partner_var = token:despotist }
 		add_to_coalition = yes 
 		set_temp_variable = { coalition_partner_var = token:revivalist }
 		add_to_coalition = yes 
@@ -834,7 +834,7 @@ country_event = { #Far-right Coalition
 			elections_allowed = no
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.4 }
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 		add_popularity = { ideology = revivalist popularity = 0.05 }
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
@@ -854,7 +854,7 @@ country_event = { #Far-right Coalition
 		ai_chance = { factor = 70 }
 		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 		add_to_coalition = yes 
-		set_temp_variable = { coalition_partner_var = token:national_populist }
+		set_temp_variable = { coalition_partner_var = token:despotist }
 		add_to_coalition = yes 
 		set_politics = {
 			ruling_party = revivalist
@@ -862,7 +862,7 @@ country_event = { #Far-right Coalition
 		}
 		add_popularity = { ideology = revivalist popularity = 0.4 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
 			remove_ideas_with_trait = foreign_minister

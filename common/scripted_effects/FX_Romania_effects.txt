@@ -189,7 +189,7 @@ ROM_make_michael_king = {
 			promote_leader = yes
 			country_leader = {
 				desc = POLITICS_MICHAEL_I_DESC
-				ideology = national_populist_subtype
+				ideology = despotist_subtype
 				traits = {}
 			}
 		}
@@ -325,7 +325,7 @@ ROM_make_nicholas_king = {
 		}
 		if = {
 			limit = {
-				NOT = { has_ideology_group = national_populist }
+				NOT = { has_ideology_group = despotist }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
@@ -421,7 +421,7 @@ ROM_become_republic = {
 		character = ROM_Alexandru_Cantacuzino
 		promote_leader = yes
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 	}

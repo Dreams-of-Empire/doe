@@ -187,7 +187,7 @@ country_event = {
 		value = 1
 		}
 		custom_effect_tooltip = 12_MAN_tt
-    add_popularity = { ideology = national_populist popularity = 0.03 }
+    add_popularity = { ideology = despotist popularity = 0.03 }
     add_political_power = -35
     hidden_effect = {
     IF = {
@@ -708,7 +708,7 @@ country_event = {
 
       add_political_power = -75
 
-      add_popularity = { ideology = national_populist popularity = 0.06 }
+      add_popularity = { ideology = despotist popularity = 0.06 }
 
 			add_to_variable = {
 			var = MAN_fengtian_influence_with_japan
@@ -733,7 +733,7 @@ country_event = {
 
       add_political_power = 50
 
-      add_popularity = { ideology = national_populist popularity = 0.06 }
+      add_popularity = { ideology = despotist popularity = 0.06 }
 
       hidden_effect = {
 
@@ -1084,7 +1084,7 @@ country_event = {
 
 		name = "A worthy association for a worthy cause."
 
-		add_popularity = { ideology = national_populist popularity = 0.15 }
+		add_popularity = { ideology = despotist popularity = 0.15 }
 
 		add_stability = 0.05
 
@@ -1174,7 +1174,7 @@ country_event = {
         popularity = 0.10
       }
 		  add_popularity = { 
-        ideology = national_populist
+        ideology = despotist
         popularity = 0.10
       }
 
@@ -1369,7 +1369,7 @@ country_event = {
 		name = "Damn it all!"
 
     add_political_power = -200
-    add_popularity = { ideology = national_populist popularity = 0.1 }
+    add_popularity = { ideology = despotist popularity = 0.1 }
     add_popularity = { ideology = social_conservative popularity = 0.1 }
 
     hidden_effect = {
@@ -1406,7 +1406,7 @@ country_event = {
 		add_idea = MAN_antijapanese_sentiment
  		}
 
-		add_popularity = { ideology = national_populist popularity = 0.10 }
+		add_popularity = { ideology = despotist popularity = 0.10 }
 		add_popularity = { ideology = revivalist popularity = 0.05 }
 
 	add_ideas = military_junta
@@ -1420,7 +1420,7 @@ country_event = {
 	}
 
 	 set_politics = {
-			 ruling_party = national_populist
+			 ruling_party = despotist
 			 elections_allowed = no
 		 }
 
@@ -2063,7 +2063,7 @@ country_event = {
 
 		custom_effect_tooltip = 12_MAN_tt
 
-    add_popularity = { ideology = national_populist popularity = 0.10 }
+    add_popularity = { ideology = despotist popularity = 0.10 }
 		add_popularity = { ideology = revivalist popularity = 0.05 }
 		add_ideas = MAN_culture_manchu_revival
 	}
@@ -2510,7 +2510,7 @@ country_event = {
 
 	option = {
 		name = "The state should serve more than just the Chinese people!"
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 		add_to_variable = {
 		var = MAN_fengtian_influence_with_japan
 		value = 1
@@ -2596,7 +2596,7 @@ country_event = {
 
 	option = {
 		name = "An army for a new Asian state!"
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 
 		add_to_variable = {
 		var = MAN_fengtian_influence_with_japan
@@ -2684,7 +2684,7 @@ country_event = {
 
 	option = {
 		name = "A childest concept doomed to fail."
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 
 		add_to_variable = {
 		var = MAN_fengtian_influence_with_japan
@@ -2756,7 +2756,7 @@ country_event = {
 		custom_effect_tooltip = 12_MAN_tt
 
 
-		add_popularity = { ideology = national_populist popularity = 0.10 }
+		add_popularity = { ideology = despotist popularity = 0.10 }
 		set_global_flag = MAN_concordia_rules_fengtian
 		add_political_power = -50
 
@@ -2773,7 +2773,7 @@ country_event = {
 		hidden_effect = {
 			add_ideas = parliamentary_republic
 			set_politics = {
-				ruling_party = national_populist
+				ruling_party = despotist
 				elections_allowed = no
 			}
 			complete_national_focus = MAN_the_first_fengtian_elections
@@ -2786,7 +2786,7 @@ country_event = {
 			has_global_flag = MAN_fengtian_supports_concordia_3
 		}
 		name = "It is good to know that we are well-loved. Mostly."
-		add_popularity = { ideology = national_populist popularity = 0.15 }
+		add_popularity = { ideology = despotist popularity = 0.15 }
 
 
 		add_to_variable = {
@@ -2810,7 +2810,7 @@ country_event = {
 		hidden_effect = {
 			add_ideas = parliamentary_republic
 			set_politics = {
-				ruling_party = national_populist
+				ruling_party = despotist
 				elections_allowed = no
 			}
 			complete_national_focus = MAN_the_first_fengtian_elections
@@ -2961,7 +2961,7 @@ country_event = {
 					hidden_effect = {
 					MAN = { country_event = { id = man.77 days = 5 }}
 					add_popularity = { ideology = social_conservative popularity = -0.10 }
-					add_popularity = { ideology = national_populist popularity = 0.05 }
+					add_popularity = { ideology = despotist popularity = 0.05 }
 					add_popularity = { ideology = liberal popularity = 0.05 }
 					}
 			}
@@ -2982,7 +2982,7 @@ country_event = {
 					name = "Such bloodshed- what are they getting at?"
 					hidden_effect = {
 					MAN = { country_event = { id = man.78 days = 5 }}
-					add_popularity = { ideology = national_populist popularity = -0.10 }
+					add_popularity = { ideology = despotist popularity = -0.10 }
 					add_popularity = { ideology = social_conservative popularity = 0.05 }
 					add_popularity = { ideology = social_democrat popularity = 0.05 }
 					}
@@ -3005,7 +3005,7 @@ country_event = {
 					add_stability = -0.05
 					hidden_effect = {
 					add_popularity = { ideology = liberal popularity = -0.05 }
-					add_popularity = { ideology = national_populist popularity = 0.05 }
+					add_popularity = { ideology = despotist popularity = 0.05 }
 					complete_national_focus = MAN_concordia_association_controls_the_senate
 					}
 			}
@@ -3164,7 +3164,7 @@ country_event = {
 				name = "Concordia will take power now."
 				add_ideas = parliamentary_republic
 			 	set_politics = {
-					 ruling_party = national_populist
+					 ruling_party = despotist
 					 elections_allowed = no
 				 }
 				 remove_every_minister = yes
@@ -3176,7 +3176,7 @@ country_event = {
 				 }
 				hidden_effect = {
 				complete_national_focus = MAN_concordia_association_controls_the_senate
-				add_popularity = { ideology = national_populist popularity = 0.10 }
+				add_popularity = { ideology = despotist popularity = 0.10 }
 				add_stability = -0.025
 				}
 				}

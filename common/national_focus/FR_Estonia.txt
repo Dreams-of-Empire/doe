@@ -58,14 +58,14 @@ focus_tree = {
 	}
 	focus = {
 		id = EST_vaps_movement_siezes_power
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		cost = 4.30
 		x = 10
 		y = 0
 		
 		available = {
 			has_country_flag = EST_vaps_movement_siezes_power_flag
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -76,7 +76,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_vaps_movement_siezes_power"
 			add_political_power = 25
 			add_stability = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = despotist popularity = 0.03 }
 		}
 
 	}
@@ -275,7 +275,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_trial_pats_loyalists"
 			add_political_power = -25
 			add_stability = -0.02
-			add_popularity = { ideology = national_populist popularity = -0.08 }
+			add_popularity = { ideology = despotist popularity = -0.08 }
 			remove_ideas = EST_ineffective_government_and_unrest1_idea
 			country_event = { id = estonia.104 days = 1 }
 		}
@@ -542,13 +542,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_rely_popular_support"
 			add_political_power = -25
 			add_stability = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = despotist popularity = 0.03 }
 		}
 
 	}
 	focus = {
 		id = EST_estonian_patriotism
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
 		cost = 8.00
 		prerequisite = {
 			focus = EST_dominance_patriotic_league
@@ -685,7 +685,7 @@ focus_tree = {
 			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 			country_event = { id = estonia.105 days = 1 }
 		}
 
@@ -762,7 +762,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_strengthen_presidential_power"
 			add_political_power = -25
 			add_stability = -0.02
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = EST_empower_movement_figures_idea
 				add_idea = EST_strengthen_presidential_power_idea
@@ -812,7 +812,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_veterans_cause"
 			add_stability = 0.03
 			add_war_support = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = EST_strengthen_presidential_power_idea
 				add_idea = EST_veterans_cause_idea
@@ -1166,7 +1166,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_future_military_government"
 			add_political_power = -20
 			add_stability = 0.08
-			add_popularity = { ideology = national_populist popularity = 0.08 }
+			add_popularity = { ideology = despotist popularity = 0.08 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }

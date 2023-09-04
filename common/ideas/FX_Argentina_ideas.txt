@@ -273,7 +273,7 @@ ideas = {
 
 			picture = generic_populism_banned
 			modifier = {
-				national_populist_drift = -0.02
+				despotist_drift = -0.02
 				liberal_drift = -0.02
 			}
 		}
@@ -299,7 +299,7 @@ ideas = {
 
 			picture = generic_fascism_drift_2
 			modifier = {
-				national_populist_drift = 0.02
+				despotist_drift = 0.02
 				liberal_drift = 0.02
 			}
 		}
@@ -312,7 +312,7 @@ ideas = {
 
 			picture = generic_fascism_drift_2
 			modifier = {
-				national_populist_drift = 0.02
+				despotist_drift = 0.02
 				liberal_drift = 0.02
 				army_morale_factor = 0.05
 				political_power_gain = 0.03
@@ -328,7 +328,7 @@ ideas = {
 
 			picture = UK_military_loyal_idea
 			modifier = {
-				national_populist_drift = -0.02
+				despotist_drift = -0.02
 				army_morale_factor = 0.05
 				political_power_gain = 0.1
 

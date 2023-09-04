@@ -321,7 +321,7 @@ focus_tree = {
 
 		focus = {
 		id = ARG_censure_reactionaries
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
  		ai_will_do = { factor = 10 } 
 		prerequisite = { focus = ARG_central_union_leadership }
  		x =0
@@ -2835,7 +2835,7 @@ focus_tree = {
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
-						has_government = national_populist
+						has_government = despotist
 						has_government = paternal_autocrat						
 
 					}
@@ -2885,7 +2885,7 @@ focus_tree = {
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
-						has_government = national_populist
+						has_government = despotist
 						has_government = paternal_autocrat						
 
 					}
@@ -3564,7 +3564,7 @@ focus_tree = {
 						has_government = paternal_autocrat
 						has_government = paternal
 						has_government = revivalist
-						has_government = national_populist
+						has_government = despotist
 					}
 				}
 				add_opinion_modifier = { target = ARG modifier = CHL_friendly_democracy }
@@ -3767,7 +3767,7 @@ focus_tree = {
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
-						has_government = national_populist
+						has_government = despotist
 						has_government = paternal_autocrat
 					}
 				}
@@ -4550,7 +4550,7 @@ focus_tree = {
 
 		focus = {
 		id = ARG_lpa_coup_succeeds
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
  		ai_will_do = { factor = 10 }
  		x =22
  		y =24
@@ -4586,7 +4586,7 @@ focus_tree = {
 
 		focus = {
 		id = ARG_nationalist_society
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
  		ai_will_do = { factor = 10 }
  		x =21
  		y =26
@@ -4639,7 +4639,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_destroy_democracy"
 			add_popularity = {
-			ideology = national_populist popularity = 0.05
+			ideology = despotist popularity = 0.05
 			}		
 			add_popularity = {
 			ideology = liberal popularity = -0.025
@@ -4700,7 +4700,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_crush_the_leagues"
 		add_popularity = {
-			ideology = national_populist popularity = -0.1
+			ideology = despotist popularity = -0.1
 		}
 		add_political_power = -25
 		} 
@@ -4944,7 +4944,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_conservative_laicism"
 		add_popularity = {
-			ideology = national_populist popularity = -0.05
+			ideology = despotist popularity = -0.05
 		}			
 		add_popularity = {
 			ideology = paternal popularity = -0.05

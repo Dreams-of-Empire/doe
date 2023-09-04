@@ -2943,7 +2943,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_socred_victory
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		prerequisite = { focus = CAN_elections_1938 }
 		mutually_exclusive = { focus = CAN_liberal_victory }
 		mutually_exclusive = { focus = CAN_tory_victory }

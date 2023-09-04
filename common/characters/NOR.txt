@@ -161,7 +161,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 	}
@@ -816,7 +816,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Jonas_Lie_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_corporate_suit
 			}
 		}
@@ -843,7 +843,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Karl_Marthinsen_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_local_tyrant
 			}
 		}
@@ -1329,7 +1329,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Axel_Stang_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_general_staffer
 			}
 		}
@@ -1356,7 +1356,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Johan_Lippestad_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1870,7 +1870,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Carl_Frolich_Hanssen_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_railway_magnate
 			}
 		}
@@ -1897,7 +1897,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Tormod_Hustad_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_the_minister_for_everything
 			}
 		}
@@ -2411,7 +2411,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Arnvid_Vasbotten_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_preserver_of_culture
 			}
 		}
@@ -2438,7 +2438,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Sverre_Riisnæs_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_efficient_sociopath
 			}
 		}

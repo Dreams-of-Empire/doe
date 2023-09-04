@@ -1169,7 +1169,7 @@ focus_tree = {
 				has_government = social_conservative
 				has_government = paternal
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -2456,7 +2456,7 @@ focus_tree = {
 				remove_idea = NOR_war_on_samfundsvernet_idea
 				add_idea = NOR_war_on_samfundsvernet_idea1
 			}
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 			add_political_power = -40
 			add_manpower = -2000
@@ -2480,7 +2480,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_trial_ns_leaders"
 			remove_ideas = NOR_war_on_samfundsvernet_idea1
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 			add_political_power = -40
 			add_manpower = -2000
@@ -2513,7 +2513,7 @@ focus_tree = {
 			}
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 		}
 
@@ -2816,7 +2816,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_question_paramilitaries
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		cost = 8.00
 		prerequisite = {
 			focus = NOR_extend_voting_rights
@@ -2833,7 +2833,7 @@ focus_tree = {
 			add_political_power = -35
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 			if = {
 				limit = {
@@ -3255,7 +3255,7 @@ focus_tree = {
 			add_political_power = -35
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = collectivist popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 			if = {
 				limit = {
@@ -3807,7 +3807,7 @@ focus_tree = {
 			add_political_power = -20
 			add_war_support = 0.02
 			add_popularity = { ideology = paternal popularity = 0.02 }
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 			add_ideas = NOR_strengthen_royal_patriotism_idea
 		}
 
@@ -3958,7 +3958,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_ally_ns_politicans"
 			add_political_power = 10
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = despotist popularity = 0.05 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 			country_event = { id = nor.35 }
 		}
@@ -4015,7 +4015,7 @@ focus_tree = {
 				remove_ideas_with_trait = security_minister
 				add_ideas = NOR_Rudolf_Reader_for_npo
 				add_ideas = NOR_Bernt_Holtsmark_eco_npo
-				set_temp_variable = { coalition_partner_var = token:national_populist }
+				set_temp_variable = { coalition_partner_var = token:despotist }
 				remove_from_coalition = yes
 			}
 		}
@@ -4041,16 +4041,16 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_prime_minister_quisling"
 			add_political_power = -25
-			add_popularity = { ideology = national_populist popularity = 0.10 }
+			add_popularity = { ideology = despotist popularity = 0.10 }
 			custom_effect_tooltip  = NOR_prime_minister_quisling_tooltip
 			hidden_effect = {
 				add_ideas = constitutional_monarchy
 				set_politics = {
-					ruling_party = national_populist elections_allowed = no
+					ruling_party = despotist elections_allowed = no
 				}
 				remove_ideas_with_trait = head_of_government
 				add_ideas = NOR_Vidkun_Quisling_hog_pau
-				set_temp_variable = { coalition_partner_var = token:national_populist }
+				set_temp_variable = { coalition_partner_var = token:despotist }
 				remove_from_coalition = yes
 				set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 				add_to_coalition = yes
@@ -4200,7 +4200,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_one_legal_labour_union"
 			add_political_power = 10
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			add_popularity = { ideology = revivalist popularity = 0.02 }
 			add_popularity = { ideology = collectivist popularity = -0.03 }
 			add_popularity = { ideology = fasci popularity = -0.03 }
@@ -4584,14 +4584,14 @@ focus_tree = {
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = 0.04 }
 		}
 
 	}
 	focus = {
 		id = NOR_new_norwegian_nation
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
 		cost = 8.00
 		prerequisite = {
 			focus = NOR_pagan_reformation
@@ -4649,7 +4649,7 @@ focus_tree = {
 			else = {
 				swap_ideas = {
 					remove_idea = NOR_northern_crusaders_idea
-					add_idea = NOR_long_live_nation_natpop_idea
+					add_idea = NOR_long_live_nation_desp_idea
 				}
 			}
 		}
@@ -4988,7 +4988,7 @@ focus_tree = {
 				remove_idea = NOR_war_on_samfundsvernet_idea
 				add_idea = NOR_war_on_samfundsvernet_idea1
 			}
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = despotist popularity = -0.03 }
 			add_popularity = { ideology = revivalist popularity = -0.03 }
 			add_political_power = -60
 			add_manpower = -3500
@@ -4997,7 +4997,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_crush_ns
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		cost = 8.00
 		prerequisite = {
 			focus = NOR_war_on_samfundsvernet
@@ -5012,7 +5012,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_crush_ns"
 			remove_ideas = NOR_war_on_samfundsvernet_idea1
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = despotist popularity = -0.03 }
 			add_popularity = { ideology = revivalist popularity = -0.03 }
 			add_political_power = -60
 			add_manpower = -3500

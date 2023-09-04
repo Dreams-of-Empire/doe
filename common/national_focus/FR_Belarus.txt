@@ -262,7 +262,7 @@ focus_tree = {
 	# Final Preparations
 	focus = {
 		id = BLR_final_preparations
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		x = 1
 		y = 1
 		cost = 3

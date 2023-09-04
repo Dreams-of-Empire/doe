@@ -2937,7 +2937,7 @@ country_event = { # Pope
       }
     }
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = despotist
       elections_allowed = no
       election_frequency = 48
       long_name = PHI_holy_party_long

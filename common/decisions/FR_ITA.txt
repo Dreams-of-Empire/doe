@@ -9329,7 +9329,7 @@ ITA_divorce_france = {
 				factor = 10
 				OR = {
 					has_government = revivalist
-					has_government = national_populist
+					has_government = despotist
 				}
 			}		
 		}

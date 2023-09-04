@@ -17,7 +17,7 @@ HOL_leftist_resistance = {
 }
 
 HOL_landwacht_resistance = {
-  icon = "GFX_idea_generic_national_populist_resistance"
+  icon = "GFX_idea_generic_despotist_resistance"
 
   local_factory_sabotage = 0.15
   local_supplies = -0.15

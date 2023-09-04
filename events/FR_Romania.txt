@@ -803,7 +803,7 @@ country_event = { # 1937 General Elections
 			NOT = { has_country_flag = ROM_banned_radicals }
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
 		increase_ruling_party_popularity_by_15 = yes
@@ -816,7 +816,7 @@ country_event = { # 1937 General Elections
 			ROM_Horia_Sima_sec_npo
 		}
 		hidden_effect = {
-      set_country_flag = ROM_natpop_romania
+      set_country_flag = ROM_desp_romania
 			mark_focus_tree_layout_dirty = yes
 			random_other_country = {
 				news_event = { id = fxnews.25 hours = 8 }
@@ -1068,7 +1068,7 @@ country_event = { # The King's and Romania's Safety
 			popularity = -0.15
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = -0.15
 		}
 		add_popularity = {
@@ -1430,7 +1430,7 @@ country_event = { # Coronation of Alexander I
       character = ROM_Alexandru_Cantacuzino
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = despotist_subtype
         traits = {}
       }
     }

@@ -3279,7 +3279,7 @@ country_event = { #Living in Paris or Versailles?
 	option = { #The king lives where he pleases
 		name = fra.92.c
 		add_political_power = -50
-		set_variable = { #If this variable goes above a value of >>5<< the natpop coup can occur
+		set_variable = { #If this variable goes above a value of >>5<< the desp coup can occur
     		var = FrenchNatpopAnger
     		value = 0
 		}
@@ -3303,7 +3303,7 @@ country_event = { #Rapproachment with monarchist Spain if they win the civil war
 		FRA = {
 			has_country_flag = FRA_monarchy
 		}
-		SPM = { #this is the main obsticle to the natpop path succeeding, as Monarchist Spain very rarely wins the civil war
+		SPM = { #this is the main obsticle to the desp path succeeding, as Monarchist Spain very rarely wins the civil war
 			exists = yes
 			has_war = no
 		}

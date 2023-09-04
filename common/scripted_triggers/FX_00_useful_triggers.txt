@@ -260,8 +260,8 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = paternal_autocrat }
 		}
 		AND = {
-			has_government = national_populist
-			ROOT = { has_government = national_populist }
+			has_government = despotist
+			ROOT = { has_government = despotist }
 		}
 		AND = {
 			has_government = revivalist
@@ -336,7 +336,7 @@ has_authoritarian_government = {
 		OR = {
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 			has_government = revivalist
 		}
 	}
@@ -348,7 +348,7 @@ has_dictatorship_government = {
 		tooltip = FX_is_dictatorship_tt
 		OR = {
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 			has_government = revivalist
 		}
 	}

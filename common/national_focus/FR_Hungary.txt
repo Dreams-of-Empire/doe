@@ -167,7 +167,7 @@ focus_tree = {
 			}
 			ROM = {
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 				is_puppet = no
@@ -1331,7 +1331,7 @@ focus_tree = {
 			focus = hun_poli_stab
 		}
 		available = {
-			national_populist > 0.7
+			despotist > 0.7
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus hun_end_republic"
@@ -1342,7 +1342,7 @@ focus_tree = {
 	
 	focus = {
 		id = hun_state_as_one
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
 		cost = 5
 		x = 12
 		y = 3
@@ -1353,7 +1353,7 @@ focus_tree = {
 			focus = hun_end_republic
 		}
 		available = {
-			national_populist > 0.7
+			despotist > 0.7
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus hun_state_as_one"

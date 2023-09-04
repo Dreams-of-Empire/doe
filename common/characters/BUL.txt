@@ -822,7 +822,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Stefan_Klechkov_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_hawkish_intervener
 			}
 		}
@@ -1038,7 +1038,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Asen_Kantardzhiev_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_construction_magnate
 			}
 		}
@@ -1254,7 +1254,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Lyuben_Kostov_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_secret_police_chief
 			}
 		}

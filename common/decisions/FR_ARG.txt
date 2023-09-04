@@ -221,7 +221,7 @@ SAM_SCW_matters = {
  	 		has_equipment = { infantry_equipment > 1000 } 
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -240,7 +240,7 @@ SAM_SCW_matters = {
  			}
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -389,7 +389,7 @@ SAM_SCW_matters = {
 			}
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -408,7 +408,7 @@ SAM_SCW_matters = {
  			}
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -560,7 +560,7 @@ SAM_SCW_matters = {
  	 		has_manpower > 4999
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -579,7 +579,7 @@ SAM_SCW_matters = {
  			}
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -767,7 +767,7 @@ SAM_BCW_matters = {
  	 		has_equipment = { infantry_equipment > 1000 } 
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -783,7 +783,7 @@ SAM_BCW_matters = {
  			}
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -916,7 +916,7 @@ SAM_BCW_matters = {
 			}
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -932,7 +932,7 @@ SAM_BCW_matters = {
  			}
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -1069,7 +1069,7 @@ SAM_BCW_matters = {
  	 		has_manpower > 4999
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}
@@ -1085,7 +1085,7 @@ SAM_BCW_matters = {
  			}
  	 		OR = {
  	 			has_government = revivalist
- 	 			has_government = national_populist
+ 	 			has_government = despotist
  	 			has_government = paternal_autocrat
  	 		}
  		}

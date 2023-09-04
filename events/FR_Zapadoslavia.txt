@@ -1293,9 +1293,9 @@ country_event = { #we lost the battle!
 	option = {
 		name = cen.55.a #the end
 		set_country_flag = CEN_gajda_wins
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		set_politics = { ruling_party = despotist elections_allowed = no }
 		add_popularity = {
-		ideology = national_populist
+		ideology = despotist
 		popularity = 0.6
 		}
 	}
@@ -1423,9 +1423,9 @@ country_event = { #gajda takeover
 	option = {
 		name = cen.62.a #ripperoni
 		set_country_flag = CEN_gajda_wins
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		set_politics = { ruling_party = despotist elections_allowed = no }
 		add_popularity = {
-		ideology = national_populist
+		ideology = despotist
 		popularity = 0.6
 		}
 	}

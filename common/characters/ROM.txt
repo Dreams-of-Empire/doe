@@ -54,7 +54,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_REGENCY_COUNCIL_ROMANIA_DESC
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -644,7 +644,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Horia_Sima_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_backroom_backstabber
 			}
 		}
@@ -880,7 +880,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Constantin_Papanace_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_moderate_among_radicals
 			}
 		}
@@ -907,7 +907,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Mihail_Sturdza_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_hawkish_intervener
 			}
 		}
@@ -934,7 +934,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Radu_Mironovici_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_biased_intellectual
 			}
 		}
@@ -1123,7 +1123,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Ilie_Garneata_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_mixed_economy
 			}
 		}
@@ -1150,7 +1150,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Mihail_Manoilescu_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_steel_magnate
 			}
 		}

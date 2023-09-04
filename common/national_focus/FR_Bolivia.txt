@@ -345,7 +345,7 @@ focus_tree = {
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
-						has_government = national_populist
+						has_government = despotist
 						has_government = paternal_autocrat						
 						
 					}
@@ -1718,7 +1718,7 @@ focus_tree = {
 
 	focus = { 
 		id = BOL_integrating_the_mestizos
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
 		prerequisite = { focus = BOL_retaking_the_birthright }
 		available = {
 			has_government = revivalist

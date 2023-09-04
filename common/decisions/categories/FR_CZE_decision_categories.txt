@@ -6,7 +6,7 @@ CZE_legacy_of_czechoslovakia = {
 	allowed = {
 		original_tag = CZE
 		NOT = { 
-			has_government = national_populist
+			has_government = despotist
 			has_government = collectivist
 			has_government = fasci
 			has_government = vanguardist
@@ -21,7 +21,7 @@ CZE_the_oo = {
 	allowed = {
 		original_tag = CZE
 		OR = { 
-			has_government = national_populist
+			has_government = despotist
 			has_government = revivalist
 		}
 		has_country_flag = CZE_oo_implemented

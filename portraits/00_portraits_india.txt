@@ -103,7 +103,7 @@ IND = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -226,7 +226,7 @@ INC = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -349,7 +349,7 @@ TRV = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -472,7 +472,7 @@ MDR = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -595,7 +595,7 @@ HYD = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -718,7 +718,7 @@ ORI = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -841,7 +841,7 @@ RJH = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -964,7 +964,7 @@ BAL = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1087,7 +1087,7 @@ PUN = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1210,7 +1210,7 @@ KAS = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1333,7 +1333,7 @@ BIH = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1456,7 +1456,7 @@ BOM = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1579,7 +1579,7 @@ PAK = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1702,7 +1702,7 @@ BAN = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1825,7 +1825,7 @@ SRL = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1948,7 +1948,7 @@ MLD = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -2071,7 +2071,7 @@ MYS = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -2194,7 +2194,7 @@ RAJ = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		despotist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"

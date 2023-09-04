@@ -331,7 +331,7 @@ country_event = { # revivalists attack the PPI
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.03
 		}
 	}
@@ -564,7 +564,7 @@ country_event = { # election events
 		}
 		set_country_flag = ITA_fpick_nat # Foreign minister candidate
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 		add_popularity = { ideology = revivalist popularity = 0.03 }
 		every_country = {
 			limit = {
@@ -659,7 +659,7 @@ country_event = {
 			}
 		}
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 		add_popularity = { ideology = revivalist popularity = 0.03 }
 		add_political_power = 30
 		country_event = {
@@ -763,7 +763,7 @@ country_event = {
 		}
 		set_country_flag = ITA_spick_nat # security minister candidate
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 		add_popularity = { ideology = revivalist popularity = 0.03 }
 		ITA = {
 			add_opinion_modifier = { target = USA modifier = ITA_elecanti_usa }
@@ -869,7 +869,7 @@ country_event = { # Economic reforms
 		}
 		set_country_flag = ITA_epick_nat # economic minister candidate
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 		add_popularity = { ideology = revivalist popularity = 0.03 }
 		158 = {
 			add_resource = {  
@@ -978,7 +978,7 @@ country_event = { # Role of the Monarchy
 			}
 		}
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 		add_popularity = { ideology = revivalist popularity = 0.03 }
 		add_political_power = -30
 		country_event = {
@@ -1078,7 +1078,7 @@ country_event = { # Colonial policy
 			}
 		}
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 		add_popularity = { ideology = revivalist popularity = 0.03 }
 		add_war_support = 0.05
 		set_country_flag = ITA_election_done
@@ -1265,7 +1265,7 @@ country_event = { # Soc Dem win
 		add_political_power = 50
 		remove_coalition_social_democrat = yes 
 		remove_coalition_revivalist = yes
-		remove_coalition_national_populist = yes 
+		remove_coalition_despotist = yes 
 		every_country = {
 			limit = {
 				is_ai = no
@@ -1408,7 +1408,7 @@ country_event = { # conservative win
 				has_country_flag = ITA_right_coalition
 			}
 			add_coalition_revivalist = yes 
-			add_coalition_national_populist = yes 
+			add_coalition_despotist = yes 
 		}
 		if = {
 			limit = {
@@ -1477,7 +1477,7 @@ country_event = { # nationalist win
 	option = {
 		trigger = {
 			check_variable = { 
-				ROOT.party_popularity@revivalist > ROOT.party_popularity@national_populist 
+				ROOT.party_popularity@revivalist > ROOT.party_popularity@despotist 
 			}
 		}
 		name = ita.24.a 
@@ -1486,7 +1486,7 @@ country_event = { # nationalist win
 			ruling_party = revivalist
 		}
 		end_coalition = yes 
-		add_coalition_national_populist = yes 
+		add_coalition_despotist = yes 
 		if = {
 			limit = {
 				has_country_flag = ITA_right_coalition
@@ -1514,13 +1514,13 @@ country_event = { # nationalist win
 	option = {
 		trigger = {
 			check_variable = { 
-				ROOT.party_popularity@national_populist > ROOT.party_popularity@revivalist 
+				ROOT.party_popularity@despotist > ROOT.party_popularity@revivalist 
 			}
 		}
 		name = ita.20.a 
 		set_country_flag = ITA_nat_win
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 		}
 		add_political_power = 50
 		end_coalition = yes 
@@ -1773,7 +1773,7 @@ country_event = { # Italian Civil War - Nationalists
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = -0.05
 			}
 		}
@@ -2606,7 +2606,7 @@ country_event = { # Christian democrats join nationalists
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.01
 		}
 		add_popularity = {
@@ -2672,7 +2672,7 @@ country_event = { # Forming government - foreign minister
 			AND = {
 				OR = {
 					has_government = revivalist
-					has_government = national_populist
+					has_government = despotist
 				}
 				OR = {
 					has_country_flag = ITA_fpick_lib
@@ -2771,7 +2771,7 @@ country_event = { # Forming government - foreign minister
 			has_country_flag = ITA_fpick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -2788,7 +2788,7 @@ country_event = { # Forming government - foreign minister
 			has_country_flag = ITA_fpick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -2862,7 +2862,7 @@ country_event = { # Forming government - economic minister
 			AND = {
 				OR = {
 					has_government = revivalist
-					has_government = national_populist
+					has_government = despotist
 				}
 				OR = {
 					has_country_flag = ITA_epick_lib
@@ -2961,7 +2961,7 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_epick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -2978,7 +2978,7 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_epick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3052,7 +3052,7 @@ country_event = { # Forming government - economic minister
 			AND = {
 				OR = {
 					has_government = revivalist
-					has_government = national_populist
+					has_government = despotist
 				}
 				OR = {
 					has_country_flag = ITA_spick_lib
@@ -3144,7 +3144,7 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_spick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3161,7 +3161,7 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_spick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}
@@ -3247,7 +3247,7 @@ country_event = { # Italy - What should we do about French states?
 				factor = 4
 				OR = {
 					has_government = revivalist
-					has_government = national_populist
+					has_government = despotist
 					has_government = collectivist
 					has_government = vanguardist
 				}
@@ -5166,11 +5166,11 @@ country_event = { # France/Italy - Corsican declares independence
 			copy_government_idea_of_ROOT = yes
 			transfer_state = 1
 			set_politics = {
-				ruling_party = national_populist
+				ruling_party = despotist
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = 0.2
 			}			
 			hidden_effect = {
@@ -14321,7 +14321,7 @@ country_event = { # French/Italy - border war
 		date > 1938.1.1
 		threat > 0.25
 		ITA = {
-			has_government = national_populist
+			has_government = despotist
 			has_government = revivalist
 			controls_state = 158
 		}
@@ -14570,12 +14570,12 @@ country_event = { # Italy - 1941 election
 	option = { # nationalists
 		name = ita.221.g
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.10
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = despotist
 			}
 			add_political_power = 50
 		}
@@ -14620,7 +14620,7 @@ country_event = {
 				has_government = revivalist
 				has_government = illuminist
 				has_government = social_conservative
-				has_government = national_populist
+				has_government = despotist
 			}
 		}
 		name = "He is sentenced to death"
@@ -15611,11 +15611,11 @@ country_event = { #Italy - Pick Nat Pops or revivalists
 			add_coalition_revivalist = yes 
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.15
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -15634,10 +15634,10 @@ country_event = { #Italy - Pick Nat Pops or revivalists
 		if = {
 			limit = {
 				NOT = {
-					is_in_array = { ROOT.coalition_partners = token:national_populist }
+					is_in_array = { ROOT.coalition_partners = token:despotist }
 				}
 			}
-			add_coalition_national_populist = yes 
+			add_coalition_despotist = yes 
 		}		
 		add_popularity = {
 			ideology = revivalist

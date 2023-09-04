@@ -358,7 +358,7 @@ country_event = { #funding colombian dissidents colombia receives
 		ai_chance = { factor = 100 }
 		add_political_power = -50
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = -0.05
 		}
 	}

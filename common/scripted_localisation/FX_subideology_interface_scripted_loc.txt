@@ -481,9 +481,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_populist_subtype
+			has_country_leader_ideology = despotist_subtype
 		}
-		localization_key = national_populist
+		localization_key = despotist
 	}
 	text = {
 		trigger = {
@@ -1387,9 +1387,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_populist_subtype
+			has_country_leader_ideology = despotist_subtype
 		}
-		localization_key = national_populist_subtype_desc
+		localization_key = despotist_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1960,7 +1960,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = national_populist_subtype
+				has_country_leader_ideology = despotist_subtype
 				has_country_leader_ideology = statist_showaist_subtype	
 				has_country_leader_ideology = legionarism_subtype
 				has_country_leader_ideology = integralism_subtype
@@ -1968,7 +1968,7 @@ defined_text = {
 				has_country_leader_ideology = ukrainian_national_integralism_subtype
 			}
 		}
-		localization_key = national_populist_color
+		localization_key = despotist_color
 	}
 }
 
@@ -2030,9 +2030,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_populist_subtype
+			has_country_leader_ideology = despotist_subtype
 		}
-		localization_key = national_populist_subtype_desc
+		localization_key = despotist_subtype_desc
 	}
 	text = {
 		trigger = {

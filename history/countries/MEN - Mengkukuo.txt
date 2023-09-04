@@ -11,7 +11,7 @@ set_stability = 0.50
 set_war_support = 0.50
 
 set_politics = {	
-	ruling_party = national_populist
+	ruling_party = despotist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -27,7 +27,7 @@ set_popularities = {
   social_conservative = 0
   paternal = 20
   paternal_autocrat = 0
-  national_populist = 80
+  despotist = 80
   revivalist = 0
 }
 

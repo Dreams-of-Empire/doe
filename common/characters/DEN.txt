@@ -143,7 +143,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 	}
@@ -821,7 +821,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Max_Arildskov_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_silent_workhorse
 			}
 		}
@@ -1145,7 +1145,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Axel_Christian_Hartel_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_ideological_crusader
 			}
 		}
@@ -1588,7 +1588,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Arent_Lemvigh_Muller_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_mixed_economy
 			}
 		}
@@ -1831,7 +1831,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Anders_Malling_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_crime_fighter
 			}
 		}

@@ -337,7 +337,7 @@ ideas = {
 				industrial_capacity_factory = -0.25
 				consumer_goods_factor = 0.30
 				revivalist_drift = 0.075
-				national_populist_drift = 0.05
+				despotist_drift = 0.05
 				social_conservative_drift = 0.025
 				social_democrat_drift = 0.025
 			}

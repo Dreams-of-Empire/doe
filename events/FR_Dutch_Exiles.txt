@@ -78,7 +78,7 @@ country_event = { # Reclaimed the Birthright
         popularity = 0.15
       }
       add_popularity = {
-        ideology = national_populist
+        ideology = despotist
         popularity = 0.1
       }
       add_popularity = {

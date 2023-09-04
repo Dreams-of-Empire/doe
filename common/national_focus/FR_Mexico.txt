@@ -261,7 +261,7 @@ focus_tree = {
 
 	focus = {
 		id = MEX_national_synarchist_union
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		prerequisite = { focus = MEX_final_election }
 		mutually_exclusive = { focus = MEX_royalists focus = MEX_revivalists }
 		x = 4

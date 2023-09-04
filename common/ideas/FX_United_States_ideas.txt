@@ -469,7 +469,7 @@ ideas = {
 			picture = generic_oppression
 			modifier = {
 				paternal_autocrat_drift = -0.1
-				national_populist_drift = -0.1
+				despotist_drift = -0.1
 				revivalist_drift = -0.1
 			}
 		}

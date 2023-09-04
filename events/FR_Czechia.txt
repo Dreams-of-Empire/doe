@@ -211,7 +211,7 @@ country_event = { #fuckinglanguagesprudes
   option = {
     name = cze.55.b
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = 0.025
     }
     set_country_flag = CZE_uncucked
@@ -539,7 +539,7 @@ country_event = { #fuckinglanguagesprudes
   option = {
     name = cze.68.b
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = 0.025
     }
     set_country_flag = CZE_chadczechia
@@ -768,7 +768,7 @@ country_event = { #woo poli chain
     ai_chance = { factor = 99 }
     add_popularity = { 
       popularity = 0.05
-      ideology = national_populist
+      ideology = despotist
     }
     hidden_effect = { country_event = { id = cze.94 days = 21 } }
 
@@ -845,7 +845,7 @@ country_event = { #woo poli chain
     ai_chance = { factor = 99 }
     add_popularity = { 
       popularity = 0.05
-      ideology = national_populist
+      ideology = despotist
     }
     hidden_effect = { country_event = { id = cze.97 days = 21 } }
 
@@ -939,9 +939,9 @@ country_event = { #woo poli chain
     name = cze.97.f
     ai_chance = { factor = 5 }
     add_ideas = parliamentary_republic
-    add_popularity = { ideology = national_populist popularity = 0.25 }
+    add_popularity = { ideology = despotist popularity = 0.25 }
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = despotist
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -1137,9 +1137,9 @@ country_event = { #woo poli chain
       set_demilitarized_zone = no
     }
     add_ideas = one_party_dictatorship
-    add_popularity = { ideology = national_populist popularity = 0.25 }
+    add_popularity = { ideology = despotist popularity = 0.25 }
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = despotist
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -1266,10 +1266,10 @@ country_event = { #woo poli chain
   option = {
     name = cze.112.a
     ai_chance = { factor = 99 }
-    add_popularity = { ideology = national_populist popularity = 0.25 }
+    add_popularity = { ideology = despotist popularity = 0.25 }
     add_ideas = one_party_dictatorship
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = despotist
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -1819,7 +1819,7 @@ country_event = { #waityo
   fire_only_once = yes
   trigger = {
     tag = CZE
-    has_government = national_populist
+    has_government = despotist
     is_subject = no
   }
   mean_time_to_happen = { months = 6 }
@@ -1847,7 +1847,7 @@ country_event = { #waityo
   option = {
     name = cze.161.a
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = 0.025
     }
     hidden_effect = {
@@ -1866,7 +1866,7 @@ country_event = { #waityo
   option = {
     name = cze.162.a
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = 0.025
     }
     hidden_effect = {
@@ -1907,7 +1907,7 @@ country_event = { #waityo
   option = {
     name = cze.164.a
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = 0.025
     }
     hidden_effect = {
@@ -1926,7 +1926,7 @@ country_event = { #waityo
   option = {
     name = cze.164.a
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = 0.025
     }
     add_war_support = 0.025
@@ -1947,7 +1947,7 @@ country_event = { #waityo
       character = CZE_Emanuel_Moravec
       promote_leader = yes
       country_leader = {
-      ideology = national_populist_subtype
+      ideology = despotist_subtype
       traits = {}
       }
     }
@@ -1980,7 +1980,7 @@ country_event = { #waityo
       }
     add_ideas = CZE_Frantisek_Mikulas_Mlcoch_hog_npo
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = -0.15
     }
   }
@@ -2217,13 +2217,13 @@ country_event = { #waityo
       character = CZE_Emanuel_Moravec
       promote_leader = yes
       country_leader = {
-      ideology = national_populist_subtype
+      ideology = despotist_subtype
       traits = {}
       }
     }
     add_ideas = one_party_dictatorship
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = despotist
     }
     remove_every_minister = yes
     add_ideas = CZE_Frantisek_Mikulas_Mlcoch_hog_npo
@@ -2248,7 +2248,7 @@ country_event = { #waityo
     name = cze.181.a
     add_political_power = 50
     add_popularity = {
-      ideology = national_populist
+      ideology = despotist
       popularity = -0.1
     }
   }

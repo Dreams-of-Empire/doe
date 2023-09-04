@@ -208,7 +208,7 @@ country_event = {
 		ai_chance = { base = 40 }
 		add_stability = -0.04
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 		hidden_effect = {
 			country_event = {
 				id = iran.17 days = 5
@@ -519,7 +519,7 @@ country_event = {
 		add_stability = 0.05
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = despotist popularity = -0.02 }
 		set_country_flag = PER_military_flag
 		set_country_flag = PER_conservative_regime_flag
 		hidden_effect = {
@@ -611,7 +611,7 @@ country_event = {
 		add_stability = 0.05
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = despotist popularity = -0.02 }
 		set_country_flag = PER_military_flag
 		set_country_flag = PER_conservative_regime_flag
 		hidden_effect = {
@@ -633,10 +633,10 @@ country_event = {
 		ai_chance = { base = 50 }
 		add_stability = 0.05
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = despotist elections_allowed = no
 		}
 		add_popularity = { ideology = social_conservative popularity = 0.02 }
-		add_popularity = { ideology = national_populist popularity = 0.08 }
+		add_popularity = { ideology = despotist popularity = 0.08 }
 		add_popularity = { ideology = revivalist popularity = 0.08 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.15 }
 		set_country_flag = PER_nationalist_flag
@@ -1283,7 +1283,7 @@ country_event = {
 	option = {
 		name = iran.118.a
 		add_popularity = { ideology = social_conservative popularity = -0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.01 }
+		add_popularity = { ideology = despotist popularity = 0.01 }
 	}
 }
 
@@ -1567,9 +1567,9 @@ country_event = {
         name = iran.126.a
 		ai_chance = { base = 50 }
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = despotist elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.10 }
+		add_popularity = { ideology = despotist popularity = 0.10 }
 		add_popularity = { ideology = revivalist popularity = -0.10 }
 		set_country_flag = PER_NAT_shia_flag
 		
@@ -1578,7 +1578,7 @@ country_event = {
 		hidden_effect = {
 			add_ideas = theocratic_republic
 			set_party_name = { 
-				ideology = national_populist 
+				ideology = despotist 
 				long_name = PER_shiite_islam_party_long 
 				name = PER_shiite_islam_party 
 			}
@@ -1593,7 +1593,7 @@ country_event = {
 			ruling_party = revivalist elections_allowed = no
 		}
 		add_popularity = { ideology = revivalist popularity = 0.10 }
-		add_popularity = { ideology = national_populist popularity = -0.10 }
+		add_popularity = { ideology = despotist popularity = -0.10 }
 		set_country_flag = PER_NAT_revivalist_flag
 		hidden_effect = {
 		}

@@ -31,7 +31,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -248,7 +248,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Staf_de_Clercq_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_determined_populist
 			}
 		}
@@ -918,7 +918,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Jef_Francois_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_apologetic_clerk
 			}
 		}
@@ -1647,7 +1647,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Paul_Ouwerx_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_efficient_sociopath
 			}
 		}

@@ -466,7 +466,7 @@ country_event = {
 	option = {
 		name = afghan.12.a
 		add_stability = -0.03
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
 	}
 }
@@ -838,7 +838,7 @@ country_event = {
 		name = afghan.21.a
 		add_stability = -0.02
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		hidden_effect = {
 			country_event = {
 				id = afghan.22 days = 3
@@ -897,7 +897,7 @@ country_event = {
 		add_stability = 0.02
 		add_war_support = 0.02
 		add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
-		add_popularity = { ideology = national_populist popularity = -0.03 }
+		add_popularity = { ideology = despotist popularity = -0.03 }
 		hidden_effect = {
 			country_event = {
 				id = afghan.27 days = 10
@@ -1039,7 +1039,7 @@ country_event = {
 			ruling_party = paternal_autocrat elections_allowed = no
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
-		add_popularity = { ideology = national_populist popularity = 0.08 }
+		add_popularity = { ideology = despotist popularity = 0.08 }
 		swap_ideas = {
 			remove_idea = AFG_opposition_revolution_idea
 			add_idea = AFG_opposition_kalakani_idea
@@ -1063,12 +1063,12 @@ country_event = {
       }
 			set_party_name = { 
 				ideology = paternal_autocrat 
-				long_name = AFG_national_populist_party_long 
-				name = AFG_national_populist_party 
+				long_name = AFG_despotist_party_long 
+				name = AFG_despotist_party 
 			}
 			set_temp_variable = { coalition_partner_var = token:social_democrat }
 			remove_from_coalition = yes 
-			set_temp_variable = { coalition_partner_var = token:national_populist }
+			set_temp_variable = { coalition_partner_var = token:despotist }
 			add_to_coalition = yes 
 			set_country_flag = AFG_kalakanis_return_flag
 			set_country_flag = AFG_KALAKANI_TREE
@@ -1103,7 +1103,7 @@ country_event = {
 
 	option = {
 		name = afghan.27.a
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = despotist popularity = -0.02 }
 		hidden_effect = {
 			country_event = {
 				id = afghan.28 days = 5
@@ -1239,7 +1239,7 @@ country_event = {
 		name = afghan.32.a
 		add_stability = -0.02
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		hidden_effect = {
 			country_event = {
 				id = afghan.33 days = 3
@@ -1493,7 +1493,7 @@ country_event = {
 	option = {
 		name = afghan.40.a
 		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		hidden_effect = {
 			set_country_flag = AFG_develop_nation_flag
 			set_country_flag = AFG_focus_agriculture_flag
@@ -1648,7 +1648,7 @@ country_event = {
 		ai_chance = { base = 70 }
 		add_political_power = -25
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = despotist elections_allowed = no
 		}
 		add_ideas = {
 			AFG_Malik_Habibullah_Kalakani_hog_npo
@@ -1656,7 +1656,7 @@ country_event = {
 			AFG_Mirza_Ali_Khan_eco_npo
 			AFG_Khalilullah_Khalili_sec_npo
 		}		
-		add_popularity = { ideology = national_populist popularity = 0.15 }
+		add_popularity = { ideology = despotist popularity = 0.15 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.12 }
 		hidden_effect = {
 		}
@@ -1667,7 +1667,7 @@ country_event = {
 		ai_chance = { base = 30 }
 		add_stability = -0.02
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
-		add_popularity = { ideology = national_populist popularity = -0.03 }
+		add_popularity = { ideology = despotist popularity = -0.03 }
 		hidden_effect = {
 		}
 	}

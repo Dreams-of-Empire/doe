@@ -72,7 +72,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Cornelis_van_Geelkerken_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_determined_populist
 			}
 		}
@@ -145,7 +145,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Willem_Bernard_Engelbrecht_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_iron_fisted_brute
 			}
 		}
@@ -199,7 +199,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Alfred_Haighton_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_military_entrepreneur
 			}
 		}
@@ -226,7 +226,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Gerrit_van_Burink_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_resource_industrialist
 			}
 		}
@@ -307,7 +307,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_AJ_van_der_Hoeven_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_compassionate_gentleman
 			}
 		}
@@ -334,7 +334,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Gerhardus_Dieters_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_silent_lawyer
 			}
 		}
@@ -526,7 +526,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_PRINCE_BERNHARD_DESC"
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = {
 				prince_of_the_people
 			}

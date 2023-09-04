@@ -27,7 +27,7 @@ set_politics = {
 
 set_popularities = {
   illuminist = 0
-  national_populist = 0
+  despotist = 0
   collectivist = 0
   paternal = 100
 }

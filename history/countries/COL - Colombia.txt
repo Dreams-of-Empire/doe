@@ -82,7 +82,7 @@ set_popularities = {
   paternal_autocrat = 28
   social_democrat = 6
   fasci = 4
-  national_populist = 10
+  despotist = 10
   vanguardist = 3
   collectivist = 8
 }

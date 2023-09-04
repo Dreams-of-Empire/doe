@@ -246,7 +246,7 @@ country_event = {
 			}
 		add_political_power = 50
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -917,7 +917,7 @@ country_event = {
 			
 			modify_country_flag = { flag = POL_counteract_lithuania value = 1 }
 			
-			set_country_flag = POL_natpop_coup_imminent
+			set_country_flag = POL_desp_coup_imminent
 			
 			add_ideas = POL_ukrainian_unrest
 			
@@ -1308,7 +1308,7 @@ country_event = {
 		country_event = { days = 7 id = poland.37 } }
 		
 		add_political_power = -50
-		custom_effect_tooltip = POL_natpop1
+		custom_effect_tooltip = POL_desp1
 	}
 }
 #Republic Elections
@@ -1370,7 +1370,7 @@ country_event = {
 		
 		add_political_power = -50
 		add_stability = -0.1
-		custom_effect_tooltip = POL_natpop1
+		custom_effect_tooltip = POL_desp1
 	}
 }
 
@@ -1412,7 +1412,7 @@ country_event = {
 		
 		add_political_power = -50
 		add_stability = -0.05
-		custom_effect_tooltip = POL_natpop2
+		custom_effect_tooltip = POL_desp2
 	}
 }
 
@@ -1479,7 +1479,7 @@ country_event = {
 		}
 		hidden_effect = {
 		country_event = { days = 2 id = poland.41 } }
-		custom_effect_tooltip = POL_natpop3
+		custom_effect_tooltip = POL_desp3
 	}
 }
 
@@ -1503,11 +1503,11 @@ country_event = {
 		add_political_power = 50
 		
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.3
 		}
 		add_ideas = republican_dictatorship
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		set_politics = { ruling_party = despotist elections_allowed = no }
 	}
 }
 
@@ -1549,7 +1549,7 @@ country_event = {
 		country_event = { days = 7 id = poland.44 } }
 		
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = -0.1
 		}
 		add_popularity = {

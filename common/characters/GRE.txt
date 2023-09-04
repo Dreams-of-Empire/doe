@@ -425,7 +425,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -443,7 +443,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Georgios_Kosmidis_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -457,7 +457,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -475,7 +475,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Georgios_Poulos_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_local_tyrant
 			}
 		}
@@ -979,7 +979,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Anastasios_Tavoularis_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_iron_fisted_brute
 			}
 		}
@@ -1315,7 +1315,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Ektor_Tsironikos_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_corrupt_kleptocrat
 			}
 		}
@@ -1696,7 +1696,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Panagiotis_Demestichas_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_prince_of_terror
 			}
 		}

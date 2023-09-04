@@ -266,7 +266,7 @@ country_event = { # Midhat Frashëri demands government support for Balli Kombet
 		add_stability = 0.1
 		add_manpower = 10000
 		add_popularity = { 
-			ideology = national_populist 
+			ideology = despotist 
 			popularity = 0.05
 		}
 		set_country_flag = ALB_balli_supported
@@ -581,11 +581,11 @@ country_event = { # National Populists putsch
 		name = alb.19.a
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = national_populist 
+			ruling_party = despotist 
 			elections_allowed = no
 		}
 		add_popularity = { 
-			ideology = national_populist 
+			ideology = despotist 
 			popularity = 0.2
 		}
 		ITA = {
@@ -683,11 +683,11 @@ country_event = { # Italy abandons Albania
 		name = alb.21.a
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = national_populist 
+			ruling_party = despotist 
 			elections_allowed = no
 		}
 		add_popularity = { 
-			ideology = national_populist 
+			ideology = despotist 
 			popularity = 0.2
 		}
 		ITA = {
@@ -720,7 +720,7 @@ country_event = { # Italy takes direct control of Albania
       }
     }
 		add_stability = 0.05
-		add_popularity = { ideology = national_populist popularity = -0.15 }
+		add_popularity = { ideology = despotist popularity = -0.15 }
 	}
 }
 

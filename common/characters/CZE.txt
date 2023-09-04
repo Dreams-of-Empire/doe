@@ -34,7 +34,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		corps_commander = {
@@ -568,7 +568,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Frantisek_Mikulas_Mlčoch_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_pragmatic_statesman
 			}
 		}
@@ -865,7 +865,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Frantisek_Chvalkovsky_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1149,7 +1149,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Jiři_Střibrny_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_oil_baron
 			}
 		}
@@ -1454,7 +1454,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Ladislav_Kobsinek_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_media_magnate
 			}
 		}

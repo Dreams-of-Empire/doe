@@ -1828,7 +1828,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_crush_extremists"
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = -0.05
 			}
 			add_popularity = {
@@ -1839,7 +1839,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = CZE_disloyalties_in_the_army
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		
 		ai_will_do = { factor = 50 } 
 		
@@ -2518,7 +2518,7 @@ focus_tree = {
 				popularity = -0.05
 			}
 			add_popularity = { 
-				ideology = national_populist
+				ideology = despotist
 				popularity = -0.05
 			}
 			hidden_effect = { 
@@ -2949,7 +2949,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = CZE_nationalist_coup
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		
 		ai_will_do = { factor = 50 } 
 		
@@ -2959,7 +2959,7 @@ focus_tree = {
 		prerequisite = { focus = CZE_our_national_path }
 		available = { always = no }
 		bypass = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		available_if_capitulated = yes  
 		completion_reward = {
@@ -3116,10 +3116,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_loyalty_to_the_vudce"
 			if = { 
 				limit = { 
-					has_government = national_populist
+					has_government = despotist
 				}
 				add_popularity = {
-					ideology = national_populist
+					ideology = despotist
 					popularity = 0.05
 				}
 			}
@@ -3554,7 +3554,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = CZE_rein_in_the_nationalists
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		
 		ai_will_do = { factor = 50 } 
 		
@@ -3567,7 +3567,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_rein_in_the_nationalists"
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = -0.05
 			}
 			hidden_effect = {

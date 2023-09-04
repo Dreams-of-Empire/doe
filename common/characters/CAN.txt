@@ -77,7 +77,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_John_Ross_Taylor_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_reformer
 			}
 		}
@@ -805,7 +805,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1173,7 +1173,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Adrien_Arcand_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_ideological_crusader
 			}
 		}
@@ -1497,7 +1497,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Murdoch_Alexander_MacPherson_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_national_liberal
 			}
 		}
@@ -1848,7 +1848,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Chuck_Crate_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_compassionate_gentleman
 			}
 		}
@@ -2162,7 +2162,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 		country_leader = {

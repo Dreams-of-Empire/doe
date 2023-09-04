@@ -295,7 +295,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Ernesto_Gimenez_Caballero_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_happy_amateur
 			}
 		}
@@ -314,7 +314,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Ernesto_Gimenez_Caballero_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_mixed_economy
 			}
 		}
@@ -333,7 +333,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Ernesto_Gimenez_Caballero_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_efficient_sociopath
 			}
 		}
@@ -360,7 +360,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Carlos_Ibarguren_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_corporate_suit
 			}
 		}
@@ -379,7 +379,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Carlos_Ibarguren_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_construction_magnate
 			}
 		}
@@ -398,7 +398,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Carlos_Ibarguren_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_prince_of_terror
 			}
 		}
@@ -563,7 +563,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Jose_Maria_Peman_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_relations_expert
 			}
 		}
@@ -590,7 +590,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Onesimo_Redondo_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_foreign_sympathizer
 			}
 		}
@@ -617,7 +617,7 @@ characters = {
 				ROOT = { clr_country_flag = SPF_Dionisio_Ridruejo_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_biased_intellectual
 			}
 		}

@@ -566,7 +566,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 			has_country_flag = SPF_phalanx_secures_power_flag
@@ -579,7 +579,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPF_phalanx_secures_power"
 			add_political_power = 25
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
 
@@ -638,7 +638,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPF_falangist_dominance
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		cost = 5.00
 		prerequisite = {
 			focus = SPF_phalanx_secures_power
@@ -650,7 +650,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -660,7 +660,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPF_falangist_dominance"
 			add_political_power = 25
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 		}
 
 	}
@@ -677,7 +677,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -705,7 +705,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -733,7 +733,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -767,7 +767,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -794,7 +794,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -820,7 +820,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -887,7 +887,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -907,9 +907,9 @@ focus_tree = {
 				name = SPF_pataut_one_party
 			}
 			set_party_name = {
-				ideology = national_populist
-				long_name = SPF_natpop_one_party_long
-				name = SPF_natpop_one_party
+				ideology = despotist
+				long_name = SPF_desp_one_party_long
+				name = SPF_desp_one_party
 			}
 			set_party_name = {
 				ideology = revivalist
@@ -939,7 +939,7 @@ focus_tree = {
 		y = 8
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -971,7 +971,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 		}
@@ -1279,7 +1279,7 @@ focus_tree = {
 			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 		}
 
 	}

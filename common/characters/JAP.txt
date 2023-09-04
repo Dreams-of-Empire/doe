@@ -31,7 +31,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 	}
@@ -323,7 +323,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Nakano_Seigo_eco_npo_hired }
 			on_remove = { clr_character_flag = JAP_Nakano_Seigo_eco_npo_hired }
 			traits = {
-				national_populist
+				despotist
 				eco_planned_economy_proponent
 			}
 		}
@@ -342,7 +342,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Nakano_Seigo_hog_npo_hired }
 			on_remove = { clr_character_flag = JAP_Nakano_Seigo_hog_npo_hired }
 			traits = {
-				national_populist
+				despotist
 				hog_nationalist_patriot
 			}
 		}
@@ -1739,7 +1739,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Araki_Sadao_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_charismatic_charmer
 			}
 		}
@@ -1765,7 +1765,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Konoe_Fumimaro_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_determined_populist
 			}
 		}
@@ -1791,7 +1791,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Kuhara_Fusanosuke_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_local_tyrant
 			}
 		}
@@ -2099,7 +2099,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Shiratori_Toshio_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_ideological_crusader
 			}
 		}
@@ -2177,7 +2177,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Okawa_Shumei_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_relations_expert
 			}
 		}
@@ -2541,7 +2541,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Suzuki_Teiichi_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_industrialiser
 			}
 		}
@@ -2567,7 +2567,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Etsusaburo_Shiina_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_administrative_genius
 			}
 		}
@@ -2645,7 +2645,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Takashi_Hishikari_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_prince_of_terror
 			}
 		}
@@ -3061,7 +3061,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Suetsugu_Nobumasa_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_back_stabber
 			}
 		}

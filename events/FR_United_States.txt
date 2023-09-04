@@ -2941,7 +2941,7 @@ country_event = { # Oregon Question
 		  social_conservative = 13
 		  authoritarian_democrat = 8
 		  paternal_autocrat = 44
-		  national_populist = 8
+		  despotist = 8
 		}
 	  }
 	}

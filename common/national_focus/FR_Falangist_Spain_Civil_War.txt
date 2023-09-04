@@ -31,7 +31,7 @@ focus_tree = {
 			add_stability = 0.01
 			add_war_support = 0.01
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 			add_popularity = { ideology = revivalist popularity = 0.01 }
 		}
 
@@ -152,7 +152,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = -0.02
 			add_war_support = 0.03
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = SPR_pass_civil_war_emergency_idea
 				add_idea = SPR_pass_civil_war_emergency1_idea
@@ -187,7 +187,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 			add_popularity = { ideology = revivalist popularity = 0.01 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = SPR_pass_civil_war_emergency_idea
 				add_idea = SPR_pass_civil_war_emergency1_idea
@@ -248,7 +248,7 @@ focus_tree = {
 				limit = {
 					GER = {
 						OR = {
-							has_government = national_populist
+							has_government = despotist
 							has_government = revivalist
 						}
 					}
@@ -267,7 +267,7 @@ focus_tree = {
 				limit = {
 					HOL = {
 						OR = {
-							has_government = national_populist
+							has_government = despotist
 							has_government = revivalist
 						}
 					}
@@ -286,7 +286,7 @@ focus_tree = {
 				limit = {
 					NOR = {
 						OR = {
-							has_government = national_populist
+							has_government = despotist
 							has_government = revivalist
 						}
 					}

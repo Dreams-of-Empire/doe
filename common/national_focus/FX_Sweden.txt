@@ -1621,7 +1621,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_confront_nationalists"
 			add_political_power = -15
 			add_stability = -0.02
-			add_popularity = { ideology = national_populist popularity = -0.08 }
+			add_popularity = { ideology = despotist popularity = -0.08 }
 		}
 
 	}
@@ -1727,7 +1727,7 @@ focus_tree = {
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = liberal popularity = 0.01 }
 			add_popularity = { ideology = illuminist popularity = 0.01 }
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			country_event = { days = 1 id = sweden.81 }
 		}
 
@@ -2378,7 +2378,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_ban_pan_germanic_parties"
 			add_political_power = -25
 			add_stability = -0.03
-			add_popularity = { ideology = national_populist popularity = -0.09 }
+			add_popularity = { ideology = despotist popularity = -0.09 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 		}
 
@@ -2530,7 +2530,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_ban_pan_germanic_parties"
 			add_political_power = -15
 			add_stability = -0.01
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = despotist popularity = -0.03 }
 			add_popularity = { ideology = paternal popularity = 0.03 }
 			country_event = { days = 2 id = sweden.59 }
 		}
@@ -2997,7 +2997,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWE_reject_radical_right
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		cost = 8.00
 		prerequisite = {
 			focus = SWE_borgarliga_blocket
@@ -3013,7 +3013,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_reject_radical_right"
 			add_political_power = -30
 			add_stability = -0.01
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = despotist popularity = -0.05 }
 			add_popularity = { ideology = revivalist popularity = -0.01 }
 		}
 
@@ -3040,7 +3040,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_deal_with_devil"
 			add_political_power = 50
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = despotist popularity = 0.03 }
 			custom_effect_tooltip  = SWE_deal_with_devil_tooltip
 		}
 
@@ -3198,7 +3198,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
 			country_event = { days = 1 id = sweden.62 }
 		}
@@ -3423,7 +3423,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_steps_toward_new_sweden"
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = despotist popularity = 0.01 }
 			remove_ideas = SWE_revolution_and_reaction1_idea
 			country_event = { days = 1 id = sweden.66 }
 			custom_effect_tooltip  = SWE_steps_toward_new_sweden_tooltip
@@ -3583,7 +3583,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWE_crush_nationalists
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		cost = 8.00
 		prerequisite = {
 			focus = SWE_end_reactionary_oppression
@@ -3599,7 +3599,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_crush_nationalists"
 			add_political_power = -15
 			add_popularity = { ideology = paternal popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.08 }
+			add_popularity = { ideology = despotist popularity = -0.08 }
 		}
 
 	}
@@ -4277,7 +4277,7 @@ focus_tree = {
 
 	focus = {
 		id = SWE_victory_for_new_sweden
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		cost = 5.00
 		x = 34
 		y = 0
@@ -4741,7 +4741,7 @@ focus_tree = {
 			}
 			add_political_power = 50
 			add_stability = 0.10
-			add_popularity = { ideology = national_populist popularity = 0.04 }
+			add_popularity = { ideology = despotist popularity = 0.04 }
 			clr_country_flag = SWE_effect_london_crash_flag
 		}
 
@@ -4797,7 +4797,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_unite_right_wing"
 			add_political_power = -30
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = despotist popularity = 0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			add_popularity = { ideology = paternal popularity = -0.03 }
 		}
@@ -4830,14 +4830,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_end_old_democracy"
 			add_stability = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			add_ideas = one_party_dictatorship
 		}
 
 	}
 	focus = {
 		id = SWE_rise_new_democracy
-		icon = GFX_goal_national_populism
+		icon = GFX_goal_despotism
 		cost = 8.00
 		prerequisite = {
 			focus = SWE_end_old_democracy
@@ -4857,7 +4857,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_end_old_democracy"
 			add_stability = 0.04
 			add_war_support = 0.04
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			country_event = { days = 1 id = sweden.70 }
 		}
 
@@ -4904,7 +4904,7 @@ focus_tree = {
 			add_political_power = -25
 			add_stability = 0.02
 			add_popularity = { ideology = social_conservative popularity = -0.01 }
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = SWE_support_swedish_families_idea
 				add_idea = SWE_new_swedish_church_idea

@@ -187,7 +187,7 @@ focus_tree = {
         popularity = -0.05
       }
       add_popularity = {
-        ideology = national_populist
+        ideology = despotist
         popularity = -0.05
       }
       add_popularity = {
@@ -1291,7 +1291,7 @@ focus_tree = {
         popularity = -0.15
       }
       add_popularity = {
-        ideology = national_populist
+        ideology = despotist
         popularity = -0.15
       }
       add_popularity = {

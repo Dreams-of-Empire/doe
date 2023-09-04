@@ -421,7 +421,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Laureano_Eleuterio_Gomez_Castro_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_accomplished_diplomat
 			}
 		}
@@ -794,7 +794,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Carlos_Eugenio_Restrepo_Restrepo_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_world_patrician
 			}
 		}
@@ -1176,7 +1176,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Carlos_Cortes_Vargas_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_construction_magnate
 			}
 		}
@@ -1576,7 +1576,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Alberto_Narino_Cheyne_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_driven_recruiter
 			}
 		}
@@ -1659,7 +1659,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 	}

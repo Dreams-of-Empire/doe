@@ -1367,7 +1367,7 @@ focus_tree = {
 						has_country_flag = ROM_socialist_romania
 						has_country_flag = ROM_revivalist_romania
 						has_country_flag = ROM_direct_rule_from_bucharest
-						has_country_flag = ROM_natpop_romania
+						has_country_flag = ROM_desp_romania
 					}
 				}
 			}
@@ -1646,7 +1646,7 @@ focus_tree = {
 						has_country_flag = ROM_socialist_romania
 						has_country_flag = ROM_revivalist_romania
 						has_country_flag = ROM_direct_rule_from_bucharest
-						has_country_flag = ROM_natpop_romania
+						has_country_flag = ROM_desp_romania
 					}
 				}
 			}
@@ -1851,7 +1851,7 @@ focus_tree = {
 		allow_branch = {
 			has_country_flag = ROM_democratic_romania
 			NOT = { has_country_flag = ROM_revivalist_romania }
-			NOT = { has_country_flag = ROM_natpop_romania }
+			NOT = { has_country_flag = ROM_desp_romania }
 			NOT = { has_country_flag = ROM_direct_rule_from_bucharest }
 			NOT = { has_country_flag = ROM_socialist_romania }
 		}
@@ -2090,7 +2090,7 @@ focus_tree = {
 		relative_position_id = ROM_limit_the_kings_powers
 		completion_reward = {
 			add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = -0.15
 			}
 			add_popularity = {
@@ -3041,7 +3041,7 @@ focus_tree = {
 			has_country_flag = ROM_socialist_romania
 			NOT = { has_country_flag = ROM_democratic_romania }
 			NOT = { has_country_flag = ROM_iron_guard_romania }
-			NOT = { has_country_flag = ROM_natpop_romania }
+			NOT = { has_country_flag = ROM_desp_romania }
 			NOT = { has_country_flag = ROM_direct_rule_from_bucharest }
 		}
 		bypass = {
@@ -3494,7 +3494,7 @@ focus_tree = {
 		}
 		allow_branch = {
 			has_country_flag = ROM_direct_rule_from_bucharest
-			NOT = { has_country_flag = ROM_natpop_romania }
+			NOT = { has_country_flag = ROM_desp_romania }
 			NOT = { has_country_flag = ROM_iron_guard_romania }
 			NOT = { has_country_flag = ROM_socialist_romania }
 			NOT = { has_country_flag = ROM_democratic_romania }
@@ -3534,7 +3534,7 @@ focus_tree = {
 	# Eradicate the Remaining Legionnaires
 	focus = {
 		id = ROM_eradicate_the_remaining_legionnaires
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		x = -2
 		y = 1
 		cost = 6
@@ -3969,7 +3969,7 @@ focus_tree = {
 			has_country_flag = ROM_revivalist_romania
 			NOT = { has_country_flag = ROM_direct_rule_from_bucharest }
 			NOT = { has_country_flag = ROM_socialist_romania }
-			NOT = { has_country_flag = ROM_natpop_romania }
+			NOT = { has_country_flag = ROM_desp_romania }
 			NOT = { has_country_flag = ROM_democratic_romania }
 		}
 		bypass = {
@@ -4403,7 +4403,7 @@ focus_tree = {
 	# The Nationalist Kingdom
 	focus = {
 		id = ROM_the_nationalist_kingdom
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		x = 18
 		y = 0
 		cost = 6
@@ -4413,14 +4413,14 @@ focus_tree = {
 			}
 		}
 		allow_branch = {
-			has_country_flag = ROM_natpop_romania
+			has_country_flag = ROM_desp_romania
 			NOT = { has_country_flag = ROM_direct_rule_from_bucharest }
 			NOT = { has_country_flag = ROM_socialist_romania }
 			NOT = { has_country_flag = ROM_democratic_romania }
 			NOT = { has_country_flag = ROM_iron_guard_romania }
 		}
 		bypass = {
-			has_country_flag = ROM_natpop_romania
+			has_country_flag = ROM_desp_romania
 		}
 		mutually_exclusive = { focus = ROM_resurrect_an_empire }
 		completion_reward = {
@@ -4437,7 +4437,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_the_nationalist_kingdom }
 		relative_position_id = ROM_the_nationalist_kingdom
@@ -4455,7 +4455,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_the_nationalist_kingdom }
 		relative_position_id = ROM_the_nationalist_kingdom
@@ -4510,7 +4510,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_get_corporate_support }
 		relative_position_id = ROM_get_corporate_support
@@ -4583,7 +4583,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_get_corporate_support }
 		prerequisite = { focus = ROM_new_legal_codes }
@@ -4602,7 +4602,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_efficient_production }
 		prerequisite = { focus = ROM_new_cities }
@@ -4624,7 +4624,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_efficient_production }
 		relative_position_id = ROM_efficient_production
@@ -4646,7 +4646,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_efficient_production }
 		relative_position_id = ROM_efficient_production
@@ -4664,7 +4664,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_get_corporate_support }
 		relative_position_id = ROM_get_corporate_support
@@ -4683,7 +4683,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_new_legal_codes }
 		relative_position_id = ROM_new_legal_codes
@@ -4707,7 +4707,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_the_nationalist_kingdom }
 		relative_position_id = ROM_the_nationalist_kingdom
@@ -4725,7 +4725,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_patriotism }
 		relative_position_id = ROM_patriotism
@@ -4750,7 +4750,7 @@ focus_tree = {
 			}
 		}
 		bypass = {
-			has_country_flag = ROM_natpop_romania
+			has_country_flag = ROM_desp_romania
 			has_country_leader = {
 				character = ROM_Alexandru_Cantacuzino
 				ruling_only = yes
@@ -4782,7 +4782,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_resurrect_an_empire }
 		relative_position_id = ROM_resurrect_an_empire
@@ -4803,7 +4803,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_rescue_failing_companies }
 		prerequisite = { focus = ROM_create_youth_organizations }
@@ -4822,7 +4822,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_resurrect_an_empire }
 		relative_position_id = ROM_resurrect_an_empire
@@ -4843,7 +4843,7 @@ focus_tree = {
 		}
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 			country_exists = GRE
 		}
 		mutually_exclusive = { focus = ROM_strike_first }
@@ -4868,7 +4868,7 @@ focus_tree = {
 		}
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 			country_exists = GRE
 			can_declare_war_on = GRE
 		}
@@ -4907,7 +4907,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 			country_exists = TUR
 			can_declare_war_on = TUR
 		}
@@ -4942,7 +4942,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_resurrect_an_empire }
 		relative_position_id = ROM_resurrect_an_empire
@@ -4985,7 +4985,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_industrial_renovation }
 		relative_position_id = ROM_industrial_renovation
@@ -5003,7 +5003,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = despotist
 		}
 		prerequisite = { focus = ROM_new_education_curriculum }
 		prerequisite = { focus = ROM_reclaim_the_territories }

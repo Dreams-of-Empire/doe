@@ -5,7 +5,7 @@ AUS_antagonize_centroslavia = {
 		country_exists = CEN
 		OR = {
 			has_government = revivalist
-			has_government = national_populist
+			has_government = despotist
 			has_government = paternal
 			has_government = collectivist
 			has_government = paternal_autocrat
@@ -31,7 +31,7 @@ AUS_invasion_of_centroslavia = {
 		date > "1939.12.12"
 		OR = {
 			has_government = revivalist
-			has_government = national_populist
+			has_government = despotist
 			has_government = paternal
 		}
 		

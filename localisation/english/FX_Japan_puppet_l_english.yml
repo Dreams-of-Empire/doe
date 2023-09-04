@@ -11,16 +11,16 @@ FNG_JAP_Shogunate_ADJ: "Manchurian"
 FNG_JAP_Viceroyalty: "Viceroyalty of Tohoku" #东北副王領
 FNG_JAP_Viceroyalty_DEF: "The Viceroyalty of Tohoku" #东北副王領
 FNG_JAP_Viceroyalty_ADJ: "Manchurian"
-FNG_JAP_national_populist: "Manshu Tokubetsu Gyosei-ku" #满洲特別行政区
-FNG_JAP_national_populist_DEF: "The Special Administrative Region of Manchuria"
+FNG_JAP_despotist: "Manshu Tokubetsu Gyosei-ku" #满洲特別行政区
+FNG_JAP_despotist_DEF: "The Special Administrative Region of Manchuria"
 FNG_JAP_ADJ: "Manchurian"
 #### China
 CHI_JAP_Shogunate: "Kanchu-Reinan Bakufukanrei-tochiku" #关中岭南幕府管領統治区
 CHI_JAP_Shogunate_DEF: "The Shogunal Commissariat of Guanzhong-Lingnan"
 CHI_JAP_Viceroyalty: "Chuka Kokkabenmukan-ku" #中华国家弁務官区
 CHI_JAP_Viceroyalty_DEF: "The Military Commissariat of China" #中华国家弁務官区
-CHI_JAP_national_populist: "Chugoku Seiji Gyōsei Hyōgi-kai" #中国政治行政評議会
-CHI_JAP_national_populist_DEF: "The Political Administrative Council of China"
+CHI_JAP_despotist: "Chugoku Seiji Gyōsei Hyōgi-kai" #中国政治行政評議会
+CHI_JAP_despotist_DEF: "The Political Administrative Council of China"
 CHI_JAP_revivalist: "Sina Jōdo Ōhogo-ryo" #支那大浄土护法领
 CHI_JAP_revivalist_DEF: "The Grand Purified Protectorate of China"
 #### Sichuan
@@ -30,8 +30,8 @@ SCH_JAP_Shogunate_ADJ: "Sichuanese"
 SCH_JAP_Viceroyalty: "Viceroyalty of Hanzhong" #汉中副王领
 SCH_JAP_Viceroyalty_DEF: "The Viceroyalty of Hanzhong"
 SCH_JAP_Viceroyalty_ADJ: "Sichuanese"
-SCH_JAP_national_populist: "Kanchu Chiho" 
-SCH_JAP_national_populist_DEF: "The Hanzhong Region of Political Administrative Council"
+SCH_JAP_despotist: "Kanchu Chiho" 
+SCH_JAP_despotist_DEF: "The Hanzhong Region of Political Administrative Council"
 SCH_JAP_revivalist: "Ekishu Setsudo-shi"
 SCH_JAP_revivalist_DEF: "The Military Prefecture of Yizhou"
 SCH_JAP_ADJ: "Sichuanese"
@@ -42,8 +42,8 @@ YUN_JAP_Shogunate_ADJ: "Yunnanese"
 YUN_JAP_Viceroyalty: "Viceroyalty of Yungui"
 YUN_JAP_Viceroyalty_DEF: "The Viceroyalty of Yungui"
 YUN_JAP_Viceroyalty_ADJ: "Yunnanese"
-YUN_JAP_national_populist: "Dairi Chiho"
-YUN_JAP_national_populist_DEF: "The Dali Region of Political Administrative Council"
+YUN_JAP_despotist: "Dairi Chiho"
+YUN_JAP_despotist_DEF: "The Dali Region of Political Administrative Council"
 YUN_JAP_revivalist: "Nancho Setsudo-shi"
 YUN_JAP_revivalist_DEF: "The Military Prefecture of Nanzhao"
 YUN_JAP_ADJ: "Yunnanese"
@@ -53,8 +53,8 @@ TIB_JAP_DEF: "The Tibetan Provisional Authority"
 TIB_JAP_ADJ: "Tibetan"
 TIB_JAP_Shogunate: "Tibetan State"
 TIB_JAP_Shogunate_DEF: "The Tibetan State of Kan-Rei Shogunal Commissariat"
-TIB_JAP_national_populist: "Sacred State of Tibet"
-TIB_JAP_national_populist_DEF: "The Sacred State of Tibet"
+TIB_JAP_despotist: "Sacred State of Tibet"
+TIB_JAP_despotist_DEF: "The Sacred State of Tibet"
 #### Xinjiang
 SIK_JAP_Shogunate: "Ansei Daitogo-ryo" #安西大都護领
 SIK_JAP_Shogunate_DEF: "The Grand Protectorate of Anxi"
@@ -62,38 +62,38 @@ SIK_JAP_Shogunate_ADJ: "Anxi"
 SIK_JAP_Viceroyalty: "Viceroyalty of Anxi"
 SIK_JAP_Viceroyalty_DEF: "The Viceroyalty of Anxi"
 SIK_JAP_Viceroyalty_ADJ: "Anxi"
-SIK_JAP_national_populist: "Ansei Gyosei Shokoku Renmei" #安西行政诸国联盟
-SIK_JAP_national_populist_DEF: "The Collective Administration of Anxi"
-SIK_JAP_national_populist_ADJ: "Anxi"
+SIK_JAP_despotist: "Ansei Gyosei Shokoku Renmei" #安西行政诸国联盟
+SIK_JAP_despotist_DEF: "The Collective Administration of Anxi"
+SIK_JAP_despotist_ADJ: "Anxi"
 SIK_JAP_revivalist: "Ansei Shinsei Daitogo-ryo" #安西神圣大都護领
 SIK_JAP_revivalist_DEF: "The Greater Divine Protectorate of Anxi"
 SIK_JAP_ADJ: "Anxi"
 #### Indochina
 ICR_JAP_paternal_autocrat: "Indoshina Bakufudaikan-tochiku" #印度支那幕府代官統治区
 ICR_JAP_paternal_autocrat_DEF: "The Grand Governing Office of Indochina"
-ICR_JAP_national_populist: "Indoshina Sanryoho" #印度支那三領法
-ICR_JAP_national_populist_DEF: "The Tri-Domains of Indochina"
+ICR_JAP_despotist: "Indoshina Sanryoho" #印度支那三領法
+ICR_JAP_despotist_DEF: "The Tri-Domains of Indochina"
 ICR_JAP_revivalist: "Indoshina Jichiryo"
 ICR_JAP_revivalist_DEF: "The Dominion of Indochina"
 #### Laos
 LAO_JAP_paternal_autocrat: "Shichidan Shirokasa Seisho"
 LAO_JAP_paternal_autocrat_DEF: "The Governing Office of White Umbrella State" #七段白傘政所
-LAO_JAP_national_populist: "Raosu Jichikuni"
-LAO_JAP_national_populist_DEF: "The Lao Autonomous State" 
+LAO_JAP_despotist: "Raosu Jichikuni"
+LAO_JAP_despotist_DEF: "The Lao Autonomous State" 
 LAO_JAP_revivalist: "Shichidan Shirokasa-shu"
 LAO_JAP_revivalist_DEF: "The Realm of Seven-Tiered White Umbrella" #七段白傘州
 #### Cambodia
 CAM_JAP_paternal_autocrat: "Kanbojia Seisho"
 CAM_JAP_paternal_autocrat_DEF: "The Governing Office of Kampuchea" #七段白傘政所
-CAM_JAP_national_populist: "Kanbojia Jichikuni"
-CAM_JAP_national_populist_DEF: "The Kampuchean Autonomous State" 
+CAM_JAP_despotist: "Kanbojia Jichikuni"
+CAM_JAP_despotist_DEF: "The Kampuchean Autonomous State" 
 CAM_JAP_revivalist: "Sangaku Ōshu Seifu"
 CAM_JAP_revivalist_DEF: "The Funan Royal Authority" #山岳王州政府
 #### Vietnam
 VIN_JAP_paternal_autocrat: "Shizumi-gun Setsudo-shi"
 VIN_JAP_paternal_autocrat_DEF: "The Military Prefecture of Jinghai Army" #静海军节度使
-VIN_JAP_national_populist: "Koshi Jichikuni"
-VIN_JAP_national_populist_DEF: "The Jiaozhi Autonomous State" 
+VIN_JAP_despotist: "Koshi Jichikuni"
+VIN_JAP_despotist_DEF: "The Jiaozhi Autonomous State" 
 VIN_JAP_revivalist: "O-Raku Shu"
 VIN_JAP_revivalist_DEF: "The Realm of Au-Lac"
 #### Mongolia

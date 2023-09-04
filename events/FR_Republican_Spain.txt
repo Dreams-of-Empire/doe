@@ -129,7 +129,7 @@ country_event = {
 		add_political_power = 15
 		hidden_effect = {
 			add_popularity = { ideology = paternal_autocrat popularity = 0.04 }
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = despotist popularity = 0.03 }
 			add_stability = -0.05
 			171 = {
 				add_resistance = 20

@@ -73,7 +73,7 @@ CZE_the_oo = {
 		available = {
 			original_tag = CZE
 			OR = { 
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 			has_country_flag = CZE_oo_implemented
@@ -88,7 +88,7 @@ CZE_the_oo = {
 			original_tag = CZE
 			is_subject = no
 			OR = { 
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 			has_country_flag = CZE_oo_implemented
@@ -125,7 +125,7 @@ CZE_the_oo = {
 		available = {
 		original_tag = CZE
 			OR = { 
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 			has_country_flag = CZE_oo_implemented
@@ -137,7 +137,7 @@ CZE_the_oo = {
 			original_tag = CZE
 			is_subject = no
 			OR = { 
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 			has_country_flag = CZE_oo_implemented
@@ -164,7 +164,7 @@ CZE_the_oo = {
 		available = {
 		original_tag = CZE
 			OR = { 
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 			has_country_flag = CZE_oo_implemented
@@ -176,7 +176,7 @@ CZE_the_oo = {
 			original_tag = CZE
 			is_subject = no
 			OR = { 
-				has_government = national_populist
+				has_government = despotist
 				has_government = revivalist
 			}
 			has_country_flag = CZE_oo_implemented

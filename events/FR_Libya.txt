@@ -126,7 +126,7 @@ country_event = { # London wants Rome to apologies
 		name = lba.3.b # Never
 		# add_opinion_modifier
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.02
 		}
 	}
@@ -223,7 +223,7 @@ country_event = {
 	option = {
 		name = lba.7.a
 		add_political_power = 50
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		set_country_flag = ITA_balbo_boi
 	}
 	

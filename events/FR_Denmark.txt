@@ -174,7 +174,7 @@ country_event = {
 		add_popularity = { ideology = fasci popularity = 0.02 }
 		add_popularity = { ideology = illuminist popularity = 0.01 }
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.01 }
+		add_popularity = { ideology = despotist popularity = 0.01 }
 		hidden_effect = {
 			country_event = { id = denmark.12 days = 4 }
 		}
@@ -331,7 +331,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -376,7 +376,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -419,7 +419,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -474,7 +474,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -506,7 +506,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -536,7 +536,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -586,7 +586,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -632,7 +632,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -677,7 +677,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -720,7 +720,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -775,7 +775,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -809,7 +809,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -852,7 +852,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -907,7 +907,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -974,7 +974,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -1015,7 +1015,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -1059,7 +1059,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -1324,7 +1324,7 @@ country_event = {
 		name = denmark.34.a
 		add_stability = -0.03
 		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = despotist popularity = 0.03 }
 		custom_effect_tooltip = DEN_nationalist_march_warning_tooltip
 		add_ideas = DEN_danish_monarchism_idea
 		hidden_effect = {
@@ -1355,7 +1355,7 @@ country_event = {
 		add_threat = 2
 		hidden_effect = {
 			DEN = {
-				set_country_flag = DEN_german_support_natpop
+				set_country_flag = DEN_german_support_desp
 			}
 		}
 	}
@@ -1386,7 +1386,7 @@ country_event = {
 			has_government = fasci
 		}
 		OR = {
-			has_country_flag = DEN_german_support_natpop
+			has_country_flag = DEN_german_support_desp
 			has_country_flag = DEN_failed_republican_revolution_flag
 		}
 		NOT = {
@@ -1400,7 +1400,7 @@ country_event = {
     option = {
         name = denmark.36.a
 		add_stability = -0.10
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = despotist popularity = 0.05 }
 		add_popularity = { ideology = collectivist popularity = -0.02 }
 		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
@@ -1426,7 +1426,7 @@ country_event = {
 			has_government = fasci
 		}
 		OR = {
-			has_country_flag = DEN_german_support_natpop
+			has_country_flag = DEN_german_support_desp
 			has_country_flag = DEN_failed_republican_revolution_flag
 		}
 		NOT = {
@@ -1441,9 +1441,9 @@ country_event = {
         name = denmark.37.a
 		add_stability = 0.05
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = despotist elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.10 }
+		add_popularity = { ideology = despotist popularity = 0.10 }
 		add_popularity = { ideology = collectivist popularity = -0.05 }
 		add_popularity = { ideology = fasci popularity = -0.05 }
 		set_country_flag = DEN_march_on_kobenhavn_flag
@@ -1479,8 +1479,8 @@ country_event = {
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
 			set_party_name = { 
 				ideology = revivalist 
-				long_name = DEN_revivalist_natpop_party_long 
-				name = DEN_revivalist_natpop_party 
+				long_name = DEN_revivalist_desp_party_long 
+				name = DEN_revivalist_desp_party 
 			}
 			GER = {
 				transfer_state = 784
@@ -1510,7 +1510,7 @@ country_event = {
 	trigger = {
 		tag = DEN
 		OR = {
-			has_government = national_populist
+			has_government = despotist
 			has_government = revivalist
 		}
 	}
@@ -1518,7 +1518,7 @@ country_event = {
     option = {
         name = denmark.38.a
 		add_popularity = { ideology = revivalist popularity = 0.02 }
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = despotist popularity = -0.02 }
 		hidden_effect = {
 			GER = {
 				add_to_faction = DEN
@@ -1702,7 +1702,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 		NOT = {
 			has_country_flag = DEN_republican_revolution_democracy_flag
@@ -1752,7 +1752,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -1797,7 +1797,7 @@ country_event = {
 			has_government = fasci
 			has_government = paternal
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = despotist
 		}
 	}
 	
@@ -1961,7 +1961,7 @@ country_event = {
 
 	option = {
 		name = denmark.51.a
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = despotist popularity = 0.02 }
 		add_popularity = { ideology = revivalist popularity = 0.01 }
 		add_opinion_modifier = { target = GER modifier = in_faction }
 	}
@@ -2810,7 +2810,7 @@ country_event = {
           social_conservative = 0
           paternal = 51
           paternal_autocrat = 9
-          national_populist = 0
+          despotist = 0
           revivalist = 0
         }
 				set_politics = {
@@ -3372,7 +3372,7 @@ country_event = {
           social_conservative = 0
           paternal = 0
           paternal_autocrat = 10
-          national_populist = 0
+          despotist = 0
           revivalist = 0
         }
 				set_politics = {

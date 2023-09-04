@@ -1121,7 +1121,7 @@ SPF_foreign_policy = {
 					threat > 0.80
 				}
 				AND = {
-					has_government = national_populist
+					has_government = despotist
 					threat > 0.40
 				}
 				AND = {
@@ -1134,7 +1134,7 @@ SPF_foreign_policy = {
 					threat > 0.40
 				}
 				AND = {
-					has_government = national_populist
+					has_government = despotist
 					is_neighbor_of = SOV
 					threat > 0.20
 				}

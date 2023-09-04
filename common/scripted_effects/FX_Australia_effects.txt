@@ -65,7 +65,7 @@ AST_create_governor_general_george_windsor = {
         promote_leader = yes
       }
       add_country_leader_role = {
-        country_leader = { ideology = national_populist_subtype }
+        country_leader = { ideology = despotist_subtype }
         promote_leader = yes
       }
       add_country_leader_role = {
@@ -106,7 +106,7 @@ AST_create_governor_general_henry_windsor = {
         promote_leader = yes
       }
       add_country_leader_role = {
-        country_leader = { ideology = national_populist_subtype }
+        country_leader = { ideology = despotist_subtype }
         promote_leader = yes
       }
       add_country_leader_role = {
@@ -145,7 +145,7 @@ AST_create_governor_general_hore_ruthven = {
       promote_leader = yes
     }
     add_country_leader_role = {
-      country_leader = { ideology = national_populist_subtype }
+      country_leader = { ideology = despotist_subtype }
       promote_leader = yes
     }
     add_country_leader_role = {

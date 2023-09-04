@@ -25,7 +25,7 @@ country_event = { # Question of the Church
 	option = { # Establish a State Religion
 		name = cruzoob.1.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.05
 		}
 		swap_ideas = {
@@ -53,7 +53,7 @@ country_event = { # Education Curriculum
 	option = { # Prioritize a Christian Curriculum
 		name = cruzoob.2.a
 		add_popularity = {
-			ideology = national_populist
+			ideology = despotist
 			popularity = 0.05
 		}
 		add_research_slot = 1

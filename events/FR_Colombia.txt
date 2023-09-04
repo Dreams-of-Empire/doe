@@ -167,10 +167,10 @@ country_event = { #starter
 		set_country_flag = COL_nationalist
 		add_political_power = 50
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 		}
 		add_popularity = {
-				ideology = national_populist
+				ideology = despotist
 				popularity = 0.25
 		}
 	}
@@ -203,7 +203,7 @@ country_event = { #nps are triggered
 	option = {
 		name = col.11.a
 		add_popularity = { 
-			ideology = national_populist popularity = 0.025
+			ideology = despotist popularity = 0.025
 		}
 		activate_advisor = COL_Laureano_Eleuterio_Gomez_Castro_hog_npo
 		activate_advisor = COL_Carlos_Eugenio_Restrepo_Restrepo_for_npo
@@ -254,7 +254,7 @@ country_event = { #people is triggered
 	option = {
 		name = col.14.b
 		add_popularity = { 
-			ideology = national_populist popularity = -0.025
+			ideology = despotist popularity = -0.025
 			}
 		add_political_power = -25
 		}		
@@ -271,7 +271,7 @@ country_event = { #full leopardo
 	option = {
 		name = col.15.a
 		add_popularity = { 
-			ideology = national_populist popularity = 0.025
+			ideology = despotist popularity = 0.025
 			}
 		add_political_power = -50
 		}

@@ -1021,7 +1021,7 @@ ideas = {
 				social_conservative_drift = -0.01
 				paternal_drift = -0.01
 				paternal_autocrat_drift = -0.02
-				national_populist_drift = -0.01
+				despotist_drift = -0.01
 			}
 			picture = generic_victors_of_ww1
 			removal_cost = -1

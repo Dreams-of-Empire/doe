@@ -76,7 +76,7 @@ illuminist: "Illuminist"
 social_conservative: "Social Conservative"
 paternal: "Paternalism"
 paternal_autocrat: "Paternal Autocrat"
-national_populist: "National Populist"
+despotist: "National Populist"
 revivalist: "Revivalist"
 
 ### Ideologies Colored
@@ -90,7 +90,7 @@ illuminist_color: "§2Illuminists§!"
 social_conservative_color: "§3Social Conservatives§!"
 paternal_color: "§gPaternalisms§!"
 paternal_autocrat_color: "§PPaternal Autocrats§!"
-national_populist_color: "§NNational Populists§!"
+despotist_color: "§NNational Populists§!"
 revivalist_color: "§VRevivalists§!"
 
 ### Ideology Nouns
@@ -103,7 +103,7 @@ illuminist_noun: "Illuministism"
 social_conservative_noun: "Social Conservatism"
 paternal_noun: "Paternalism"
 paternal_autocrat_noun: "Paternal Autocracy"
-national_populist_noun: "National Populism"
+despotist_noun: "National Populism"
 revivalist_noun: "Revivalism"
 
 ### Ideology Desc
@@ -117,7 +117,7 @@ illuminist_desc: "Center Right"
 social_conservative_desc: "Center Right"
 paternal_desc: "Authoritarian Center"
 paternal_autocrat_desc: "Authoritarian Right"
-national_populist_desc: "Authoritarian Center"
+despotist_desc: "Authoritarian Center"
 revivalist_desc: "Authoritarian Center"
 
 ### Ideology Drift
@@ -130,7 +130,7 @@ illuminist_drift: "Daily Illuminist support"
 social_conservative_drift: "Daily Social Conservative support"
 paternal_drift: "Daily Paternalism support"
 paternal_autocrat_drift: "Daily Paternal Autocrat support"
-national_populist_drift: "Daily National Populist support"
+despotist_drift: "Daily National Populist support"
 revivalist_drift: "Daily Revivalist support"
 
 ### Ideology Subtype Desc
@@ -143,7 +143,7 @@ illuminist_subtype_desc: "Illuminists see themselves as the mainstream liberal i
 social_conservative_subtype_desc: "Conservatism is a political ideology which can vary greatly depending on the political history of the region or nation. Nonetheless, it is normally centred on preserving traditional beliefs, attitudes and philosophy as well as the traditional power dynamic of society while using the democratic system. Opposed to both radical and moderate changes to the status quo, conservatives want to keep society in order and stable. Most conservative societies usually promote a regulated market economy and favour economic protectionism."
 paternal_subtype_desc: "Paternalism is an ideology that combines a strong executive power with a representative parliament and a partial democratic political system. Paternalismic regimes often take a conservative stance on social issues, favour centralization and typically have Hawkish sentiments in-government; although isolationist branches of this ideology are not unheard of. The aim of these regimes is to maintain national stability and provide the people both a popular and responsible government."
 paternal_autocrat_subtype_desc: "Paternal Autocracy is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the leader, either a king or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people of under his benevolent protection. These countries usually have a very authoritarian government, conservative social views and a state controlled economy."
-national_populist_subtype_desc: "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
+despotist_subtype_desc: "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
 revivalist_subtype_desc: "Named after the Germanic symbol that German Revivalists wear, Revivalism is an extreme nationalist and militaristic ideology, that proposes a system where the political power is centralized under a strong leadership, that through the state controls and guides the nation to its national rebirth. Nonetheless, revivalists fundamentally defend socially progressive ideals and the leader grants liberties to the people. revivalists are characterized by adopting conceptual and aesthetical aspects from ancient, pagan, mystical and esoterical traditions, generally relevant to the nation in question. There are many schools of thought in revivalist economics, but the state supremacy and control over it is undisputed."
 internationalist_subtype_desc: "Developed from particularly interventionist branches of collectivism and marxism overall, Internationalist Socialism, as it calls itself, or more commonly known as Internationalism,  is a socialist ideology that proposes the workers, once in power, must organize to enact a perpetual revolution, and to continue proactively in their struggle to bring socialism to the world. While most socialist strains are of international nature, the proactive spirit of Internationalism has given it a more militant nature, and Internationalist ideologues are known advocates of increased militarization of the workers in name of the revolution, as well as establishing a strong state that is able to defend the workers’ interests and protect the revolution from reactionary forces that may oppose it, as the revolution is never supposed to stop spreading."
 
@@ -157,7 +157,7 @@ illuminist_acceptance: "Acceptance of Illuministism"
 social_conservative_acceptance: "Acceptance of Social Conservatism"
 paternal_acceptance: "Acceptance of Paternalism"
 paternal_autocrat_acceptance: "Acceptance of Paternal Autocracy"
-national_populist_acceptance: "Acceptance of National Populism"
+despotist_acceptance: "Acceptance of National Populism"
 revivalist_acceptance: "Acceptance of Revivalism"
 
 ### Ideology Banned
@@ -170,7 +170,7 @@ illuminist_banned: "Banned Illuminists"
 social_conservative_banned: "Banned Social Conservatives"
 paternal_banned: "Banned Paternalisms"
 paternal_autocrat_banned: "Banned Paternal Autocrats"
-national_populist_banned: "Banned National Populists"
+despotist_banned: "Banned National Populists"
 revivalist_banned: "Banned revivalists"
 
 ### Triggers

@@ -1663,7 +1663,7 @@ FRA_foreign_policy = {
 				is_in_faction_with = GER
 				OR = {
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = despotist
 					has_government = paternal
 				}
 				NOT = {

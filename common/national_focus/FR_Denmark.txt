@@ -1547,7 +1547,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DEN_and_against_extremism
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		cost = 8.00
 		prerequisite = {
 			focus = DEN_voice_for_peace
@@ -1562,7 +1562,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_and_against_extremism"
 			add_popularity = { ideology = collectivist popularity = -0.03 }
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = despotist popularity = -0.03 }
 			swap_ideas = {
 				remove_idea = DEN_unrest_in_flensburg1_idea
 				add_idea = DEN_and_against_extremism_idea
@@ -2064,7 +2064,7 @@ focus_tree = {
 			add_political_power = -50
 			add_popularity = { ideology = collectivist popularity = -0.03 }
 			add_popularity = { ideology = fasci popularity = -0.03 }
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = despotist popularity = -0.03 }
 			swap_ideas = {
 				remove_idea = DEN_danish_republicanism_idea
 				add_idea = DEN_weaken_monarchs_power_idea
@@ -2707,7 +2707,7 @@ focus_tree = {
 			increase_ruling_party_popularity_by_5 = yes
 			add_popularity = { ideology = fasci popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 		}
 
 	}
@@ -2960,7 +2960,7 @@ focus_tree = {
 
 	focus = {
 		id = DEN_march_on_kobenhavn
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		cost = 5.00
 		x = 31
 		y = 0
@@ -3012,7 +3012,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_friends_in_south"
 			add_stability = 0.06
 			add_war_support = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 			add_popularity = { ideology = revivalist popularity = 0.02 }
 		}
 
@@ -3162,7 +3162,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_assure_party_loyalty"
 			add_political_power = -35
 			add_manpower = 2500
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = despotist popularity = 0.05 }
 		}
 
 	}
@@ -4048,7 +4048,7 @@ focus_tree = {
 			add_popularity = { ideology = illuminist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			add_popularity = { ideology = paternal popularity = -0.01 }
-			add_popularity = { ideology = national_populist popularity = -0.01 }
+			add_popularity = { ideology = despotist popularity = -0.01 }
 			swap_ideas = {
 				remove_idea = DEN_danish_monarchism_idea
 				add_idea = DEN_trial_against_lyksborg_idea

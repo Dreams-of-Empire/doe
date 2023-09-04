@@ -89,7 +89,7 @@ set_puppet_minister_europe = {
 			limit = {
 				OR = {
 					has_government = revivalist
-					has_government = national_populist
+					has_government = despotist
 				}
 			}
 			add_ideas = {
@@ -123,7 +123,7 @@ set_puppet_minister_europe = {
 		else_if = {
 			limit = { 
 				OR = {
-					has_government = national_populist
+					has_government = despotist
 					has_government = revivalist
 				}
 			}

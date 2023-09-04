@@ -515,7 +515,7 @@ country_event = { # Fate of Belarus
         limit = {
           ROOT = {
             tag = UKR
-            has_government = national_populist
+            has_government = despotist
           }
         }
         set_cosmetic_tag = UKR_BLR
@@ -528,7 +528,7 @@ country_event = { # Fate of Belarus
     ai_chance = { base = 100 }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
     }
     
     set_country_flag = UKR_integrate_belarus
@@ -999,7 +999,7 @@ country_event = { # Fate of Estonia
       NOT = {
         AND = {
           tag = UKR
-          has_government = national_populist
+          has_government = despotist
         }
       }
     }
@@ -1014,7 +1014,7 @@ country_event = { # Fate of Estonia
     }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       NOT = { country_exists = BAT }
     }
     set_temp_variable = { tag_to_release = EST }
@@ -1031,7 +1031,7 @@ country_event = { # Fate of Estonia
     name = annex.113.b
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       country_exists = BAT
       BAT = { is_subject_of = ROOT }
     }
@@ -1701,7 +1701,7 @@ country_event = { # Fate of Netherlands
         ROOT = {
           tag = GER
           OR = {
-            has_government = national_populist
+            has_government = despotist
             has_government = revivalist
           }
         }
@@ -1839,7 +1839,7 @@ country_event = { # Fate of Hungary
     trigger = {
       NOT = {
         tag = UKR
-        has_government = national_populist
+        has_government = despotist
       }
     }
     set_temp_variable = { tag_to_release = HUN }
@@ -1860,7 +1860,7 @@ country_event = { # Fate of Hungary
     }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       NOT = { country_exists = CRP }
     }
     set_temp_variable = { tag_to_release = HUN }
@@ -1878,7 +1878,7 @@ country_event = { # Fate of Hungary
     ai_chance = { base = 100 }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       country_exists = CRP
       CRP = { is_subject_of = ROOT }
     }
@@ -2113,7 +2113,7 @@ country_event = { # Fate of Latvia
       NOT = {
         AND = {
           tag = UKR
-          has_government = national_populist
+          has_government = despotist
         }
       }
     }
@@ -2128,7 +2128,7 @@ country_event = { # Fate of Latvia
     }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       NOT = { country_exists = BAT }
     }
     set_temp_variable = { tag_to_release = LAT }
@@ -2145,7 +2145,7 @@ country_event = { # Fate of Latvia
     name = annex.113.b
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       country_exists = BAT
       BAT = { is_subject_of = ROOT }
     }
@@ -2196,7 +2196,7 @@ country_event = { # Fate of Lithuania
       NOT = {
         AND = {
           tag = UKR
-          has_government = national_populist
+          has_government = despotist
         }
       }
     }
@@ -2211,7 +2211,7 @@ country_event = { # Fate of Lithuania
     }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       NOT = { country_exists = BAT }
     }
     set_temp_variable = { tag_to_release = LIT }
@@ -2228,7 +2228,7 @@ country_event = { # Fate of Lithuania
     name = annex.113.b
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       country_exists = BAT
       BAT = { is_subject_of = ROOT }
     }
@@ -2702,7 +2702,7 @@ country_event = { # Fate of Poland
     else_if = {
       limit = {
         tag = UKR
-        has_government = national_populist
+        has_government = despotist
       }
       POL = { set_cosmetic_tag = UKR_POL }
     }
@@ -3041,7 +3041,7 @@ country_event = { # Fate of Romania
       NOT = {
         AND = {
           tag = UKR
-          has_government = national_populist
+          has_government = despotist
         }
       }
     }
@@ -3081,7 +3081,7 @@ country_event = { # Fate of Romania
     }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       NOT = { country_exists = CRP }
     }
     set_temp_variable = { tag_to_release = ROM }
@@ -3099,7 +3099,7 @@ country_event = { # Fate of Romania
     ai_chance = { base = 100 }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       country_exists = CRP
       CRP = { is_subject_of = ROOT }
     }
@@ -3764,7 +3764,7 @@ country_event = { # Fate of Slovakia
       NOT = {
         AND = {
           tag = UKR
-          has_government = national_populist
+          has_government = despotist
         }
       }
     }
@@ -3788,7 +3788,7 @@ country_event = { # Fate of Slovakia
     }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       NOT = { country_exists = CRP }
     }
 
@@ -3807,7 +3807,7 @@ country_event = { # Fate of Slovakia
     ai_chance = { base = 100 }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       country_exists = CRP
       CRP = { is_subject_of = ROOT }
     }
@@ -3857,7 +3857,7 @@ country_event = { # Fate of Soviet Union
     if = {
       limit = {
         tag = UKR
-        has_government = national_populist
+        has_government = despotist
       }
       VRS = { set_cosmetic_tag = UKR_VRS }
     }
@@ -5508,7 +5508,7 @@ country_event = { # Fate of Gorskaya
       NOT = {
         AND = {
           tag = UKR
-          has_government = national_populist
+          has_government = despotist
         }
       }
     }
@@ -5523,7 +5523,7 @@ country_event = { # Fate of Gorskaya
     }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       NOT = { country_exists = CAU }
     }
     set_temp_variable = { tag_to_release = GOR }
@@ -5541,7 +5541,7 @@ country_event = { # Fate of Gorskaya
     ai_chance = { base = 100 }
     trigger = {
       tag = UKR
-      has_government = national_populist
+      has_government = despotist
       country_exists = CAU
       CAU = { is_subject_of = ROOT }
     }

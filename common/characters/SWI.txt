@@ -60,7 +60,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = despotist_subtype
 			traits = { }
 		}
 	}
@@ -922,7 +922,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Johann_Otto_Kellerhals_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				hog_determined_populist
 			}
 		}
@@ -1198,7 +1198,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Ernst_Leonhardt_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				for_relations_expert
 			}
 		}
@@ -1522,7 +1522,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Max_Leo_Keller_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				eco_industrial_chemist
 			}
 		}
@@ -1911,7 +1911,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Arthur_Fonjallaz_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				despotist
 				sec_efficient_sociopath
 			}
 		}

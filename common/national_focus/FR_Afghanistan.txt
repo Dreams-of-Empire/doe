@@ -2159,7 +2159,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_sons_vengeance"
 			add_popularity = { ideology = fasci popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = despotist popularity = -0.03 }
 			if = {
 				limit = {
 					has_idea = AFG_opposition_mohammed_zahir_idea
@@ -2309,7 +2309,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_upheld_status_quo"
 			add_stability = 0.05
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 		}
@@ -2397,7 +2397,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AFG_harsh_on_banditry
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		cost = 8.00
 		prerequisite = {
 			focus = AFG_return_of_the_king
@@ -2412,7 +2412,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_harsh_on_banditry"
 			add_war_support = 0.02
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = despotist popularity = -0.05 }
 			if = {
 				limit = {
 					has_idea = AFG_opposition_amanullah_idea
@@ -2742,7 +2742,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_destroy_enemies_revolution"
 			add_popularity = { ideology = paternal popularity = -0.03 }
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = despotist popularity = -0.03 }
 			if = {
 				limit = {
 					has_idea = AFG_opposition_revolution_idea
@@ -3453,7 +3453,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_secure_social_justice"
 			add_stability = 0.03
 			add_war_support = 0.03
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = despotist popularity = 0.05 }
 			add_ideas = AFG_defender_of_islam_idea
 		}
 
@@ -3530,7 +3530,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_war_support = 0.03
 			add_popularity = { ideology = paternal_autocrat popularity = 0.04 }
-			add_popularity = { ideology = national_populist popularity = 0.04 }
+			add_popularity = { ideology = despotist popularity = 0.04 }
 			remove_ideas = AFG_pashtun_tajik_tentions_idea
 		}
 

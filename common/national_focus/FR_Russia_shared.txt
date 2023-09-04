@@ -1398,7 +1398,7 @@ shared_focus = {
                  OR = {
                     has_government = revivalist
                     has_government = social_conservative
-                    has_government = national_populist
+                    has_government = despotist
                     has_government = paternal
                     has_government = social_democrat
                     has_government = paternal_autocrat
@@ -1415,7 +1415,7 @@ shared_focus = {
 		}
 		If = { 
 		    limit = { 
-		        has_government = national_populist 
+		        has_government = despotist 
 		        } 
                 country_event = rusfor.11
 				}
@@ -1831,7 +1831,7 @@ shared_focus = {
             limit = {
                  OR = {
                     has_government = revivalist
-                    has_government = national_populist
+                    has_government = despotist
                 }
             }
             custom_effect_tooltip = RUS_NUS_SOVIETS

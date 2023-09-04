@@ -2626,10 +2626,10 @@ country_event = {
 	option = {
 		name = "We had a choice between war or dishonor, and we chose dishonor"
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = despotist
 		}
 		add_popularity = {
-			ideology = national_populist 
+			ideology = despotist 
 			popularity = 0.15
 		}
 		remove_every_minister = yes

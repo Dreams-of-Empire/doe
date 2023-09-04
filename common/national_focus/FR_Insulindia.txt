@@ -1692,7 +1692,7 @@ focus_tree = {
 				has_government = social_conservative
 				has_government = paternal
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = despotist
 			}
 		}
 		
@@ -2406,7 +2406,7 @@ focus_tree = {
 			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = despotist popularity = -0.02 }
 			add_ideas = INS_promote_mahaenism_idea
 		}
 
@@ -2962,7 +2962,7 @@ focus_tree = {
 		y = 3
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -2972,7 +2972,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_darul_islam_government"
 			add_political_power = 20
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = despotist popularity = 0.03 }
 		}
 
 	}
@@ -2987,7 +2987,7 @@ focus_tree = {
 		y = 4
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -3013,7 +3013,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -3025,7 +3025,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power = -20
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = despotist popularity = 0.03 }
 		}
 
 	}
@@ -3040,7 +3040,7 @@ focus_tree = {
 		y = 7
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -3052,7 +3052,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power = -20
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = despotist popularity = 0.05 }
 		}
 
 	}
@@ -3067,7 +3067,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -3094,7 +3094,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -3122,7 +3122,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -3150,7 +3150,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -3161,13 +3161,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_empower_clergy"
 			add_stability = 0.02
 			add_political_power = -30
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = despotist popularity = 0.02 }
 		}
 
 	}
 	focus = {
 		id = INS_darul_islam
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_despotist
 		cost = 5.00
 		prerequisite = {
 			focus = INS_sharia_law
@@ -3179,7 +3179,7 @@ focus_tree = {
 		y = 8
 		
 		available = {
-			has_government = national_populist
+			has_government = despotist
 		}
 		
 		ai_will_do = {
@@ -3190,7 +3190,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_darul_islam"
 			add_stability = 0.05
 			add_political_power = 25
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = despotist popularity = 0.05 }
 			remove_ideas = INS_political_instability_idea
 		}
 
@@ -3284,7 +3284,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = national_populist
+				has_government = despotist
 				has_government = paternal_autocrat
 			}
 		}
@@ -3338,9 +3338,9 @@ focus_tree = {
 					name = INS_MAJ_paternal_autocrat_party 
 				}
 				set_party_name = { 
-					ideology = national_populist 
-					long_name = INS_MAJ_national_populist_party_long 
-					name = INS_MAJ_national_populist_party 
+					ideology = despotist 
+					long_name = INS_MAJ_despotist_party_long 
+					name = INS_MAJ_despotist_party 
 				}
 			}
 		}
@@ -3405,7 +3405,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_deal_with_right_opposition"
 			add_political_power = -25
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = despotist popularity = -0.03 }
 		}
 
 	}
@@ -3441,7 +3441,7 @@ focus_tree = {
 	}
 	focus = {
 		id = INS_limit_islamist_influences
-		icon = GFX_HOL_crackdown_natpop
+		icon = GFX_HOL_crackdown_desp
 		cost = 10.00
 		prerequisite = {
 			focus = INS_deal_with_right_opposition
