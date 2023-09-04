@@ -661,7 +661,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 		}
 		field_marshal = {
 			traits = {
@@ -1203,7 +1203,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Charles_Coughlin_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_iron_fisted_brute
 			}
 		}

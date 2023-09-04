@@ -1354,7 +1354,7 @@ country_event = { # The Army Revolts!
 		}
 		add_political_power = -100
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
 		remove_every_minister = yes
@@ -1364,7 +1364,7 @@ country_event = { # The Army Revolts!
 			ENG_Louis_Mountbatten_eco_ade
 			ENG_Trafford_Leigh_Mallory_ade
 		}
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.40 }
+		add_popularity = { ideology = paternal popularity = 0.40 }
 		set_country_flag = military_control
 		hidden_effect = {
 			country_event = { id = uk.110 days = 30 }
@@ -1803,7 +1803,7 @@ country_event = { # The Irish Republican Brotherhood
 				add = 50
 			}
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = 25
 			}
 		}
@@ -1829,7 +1829,7 @@ country_event = { # The Irish Republican Brotherhood
 		ai_chance = {
 			base = 50
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = -25
 			}
 			modifier = {
@@ -2005,7 +2005,7 @@ country_event = { # Ireland and the United Kingdom
 				add = 100
 			}
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = 100
 			}
 			modifier = {
@@ -2089,7 +2089,7 @@ country_event = { # Ireland and the United Kingdom
         character = IRE_James_Matthew_Dillon
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -2184,7 +2184,7 @@ country_event = { # Ireland and the United Kingdom
         character = IRE_James_Matthew_Dillon
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -4056,8 +4056,8 @@ country_event = { # Loyal King in Arabia
 			ARB = {
 				add_ideas = colonial_government
 				set_cosmetic_tag = ENG_SAU
-				set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
-				set_political_party = { ideology = authoritarian_democrat popularity = 0.5 }
+				set_politics = { ruling_party = paternal elections_allowed = no }
+				set_political_party = { ideology = paternal popularity = 0.5 }
 			}
 		}
 	}
@@ -5396,8 +5396,8 @@ country_event = { # NEP/BHU Becomes a Protectorate
 		hidden_effect = {
 			FROM = {
 				add_ideas = colonial_government
-				set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
-				set_political_party = { ideology = authoritarian_democrat popularity = 0.2 }
+				set_politics = { ruling_party = paternal elections_allowed = no }
+				set_political_party = { ideology = paternal popularity = 0.2 }
 				
 				if = {
 					limit = { tag = NEP }
@@ -5675,8 +5675,8 @@ country_event = { # Iraq Agrees
 		hidden_effect = {
 			IRQ = { 
 				add_ideas = colonial_government
-				set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
-				set_political_party = { ideology = authoritarian_democrat popularity = 0.2 }
+				set_politics = { ruling_party = paternal elections_allowed = no }
+				set_political_party = { ideology = paternal popularity = 0.2 }
 				set_cosmetic_tag = ENG_IRQ 
 			}
 		}
@@ -5796,8 +5796,8 @@ country_event = { # Persia Agrees
 		hidden_effect = {
 			PER = { 
 				add_ideas = colonial_government
-				set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
-				set_political_party = { ideology = authoritarian_democrat popularity = 0.2 }
+				set_politics = { ruling_party = paternal elections_allowed = no }
+				set_political_party = { ideology = paternal popularity = 0.2 }
 				set_cosmetic_tag = ENG_PER 
 			}
 		}
@@ -5956,8 +5956,8 @@ country_event = { # From Agrees
 		hidden_effect = {
 			FROM = { 
 				add_ideas = colonial_government
-				set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
-				set_political_party = { ideology = authoritarian_democrat popularity = 0.2 }
+				set_politics = { ruling_party = paternal elections_allowed = no }
+				set_political_party = { ideology = paternal popularity = 0.2 }
 				
 				if = {
 					limit = { tag = AFG }
@@ -6368,8 +6368,8 @@ country_event = { # Siam Agrees
 		hidden_effect = {
 			SIA = { 
 				add_ideas = colonial_government
-				set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
-				set_political_party = { ideology = authoritarian_democrat popularity = 0.2 }
+				set_politics = { ruling_party = paternal elections_allowed = no }
+				set_political_party = { ideology = paternal popularity = 0.2 }
 				set_cosmetic_tag = ENG_SIA 
 			}
 		}
@@ -7884,7 +7884,7 @@ country_event = {
 		has_war_with = GER
 		NOT = { has_country_flag = hill415 }
 		ENG = { 
-			has_government = authoritarian_democrat 
+			has_government = paternal 
 			has_country_flag = hillactive
 		}
 	}
@@ -9872,7 +9872,7 @@ country_event = {
 				add = -20
 			}
 			modifier = {
-				ENG = { has_government = authoritarian_democrat }
+				ENG = { has_government = paternal }
 				add = -20
 			}
 			modifier = {
@@ -9984,7 +9984,7 @@ country_event = {
 				add = 20
 			}
 			modifier = {
-				ENG = { has_government = authoritarian_democrat }
+				ENG = { has_government = paternal }
 				add = 20
 			}
 			modifier = {
@@ -11529,10 +11529,10 @@ country_event = { # Successful Policies
 		}
 		if = {
 			limit = {
-				has_government = authoritarian_democrat
-				authoritarian_democrat < 50
+				has_government = paternal
+				paternal < 50
 			}
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+			add_popularity = { ideology = paternal popularity = 0.05 }
 		}
 		if = {
 			limit = {

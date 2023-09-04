@@ -1203,7 +1203,7 @@ country_event = {
     	complete_national_focus = SWI_the_seats_run_in_favor_of
 		add_popularity = { ideology = illuminist popularity = 0.15 }
 		add_popularity = { ideology = social_conservative popularity = 0.15 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		hidden_effect = {
 			SWI = { country_event = { id = swi.104 days = 14 } }
 		}
@@ -1263,7 +1263,7 @@ country_event = {
     	complete_national_focus = SWI_status_quo_council_membership
 		add_popularity = { ideology = illuminist popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 	}
 }
 
@@ -1283,7 +1283,7 @@ country_event = {
     	complete_national_focus = SWI_status_quo_council_membership
 		add_popularity = { ideology = illuminist popularity = 0.07 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 	}
 }
 
@@ -1316,7 +1316,7 @@ country_event = {
 		name = "Absolutely inspirational!"
     complete_national_focus = SWI_status_quo_council_membership
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal popularity = 0.03 }
 	}
 }
 
@@ -1355,7 +1355,7 @@ country_event = {
   option = {
 		name = "There is only one place this can go."
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		SWI = { country_event = { id = swi.110 days = 2 } }
 	}
 }
@@ -1394,7 +1394,7 @@ country_event = {
   option = {
 		name = "A party unflinching in the face of strife."
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		SWI = { country_event = { id = swi.112 days = 2 } }
 	}
 }
@@ -1439,7 +1439,7 @@ country_event = {
   option = {
 		name = "Is this a party falling apart?"
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal popularity = 0.03 }
 		add_popularity = { ideology = illuminist popularity = -0.05 }
 		SWI = { country_event = { id = swi.113 days = 2 } }
 	}
@@ -1486,7 +1486,7 @@ country_event = {
 
   option = {
 		name = "Switzerland now, and forever!"
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal popularity = 0.03 }
 		add_ideas = SWI_the_balance_of_power
 	}
 }
@@ -1544,7 +1544,7 @@ country_event = {
   option = {
 		name = "The CDVP rises- but which part?"
 		add_popularity = { ideology = social_conservative popularity = 0.07 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		hidden_effect = {
 			SWI = { country_event = { id = swi.108 days = 2 } }
 		}

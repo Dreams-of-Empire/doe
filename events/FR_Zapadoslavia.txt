@@ -981,7 +981,7 @@ country_event = { #the republics revolt!
 
 	option = {
 		name = cen.44.a
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		add_popularity = { ideology = social_democrat popularity = -0.25 }
 		add_popularity = { ideology = fasci popularity = -0.25 }
 		add_popularity = { ideology = collectivist popularity = -0.25 }

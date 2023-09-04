@@ -409,7 +409,7 @@ country_event = { # 1936 Elections
     remove_every_minister = yes
     custom_effect_tooltip = start_pat_coalition_tt
     add_popularity = {
-      ideology = authoritarian_democrat
+      ideology = paternal
       popularity = 0.05
     }
     add_ideas = {
@@ -421,7 +421,7 @@ country_event = { # 1936 Elections
     hidden_effect = {
       set_country_flag = UKR_had_1936_elections
       set_country_flag = UKR_hetman_statesman_victory
-      set_country_flag = coalition_authoritarian_democrat
+      set_country_flag = coalition_paternal
     }
   }
 
@@ -534,10 +534,10 @@ country_event = { # Monarchy Referendum
   }
   option = {
     name = ukraine.15.b
-    clr_country_flag = coalition_authoritarian_democrat
+    clr_country_flag = coalition_paternal
     set_country_flag = coalition_social_conservative
     set_politics = {
-      ruling_party = authoritarian_democrat
+      ruling_party = paternal
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -1785,7 +1785,7 @@ country_event = { # 1946 Elections
     remove_every_minister = yes
     custom_effect_tooltip = start_pat_coalition_tt
     add_popularity = {
-      ideology = authoritarian_democrat
+      ideology = paternal
       popularity = 0.05
     }
     add_ideas = {
@@ -1797,7 +1797,7 @@ country_event = { # 1946 Elections
     hidden_effect = {
       set_country_flag = UKR_had_1946_elections
       set_country_flag = UKR_hetman_statesman_victory
-      set_country_flag = coalition_authoritarian_democrat
+      set_country_flag = coalition_paternal
     }
   }
 
@@ -1961,7 +1961,7 @@ country_event = { # 1951 Elections
     remove_every_minister = yes
     custom_effect_tooltip = start_pat_coalition_tt
     add_popularity = {
-      ideology = authoritarian_democrat
+      ideology = paternal
       popularity = 0.05
     }
     add_ideas = {
@@ -1973,7 +1973,7 @@ country_event = { # 1951 Elections
     hidden_effect = {
       set_country_flag = UKR_had_1951_elections
       set_country_flag = UKR_hetman_statesman_victory
-      set_country_flag = coalition_authoritarian_democrat
+      set_country_flag = coalition_paternal
     }
   }
 

@@ -307,7 +307,7 @@ country_event = {
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = -100
 		}
 		add_popularity = {
@@ -331,7 +331,7 @@ country_event = {
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = -100
 		}
 		add_popularity = {

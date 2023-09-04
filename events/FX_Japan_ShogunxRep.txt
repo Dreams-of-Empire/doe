@@ -38,7 +38,7 @@ country_event = { #Resignation of Prince Fumimaro
 		name = jap_shogun.2.a 
 		custom_effect_tooltip = "Prince Iesato's been reappointed the presidency"
 		add_popularity = {
-			ideology = authoritarian_democrat 
+			ideology = paternal 
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -73,7 +73,7 @@ country_event = { #Preparation of Anti-Militarist
 	option = {
 		name = jap_shogun.3.a 
 		add_popularity = {
-			ideology = authoritarian_democrat 
+			ideology = paternal 
 			popularity = 0.03 
 		}
 		add_stability = -0.05
@@ -100,7 +100,7 @@ country_event = { #Lord President / Tairo vs. Prime Minister Argument
 	option = {
 		name = jap_shogun.4.a 
 		add_popularity = {
-			ideology = authoritarian_democrat 
+			ideology = paternal 
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -198,11 +198,11 @@ country_event = { #Political Turmoil
 		set_cosmetic_tag = JAP_Shogunate
 		load_focus_tree = FX_Japan_Shogunate_Tree
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -220,9 +220,9 @@ country_event = { #Political Turmoil
 		set_temp_variable = { coalition_partner_var = token:futurist }
 		add_to_coalition = yes 
 		set_party_name = {
-			ideology = authoritarian_democrat
-			long_name = JAP_authoritarian_democrat_party_shogun_long
-			name = JAP_authoritarian_democrat_party_shogun
+			ideology = paternal
+			long_name = JAP_paternal_party_shogun_long
+			name = JAP_paternal_party_shogun
 		}
 		remove_every_minister = yes 
 		activate_advisor = JAP_Tokugawa_Kuniyuki_hog_pau
@@ -938,7 +938,7 @@ country_event = {
 		add_political_power = 150
 		add_stability = 0.25
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.1
 		}
 	}

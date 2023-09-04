@@ -539,7 +539,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Boris_Martos_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_corporate_suit
 			}
 		}
@@ -566,7 +566,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Mikhail_Bulgakov_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_charismatic_charmer
 			}
 		}
@@ -593,7 +593,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Nikolai_Boretsky_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_pragmatic_statesman
 			}
 		}
@@ -620,7 +620,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Patriarch_Mstyslav_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -647,7 +647,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Vyacheslav_Prokopovich_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_naive_optimist
 			}
 		}
@@ -955,7 +955,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Serhii_Shemet_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_happy_amateur
 			}
 		}
@@ -1036,7 +1036,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Oleksandr_Skoropys_Yoltukhovskyi_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_construction_magnate
 			}
 		}
@@ -1090,7 +1090,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Dmitri_Doroshenko_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_biased_intellectual
 			}
 		}
@@ -1387,7 +1387,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Kirill_Osmak_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_resource_industrialist
 			}
 		}
@@ -1414,7 +1414,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Sergei_Ostapenko_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_industrialiser
 			}
 		}
@@ -1603,7 +1603,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Daniil_Skoropadsky_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_silent_lawyer
 			}
 		}
@@ -1630,7 +1630,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Igor_Kistyakovsky_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_secret_police_chief
 			}
 		}
@@ -1657,7 +1657,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Vladimir_Chekhovsky_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1684,7 +1684,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Vladimir_Khitrovo_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_efficient_sociopath
 			}
 		}

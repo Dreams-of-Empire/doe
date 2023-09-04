@@ -648,18 +648,18 @@ country_event = {
 			character = ZHI_No_Clear_Leader
 			promote_leader = yes
 			country_leader = {
-				ideology = authoritarian_democrat_subtype
+				ideology = paternal_subtype
 				traits = {}
 			}
     	}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.4
 		} 
 		retire_character = ZHI_Wu_Peifu
 		retire_character = ZHI_Sun_Chuanfang
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 		}
 		hidden_effect = {
 			set_country_flag = Wu_Peifu_dead

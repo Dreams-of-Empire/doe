@@ -181,7 +181,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -212,7 +212,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Wu_Peifu_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_philosopher_general
 			}
 		}
@@ -465,7 +465,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Cao_Kun_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_accomplished_diplomat
 			}
 		}
@@ -519,7 +519,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Tang_Erho_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_mixed_economy
 			}
 		}
@@ -546,7 +546,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Gao_Lingwei_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_industrialiser
 			}
 		}
@@ -600,7 +600,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Wen_Shizhen_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_great_soul
 			}
 		}

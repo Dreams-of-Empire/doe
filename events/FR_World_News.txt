@@ -182,7 +182,7 @@ news_event = {
 			}
 			OR = {
 				tag = FRA
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = futurist
 				has_government = despotist
 			}

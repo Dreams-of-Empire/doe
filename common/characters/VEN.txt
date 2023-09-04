@@ -22,7 +22,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {
