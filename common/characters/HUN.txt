@@ -67,7 +67,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 	}
@@ -672,7 +672,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Ferenc_Keresztes_Fischer_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_charismatic_charmer
 			}
 		}
@@ -699,7 +699,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Geza_Lakatos_de_Csikszentsimon_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_corporate_suit
 			}
 		}
@@ -726,7 +726,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Istvan_Bethlen_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -753,7 +753,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Karoly_Bartha_de_Dalnokfalva_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_happy_amateur
 			}
 		}
@@ -780,7 +780,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Pal_Teleki_de_Szek_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_local_tyrant
 			}
 		}
@@ -799,7 +799,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Pal_Teleki_de_Szek_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_great_compromiser
 			}
 		}
@@ -1123,7 +1123,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Edgar_Keksz_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_iron_fisted_brute
 			}
 		}
@@ -1474,7 +1474,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Imre_Oltvanyi_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_resource_industrialist
 			}
 		}
@@ -1501,7 +1501,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Istvan_Winchkler_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_construction_magnate
 			}
 		}
@@ -1906,7 +1906,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Laszlo_Baky_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_efficient_sociopath
 			}
 		}
@@ -1933,7 +1933,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Miklos_Banffy_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_compassionate_gentleman
 			}
 		}

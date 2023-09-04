@@ -1955,7 +1955,7 @@ focus_tree = {
 	# Hetmanists-Statemen Union
 	focus = {
 		id = UKR_hetmanists_statemen_union
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		x = 4
 		y = 1
 		cost = 6
@@ -2310,7 +2310,7 @@ focus_tree = {
 				popularity = -0.025
 			}
 			add_popularity = {
-				ideology = authoritarian_democrat
+				ideology = paternal
 				popularity = -0.05
 			}
 			add_popularity = {
@@ -3087,7 +3087,7 @@ focus_tree = {
 			add_ideas = UKR_slava_ukraini_idea
 			hidden_effect = {
 				if = {
-					limit = { has_government = authoritarian_democrat }
+					limit = { has_government = paternal }
 					country_event = { id = ukraine.51 days = 30 }
 				}
 			}
@@ -3396,7 +3396,7 @@ focus_tree = {
 	# Yaryi's Government
 	focus = {
 		id = UKR_yaryi_government
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		x = -1
 		y = 1
 		cost = 6
@@ -4564,7 +4564,7 @@ focus_tree = {
 		allow_branch = {
 			OR = {
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 		}
 		available = {

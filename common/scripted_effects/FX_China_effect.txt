@@ -87,7 +87,7 @@ CHI_national_assembly_calculation_in_China = {
 		}
 	}
 	###KMT 
-	set_temp_variable = { GovPop = ROOT.party_popularity@authoritarian_democrat }
+	set_temp_variable = { GovPop = ROOT.party_popularity@paternal }
 	multiply_temp_variable = { GovPop = 100 }
 	multiply_temp_variable = { GovPop = CHIPop }
 	set_variable = { KMTMemberAssembly = GovPop }

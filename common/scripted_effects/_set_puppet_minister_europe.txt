@@ -38,7 +38,7 @@ set_puppet_minister_europe = {
 			}
 		}
 		else_if = {
-			limit = { has_government = authoritarian_democrat }
+			limit = { has_government = paternal }
 			add_ideas = {
 				BLR_Vasil_Zacharka_hog_ade
 				BLR_Klaudzij_Sciapanavic_Duz_Duseuski_for_ade
@@ -68,7 +68,7 @@ set_puppet_minister_europe = {
 			}
 		}
 		else_if = {
-			limit = { has_government = authoritarian_democrat }
+			limit = { has_government = paternal }
 			add_ideas = {
 				EST_Konstantin_Pats_hog_ade
 				EST_Ants_Piip_for_ade
@@ -166,7 +166,7 @@ set_puppet_minister_europe = {
 			}
 		}
 		else_if = {
-			limit = { has_government = authoritarian_democrat }
+			limit = { has_government = paternal }
 			add_ideas = {
 				GER_Oskar_von_Hindenburg_hog_ade
 				GER_Walther_von_Brauchistsch_for_ade

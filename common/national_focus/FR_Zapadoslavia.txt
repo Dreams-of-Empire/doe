@@ -368,7 +368,7 @@ focus_tree = {
         popularity = 0.2
       }
       add_popularity = {
-        ideology = authoritarian_democrat
+        ideology = paternal
         popularity = 0.1
       }
       set_politics = { ruling_party = social_conservative elections_allowed = no }
@@ -460,7 +460,7 @@ focus_tree = {
 		add_stability = 0.1
 		add_ideas = CEN_centralization
 		add_popularity = {
-		ideology = authoritarian_democrat
+		ideology = paternal
 		popularity = 0.1
 		}
 		}
@@ -480,9 +480,9 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		completion_reward = {
-		set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
+		set_politics = { ruling_party = paternal elections_allowed = no }
 		add_popularity = {
-		ideology = authoritarian_democrat
+		ideology = paternal
 		popularity = 0.2
 		}
 		}
@@ -1380,7 +1380,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		
 		prerequisite = { focus = CEN_foreign_affairs }
-		available = { has_government = authoritarian_democrat }
+		available = { has_government = paternal }
 		
 		x = 37
 		y = 1

@@ -183,19 +183,19 @@ political_actions_dem = {
 			factor = 0 
 		}
 	}
-	increase_popularity_authdem = {
+	increase_popularity_pat = {
 		icon = generic_political_discourse
 		cost = 100
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		visible = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_authdem"
+			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_pat"
 			increase_ruling_party_popularity_by_5 = yes
 		}
 		ai_will_do = {
@@ -238,13 +238,13 @@ political_actions_dem = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 		}
 		visible = {
 			OR = {
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 		}
 		modifier = {
@@ -421,7 +421,7 @@ political_actions = {
 		}
 		visible = {
 			OR = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 				has_government = national_populist
 				has_government = revivalist
@@ -1368,7 +1368,7 @@ war_measures = {
 					has_war_support > 0.60
 				}
 				AND = {
-					has_government = authoritarian_democrat
+					has_government = paternal
 					has_war_support > 0.70
 				}
 				AND = {

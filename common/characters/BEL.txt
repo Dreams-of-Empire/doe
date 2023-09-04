@@ -23,7 +23,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -620,7 +620,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Dr_August_Borms_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -864,7 +864,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Charles_d_Aspremont_Lynden_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_relations_expert
 			}
 		}
@@ -1593,7 +1593,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Georges_Thone_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_media_magnate
 			}
 		}

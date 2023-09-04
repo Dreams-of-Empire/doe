@@ -308,7 +308,7 @@ NFA = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
@@ -436,7 +436,7 @@ NFQ = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
@@ -568,7 +568,7 @@ ETH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
@@ -700,7 +700,7 @@ IVO = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
@@ -832,7 +832,7 @@ DAH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
@@ -964,7 +964,7 @@ TOG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
@@ -1096,7 +1096,7 @@ VOL = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
@@ -1228,7 +1228,7 @@ COG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"

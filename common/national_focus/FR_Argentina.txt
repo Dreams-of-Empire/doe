@@ -779,7 +779,7 @@ focus_tree = {
 			popularity = -0.0375
 			}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = -0.0375
 			}
 		} 
@@ -2831,7 +2831,7 @@ focus_tree = {
 						has_war_with = ARG
 						has_government = liberal
 						has_government = illuminist
-						has_government = authoritarian_democrat
+						has_government = paternal
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
@@ -2881,7 +2881,7 @@ focus_tree = {
 						has_war_with = ARG
 						has_government = liberal
 						has_government = illuminist
-						has_government = authoritarian_democrat
+						has_government = paternal
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
@@ -3562,7 +3562,7 @@ focus_tree = {
 						has_government = fasci
 						has_government = collectivist
 						has_government = paternal_autocrat
-						has_government = authoritarian_democrat
+						has_government = paternal
 						has_government = revivalist
 						has_government = national_populist
 					}
@@ -3763,7 +3763,7 @@ focus_tree = {
 						has_war_with = ARG
 						has_government = liberal
 						has_government = illuminist
-						has_government = authoritarian_democrat
+						has_government = paternal
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
@@ -4471,7 +4471,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_post_religious_society"
 			add_political_power = -60
 			add_popularity = {
-			ideology = authoritarian_democrat popularity = -0.025
+			ideology = paternal popularity = -0.025
 		}
 			add_popularity = {
 			ideology = paternal_autocrat popularity = -0.025
@@ -4619,7 +4619,7 @@ focus_tree = {
 				}
 
 			add_popularity = {
-			ideology = authoritarian_democrat popularity = -0.025
+			ideology = paternal popularity = -0.025
 		}
 			add_popularity = {
 			ideology = paternal_autocrat popularity = -0.025
@@ -4672,7 +4672,7 @@ focus_tree = {
 
 		focus = {
 		id = ARG_military_takes_over
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
  		ai_will_do = { factor = 10 }
  		x =28
  		y =24
@@ -4947,7 +4947,7 @@ focus_tree = {
 			ideology = national_populist popularity = -0.05
 		}			
 		add_popularity = {
-			ideology = authoritarian_democrat popularity = -0.05
+			ideology = paternal popularity = -0.05
 		}
 		} 
 	}

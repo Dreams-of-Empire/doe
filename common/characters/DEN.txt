@@ -108,7 +108,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 	}
@@ -721,7 +721,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Knud_Bach_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_respected_war_hero
 			}
 		}
@@ -740,7 +740,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Knud_Bach_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_great_soul
 			}
 		}
@@ -767,7 +767,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Victor_Purschel_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_happy_amateur
 			}
 		}
@@ -1091,7 +1091,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Jack_Westergaard_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_apologetic_clerk
 			}
 		}
@@ -1534,7 +1534,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Erik_Grevenkop_Castenskiold_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_administrative_genius
 			}
 		}

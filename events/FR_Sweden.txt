@@ -268,7 +268,7 @@ country_event = {
 		date > 1936.9.19
 		date < 1937.9.19
 		NOT = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 			has_country_flag = SWE_election_happened_flag
 		}
 	}
@@ -294,7 +294,7 @@ country_event = {
 		add_political_power = -50
 		add_popularity = { ideology = illuminist popularity = 0.01 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+		add_popularity = { ideology = paternal popularity = 0.01 }
 		country_event = { days = 8 id = sweden.12 }
 		set_country_flag = SWE_election_happened_flag
 		set_country_flag = SWE_soccon_victory_flag
@@ -351,7 +351,7 @@ country_event = {
 			}
 			clr_country_flag = SWE_SOCIALIST_TREE
 		}
-		remove_coalition_authoritarian_democrat = yes 
+		remove_coalition_paternal = yes 
 		remove_coalition_social_conservative = yes 
 		remove_coalition_illuminist = yes 
 		remove_coalition_liberal = yes 
@@ -389,7 +389,7 @@ country_event = {
 		remove_coalition_social_conservative = yes 
 		add_coalition_liberal = yes 
 		add_coalition_illuminist = yes 
-		add_coalition_authoritarian_democrat = yes 
+		add_coalition_paternal = yes 
 		hidden_effect = {
 			country_event = { days = 120 id = sweden.32 }
 		}
@@ -415,7 +415,7 @@ country_event = {
 		
 		remove_coalition_liberal = yes 
 		remove_coalition_illuminist = yes 
-		add_coalition_authoritarian_democrat = yes 
+		add_coalition_paternal = yes 
 		add_coalition_national_populist = yes 
 
 	}
@@ -692,7 +692,7 @@ country_event = {
         character = SWE_Gustaf_VI_Adolf
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -907,7 +907,7 @@ country_event = {
 		ai_chance = { factor = 35 }
 		add_political_power = -25
 		add_popularity = { ideology = social_conservative popularity = 0.02 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+		add_popularity = { ideology = paternal popularity = 0.02 }
 	}
 }
 
@@ -1025,7 +1025,7 @@ country_event = {
 			}
 			
 			remove_coalition_social_conservative = yes 
-			add_coalition_authoritarian_democrat = yes 
+			add_coalition_paternal = yes 
 			add_coalition_illuminist = yes 
 			add_coalition_liberal = yes 
 			
@@ -1049,7 +1049,7 @@ country_event = {
 			}
 			
 			remove_coalition_social_conservative = yes 
-			add_coalition_authoritarian_democrat = yes 
+			add_coalition_paternal = yes 
 			add_coalition_social_conservative = yes 
 			add_coalition_liberal = yes 
 			
@@ -1073,7 +1073,7 @@ country_event = {
 			}
 			
 			remove_coalition_social_conservative = yes 
-			add_coalition_authoritarian_democrat = yes 
+			add_coalition_paternal = yes 
 			add_coalition_social_conservative = yes 
 			add_coalition_illuminist = yes 
 			
@@ -1096,7 +1096,7 @@ country_event = {
 	option = {
 		name = sweden.31.a
 		add_stability = -0.03
-		remove_coalition_authoritarian_democrat = yes 
+		remove_coalition_paternal = yes 
 		hidden_effect = {
 			country_event = { days = 300 id = sweden.32 }
 		}
@@ -1125,13 +1125,13 @@ country_event = {
 		name = sweden.32.a
 		add_stability = -0.01
 		set_party_name = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			long_name = SWE_autdem_national_league_long
 			name = SWE_autdem_national_league
 		}
 		hidden_effect = {
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
-			remove_coalition_authoritarian_democrat = yes
+			add_popularity = { ideology = paternal popularity = 0.01 }
+			remove_coalition_paternal = yes
 			unlock_national_focus = SWE_conservative_victory
 		}
 	}
@@ -1150,7 +1150,7 @@ country_event = {
 		tag = SWE
 		date > 1936.9.19
 		date < 1937.9.19
-		has_government = authoritarian_democrat
+		has_government = paternal
 		NOT = {
 			has_country_flag = SWE_election_happened_flag
 		}
@@ -1177,7 +1177,7 @@ country_event = {
 		add_political_power = -50
 		add_popularity = { ideology = illuminist popularity = 0.01 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+		add_popularity = { ideology = paternal popularity = 0.01 }
 		country_event = { days = 8 id = sweden.12 }
 		set_country_flag = SWE_election_happened_flag
 		set_country_flag = SWE_soccon_victory_flag
@@ -1243,7 +1243,7 @@ country_event = {
 			clr_country_flag = SWE_SOCIALIST_TREE
 		}
 		
-		remove_coalition_authoritarian_democrat = yes 
+		remove_coalition_paternal = yes 
 		remove_coalition_social_conservative = yes 
 		remove_coalition_illuminist = yes 
 		remove_coalition_liberal = yes 
@@ -1286,7 +1286,7 @@ country_event = {
 		add_manpower = -164
 		add_stability = -0.02
 		add_political_power = 25
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+		add_popularity = { ideology = paternal popularity = 0.02 }
 		set_country_flag = SWE_hammarskjolds_stability_flag
 	}
 }
@@ -1367,7 +1367,7 @@ country_event = {
 		}
 		hidden_effect = {
 			add_popularity = { ideology = paternal_autocrat popularity = 0.06 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.04 }
+			add_popularity = { ideology = paternal popularity = -0.04 }
 			set_party_name = {
 				ideology = paternal_autocrat
 				long_name = SWE_pataut_army_long
@@ -1556,7 +1556,7 @@ country_event = {
         character = SWE_Gustaf_VI_Adolf
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -1636,7 +1636,7 @@ country_event = {
 			remove_coalition_liberal = yes 
 			remove_coalition_illuminist = yes 
 			remove_coalition_social_conservative = yes 
-			remove_coalition_authoritarian_democrat = yes 
+			remove_coalition_paternal = yes 
 			remove_coalition_national_populist = yes 
 			remove_ideas = SWE_steps_toward_new_sweden_balance_idea
 			remove_ideas = SWE_steps_toward_new_sweden_slight_con_idea
@@ -1977,7 +1977,7 @@ country_event = {
 		name = sweden.59.a
 		add_political_power = -40
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+		add_popularity = { ideology = paternal popularity = -0.01 }
 	}
 }
 
@@ -1997,7 +1997,7 @@ country_event = {
 		ai_chance = { base = 60 }
 		add_stability = 0.03
 		add_popularity = { ideology = social_conservative popularity = 0.08 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.06 }
+		add_popularity = { ideology = paternal popularity = -0.06 }
 		hidden_effect = {
 			set_politics = {
 				ruling_party = social_conservative elections_allowed = no
@@ -2011,11 +2011,11 @@ country_event = {
 		name = sweden.60.b
 		ai_chance = { base = 40 }
 		add_stability = -0.03
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.08 }
+		add_popularity = { ideology = paternal popularity = 0.08 }
 		add_popularity = { ideology = social_conservative popularity = -0.06 }
 		hidden_effect = {
 			set_politics = {
-				ruling_party = authoritarian_democrat elections_allowed = no
+				ruling_party = paternal elections_allowed = no
 			}
 			remove_ideas_with_trait = head_of_government
 			add_ideas = SWE_Elmo_Lindholm_hog_ade
@@ -2102,7 +2102,7 @@ country_event = {
 		hidden_effect = {
 			add_popularity = { ideology = vanguardist popularity = -0.03 }
 			add_popularity = { ideology = collectivist popularity = -0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+			add_popularity = { ideology = paternal popularity = -0.03 }
 			add_popularity = { ideology = national_populist popularity = -0.03 }
 		}
 	}
@@ -2902,7 +2902,7 @@ country_event = {
 		set_politics = {
 			ruling_party = paternal_autocrat elections_allowed = no
 		}
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.04 }
+		add_popularity = { ideology = paternal popularity = 0.04 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
 		add_popularity = { ideology = national_populist popularity = 0.04 }
 		set_party_name = {

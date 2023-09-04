@@ -1099,7 +1099,7 @@ country_event = {			# - Notification on Imperial Foreign Policy
 		ai_chance = {
 			base = 50
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = 50
 			}
 			modifier = {
@@ -1162,7 +1162,7 @@ country_event = {			# - Notification on Imperial Foreign Policy
 		ai_chance = {
 			base = 50
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = -50
 			}
 			modifier = {
@@ -1243,7 +1243,7 @@ country_event = {			# - Reaction to Irish Issue
 		ai_chance = {
 			base = 50
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = 50
 			}
 			modifier = {
@@ -1303,7 +1303,7 @@ country_event = {			# - Reaction to Irish Issue
 		ai_chance = {
 			base = 50
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = -50
 			}
 			modifier = {
@@ -1337,7 +1337,7 @@ country_event = {			# - Reaction to Political Change in UK
 	}
 	title = {
 		trigger = {
-			ENG = { has_government = authoritarian_democrat }
+			ENG = { has_government = paternal }
 		}
 		text = "British Army storms Westminster"
 	}
@@ -1349,7 +1349,7 @@ country_event = {			# - Reaction to Political Change in UK
 	}
 	desc = {
 		trigger = {
-			ENG = { has_government = authoritarian_democrat }
+			ENG = { has_government = paternal }
 		}
 		text = empire.3b.d
 	}
@@ -1371,7 +1371,7 @@ country_event = {			# - Reaction to Political Change in UK
 				add = -50000
 			}
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = -50
 			}
 			modifier = {
@@ -1438,7 +1438,7 @@ country_event = {			# - Reaction to Political Change in UK
 				add = 50000
 			}
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = 50
 			}
 			modifier = {

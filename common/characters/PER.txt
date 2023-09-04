@@ -65,7 +65,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -87,7 +87,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Ahmad_Qavam_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_happy_amateur
 			}
 		}
@@ -545,7 +545,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Mohsen_Sadr_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -572,7 +572,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Prince_Abbas_Mirza_Farman_Farmaian_Qajar_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -1131,7 +1131,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Abdolhosein_Hazhir_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_oil_baron
 			}
 		}
@@ -1415,7 +1415,7 @@ characters = {
 				ROOT = { clr_country_flag = PER_Reza_Maxim_Khan_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_media_magnate
 			}
 		}

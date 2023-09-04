@@ -1379,7 +1379,7 @@
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			has_completed_focus = SPM_pick_government
 		}
@@ -1415,7 +1415,7 @@
 		
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = social_conservative
 				has_government = illuminist
 				has_government = liberal

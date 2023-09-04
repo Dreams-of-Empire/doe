@@ -118,7 +118,7 @@ country_event = {   #National Union of Salvation is formed
 
 	option = {
 		name = "Sto-"
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.10 }
+		add_popularity = { ideology = paternal popularity = -0.10 }
         hidden_effect = {
 			country_event = { id = rus.6 days = 7 }
 		}
@@ -138,7 +138,7 @@ country_event = {   #Rebellions in Vladivostok
 
 	option = {
 		name = "We need to send our military in!"
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+		add_popularity = { ideology = paternal popularity = -0.03 }
 	    add_stability = -0.03
         add_political_power = -20
         hidden_effect = {
@@ -160,7 +160,7 @@ country_event = {   #Rebellions spread to even further
 
 	option = {
 		name = "We mobilize our army against them!"
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+		add_popularity = { ideology = paternal popularity = -0.03 }
 	    add_stability = -0.03
         add_political_power = -20
         hidden_effect = {
@@ -182,7 +182,7 @@ country_event = {   #Local Military is rebelling
 
 	option = {
 		name = "Our army in the east should end this soon!"
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+		add_popularity = { ideology = paternal popularity = -0.03 }
 	    add_stability = -0.05
         add_political_power = -20
         hidden_effect = {
@@ -204,7 +204,7 @@ country_event = {   #National Union of Salvation Goverment
 
 	option = {
 		name = "This isn't gonna look good on us."
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+		add_popularity = { ideology = paternal popularity = -0.03 }
 	    add_stability = -0.05
         add_political_power = -20
         hidden_effect = {
@@ -227,7 +227,7 @@ country_event = {   #Allied Eastern Commision
 	option = {
 		name = "Is this our end?"
 		#remove_ideas = RUS_allied_eastern_comission
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+		add_popularity = { ideology = paternal popularity = -0.03 }
 	    add_stability = -0.10
         add_political_power = -20
         hidden_effect = {
@@ -1493,7 +1493,7 @@ country_event = {   #Americans Agree
 
 	option = {
 		name = "We are glad they support the true Russian goverment"
-		set_party_name = { ideology = authoritarian_democrat long_name = RUS_american_delegation name = RUS_american_delegation }
+		set_party_name = { ideology = paternal long_name = RUS_american_delegation name = RUS_american_delegation }
 		set_country_flag = US_FRIEND
         }
     }   
@@ -1554,7 +1554,7 @@ country_event = {   #Japanese Trade Deal
 
 	option = {
 		name = "We are glad they support the true Russian goverment"
-        set_party_name = { ideology = authoritarian_democrat long_name = RUS_imperial_japanese_Delegation name = RUS_japanese_delegation }
+        set_party_name = { ideology = paternal long_name = RUS_imperial_japanese_Delegation name = RUS_japanese_delegation }
         set_country_flag = JAP_FRIEND
     }   
 } 
@@ -1714,8 +1714,8 @@ country_event = {  #Low American Influence
 		has_completed_focus = RUS_control_economy
 		has_country_flag = US_FRIEND
 		NOT = { has_idea = RUS_american_influence_1 }
-		authoritarian_democrat > 0.01
-		authoritarian_democrat < 0.19
+		paternal > 0.01
+		paternal < 0.19
 	}
 
 	mean_time_to_happen = {
@@ -1745,8 +1745,8 @@ country_event = { #Growing American Influence
 		tag = RUS
 		NOT = { has_idea = RUS_american_influence_2 }
 		has_country_flag = US_FRIEND
-		authoritarian_democrat > 0.20
-		authoritarian_democrat < 0.30
+		paternal > 0.20
+		paternal < 0.30
 	}
 
 	mean_time_to_happen = {
@@ -1790,8 +1790,8 @@ country_event = { #Concerning American Influence
 		tag = RUS
 		NOT = { has_idea = RUS_american_influence_3 }
 		has_country_flag = US_FRIEND
-		authoritarian_democrat > 0.30
-		authoritarian_democrat < 0.50
+		paternal > 0.30
+		paternal < 0.50
 	}
 
 	mean_time_to_happen = {
@@ -1833,7 +1833,7 @@ country_event = {   #Dominance American Influence
 		tag = RUS
 		NOT = { has_idea = RUS_american_influence_4 }
 		has_country_flag = US_FRIEND
-		authoritarian_democrat > 0.50
+		paternal > 0.50
 	}
 
 	mean_time_to_happen = {
@@ -1864,8 +1864,8 @@ country_event = {  #Low Japanese Influence
 		has_completed_focus = RUS_control_economy
 		has_country_flag = JAP_FRIEND
 		NOT = { has_idea = RUS_japanese_influence_2 }
-		authoritarian_democrat > 0.01
-		authoritarian_democrat < 0.19
+		paternal > 0.01
+		paternal < 0.19
 	}
 
 	mean_time_to_happen = {
@@ -1895,8 +1895,8 @@ country_event = { #Growing Japanese Influence
 		tag = RUS
 		has_country_flag = JAP_FRIEND
 		NOT = { has_idea = RUS_japanese_influence_2 }
-		authoritarian_democrat > 0.20
-		authoritarian_democrat < 0.30
+		paternal > 0.20
+		paternal < 0.30
 	}
 
 	mean_time_to_happen = {
@@ -1940,8 +1940,8 @@ country_event = { #Concerning Japanese Influence
 		tag = RUS
 		has_country_flag = JAP_FRIEND
 		NOT = { has_idea = RUS_japanese_influence_3 }
-		authoritarian_democrat > 0.30
-		authoritarian_democrat < 0.50
+		paternal > 0.30
+		paternal < 0.50
 	}
 
 	mean_time_to_happen = {
@@ -1985,7 +1985,7 @@ country_event = {   #Dominance Japanese Influence
 		tag = RUS
 		has_country_flag = JAP_FRIEND
 		NOT = { has_idea = RUS_japanese_influence_4 }
-		authoritarian_democrat > 0.50
+		paternal > 0.50
 	}
 
 	mean_time_to_happen = {
@@ -2046,7 +2046,7 @@ country_event = {
 	option = {
 		name = "We are glad of our friends across the globe"
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.08
 		}
 	        random_owned_state = {
@@ -2111,7 +2111,7 @@ country_event = {
 	option = {
 		name = "We are glad of our friends across the globe"
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.08
 		}        random_owned_state = {
 				limit = {
@@ -2215,7 +2215,7 @@ country_event = {   #USA accepts
 	option = {
 		name = "We are happy to have such generous friends"
 		   	add_popularity = { 
-		        ideology = authoritarian_democrat
+		        ideology = paternal
 		        popularity = 0.05
 		    }
 			hidden_effect = {

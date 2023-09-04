@@ -262,10 +262,10 @@ country_event = { #Blanche takes over
 		name = chl.13.a
 		add_ideas = presidential_republic
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat popularity = 0.2
+			ideology = paternal popularity = 0.2
 		}
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government

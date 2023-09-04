@@ -280,7 +280,7 @@ ideas = {
 			allowed = { original_tag = JAP }
 			modifier = {
 				political_power_gain = 0.05
-				authoritarian_democrat_drift = 0.02
+				paternal_drift = 0.02
 				stability_factor = 0.05
 				compliance_gain = 0.03
 			}

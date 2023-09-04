@@ -538,7 +538,7 @@ country_event = { # Fate of India
     RAJ = {
       restore_previous_government_type = yes
       set_politics = {
-        ruling_party = authoritarian_democrat
+        ruling_party = paternal
         elections_allowed = no
       }
       increase_ruling_party_popularity_by_15 = yes

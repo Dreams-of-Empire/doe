@@ -1886,7 +1886,7 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = {
-						has_government = authoritarian_democrat
+						has_government = paternal
 						has_government = paternal_autocrat
 						has_government = national_populist
 						has_government = revivalist
@@ -2925,7 +2925,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_tackle_aristocratic_influences"
 			add_popularity = { ideology = social_conservative popularity = -0.01 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+			add_popularity = { ideology = paternal popularity = -0.01 }
 			add_popularity = { ideology = national_populist popularity = -0.01 }
 			add_timed_idea = { idea = PER_MIL_tackle_aristocratic_influences_idea days = 50 }
 		}
@@ -3092,7 +3092,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_limit_tribal_influence"
 			add_political_power = 50
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+			add_popularity = { ideology = paternal popularity = -0.01 }
 			add_popularity = { ideology = national_populist popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
 		}
@@ -3375,7 +3375,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_aristocratic_bonds"
 			add_stability = 0.03
 			add_political_power = 35
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+			add_popularity = { ideology = paternal popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 		}
 
@@ -3512,7 +3512,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_REP_dissamble_regime"
 			add_political_power = 25
 			add_stability = 0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
 		}
 
@@ -3535,7 +3535,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_REP_purge_reza_khan_supporters"
 			add_political_power = 25
 			add_stability = 0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		}
 
@@ -4342,7 +4342,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_military_support"
 			add_political_power = 25
 			add_stability = 0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = 0.03 }
 			add_popularity = { ideology = revivalist popularity = 0.03 }
@@ -4675,7 +4675,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_NAT_enforce_islamic_conservatism
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		cost = 10
 		prerequisite = {
 			focus = PER_NAT_head_of_faith
@@ -4721,7 +4721,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_research_slot = 1
 			add_popularity = { ideology = national_populist popularity = 0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+			add_popularity = { ideology = paternal popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 		}
 

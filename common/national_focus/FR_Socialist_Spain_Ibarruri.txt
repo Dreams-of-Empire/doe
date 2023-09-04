@@ -156,7 +156,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPA_IBA_outlaw_factions
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		cost = 8.00
 		prerequisite = {
 			focus = SPA_IBA_strike_enemy_within

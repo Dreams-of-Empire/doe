@@ -1,8 +1,8 @@
 ﻿
 l_english:
-  MAC_authoritarian_democrat: "Vasíleio Tis Makedonías"
-  MAC_authoritarian_democrat_ADJ: "Macedonian"
-  MAC_authoritarian_democrat_DEF: "To Vasíleio tou Alexándrou tou Méga"
+  MAC_paternal: "Vasíleio Tis Makedonías"
+  MAC_paternal_ADJ: "Macedonian"
+  MAC_paternal_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
   MAC_paternal_autocrat: "Vasíleio Tis Makedonías"
   MAC_paternal_autocrat_ADJ: "Macedonian"
@@ -44,8 +44,8 @@ l_english:
   MAC_social_conservative_ADJ: "Macedonian"
   MAC_social_conservative_DEF: "To Vasíleio tou Alexándrou tou Méga"
 
-  MAC_authoritarian_democrat_party: "Kómma tou Aléxandrou"
-  MAC_authoritarian_democrat_paty_long: "Kómma tou Aléxandrou, or Alexander's party, is as it suggests, the party of Alexander The Great."
+  MAC_paternal_party: "Kómma tou Aléxandrou"
+  MAC_paternal_paty_long: "Kómma tou Aléxandrou, or Alexander's party, is as it suggests, the party of Alexander The Great."
 
   super.1.t: "Alexander Has Returned"
   super.1.d: "Alexander The Great, has returned to Greece"

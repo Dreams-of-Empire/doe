@@ -416,11 +416,11 @@ RUS_american_influence = {
 			# factor = 30
 			# modifier = {
 				# factor = 0
-				# authoritarian_democrat > 0.25
+				# paternal > 0.25
 			# }
 			# modifier = {
 				# add = 100
-				# authoritarian_democrat < 0.10
+				# paternal < 0.10
 			# }
 		# }
 		# complete_effect = {
@@ -450,11 +450,11 @@ RUS_american_influence = {
 			# factor = 0
 			# modifier = {
 				# factor = 0
-				# authoritarian_democrat > 0.25
+				# paternal > 0.25
 			# }
 			# modifier = {
 				# add = 100
-				# authoritarian_democrat < 0.10
+				# paternal < 0.10
 			# }
 		# }
 
@@ -516,11 +516,11 @@ RUS_japanese_influence = {
 			# factor = 30
 			# modifier = {
 				# factor = 0
-				# authoritarian_democrat > 0.25
+				# paternal > 0.25
 			# }
 			# modifier = {
 				# add = 100
-				# authoritarian_democrat < 0.10
+				# paternal < 0.10
 			# }
 		# }
 		# complete_effect = {
@@ -550,11 +550,11 @@ RUS_japanese_influence = {
 			# factor = 0
 			# modifier = {
 				# factor = 0
-				# authoritarian_democrat > 0.25
+				# paternal > 0.25
 			# }
 			# modifier = {
 				# add = 100
-				# authoritarian_democrat < 0.10
+				# paternal < 0.10
 			# }
 		# }
 

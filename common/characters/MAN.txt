@@ -47,7 +47,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authdem_warlordism_subtype
+			ideology = pat_warlordism_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -72,7 +72,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Zhang_Zuolin_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_old_general
 			}
 		}
@@ -566,7 +566,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Chen_Jiongming_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_charismatic_charmer
 			}
 		}
@@ -592,7 +592,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Huang_Fu_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_silent_workhorse
 			}
 		}
@@ -610,7 +610,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Huang_Fu_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_ideological_crusader
 			}
 		}
@@ -636,7 +636,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Jin_Yunpeng_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -654,7 +654,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Jin_Yunpeng_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_resource_industrialist
 			}
 		}
@@ -672,7 +672,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Jin_Yunpeng_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_secret_police_chief
 			}
 		}
@@ -698,7 +698,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Wang_Yitang_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_naive_optimist
 			}
 		}
@@ -716,7 +716,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Wang_Yitang_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_moderate_among_radicals
 			}
 		}
@@ -797,7 +797,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Wu_Jinglian_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_apologetic_clerk
 			}
 		}
@@ -974,7 +974,7 @@ characters = {
 				ROOT = { clr_country_flag = MAN_Pan_Fu_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_construction_magnate
 			}
 		}

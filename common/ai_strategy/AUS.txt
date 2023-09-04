@@ -6,7 +6,7 @@ AUS_antagonize_centroslavia = {
 		OR = {
 			has_government = revivalist
 			has_government = national_populist
-			has_government = authoritarian_democrat
+			has_government = paternal
 			has_government = collectivist
 			has_government = paternal_autocrat
 			has_government = social_conservative
@@ -32,7 +32,7 @@ AUS_invasion_of_centroslavia = {
 		OR = {
 			has_government = revivalist
 			has_government = national_populist
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 	}

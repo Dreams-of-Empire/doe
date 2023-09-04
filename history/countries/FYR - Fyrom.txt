@@ -68,7 +68,7 @@ set_popularities = {
   revivalist = 10
   paternal_autocrat = 10
   collectivist = 9
-  authoritarian_democrat = 1
+  paternal = 1
 }
 #"Parliamentary Republic 🤡 only republic it isn't"
 add_ideas = {

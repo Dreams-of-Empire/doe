@@ -765,7 +765,7 @@ focus_tree = {
 		icon = GFX_goal_ENG_barb
 		available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
 		}
 		prerequisite = { focus = ENG_junta }
     relative_position_id = ENG_junta
@@ -787,7 +787,7 @@ focus_tree = {
 		icon = GFX_goal_ENG_purge_opposition
 		available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
 		}
 		prerequisite = { focus = ENG_junta }
     relative_position_id = ENG_junta
@@ -813,7 +813,7 @@ focus_tree = {
 		icon = GFX_goal_ENG_soldier_education
     available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
 		}
 		prerequisite = { focus = ENG_establish_barb }
     relative_position_id = ENG_establish_barb
@@ -835,7 +835,7 @@ focus_tree = {
 		icon = GFX_goal_ENG_royal_army_reforms
 		available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
 		}
 		prerequisite = { 
 			focus = ENG_establish_barb 
@@ -860,7 +860,7 @@ focus_tree = {
 		icon = GFX_goal_ENG_plan_j
 		available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
 		}
 		prerequisite = { focus = ENG_purge_opposition }
 		relative_position_id = ENG_purge_opposition
@@ -882,7 +882,7 @@ focus_tree = {
 		icon = GFX_goal_ENG_future_britain
 		available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
 		}
 		prerequisite = { focus = ENG_soldier_education }
 		prerequisite = { focus = ENG_royal_army_reforms }
@@ -2187,7 +2187,7 @@ focus_tree = {
         tooltip = ENG_has_austerity_politics 
         OR = {
           has_government = paternal_autocrat
-          has_government = authoritarian_democrat
+          has_government = paternal
           AND = {
             has_government = social_conservative
             OR = {
@@ -2438,7 +2438,7 @@ focus_tree = {
         tooltip = ENG_has_lfaire_politics
         OR = {
           has_government = paternal_autocrat
-          has_government = authoritarian_democrat
+          has_government = paternal
           AND = {
             has_government = social_conservative
             has_country_flag = tory_coal

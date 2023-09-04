@@ -145,7 +145,7 @@ focus_tree = {
 		prerequisite = { focus = CHI_address_the_nation }
 		completion_reward = {
 			add_popularity = {
-				ideology = authoritarian_democrat
+				ideology = paternal
 				popularity = 0.05
 			}
 			add_stability = 0.05
@@ -163,7 +163,7 @@ focus_tree = {
 		prerequisite = { focus = CHI_maintain_democratic_legitimacy }
 		completion_reward = {
 			add_popularity = {
-				ideology = authoritarian_democrat
+				ideology = paternal
 				popularity = 0.05
 			}
 			add_stability = 0.15

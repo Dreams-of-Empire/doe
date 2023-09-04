@@ -837,7 +837,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPM_ceda_government
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		cost = 5.00
 		prerequisite = {
 			focus = SPM_pick_government
@@ -846,7 +846,7 @@ focus_tree = {
 		y = 4
 		
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 			has_country_flag = SPM_government_picked_flag
 			NOT = {
 				has_completed_focus = SPM_democratic_kingdom
@@ -860,7 +860,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPM_ceda_government"
 			add_political_power = 25
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 
 	}
@@ -881,7 +881,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPM_unite_right"
 			add_political_power = -25
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		}
@@ -905,7 +905,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPM_relegalize_nationalists"
 			add_stability = -0.02
 			add_political_power = 35
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 			add_popularity = { ideology = national_populist popularity = 0.02 }
 		}
 
@@ -997,7 +997,7 @@ focus_tree = {
 			add_political_power = -50
 			add_stability = 0.03
 			add_war_support = 0.05
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 
 	}
@@ -1022,7 +1022,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPM_ceda_propaganda"
 			add_political_power = -25
 			add_war_support = 0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 
 	}
@@ -1071,13 +1071,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPM_guided_democracy"
 			add_political_power = -25
 			add_stability = 0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 
 	}
 	focus = {
 		id = SPM_por_espana_y_la_civilizacion_cristiana
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		cost = 5.00
 		prerequisite = {
 			focus = SPM_ceda_propaganda
@@ -1264,7 +1264,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPM_constitutional_monarchy"
 			add_stability = 0.02
 			add_war_support = 0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.04 }
+			add_popularity = { ideology = paternal popularity = -0.04 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
 			add_ideas = SPM_constitutional_monarchy_idea
 		}

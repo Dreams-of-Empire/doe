@@ -407,7 +407,7 @@ country_event = { # 1936 Elections
     }
     increase_ruling_party_popularity_by_15 = yes
     remove_every_minister = yes
-    custom_effect_tooltip = start_authdem_coalition_tt
+    custom_effect_tooltip = start_pat_coalition_tt
     add_popularity = {
       ideology = authoritarian_democrat
       popularity = 0.05
@@ -1783,7 +1783,7 @@ country_event = { # 1946 Elections
     }
     increase_ruling_party_popularity_by_10 = yes
     remove_every_minister = yes
-    custom_effect_tooltip = start_authdem_coalition_tt
+    custom_effect_tooltip = start_pat_coalition_tt
     add_popularity = {
       ideology = authoritarian_democrat
       popularity = 0.05
@@ -1959,7 +1959,7 @@ country_event = { # 1951 Elections
     }
     increase_ruling_party_popularity_by_10 = yes
     remove_every_minister = yes
-    custom_effect_tooltip = start_authdem_coalition_tt
+    custom_effect_tooltip = start_pat_coalition_tt
     add_popularity = {
       ideology = authoritarian_democrat
       popularity = 0.05

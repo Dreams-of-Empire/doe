@@ -43,7 +43,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = authdem_junta_subtype
+			ideology = pat_junta_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -945,7 +945,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Jack_Churchill_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_mad_jack
 			}
 		}
@@ -972,7 +972,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Henry_Page_Croft_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_backroom_backstabber
 			}
 		}
@@ -1303,7 +1303,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Arthur_Wellesley_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_relations_expert
 			}
 		}
@@ -1330,7 +1330,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Vere_Ponsonby_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_biased_intellectual
 			}
 		}
@@ -1654,7 +1654,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_John_Carnegie_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_industrialiser
 			}
 		}
@@ -1924,7 +1924,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Maxwell_Knight_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_media_magnate
 			}
 		}
@@ -1954,7 +1954,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Trafford_Leigh_Mallory_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_health_and_safety
 			}
 		}

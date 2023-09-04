@@ -23,7 +23,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -435,7 +435,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Hassan_al_Banna_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_charismatic_charmer
 			}
 		}
@@ -462,7 +462,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Mohamed_Tawfik_Naseem_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_backroom_backstabber
 			}
 		}
@@ -489,7 +489,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Sayyid_Qutb_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_spiritual_leader
 			}
 		}
@@ -508,7 +508,7 @@ characters = {
 				ROOT = { clr_country_flag = EGY_Sayyid_Qutb_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_reformer
 			}
 		}

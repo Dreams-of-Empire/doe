@@ -7,7 +7,7 @@ characters = {
       }
 		}
 		country_leader = {
-			ideology = authdem_warlordism_subtype
+			ideology = pat_warlordism_subtype
 			traits = { }
 		}
 	}

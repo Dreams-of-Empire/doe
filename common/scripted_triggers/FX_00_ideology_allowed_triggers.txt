@@ -34,7 +34,7 @@ social_democrat_allowed = {
 		has_government = liberal
 		has_government = illuminist
 		has_government = social_conservative
-		has_government = authoritarian_democrat
+		has_government = paternal
 	}
 }
 
@@ -45,7 +45,7 @@ liberal_allowed = {
 		has_government = liberal
 		has_government = illuminist
 		has_government = social_conservative
-		has_government = authoritarian_democrat
+		has_government = paternal
 		has_government = paternal_autocrat
 	}
 }
@@ -56,7 +56,7 @@ illuminist_allowed = {
 		has_government = liberal
 		has_government = illuminist
 		has_government = social_conservative
-		has_government = authoritarian_democrat
+		has_government = paternal
 		has_government = paternal_autocrat
 	}
 }
@@ -67,18 +67,18 @@ social_conservative_allowed = {
 		has_government = liberal
 		has_government = illuminist
 		has_government = social_conservative
-		has_government = authoritarian_democrat
+		has_government = paternal
 		has_government = paternal_autocrat
 		has_government = national_populist
 		has_government = revivalist
 	}
 }
 
-authoritarian_democrat_allowed = {
+paternal_allowed = {
 	OR = {
 		has_government = illuminist
 		has_government = social_conservative
-		has_government = authoritarian_democrat
+		has_government = paternal
 		has_government = paternal_autocrat
 		has_government = national_populist
 		has_government = revivalist
@@ -88,7 +88,7 @@ authoritarian_democrat_allowed = {
 paternal_autocrat_allowed = {
 	OR = {
 		has_government = social_conservative
-		has_government = authoritarian_democrat
+		has_government = paternal
 		has_government = paternal_autocrat
 		has_government = national_populist
 		has_government = revivalist
@@ -97,7 +97,7 @@ paternal_autocrat_allowed = {
 
 national_populist_allowed = {
 	OR = {
-		has_government = authoritarian_democrat
+		has_government = paternal
 		has_government = paternal_autocrat
 		has_government = national_populist
 		has_government = revivalist
@@ -106,7 +106,7 @@ national_populist_allowed = {
 
 revivalist_allowed = {
 	OR = {
-		has_government = authoritarian_democrat
+		has_government = paternal
 		has_government = paternal_autocrat
 		has_government = national_populist
 		has_government = revivalist

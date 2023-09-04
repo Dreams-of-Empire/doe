@@ -3733,7 +3733,7 @@ focus_tree = {
       modifier = {
         add = 100
         ENG = {
-          has_government = authoritarian_democrat
+          has_government = paternal
         }
       }
       modifier = {

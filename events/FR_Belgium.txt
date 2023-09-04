@@ -153,7 +153,7 @@ country_event = { #King Albert dies
         character = BEL_Leopold_van_Belgie
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -262,7 +262,7 @@ country_event = { #Killer escaped
 	option = {
 		name = bel.6.a
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.05
 		}
 		set_country_flag = BEL_killer_escaped
@@ -296,7 +296,7 @@ country_event = { #Election results are in
 		add_political_power = -100
 		add_ideas = absolute_monarchy
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -347,7 +347,7 @@ country_event = { #Communist uprising
 		ai_chance = { factor = 10 }
 		
 		start_civil_war = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			ideology = collectivist
 			size = 0.5
 
@@ -363,7 +363,7 @@ country_event = { #Communist uprising
 
 		hidden_effect = {
 			add_popularity = {
-				ideology = authoritarian_democrat
+				ideology = paternal
 				popularity = 0.4
 			}
 			random_other_country = {
@@ -400,7 +400,7 @@ country_event = { #Communist uprising
 		set_capital = { state = 34 }
 		start_civil_war = {
 			ruling_party = collectivist
-			ideology = authoritarian_democrat
+			ideology = paternal
 			size = 0.5
 			capital = 6
 			states = { 6 866 867 }
@@ -501,7 +501,7 @@ country_event = { #Communist uprising
         character = BEL_Prince_Karel
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -887,7 +887,7 @@ country_event = { #King summons PM after Krijgswet failing
 
 	option = {
 		name = bel.13.a
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		hidden_effect = {
 			country_event = { days = 5 id = bel.20}
 		}

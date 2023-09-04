@@ -826,7 +826,7 @@ focus_tree = {
 	# The Status Quo Regent
 	focus = {
 		id = ROM_the_status_quo_regent
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		x = 3
 		y = 1
 		cost = 6
@@ -2605,7 +2605,7 @@ focus_tree = {
 	# Status Quo Unshaken
 	focus = {
 		id = ROM_status_quo_unshaken
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		x = 8
 		y = 1
 		cost = 6

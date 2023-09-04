@@ -334,7 +334,7 @@ PHI_start_insulindian_revolt = {
         }
       } else = {
         set_politics = {
-          ruling_party = authoritarian_democrat
+          ruling_party = paternal
           elections_allowed = no
         }
       }
@@ -427,7 +427,7 @@ PHI_start_korean_revolt = {
         }
       } else = {
         set_politics = {
-          ruling_party = authoritarian_democrat
+          ruling_party = paternal
           elections_allowed = no
         }
       }
@@ -663,7 +663,7 @@ PHI_create_albert_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
         traits = { }
       }
     }
@@ -746,7 +746,7 @@ PHI_create_henry_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
         traits = { }
       }
     }
@@ -829,7 +829,7 @@ PHI_create_george_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
         traits = { }
       }
     }
@@ -945,12 +945,12 @@ PHI_remove_governor_general = {
   }
   PHI_Jose_P_Laurel = {
     if = {
-      limit = { has_ideology = authoritarian_democrat_subtype }
-      promote_character = { ideology = authoritarian_democrat_subtype }
+      limit = { has_ideology = paternal_subtype }
+      promote_character = { ideology = paternal_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = authoritarian_democrat_subtype }
+        country_leader = { ideology = paternal_subtype }
         promote_leader = yes
       }
     }

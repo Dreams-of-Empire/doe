@@ -107,7 +107,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = {
 				hog_old_general
 			}
@@ -139,7 +139,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Carl_Gustav_Mannerheim_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_old_general
 			}
 		}
@@ -384,7 +384,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Vilho_Petter_Nenonen_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_compassionate_gentleman
 			}
 		}
@@ -463,7 +463,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Aarne_Sihvo_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_general_staffer
 			}
 		}
@@ -482,7 +482,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Aarne_Sihvo_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_driven_recruiter
 			}
 		}
@@ -532,7 +532,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Aksel_Airo_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1009,7 +1009,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Karl_Fredrik_Wilkama_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_backroom_backstabber
 			}
 		}
@@ -1749,7 +1749,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Jarl_Lundqvist_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_railway_magnate
 			}
 		}

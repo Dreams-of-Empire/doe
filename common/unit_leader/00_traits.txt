@@ -2346,7 +2346,7 @@ leader_traits = {
 				factor = 0
 				FROM = {
 					OR = {
-						authoritarian_democrat < 0.05
+						paternal < 0.05
 					}
 				}
 			}

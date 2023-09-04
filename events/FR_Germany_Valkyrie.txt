@@ -93,7 +93,7 @@ country_event = { #Chaos in the Country
 		}
 
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.4
 		}
 		add_popularity = {
@@ -106,7 +106,7 @@ country_event = { #Chaos in the Country
 		}
 
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
 
@@ -140,7 +140,7 @@ country_event = { #Chaos in the Country
       character = GER_Hans_von_Seeckt
       promote_leader = yes
       country_leader = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
         traits = {}
       }
     }
@@ -170,7 +170,7 @@ country_event = { #Chaos in the Country
 			popularity = 0.15
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.1
 		}
 
@@ -288,7 +288,7 @@ country_event = { #seeckts speech
 		name = valkyrie.5.a
 		add_stability = 0.05
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.05
 		}
 	}
@@ -358,7 +358,7 @@ country_event = { #reintroducing the 1871 constitution
 		name = valkyrie.9.a
 		add_stability = 0.05
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -381,7 +381,7 @@ country_event = { #inviting the local princes
 		army_experience = 40
 		
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -436,7 +436,7 @@ country_event = { #Absolutist vs Parlementarian decision
 			popularity = 0.10
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.05
 		}
 	}
@@ -450,7 +450,7 @@ country_event = { #Absolutist vs Parlementarian decision
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.10
 		}
 	}
@@ -472,13 +472,13 @@ country_event = { #Absolutist vs Parlementarian decision
 			popularity = -0.10
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = -0.05
 		}
 	}
 }
 
-country_event = { #Accession to the throne authdem/conservativism
+country_event = { #Accession to the throne pat/conservativism
 	id = valkyrie.13
 	immediate = {log = "[GetDateText]: [Root.GetName]: event valkyrie.13"}
 	title = valkyrie.13.t
@@ -489,7 +489,7 @@ country_event = { #Accession to the throne authdem/conservativism
 	option = {		
 	  name = valkyrie.13.a
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.15
 		}
 		add_popularity = {
@@ -600,7 +600,7 @@ country_event = { #Break the army Vs reconciliation
 	option = {
 		name = valkyrie.15.a
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.05
 		}
 		set_global_flag = GER_FRIENDWH
@@ -612,7 +612,7 @@ country_event = { #Break the army Vs reconciliation
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = -0.05
 		}
 		set_global_flag = GER_BREAKWH
@@ -1981,7 +1981,7 @@ country_event = { #France gets the German demand for referundum
 			}
 			modifier = {
 				factor = 4
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -3477,7 +3477,7 @@ country_event = { # WIP Austria coup
 			popularity = 0.10
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.15
 		}
 		add_popularity = {
@@ -4291,7 +4291,7 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 2
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 1.5
@@ -4338,7 +4338,7 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -4431,7 +4431,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 2
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 1.5
@@ -4478,7 +4478,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25

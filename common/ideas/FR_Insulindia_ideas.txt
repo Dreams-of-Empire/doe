@@ -324,7 +324,7 @@ ideas = {
 				liberal_acceptance = 15
 				illuminist_acceptance = 15
 				social_conservative_acceptance = 15
-				authoritarian_democrat_acceptance = 10
+				paternal_acceptance = 10
 			}
 		}
 		

@@ -2146,7 +2146,7 @@ country_event = {
 						has_government = social_democrat 
 						has_government = liberal 
 						has_government = illuminist 
-						has_government = authoritarian_democrat 
+						has_government = paternal 
 					}
 				}
 			}

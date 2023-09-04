@@ -499,14 +499,14 @@ country_event = { #Military Coup
       character = BRA_Euclides_Figueiredo
       promote_leader = yes
       country_leader = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
         traits = {}
       }
     }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.25 }
+		add_popularity = { ideology = paternal popularity = 0.25 }
 		add_ideas = military_junta
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
 		add_stability = 0.05

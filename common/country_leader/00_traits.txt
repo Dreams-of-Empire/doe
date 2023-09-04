@@ -202,7 +202,7 @@ leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
 		illuminist_drift = -0.10
 		liberal_drift = -0.10
 		social_democrat_drift = -0.10
-		authoritarian_democrat_drift = -0.10
+		paternal_drift = -0.10
 		
 		ai_will_do = {
 			factor = 1
@@ -214,7 +214,7 @@ leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
 		stability_factor = 0.10
 		political_power_gain = 0.1
 		war_support_factor = 0.05
-		authoritarian_democrat_drift = 0.05
+		paternal_drift = 0.05
 		
 		ai_will_do = {
 			factor = 1

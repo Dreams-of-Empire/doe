@@ -357,7 +357,7 @@ focus_tree = {
 							has_government = vanguardist
 							has_government = collectivist
 							has_government = fasci
-							has_government = authoritarian_democrat
+							has_government = paternal
 							has_government = paternal_autocrat
 							has_government = national_populist
 							has_government = revivalist
@@ -378,7 +378,7 @@ focus_tree = {
 							has_government = vanguardist
 							has_government = collectivist
 							has_government = fasci
-							has_government = authoritarian_democrat
+							has_government = paternal
 							has_government = paternal_autocrat
 							has_government = national_populist
 							has_government = revivalist
@@ -402,7 +402,7 @@ focus_tree = {
 							has_government = vanguardist
 							has_government = collectivist
 							has_government = fasci
-							has_government = authoritarian_democrat
+							has_government = paternal
 							has_government = paternal_autocrat
 							has_government = national_populist
 							has_government = revivalist
@@ -711,7 +711,7 @@ focus_tree = {
 			add_manpower = -200
 			add_stability = 0.03
 			add_war_support = 0.03
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			169 = {
 				add_resistance = -10
 			}

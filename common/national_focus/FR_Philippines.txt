@@ -183,7 +183,7 @@ focus_tree = {
     completion_reward = {
       add_political_power = 100
       add_popularity = {
-        ideology = authoritarian_democrat
+        ideology = paternal
         popularity = -0.05
       }
       add_popularity = {
@@ -561,7 +561,7 @@ focus_tree = {
   # Partido Progressista
   focus = {
     id = PHI_partido_progressista
-    icon = GFX_goal_ideology_authoritarian_democrat
+    icon = GFX_goal_ideology_paternal
     x = 4
     y = 1
     cost = 6
@@ -595,14 +595,14 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
     }
     prerequisite = { focus = PHI_partido_progressista }
     relative_position_id = PHI_partido_progressista
     completion_reward = {
       set_country_leader_ideology = police_state_subtype
       set_politics = {
-        ruling_party = authoritarian_democrat
+        ruling_party = paternal
         elections_allowed = no
       }
       swap_ideas = {
@@ -625,7 +625,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
     }
     prerequisite = { focus = PHI_partido_progressista }
     relative_position_id = PHI_partido_progressista
@@ -647,7 +647,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
     }
     prerequisite = { focus = PHI_promote_nationalism }
     relative_position_id = PHI_promote_nationalism
@@ -676,7 +676,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
     }
     prerequisite = { focus = PHI_promote_nationalism }
     relative_position_id = PHI_promote_nationalism
@@ -698,7 +698,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
     }
     prerequisite = { focus = PHI_for_the_public_good }
     prerequisite = { focus = PHI_silence_critics }
@@ -722,7 +722,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
     }
     prerequisite = { focus = PHI_strengthen_presidential_powers }
     relative_position_id = PHI_strengthen_presidential_powers
@@ -743,7 +743,7 @@ focus_tree = {
     cost = 6
     available = {
       has_capitulated = no
-      has_government = authoritarian_democrat
+      has_government = paternal
     }
     prerequisite = { focus = PHI_progressive_taxation }
     relative_position_id = PHI_progressive_taxation
@@ -798,7 +798,7 @@ focus_tree = {
     available = {
       has_capitulated = no
       OR = {
-        has_government = authoritarian_democrat
+        has_government = paternal
         has_government = revivalist
       }
     }
@@ -831,7 +831,7 @@ focus_tree = {
     available = {
       has_capitulated = no
       OR = {
-        has_government = authoritarian_democrat
+        has_government = paternal
         has_government = revivalist
       }
     }
@@ -861,7 +861,7 @@ focus_tree = {
       has_capitulated = no
       OR = {
         has_government = revivalist
-        has_government = authoritarian_democrat
+        has_government = paternal
       }
     }
     prerequisite = { focus = PHI_agrarian_investments }
@@ -1295,7 +1295,7 @@ focus_tree = {
         popularity = -0.15
       }
       add_popularity = {
-        ideology = authoritarian_democrat
+        ideology = paternal
         popularity = -0.15
       }
     }

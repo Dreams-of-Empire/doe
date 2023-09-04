@@ -373,7 +373,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -391,7 +391,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Lazaro_Cardenas_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_respected_war_hero
 			}
 		}
@@ -418,7 +418,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Aquiles_Elorduy_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_old_compromiser
 			}
 		}
@@ -801,7 +801,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Fernando_Rodarte_Fernandez_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_hawkish_intervener
 			}
 		}
@@ -828,7 +828,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Victorino_Barcenas_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_great_compromiser
 			}
 		}
@@ -1157,7 +1157,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Aaron_Saenz_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_construction_magnate
 			}
 		}
@@ -1184,7 +1184,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Pastor_Castro_Tinoco_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_bank_president
 			}
 		}
@@ -1454,7 +1454,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Efrain_Gonzalez_Luna_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_crime_fighter
 			}
 		}

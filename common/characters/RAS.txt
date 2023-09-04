@@ -13,7 +13,7 @@ characters = {
 			ideology = paternal_autocrat_subtype
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 		}
 		field_marshal = {
 			traits = { }

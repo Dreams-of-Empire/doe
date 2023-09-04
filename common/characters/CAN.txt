@@ -671,7 +671,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Arthur_Meighen_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_democratic_tyrant
 			}
 		}
@@ -685,7 +685,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -703,7 +703,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_JH_Blackmore_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_philosopher_general
 			}
 		}
@@ -1092,7 +1092,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Ernest_Manning_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_radical_among_moderates
 			}
 		}
@@ -1119,7 +1119,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_George_A_Drew_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_apologetic_clerk
 			}
 		}
@@ -1416,7 +1416,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Andrew_Carnell_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_mixed_economy
 			}
 		}
@@ -1443,7 +1443,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Victor_Quelch_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1794,7 +1794,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Solon_Earl_Low_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_crime_fighter
 			}
 		}
@@ -1821,7 +1821,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_WAC_Bennett_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_prince_of_terror
 			}
 		}
@@ -2154,7 +2154,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {

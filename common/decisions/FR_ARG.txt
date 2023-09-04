@@ -278,7 +278,7 @@ SAM_SCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
  		visible = { 
@@ -299,7 +299,7 @@ SAM_SCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
 		fire_only_once = yes
@@ -449,7 +449,7 @@ SAM_SCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
  		visible = { 
@@ -470,7 +470,7 @@ SAM_SCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
 		fire_only_once = yes
@@ -631,7 +631,7 @@ SAM_SCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
  		visible = { 
@@ -652,7 +652,7 @@ SAM_SCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
 		fire_only_once = yes
@@ -818,7 +818,7 @@ SAM_BCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
  		visible = { 
@@ -835,7 +835,7 @@ SAM_BCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
 		fire_only_once = yes
@@ -970,7 +970,7 @@ SAM_BCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
  		visible = { 
@@ -988,7 +988,7 @@ SAM_BCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
 		fire_only_once = yes
@@ -1134,7 +1134,7 @@ SAM_BCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
  		visible = { 
@@ -1152,7 +1152,7 @@ SAM_BCW_matters = {
  	 			has_government = liberal
  	 			has_government = illuminist
  	 			has_government = social_conservative
- 	 			has_government = authoritarian_democrat
+ 	 			has_government = paternal
  	 		}
  		}
 		fire_only_once = yes

@@ -233,7 +233,7 @@ country_event = {
 		name = "Damn them!"
 		add_stability = -0.10
 		add_popularity = { ideology = revivalist popularity = 0.1 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.10 }
+		add_popularity = { ideology = paternal popularity = -0.10 }
 		hidden_effect = {
 			country_event = { id = rhi.crisis.2 days = 14 }
 		}

@@ -197,7 +197,7 @@ country_event = { # Germany wants to renegotiate Navy
 			}
 			modifier = {
 				factor = 1.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -244,7 +244,7 @@ country_event = { # Germany wants to renegotiate Navy
 			}
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -422,7 +422,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.25
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -477,7 +477,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.75
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.5
@@ -536,7 +536,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.25
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -605,7 +605,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.75
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -1155,7 +1155,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -1209,7 +1209,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -1509,7 +1509,7 @@ country_event = { # German alliance - Poland
 			}
 			modifier = {
 				factor = 1.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -1554,7 +1554,7 @@ country_event = { # German alliance - Poland
 			}
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -7960,7 +7960,7 @@ country_event = { # Slovakia - German alliance
 			}
 			modifier = {
 				factor = 1.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -8007,7 +8007,7 @@ country_event = { # Slovakia - German alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -8631,7 +8631,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 1.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -8678,7 +8678,7 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -9370,7 +9370,7 @@ country_event = { # Finland - Germany offers alliance
 			}
 			modifier = {
 				factor = 1.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -9417,7 +9417,7 @@ country_event = { # Finland - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -9503,7 +9503,7 @@ country_event = { # Turkey - Germany offers alliance
 			}
 			modifier = {
 				factor = 1.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -9582,7 +9582,7 @@ country_event = { # Turkey - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -9769,7 +9769,7 @@ country_event = { # Lithuania - German support?
 			}
 			modifier = {
 				factor = 1.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -9814,7 +9814,7 @@ country_event = { # Lithuania - German support?
 			}
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.25
@@ -13499,7 +13499,7 @@ country_event = { # Switzerland War- We've Found the old Kaiser
 			popularity = 0.10
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = -0.05
 		}
 	}

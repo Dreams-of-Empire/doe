@@ -434,7 +434,7 @@ country_event = { #FKgP guy dies
 	option = {
 		name = hun.16.a
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = -0.01
 		}
 	}

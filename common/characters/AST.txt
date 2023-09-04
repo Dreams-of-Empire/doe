@@ -277,7 +277,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -412,7 +412,7 @@ characters = {
 		}
 		country_leader = {
 			desc = POLITICS_LORD_BIRDWOOD_DESC
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1211,7 +1211,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Stanley_M_Bruce_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_corporate_suit
 			}
 		}
@@ -1230,7 +1230,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Stanley_M_Bruce_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_biased_intellectual
 			}
 		}
@@ -1500,7 +1500,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Vernon_AH_Sturdee_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_general_staffer
 			}
 		}
@@ -1851,7 +1851,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_James_Mitchell_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_reformer
 			}
 		}
@@ -2094,7 +2094,7 @@ characters = {
 				ROOT = { clr_country_flag = AST_Thomas_W_White_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_compassionate_gentleman
 			}
 		}

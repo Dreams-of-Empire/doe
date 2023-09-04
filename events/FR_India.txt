@@ -416,7 +416,7 @@ country_event = {
 		add_stability = 0.20
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
 		add_ideas = IND_provisional_rule
@@ -424,7 +424,7 @@ country_event = {
 		hidden_effect = {
 			country_event = { id = natind.2 days = 14 }
 			add_popularity = {
-				ideology = authoritarian_democrat
+				ideology = paternal
 				popularity = 0.10
 			}
 

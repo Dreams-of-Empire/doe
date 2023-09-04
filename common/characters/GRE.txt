@@ -265,7 +265,7 @@ characters = {
 	# 			ROOT = { clr_country_flag = GRE_Sotirios_Gotzamanis_hog_ade_hired }
 	# 		}
 	# 		traits = {
-	# 			authoritarian_democrat
+	# 			paternal
 	# 			hog_backroom_backstabber
 	# 		}
 	# 	}
@@ -309,7 +309,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Alexandros_Othonaios_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_reformist_soldier
 			}
 		}
@@ -648,7 +648,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 	}
@@ -951,7 +951,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Konstantinos_Logothetopoulos_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_foreign_sympathizer
 			}
 		}
@@ -1259,7 +1259,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Nikolaos_Kanellopoulos_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_industrialiser
 			}
 		}
@@ -1595,7 +1595,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Kostas_Kotzias_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_preserver_of_culture
 			}
 		}
@@ -1640,7 +1640,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Konstantinos_Manetas_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_man_of_the_people
 			}
 		}

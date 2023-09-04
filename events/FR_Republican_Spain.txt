@@ -100,7 +100,7 @@ country_event = {
 		name = repspain.3.a
 		add_political_power = 15
 		hidden_effect = {
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.04 }
+			add_popularity = { ideology = paternal popularity = 0.04 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 			add_stability = -0.05
 			169 = {
@@ -456,12 +456,12 @@ country_event = {
 		add_political_power = 100
 		add_stability = -0.02
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
 		add_coalition_liberal = yes 
 		hidden_effect = {
 			set_party_name = { 
-				ideology = authoritarian_democrat 
+				ideology = paternal 
 				long_name = SPR_military_party_long 
 				name = SPR_military_party 
 			}
@@ -469,7 +469,7 @@ country_event = {
         character = SPR_Niceto_Alcala_Zamora
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -640,12 +640,12 @@ country_event = {
 	option = {
 		name = repspain.18.a
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
 		add_coalition_liberal = yes 
 		hidden_effect = {
 			set_party_name = { 
-				ideology = authoritarian_democrat 
+				ideology = paternal 
 				long_name = SPR_military_party_long 
 				name = SPR_military_party 
 			}
@@ -653,7 +653,7 @@ country_event = {
         character = SPR_Niceto_Alcala_Zamora
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -758,9 +758,9 @@ country_event = {
 		end_coalition = yes 
 		hidden_effect = {
 			set_party_name = { 
-				ideology = authoritarian_democrat 
-				long_name = SPR_authoritarian_democrat_party_long 
-				name = SPR_authoritarian_democrat_party 
+				ideology = paternal 
+				long_name = SPR_paternal_party_long 
+				name = SPR_paternal_party 
 			}
 			remove_ideas_with_trait = head_of_government
 			add_ideas = SPR_Manuel_Azana_hog_sli
@@ -778,9 +778,9 @@ country_event = {
 		end_coalition = yes 
 		hidden_effect = {
 			set_party_name = { 
-				ideology = authoritarian_democrat 
-				long_name = SPR_authoritarian_democrat_party_long 
-				name = SPR_authoritarian_democrat_party 
+				ideology = paternal 
+				long_name = SPR_paternal_party_long 
+				name = SPR_paternal_party 
 			}
 			remove_ideas_with_trait = head_of_government
 			add_ideas = SPR_Miguel_Maura_Gamazo_hog_sco
@@ -871,7 +871,7 @@ country_event = {
 		add_stability = -0.04
 		add_political_power = 10
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+		add_popularity = { ideology = paternal popularity = -0.02 }
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
 	}
 	

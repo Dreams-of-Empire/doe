@@ -1849,7 +1849,7 @@ country_event = { # Prince Bernhard Assassinated!
       character = HOL_Izaak_Reynders
       promote_leader = yes
       country_leader = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
         traits = {}
       }
     }
@@ -2105,7 +2105,7 @@ country_event = { # Fall of the Nationalist Government
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = authoritarian_democrat_subtype
+            ideology = paternal_subtype
             traits = {}
           }
         }

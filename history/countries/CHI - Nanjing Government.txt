@@ -78,7 +78,7 @@ set_war_support = 0.30
 set_cosmetic_tag = CHI_nanjing
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -92,7 +92,7 @@ set_popularities = {
   liberal = 6
   illuminist = 4
   social_conservative = 13
-  authoritarian_democrat = 33
+  paternal = 33
   paternal_autocrat = 12
   national_populist = 3
   revivalist = 0

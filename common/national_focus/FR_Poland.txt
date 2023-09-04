@@ -1510,7 +1510,7 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_destroy_loyalists"
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = -0.2
 			}
 		add_popularity = {
@@ -3007,7 +3007,7 @@ focus = {
 				has_government = illuminist
 				has_government = liberal
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 		}
 	}

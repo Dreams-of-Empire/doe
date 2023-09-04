@@ -777,7 +777,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.05
 				drift_defence_factor = 0.15
 				social_conservative_drift = -0.01
-				authoritarian_democrat_drift = -0.01
+				paternal_drift = -0.01
 				paternal_autocrat_drift = -0.01
 			}
 			picture = FRA_communard_spirit
@@ -999,7 +999,7 @@ ideas = {
 				consumer_goods_factor = 0.03
 				political_power_gain = 0.10
 				drift_defence_factor = 0.10
-				authoritarian_democrat_drift = -0.01
+				paternal_drift = -0.01
 				paternal_autocrat_drift = -0.02
 			}
 			picture = generic_victors_of_ww1
@@ -1019,7 +1019,7 @@ ideas = {
 				drift_defence_factor = 0.15
 				production_factory_efficiency_gain_factor = 0.05
 				social_conservative_drift = -0.01
-				authoritarian_democrat_drift = -0.01
+				paternal_drift = -0.01
 				paternal_autocrat_drift = -0.02
 				national_populist_drift = -0.01
 			}

@@ -105,7 +105,7 @@ characters = {
 				ROOT = { clr_country_flag = SPR_Vicente_Rojo_Lluch_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_corporate_suit
 			}
 		}
@@ -774,7 +774,7 @@ characters = {
 				ROOT = { clr_country_flag = SPR_Mariano_Anso_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_national_liberal
 			}
 		}

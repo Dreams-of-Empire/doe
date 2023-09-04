@@ -382,7 +382,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPF_curtail_alfonsism"
 			add_stability = 0.02
 			add_political_power = -20
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+			add_popularity = { ideology = paternal popularity = -0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
 			if = {
 				limit = {
@@ -464,7 +464,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPF_ban_alfonso_from_spain"
 			add_stability = 0.02
 			add_political_power = -20
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.04 }
+			add_popularity = { ideology = paternal popularity = -0.04 }
 			if = {
 				limit = {
 					has_idea = SPR_civil_war_recovery_idea
@@ -1278,7 +1278,7 @@ focus_tree = {
 			add_research_slot = 1
 			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
 		}
 

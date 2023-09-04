@@ -206,7 +206,7 @@ country_event = {
 
 	option = {
 		name = estonia.9.a
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+		add_popularity = { ideology = paternal popularity = -0.05 }
 		hidden_effect = {
 			country_event = { id = estonia.10 days = 1 }
 		}
@@ -252,7 +252,7 @@ country_event = {
 			ruling_party = paternal_autocrat elections_allowed = no
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+		add_popularity = { ideology = paternal popularity = -0.05 }
 		add_popularity = { ideology = national_populist popularity = -0.03 }
 		hidden_effect = {
 			country_event = { id = estonia.12 days = 6 }
@@ -282,7 +282,7 @@ country_event = {
 
 	option = {
 		name = estonia.12.a
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.10 }
+		add_popularity = { ideology = paternal popularity = -0.10 }
 		hidden_effect = {
 			set_party_name = {
 				ideology = illuminist 
@@ -295,7 +295,7 @@ country_event = {
 				name = EST_no_patriotic_soccon
 			}
 			set_party_name = {
-				ideology = authoritarian_democrat 
+				ideology = paternal 
 				long_name = EST_no_patriotic_autdem_long 
 				name = EST_no_patriotic_autdem
 			}
@@ -430,7 +430,7 @@ country_event = {
 	option = {
 		name = estonia.18.a
 		add_stability = -0.05
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+		add_popularity = { ideology = paternal popularity = -0.03 }
 		hidden_effect = {
 			country_event = { id = estonia.19 days = 1 }
 		}
@@ -455,7 +455,7 @@ country_event = {
 			ruling_party = national_populist elections_allowed = no
 		}
 		add_popularity = { ideology = national_populist popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+		add_popularity = { ideology = paternal popularity = -0.05 }
 		hidden_effect = {
 			country_event = { id = estonia.12 days = 6 }
 			set_temp_variable = { coalition_partner_var = token:illuminist }
@@ -571,7 +571,7 @@ country_event = {
 
 	option = {
 		name = estonia.101.a
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+		add_popularity = { ideology = paternal popularity = -0.02 }
 		hidden_effect = {
 		}
 	}
@@ -621,7 +621,7 @@ country_event = {
 				name = EST_national_front_soccon
 			}
 			set_party_name = {
-				ideology = authoritarian_democrat 
+				ideology = paternal 
 				long_name = EST_national_front_autdem_long 
 				name = EST_national_front_autdem
 			}

@@ -1690,7 +1690,7 @@ focus_tree = {
 				has_government = fasci
 				has_government = social_democrat
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 				has_government = national_populist
 			}
@@ -2323,7 +2323,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = 0.05 }
 			add_popularity = { ideology = fasci popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+			add_popularity = { ideology = paternal popularity = -0.05 }
 		}
 
 	}
@@ -2368,7 +2368,7 @@ focus_tree = {
 		y = 3
 		
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 		ai_will_do = {
@@ -2378,7 +2378,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_pni_government"
 			add_political_power = 20
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 
 	}
@@ -2393,7 +2393,7 @@ focus_tree = {
 		y = 4
 		
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 		ai_will_do = {
@@ -2425,7 +2425,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = collectivist
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 		}
 		
@@ -2455,7 +2455,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = collectivist
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 		}
 		
@@ -2481,7 +2481,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 		ai_will_do = {
@@ -2513,7 +2513,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 		ai_will_do = {
@@ -2523,7 +2523,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_guided_democracy"
 			add_political_power = 20
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+			add_popularity = { ideology = paternal popularity = 0.05 }
 			add_popularity = { ideology = collectivist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 		}
@@ -2540,7 +2540,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 		ai_will_do = {
@@ -2568,7 +2568,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 		ai_will_do = {
@@ -2597,7 +2597,7 @@ focus_tree = {
 		y = 7
 		
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 		ai_will_do = {
@@ -2626,7 +2626,7 @@ focus_tree = {
 		y = 8
 		
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 		ai_will_do = {
@@ -2637,7 +2637,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_nasionalisme"
 			add_stability = 0.05
 			add_political_power = 25
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+			add_popularity = { ideology = paternal popularity = 0.05 }
 			remove_ideas = INS_political_instability_idea
 		}
 
@@ -2713,7 +2713,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_ties_with_pni_rightwingers"
 			add_stability = -0.01
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 		}
 
@@ -2739,7 +2739,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_attract_pni_voters"
 			add_political_power = -25
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+			add_popularity = { ideology = paternal popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 		}
 
@@ -2766,7 +2766,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_decentralize_presidential_power"
 			add_stability = 0.03
 			add_popularity = { ideology = collectivist popularity = -0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+			add_popularity = { ideology = paternal popularity = -0.03 }
 			swap_ideas = {
 				remove_idea = INS_build_islamic_democracy_idea
 				add_idea = INS_decentralize_presidential_power_idea
@@ -2998,7 +2998,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_purge_non_islamic_parties"
 			add_political_power = -30
 			add_popularity = { ideology = collectivist popularity = -0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 		}
 
 	}
@@ -3328,9 +3328,9 @@ focus_tree = {
 			hidden_effect = {
 				set_cosmetic_tag = INS_MAJ
 				set_party_name = { 
-					ideology = authoritarian_democrat 
-					long_name = INS_MAJ_authoritarian_democrat_party_long 
-					name = INS_MAJ_authoritarian_democrat_party 
+					ideology = paternal 
+					long_name = INS_MAJ_paternal_party_long 
+					name = INS_MAJ_paternal_party 
 				}
 				set_party_name = { 
 					ideology = paternal_autocrat 

@@ -20,7 +20,7 @@
  party_pop_coalition_liberal: "- [?token:liberal.GetTokenLocalizedKey]\n"
  party_pop_coalition_illuminist: "- [?token:illuminist.GetTokenLocalizedKey]\n"
  party_pop_coalition_social_conservative: "- [?token:social_conservative.GetTokenLocalizedKey]\n"
- party_pop_coalition_authoritarian_democrat: "- [?token:authoritarian_democrat.GetTokenLocalizedKey]\n"
+ party_pop_coalition_paternal: "- [?token:paternal.GetTokenLocalizedKey]\n"
  party_pop_coalition_paternal_autocrat: "- [?token:paternal_autocrat.GetTokenLocalizedKey]\n"
  party_pop_coalition_national_populist: "- [?token:national_populist.GetTokenLocalizedKey]\n"
  party_pop_coalition_revivalist: "- [?token:revivalist.GetTokenLocalizedKey]\n"

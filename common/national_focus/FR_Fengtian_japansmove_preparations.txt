@@ -78,7 +78,7 @@ focus_tree = {
 
 		focus = {
 			id = MAN_zhang_clique
-			icon = GFX_goal_ideology_authoritarian_democrat
+			icon = GFX_goal_ideology_paternal
 			prerequisite = { focus = MAN_elections }
 			available = { always = no }
 			mutually_exclusive = { focus = MAN_the_market_league }

@@ -19,7 +19,7 @@ country_event = { #Declare Independence
     hidden_effect = {
       separate_peace_all_wars = yes
       set_party_name = {
-        ideology = authoritarian_democrat
+        ideology = paternal
         long_name = EGY_ittihad_party_long
         name = EGY_ittihad_party
       }

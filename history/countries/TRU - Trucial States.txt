@@ -28,7 +28,7 @@ if = {
 set_war_support = 0.4
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -42,7 +42,7 @@ set_popularities = {
   liberal = 2
   illuminist = 0
   social_conservative = 16
-  authoritarian_democrat = 8
+  paternal = 8
   paternal_autocrat = 50
   national_populist = 0
   revivalist = 14

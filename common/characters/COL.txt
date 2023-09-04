@@ -345,7 +345,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Antonio_Jose_Uribe_Gaviria_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_silent_workhorse
 			}
 		}
@@ -732,7 +732,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Miguel_Abadia_Mendez_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_general_staffer
 			}
 		}
@@ -1102,7 +1102,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Luis_Acevedo_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_construction_magnate
 			}
 		}
@@ -1514,7 +1514,7 @@ characters = {
 				ROOT = { clr_country_flag = COL_Guillermo_Padilla_Manrique_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_back_stabber
 			}
 		}

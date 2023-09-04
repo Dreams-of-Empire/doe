@@ -21,7 +21,7 @@ set_popularities = {
 	fasci = 10
 	liberal = 22
 	social_conservative = 51
-	authoritarian_democrat = 15
+	paternal = 15
 	revivalist = 2
 }
 

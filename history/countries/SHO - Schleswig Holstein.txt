@@ -61,7 +61,7 @@ DEN = {
 give_military_access = ENG
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -75,7 +75,7 @@ set_popularities = {
     liberal = 8
     illuminist = 1
     social_conservative = 5
-    authoritarian_democrat = 33
+    paternal = 33
     paternal_autocrat = 4
     national_populist = 0
     revivalist = 0

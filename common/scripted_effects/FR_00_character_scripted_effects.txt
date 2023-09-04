@@ -9,7 +9,7 @@ remove_all_country_leader_roles = {
 	remove_country_leader_role_liberal = yes
 	remove_country_leader_role_illuminist = yes
 	remove_country_leader_role_social_conservative = yes
-	remove_country_leader_role_authoritarian_democrat = yes
+	remove_country_leader_role_paternal = yes
 	remove_country_leader_role_paternal_autocrat = yes
 	remove_country_leader_role_national_populist = yes
 	remove_country_leader_role_revivalist = yes
@@ -212,17 +212,17 @@ remove_country_leader_role_social_conservative = {
 	}
 }
 
-remove_country_leader_role_authoritarian_democrat = {
+remove_country_leader_role_paternal = {
 	if = {
-		limit = { has_ideology_group = authoritarian_democrat }
+		limit = { has_ideology_group = paternal }
 		
 		if = {
-			limit = { has_ideology = authoritarian_democrat_subtype }
-			remove_country_leader_role = { ideology = authoritarian_democrat_subtype }
+			limit = { has_ideology = paternal_subtype }
+			remove_country_leader_role = { ideology = paternal_subtype }
 		}
 		else_if = {
-			limit = { has_ideology = authdem_national_conservative_subtype }
-			remove_country_leader_role = { ideology = authdem_national_conservative_subtype }
+			limit = { has_ideology = pat_national_conservative_subtype }
+			remove_country_leader_role = { ideology = pat_national_conservative_subtype }
 		}
 		else_if = {
 			limit = { has_ideology = auth_duumvirism_subtype }
@@ -233,12 +233,12 @@ remove_country_leader_role_authoritarian_democrat = {
 			remove_country_leader_role = { ideology = police_state_subtype }
 		}
 		else_if = {
-			limit = { has_ideology = authdem_junta_subtype }
-			remove_country_leader_role = { ideology = authdem_junta_subtype }
+			limit = { has_ideology = pat_junta_subtype }
+			remove_country_leader_role = { ideology = pat_junta_subtype }
 		}
 		else_if = {
-			limit = { has_ideology = authdem_warlordism_subtype }
-			remove_country_leader_role = { ideology = authdem_warlordism_subtype }
+			limit = { has_ideology = pat_warlordism_subtype }
+			remove_country_leader_role = { ideology = pat_warlordism_subtype }
 		}
 		else_if = {
 			limit = { has_ideology = colonial_govt_subtype }
@@ -261,12 +261,12 @@ remove_country_leader_role_authoritarian_democrat = {
 			remove_country_leader_role = { ideology = hetmanism_subtype }
 		}
 		else_if = {
-			limit = { has_ideology = authdem_revolution_nationale_subtype }
-			remove_country_leader_role = { ideology = authdem_revolution_nationale_subtype }
+			limit = { has_ideology = pat_revolution_nationale_subtype }
+			remove_country_leader_role = { ideology = pat_revolution_nationale_subtype }
 		}
 		else_if = {
-			limit = { has_ideology = authdem_christian_democracy_subtype }
-			remove_country_leader_role = { ideology = authdem_christian_democracy_subtype }
+			limit = { has_ideology = pat_christian_democracy_subtype }
+			remove_country_leader_role = { ideology = pat_christian_democracy_subtype }
 		}
 	}
 }

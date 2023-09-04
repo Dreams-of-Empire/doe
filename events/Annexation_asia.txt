@@ -678,14 +678,14 @@ country_event = { # Fate of Philippines
         }
         else = {
           set_politics = {
-            ruling_party = authoritarian_democrat
+            ruling_party = paternal
             elections_allowed = no
           }
         }
         set_party_name = {
           name = PHI_ktp_party
           long_name = PHI_ktp_party_long
-          ideology = authoritarian_democrat
+          ideology = paternal
         }
         increase_ruling_party_popularity_by_10 = yes
         add_country_leader_role = {

@@ -33,7 +33,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Izaak_Reynders_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_happy_amateur
 			}
 		}
@@ -512,7 +512,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_PRINCE_BERNHARD_DESC"
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = {
 				prince_of_the_people
 			}

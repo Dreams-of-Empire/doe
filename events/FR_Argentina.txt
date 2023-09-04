@@ -642,7 +642,7 @@ country_event = { #subsidized
 			popularity = 0.0125
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.0125
 		}
 		add_popularity = {
@@ -1911,10 +1911,10 @@ country_event = { #infamous day
 		name = arg.253.b
 		add_ideas = military_junta
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat 
+			ideology = paternal 
 			popularity = 0.2
 		}
 		hidden_effect = {
@@ -2043,10 +2043,10 @@ country_event = { #infamous day
 		name = arg.253.b
 		add_ideas = military_junta
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 		}
 			add_popularity = {
-				ideology = authoritarian_democrat popularity = 0.2
+				ideology = paternal popularity = 0.2
 		}
 		hidden_effect = {
 			set_global_flag = ARG_military_takeover
@@ -2323,7 +2323,7 @@ country_event = { #march
 		ai_chance = { factor = 100 }
 		add_political_power = 50
 		add_popularity = {
-			ideology = authoritarian_democrat popularity = 0.05
+			ideology = paternal popularity = 0.05
 		}
 		}
 	}

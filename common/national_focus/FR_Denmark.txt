@@ -2383,7 +2383,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_for_nation_and_tradition"
 			add_stability = 0.03
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 		}
 
@@ -2628,7 +2628,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_alliance_with_church"
 			add_stability = 0.03
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			add_ideas = DEN_for_nation_and_tradition_idea
 		}
@@ -3649,7 +3649,7 @@ focus_tree = {
 			add_stability = -0.02
 			add_political_power = 25
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+			add_popularity = { ideology = paternal popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
 			swap_ideas = {
 				remove_idea = DEN_strengthen_republican_sentiments_idea
@@ -4047,7 +4047,7 @@ focus_tree = {
 			add_popularity = { ideology = liberal popularity = -0.02 }
 			add_popularity = { ideology = illuminist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+			add_popularity = { ideology = paternal popularity = -0.01 }
 			add_popularity = { ideology = national_populist popularity = -0.01 }
 			swap_ideas = {
 				remove_idea = DEN_danish_monarchism_idea

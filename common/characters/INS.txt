@@ -293,7 +293,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Mohammed_Hatta_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_charismatic_charmer
 			}
 		}
@@ -307,7 +307,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			desc = POLTICS_SUKARNO_DESC
 			traits = { }
 		}
@@ -326,7 +326,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Sukarno_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_respected_war_hero
 			}
 		}
@@ -639,7 +639,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Achmad_Soebardjo_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_hawkish_intervener
 			}
 		}
@@ -666,7 +666,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Ali_Sastroamidjojo_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -693,7 +693,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Ruslan_Abdulgani_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_general_staffer
 			}
 		}
@@ -1071,7 +1071,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Alexander_Maramis_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_steel_magnate
 			}
 		}
@@ -1098,7 +1098,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Wongsonegoro_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_industrial_chemist
 			}
 		}
@@ -1368,7 +1368,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Sahardjo_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_silent_lawyer
 			}
 		}

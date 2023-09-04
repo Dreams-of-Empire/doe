@@ -103,7 +103,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 	}
@@ -606,7 +606,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Georgi_Kyoseivanov_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_backroom_backstabber
 			}
 		}
@@ -633,7 +633,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Petko_Stainov_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_silent_workhorse
 			}
 		}
@@ -660,7 +660,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Raiko_Daskalov_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_smiling_oilman
 			}
 		}
@@ -768,7 +768,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Tsanko_Tserkovski_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_ideological_crusader
 			}
 		}
@@ -957,7 +957,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Aleksandur_Obbov_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_mixed_economy
 			}
 		}
@@ -984,7 +984,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Slaveiko_Vasilev_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_resource_industrialist
 			}
 		}
@@ -1173,7 +1173,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Rashko_Madzharov_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_prince_of_terror
 			}
 		}
@@ -1200,7 +1200,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Spas_Duparinov_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_efficient_sociopath
 			}
 		}

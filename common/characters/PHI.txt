@@ -303,7 +303,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Jose_P_Laurel_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_silent_workhorse
 			}
 		}
@@ -403,7 +403,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_EMILIO_AGUINALDO_DESC"
-			ideology = authdem_national_conservative_subtype
+			ideology = pat_national_conservative_subtype
 			traits = { }
 		}
 		advisor = {
@@ -421,7 +421,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Emilio_Aguinaldo_hog_npo_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_old_general
 			}
 		}
@@ -1041,7 +1041,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Benigno_Aquino_Sr_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_backroom_backstabber
 			}
 		}
@@ -1079,7 +1079,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Benigno_Aquino_Sr_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1243,7 +1243,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Ferdinand_E_Marcos_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_iron_fisted_brute
 			}
 		}
@@ -1290,7 +1290,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Claro_M_Recto_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_great_compromiser
 			}
 		}
@@ -1611,7 +1611,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Serafin_Fausto_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_administrative_genius
 			}
 		}

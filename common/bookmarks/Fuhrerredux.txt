@@ -14,7 +14,7 @@ bookmarks = {
     #### Majors
     # "MAC" = {
     #   history = "MAC_FUHRERREDUX_DESC"
-    #   ideology = authoritarian_democrat
+    #   ideology = paternal
     #   ideas = {
         
     #   }
@@ -182,7 +182,7 @@ bookmarks = {
     }
     "ROM" = {
       history = "ROM_FUHRERREDUX_DESC"
-      ideology = authoritarian_democrat
+      ideology = paternal
       minor = yes
       ideas = {
         ROM_tensions_in_transylvania
@@ -241,7 +241,7 @@ bookmarks = {
     }
     "PHI" = {
       history = "PHI_FUHRERREDUX_DESC"
-      ideology = authoritarian_democrat
+      ideology = paternal
       minor = yes
       ideas = {
         PHI_lingering_sakdalistas
@@ -321,7 +321,7 @@ bookmarks = {
     }
     "AFG" = {
       history = "AFG_FUHRERREDUX_DESC"
-      ideology = authoritarian_democrat
+      ideology = paternal
       minor = yes
       ideas = {
         AFG_tribal_influences_afghanistan_idea
@@ -417,7 +417,7 @@ bookmarks = {
     }
     "SAF" = {
       history = "SAF_FUHRERREDUX_DESC"
-      ideology = authoritarian_democrat
+      ideology = paternal
       minor = yes
       ideas = {
         SAF_Rhodesia_Unrest

@@ -290,7 +290,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_James_Hertzog_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_old_compromiser
 			}
 		}
@@ -318,7 +318,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Nicolaas_Havenga_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_political_protege
 			}
 		}
@@ -891,7 +891,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Ben_Schoeman_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_great_soul
 			}
 		}
@@ -1230,7 +1230,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {

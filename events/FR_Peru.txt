@@ -150,9 +150,9 @@ country_event = { #Further Democratization (new parlamentary elections)#
 	option = {
 		name = pru.3.c
 
-		set_politics = { ruling_party = authoritarian_democrat }
+		set_politics = { ruling_party = paternal }
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.15
 		}
 		hidden_effect = {
@@ -160,7 +160,7 @@ country_event = { #Further Democratization (new parlamentary elections)#
         character = PRU_Luis_Miguel_Sanchez_Cerro
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }

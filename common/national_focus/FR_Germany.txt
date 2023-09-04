@@ -10635,7 +10635,7 @@ focus_tree = {
 				has_government = liberal
 				has_government = illuminist
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 		    }
 		}
@@ -13422,7 +13422,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_preparing_the_path
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		cost = 5
 		x = 14
 		y = 11
@@ -13435,7 +13435,7 @@ focus_tree = {
 			}
 		}
 		available = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 			has_idea = ger_benevolence_and_tolerance
 		}		
 	}

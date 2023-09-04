@@ -9,8 +9,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/filipino_nationalism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_authdem_christian_democracy_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/authdem_christian_democracy_group.png"
+		name = "GFX_ideology_pat_christian_democracy_subtype"
+		texturefile = "gfx/interface/ideologies/subideologies/pat_christian_democracy_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_panasian_nichirenist_subtype"
@@ -73,8 +73,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/socdem_longism_group.png"
 	}
   	spriteType = {
-		name = "GFX_ideology_authdem_national_conservative_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/authdem_national_conservative_group.png"
+		name = "GFX_ideology_pat_national_conservative_subtype"
+		texturefile = "gfx/interface/ideologies/subideologies/pat_national_conservative_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_autocratic_colonial_govt_subtype"
@@ -89,12 +89,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/pataut_warlordism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_authdem_junta_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/authdem_junta_group.png"
+		name = "GFX_ideology_pat_junta_subtype"
+		texturefile = "gfx/interface/ideologies/subideologies/pat_junta_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_authdem_warlordism_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/authdem_warlordism_group.png"
+		name = "GFX_ideology_pat_warlordism_subtype"
+		texturefile = "gfx/interface/ideologies/subideologies/pat_warlordism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_soccon_warlordism_subtype"
@@ -237,8 +237,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/soccon_colonial_govt_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_authdem_revolution_nationale_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/authdem_revolution_nationale_group.png"
+		name = "GFX_ideology_pat_revolution_nationale_subtype"
+		texturefile = "gfx/interface/ideologies/subideologies/pat_revolution_nationale_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_revolution_nationale_subtype"

@@ -1474,7 +1474,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
+			add_popularity = { ideology = paternal popularity = 0.1 }
 			add_popularity = { ideology = national_populist popularity = -0.1 }
 		}
 	}
@@ -1595,7 +1595,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Offer_Amnesty"
 			add_stability = 0.05
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+			add_popularity = { ideology = paternal popularity = 0.05 }
 		}
 	}
 
@@ -1778,7 +1778,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Administrative_Changes"
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
+			add_popularity = { ideology = paternal popularity = 0.1 }
 		}
 	}
 
@@ -1847,7 +1847,7 @@ focus_tree = {
 			add_popularity = { ideology = vanguardist popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.05 }
 			add_popularity = { ideology = national_populist popularity = 0.05 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.15 }
+			add_popularity = { ideology = paternal popularity = -0.15 }
 		}
 	}
 
@@ -1905,7 +1905,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Time_Tested_Solution"
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.1 }
+			add_popularity = { ideology = paternal popularity = -0.1 }
 			add_stability = 0.1
 		}
 	}
@@ -1924,7 +1924,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Gentle_Hand"
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
+			add_popularity = { ideology = paternal popularity = 0.1 }
 			add_political_power = 100
 		}
 	}
@@ -1943,7 +1943,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Iron_Fist"
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
+			add_popularity = { ideology = paternal popularity = 0.1 }
 			add_stability = 0.1
 		}
 	}
@@ -2199,7 +2199,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Untenable"
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.1 }
+			add_popularity = { ideology = paternal popularity = -0.1 }
 		}
 	}
 

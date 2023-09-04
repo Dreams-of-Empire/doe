@@ -102,7 +102,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -226,7 +226,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Oscar_Nygren_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_reformist_soldier
 			}
 		}
@@ -328,7 +328,7 @@ characters = {
 			idea_token = SWE_Carl_Gustaf_Hammarskjold_hog_ade
 			can_be_fired = no
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_reformist_soldier
 			}
 		}
@@ -369,7 +369,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Helge_Jung_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_reformist_soldier
 			}
 		}
@@ -522,7 +522,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Harald_Malmberg_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_administrative_genius
 			}
 		}
@@ -1524,7 +1524,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Sven_Hedin_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_hawkish_intervener
 			}
 		}
@@ -2112,7 +2112,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Carlos_Adlercreutz_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_preserver_of_culture
 			}
 		}
@@ -2180,7 +2180,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Per_Sylvan_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_media_magnate
 			}
 		}

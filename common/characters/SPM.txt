@@ -15,7 +15,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -257,7 +257,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Jose_Maria_Gil_Robles_y_Quinones_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -446,7 +446,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Alberto_M_Artejo_Alvarez_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -635,7 +635,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Jose_Calvo_Sotelo_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_resource_industrialist
 			}
 		}
@@ -876,7 +876,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Blas_Perez_Gonzalez_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_compassionate_gentleman
 			}
 		}
@@ -903,7 +903,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Miguel_Ponte_Manso_de_Zuniga_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_man_of_the_people
 			}
 		}
@@ -1030,7 +1030,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Francisco_Franco_Bahamonde_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_old_general
 			}
 		}

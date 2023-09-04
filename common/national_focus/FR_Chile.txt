@@ -406,7 +406,7 @@ focus_tree = {
 						has_war_with = BOL
 						has_government = liberal
 						has_government = illuminist
-						has_government = authoritarian_democrat
+						has_government = paternal
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist
@@ -453,7 +453,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHL_a_gentle_manner"
 			add_popularity = { 
-				ideology = authoritarian_democrat popularity = 0.05
+				ideology = paternal popularity = 0.05
 			}
 			add_popularity = { 	
 				ideology = social_conservative popularity = 0.05
@@ -1792,7 +1792,7 @@ focus = {
 						has_government = fasci
 						has_government = collectivist
 						has_government = paternal_autocrat
-						has_government = authoritarian_democrat
+						has_government = paternal
 						has_government = revivalist
 						has_government = national_populist
 					}
@@ -1969,7 +1969,7 @@ focus = {
 				is_in_faction = no
 				OR = {
 				has_government = paternal_autocrat
-				has_government = authoritarian_democrat
+				has_government = paternal
 				}
 				NOT = { has_war_with = CHL }
 			}
@@ -1997,7 +1997,7 @@ focus = {
 				is_in_faction = no
 				OR = {
 				has_government = paternal_autocrat
-				has_government = authoritarian_democrat
+				has_government = paternal
 				}
 				NOT = { has_war_with = CHL }
 			}
@@ -2538,7 +2538,7 @@ focus = {
 						has_war_with = CHL
 						has_government = liberal
 						has_government = illuminist
-						has_government = authoritarian_democrat
+						has_government = paternal
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = revivalist

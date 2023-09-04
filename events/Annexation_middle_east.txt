@@ -87,7 +87,7 @@ country_event = { # Fate of Iraq
           promote_character = liberal_subtype
           promote_character = illuminist_subtype
           promote_character = social_conservative_subtype
-          promote_character = authoritarian_democrat_subtype
+          promote_character = paternal_subtype
           promote_character = paternal_autocrat_subtype
           promote_character = national_populist_subtype
         }
@@ -123,7 +123,7 @@ country_event = { # Fate of Iraq
           promote_character = liberal_subtype
           promote_character = illuminist_subtype
           promote_character = social_conservative_subtype
-          promote_character = authoritarian_democrat_subtype
+          promote_character = paternal_subtype
           promote_character = paternal_autocrat_subtype
           promote_character = national_populist_subtype
         }

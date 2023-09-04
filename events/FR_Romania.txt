@@ -590,7 +590,7 @@ country_event = { # 1937 General Elections
 			}
 		}
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = yes
 		}
 		set_country_flag = ROM_had_1937_elections
@@ -1414,7 +1414,7 @@ country_event = { # Coronation of Alexander I
       character = ROM_Alexandru_Cantacuzino
       promote_leader = yes
       country_leader = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
         traits = {}
       }
     }
@@ -1932,7 +1932,7 @@ country_event = { # 1941 Elections
 	option = { # PNT
 		name = romania.44.a
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = yes
 		}
 		increase_ruling_party_popularity_by_15 = yes
@@ -2050,7 +2050,7 @@ country_event = { # 1945 Elections
 	option = { # PNT
 		name = romania.45.a
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = yes
 		}
 		increase_ruling_party_popularity_by_15 = yes
@@ -2160,7 +2160,7 @@ country_event = { # 1949 Elections
 	option = { # PNT
 		name = romania.46.a
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = yes
 		}
 		increase_ruling_party_popularity_by_15 = yes
@@ -2271,7 +2271,7 @@ country_event = { # 1953 Elections
 	option = { # PNT
 		name = romania.47.a
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = yes
 		}
 		increase_ruling_party_popularity_by_15 = yes
@@ -2382,7 +2382,7 @@ country_event = { # 1957 Elections
 	option = { # PNT
 		name = romania.48.a
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = yes
 		}
 		increase_ruling_party_popularity_by_15 = yes

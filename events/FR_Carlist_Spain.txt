@@ -213,7 +213,7 @@ country_event = {
 		add_political_power = 15
 		hidden_effect = {
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.04 }
+			add_popularity = { ideology = paternal popularity = 0.04 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
 		}
 	}
@@ -872,7 +872,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = authoritarian_democrat_subtype
+						ideology = paternal_subtype
 						traits = {}
 					}
 				}
@@ -938,7 +938,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = authoritarian_democrat_subtype
+						ideology = paternal_subtype
 						traits = {}
 					}
 				}

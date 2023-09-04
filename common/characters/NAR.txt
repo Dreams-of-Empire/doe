@@ -28,7 +28,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -46,7 +46,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Henry_Ford_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_corporate_suit
 			}
 		}
@@ -297,7 +297,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_James_Francis_Byrnes_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_happy_amateur
 			}
 		}
@@ -629,7 +629,7 @@ characters = {
 				ROOT = { clr_country_flag = NAR_Fred_Koch_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_administrative_genius
 			}
 		}

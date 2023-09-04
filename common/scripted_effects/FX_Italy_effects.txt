@@ -61,7 +61,7 @@ ITA_create_east_africa = {
       add_country_leader_role = {
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = { }
         }
       }
@@ -627,14 +627,14 @@ ITA_become_republic = {
     add_ideas = parliamentary_republic
 
     set_party_name = {
-      ideology = authoritarian_democrat
+      ideology = paternal
       name = ITA_junta_party
       long_name = ITA_junta_party_long
     }
     set_party_name = {
       ideology = paternal_autocrat
-      name = ITA_authoritarian_democrat_party
-      long_name = ITA_authoritarian_democrat_party_long
+      name = ITA_paternal_party
+      long_name = ITA_paternal_party_long
     }
 
     promote_character = ITA_Palmiro_Togliatti
@@ -655,9 +655,9 @@ ITA_become_kingdom = {
     add_ideas = constitutional_monarchy
 
     set_party_name = {
-      ideology = authoritarian_democrat
-      name = ITA_authoritarian_democrat_party
-      long_name = ITA_authoritarian_democrat_party_long
+      ideology = paternal
+      name = ITA_paternal_party
+      long_name = ITA_paternal_party_long
     }
     set_party_name = {
       ideology = paternal_autocrat
@@ -675,7 +675,7 @@ ITA_become_kingdom = {
         promote_character = liberal_subtype
         promote_character = illuminist_subtype
         promote_character = social_conservative_subtype
-        promote_character = authoritarian_democrat_subtype
+        promote_character = paternal_subtype
         promote_character = paternal_autocrat_subtype
         promote_character = national_populist_subtype
         promote_character = revivalist_subtype

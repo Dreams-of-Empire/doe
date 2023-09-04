@@ -58,7 +58,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Paul_Tirard_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_pragmatic_statesman
 			}
 		}
@@ -77,7 +77,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Paul_Tirard_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -335,7 +335,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Henri_Mordacq_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -474,7 +474,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Victor_Hay_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_charismatic_charmer
 			}
 		}
@@ -588,7 +588,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_William_Seeds_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_relations_expert
 			}
 		}
@@ -750,7 +750,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_EF_Schumachher_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_steel_magnate
 			}
 		}
@@ -858,7 +858,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Karl_von_Starck_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_compassionate_gentleman
 			}
 		}

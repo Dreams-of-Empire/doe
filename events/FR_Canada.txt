@@ -135,7 +135,7 @@ country_event = {
 				desc = "POLITICS_GEORGE_VI_DESC" 
 				picture = "gfx/leaders/ENG/Portrait_Britain_George_VI.png" 
 				expire = "1965.1.1" 
-				ideology = authoritarian_democrat_subtype
+				ideology = paternal_subtype
 				traits = {  } 
 			}
 			create_country_leader = { 
@@ -204,7 +204,7 @@ country_event = {
 				desc = "POLITICS_EDWARD_VIII_DESC" 
 				picture = "gfx/leaders/ENG/Portrait_Britain_Edward_VIII_fx.png.png" 
 				expire = "1965.1.1" 
-				ideology = authoritarian_democrat_subtype
+				ideology = paternal_subtype
 				traits = {  } 
 			}
 			create_country_leader = { 
@@ -719,7 +719,7 @@ country_event = {
 	
 	option = {
 		name = "Let them riot!"
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+		add_popularity = { ideology = paternal popularity = 0.01 }
 		add_timed_idea = {
 			idea = CAN_quebec_riots
 			days = 60
@@ -728,7 +728,7 @@ country_event = {
 
 	option = {
 		name = "Agree to their demands and reduce conscription."
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.025 }
+		add_popularity = { ideology = paternal popularity = -0.025 }
 		add_political_power = 75
 		decrease_conscription = yes
 	}
@@ -867,11 +867,11 @@ country_event = {
 		tag = CAN
 		AND = {
 			NOT = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_country_flag = CAN_JUNTA_REPLACED_NATIONALISTS
 			}
 		}
-		authoritarian_democrat > 0.1
+		paternal > 0.1
 		has_war = yes
 	}
 	
@@ -903,11 +903,11 @@ country_event = {
 		tag = CAN
 		AND = {
 			NOT = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_country_flag = CAN_JUNTA_REPLACED_NATIONALISTS
 			}
 		}
-		authoritarian_democrat > 0.15
+		paternal > 0.15
 		has_war = yes
 	}
 	
@@ -938,11 +938,11 @@ country_event = { #I'd add more events for nationalists being a pain in the ass,
 		tag = CAN
 		AND = {
 			NOT = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_country_flag = CAN_JUNTA_REPLACED_NATIONALISTS
 			}
 		}
-		authoritarian_democrat > 0.2
+		paternal > 0.2
 		has_war = yes
 	}
 	
@@ -1696,7 +1696,7 @@ country_event = {
 		name = "Proportional Voting is best for representing small political groups."
 		ai_chance = { factor = 100 }
 		add_political_power = 150
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+		add_popularity = { ideology = paternal popularity = 0.01 }
 		add_popularity = { ideology = liberal popularity = 0.01 }
 		add_popularity = { ideology = fasci popularity = 0.01 }
 		add_popularity = { ideology = collectivist popularity = 0.01 }
@@ -1929,7 +1929,7 @@ country_event = {
 	
 	option = {
 		name = "Arrest the leadership, the mob will eventually burn themselves out."
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.015 }
+		add_popularity = { ideology = paternal popularity = 0.015 }
 		add_popularity = { ideology = vanguardist popularity = 0.015 }
 		decrease_ruling_party_popularity_by_5 = yes
 		add_manpower = -25
@@ -2855,12 +2855,12 @@ country_event = {
 			elections_allowed = no
 		}
 		set_party_name = { 
-			ideology = authoritarian_democrat 
+			ideology = paternal 
 			long_name = CAN_mil_junta_long 
 			name = CAN_mil_junta_short 
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.25 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.2 }
+		add_popularity = { ideology = paternal popularity = 0.2 }
 		set_country_flag = CAN_JUNTA_REPLACED_NATIONALISTS
 		set_country_flag = CAN_AUTOCRACY
 		country_event = { days = 60 id = canelection.21 }
@@ -2966,7 +2966,7 @@ country_event = {
 			desc = ""
 			picture = "Portrait_Andrew_McNaughton.png"
 			expire = "1965.3.1"
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = {	}
 		}
 		add_ideas = { #Need to make Ministers for the Military Junta
@@ -2976,10 +2976,10 @@ country_event = {
 			CAN_Andrew_McNaughton_sec_pau
 		}
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.30 }
+		add_popularity = { ideology = paternal popularity = 0.30 }
 		ai_chance = {
 			base = 0
 			modifier = {

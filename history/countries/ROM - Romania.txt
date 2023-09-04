@@ -90,7 +90,7 @@ add_ideas = {
 set_convoys = 17
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -104,7 +104,7 @@ set_popularities = {
   liberal = 10
   illuminist = 16
   social_conservative = 12
-  authoritarian_democrat = 28
+  paternal = 28
   paternal_autocrat = 0
   national_populist = 3
   revivalist = 15

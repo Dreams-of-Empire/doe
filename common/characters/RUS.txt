@@ -10,7 +10,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -1470,7 +1470,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Aleksandr_S_Lukomsky_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_naive_optimist
 			}
 		}
@@ -1497,7 +1497,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Patriarch_Kiril_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_spiritual_leader
 			}
 		}
@@ -1524,7 +1524,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vasily_Kanin_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_happy_amateur
 			}
 		}
@@ -2037,7 +2037,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Mikhail_A_Taube_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -2064,7 +2064,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vladimir_Galitzine_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_iron_fisted_brute
 			}
 		}
@@ -2496,7 +2496,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Alexei_P_Arkhangelskiy_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_industrialiser
 			}
 		}
@@ -2523,7 +2523,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Dmitri_Pavlovich_Romanov_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_keynesian_economy
 			}
 		}
@@ -2550,7 +2550,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Mikhail_Rodzyanko_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_resource_industrialist
 			}
 		}
@@ -2577,7 +2577,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Pavel_N_Ignatiev_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -2604,7 +2604,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vladimir_N_Kokovtsov_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_battlefield_support_proponent
 			}
 		}
@@ -3009,7 +3009,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Sergei_P_Melgunov_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_back_stabber
 			}
 		}
@@ -3036,7 +3036,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Sergius_of_Nizhny_Novgorod_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_health_and_safety
 			}
 		}

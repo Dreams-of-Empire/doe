@@ -114,7 +114,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Konstantin_Pats_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_smiling_oilman
 			}
 		}
@@ -530,7 +530,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Kaarel_Eenpalu_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_charismatic_charmer
 			}
 		}
@@ -549,7 +549,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Kaarel_Eenpalu_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_efficient_sociopath
 			}
 		}
@@ -676,7 +676,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Ants_Piip_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_apologetic_clerk
 			}
 		}
@@ -703,7 +703,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Friedrich_Karl_Akel_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_biased_intellectual
 			}
 		}
@@ -730,7 +730,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Julius_Seljamaa_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_ideological_crusader
 			}
 		}
@@ -749,7 +749,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Julius_Seljamaa_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_secret_police_chief
 			}
 		}
@@ -776,7 +776,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Karl_Selter_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_relations_expert
 			}
 		}
@@ -795,7 +795,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Karl_Selter_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_balanced_budget_economy
 			}
 		}

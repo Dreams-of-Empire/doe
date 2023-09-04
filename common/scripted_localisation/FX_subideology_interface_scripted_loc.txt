@@ -80,9 +80,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_national_conservative_subtype
+			has_country_leader_ideology = pat_national_conservative_subtype
 		}
-		localization_key = authdem_national_conservative_subtype
+		localization_key = pat_national_conservative_subtype
 	}
 	text = {
 		trigger = {
@@ -122,15 +122,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_junta_subtype
+			has_country_leader_ideology = pat_junta_subtype
 		}
-		localization_key = authdem_junta_subtype
+		localization_key = pat_junta_subtype
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_warlordism_subtype
+			has_country_leader_ideology = pat_warlordism_subtype
 		}
-		localization_key = authdem_warlordism_subtype
+		localization_key = pat_warlordism_subtype
 	}
 	text = {
 		trigger = {
@@ -350,9 +350,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_revolution_nationale_subtype
+			has_country_leader_ideology = pat_revolution_nationale_subtype
 		}
-		localization_key = authdem_revolution_nationale_subtype
+		localization_key = pat_revolution_nationale_subtype
 	}
 	text = {
 		trigger = {
@@ -404,9 +404,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_christian_democracy_subtype
+			has_country_leader_ideology = pat_christian_democracy_subtype
 		}
-		localization_key = authdem_christian_democracy_subtype
+		localization_key = pat_christian_democracy_subtype
 	}
 	text = {
 		trigger = {
@@ -469,9 +469,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authoritarian_democrat_subtype
+			has_country_leader_ideology = paternal_subtype
 		}
-		localization_key = authoritarian_democrat
+		localization_key = paternal
 	}
 	text = {
 		trigger = {
@@ -560,9 +560,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_national_conservative_subtype
+			has_country_leader_ideology = pat_national_conservative_subtype
 		}
-		localization_key = authdem_national_conservative_subtype
+		localization_key = pat_national_conservative_subtype
 	}
 	text = {
 		trigger = {
@@ -602,15 +602,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_junta_subtype
+			has_country_leader_ideology = pat_junta_subtype
 		}
-		localization_key = authdem_junta_subtype
+		localization_key = pat_junta_subtype
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_warlordism_subtype
+			has_country_leader_ideology = pat_warlordism_subtype
 		}
-		localization_key = authdem_warlordism_subtype
+		localization_key = pat_warlordism_subtype
 	}
 	text = {
 		trigger = {
@@ -830,9 +830,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_revolution_nationale_subtype
+			has_country_leader_ideology = pat_revolution_nationale_subtype
 		}
-		localization_key = authdem_revolution_nationale_subtype
+		localization_key = pat_revolution_nationale_subtype
 	}
 	text = {
 		trigger = {
@@ -884,9 +884,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_christian_democracy_subtype
+			has_country_leader_ideology = pat_christian_democracy_subtype
 		}
-		localization_key = authdem_christian_democracy_subtype
+		localization_key = pat_christian_democracy_subtype
 	}
 	text = {
 		trigger = {
@@ -973,9 +973,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_national_conservative_subtype
+			has_country_leader_ideology = pat_national_conservative_subtype
 		}
-		localization_key = authdem_national_conservative_subtype_desc
+		localization_key = pat_national_conservative_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1015,15 +1015,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_junta_subtype
+			has_country_leader_ideology = pat_junta_subtype
 		}
-		localization_key = authdem_junta_subtype_desc
+		localization_key = pat_junta_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_warlordism_subtype
+			has_country_leader_ideology = pat_warlordism_subtype
 		}
-		localization_key = authdem_warlordism_subtype_desc
+		localization_key = pat_warlordism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1249,9 +1249,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_revolution_nationale_subtype
+			has_country_leader_ideology = pat_revolution_nationale_subtype
 		}
-		localization_key = authdem_revolution_nationale_subtype_desc
+		localization_key = pat_revolution_nationale_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1303,9 +1303,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_christian_democracy_subtype
+			has_country_leader_ideology = pat_christian_democracy_subtype
 		}
-		localization_key = authdem_christian_democracy_subtype_desc
+		localization_key = pat_christian_democracy_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1369,9 +1369,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authoritarian_democrat_subtype
+			has_country_leader_ideology = paternal_subtype
 		}
-		localization_key = authoritarian_democrat_subtype_desc
+		localization_key = paternal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1459,9 +1459,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_national_conservative_subtype
+			has_country_leader_ideology = pat_national_conservative_subtype
 		}
-		localization_key = authdem_national_conservative_subtype_desc
+		localization_key = pat_national_conservative_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1501,15 +1501,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_junta_subtype
+			has_country_leader_ideology = pat_junta_subtype
 		}
-		localization_key = authdem_junta_subtype_desc
+		localization_key = pat_junta_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_warlordism_subtype
+			has_country_leader_ideology = pat_warlordism_subtype
 		}
-		localization_key = authdem_warlordism_subtype_desc
+		localization_key = pat_warlordism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1735,9 +1735,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_revolution_nationale_subtype
+			has_country_leader_ideology = pat_revolution_nationale_subtype
 		}
-		localization_key = 	authdem_revolution_nationale_subtype_desc
+		localization_key = 	pat_revolution_nationale_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1795,9 +1795,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authdem_christian_democracy_subtype
+			has_country_leader_ideology = pat_christian_democracy_subtype
 		}
-		localization_key = authdem_christian_democracy_subtype_desc
+		localization_key = pat_christian_democracy_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1908,22 +1908,22 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = authoritarian_democrat_subtype
-				has_country_leader_ideology = authdem_national_conservative_subtype
+				has_country_leader_ideology = paternal_subtype
+				has_country_leader_ideology = pat_national_conservative_subtype
 				has_country_leader_ideology = auth_duumvirism_subtype
 				has_country_leader_ideology = police_state_subtype
-				has_country_leader_ideology = authdem_junta_subtype
-				has_country_leader_ideology = authdem_warlordism_subtype
+				has_country_leader_ideology = pat_junta_subtype
+				has_country_leader_ideology = pat_warlordism_subtype
 				has_country_leader_ideology = colonial_govt_subtype
 				has_country_leader_ideology = oligarchy_subtype
 				has_country_leader_ideology = prussian_constitutionalism_subtype
 				has_country_leader_ideology = controlled_democracy_subtype
 				has_country_leader_ideology = hetmanism_subtype
-				has_country_leader_ideology = authdem_revolution_nationale_subtype
-				has_country_leader_ideology = authdem_christian_democracy_subtype
+				has_country_leader_ideology = pat_revolution_nationale_subtype
+				has_country_leader_ideology = pat_christian_democracy_subtype
 			}
 		}
-		localization_key = authoritarian_democrat_color
+		localization_key = paternal_color
 	}
 	text = {
 		trigger = {
@@ -2018,9 +2018,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = authoritarian_democrat_subtype
+			has_country_leader_ideology = paternal_subtype
 		}
-		localization_key = authoritarian_democrat_subtype_desc
+		localization_key = paternal_subtype_desc
 	}
 	text = {
 		trigger = {

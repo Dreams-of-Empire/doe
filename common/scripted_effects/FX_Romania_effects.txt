@@ -173,7 +173,7 @@ ROM_make_michael_king = {
 			promote_leader = yes
 			country_leader = {
 				desc = POLITICS_MICHAEL_I_DESC
-				ideology = authoritarian_democrat_subtype
+				ideology = paternal_subtype
 				traits = {}
 			}
 		}
@@ -299,13 +299,13 @@ ROM_make_nicholas_king = {
 		}
 		if = {
 			limit = {
-				NOT = { has_ideology_group = authoritarian_democrat }
+				NOT = { has_ideology_group = paternal }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
 					desc = POLITICS_NICHOLAS_I_DESC
-					ideology = authoritarian_democrat_subtype
+					ideology = paternal_subtype
 					traits = {}
 				}
 			}
@@ -413,7 +413,7 @@ ROM_become_republic = {
 		character = ROM_Armand_Calinescu
 		promote_leader = yes
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 	}

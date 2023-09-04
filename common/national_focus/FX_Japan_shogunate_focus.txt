@@ -78,7 +78,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus JAP_restore_ritsuryo"
 		add_stability = 0.05
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.05
 		}
 	}
@@ -98,7 +98,7 @@ shared_focus = {
 		add_ideas = JAP_first_amongs_equal
 		add_war_support = 0.05
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.05
 		}
 	}
@@ -436,7 +436,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus JAP_mikawahan_faction"
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
    			elections_allowed = no
 		}
 		remove_every_hog_trait = yes  
@@ -1189,7 +1189,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus JAP_make_parliament_our_rubberstamp"
 		add_political_power = 25
 		add_popularity = {
-			ideology = authoritarian_democrat 
+			ideology = paternal 
 			popularity = -0.05
 		} 
 	}

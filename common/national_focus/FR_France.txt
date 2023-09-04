@@ -4919,7 +4919,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_capitulated = no
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		prerequisite = {
 			focus = fra_christ_dem
@@ -4938,7 +4938,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_capitulated = no
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		prerequisite = {
 			focus = fra_christ_dem
@@ -4957,7 +4957,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_capitulated = no
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		prerequisite = {
 			focus = fra_christ_dem
@@ -4985,7 +4985,7 @@ focus_tree = {
 		}
 		available = {
 			has_capitulated = no
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		relative_position_id = fra_bridge_gap
 		completion_reward = {
@@ -5022,7 +5022,7 @@ focus_tree = {
 		}
 		available = {
 			has_capitulated = no
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		relative_position_id = fra_ban_radicals
 		completion_reward = {
@@ -5044,7 +5044,7 @@ focus_tree = {
 		}
 		available = {
 			has_capitulated = no
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		relative_position_id = fra_ban_radicals
 		completion_reward = {

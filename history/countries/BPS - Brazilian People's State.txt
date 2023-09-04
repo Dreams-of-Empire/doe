@@ -21,7 +21,7 @@ set_popularities = {
     paternal_autocrat = 42
     collectivist = 6
     fasci = 6
-    authoritarian_democrat = 5
+    paternal = 5
 }
 set_convoys = 40
 set_stability = 0.60

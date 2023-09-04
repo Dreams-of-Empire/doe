@@ -129,7 +129,7 @@ ARM = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -250,7 +250,7 @@ AZR = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"

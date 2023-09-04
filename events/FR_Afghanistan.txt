@@ -36,7 +36,7 @@ country_event = {
 		ai_chance = { base = 60 }
 		add_political_power = 25
 		add_war_support = 0.02
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+		add_popularity = { ideology = paternal popularity = 0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 		custom_effect_tooltip = AFG_india_rebellion_warning_tooltip
 		hidden_effect = {
@@ -63,7 +63,7 @@ country_event = {
 		ai_chance = { base = 40 }
 		add_political_power = -25
 		add_stability = -0.02
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.04 }
+		add_popularity = { ideology = paternal popularity = -0.04 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		hidden_effect = {
 		}
@@ -394,7 +394,7 @@ country_event = {
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = authoritarian_democrat_subtype
+            ideology = paternal_subtype
             traits = {}
           }
         }
@@ -407,7 +407,7 @@ country_event = {
         }
       }
 			set_party_name = { 
-				ideology = authoritarian_democrat 
+				ideology = paternal 
 				long_name = AFG_transitional_gov_party_long 
 				name = AFG_transitional_gov_party 
 			}
@@ -485,7 +485,7 @@ country_event = {
 	option = {
 		name = afghan.13.a
 		add_stability = -0.03
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+		add_popularity = { ideology = paternal popularity = -0.03 }
 	}
 }
 
@@ -517,7 +517,7 @@ country_event = {
 		name = afghan.14.b
 		ai_chance = { base = 25 }
 		add_political_power = -40
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+		add_popularity = { ideology = paternal popularity = 0.01 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 		add_manpower = -5000
 		hidden_effect = {
@@ -551,7 +551,7 @@ country_event = {
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = authoritarian_democrat_subtype
+            ideology = paternal_subtype
             traits = {}
           }
         }
@@ -564,7 +564,7 @@ country_event = {
         }
       }
 			set_party_name = { 
-				ideology = authoritarian_democrat 
+				ideology = paternal 
 				long_name = AFG_mohammed_zahir_gov_party_long 
 				name = AFG_mohammed_zahir_gov_party 
 			}
@@ -606,7 +606,7 @@ country_event = {
 		ai_chance = { base = 30 }
 		add_stability = 0.02
 		add_war_support = 0.05
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+		add_popularity = { ideology = paternal popularity = 0.01 }
 		hidden_effect = {
 			country_event = {
 				id = afghan.17 days = 5
@@ -639,12 +639,12 @@ country_event = {
 			AFG_Transitional_Government = {
 				if = {
 					limit = {
-						NOT = { has_ideology_group = authoritarian_democrat }
+						NOT = { has_ideology_group = paternal }
 					}
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = authoritarian_democrat_subtype
+							ideology = paternal_subtype
 							traits = {}
 						}
 					}
@@ -663,7 +663,7 @@ country_event = {
 				}
       }
 			set_party_name = { 
-				ideology = authoritarian_democrat 
+				ideology = paternal 
 				long_name = AFG_transitional_gov_party_long 
 				name = AFG_transitional_gov_party 
 			}
@@ -711,7 +711,7 @@ country_event = {
 			add_idea = AFG_opposition_revolution_idea
 		}
 		hidden_effect = {
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.15 }
+			add_popularity = { ideology = paternal popularity = -0.15 }
 			country_event = {
 				id = afghan.19 days = 1
 			}
@@ -795,7 +795,7 @@ country_event = {
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = authoritarian_democrat_subtype
+            ideology = paternal_subtype
             traits = {}
           }
         }
@@ -808,7 +808,7 @@ country_event = {
         }
       }
 			set_party_name = { 
-				ideology = authoritarian_democrat 
+				ideology = paternal 
 				long_name = AFG_amanullah_gov_party_long 
 				name = AFG_amanullah_gov_party 
 			}
@@ -967,7 +967,7 @@ country_event = {
 		name = afghan.26.a
 		ai_chance = { base = 60 }
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
 		add_ideas = {
 			AFG_Muhammed_Ghobar_hog_ade
@@ -975,7 +975,7 @@ country_event = {
 			AFG_Ahmad_Ali_Khan_Solaiman_eco_ade
 			AFG_Ghulam_Faruq_Usman_sec_pau
 		}		
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.15 }
+		add_popularity = { ideology = paternal popularity = 0.15 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
 		swap_ideas = {
 			remove_idea = AFG_opposition_revolution_idea
@@ -986,7 +986,7 @@ country_event = {
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = authoritarian_democrat_subtype
+            ideology = paternal_subtype
             traits = {}
           }
         }
@@ -999,7 +999,7 @@ country_event = {
         }
       }
 			set_party_name = { 
-				ideology = authoritarian_democrat 
+				ideology = paternal 
 				long_name = AFG_amanullah_gov_party_long 
 				name = AFG_amanullah_gov_party 
 			}
@@ -1302,7 +1302,7 @@ country_event = {
 	option = {
 		name = afghan.34.a
 		add_stability = 0.05
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal popularity = 0.03 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
 		hidden_effect = {
 			country_event = {
@@ -1326,7 +1326,7 @@ country_event = {
 	option = {
 		name = afghan.35.a
 		add_stability = -0.05
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+		add_popularity = { ideology = paternal popularity = -0.03 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
 		hidden_effect = {
 			country_event = {
@@ -1368,7 +1368,7 @@ country_event = {
 			AFG_Dada_Amir_Haider_Khan_sec_col
 		}		
 		hidden_effect = {
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.15 }
+			add_popularity = { ideology = paternal popularity = -0.15 }
 			country_event = {
 				id = afghan.19 days = 1
 			}
@@ -1411,7 +1411,7 @@ country_event = {
 	option = {
 		name = afghan.37.a
 		ai_chance = { base = 60 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal popularity = 0.03 }
 		hidden_effect = {
 			set_country_flag = AFG_need_for_modernization_flag
 			set_country_flag = AFG_develop_nation_flag
@@ -1444,7 +1444,7 @@ country_event = {
 
 	option = {
 		name = afghan.38.a
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal popularity = 0.03 }
 		hidden_effect = {
 			set_country_flag = AFG_develop_nation_flag
 			set_country_flag = AFG_towards_modernization_flag
@@ -1536,7 +1536,7 @@ country_event = {
 			AFG_Khalilullah_Khalili_sec_npo
 		}		
 		add_popularity = { ideology = paternal_autocrat popularity = 0.20 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.18 }
+		add_popularity = { ideology = paternal popularity = -0.18 }
 		hidden_effect = {
 			add_ideas = absolute_monarchy
 		}
@@ -1557,7 +1557,7 @@ country_event = {
 	option = {
 		name = afghan.101.a
 		add_stability = 0.02
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+		add_popularity = { ideology = paternal popularity = 0.02 }
 		hidden_effect = {
 		}
 	}

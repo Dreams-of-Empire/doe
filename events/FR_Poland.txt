@@ -52,7 +52,7 @@ country_event = {
 			factor = 37
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.02
 		}
 		add_ideas = POL_MOW_industrial
@@ -139,7 +139,7 @@ country_event = {
 		}
 		add_ideas = POL_MOW_tax
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.02
 		}
 		country_event = { days = 7 id = poland.4 }
@@ -205,7 +205,7 @@ country_event = {
 		}
 		add_political_power = -150
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -293,7 +293,7 @@ country_event = {
 		}
 		add_ideas = POL_MOW_army
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -365,7 +365,7 @@ country_event = {
 		}
 		add_ideas = POL_MOW_airforce
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.02
 		}
 		country_event = { days = 7 id = poland.30 }
@@ -1010,7 +1010,7 @@ country_event = {
         }
       }
 			 add_popularity = {
-				ideology = authoritarian_democrat
+				ideology = paternal
 				popularity = -0.3
 			}
 			hidden_effect = { set_cosmetic_tag = POL_REP }
@@ -1157,7 +1157,7 @@ country_event = {
         ideology = social_conservative_subtype
       }
       remove_country_leader_role = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
       }
       remove_country_leader_role = {
         ideology = paternal_autocrat_subtype

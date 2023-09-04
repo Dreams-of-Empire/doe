@@ -1480,10 +1480,10 @@ country_event = {
 			ruling_party = social_conservative elections_allowed = no
 		}
 		add_popularity = { ideology = social_conservative popularity = 0.06 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.04 }
+		add_popularity = { ideology = paternal popularity = 0.04 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.25 }
 		
-		add_coalition_authoritarian_democrat = yes 
+		add_coalition_paternal = yes 
 		add_coalition_paternal_autocrat = yes 
 		
 		hidden_effect = {

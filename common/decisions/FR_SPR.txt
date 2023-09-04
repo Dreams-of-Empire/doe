@@ -616,7 +616,7 @@ SPM_foreign_policy = {
 			has_country_flag = SPM_government_picked_flag
 			OR = {
 				has_government = paternal_autocrat
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			has_army_manpower = {
 				size > 499999

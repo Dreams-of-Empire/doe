@@ -503,7 +503,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Emil_Hacha_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_accomplished_diplomat
 			}
 		}
@@ -784,7 +784,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Bedřich_Neumann_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_great_compromiser
 			}
 		}
@@ -811,7 +811,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Michael_Rustler_von_Neuenacker_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_moderate_among_radicals
 			}
 		}
@@ -1081,7 +1081,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Vladislav_Brdlik_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_oil_baron
 			}
 		}
@@ -1400,7 +1400,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Frantisek_Machnik_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_efficient_sociopath
 			}
 		}

@@ -119,7 +119,7 @@ country_event = {
 }
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal
 	last_election = "1922.12.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -133,7 +133,7 @@ set_popularities = {
     liberal = 11
     illuminist = 12
     social_conservative = 16
-    authoritarian_democrat = 30
+    paternal = 30
     paternal_autocrat = 5
     national_populist = 6
     revivalist = 15

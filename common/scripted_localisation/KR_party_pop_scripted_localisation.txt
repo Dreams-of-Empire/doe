@@ -58,9 +58,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
-		localization_key = authoritarian_democrat_subtype_desc
+		localization_key = paternal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -259,12 +259,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = authoritarian_democrat
-				check_variable = { political_power_ideology = token:authoritarian_democrat }
+				has_government = paternal
+				check_variable = { political_power_ideology = token:paternal }
 			}
-			is_in_array = { ROOT.coalition_partners = token:authoritarian_democrat }
+			is_in_array = { ROOT.coalition_partners = token:paternal }
 		}
-		localization_key = party_pop_coalition_authoritarian_democrat
+		localization_key = party_pop_coalition_paternal
 	}
 	text = {
 		localization_key = empty
@@ -358,7 +358,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:authoritarian_democrat }
+			check_variable = { coalition_partner_var = token:paternal }
 		}
 		localization_key = colour_dirty_grey
 	}

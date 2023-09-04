@@ -172,7 +172,7 @@ country_event = { # Fate of Central African Republic
             long_name = NFQ_british_long
           }
           set_party_name = {
-            ideology = authoritarian_democrat
+            ideology = paternal
             name = NFQ_british
             long_name = NFQ_british_long
           }
@@ -180,7 +180,7 @@ country_event = { # Fate of Central African Republic
             add_country_leader_role = {
               promote_leader = yes
               country_leader = {
-                ideology = authoritarian_democrat_subtype
+                ideology = paternal_subtype
               }
             }
             add_country_leader_role = {
@@ -198,19 +198,19 @@ country_event = { # Fate of Central African Republic
           set_cosmetic_tag = NFQ_FRA
           set_party_name = {
             ideology = paternal_autocrat
-            name = NFQ_authoritarian_democrat_party
-            long_name = NFQ_authoritarian_democrat_party_long
+            name = NFQ_paternal_party
+            long_name = NFQ_paternal_party_long
           }
           set_party_name = {
-            ideology = authoritarian_democrat
-            name = NFQ_authoritarian_democrat_party
-            long_name = NFQ_authoritarian_democrat_party_long
+            ideology = paternal
+            name = NFQ_paternal_party
+            long_name = NFQ_paternal_party_long
           }
           NFQ_Joseph_Francois_de_Roca = {
             add_country_leader_role = {
               promote_leader = yes
               country_leader = {
-                ideology = authoritarian_democrat_subtype
+                ideology = paternal_subtype
               }
             }
             add_country_leader_role = {
@@ -232,7 +232,7 @@ country_event = { # Fate of Central African Republic
             long_name = NFQ_deutsch_long
           }
           set_party_name = {
-            ideology = authoritarian_democrat
+            ideology = paternal
             name = NFQ_deutsch
             long_name = NFQ_deutsch_long
           }
@@ -240,7 +240,7 @@ country_event = { # Fate of Central African Republic
             add_country_leader_role = {
               promote_leader = yes
               country_leader = {
-                ideology = authoritarian_democrat_subtype
+                ideology = paternal_subtype
               }
             }
             add_country_leader_role = {
@@ -262,7 +262,7 @@ country_event = { # Fate of Central African Republic
             long_name = NFQ_italian_long
           }
           set_party_name = {
-            ideology = authoritarian_democrat
+            ideology = paternal
             name = NFQ_italian
             long_name = NFQ_italian_long
           }
@@ -270,7 +270,7 @@ country_event = { # Fate of Central African Republic
             add_country_leader_role = {
               promote_leader = yes
               country_leader = {
-                ideology = authoritarian_democrat_subtype
+                ideology = paternal_subtype
               }
             }
             add_country_leader_role = {
@@ -1420,7 +1420,7 @@ country_event = { # Fate of Senegal
             long_name = NFA_british_long
           }
           set_party_name = {
-            ideology = authoritarian_democrat
+            ideology = paternal
             name = NFA_british
             long_name = NFA_british_long
           }
@@ -1428,7 +1428,7 @@ country_event = { # Fate of Senegal
             add_country_leader_role = {
               promote_leader = yes
               country_leader = {
-                ideology = authoritarian_democrat_subtype
+                ideology = paternal_subtype
               }
             }
             add_country_leader_role = {
@@ -1446,19 +1446,19 @@ country_event = { # Fate of Senegal
           set_cosmetic_tag = NFA_FRA
           set_party_name = {
             ideology = paternal_autocrat
-            name = NFA_authoritarian_democrat_party
-            long_name = NFA_authoritarian_democrat_party_long
+            name = NFA_paternal_party
+            long_name = NFA_paternal_party_long
           }
           set_party_name = {
-            ideology = authoritarian_democrat
-            name = NFA_authoritarian_democrat_party
-            long_name = NFA_authoritarian_democrat_party_long
+            ideology = paternal
+            name = NFA_paternal_party
+            long_name = NFA_paternal_party_long
           }
           NFA_Charles_Noufflard = {
             add_country_leader_role = {
               promote_leader = yes
               country_leader = {
-                ideology = authoritarian_democrat_subtype
+                ideology = paternal_subtype
               }
             }
             add_country_leader_role = {
@@ -1480,7 +1480,7 @@ country_event = { # Fate of Senegal
             long_name = NFA_deutsch_long
           }
           set_party_name = {
-            ideology = authoritarian_democrat
+            ideology = paternal
             name = NFA_deutsch
             long_name = NFA_deutsch_long
           }
@@ -1488,7 +1488,7 @@ country_event = { # Fate of Senegal
             add_country_leader_role = {
               promote_leader = yes
               country_leader = {
-                ideology = authoritarian_democrat_subtype
+                ideology = paternal_subtype
               }
             }
             add_country_leader_role = {

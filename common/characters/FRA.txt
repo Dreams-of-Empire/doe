@@ -140,7 +140,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authdem_christian_democracy_subtype
+			ideology = pat_christian_democracy_subtype
 			traits = { }
 		}
     advisor = {
@@ -158,7 +158,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Francois_de_la_Rocque_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_silent_workhorse
 			}
 		}
@@ -177,7 +177,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Francois_de_La_Rocque_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_man_of_the_people
 			}
 		}
@@ -833,7 +833,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Jean_Mermoz_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_naive_optimist
 			}
 		}
@@ -1223,7 +1223,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Paul_Baudouin_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1471,7 +1471,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Charles_Vallin_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_bank_president
 			}
 		}
@@ -1498,7 +1498,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Marie_Eugene_Debeney_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_balanced_budget_economy
 			}
 		}

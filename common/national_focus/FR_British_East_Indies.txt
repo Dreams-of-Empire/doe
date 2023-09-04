@@ -1520,7 +1520,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_ban_dutch_as_official_language"
 			add_political_power = -15
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = BEA_close_down_dutch_schools_idea
 				add_idea = BEA_ban_dutch_as_official_language_idea
@@ -1617,7 +1617,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_integrate_dutch_into_british"
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 			swap_ideas = {
@@ -1743,7 +1743,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BEA_suriname_faction
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		cost = 5
 		prerequisite = {
 			focus = BEA_return_dutch_control
@@ -1762,7 +1762,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_suriname_faction"
 			add_stability = 0.03
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+			add_popularity = { ideology = paternal popularity = 0.01 }
 		}
 
 	}
@@ -1824,7 +1824,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_limited_democracy"
 			add_stability = 0.02
 			add_political_power = -25
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+			add_popularity = { ideology = paternal popularity = 0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
 			add_popularity = { ideology = national_populist popularity = -0.01 }
 		}
@@ -1855,7 +1855,7 @@ focus_tree = {
 			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 
 	}
@@ -1885,7 +1885,7 @@ focus_tree = {
 			add_stability = -0.02
 			add_political_power = 25
 			add_popularity = { ideology = social_conservative popularity = -0.01 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+			add_popularity = { ideology = paternal popularity = 0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 			add_popularity = { ideology = national_populist popularity = -0.01 }
 		}
@@ -1913,7 +1913,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_ensure_power"
 			add_stability = -0.02
 			add_political_power = 50
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
 		}
@@ -2119,7 +2119,7 @@ focus_tree = {
 			add_popularity = { ideology = collectivist popularity = -0.01 }
 			add_popularity = { ideology = fasci popularity = -0.01 }
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 		}
 
 	}
@@ -2149,7 +2149,7 @@ focus_tree = {
 			add_political_power = 20
 			add_stability = 0.02
 			add_war_support = 0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 
 	}
@@ -2238,7 +2238,7 @@ focus_tree = {
 			add_political_power = -40
 			add_popularity = { ideology = collectivist popularity = -0.02 }
 			add_popularity = { ideology = fasci popularity = -0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = BEA_ban_british_language_idea
@@ -2270,7 +2270,7 @@ focus_tree = {
 			add_political_power = -30
 			add_popularity = { ideology = collectivist popularity = -0.01 }
 			add_popularity = { ideology = fasci popularity = -0.01 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+			add_popularity = { ideology = paternal popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
 			add_popularity = { ideology = national_populist popularity = 0.02 }
 		}

@@ -26,7 +26,7 @@ set_popularities = {
   revivalist = 10
   paternal_autocrat = 10
   collectivist = 9
-  authoritarian_democrat = 1
+  paternal = 1
 }
 add_ideas = {
 	party_pop_0_10

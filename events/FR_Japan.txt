@@ -1315,7 +1315,7 @@ country_event = {
 				add = -80
 			}
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = 20
 			}
 		}
@@ -1336,7 +1336,7 @@ country_event = {
 				add = 80
 			}
 			modifier = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				add = -20
 			}
 		}
@@ -2569,11 +2569,11 @@ country_event = {
 	option = {
 		name = "Neglect led us to the fall of democracy."
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.15
 		}
 		complete_national_focus = jap_the_admiral_plot

@@ -1771,7 +1771,7 @@ ideas = {
 			picture = german_advisors
 			allowed = { original_tag = GER }
             modifier = {
-				authoritarian_democrat_drift = 0.01
+				paternal_drift = 0.01
 				social_conservative_drift = 0.01
 				army_morale_factor = 0.1
 			}

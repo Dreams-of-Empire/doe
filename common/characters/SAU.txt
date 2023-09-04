@@ -408,7 +408,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Dhaidan_Ben_Hethlain_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_iron_fisted_brute
 			}
 		}
@@ -435,7 +435,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Mutlag_ibn_al_Juba_a_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_relations_expert
 			}
 		}
@@ -516,7 +516,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Mohammed_bin_Awad_bin_Laden_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_industrialiser
 			}
 		}
@@ -597,7 +597,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Jahjah_bin_Bajad_bin_Humaid_al_Otaibi_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_prince_of_terror
 			}
 		}

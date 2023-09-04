@@ -252,8 +252,8 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = social_conservative }
 		}
 		AND = {
-			has_government = authoritarian_democrat
-			ROOT = { has_government = authoritarian_democrat }
+			has_government = paternal
+			ROOT = { has_government = paternal }
 		}
 		AND = {
 			has_government = paternal_autocrat
@@ -304,7 +304,7 @@ has_democratic_government = {
 			has_government = liberal
 			has_government = illuminist
 			has_government = social_conservative
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 	}
 }
@@ -334,7 +334,7 @@ has_authoritarian_government = {
 	custom_trigger_tooltip = {
 		tooltip = FX_is_authoritarian_tt
 		OR = {
-			has_government = authoritarian_democrat
+			has_government = paternal
 			has_government = paternal_autocrat
 			has_government = national_populist
 			has_government = revivalist

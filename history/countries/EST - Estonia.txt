@@ -35,7 +35,7 @@ add_coalition_social_conservative = yes
 add_coalition_illuminist = yes 
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -49,7 +49,7 @@ set_popularities = {
   liberal = 7
   illuminist = 2
   social_conservative = 12
-  authoritarian_democrat = 35
+  paternal = 35
   paternal_autocrat = 2
   national_populist = 41
   revivalist = 0

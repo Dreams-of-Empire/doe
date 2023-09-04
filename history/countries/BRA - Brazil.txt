@@ -86,7 +86,7 @@ set_popularities = {
     revivalist = 5
     collectivist = 25
     fasci = 5
-    authoritarian_democrat = 5
+    paternal = 5
 }
 
 add_ideas = {

@@ -2533,7 +2533,7 @@
 				has_government = revivalist
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = vanguardist
 			}
 			is_puppet = no
@@ -2751,7 +2751,7 @@
 				has_government = revivalist
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = authoritarian_democrat
+				has_government = paternal
 				#has_government = vanguardist
 			}		
 			SER = {
@@ -2963,7 +2963,7 @@
 				has_government = revivalist
 				has_government = national_populist
 				has_government = paternal_autocrat
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 		}
 		
@@ -3974,7 +3974,7 @@
 					is_puppet = no
 					has_war = no
 					OR = {
-						has_government = authoritarian_democrat
+						has_government = paternal
 						has_government = paternal_autocrat
 						has_government = national_populist
 						has_government = revivalist
@@ -4634,7 +4634,7 @@
 						has_government = revivalist
 						has_government = paternal_autocrat
 						has_government = national_populist
-						has_government = authoritarian_democrat
+						has_government = paternal
 						has_government = social_conservative
 					}
 				}
@@ -5046,7 +5046,7 @@
               add_country_leader_role = {
                 promote_leader = yes
                 country_leader = {
-                  ideology = authoritarian_democrat_subtype
+                  ideology = paternal_subtype
                 }
               }
               add_country_leader_role = {

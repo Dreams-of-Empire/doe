@@ -200,7 +200,7 @@ country_event = { # Balbo wants to return to Rome
       character = LBA_Rodolfo_Graziani
       promote_leader = yes
       country_leader = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
         traits = {}
       }
     }	
@@ -311,7 +311,7 @@ country_event = { # Italy installs transitional government in Libya
 			desc = "Provisional_Government_of_Libya_DESC"
 			picture = "gfx/leaders/ITA/Portrait_Regency_Council.png"
 			expire = "1965.1.1"
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = {
 			}
 		}		

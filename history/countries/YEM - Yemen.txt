@@ -16,7 +16,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -30,7 +30,7 @@ set_popularities = {
   liberal = 8
   illuminist = 3
   social_conservative = 3
-  authoritarian_democrat = 52
+  paternal = 52
   paternal_autocrat = 6
   national_populist = 24
   revivalist = 0

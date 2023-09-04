@@ -702,7 +702,7 @@ focus_tree = {
 			add_manpower = -200
 			add_stability = 0.03
 			add_war_support = 0.03
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			169 = {
 				add_resistance = -10
 			}

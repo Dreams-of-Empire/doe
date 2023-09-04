@@ -232,7 +232,7 @@ country_event = {
 	option = {
 		name = mex.6.b
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.25
 		}
 		set_global_flag = MEX_DEMOCRATIC_CABINET

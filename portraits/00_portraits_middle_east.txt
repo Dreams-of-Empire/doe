@@ -91,7 +91,7 @@ ALG = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -213,7 +213,7 @@ EGY = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -335,7 +335,7 @@ WES = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -457,7 +457,7 @@ LBA = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -579,7 +579,7 @@ MOR = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -701,7 +701,7 @@ SUD = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -823,7 +823,7 @@ TUN = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -945,7 +945,7 @@ PHN = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -1067,7 +1067,7 @@ KUR = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -1189,7 +1189,7 @@ IRQ = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -1311,7 +1311,7 @@ ARB = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -1433,7 +1433,7 @@ YEM = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -1555,7 +1555,7 @@ ARM = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -1677,7 +1677,7 @@ AZR = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -1799,7 +1799,7 @@ TRK = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -1900,7 +1900,7 @@ ISR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_10.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_3.png"
@@ -2022,7 +2022,7 @@ PER = {
 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		authoritarian_democrat = {
+		paternal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -2144,7 +2144,7 @@ PER = {
 # 				"gfx/leaders/Generic/Portrait_South_America_Generic_new_1.png"
 # 			}
 # 		}
-# 		authoritarian_democrat = {
+# 		paternal = {
 # 			male = {
 # 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 # 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"

@@ -1777,7 +1777,7 @@ focus_tree = {
 			add_stability = -0.05
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			add_popularity = { ideology = illuminist popularity = -0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 		}
 
 	}
@@ -2296,7 +2296,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.03
 			add_war_support = 0.08
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 		}
 
 	}
@@ -2407,7 +2407,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_strike_illegal_protests"
 			add_manpower = -100
 			add_stability = -0.03
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.04 }
+			add_popularity = { ideology = paternal popularity = 0.04 }
 			swap_ideas = {
 				remove_idea = SWE_denounce_foreign_influence_idea
 				add_idea = SWE_strike_illegal_protests_idea
@@ -2531,7 +2531,7 @@ focus_tree = {
 			add_political_power = -15
 			add_stability = -0.01
 			add_popularity = { ideology = national_populist popularity = -0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 			country_event = { days = 2 id = sweden.59 }
 		}
 
@@ -2558,7 +2558,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_ban_pan_germanic_parties"
 			add_political_power = -25
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+			add_popularity = { ideology = paternal popularity = 0.05 }
 		}
 
 	}
@@ -2591,7 +2591,7 @@ focus_tree = {
 			add_stability = -0.02
 			add_war_support = 0.10
 			add_manpower = 25000
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+			add_popularity = { ideology = paternal popularity = 0.01 }
 		}
 
 	}
@@ -2652,7 +2652,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_emphasize_constitutionalism"
 			add_war_support = 0.07
 			add_stability = 0.03
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+			add_popularity = { ideology = paternal popularity = 0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.10 }
 		}
 
@@ -2683,7 +2683,7 @@ focus_tree = {
 			add_stability = 0.07
 			add_war_support = 0.03
 			add_popularity = { ideology = social_conservative popularity = 0.05 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.10 }
+			add_popularity = { ideology = paternal popularity = -0.10 }
 		}
 
 	}
@@ -2962,7 +2962,7 @@ focus_tree = {
 			add_political_power = 50
 			add_stability = 0.10
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 			clr_country_flag = SWE_effect_london_crash_flag
 		}
 
@@ -3095,7 +3095,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_moderate_conservatism"
 			add_stability = 0.04
 			add_popularity = { ideology = social_conservative popularity = 0.05 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.04 }
+			add_popularity = { ideology = paternal popularity = -0.04 }
 			swap_ideas = {
 				remove_idea = SWE_revolution_and_reaction_idea
 				add_idea = SWE_revolution_and_reaction1_idea
@@ -3196,7 +3196,7 @@ focus_tree = {
 			add_stability = 0.06
 			add_popularity = { ideology = vanguardist popularity = -0.02 }
 			add_popularity = { ideology = collectivist popularity = -0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = -0.02 }
@@ -3399,7 +3399,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_swedish_patriotism"
 			add_stability = 0.04
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 			country_event = { days = 1 id = sweden.65 }
 		}
 
@@ -3554,7 +3554,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_end_reactionary_oppression"
 			add_political_power = -15
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.07 }
+			add_popularity = { ideology = paternal popularity = -0.07 }
 		}
 
 	}
@@ -3598,7 +3598,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_crush_nationalists"
 			add_political_power = -15
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.08 }
 		}
 
@@ -4799,7 +4799,7 @@ focus_tree = {
 			add_political_power = -30
 			add_popularity = { ideology = national_populist popularity = 0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+			add_popularity = { ideology = paternal popularity = -0.03 }
 		}
 
 	}

@@ -1070,7 +1070,7 @@ focus_tree = {
 				has_government = liberal
 				has_government = illuminist
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 			}
 		}
@@ -1167,7 +1167,7 @@ focus_tree = {
 			OR = {
 				has_government = illuminist
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 				has_government = national_populist
 				has_government = revivalist
@@ -2427,7 +2427,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_republicanize_right"
 			remove_ideas = NOR_monarchist_right_idea1
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_political_power = -40
@@ -3184,7 +3184,7 @@ focus_tree = {
 			add_ideas = NOR_found_christian_trade_union_idea
 			add_popularity = { ideology = illuminist popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 		}
 
 	}
@@ -3506,7 +3506,7 @@ focus_tree = {
 			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 		}
 
@@ -3557,7 +3557,7 @@ focus_tree = {
 			add_popularity = { ideology = liberal popularity = 0.02 }
 			add_popularity = { ideology = illuminist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 			country_event = { id = nor.37 }
 		}
 
@@ -3585,7 +3585,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_ideas = NOR_peoples_king_idea
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 			custom_effect_tooltip  = NOR_kings_party_for_all_tooltip
 			hidden_effect = {
@@ -3595,7 +3595,7 @@ focus_tree = {
 					name = NOR_soccon_king_party
 				}
 				set_party_name = {
-					ideology = authoritarian_democrat
+					ideology = paternal
 					long_name = NOR_autdem_king_party_long
 					name = NOR_autdem_king_party
 				}
@@ -3608,7 +3608,7 @@ focus_tree = {
 				add_to_coalition = yes
 				if = {
 					limit = {
-						has_government = authoritarian_democrat
+						has_government = paternal
 					}
 					set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 					add_to_coalition = yes
@@ -3617,7 +3617,7 @@ focus_tree = {
 					limit = {
 						has_government = paternal_autocrat
 					}
-					set_temp_variable = { coalition_partner_var = token:authoritarian_democrat }
+					set_temp_variable = { coalition_partner_var = token:paternal }
 					add_to_coalition = yes
 				}
 			}
@@ -3658,7 +3658,7 @@ focus_tree = {
 			custom_effect_tooltip  = NOR_purge_republicans_tooltip
 			hidden_effect = {
 				set_party_name = {
-					ideology = authoritarian_democrat
+					ideology = paternal
 					long_name = NOR_autdem_afk_party_long
 					name = NOR_autdem_afk_party
 				}
@@ -3701,7 +3701,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
 		}
 
@@ -3806,7 +3806,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_strengthen_royal_patriotism"
 			add_political_power = -20
 			add_war_support = 0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 			add_popularity = { ideology = national_populist popularity = 0.01 }
 			add_ideas = NOR_strengthen_royal_patriotism_idea
 		}
@@ -4417,7 +4417,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_st_olavs_spirit
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		cost = 5.00
 		prerequisite = {
 			focus = NOR_approach_party_strifes
@@ -4582,7 +4582,7 @@ focus_tree = {
 			add_stability = -0.05
 			add_war_support = 0.08
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
 			add_popularity = { ideology = revivalist popularity = 0.04 }
@@ -4959,7 +4959,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NOR_republicanize_right"
 			remove_ideas = NOR_monarchist_right_idea1
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+			add_popularity = { ideology = paternal popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			add_popularity = { ideology = illuminist popularity = -0.03 }
 			add_popularity = { ideology = liberal popularity = -0.03 }

@@ -6,7 +6,7 @@ set_stability = 0.55
 set_war_support = 0.55
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -20,7 +20,7 @@ set_popularities = {
 	liberal = 35
 	illuminist = 1
 	social_conservative = 7
-	authoritarian_democrat = 47
+	paternal = 47
 	paternal_autocrat = 10
 	national_populist = 0
 	revivalist = 0

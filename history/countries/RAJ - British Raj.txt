@@ -63,7 +63,7 @@ set_war_support = 0.22
 set_cosmetic_tag = RAJ_UK # British Raj
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -77,7 +77,7 @@ set_popularities = {
   liberal = 5
   illuminist = 2
   social_conservative = 7
-  authoritarian_democrat = 50
+  paternal = 50
   paternal_autocrat = 7
   national_populist = 5
   revivalist = 3

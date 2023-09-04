@@ -1094,7 +1094,7 @@ ENG_add_edward_windsor = {
       promote_leader = yes
       country_leader = {
         desc = "POLITICS_ENG_EDWARD_VIII_DESC"
-        ideology = authdem_junta_subtype
+        ideology = pat_junta_subtype
         traits = { meddler charismatic }
       }
     }
@@ -1185,7 +1185,7 @@ ENG_add_albert_windsor = {
     add_country_leader_role = {
       promote_leader = yes
       country_leader = {
-        ideology = authdem_junta_subtype
+        ideology = pat_junta_subtype
         traits = { }
       }
     }

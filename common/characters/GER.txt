@@ -1568,7 +1568,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Max_von_Baden_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_political_protege
 			}
 		}
@@ -1595,7 +1595,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Oskar_von_Hindenburg_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_smiling_oilman
 			}
 		}
@@ -1622,7 +1622,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hans_Juergen_Graf_von_Blumenthal_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_charismatic_charmer
 			}
 		}
@@ -2000,7 +2000,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Friedrich_Werner_von_der_Schulenberg_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_apologetic_clerk
 			}
 		}
@@ -2027,7 +2027,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Walther_von_Brauchistsch_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_general_staffer
 			}
 		}
@@ -2049,7 +2049,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -2418,7 +2418,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hjalmar_Schacht_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_administrative_genius
 			}
 		}
@@ -2824,7 +2824,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Fritz_Dietlog_Schulenburg_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_compassionate_gentleman
 			}
 		}

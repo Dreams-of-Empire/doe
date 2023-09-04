@@ -264,7 +264,7 @@ country_event = {
 		ai_chance = { base = 75 }
 		add_political_power = -30
 		add_stability = -0.05
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+		add_popularity = { ideology = paternal popularity = -0.01 }
 		add_popularity = { ideology = national_populist popularity = -0.01 }
 		set_country_flag = BEA_dutch_influence_declined_flag
 		hidden_effect = {
@@ -279,7 +279,7 @@ country_event = {
 		ai_chance = { base = 25 }
 		add_political_power = -30
 		add_stability = 0.03
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal popularity = 0.03 }
 		add_popularity = { ideology = national_populist popularity = 0.03 }
 		set_country_flag = BEA_dutch_influence_accepted_flag
 		hidden_effect = {
@@ -361,7 +361,7 @@ country_event = {
         name = bei.12.a
 		add_political_power = -20
 		add_stability = -0.01
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+		add_popularity = { ideology = paternal popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.01 }
 		hidden_effect = {
 		}
@@ -598,9 +598,9 @@ country_event = {
 		add_political_power = 20
 		add_stability = 0.02
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+		add_popularity = { ideology = paternal popularity = 0.02 }
 		add_popularity = { ideology = national_populist popularity = 0.02 }
 		every_country = {
 			limit = {
@@ -670,7 +670,7 @@ country_event = {
 		hidden_effect = {
 			BEA = {
 				set_politics = {
-					ruling_party = authoritarian_democrat
+					ruling_party = paternal
             }
 
                 set_popularities = {
@@ -681,7 +681,7 @@ country_event = {
                     liberal = 2
                     illuminist = 3
                     social_conservative = 4
-                    authoritarian_democrat = 36
+                    paternal = 36
                     paternal_autocrat = 15
                     national_populist = 20
                     revivalist = 0
@@ -851,7 +851,7 @@ country_event = {
         name = bei.23.a
 		add_stability = -0.05
 		add_popularity = { ideology = national_populist popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+		add_popularity = { ideology = paternal popularity = -0.05 }
 		hidden_effect = {
 			BEA = {
 				country_event = {
@@ -924,7 +924,7 @@ country_event = {
                     liberal = 2
                     illuminist = 3
                     social_conservative = 4
-                    authoritarian_democrat = 19
+                    paternal = 19
                     paternal_autocrat = 13
                     national_populist = 38
                     revivalist = 0
@@ -1035,7 +1035,7 @@ country_event = {
                     liberal = 2
                     illuminist = 3
                     social_conservative = 4
-                    authoritarian_democrat = 19
+                    paternal = 19
                     paternal_autocrat = 40
                     national_populist = 10
                     revivalist = 0

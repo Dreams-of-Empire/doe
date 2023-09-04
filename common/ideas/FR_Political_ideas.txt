@@ -149,15 +149,15 @@ ideas = {
 			}
 		}
 
-		authoritarian_democrat_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea authoritarian_democrat_influence"}
+		paternal_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea paternal_influence"}
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 
 			removal_cost = -1
@@ -165,8 +165,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				authoritarian_democrat_drift = 0.1
-				authoritarian_democrat_acceptance = 85
+				paternal_drift = 0.1
+				paternal_acceptance = 85
 			}
 		}
 

@@ -24,8 +24,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/illuminist_small.png"
 	}
   	spriteType = {
-		name = "GFX_authoritarian_democrat_small"
-		texturefile = "gfx/interface/ideologies/authoritarian_democrat_small.png"
+		name = "GFX_paternal_small"
+		texturefile = "gfx/interface/ideologies/paternal_small.png"
 	}
 	spriteType = {
 		name = "GFX_social_conservative_small"

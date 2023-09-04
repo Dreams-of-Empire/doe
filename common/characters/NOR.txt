@@ -137,7 +137,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 	}
@@ -732,7 +732,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Carl_Gulbranson_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_silent_workhorse
 			}
 		}
@@ -759,7 +759,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Johan_Bernhard_Hjort_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_backroom_backstabber
 			}
 		}
@@ -1248,7 +1248,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Adolf_Hoel_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_moderate_among_radicals
 			}
 		}
@@ -1762,7 +1762,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Alf_Larsen_Whist_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_bank_president
 			}
 		}
@@ -1789,7 +1789,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Axel_Aubert_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_national_liberal
 			}
 		}
@@ -2303,7 +2303,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Herman_Harris_Aall_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_crooked_kleptocrat
 			}
 		}
@@ -2330,7 +2330,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Ragnar_Skancke_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_efficient_sociopath
 			}
 		}

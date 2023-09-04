@@ -1253,7 +1253,7 @@ shared_focus = {
       character = ZHI_Cao_Kun
       promote_leader = yes
       country_leader = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
         traits = {}
       }
     }

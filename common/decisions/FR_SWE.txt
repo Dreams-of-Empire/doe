@@ -142,7 +142,7 @@ SWE_foreign_policy = {
 			}
 			OR = {
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = national_populist
 			}
 			is_in_faction = no
@@ -218,7 +218,7 @@ SWE_foreign_policy = {
 			OR = {
 				has_government = social_democrat
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			is_in_faction = no
 		}

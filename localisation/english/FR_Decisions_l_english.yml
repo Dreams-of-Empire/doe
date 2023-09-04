@@ -42,8 +42,8 @@ increase_popularity_Illuminist: "Advocate Economic Privatisation" #Unchained and
 increase_popularity_Illuminist_desc: "Economic chains will be tolerated no longer! Privatisation and Laissez-Faire principles must be upheld. We will ensure a free market for every citizen in [Root.GetNameDef]; the freer the market, the freer the people!"
 increase_popularity_soccon: "Promote the Status Quo" #Stable and Traditional.
 increase_popularity_soccon_desc: "Some may criticize us for our refusal to change many things, but they simply don't see that our national situation is optimal as-of current. Tradition and Stability are a few of the vital life-forces in a nation. We can never give either of these up to the radical forces of reform and revolution, and the people must know that."
-increase_popularity_authdem: "Broadcast our Responsibility" #Popular and Responsible.
-increase_popularity_authdem_desc: "'Authoritarianism applied to the Democratic system' is how some would describe us. However that is hardly a bad thing. We accept the doctrine of Social Conservatism in the sense that we believe Society is currently in an Optimal state, and we practice centralization to prioritize national stability and popularity above all else."
+increase_popularity_pat: "Broadcast our Responsibility" #Popular and Responsible.
+increase_popularity_pat_desc: "'Authoritarianism applied to the Democratic system' is how some would describe us. However that is hardly a bad thing. We accept the doctrine of Social Conservatism in the sense that we believe Society is currently in an Optimal state, and we practice centralization to prioritize national stability and popularity above all else."
 increase_popularity_pataut: "Ensure Paternal Popularity" #Strong and Righteous.
 increase_popularity_pataut_desc: "A nation under a Strong ruler is the only way to ensure our Righteous struggle will be met with success. Stability must be maintained by ensuring the popularity of our government; be it by words or force."
 increase_popularity_natpop: "Hold a Nationalist Rally" #Fierce and Proud.

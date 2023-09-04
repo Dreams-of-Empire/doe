@@ -45,7 +45,7 @@ spanish_civil_war_volunteers = {
 		AND = {
 			FROM = { tag = SPM }
 			OR = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 			}
 			num_of_military_factories > 8

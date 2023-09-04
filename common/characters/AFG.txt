@@ -11,7 +11,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 	}
@@ -240,7 +240,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Abdul_Hadi_Dawai_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_naive_optimist
 			}
 		}
@@ -259,7 +259,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Abdul_Hadi_Dawai_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_general_staffer
 			}
 		}
@@ -286,7 +286,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Muhammed_Ghobar_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_corporate_suit
 			}
 		}
@@ -305,7 +305,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Muhammed_Ghobar_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_secret_police_chief
 			}
 		}
@@ -332,7 +332,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Muhammed_Hashim_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -359,7 +359,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Shah_Wali_Khan_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_backroom_backstabber
 			}
 		}
@@ -586,7 +586,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Ahmad_Ali_Khan_Solaiman_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_railway_magnate
 			}
 		}
@@ -708,7 +708,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Muhammed_Zahir_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_secret_police_chief
 			}
 		}

@@ -218,7 +218,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_curtail_monarchism"
 			add_stability = 0.02
 			add_political_power = -20
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+			add_popularity = { ideology = paternal popularity = -0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
 			if = {
 				limit = {
@@ -300,7 +300,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_ban_royalty_from_spain"
 			add_stability = 0.02
 			add_political_power = -20
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.04 }
+			add_popularity = { ideology = paternal popularity = -0.04 }
 			if = {
 				limit = {
 					has_idea = SPR_civil_war_recovery_idea
@@ -897,7 +897,7 @@ focus_tree = {
 			add_political_power = 20
 			add_popularity = { ideology = illuminist popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 		}
 
 	}
@@ -923,7 +923,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_remove_valiente_soriano"
 			country_event = { id = repspain.110 days = 1 }
 			add_political_power = -25
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.06 }
+			add_popularity = { ideology = paternal popularity = -0.06 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
 		}
 
@@ -1009,7 +1009,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_popularity = { ideology = illuminist popularity = 0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+			add_popularity = { ideology = paternal popularity = -0.02 }
 		}
 
 	}

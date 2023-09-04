@@ -428,7 +428,7 @@ focus_tree = {
 			has_country_flag = FIN_ready_take_army_focuses_flag
 			OR = {
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 				has_government = national_populist
 				has_government = revivalist
@@ -500,7 +500,7 @@ focus_tree = {
 				has_government = liberal
 				has_government = illuminist
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 		}
 		
@@ -3609,11 +3609,11 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_strengthen_president"
 			add_stability = 0.03
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			add_popularity = { ideology = liberal popularity = -0.02 }
 			set_party_name = { 
-				ideology = authoritarian_democrat 
+				ideology = paternal 
 				long_name = FIN_strong_president_party_long 
 				name = FIN_strong_president_party 
 			}
@@ -3780,7 +3780,7 @@ focus_tree = {
 		
 		available = {
 			has_country_flag = FIN_mannerheim_in_power_flag
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 		ai_will_do = {
@@ -3791,7 +3791,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_mannerheim_in_power"
 			add_stability = 0.03
 			add_political_power = 25
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 		}
 
 	}
@@ -3894,7 +3894,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_non_partisan_governing"
 			add_political_power = 20
 			add_stability = 0.05
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 
 	}
@@ -3968,7 +3968,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_war_support = 0.03
 			add_manpower = 50000
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+			add_popularity = { ideology = paternal popularity = 0.05 }
 		}
 
 	}

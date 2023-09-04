@@ -78,7 +78,7 @@ country_event = { #Banning Extreme Speech
 		custom_effect_tooltip = RAJ_Revolt_Up
 		add_stability = -0.05
 		add_popularity = {
-			ideology = authoritarian_democrat popularity = 0.05
+			ideology = paternal popularity = 0.05
 		}
 		hidden_effect = {
 			add_to_variable = { var = raj_revolt value = 1 }
@@ -1578,7 +1578,7 @@ country_event = { #The Crackdown
 	option = {
 		name = raj.41.a
 		add_stability = 0.1
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
+		add_popularity = { ideology = paternal popularity = 0.1 }
 		custom_effect_tooltip = RAJ_Fracture_Up
 		add_to_variable = { var = raj_fragment value = 1 }
 		hidden_effect = {
@@ -1643,7 +1643,7 @@ country_event = { #Trial of the Century
 
 	option = {
 		name = raj.44.a
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
+		add_popularity = { ideology = paternal popularity = 0.1 }
 		custom_effect_tooltip = RAJ_Fracture_Up
 		add_to_variable = { var = raj_fragment value = 1 }
 		country_event = {months = 1 id = raj.45}
@@ -1662,7 +1662,7 @@ country_event = { #Rebel Leaders Sentenced
 
 	option = {
 		name = raj.45.a
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+		add_popularity = { ideology = paternal popularity = -0.05 }
 	}
 
 	option = {
@@ -1684,7 +1684,7 @@ country_event = { #Protests Against the Sentencing
 
 	option = {
 		name = raj.46.a
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
+		add_popularity = { ideology = paternal popularity = 0.1 }
 	}
 
 	option = {

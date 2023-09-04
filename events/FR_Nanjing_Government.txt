@@ -42,7 +42,7 @@ country_event = {
         }
         hidden_effect = {
             add_popularity = {
-                ideology = authoritarian_democrat
+                ideology = paternal
                 popularity = -0.2
             }
 
@@ -235,7 +235,7 @@ country_event = { ###Black Wednesday Mission of China###
 	}
 	option = {
 		name = "Who cares?"
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+		add_popularity = { ideology = paternal popularity = 0.01 }
 		modify_country_flag = {
 			flag = CHI_KMT
 			value = 1
@@ -265,7 +265,7 @@ country_event = { ###Port Labour Strike the Factory
 	}
 	option = {
 		name = "Get rip of them, nobody alives"
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.07 }
+		add_popularity = { ideology = paternal popularity = 0.07 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.07 }
 		add_stability = -0.1
 		modify_country_flag = {
@@ -281,7 +281,7 @@ country_event = { ###Port Labour Strike the Factory
 	}
 	option = {
 		name = "Invite to our table"
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal popularity = 0.03 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
 		modify_country_flag = {
 			flag = CHI_LFP
@@ -296,7 +296,7 @@ country_event = { ###Port Labour Strike the Factory
 	}
 	option = {
 		name = "Do Nothing"
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.04 }
 		add_stability = -0.15
 		add_political_power = -100
@@ -319,7 +319,7 @@ country_event = { ###Anqing Governor has been found corruption
 	is_triggered_only = yes
 	option = {
 		name = "Our men do nothing wrong"
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal popularity = 0.03 }
 		add_political_power = -50
 		modify_country_flag = {
 			flag = CHI_KMT
@@ -362,7 +362,7 @@ country_event = { ###Judicial Yuan Declare the Government must be dissolved and 
 					value > 1
 				}
 			}
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
+			add_popularity = { ideology = paternal popularity = 0.1 }
 			set_country_flag = CHI_kmt_faction_selected
 		}
 		if = {

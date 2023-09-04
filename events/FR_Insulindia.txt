@@ -361,7 +361,7 @@ country_event = {
 		name = insulindia.8.a
 		add_political_power = -20
 		add_stability = -0.05
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
+		add_popularity = { ideology = paternal popularity = -0.03 }
 		hidden_effect = {
 			country_event = {
 				id = insulindia.9 days = 10
@@ -462,7 +462,7 @@ country_event = {
 		name = insulindia.12.a
 		add_political_power = -20
 		add_stability = -0.05
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+		add_popularity = { ideology = paternal popularity = -0.02 }
 		hidden_effect = {
 			set_country_flag = INS_appeacement_aftermath
 		}
@@ -491,7 +491,7 @@ country_event = {
 		name = insulindia.18.a
 		add_political_power = -50
 		add_stability = -0.15
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.10 }
+		add_popularity = { ideology = paternal popularity = -0.10 }
 		hidden_effect = {
 			country_event = {
 				id = insulindia.9 days = 10
@@ -522,7 +522,7 @@ country_event = {
 		name = insulindia.19.a
 		add_political_power = -30
 		add_stability = -0.10
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.04 }
+		add_popularity = { ideology = paternal popularity = -0.04 }
 		hidden_effect = {
 			country_event = {
 				id = insulindia.9 days = 10
@@ -553,7 +553,7 @@ country_event = {
 		name = insulindia.20.a
 		add_political_power = 20
 		add_stability = 0.05
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+		add_popularity = { ideology = paternal popularity = 0.02 }
 		hidden_effect = {
 			set_country_flag = INS_appeacement_aftermath
 		}
@@ -593,7 +593,7 @@ country_event = {
         character = INS_Mohammed_Hatta
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -675,7 +675,7 @@ country_event = {
 		ai_chance = { base = 50 }
 		add_stability = 0.02
 		add_ideas = presidential_republic
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		set_country_flag = INS_first_insulindian_election_flag
 		hidden_effect = {
 			swap_ideas = {
@@ -732,7 +732,7 @@ country_event = {
 		name = insulindia.16.a
 		add_political_power = -15
 		add_stability = -0.03
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+		add_popularity = { ideology = paternal popularity = -0.05 }
 		set_country_flag = INS_democracy_dies_flag
 		hidden_effect = {
 			country_event = {
@@ -798,7 +798,7 @@ country_event = {
 		ai_chance = { base = 20 }
 		add_ideas = presidential_republic
 		add_stability = 0.05
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		set_country_flag = INS_first_insulindian_election_flag
 		hidden_effect = {
 			swap_ideas = {

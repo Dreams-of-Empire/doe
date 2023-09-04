@@ -610,7 +610,7 @@ country_event = { # Question of Reforms
       country_event = { id = arabia.36 days = 360 }
     }
     set_politics = {
-      ruling_party = authoritarian_democrat
+      ruling_party = paternal
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_20 = yes
@@ -626,7 +626,7 @@ country_event = { # Question of Reforms
       add_idea = constitutional_monarchy
     }
     set_party_name = {
-      ideology = authoritarian_democrat
+      ideology = paternal
       name = ARB_transitional_party
       long_name = ARB_transitional_party_long
     }
@@ -1060,7 +1060,7 @@ country_event = { # First General Elections
   option = { # Nationals
     name = arabia.36.a
     set_party_name = {
-      ideology = authoritarian_democrat
+      ideology = paternal
       name = ARB_national_party
       long_name = ARB_national_party_long
     }
@@ -1075,7 +1075,7 @@ country_event = { # First General Elections
       long_name = ARB_liberal_party_long
     }
     set_politics = {
-      ruling_party = authoritarian_democrat
+      ruling_party = paternal
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -1091,7 +1091,7 @@ country_event = { # First General Elections
   option = { # Constitutionals
     name = arabia.36.b
     set_party_name = {
-      ideology = authoritarian_democrat
+      ideology = paternal
       name = ARB_national_party
       long_name = ARB_national_party_long
     }
@@ -1122,7 +1122,7 @@ country_event = { # First General Elections
   option = { # Liberals
     name = arabia.36.c
     set_party_name = {
-      ideology = authoritarian_democrat
+      ideology = paternal
       name = ARB_national_party
       long_name = ARB_national_party_long
     }
@@ -1180,7 +1180,7 @@ country_event = { # 1940 General Elections
   option = { # Nationals
     name = arabia.38.a
     set_politics = {
-      ruling_party = authoritarian_democrat
+      ruling_party = paternal
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -1252,7 +1252,7 @@ country_event = { # 1945 General Elections
   option = { # Nationals
     name = arabia.39.a
     set_politics = {
-      ruling_party = authoritarian_democrat
+      ruling_party = paternal
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -1401,7 +1401,7 @@ country_event = { # Arab Counter-Coup!
       long_name = ARB_liberal_party_long
     }
     set_politics = {
-      ruling_party = authoritarian_democrat
+      ruling_party = paternal
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_20 = yes

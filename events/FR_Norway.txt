@@ -129,7 +129,7 @@ country_event = {
 		add_stability = -0.08
 		add_popularity = { ideology = fasci popularity = -0.02 }
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+		add_popularity = { ideology = paternal popularity = 0.01 }
 		add_popularity = { ideology = national_populist popularity = 0.01 }
 		add_popularity = { ideology = revivalist popularity = 0.01 }
 		set_country_flag = NOR_rebellious_samfundsvern
@@ -1250,10 +1250,10 @@ country_event = {
 		add_political_power = 10
 		add_ideas = constitutional_monarchy
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
 		add_popularity = { ideology = illuminist popularity = 0.10 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.20 }
+		add_popularity = { ideology = paternal popularity = 0.20 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
 		remove_every_minister = yes
 		add_ideas = {
@@ -1269,7 +1269,7 @@ country_event = {
 				character = NOR_HM_King_Haakon_VII
 				promote_leader = yes
 				country_leader = {
-					ideology = authoritarian_democrat_subtype
+					ideology = paternal_subtype
 					traits = {}
 				}
 			}
@@ -1282,9 +1282,9 @@ country_event = {
 		add_political_power = 10
 		add_ideas = constitutional_monarchy
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.20 }
+		add_popularity = { ideology = paternal popularity = 0.20 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
 		remove_every_minister = yes
 		add_ideas = {
@@ -1299,7 +1299,7 @@ country_event = {
 				character = NOR_Olav_V
 				promote_leader = yes
 				country_leader = {
-					ideology = authoritarian_democrat_subtype
+					ideology = paternal_subtype
 					traits = {}
 				}
 			}
@@ -5154,10 +5154,10 @@ country_event = {
 		add_political_power = 10
 		add_ideas = constitutional_monarchy
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
 		add_popularity = { ideology = illuminist popularity = 0.10 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.20 }
+		add_popularity = { ideology = paternal popularity = 0.20 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
 		remove_every_minister = yes
 		add_ideas = {
@@ -5174,7 +5174,7 @@ country_event = {
 				character = NOR_Olav_V
 				promote_leader = yes
 				country_leader = {
-					ideology = authoritarian_democrat_subtype
+					ideology = paternal_subtype
 					traits = {}
 				}
 			}
@@ -5187,10 +5187,10 @@ country_event = {
 		add_political_power = 10
 		add_ideas = constitutional_monarchy
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
 		add_popularity = { ideology = social_conservative popularity = 0.10 }
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.20 }
+		add_popularity = { ideology = paternal popularity = 0.20 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
 		remove_every_minister = yes
 		add_ideas = {
@@ -5207,7 +5207,7 @@ country_event = {
 				character = NOR_Olav_V
 				promote_leader = yes
 				country_leader = {
-					ideology = authoritarian_democrat_subtype
+					ideology = paternal_subtype
 					traits = {}
 				}
 			}
@@ -5220,9 +5220,9 @@ country_event = {
 		add_political_power = 10
 		add_ideas = constitutional_monarchy
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.20 }
+		add_popularity = { ideology = paternal popularity = 0.20 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
 		remove_every_minister = yes 
 		add_ideas = {
@@ -5239,7 +5239,7 @@ country_event = {
 				character = NOR_Olav_V
 				promote_leader = yes
 				country_leader = {
-					ideology = authoritarian_democrat_subtype
+					ideology = paternal_subtype
 					traits = {}
 				}
 			}
@@ -5254,7 +5254,7 @@ country_event = {
 			ruling_party = paternal_autocrat elections_allowed = no
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.10 }
+		add_popularity = { ideology = paternal popularity = -0.10 }
 		remove_every_minister = yes
 		add_ideas = {
 			NOR_Gulbrand_Lunde_hog_pau
@@ -5263,13 +5263,13 @@ country_event = {
 			NOR_Arnvid_Vasbotten_sec_npo
 		}
 		remove_coalition_paternal_autocrat = yes 
-		add_coalition_authoritarian_democrat = yes
+		add_coalition_paternal = yes
 		hidden_effect = {
 			add_country_leader_role = {
 				character = NOR_Olav_V
 				promote_leader = yes
 				country_leader = {
-					ideology = authoritarian_democrat_subtype
+					ideology = paternal_subtype
 					traits = {}
 				}
 			}

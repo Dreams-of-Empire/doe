@@ -323,7 +323,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Cesare_Forni_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_pragmatic_statesman
 			}
 		}
@@ -725,7 +725,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Raffaele_Guariglia_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_biased_intellectual
 			}
 		}
@@ -767,7 +767,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1100,7 +1100,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Antonio_Mosconi_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_construction_magnate
 			}
 		}
@@ -1371,7 +1371,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giacomo_Carboni_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_prince_of_terror
 			}
 		}
@@ -1686,7 +1686,7 @@ characters = {
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
@@ -1881,7 +1881,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		field_marshal = {

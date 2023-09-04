@@ -1479,7 +1479,7 @@ focus = {
 	prerequisite = { focus = RHI_militarize_rhineland } 
 	available = {
 		or = {	has_government = social_conservative 
-		has_government = authoritarian_democrat
+		has_government = paternal
 	} 
 } 
 available_if_capitulated = yes  

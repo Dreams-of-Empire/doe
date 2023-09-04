@@ -239,7 +239,7 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = FR_Monarchist_Spain
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.08 }
+			add_popularity = { ideology = paternal popularity = -0.08 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.08 }
 			set_capital = { state = 41 }
 			every_state = {
@@ -337,7 +337,7 @@ country_event = {
 		add_political_power = -20
 		hidden_effect = {
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.04 }
+			add_popularity = { ideology = paternal popularity = -0.04 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		}
 	}
@@ -409,7 +409,7 @@ country_event = {
 		add_political_power = -40
 		add_stability = -0.01
 		hidden_effect = {
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+			add_popularity = { ideology = paternal popularity = 0.02 }
 			country_event = { id = monspain.14 days = 5 }
 		}
 	}
@@ -531,7 +531,7 @@ country_event = {
         character = SPM_Jaime_III
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -651,7 +651,7 @@ country_event = {
         character = SPM_Juan_III
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
@@ -742,7 +742,7 @@ country_event = {
 			ruling_party = social_conservative elections_allowed = no
 		}
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+		add_popularity = { ideology = paternal popularity = -0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		set_country_flag = SPM_government_picked_flag
 		end_coalition = yes 
@@ -770,9 +770,9 @@ country_event = {
 			}
 		}
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		set_country_flag = SPM_government_picked_flag
@@ -805,7 +805,7 @@ country_event = {
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
+		add_popularity = { ideology = paternal popularity = -0.02 }
 		set_country_flag = SPM_government_picked_flag
 		end_coalition = yes 
 		hidden_effect = {
@@ -940,9 +940,9 @@ country_event = {
 		name = monspain.107.e
 		ai_chance = { base = 10 }
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+		add_popularity = { ideology = paternal popularity = 0.05 }
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
 			add_ideas = SPM_Jose_Maria_Gil_Robles_y_Quinones_hog_ade
@@ -1054,16 +1054,16 @@ country_event = {
 			}
 		}
 		set_politics = {
-			ruling_party = authoritarian_democrat elections_allowed = no
+			ruling_party = paternal elections_allowed = no
 		}
 		if = {
 			limit = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+			add_popularity = { ideology = paternal popularity = 0.01 }
 		}
 		else = {
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+			add_popularity = { ideology = paternal popularity = 0.05 }
 		}
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
@@ -1236,11 +1236,11 @@ country_event = {
 		add_stability = -0.02
 		add_opinion_modifier = { target = SPM modifier = medium_increase }
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.05
 		}
 		set_party_name = { 
-			ideology = authoritarian_democrat 
+			ideology = paternal 
 			long_name = SPM_spanish_influence_party_long 
 			name = SPM_spanish_influence_party 
 		}
@@ -1318,11 +1318,11 @@ country_event = {
 		add_stability = -0.02
 		add_opinion_modifier = { target = SPM modifier = medium_increase }
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.05
 		}
 		set_party_name = { 
-			ideology = authoritarian_democrat 
+			ideology = paternal 
 			long_name = SPM_spanish_influence_party_long 
 			name = SPM_spanish_influence_party 
 		}

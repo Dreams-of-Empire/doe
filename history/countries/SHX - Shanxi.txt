@@ -20,7 +20,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -30,7 +30,7 @@ set_popularities = {
   social_conservative = 0
   national_populist = 0
   collectivist = 0
-  authoritarian_democrat = 100
+  paternal = 100
 }
 
 recruit_character = SHX_Yan_Xishan

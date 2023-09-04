@@ -879,7 +879,7 @@ focus_tree = {
 
 			modifier = {
 				factor = 1.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 0.5
@@ -1005,7 +1005,7 @@ focus_tree = {
 
 			modifier = {
 				factor = 5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 2
@@ -1192,7 +1192,7 @@ focus_tree = {
 
 			modifier = {
 				factor = 0.5
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 			modifier = {
 				factor = 1.5
@@ -2541,7 +2541,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 				has_government = national_populist
 				has_government = revivalist
@@ -2591,7 +2591,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 				has_government = national_populist
 				has_government = revivalist
@@ -2639,7 +2639,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 				has_government = national_populist
 				has_government = revivalist
@@ -2696,7 +2696,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 				has_government = national_populist
 				has_government = revivalist
@@ -2754,7 +2754,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 				has_government = national_populist
 				has_government = revivalist
@@ -2853,7 +2853,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+				has_government = paternal
 				has_government = paternal_autocrat
 				has_government = national_populist
 				has_government = revivalist
@@ -3894,7 +3894,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus jap_ally_the_military"
 			set_cosmetic_tag = JAP_military
 			add_popularity = {
-				ideology = authoritarian_democrat
+				ideology = paternal
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -4271,7 +4271,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus jap_arrest_the_traitor"
 			add_popularity = {
-				ideology = authoritarian_democrat
+				ideology = paternal
 				popularity = -0.05
 			}
 			add_popularity = {
@@ -4323,7 +4323,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus jap_army_under_the_parliament"
 			add_popularity = {
-				ideology = authoritarian_democrat
+				ideology = paternal
 				popularity = -0.05
 			}
 			add_popularity = {
@@ -5833,7 +5833,7 @@ focus_tree = {
 				}
 			}
 			add_popularity = {
-				ideology = authoritarian_democrat popularity = 0.1
+				ideology = paternal popularity = 0.1
 			}
 		}
 	}

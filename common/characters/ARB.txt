@@ -29,7 +29,7 @@ characters = {
 		}
     country_leader = {
       desc = POLITICS_ARB_ADB_AL_ILAH_DESC
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -285,7 +285,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Ali_bin_Ashwan_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_backroom_backstabber
 			}
 		}
@@ -312,7 +312,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Eqab_bin_Mohaya_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_charismatic_charmer
 			}
 		}
@@ -339,7 +339,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Hamad_bin_Jazi_al_Hawaita_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -478,7 +478,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Sabah_al_Salem_al_Sabah_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_relations_expert
 			}
 		}
@@ -570,7 +570,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Mohammed_bin_Awad_bin_Laden_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_reformer
 			}
 		}
@@ -597,7 +597,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Sulaiman_S_Olayan_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_the_minister_for_everything
 			}
 		}
@@ -743,7 +743,7 @@ characters = {
 				ROOT = { clr_country_flag = ARB_Salem_Al_Mubarak_Al_Sabah_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_silent_lawyer
 			}
 		}

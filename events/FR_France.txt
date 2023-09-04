@@ -466,11 +466,11 @@ country_event = { #Petain's power is questioned
 	option = { # Francois de la Roque and the PSF
 		name = fra.13.c
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.10
 		}
 		remove_every_minister = yes
@@ -3757,20 +3757,20 @@ country_event = { #Petain takes control of Free France
       character = FRA_Philippe_Petain
       promote_leader = yes
       country_leader = {
-        ideology = authoritarian_democrat_subtype
+        ideology = paternal_subtype
         traits = {}
       }
     }
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.20
 		}
 		set_party_name = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			long_name = "gouvernement provisoire de la République française"
 			name = "GPRF"
 		}

@@ -34,7 +34,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authdem_junta_subtype
+			ideology = pat_junta_subtype
 			traits = { }
 		}
 		country_leader = {

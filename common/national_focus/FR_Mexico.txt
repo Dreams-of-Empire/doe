@@ -334,7 +334,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_crackdown_on_the_regency"
 			add_popularity = { ideology = paternal_autocrat popularity = -0.15 }
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+			add_popularity = { ideology = paternal popularity = -0.05 }
 			add_political_power = 25
 		}
 	}

@@ -5,7 +5,7 @@ CAN_parliamentary_affairs = {
 		original_tag = CAN
 		NOT = { 
 			has_government = paternal_autocrat
-			has_government = authoritarian_democrat 
+			has_government = paternal 
 		}
 	}
 }

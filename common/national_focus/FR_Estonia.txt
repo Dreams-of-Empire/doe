@@ -34,14 +34,14 @@ focus_tree = {
 	}
 	focus = {
 		id = EST_state_elders_power
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
 		cost = 4.30
 		x = 6
 		y = 0
 		
 		available = {
 			date > 1936.03.01
-			has_government = authoritarian_democrat
+			has_government = paternal
 		}
 		
 		ai_will_do = {
@@ -52,7 +52,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_state_elders_power"
 			add_political_power = 25
 			add_stability = 0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 
 	}
@@ -228,7 +228,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_trial_pats_loyalists"
 			add_political_power = -25
 			add_stability = -0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+			add_popularity = { ideology = paternal popularity = -0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			country_event = { id = estonia.101 days = 1 }
 		}
@@ -252,7 +252,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_control_people"
 			add_political_power = -25
 			add_stability = 0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+			add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 
 	}
@@ -330,7 +330,7 @@ focus_tree = {
 				add_idea = EST_secure_army_loyalty_idea
 			}
 			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
+			add_popularity = { ideology = paternal popularity = 0.01 }
 		}
 
 	}
@@ -659,7 +659,7 @@ focus_tree = {
 				remove_idea = EST_secure_army_loyalty_idea
 				add_idea = EST_third_constitution_idea
 			}
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.10 }
+			add_popularity = { ideology = paternal popularity = 0.10 }
 			country_event = { id = estonia.103 days = 1 }
 		}
 
@@ -734,7 +734,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_purge_pats_cronies"
 			add_political_power = -25
 			add_stability = -0.02
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.06 }
+			add_popularity = { ideology = paternal popularity = -0.06 }
 			add_popularity = { ideology = social_conservative popularity = -0.02 }
 			remove_ideas = EST_ineffective_government_and_unrest1_idea
 			country_event = { id = estonia.101 days = 1 }

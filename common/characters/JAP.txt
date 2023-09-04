@@ -23,7 +23,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = authdem_national_conservative_subtype
+			ideology = pat_national_conservative_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -270,7 +270,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Tokugawa_Iemasa_hog_ade_hired }
 			on_remove = { clr_character_flag = JAP_Tokugawa_Iemasa_hog_ade_hired }
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_silent_workhorse
 			}
 		}
@@ -296,7 +296,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Matsudaira_Tsuneo_for_ade_hired }
 			on_remove = { clr_character_flag = JAP_Matsudaira_Tsuneo_for_ade_hired }
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_great_compromiser
 			}
 		}
@@ -1557,7 +1557,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Adachi_Kenzo_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_silent_workhorse
 			}
 		}
@@ -1583,7 +1583,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Maeda_Yonezo_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_charismatic_charmer
 			}
 		}
@@ -1609,7 +1609,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Nakajima_Chikuhei_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_reformist_soldier
 			}
 		}
@@ -1969,7 +1969,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Arita_Hachiro_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_apologetic_clerk
 			}
 		}
@@ -1995,7 +1995,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Hirota_Koki_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_hawkish_intervener
 			}
 		}
@@ -2021,7 +2021,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Ogawa_Gotaro_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -2463,7 +2463,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Horikiri_Zenbee_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_balanced_budget_economy
 			}
 		}
@@ -2905,7 +2905,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Akita_Kiyoshi_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_prince_of_terror
 			}
 		}
@@ -2931,7 +2931,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Mochizuki_Keisuke_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_prince_of_terror
 			}
 		}
@@ -2957,7 +2957,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Nagai_Ryutaro_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_compassionate_gentleman
 			}
 		}
@@ -2983,7 +2983,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Oasa_Tadao_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_health_and_safety
 			}
 		}

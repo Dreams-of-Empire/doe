@@ -376,11 +376,11 @@ country_event = { # Teagle Coup
 			country_event = { id = newamerica.17 months = 1 }
 		}
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = paternal
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = paternal
 			popularity = 0.25
 		}
 		remove_every_minister = yes

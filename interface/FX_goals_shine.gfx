@@ -288,11 +288,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_ideology_authoritarian_democrat_shine"
-    texturefile = "gfx/interface/goals/goal_ideology_authoritarian_democrat.png"
+    name = "GFX_goal_ideology_paternal_shine"
+    texturefile = "gfx/interface/goals/goal_ideology_paternal.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_authoritarian_democrat.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_paternal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -305,7 +305,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_authoritarian_democrat.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_paternal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no
@@ -34720,11 +34720,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_SWI_authoritarian_democrat_shine"
-    texturefile = "gfx/interface/goals/SWI_authoritarian_democrat.png"
+    name = "GFX_SWI_paternal_shine"
+    texturefile = "gfx/interface/goals/SWI_paternal.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/SWI_authoritarian_democrat.png"
+      animationmaskfile = "gfx/interface/goals/SWI_paternal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -34737,7 +34737,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/SWI_authoritarian_democrat.png"
+      animationmaskfile = "gfx/interface/goals/SWI_paternal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no

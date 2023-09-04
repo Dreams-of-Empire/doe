@@ -945,7 +945,7 @@ focus_tree = {
 		add_popularity = { ideology = fasci popularity = -0.05 }
 		add_popularity = { ideology = liberal popularity = 0.10 }
 		add_popularity = { ideology = illuminist popularity = 0.05 }
-		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+		add_popularity = { ideology = paternal popularity = -0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
 		add_popularity = { ideology = national_populist popularity = -0.05 }
 		add_popularity = { ideology = revivalist popularity = -0.05 }
@@ -1188,7 +1188,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_diminish_socialist_influence"
 
-		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		add_popularity = { ideology = paternal popularity = 0.03 }
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
 		add_popularity = { ideology = social_democrat popularity = -0.03 }
 		add_political_power = -20
@@ -1223,7 +1223,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_political_statutes
-		icon = GFX_goal_ideology_authoritarian_democrat
+		icon = GFX_goal_ideology_paternal
     prerequisite = { focus = SWI_crackdown_on_radicals }
 		x = 19
 		y = 6
@@ -1254,7 +1254,7 @@ focus_tree = {
 		available = {
 
 		NOT = {
-		has_government = authoritarian_democrat
+		has_government = paternal
 		}
 
 		}
@@ -1326,7 +1326,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_national_liberal_faction_gains_power
-		icon = GFX_SWI_authoritarian_democrat
+		icon = GFX_SWI_paternal
     prerequisite = { focus = SWI_CDVP_becomes_senior_member }
     mutually_exclusive = { focus = SWI_status_quo_conservatism }
 		x = 23
@@ -1337,20 +1337,20 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_national_liberal_faction_gains_power"
 
       set_politics = {
-        ruling_party = authoritarian_democrat
+        ruling_party = paternal
         elections_allowed = no
       }
       add_country_leader_role = {
         character = SWI_Robert_Tobler
         promote_leader = yes
         country_leader = {
-          ideology = authoritarian_democrat_subtype
+          ideology = paternal_subtype
           traits = {}
         }
       }
 
 		  country_event = swi.114
-		  add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		  add_popularity = { ideology = paternal popularity = 0.03 }
 		}
 	}
 
@@ -1515,7 +1515,7 @@ focus_tree = {
 			OR = {
 				has_idea = SWI_improved_conditions
 				has_government = social_conservative
-				has_government = authoritarian_democrat
+				has_government = paternal
 			}
 		}
 

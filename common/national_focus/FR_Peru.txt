@@ -158,7 +158,7 @@ focus_tree = {
 						has_government = liberal
 						has_government = social_democrat
 						has_government = social_conservative
-						has_government = authoritarian_democrat						
+						has_government = paternal						
 					}
 					OR = {
 						any_neighbor_country = { tag = PRU }

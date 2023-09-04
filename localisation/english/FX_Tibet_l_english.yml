@@ -15,8 +15,8 @@ TIB_ADJ: "Tibetan"
 TIB_DEF: "Tibet"
 
 ### Parties
-TIB_authoritarian_democrat_party: "Traditionalists"
-TIB_authoritarian_democrat_party_long: "Traditionalists"
+TIB_paternal_party: "Traditionalists"
+TIB_paternal_party_long: "Traditionalists"
 TIB_paternal_autocrat_party: "Traditionalists"
 TIB_paternal_autocrat_party_long: "Traditionalists"
 

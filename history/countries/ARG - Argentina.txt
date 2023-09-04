@@ -109,7 +109,7 @@ set_popularities = {
 	revivalist = 0
 	paternal_autocrat = 2
 	collectivist = 15
-	authoritarian_democrat = 5
+	paternal = 5
 }
 
 if = {

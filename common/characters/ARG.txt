@@ -401,7 +401,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Pedro_Pablo_Ramirez_hog_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -833,7 +833,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Cesar_Armeghino_for_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				for_biased_intellectual
 			}
 		}
@@ -1257,7 +1257,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Enrique_Mosconi_eco_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				eco_military_entrepreneur
 			}
 		}
@@ -1685,7 +1685,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Alberto_Teisaire_sec_ade_hired }
 			}
 			traits = {
-				authoritarian_democrat
+				paternal
 				sec_secret_police_chief
 			}
 		}
@@ -1922,7 +1922,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 		corps_commander = {
@@ -2167,7 +2167,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternal_subtype
 			traits = { }
 		}
 	}
