@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = SPA
+		owner = SPR
+		add_core_of = SPR
 		victory_points = {
 			11821 1 
 		}
@@ -21,10 +22,6 @@ state={
 			industrial_complex = 1
 			air_base = 1
 		}
-		add_core_of = SPA
-		add_claim_by = SPR
-		add_claim_by = SPM
-		add_claim_by = SPF
 	}
 
 	provinces={

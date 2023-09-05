@@ -2,20 +2,16 @@ state={
 	id=833
 	name="STATE_833"
 
-		history={
-		owner = SPF
+	history={
+		owner = SPR
+		add_core_of = SPR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
-		add_core_of = SPF
-		add_claim_by = SPR
-		add_claim_by = SPA
-		add_claim_by = SPM
 		victory_points = {
 			11843 1 
 		}
-
 	}
 
 	provinces={
