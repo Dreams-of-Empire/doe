@@ -4,10 +4,10 @@ state={
 	name="STATE_1051"
 	state_category = rural
 	history={
-		owner = PER
-		add_core_of = PER
+		owner = KUR
+		add_core_of = KUR
+		add_claim_by = PER
 		add_claim_by = ARM
-		add_claim_by = KUR
 		victory_points = {
 			7604 3 
 		}
@@ -16,7 +16,7 @@ state={
 		}
 	}
 	provinces={
-		1636 7604 13120 
+		7604 13120 1822
 	}
 	manpower=440716
 	buildings_max_level_factor=1.000

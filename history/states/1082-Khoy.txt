@@ -1,0 +1,14 @@
+state={
+	id=1082
+	name="STATE_1082"
+	provinces={ 4755 1636 }
+	history = {
+		owner = ARM
+		add_core_of = ARM
+		add_core_of = PER
+	}
+	manpower=101513
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
