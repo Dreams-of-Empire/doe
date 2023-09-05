@@ -5,18 +5,18 @@ state={
 
 	history={
 		
-		owner = GER
+		owner = BAD
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		add_core_of = GER
+		add_core_of = BAD
 
 	}
 
 	provinces={
-		3679 3690 6934 13126
+		3679
 	}
 	manpower=152050
 	buildings_max_level_factor=1.000

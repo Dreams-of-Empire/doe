@@ -1,0 +1,32 @@
+capital = 783
+
+set_research_slots = 3
+set_convoys = 50
+set_stability = 0.40
+set_war_support = 0.40
+
+set_politics = {	
+	ruling_party = liberal
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	vanguardist = 2
+	collectivist = 5
+	fasci = 8
+	social_democrat = 20
+	liberal = 40
+	illuminist = 5
+	social_conservative = 20
+	paternal = 0
+	futurist = 0
+	despotist = 0
+	revivalist = 0
+}
+
+add_ideas = {
+	party_pop_0_40
+	parliamentary_republic
+}

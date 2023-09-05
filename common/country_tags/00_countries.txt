@@ -60,6 +60,9 @@ LUX = "countries/WestEuropean.txt" # Luxembourg
 MLT = "countries/WestEuropean.txt" # Malta
 THR = "countries/WestEuropean.txt" # Thrace
 PRS = "countries/WestEuropean.txt" # Prussia
+THU = "countries/WestEuropean.txt" # Thuringia
+BAD = "countries/WestEuropean.txt" # Baden
+WUR = "countries/WestEuropean.txt" # Württemberg
 
 ### Eastern European
 SOV = "countries/EastEuropean.txt" # Soviet Union

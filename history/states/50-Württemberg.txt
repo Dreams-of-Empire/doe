@@ -8,7 +8,7 @@ state={
 
 	history={
 		
-		owner = GER
+		owner = WUR
 		victory_points = {
 			9517 5 
 		}
@@ -27,11 +27,11 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = GER
+		add_core_of = WUR
 	}
 
 	provinces={
-		519 694 3530 6555 6568 6581 9517 9545 11486 11499 
+		519 694 6555 9517 9545 11486 11499 3690 6934 13126
 	}
 	manpower=4686854
 	buildings_max_level_factor=1.000

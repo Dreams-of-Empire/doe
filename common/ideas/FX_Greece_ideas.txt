@@ -338,5 +338,12 @@ ideas = {
 				air_equipment = 0.1
 			}
 		}
+
 	}
-}			
+
+	automator = {
+		GRE = {
+			
+		}
+	}
+}		

@@ -12,15 +12,14 @@ state={
 	state_category = large_city
 
 	history={
-		
-		owner = GER
+		owner = THU
 		victory_points = { 6524 5 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		add_core_of = GER
+		add_core_of = THU
 	}
 
 	provinces={

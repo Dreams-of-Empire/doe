@@ -4,7 +4,7 @@ state={
 
 	history={
 		
-		owner = GER
+		owner = BAD
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -21,7 +21,7 @@ state={
 				bunker = 3
 			}
 		}
-		add_core_of = GER
+		add_core_of = BAD
 		victory_points = {
 			6712 2 
 		}
@@ -29,7 +29,7 @@ state={
 	}
 
 	provinces={
-		3692 6542 6712 11640 
+		3692 6712 11640 
 	}
 	manpower=450680
 	buildings_max_level_factor=1.000
