@@ -4,7 +4,7 @@ state={
 	name="STATE_902"
 
 	history={
-		owner = GEO
+		owner = ARM
 		victory_points = {
 			7454 1 
 		}
@@ -13,9 +13,8 @@ state={
 			industrial_complex = 1
 
 		}
-		add_claim_by = TUR
-		add_claim_by = ARM
-		add_core_of = GEO
+		add_claim_by = GEO
+		add_core_of = ARM
 
 	}
 

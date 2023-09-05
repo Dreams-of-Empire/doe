@@ -1,0 +1,13 @@
+state = {
+	id = 1080
+	name = "STATE_1080"
+	manpower = 1
+	state_category = city
+	history = {
+		owner = ARB
+		add_core_of = ARB
+	}
+	provinces = { 12101 4603 4562 1544 }
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

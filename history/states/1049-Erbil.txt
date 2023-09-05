@@ -3,20 +3,21 @@ state={
 	id=1049
 	name="STATE_1049"
 	history={
-		owner = IRQ
-		add_core_of = IRQ
+		owner = KUR
+		add_core_of = KUR
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 		}
+		set_demilitarized_zone = yes
 	}
 	resources = {
 		oil = 6
 		aluminium = 15
 	}
 	provinces={
-		1549 3916 5014 10804 10811 
+		1549 3916 5014 10804 10811 10106
 	}
 	state_category = small_town
 	manpower=274589

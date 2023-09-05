@@ -1,0 +1,13 @@
+state = {
+	id = 1081
+	name = "STATE_1081"
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+	}
+	provinces = { 10882 901 12316 2013 10383 }
+	manpower = 1
+	state_category = rural
+	local_supplies=0.000
+	buildings_max_level_factor=1.000
+}

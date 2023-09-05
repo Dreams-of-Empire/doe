@@ -3,11 +3,11 @@ state={
 	id=1050
 	name="STATE_1050"
 	history={ 
-		owner = IRQ
-		add_core_of = IRQ
+		owner = SYR
+		add_core_of = SYR
 	}
 	provinces={
-		901 1578 1606 1634 6883 10882 
+		1578 1606 1634 6883
 	}
 	manpower=41029
 	buildings_max_level_factor=1.000

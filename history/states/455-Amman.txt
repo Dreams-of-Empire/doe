@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = IRQ
+		owner = SYR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -17,10 +17,10 @@ state={
 			4574 2 
 		}
 
-		add_core_of = IRQ
+		add_core_of = SYR
 	}
 
 	provinces={
-		1544 4562 4574 4591 4603 7001 11976 12101 13259 13263
+		4574 4591 7001 11976 13259 13263
 	}
 }
