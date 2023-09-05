@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = UKR
+		owner = RUS
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

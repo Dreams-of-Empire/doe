@@ -9,7 +9,7 @@ state=
 	history={
 		
 		add_core_of = CRO
-		owner = ITA
+		owner = CRO
 		buildings = {
 			infrastructure = 3
 			3943 = {

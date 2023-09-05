@@ -3,7 +3,7 @@ state={
 	name="STATE_775"
 
 	history={
-		owner = CZE
+		owner = AUS
 		buildings = {
 			infrastructure = 3
 			5283 = {
@@ -14,6 +14,7 @@ state={
 
 		}
 		add_core_of = CZE
+		add_core_of = AUS
 	}
 
 	provinces={

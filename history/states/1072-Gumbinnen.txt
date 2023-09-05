@@ -1,0 +1,15 @@
+state={
+	id=1072
+	name="STATE_1072"
+	history = {
+		owner = PRS
+		add_core_of = PRS
+	}
+	provinces={
+		395 348 281 3384 9327
+	}
+	manpower=649018
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_town
+}

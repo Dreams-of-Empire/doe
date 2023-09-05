@@ -24,7 +24,7 @@ guiTypes = {
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
 		position = { x=0 y =-200 }
-		show_position = { x=0 y =-1 }
+		show_position = { x=700 y =-1 }
 		animation_type = decelerated
 		animation_time = 1000
 		size = { width = 256 height = 768}
@@ -89,10 +89,10 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x=0 y =0}
+		position = { x=0 y =-55 }
 		size = { width = 320 height = 395}
-		Orientation = CENTER
-		Origo = center	
+		Orientation = CENTER_DOWN
+		Origo = center_down
 				
 		background = {
 			name = "Background"		
@@ -186,12 +186,12 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=90 y =-55}
+		position = { x=0 y =-55 }
 		size = { width = 320 height = 395 }
-		Orientation = LOWER_LEFT
-		Origo = lower_left		
+		Orientation = CENTER_DOWN
+		Origo = center_down
 
-   		positionType = {
+		positionType = {
 			name = "subscription_size"
 			position = { x = 320 y = 395 } #KR: adjusted for subscription widget removal (originally 35,523)
 		}
@@ -240,7 +240,7 @@ guiTypes = {
 			maxHeight = 20	
 		}
 
-    positionType = {
+		positionType = {
 			name = "version_label_subscription_position"
 			position = { x = 35 y = 356 } #KR: adjusted for subscription widget removal (originally 35,484)
 		}
@@ -333,10 +333,10 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "mainmenu_social_buttons"
-		position = { x=-50 y=25 }	
+		position = { x=0 y=25 }	
 		size = { width = 240 height = 90 }
-		Orientation = LOWER_LEFT	
-		origo = lower_left
+		Orientation = CENTER_DOWN	
+		origo = center_down
 		
 		positionType = {
 			name = "position_without_social_gui"
@@ -401,7 +401,7 @@ guiTypes = {
 		## facebook etc.
 		ButtonType = {
 			name = "homepage_button"
-			position = { x = 25 y = 0 }
+			position = { x = -100 y = 0 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "FX_MENU_HOMEPAGE"
@@ -409,7 +409,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "forum_button"
-			position = { x = 176 y = 0 }
+			position = { x = 50 y = 0 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "FX_MENU_FORUM"
@@ -417,7 +417,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "facebook_button"
-			position = { x = 126 y = 0 }
+			position = { x = 0 y = 0 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "FX_MENU_FACEBOOK"
@@ -426,7 +426,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "twitter_button"
-			position = { x = 75 y = 0 }
+			position = { x = -50 y = 0 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "FX_MENU_TWITTER"

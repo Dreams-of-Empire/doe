@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = UKR
+		owner = RUS
 		buildings = {
 			infrastructure = 3
 			air_base = 3

@@ -58,6 +58,8 @@ FIC = "countries/WestEuropean.txt" # French Indochina
 DEI = "countries/WestEuropean.txt" # Dutch East Indies
 LUX = "countries/WestEuropean.txt" # Luxembourg
 MLT = "countries/WestEuropean.txt" # Malta
+THR = "countries/WestEuropean.txt" # Thrace
+PRS = "countries/WestEuropean.txt" # Prussia
 
 ### Eastern European
 SOV = "countries/EastEuropean.txt" # Soviet Union

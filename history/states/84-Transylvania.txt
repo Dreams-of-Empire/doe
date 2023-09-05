@@ -7,7 +7,10 @@ state={
 	}
 
 	history={
-		owner = ROM
+		owner = TRA
+		add_core_of = TRA
+		add_claim_by = HUN
+		add_claim_by = ROM
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
@@ -17,8 +20,6 @@ state={
 		victory_points = {
 			690 10
 		}
-		add_core_of = ROM
-		add_claim_by = HUN
 
 	}
 

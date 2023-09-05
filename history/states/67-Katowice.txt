@@ -8,14 +8,13 @@ state={
 	}
 
 	history={
-		add_claim_by = SIL
-		owner = POL
+		owner = SIL
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 2
 		}
-		add_core_of = POL
+		add_core_of = SIL
 		victory_points = {
 			13211 5
 		}

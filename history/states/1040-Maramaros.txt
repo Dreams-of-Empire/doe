@@ -5,9 +5,10 @@ state={
 		727 13210 9704 746
 	}
 	history = {
-		owner = ROM
-		add_core_of = ROM
+		owner = TRA
+		add_core_of = TRA
 		add_claim_by = HUN
+		add_core_of = ROM
 		victory_points = {
 			746 2
 		}

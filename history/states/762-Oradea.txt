@@ -4,13 +4,15 @@ state={
 	name="STATE_762"
 
 	history={
-		owner = ROM
+		owner = TRA
+		add_core_of = TRA
+		add_claim_by = HUN
+		add_claim_by = ROM
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 
 		}
-		add_claim_by = HUN
 
 	}
 	provinces={

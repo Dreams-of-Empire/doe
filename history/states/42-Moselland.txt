@@ -11,20 +11,20 @@ state={
 	state_category = city
 
 	history={
-	    victory_points = {
+		victory_points = {
 			3423 5 
 		}
 		victory_points = {
 			3558 2 
 		}
 
-		owner = RHI
+		owner = FRA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
 
 		}
-		add_core_of = RHI
+		add_core_of = FRA
 
 	}
 

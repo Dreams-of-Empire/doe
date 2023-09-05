@@ -93,7 +93,7 @@ if = {
 	}
 }
 
-set_politics = {	
+set_politics = {
 	ruling_party = liberal
 	last_election = "1933.3.5"
 	election_frequency = 48

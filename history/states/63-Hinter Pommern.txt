@@ -11,19 +11,17 @@ state={
 	state_category = town
 
 	history={
-		
-		owner = GER
-		
+		owner = PRS
+		add_core_of = PRS
 		buildings = {
 			infrastructure = 3
 			11372 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = GER
 	}
 
 	provinces={
-		6309 6334 6390 9252 9277 9306 9334 9361 11260 11288 11316 11343 11372 
+		6309 6334 6390 9277 9306 9334 9361 11316 11343 11372 6282 349
 	}
 }

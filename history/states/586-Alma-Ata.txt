@@ -11,13 +11,13 @@ state={
 
 	history={
 		add_core_of = KAZ
-		owner = SOV
+		owner = RUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
 		}
-		add_core_of = SOV
+		add_core_of = RUS
 		victory_points = {
 			1591 5 
 		}

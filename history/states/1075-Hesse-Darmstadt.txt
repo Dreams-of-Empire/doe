@@ -1,0 +1,11 @@
+state = {
+	id = 1075
+	name = "STATE_1075"
+	history = {
+		owner = HES
+		add_core_of = HES
+	}
+	provinces = { 3524 11533 3397 }
+	manpower = 1
+	state_category = town
+}

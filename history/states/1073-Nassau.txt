@@ -1,0 +1,15 @@
+state={
+	id=1073
+	name="STATE_1073"
+	provinces={
+		529 6444 9486
+	}
+	history = {
+		owner = HES
+		add_core_of = HES
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

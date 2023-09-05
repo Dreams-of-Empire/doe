@@ -2,12 +2,12 @@ state={
 	id=1066
 	name="STATE_1066"
 	provinces={
-		878 
+		878 893 9862
 	}
 	history = {
-		owner = GRE
-		add_claim_by = GRE
-		add_core_of = BUL
+		owner = THR
+		add_core_of = THR
+		add_claim_by = BUL
 	}
 	manpower=28967
 	buildings_max_level_factor=1.000

@@ -5,9 +5,8 @@ state={
 		11917 9941 9929 10038
 	}
 	history = {
-		owner = GRE
-		add_core_of = GRE
-
+		owner = TUR
+		add_core_of = TUR
 	}
 	manpower=151034
 	buildings_max_level_factor=1.000

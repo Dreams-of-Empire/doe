@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = CZE
+		owner = AUS
 		victory_points = {
 			3569 5
 		}
@@ -22,6 +22,7 @@ state={
 
 		}
 		add_core_of = CZE
+		add_core_of = AUS
 	}
 
 	provinces={

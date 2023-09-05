@@ -7,7 +7,8 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = GER
+		owner = PRS
+		add_core_of = PRS
 		victory_points = {
 			6521 50 
 		}
@@ -23,10 +24,9 @@ state={
 			synthetic_refinery = 1
 
 		}
-		add_core_of = GER
 	}
 
 	provinces={
-		375 478 3367 3499 3522 6487 6521 9428 9496 9456 9560 11219 11359 11444 11505 
+		375 478 3367 3499 3522 6487 6521 9428 9496 9456 9560 11219 11359 11444 11505 3207 3312 537 6236 9387 3473 11415 3572 9238 6582 11468
 	}
 }

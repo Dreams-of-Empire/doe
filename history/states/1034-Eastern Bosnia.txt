@@ -3,7 +3,7 @@ state={
 	name="STATE_1034"
 	state_category=town
 	provinces={
-		606 6799 11741 11899 
+		606 6799 11741 11899 11574 6647
 	}
 	history = {
 		owner = SER

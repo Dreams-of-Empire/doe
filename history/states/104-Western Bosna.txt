@@ -8,8 +8,8 @@ state={
 
 	history={
 		add_core_of = BOS
-		owner = SER
-		add_core_of = SER
+		add_core_of = CRO
+		owner = CRO
 		victory_points = {
 			11899 5 
 		}
@@ -29,7 +29,7 @@ state={
 	}
 
 	provinces={
-		9588 9591 11572 11574 
+		9588 9591 11572
 	}
 	manpower=1050200
 	buildings_max_level_factor=1.000

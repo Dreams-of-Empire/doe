@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = BAY
+		add_core_of = BAY
 		victory_points = {
 			692 30 
 		}
@@ -19,11 +20,10 @@ state={
 			industrial_complex = 2
 			air_base = 6
 		}
-		add_core_of = GER
 	}
 
 	provinces={
-		692 708 3705 6693 9666 11653 
+		692 708 3705 6693 9666 11653 9655
 	}
 	manpower=2479413
 	buildings_max_level_factor=1.000

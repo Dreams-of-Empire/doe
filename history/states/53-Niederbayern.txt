@@ -7,17 +7,17 @@ state={
 	state_category = city
 
 	history={
-		owner = GER
+		owner = BAY
+		add_core_of = BAY
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = GER
 		victory_points = {
 			9515 2 
 		}
 	}
 
 	provinces={
-		532 571 586 3299 3541 3571 6725 9515 9681 11497 
+		532 571 3299 3541 3571 6725 9515 9681 11497 
 	}
 }

@@ -1070,3 +1070,11 @@ SIR = {
 # 	color = rgb { 0 77 13 }
 # 	color_ui = rgb { 0 77 13 }
 # }
+THR = {
+	color = rgb { 0 153 153 }
+	color_ui = rgb { 0 153 153 }
+}
+PRS = {
+	color = rgb { 90 100 80 }
+	color_ui = rgb { 80 90 100 }
+}

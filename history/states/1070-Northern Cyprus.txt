@@ -6,7 +6,8 @@ state={
 		11984 13315 
 	}
 	history = {
-		owner = ENG
+		owner = GRE
+		add_core_of = GRE
 		buildings = {
 			infrastructure = 3
 			13315 = {
@@ -18,7 +19,6 @@ state={
 		victory_points = {
 			13315 2 
 		}
-		add_core_of = CYP
 
 	}
 	manpower=250654

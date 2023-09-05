@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = SLO
+		owner = HUN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 4
