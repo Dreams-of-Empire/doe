@@ -1090,3 +1090,11 @@ WUR = {
 	color = rgb { 104 90 100 }
 	color_ui = rgb { 104 90 100 }
 }
+VAT = {
+	color = rgb { 191 192 151 }
+	color_ui = rgb { 191 192 151 }
+}
+ALA = {
+	color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}

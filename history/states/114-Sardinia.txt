@@ -4,7 +4,8 @@ state={
 	name="STATE_114"
 
 	history={
-		owner = ITA
+		owner = SAR
+		add_core_of = SAR
 		victory_points = {
 			11773 3 
 		}
@@ -26,9 +27,6 @@ state={
 			}
 
 		}
-		add_core_of = ITA
-		add_claim_by = SAR
-
 	}
 
 	provinces={

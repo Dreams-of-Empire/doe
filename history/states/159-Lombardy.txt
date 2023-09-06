@@ -6,8 +6,7 @@ state={
 	state_category = metropolis
 
 	history={
-		add_claim_by = LOM
-		owner = ITA
+		owner = SRV
 		victory_points = {
 			3780 15 
 		}
@@ -18,7 +17,7 @@ state={
 			air_base = 10
 
 		}
-		add_core_of = ITA
+		add_core_of = SRV
 	}
 
 	provinces={

@@ -9,8 +9,8 @@ state={
 
 	history={
 		
-		owner = ITA
-		add_core_of = ITA
+		owner = SRV
+		add_core_of = SRV
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5

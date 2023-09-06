@@ -1,0 +1,47 @@
+scripted_gui = {
+	
+	HRE_button_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "HRE_open_button"
+		dirty = DOE_HRE_dirty
+
+		ai_enabled = {
+			always = no
+		}
+
+		effects = {
+			hre_pol_open_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = DOE_HRE_dirty
+						}
+					}
+					set_variable = {
+						DOE_HRE_dirty = 1
+					}
+					else = {
+						clear_variable = DOE_HRE_dirty
+					}
+				}
+			}
+		}
+	}
+
+	HRE_gui = {
+		context_type = player_context
+		parent_window_name = HRE_open_button
+		window_name = "HRE_gui"
+		dirty = DOE_HRE_dirty
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_variable = DOE_HRE_dirty
+		}
+		
+	}
+}

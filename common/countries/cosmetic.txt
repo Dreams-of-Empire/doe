@@ -131,11 +131,11 @@ NFA_FRA = {
 	color_ui = rgb { 0 20 130 }
 }
 NFA_ENG = {
-  color = rgb { 210 0 0 }
+  	color = rgb { 210 0 0 }
 	color_ui = rgb { 210 0 0 }
 }
 NFA_GER = {
-  color = rgb { 135 169 107 }
+  	color = rgb { 135 169 107 }
 	color_ui = rgb { 135 169 107 }
 }
 NFQ_FRA = {
@@ -147,7 +147,7 @@ NFQ_ENG = {
 	color_ui = rgb { 209 0 0 }
 }
 NFQ_GER = {
-  color = rgb { 135 169 107 }
+  	color = rgb { 135 169 107 }
 	color_ui = rgb { 135 169 107 }
 }
 NFQ_ITA = {

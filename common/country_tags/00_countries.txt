@@ -63,6 +63,7 @@ PRS = "countries/WestEuropean.txt" # Prussia
 THU = "countries/WestEuropean.txt" # Thuringia
 BAD = "countries/WestEuropean.txt" # Baden
 WUR = "countries/WestEuropean.txt" # Württemberg
+VAT = "countries/WestEuropean.txt" # Papal States
 
 ### Eastern European
 SOV = "countries/EastEuropean.txt" # Soviet Union
@@ -110,6 +111,7 @@ ORE = "countries/WestEuropean.txt" # Oregon
 SNE = "countries/WestEuropean.txt" # Shoshone
 SRA = "countries/WestEuropean.txt" # Socialist Republic of America
 QUE = "countries/WestEuropean.txt" # Quebec
+ALA = "countries/WestEuropean.txt" # Alaska
 
 ### South America
 MEX = "countries/SouthAmerican.txt" # Mexico

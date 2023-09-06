@@ -82,6 +82,19 @@ add_ideas = {
 	constitutional_monarchy
 }
 
+if = {
+	limit = {
+		has_dlc_tfv = yes
+	}
+	set_autonomy = {
+		target = MNT
+		autonomy_state = autonomy_puppet
+	}
+	else = {
+		puppet = MNT
+	}
+}
+
 set_politics = {
   ruling_party = paternal
   last_election = "1935.9.8"

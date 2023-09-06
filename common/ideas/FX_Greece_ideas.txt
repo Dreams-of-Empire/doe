@@ -340,10 +340,4 @@ ideas = {
 		}
 
 	}
-
-	automator = {
-		GRE = {
-			
-		}
-	}
 }		

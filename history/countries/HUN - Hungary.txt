@@ -75,6 +75,19 @@ set_popularities = {
   revivalist = 1
 }
 
+if = {
+	limit = {
+		has_dlc_tfv = yes
+	}
+	set_autonomy = {
+		target = SLO
+		autonomy_state = autonomy_puppet
+	}
+	else = {
+		puppet = SLO
+	}
+}
+
 add_ideas = {
 	party_pop_0_00
   hun_trianon

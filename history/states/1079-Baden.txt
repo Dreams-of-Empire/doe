@@ -4,6 +4,12 @@ state = {
 	history = {
 		owner = BAD
 		add_core_of = BAD
+		victory_points = {
+			6568 3 
+		}
+		victory_points = {
+			3530 2 
+		}
 	}
 	provinces = { 6568 3530 6542 }
 	manpower = 1

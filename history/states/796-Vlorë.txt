@@ -4,7 +4,7 @@ state={
 	name="STATE_796"
 
 	history={
-		owner = ITA
+		owner = GRE
 		victory_points = {
 			11767 2
 		}
@@ -15,7 +15,8 @@ state={
 			}
 			
 		}
-		add_core_of = ALB
+		add_core_of = GRE
+		add_claim_by = ALB
 	}
 
 	provinces={

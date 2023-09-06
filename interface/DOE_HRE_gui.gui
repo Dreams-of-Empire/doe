@@ -1,0 +1,85 @@
+guiTypes = {
+	containerWindowType = {
+		name = HRE_open_button
+		position = { x = 275 y = 12 }
+		orientation = upper_left
+
+		buttonType = {
+			name = "hre_pol_open_button"
+			quadTextureSprite = "GFX_sort_button_83x29"
+			position = { x = 0 y = 0 }
+			buttonFont = "hoi_18mbs"
+			buttonText = "HRE"
+		}
+	}
+
+	containerWindowType = {
+		name = HRE_gui
+		size = {
+			width = 1000
+			height = 500
+		}
+		position = { x = 275 y = 12 }
+		moveable = yes
+
+		background = {
+			quadTextureSprite = GFX_tiled_plain_bg
+		}
+
+		buttonType = {
+			name = HRE_gui_close_btn
+			spriteType = GFX_closebutton
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+
+		containerWindowType = {
+			name = HRE_emperor
+			position = {
+				x = 0
+				y = 0
+			}
+
+			instantTextBoxType = {
+				name = HRE_emperor_name
+				position = {
+					x = 30
+					y = 10
+				}
+				text = "Emperor"
+				font = "hoi_36header"
+			}
+		}
+
+		containerWindowType = {
+			name = HRE_seats
+			position = {
+				x = 680
+				y = 20
+			}
+			size = {
+				width = 300
+				height = 300
+			}
+			# moveable = yes
+
+			background = {
+				quadTextureSprite = GFX_tiled_plain_bg
+			}
+
+			instantTextBoxType = {
+				name = HRE_seats_text
+				position = {
+					x = 100
+					y = 0
+				}
+				
+				text = "Seats"
+				font = "hoi_36header"
+				truncate = yes
+			}
+		}
+	}
+}

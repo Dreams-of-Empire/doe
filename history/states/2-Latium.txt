@@ -3,7 +3,7 @@ state={
 	id=2
 	name="STATE_2"
 	history={
-		owner = ITA
+		owner = VAT
 		victory_points = {
 			9904 40 
 		}
@@ -22,7 +22,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = ITA
+		add_core_of = VAT
 	}
 
 	provinces={
