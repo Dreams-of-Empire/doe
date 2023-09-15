@@ -4,8 +4,8 @@ ideas = {
 	
 	country = {
 	
-		freikorps_epp = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea freikorps_epp" }
+		BAY_idea_freikorps_epp = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BAY_idea_freikorps_epp" }
 			picture = SPR_political_violence
 			allowed = { always = no }
 
@@ -17,8 +17,8 @@ ideas = {
 			}
 		}
 		
-		bund_oberland = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea bund_oberland" }
+		BAY_idea_bund_oberland = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BAY_idea_bund_oberland" }
 			picture = SPR_political_violence
 			allowed = { always = no }
 
@@ -29,8 +29,8 @@ ideas = {
 			}
 		}
 		
-		austrian_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea austrian_influence" }
+		BAY_idea_austrian_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BAY_idea_austrian_influence" }
 			picture = SPR_political_violence
 			allowed = { always = no }
 
@@ -41,8 +41,8 @@ ideas = {
 			}
 		}
 		
-		soviets_in_bavaria = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea soviets_in_bavaria" }
+		BAY_idea_soviets_in_bavaria = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BAY_idea_soviets_in_bavaria" }
 			picture = SPR_political_violence
 			allowed = { always = no }
 

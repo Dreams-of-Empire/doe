@@ -35,10 +35,10 @@ set_politics = {
 }
 
 add_ideas = {
-	freikorps_epp
-	bund_oberland
-	austrian_influence
-	soviets_in_bavaria
+	BAY_idea_freikorps_epp
+	BAY_idea_bund_oberland
+	BAY_idea_austrian_influence
+	BAY_idea_soviets_in_bavaria
 }
 
 set_popularities = {
