@@ -1,0 +1,57 @@
+ideas = {
+
+	### National Spirits ###
+	
+	country = {
+	
+		freikorps_epp = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea freikorps_epp" }
+			picture = SPR_political_violence
+			allowed = { always = no }
+
+			modifier = {
+				political_power_gain = -0.15
+				conscription = 0.015
+				despotist_drift = 0.01
+				stability_factor = -0.05
+			}
+		}
+		
+		bund_oberland = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea bund_oberland" }
+			picture = SPR_political_violence
+			allowed = { always = no }
+
+			modifier = {
+				political_power_factor = 0.1
+				stability_weekly_factor = -0.001
+				revivalist_drift = 0.01
+			}
+		}
+		
+		austrian_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea austrian_influence" }
+			picture = SPR_political_violence
+			allowed = { always = no }
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.15
+				political_power_gain = -0.05
+			}
+		}
+		
+		soviets_in_bavaria = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea soviets_in_bavaria" }
+			picture = SPR_political_violence
+			allowed = { always = no }
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.05
+				vanguardist_drift = 0.01
+				production_speed_buildings_factor = -0.05
+			}
+		}
+	}
+}
