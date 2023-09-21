@@ -134,7 +134,6 @@ add_ideas = {
 }
 
 set_convoys = 800
-set_country_flag = IRE_CONQ
 set_country_flag = JAM_CONQ
 set_country_flag = BLZ_CONQ
 
@@ -193,6 +192,14 @@ if = {
 		target = NGA
 		autonomy_state = autonomy_colony
 	}
+	set_autonomy = {
+		target = ETH
+		autonomy_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = EGY
+		autonomy_state = autonomy_protectorate
+	}
 	else = {
 		puppet = RAJ
 		puppet = NFL
@@ -206,6 +213,8 @@ if = {
 		puppet = KEN
 		puppet = RHO
 		puppet = NGA
+		puppet = ETH
+		puppet = EGY
 	}
 }
 

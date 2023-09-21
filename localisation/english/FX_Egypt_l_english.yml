@@ -70,6 +70,10 @@ ENG_EGY_revivalist: "Protectorate of Egypt"
 ENG_EGY_revivalist_ADJ: "Egyptian"
 ENG_EGY_revivalist_DEF: "British Protectorate of Egypt"
 
+FRA_EGY: "French Egypt"
+FRA_EGY_DEF: "The French Mandate of Egypt"
+FRA_EGY_ADJ: "Franco-Egyptian"
+
 ### Parties
 EGY_vanguardist_party: "Egyptian Marxist Organisation"
 EGY_vanguardist_party_long: "Egyptian Marxist Organisation"

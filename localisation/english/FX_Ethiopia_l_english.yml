@@ -40,6 +40,11 @@ ETH_ITA_subject: "Italian East Africa"
 ETH_ITA_subject_DEF: "Italian East Africa"
 ETH_ITA_subject_ADJ: "Italian East-African"
 
+ENG_ETH: "British Ethiopia"
+ENG_ETH_DEF: "The British Protectorate of Ethiopia"
+ENG_ETH_ADJ: "Anglo-Ethiopian"
+
+
 ### Parties
 ETH_paternal_party: "House of Solomon"
 ETH_paternal_party_long: "House of Solomon"

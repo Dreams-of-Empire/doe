@@ -7,15 +7,13 @@ state=
 	state_category = rural
 	
 	history={
-		owner = KEN
-		add_core_of = KEN
+		owner = ETH
+		add_core_of = ETH
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SOM
-    add_claim_by = ENG
 	}
     provinces= { 
-	    11014 12941 
+		11014 12941 
 	}
 }

@@ -3,7 +3,7 @@ state={
 	name="STATE_815"
 
 	history={
-		owner = ENG
+		owner = IRE
 		add_core_of = IRE
 		victory_points = {
 			11293 10 

@@ -41,20 +41,6 @@ set_convoys = 20
 set_stability = 0.50
 set_war_support = 0.50
 
-
-FRA = {
-	if = {
-		limit = { has_dlc = "Together for Victory" }
-		set_autonomy = {
-			target = PREV
-			autonomous_state = autonomy_protectorate
-			freedom_level = 0.5
-		}
-	}
-	else = {
-		puppet = PREV
-	}
-}
 set_cosmetic_tag = ENG_EGY
 
 set_popularities = {
