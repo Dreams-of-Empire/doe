@@ -8,28 +8,37 @@ set_stability = 0.1
 set_war_support = 0.20
 
 add_ideas = {
-	party_pop_0_40
-	parliamentary_republic
+	party_pop_0_30
+	workers_republic
+	war_economy
+	closed_economy
+	extensive_conscription
+	
+	SIL_idea_silesian_red_army
+	SIL_idea_spartacist_suspicion
+	SIL_idea_all_out_struggle
 }
 
 
 set_politics = {	
-	ruling_party = illuminist
+	ruling_party = collectivist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  vanguardist = 0
-  collectivist = 8
+  vanguardist = 21
+  collectivist = 9
   fasci = 4
-  social_democrat = 4
-  liberal = 15
-  illuminist = 41
-  social_conservative = 0
-  paternal = 7
-  futurist = 4
-  despotist = 17
-  revivalist = 0
+  social_democrat = 20
+  liberal = 2
+  illuminist = 1
+  social_conservative = 16
+  paternal = 4
+  futurist = 3
+  despotist = 12
+  revivalist = 8
 }
+
+recruit_character = SIL_Wilhelm_Pieck

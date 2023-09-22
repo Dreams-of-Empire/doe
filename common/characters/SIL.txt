@@ -1,0 +1,14 @@
+characters = {
+	SIL_Wilhelm_Pieck = {
+		name = SIL_Wilhelm_Pieck
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/Portrait_GER_Wilhelm_Pieck_fx.png"
+			}
+		}
+		country_leader = {
+			ideology = collectivist_subtype
+			traits = { }
+		}
+	}
+}

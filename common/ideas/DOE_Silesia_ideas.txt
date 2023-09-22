@@ -1,0 +1,48 @@
+ideas = {
+
+	### National Spirits ###
+	
+	country = {
+	
+		SIL_idea_silesian_red_army = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SIL_idea_silesian_red_army" }
+			picture = SPR_political_violence
+			allowed = { always = no }
+
+			modifier = {
+				army_attack_factor = 0.15
+				conscription = 0.03
+				army_org_factor = -0.25
+				stability_factor = -0.05
+			}
+		}
+		
+		SIL_idea_spartacist_suspicion = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SIL_idea_spartacist_suspicion" }
+			picture = SPR_political_violence
+			allowed = { always = no }
+
+			modifier = {
+				political_power_factor = 0.15
+				war_support_factor = 0.05
+				opinion_gain_monthly_factor = -0.9
+				stability_factor = -0.1
+			}
+		}
+		
+		SIL_idea_all_out_struggle = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SIL_idea_all_out_struggle" }
+			picture = SPR_political_violence
+			allowed = { always = no }
+
+			modifier = {
+				political_power_gain = 0.15
+				consumer_goods_factor = -0.15
+				industrial_capacity_factory = 0.2
+				production_factory_max_efficiency_factor = -0.25
+				stability_weekly_factor = -0.001
+			}
+		}
+
+	}
+}
