@@ -34,9 +34,35 @@
  SIL_revivalist: "State of Silesia"
  SIL_revivalist_ADJ: "Silesian"
  SIL_revivalist_DEF: "The State of Silesia"
+ 
+ 
+ ### Party Names ###
+ SIL_vanguardist_party: "KPGŚ-KPOS"
+ SIL_vanguardist_party_long: "Komunistyczna Partia Górnego Śląska – Komunistische Partei Oberschlesiens (Communist Party of Upper Silesia)"
+ SIL_collectivist_party: "SkB"
+ SIL_collectivist_party_long: "Spartakusbund (Spartacus League)"
+ SIL_fasci_party: "ISK"
+ SIL_fasci_party_long: "Internationaler Sozialistischer Kampfbund (Militant Socialist International)"
+ SIL_social_democrat_party: "SPD-Schlesien"
+ SIL_social_democrat_party_long: "Sozialdemokratische Partei Deutschlands - Schlesien (Social Democratic Party of Germany - Silesia)"
+ SIL_liberal_party: "ZGB-BdO"
+ SIL_liberal_party_long: "Związku Górnoślązaków-Bund der Oberschlesier(Union of Upper Silesians)"
+ SIL_illuminist_party: "RdP"
+ SIL_illuminist_party_long: "Radikaldemokratische Partei (Radical Democratic Party)"
+ SIL_social_conservative_party: "DnF-DkP"
+ SIL_social_conservative_party_long: "Deutschnationale Front-Konservative Partei (German National Front-Conservative Party)"
+ SIL_paternal_party: "DnF-DkP"
+ SIL_paternal_party_long: "Deutschnationale Front-Deutschkonservative Partei (German National Front-German Conservative Party)"
+ SIL_futurist_party: "ASL"
+ SIL_futurist_party_long: "Anti-Spartakist Liga(Anti-Spartacist League)"
+ SIL_despotist_party: "DnF-Stahlhelm"
+ SIL_despotist_party_long: "Deutschnationale Front-Stahlhelm, Bund der Frontsoldaten (German National Front-League of Front-Line Soldiers)"
+ SIL_revivalist_party: "DnF-DsP"
+ SIL_revivalist_party_long: "Deutschnationale Front-Deutschsozialistische Partei (German National Front-German-Socialist Party)"
 
  ### Characters ###
  SIL_Wilhelm_Pieck: "Wilhelm Pieck"
+ SIL_Anton_Jadasch: "Anton Jadasch"
  
  
  

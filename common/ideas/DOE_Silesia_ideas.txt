@@ -40,7 +40,7 @@ ideas = {
 				consumer_goods_factor = -0.15
 				industrial_capacity_factory = 0.2
 				production_factory_max_efficiency_factor = -0.25
-				stability_weekly_factor = -0.001
+				stability_weekly_factor = -0.005
 			}
 		}
 

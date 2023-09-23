@@ -41,4 +41,10 @@ set_popularities = {
   revivalist = 8
 }
 
+add_coalition_vanguardist = yes
+add_coalition_fasci = yes
+add_coalition_social_democrat = yes
+add_coalition_liberal = yes
+add_coalition_illuminist = yes
+
 recruit_character = SIL_Wilhelm_Pieck
