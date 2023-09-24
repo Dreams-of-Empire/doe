@@ -51,22 +51,24 @@
  SIL_social_democrat_party_long: "Sozialdemokratische Partei Deutschlands - Schlesien (Social Democratic Party of Germany - Silesia)"
  SIL_liberal_party: "ZGB-BdO"
  SIL_liberal_party_long: "Związku Górnoślązaków-Bund der Oberschlesier(Union of Upper Silesians)"
- SIL_illuminist_party: "RdP"
- SIL_illuminist_party_long: "Radikaldemokratische Partei (Radical Democratic Party)"
- SIL_social_conservative_party: "DnF-DkP"
- SIL_social_conservative_party_long: "Deutschnationale Front-Konservative Partei (German National Front-Conservative Party)"
- SIL_paternal_party: "DnF-DkP"
- SIL_paternal_party_long: "Deutschnationale Front-Deutschkonservative Partei (German National Front-German Conservative Party)"
- SIL_futurist_party: "ASL"
- SIL_futurist_party_long: "Anti-Spartakist Liga(Anti-Spartacist League)"
- SIL_despotist_party: "DnF-Stahlhelm"
- SIL_despotist_party_long: "Deutschnationale Front-Stahlhelm, Bund der Frontsoldaten (German National Front-League of Front-Line Soldiers)"
- SIL_revivalist_party: "DnF-DsP"
- SIL_revivalist_party_long: "Deutschnationale Front-Deutschsozialistische Partei (German National Front-German-Socialist Party)"
+ SIL_illuminist_party: "LfV"
+ SIL_illuminist_party_long: "Liga für Völkerbund (League for a League of Nations)"
+ SIL_social_conservative_party: "PNF-KP"
+ SIL_social_conservative_party_long: "Preußische Nationale Front-Konservative Partei (Prussian National Front-Conservative Party)"
+ SIL_paternal_party: "PNF-NkP"
+ SIL_paternal_party_long: "Preußische Nationale Front-Nationalkonservative Partei (Prussian National Front-National Conservative Party)"
+ SIL_futurist_party: "ADF"
+ SIL_futurist_party_long: "Avantgardistische Deutsche Front (Avantgardist German Front)"
+ SIL_despotist_party: "PNF-Stahlhelm"
+ SIL_despotist_party_long: "Preußische Nationale Front-Stahlhelm, Bund der Frontsoldaten (Prussian National Front-League of Front-Line Soldiers)"
+ SIL_revivalist_party: "DnRF"
+ SIL_revivalist_party_long: "Deutschnationale Revolutionäre Front (German National Revolutionary Front)"
 
  ### Characters ###
  SIL_Wilhelm_Pieck: "Wilhelm Pieck"
  SIL_Anton_Jadasch: "Anton Jadasch"
+ 
+ 
  
  
  
