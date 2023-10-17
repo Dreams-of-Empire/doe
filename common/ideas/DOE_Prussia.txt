@@ -1,0 +1,59 @@
+ideas = {
+	country = {
+		PRS_republican_opposition = {
+			picture = FRA_scw_intervention_republicans_focus
+			on_add = {
+				log = "[GetDateText]: [ROOT.GetName] add_idea PRS_republican_opposition"
+			}
+			allowed = {
+				original_tag = PRS
+			}
+			modifier = {
+				political_power_gain = -0.02
+				stability_factor = -0.05
+				social_democrat_drift = 0.01
+			}
+		}
+		PRS_legacy_of_monarchy = {
+			on_add = {
+				log = "[GetDateText]: [ROOT.GetName] add_idea PRS_legacy_of_monarchy"
+			}
+			picture = hun_hungarian_monarchy
+			allowed = {
+				original_tag = PRS
+			}
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.15
+				despotist_drift = 0.01
+				paternal_drift = 0.01
+				social_democrat_drift = 0.01
+				vanguardist_drift = 0.01
+			}
+		}
+		PRS_cabinet_of_barons = {
+			on_add = {
+				log = "[GetDateText]: [ROOT.GetName] add_idea PRS_cabinet_of_barons"
+			}
+			allowed = {
+				original_tag = PRS
+			}
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.5
+			}
+		}
+		PRS_shame_defeat = {
+			on_add = {
+				log = "[GetDateText]: [ROOT.GetName] add_idea PRS_shame_defeat"
+			}
+			picture = sour_loser
+			allowed = {
+				original_tag = PRS
+			}
+			modifier = {
+				stability_weekly = -0.005
+			}
+		}
+	}
+}

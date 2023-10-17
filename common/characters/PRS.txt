@@ -1,0 +1,13 @@
+characters = {
+	PRS_Frans_von_Papen = {
+		name = "Franz von Papen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRS/Portrait_PRS_Franz_von_Papen"
+			}
+		}
+		country_leader = {
+			ideology = despotist_subtype
+		}
+	}
+}
