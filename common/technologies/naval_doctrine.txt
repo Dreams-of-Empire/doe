@@ -6,16 +6,15 @@ technologies = {
 		#Fleet in being is mainly focused on Battleships (and Battlecrusiers/Heavy cruisers) and ASW with carriers and submarines being used to a lesser extent. The fleet may not have to do anything at all to be useful - simply having a powerful fleet in a protected port forces your enemies to keep a fleet of their own nearby in order you fight you if you emerge
 		#Bonus org for BB/BC/CA
 
-
 		# EFFECT #############
 		battleship = {
-			max_organisation = 10
+			max_organisation = 5
 		}
 		battle_cruiser = {
-			max_organisation = 10
+			max_organisation = 5
 		}
 		heavy_cruiser = {
-			max_organisation = 10
+			max_organisation = 5
 		}
 		light_cruiser = {
 			surface_detection = 0.10
@@ -25,7 +24,6 @@ technologies = {
 		}
 		mines_planting_by_fleets_factor = 0.1
 		#####
-
 
 		xor = { trade_interdiction base_strike }
 
@@ -53,7 +51,6 @@ technologies = {
 			naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
-			capital_ship_tree
 		}
 
 		folder = {
@@ -83,13 +80,13 @@ technologies = {
 	battlefleet_concentration = {
 		# EFFECT #############
 		battleship = {
-			max_organisation = 10
+			max_organisation = 5
 		}
 		battle_cruiser = {
-			max_organisation = 10
+			max_organisation = 5
 		}
 		heavy_cruiser = {
-			max_organisation = 10
+			max_organisation = 5
 		}
 		strike_force_movement_org_loss = -0.2
 		########
@@ -108,7 +105,6 @@ technologies = {
 			naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
-			capital_ship_tree
 		}
 
 		folder = {
@@ -159,7 +155,6 @@ technologies = {
 			naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -192,11 +187,11 @@ technologies = {
 
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 20
+			max_organisation = 5
 			sub_detection = 0.1
 		}
 		light_cruiser = {
-			max_organisation = 10
+			max_organisation = 5
 			sub_detection = 0.2
 		}
 
@@ -261,7 +256,6 @@ technologies = {
 			naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
-			capital_ship_tree
 		}
 
 		folder = {
@@ -303,7 +297,6 @@ technologies = {
 			naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -351,7 +344,6 @@ technologies = {
 			naval_doctrine
 			fleet_in_being_tree
 			cat_fleet_in_being
-			capital_ship_tree
 		}
 
 		folder = {
@@ -378,7 +370,7 @@ technologies = {
 
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 10
+			max_organisation = 5
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.05
@@ -431,7 +423,7 @@ technologies = {
 
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 10
+			max_organisation = 5
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.1
@@ -504,7 +496,6 @@ technologies = {
 			fleet_in_being_tree
 			convoy_defense_tree
 			cat_fleet_in_being
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -537,7 +528,7 @@ technologies = {
 
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 20
+			max_organisation = 5
 			sub_detection = 0.1
 		}
 		light_cruiser = {
@@ -565,7 +556,6 @@ technologies = {
 			fleet_in_being_tree
 			convoy_defense_tree
 			cat_fleet_in_being
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -645,7 +635,6 @@ technologies = {
 			surface_detection = 0.1
 		}
 		#######
-
 
 		path = {
 			leads_to_tech = convoy_interdiction
@@ -780,8 +769,6 @@ technologies = {
 			surface_detection = 0.05
 		}
 		#######
-
-
 
 		xor = { fleet_in_being base_strike }
 
@@ -1117,19 +1104,16 @@ technologies = {
 		# EFFECT ##############
 		light_cruiser = {
 			max_organisation = 10
-			surface_visibility = -0.10
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.10
 		}
 
 		heavy_cruiser = {
 			max_organisation = 10
-			surface_visibility = -0.10
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.10
 		}
 		#######
-
 
 		path = {
 			leads_to_tech = capital_ship_raiders
@@ -1145,7 +1129,6 @@ technologies = {
 			naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
-			capital_ship_tree
 		}
 
 		folder = {
@@ -1170,14 +1153,12 @@ technologies = {
 		# EFFECT ##############
 		battle_cruiser = {
 			max_organisation = 20
-			surface_visibility = -0.20
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.15
 		}
 
 		battleship = {
 			max_organisation = 20
-			surface_visibility = -0.25
 			convoy_raiding_coordination = 0.5
 			surface_detection = 0.25
 		}
@@ -1199,7 +1180,6 @@ technologies = {
 			naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
-			capital_ship_tree
 		}
 
 		folder = {
@@ -1248,12 +1228,11 @@ technologies = {
 			naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
-			capital_ship_tree
 		}
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = -2 y =6 }
+			position = { x = -2 y = 6 }
 		}
 
 		ai_will_do = {
@@ -1290,7 +1269,6 @@ technologies = {
 			naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
-			capital_ship_tree
 		}
 
 		folder = {
@@ -1327,7 +1305,6 @@ technologies = {
 			naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -1372,7 +1349,6 @@ technologies = {
 			naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -1403,7 +1379,7 @@ technologies = {
 		#same as convoy_sailing
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 10
+			max_organisation = 5
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.05
@@ -1466,7 +1442,6 @@ technologies = {
 			naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -1511,7 +1486,6 @@ technologies = {
 			naval_doctrine
 			trade_interdiction_tree
 			cat_trade_interdiction
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -1534,7 +1508,6 @@ technologies = {
 		doctrine_name = "TITLE_BASE_STRIKE"
 
 		#This tree is primarily focused on Carriers. It should have the best Carriers, Battleships that are better than Trade interdiction but worse than Fleet in being, and has the same Sub tree as FiB. Convoy defense is better than TI but worse than FiB
-
 		# EFFECT ##############
 		carrier = {
 			max_organisation = 20
@@ -1567,7 +1540,6 @@ technologies = {
 		categories = {
 			naval_doctrine
 			cat_base_strike
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -1621,7 +1593,6 @@ technologies = {
 			naval_doctrine
 			base_strike_main
 			cat_base_strike
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -1677,7 +1648,6 @@ technologies = {
 			naval_doctrine
 			base_strike_main
 			cat_base_strike
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -1730,7 +1700,6 @@ technologies = {
 			naval_doctrine
 			base_strike_main
 			cat_base_strike
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -1786,9 +1755,7 @@ technologies = {
 			naval_doctrine
 			base_strike_main
 			cat_base_strike
-			carrier_ship_tree
 		}
-
 
 		folder = {
 			name = naval_doctrine_folder
@@ -1839,7 +1806,6 @@ technologies = {
 			naval_doctrine
 			base_strike_main
 			cat_base_strike
-			capital_ship_tree
 		}
 
 		folder = {
@@ -1881,7 +1847,6 @@ technologies = {
 			naval_doctrine
 			base_strike_main
 			cat_base_strike
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -2109,7 +2074,7 @@ technologies = {
 		#same as convoy_escorts
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 10
+			max_organisation = 5
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.1
@@ -2160,16 +2125,15 @@ technologies = {
 
 		# EFFECT ##############
 		destroyer = {
-			max_organisation = 10
+			max_organisation = 5
 			sub_detection = 0.05
 		}
 		light_cruiser = {
-			max_organisation = 10
+			max_organisation = 5
 			sub_detection = 0.1
 		}
 
 		convoy_escort_efficiency = 0.05
-
 
 		path = {
 			leads_to_tech = convoy_sailing_bs
@@ -2216,7 +2180,7 @@ technologies = {
 		#same as convoy_sailing
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 10
+			max_organisation = 5
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.05
@@ -2267,11 +2231,11 @@ technologies = {
 		#same as integrated_convoy_defence
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 20
+			max_organisation = 5
 			sub_detection = 0.10
 		}
 		light_cruiser = {
-			max_organisation = 10
+			max_organisation = 5
 			sub_detection = 0.15
 		}
 		carrier = {
@@ -2289,7 +2253,6 @@ technologies = {
 			naval_doctrine
 			convoy_defense_tree
 			cat_base_strike
-			carrier_ship_tree
 		}
 
 		folder = {
@@ -2307,6 +2270,5 @@ technologies = {
 			battleship = 1.0
 		}
 	}
-
 }
 
