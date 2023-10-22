@@ -38,6 +38,7 @@ idea_categories = {
 		character_slot = foreign_minister
 		character_slot = economy_minister
 		character_slot = security_minister
+		character_slot = cabinet_member
 		
 		cost = 0
 		removal_cost = -1 # works

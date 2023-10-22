@@ -6,16 +6,15 @@ state={
 	state_category = enclave
 
 	history={
-		add_core_of = DJI
-    add_claim_by = FRA
-		owner = FRA
+		owner = ETH
+		add_core_of = ETH
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 			8124 = {
 				naval_base = 2
 			}
-    }
+		}
 	}
 	provinces={
 		4985 8124

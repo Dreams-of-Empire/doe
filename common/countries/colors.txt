@@ -1098,3 +1098,7 @@ ALA = {
 	color = rgb { 0 51 153 }
 	color_ui = rgb { 0 51 153 }
 }
+GUO = {
+	color = rgb { 87 75 109 }
+	color_ui = rgb { 87 75 109 }
+}

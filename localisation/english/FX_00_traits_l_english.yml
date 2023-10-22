@@ -20,7 +20,8 @@ the_otaman: "The Otaman" # Stanisław Bułak-Bałachowicz
 exiled_pope: "Exiled Pope"
 meddler: "Political Meddler"
 charismatic: "Charismatic"
-
+kings_mandate: "The King's Mandate"
+military_mandate: "The Military Mandate"
 ### From DH ###
 undistinguished_suit: "Undistinguished Suit"
 grand_protector: "The Grand Protector"
@@ -30,6 +31,7 @@ head_of_government: "Head of Government"
 foreign_minister: "Foreign Minister"
 economy_minister: "Economic Minister"
 security_minister: "Security Minister"
+cabinet_member: "Cabinet Member"
 
 ### Head of Government ###
 hog_field_marshal_baron: "The Field Marshal Baron"

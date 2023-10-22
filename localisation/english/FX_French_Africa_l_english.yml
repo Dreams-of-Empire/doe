@@ -39,9 +39,9 @@ NFA_revivalist_ADJ: "West-African"
 NFA_revivalist_DEF: "The African Nationalist State"
 
 ### Cosmetic
-NFA_FRA_subject: "French West Africa"
-NFA_FRA_subject_ADJ: "French West-African"
-NFA_FRA_subject_DEF: "French West Africa"
+NFA_FRA_subject: "French Africa"
+NFA_FRA_subject_ADJ: "French African"
+NFA_FRA_subject_DEF: "French Africa"
 
 NFA_ENG_subject: "British West Africa"
 NFA_ENG_subject_ADJ: "British West-African"

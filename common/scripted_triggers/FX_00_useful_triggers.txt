@@ -997,3 +997,41 @@ has_war_with_non_exiled_country = {
 cannot_call_allies_or_join_wars = {
 	check_variable = { modifier@cannot_call_allies_or_join_wars > 0 }
 }
+
+uses_generic_mios = {
+	always = yes #
+}
+
+uses_generic_armour_mio = {
+	uses_generic_mios = yes
+
+}
+
+uses_generic_naval_mio = {
+	uses_generic_mios = yes
+
+}
+
+uses_generic_aircraft_mio = {
+	uses_generic_mios = yes
+
+}
+
+uses_generic_artillery_mio = {
+	uses_generic_mios = yes
+
+}
+
+uses_generic_infantry_mio = {
+	uses_generic_mios = yes
+
+}
+
+uses_generic_support_mio = {
+	uses_generic_mios = yes
+
+}
+
+uses_generic_motorised_mio = {
+	uses_generic_mios = yes
+}

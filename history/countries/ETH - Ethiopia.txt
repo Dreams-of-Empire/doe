@@ -32,6 +32,8 @@ add_ideas = {
 	absolute_monarchy
 }
 
+set_cosmetic_tag = ENG_ETH
+
 recruit_character = ETH_Haile_Selassie
 recruit_character = ETH_Abebe_Aregai
 recruit_character = ETH_Mulugeta_Yeggazu

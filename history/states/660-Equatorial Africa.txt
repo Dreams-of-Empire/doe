@@ -8,8 +8,8 @@ state={
 
 	history={
 		add_core_of = CAR
-		owner = NFQ
-		add_core_of = NFQ
+		owner = NFA
+		add_core_of = NFA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

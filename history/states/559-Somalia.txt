@@ -1,5 +1,4 @@
-state=
-{
+state={
 	id=559
 	name="STATE_559"
 	manpower = 1014447
@@ -7,7 +6,8 @@ state=
 	state_category = rural
 	
 	history={
-		owner = ITA
+		owner = ETH
+		add_core_of = ETH
 		victory_points = {
 			12991 3 
 		}
@@ -18,8 +18,6 @@ state=
 				naval_base = 2
 			}
 		}
-		add_core_of = SOM
-    add_claim_by = ITA
 	}
 	provinces= {
         1964 1966 2020 2063 4909 5065 8164 10818 10891 10928 12840 12991 	

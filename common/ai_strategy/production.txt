@@ -1,128 +1,95 @@
-###MILITARY AI###
-
 division_limiter = {
 	allowed = {
 		NOT = { has_game_rule = { rule = unit_limit_options option = NONE } }
 	}
 	enable = {
-		OR = {
-			num_divisions > 299
-			has_reached_maximum_divisions = yes
-		}
+		has_reached_maximum_divisions = yes
 	}
 
 	abort_when_not_enabled = yes
 
 	#AI roles
-	ai_strategy = { type = build_army id = armor				value = -1000 }
+	ai_strategy = { type = build_army id = armor_role			value = -1000 }
+	ai_strategy = { type = build_army id = infantry				value = -1000 }
+	ai_strategy = { type = build_army id = marine				value = -1000 }
 	ai_strategy = { type = build_army id = mountaineer			value = -1000 }
 	ai_strategy = { type = build_army id = suppression			value = -1000 }
-
-	#units
-	ai_strategy = { type = build_army id = infantry				value = -1000 }
-	ai_strategy = { type = build_army id = bicycle_battalion	value = -1000 }
-	ai_strategy = { type = build_army id = marine 				value = -1000 }
-	ai_strategy = { type = build_army id = mountaineers			value = -1000 }
-	ai_strategy = { type = build_army id = paratrooper			value = -1000 }
-	ai_strategy = { type = build_army id = motorized			value = -1000 }
-	ai_strategy = { type = build_army id = mechanized			value = -1000 }
-	ai_strategy = { type = build_army id = fake_intel_unit		value = -1000 }
-	ai_strategy = { type = build_army id = irregular_infantry	value = -1000 }
-	ai_strategy = { type = build_army id = militia				value = -1000 }
-	ai_strategy = { type = build_army id = infantry				value = -1000 }
-
-	ai_strategy = { type = build_army id = light_armor			value = -1000 }
-	ai_strategy = { type = build_army id = medium_armor			value = -1000 }
-	ai_strategy = { type = build_army id = heavy_armor			value = -1000 }
-	ai_strategy = { type = build_army id = modern_armor			value = -1000 }
 }
 
 default_unit_production = {
-	allowed = {
-		always = yes
+	enable = { always = yes }
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 100
 	}
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = light_tank_chassis
+		value = -100
+	}
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = heavy_tank_chassis
+		value = -100
+	}
+}
+
+more_guns_in_the_early_game = {
 	enable = {
-		num_of_military_factories > 3
+		date < 1939.1.1
 	}
-	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = infantry
-		value = 80
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = marine
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = mountaineer
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = suppression
-		value = 0
-	}
-
-	#Air unit factors
-	ai_strategy = {
-		type = unit_ratio
-		id = fighter
-		value = 90
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = cas
-		value = 10
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = tactical_bomber
-		value = 0
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = strategic_bomber
-		value = 0
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = naval_bomber
-		value = 0
-	}
-
-	ai_strategy = {
-		type = equipment_production_factor
-		id = fighter
-		value = 10
-	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 10
+		value = 40
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 25
+	}
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = support_equipment
+		value = 15
+	}
+}
+
+default_transition_production = {
+	enable = {
+		num_of_military_factories > 9
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry
+		value = 2
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = artillery
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = anti_air
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = motorized
+		value = 1
 	}
 }
 
 default_specialised_production = {
-	allowed = {
-		always = yes
-	}
-	
 	enable = {
 		num_of_military_factories > 19
 	}
@@ -130,19 +97,24 @@ default_specialised_production = {
 
 	ai_strategy = {
 		type = equipment_production_min_factories
+		id = infantry
+		value = 2
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
 		id = artillery
-		value = 4
+		value = 3
 	}
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 100
+		value = 55
 	}
 
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = anti_air
-		value = 2
+		value = 1
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -151,17 +123,23 @@ default_specialised_production = {
 	}
 
 	ai_strategy = {
+		type = equipment_production_min_factories
+		id = motorized
+		value = 1
+	}
+
+	ai_strategy = {
 		type = equipment_variant_production_factor
-		id = support_equipment
-		value = 30
+		id = medium_tank_chassis
+		value = 5
 	}
 }
 
 default_marine_production = {
 	allowed = {
 		NOT = {
-			original_tag = FRA
-			original_tag = ITA
+			original_tag = IMP
+			original_tag = NFA
 			original_tag = ENG
 			original_tag = JAP
 			original_tag = HOL
@@ -170,12 +148,29 @@ default_marine_production = {
 	}
 	enable = {
 		ai_wants_divisions > 49
+		num_of_naval_factories > 1
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
 		id = marine
+		value = 3
+	}
+}
+
+special_forces_marine_production = {
+	allowed = {
+		is_major = yes
+	}
+	enable = {
+		has_tech = special_forces_marines
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
 		value = 2
 	}
 }
@@ -183,9 +178,9 @@ default_marine_production = {
 extra_marine_production = {
 	allowed = {
 		OR = {
-			original_tag = FRA
-			original_tag = ITA
-			original_tag = ENG
+			original_tag = IMP
+			original_tag = NFA
+			#original_tag = ENG -- handled in ENG file
 			original_tag = JAP
 			original_tag = HOL
 			is_american_tag = yes
@@ -219,7 +214,7 @@ default_mountaineers_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineer
-		value = 3
+		value = 5
 	}
 }
 
@@ -233,17 +228,19 @@ more_mountaineer_focused_nation = {
 			original_tag = NEP
 			original_tag = CHL
 			original_tag = GRE
+			original_tag = TIB
 			is_chinese_tag = yes
 		}
 	}
 	enable = {
 		has_tech = tech_mountaineers
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineer
-		value = 4
+		value = 5
 	}
 	ai_strategy = {
 		type = template_prio
@@ -252,67 +249,107 @@ more_mountaineer_focused_nation = {
 	}
 }
 
-default_armored_production = {
+default_tank_production = {
 	enable = {
-		ai_wants_divisions > 49
-		num_of_military_factories > 74
+		is_eligible_for_armor_production = yes
+		num_divisions > 49 #build enough infantry first
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = medium_tank_chassis
+		value = 15
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armor_role
+		value = 2
+	}
+}
+
+increased_tank_production_1 = {
+	enable = {
+		num_of_military_factories > 49
+		num_divisions > 19 #build enough infantry first
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
-		id = armor
+		id = armor_role
+		value = 3
+	}
+}
+
+increased_tank_production_2 = {
+	enable = {
+		num_of_military_factories > 99
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = medium_tank_chassis
+		value = 25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor_role
 		value = 5
 	}
 }
 
-higher_armored_production = {
+increased_tank_production_3 = {
 	enable = {
-		num_of_military_factories > 109
+		num_of_military_factories > 119
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
-		id = armor
-		value = 20
+		id = armor_role
+		value = 8
 	}
 }
 
-more_armor_focused_nation = {
+increased_tank_production_4 = {
 	enable = {
-		num_of_military_factories > 20
-	}
-	allowed = {
-		country_has_armor_focus = yes
+		num_of_military_factories > 149
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
-		id = armor
-		value = 5
+		id = armor_role
+		value = 8
 	}
+}
+
+increased_tank_production_5 = {
+	enable = {
+		num_of_military_factories > 179
+	}
+	abort_when_not_enabled = yes
+
 	ai_strategy = {
-		type = equipment_production_factor
-		id = armor
+		type = role_ratio
+		id = armor_role
 		value = 10
 	}
 }
 
-halt_light_armor_production_in_transitioning = {
+increased_tank_production_6 = {
 	enable = {
-		has_template_majority_unit = medium_armor
-		OR = {
-			has_equipment = { light_tank_chassis > 600 }
-			date > 1939.1.1
-		}
+		num_of_military_factories > 199
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = equipment_variant_production_factor
-		id = light_tank_chassis
-		value = -100
+		type = role_ratio
+		id = armor_role
+		value = 10
 	}
 }
 
@@ -328,49 +365,61 @@ stockpile_less_early_game = {
 	}
 }
 
-DEFAULT_template_design_low_factories = {
+division_upgrades_are_very_important = {
 	enable = {
-		date < 1940.1.1
-		num_of_military_factories < 75
+		has_war = yes
 	}
-	abort = {
-		date > 1940.1.1
-		num_of_military_factories > 74
-	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = template_prio
-		id = motorized
-		value = 20
+		type = land_xp_spend_priority
+		id = division_template
+		value = 100
 	}
+}
+
+DEFAULT_template_design_low_factories = {
+	enable = {
+		is_eligible_for_armor_production = no
+	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = template_prio
 		id = infantry
 		value = 70
 	}
-}
 
-DEFAULT_template_design_industrial_country = {
-	enable = {
-		date < 1940.1.1
-		num_of_military_factories > 74
-	}
-	abort = {
-		date > 1940.1.1
-		num_of_military_factories < 75
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = -100
 	}
 
 	ai_strategy = {
 		type = template_prio
 		id = motorized
-		value = 20
+		value = -100
 	}
 
 	ai_strategy = {
 		type = template_prio
-		id = light_armor
-		value = 50
+		id = mechanized
+		value = -100
+	}
+}
+
+DEFAULT_template_design_industrial_country = {
+	enable = {
+		date < 1940.1.1
+		is_eligible_for_armor_production = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 20
 	}
 
 	ai_strategy = {
@@ -386,36 +435,12 @@ DEFAULT_template_design_industrial_country = {
 	}
 }
 
-LATE_template_design_low_factories = {
-	enable = {
-		date > 1940.1.1
-		num_of_military_factories < 75
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = motorized
-		value = 10
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = mechanized
-		value = 20
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = infantry
-		value = 70
-	}
-}
-
 LATE_template_design_industrial_country = {
 	enable = {
 		date > 1940.1.1
-		num_of_military_factories > 74
+		is_eligible_for_armor_production = yes
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = template_prio
@@ -427,12 +452,6 @@ LATE_template_design_industrial_country = {
 		type = template_prio
 		id = mechanized
 		value = 20
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = light_armor
-		value = 10
 	}
 
 	ai_strategy = {

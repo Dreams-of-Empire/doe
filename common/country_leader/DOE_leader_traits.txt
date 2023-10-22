@@ -85,4 +85,18 @@ leader_traits = {
 		army_org_factor = 0.03
 		max_command_power_mult = 0.25
 	}
+
+  kings_mandate = {
+    random = no
+    political_power_gain = 0.05
+    mobilization_laws_cost_factor = -0.25
+    trade_laws_cost_factor = -0.25
+    economy_cost_factor = -0.25
+  }
+
+  military_mandate = {
+    random = no
+    recruitable_population_factor = 0.1
+    political_power_gain = 0.05
+  }
 }

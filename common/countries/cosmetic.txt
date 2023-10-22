@@ -275,8 +275,12 @@ PHI_ENG = {
 	color_ui = rgb { 214 0 0 }
 }
 ENG_NGA = {
-	color = rgb {214 0 0 }
+	color = rgb { 214 0 0 }
 	color_ui = rgb { 214 0 0}
+}
+ENG_ETH = {
+	color = rgb { 215 0 0 }
+	color_ui = rgb { 215 0 0}
 }
 IMP_CAN = {
 	color = rgb { 186 0 0 }
@@ -441,6 +445,10 @@ AUS_SGF_puppet = {
 SIA_FRA_puppet = {
 	color = rgb { 0 50 160 }
  	color_ui = rgb { 0 50 160 }
+}
+FRA_EGY = {
+	color = rgb { 0 50 160 }
+	color_ui = rgb { 0 50 160 }
 }
 TUR_FRA_puppet = {
 	color = rgb { 0 50 160 }

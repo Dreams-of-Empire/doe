@@ -5,10 +5,10 @@ state={
 		7224 8027 10417 12218 12805 
 	}
 	history={
-		owner = TRK
+		owner = RUS
 		add_core_of = AFG
 		add_claim_by = RUS
-		add_core_of = TRK
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 3
 		}
