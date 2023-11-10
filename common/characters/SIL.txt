@@ -3,12 +3,198 @@ characters = {
 		name = SIL_Wilhelm_Pieck
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/GER/Portrait_GER_Wilhelm_Pieck_fx.png"
+				large = "gfx/leaders/SIL/Portrait_SIL_Wilhelm_Pieck.png"
 			}
 		}
 		country_leader = {
 			ideology = collectivist_subtype
 			traits = { }
+		}
+	}
+	
+	SIL_Paul_Lobe = {
+		name = SIL_Paul_Lobe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIL/Portrait_SIL_Paul_Lobe.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+	}
+	
+	SIL_Anton_Jadasch = {
+		name = SIL_Anton_Jadasch
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIL/Portrait_SIL_Wilhelm_Pieck.png"
+				small = "gfx/interface/ministers/SIL/SIL_Anton_Jadasch.png"
+			}
+		}
+		country_leader = {
+			ideology = vanguardist_subtype
+			traits = { }
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = { 
+				hidden_trigger = { has_country_flag = SIL_Anton_Jadasch_hog_van_hired }
+			}
+			idea_token = SIL_Anton_Jadasch_hog_van
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SIL_Anton_Jadasch_hog_van_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SIL_Anton_Jadasch_hog_van_hired }
+			}
+			traits = {
+				vanguardist
+				hog_ambitious_union_boss
+			}
+		}
+	}
+	
+	SIL_Karl_Becker = {
+		name = SIL_Karl_Becker
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SIL/SIL_Karl_Becker.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = { 
+				hidden_trigger = { has_country_flag = SIL_Karl_Becker_hog_col_hired }
+			}
+			idea_token = SIL_Karl_Becker_van
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SIL_Karl_Becker_hog_col_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SIL_Karl_Becker_hog_col_hired }
+			}
+			traits = {
+				collectivist
+				hog_ambitious_union_boss
+			}
+		}
+	}
+	
+	SIL_Karl_Olbrysch = {
+		name = SIL_Karl_Olbrysch
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SIL/SIL_Karl_Olbrysch.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			available = { 
+				hidden_trigger = { has_country_flag = SIL_Karl_Olbrysch_for_col_hired }
+			}
+			idea_token = SIL_Karl_Olbrysch_for_col
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SIL_Karl_Olbrysch_for_col_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SIL_Karl_Olbrysch_for_col_hired }
+			}
+			traits = {
+				collectivist
+				for_moderate_among_radicals
+			}
+		}
+	}
+	
+	SIL_Paul_Hornick = {
+		name = SIL_Paul_Hornick
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SIL/SIL_Paul_Hornick.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = security_minister
+			available = { 
+				hidden_trigger = { has_country_flag = SIL_Paul_Hornick_sec_lib_hired }
+			}
+			idea_token = SIL_Paul_Hornick_sec_lib
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SIL_Paul_Hornick_sec_lib_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SIL_Paul_Hornick_sec_lib_hired }
+			}
+			traits = {
+				fasci
+				sec_driven_recruiter
+			}
+		}
+	}
+	
+	SIL_Josef_Wiora = {
+		name = SIL_Josef_Wiora
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SIL/SIL_Josef_Wiora.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			available = { 
+				hidden_trigger = { has_country_flag = SIL_Josef_Wiora_eco_col_hired }
+			}
+			idea_token = SIL_Josef_Wiora_eco_col
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SIL_Josef_Wiora_eco_col_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SIL_Josef_Wiora_eco_col_hired }
+			}
+			traits = {
+				collectivist
+				eco_imbedded_unioneer
+			}
+		}
+	}
+	
+	SIL_Heinz_Neumann = {
+		name = SIL_Heinz_Neumann
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SIL/SIL_Heinz_Neumann.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = cabinet_member
+			available = { 
+				hidden_trigger = { has_country_flag = SIL_Heinz_Neumann_cab_lib_hired }
+			}
+			idea_token = SIL_Heinz_Neumann_cab_lib
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SIL_Heinz_Neumann_cab_lib_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SIL_Heinz_Neumann_cab_lib_hired }
+			}
+			traits = {
+				fasci
+				cab_red_idealogue
+			}
 		}
 	}
 }

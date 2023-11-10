@@ -3,7 +3,7 @@ characters = {
 		name = "Franz von Papen"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PRS/Portrait_PRS_Franz_von_Papen"
+				large = "gfx/leaders/PRS/Portrait_PRS_Franz_von_Papen.png"
 			}
 		}
 		country_leader = {

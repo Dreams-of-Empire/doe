@@ -1,8 +1,11 @@
-PRS: "Prussia"
-PRS_despotist: "Preußischer Freistaat"
-PRS_DEF: "The Prussian State"
-PRS_despotist_def: "Der Preußische Freistaat"
-PRS_ADJ: "Prussian"
+﻿l_english:
+
+ # Don't forget your UTF-8 BOM!!!(and also l_english that'll crash your game without it)
+ PRS: "Prussia"
+ PRS_despotist: "Preußischer Freistaat"
+ PRS_DEF: "The Prussian State"
+ PRS_despotist_def: "Der Preußische Freistaat"
+ PRS_ADJ: "Prussian"
 
 # NatSpirits
 PRS_republican_opposition: "Republican Opposition"

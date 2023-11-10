@@ -151,6 +151,9 @@ sec_silent_lawyer: "Silent Lawyer"
 sec_regionalist: "Regionalist"
 sec_preserver_of_culture: "Preserver of Culture"
 
+### Cabinet Ministers ###
+cab_red_idealogue: "Red Idealogue"
+
 ### Chief of Staff
 cos_school_of_manoeuvre: "School of Manoeuvre"
 cos_school_of_fire_support: "School of Fire Support"

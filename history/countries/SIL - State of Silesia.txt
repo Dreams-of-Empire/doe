@@ -4,8 +4,8 @@ oob = "SIL"
 
 set_research_slots = 3
 set_convoys = 50
-set_stability = 0.1
-set_war_support = 0.20
+set_stability = 0.5
+set_war_support = 1
 
 add_ideas = {
 	party_pop_0_30
@@ -48,3 +48,16 @@ add_coalition_liberal = yes
 add_coalition_illuminist = yes
 
 recruit_character = SIL_Wilhelm_Pieck
+recruit_character = SIL_Paul_Lobe
+recruit_character = SIL_Anton_Jadasch
+recruit_character = SIL_Karl_Becker
+recruit_character = SIL_Heinz_Neumann
+recruit_character = SIL_Karl_Olbrysch
+recruit_character = SIL_Paul_Hornick
+recruit_character = SIL_Josef_Wiora
+
+activate_advisor = SIL_Anton_Jadasch_hog_van
+activate_advisor = SIL_Karl_Olbrysch_for_col
+activate_advisor = SIL_Paul_Hornick_sec_lib
+activate_advisor = SIL_Josef_Wiora_eco_col
+activate_advisor = SIL_Heinz_Neumann_cab_lib

@@ -981,6 +981,20 @@ leader_traits = {
 		political_power_gain = 0.02
 		stability_factor = 0.1
 	}
+	
+	########################################
+	## Cabinet Ministers
+	########################################
+	
+	cab_red_idealogue = {
+
+		random = no
+		political_power_gain = 0.2
+		stability_factor = -0.05
+		vanguardist_drift = 0.03
+		collectivist_drift = 0.03
+		fasci_drift = 0.03
+	}
 
 	########################################
 	## CHIEF OF STAFF
